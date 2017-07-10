@@ -1,21 +1,22 @@
-#app-mount::before {
-    content: 'Update #2 Available!';
-    z-index: 999999999999;
+body:before {
     position: fixed;
-    top: 0;
     left: 0;
-    opacity: 0;
-    line-height: 2em;
-    color: #FFF;
-    width:100%;
-    text-align: center;
-    background: rgba(255, 255, 0, .1);
-    animation: fade 5s ease;
+    top: 0;
+    width: 100vw;
+    background: #e6e600;
+    content: "Update #2 Available!";
+    animation: fadeUpdateNotification linear 6s 1 normal forwards;
     animation-delay: 3s;
-    animation-iteration-count: 1;
+    z-index: 999999999;
+    line-height: 2em;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
 }
 
-@keyframes fade {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
+@keyframes fadeUpdateNotification {
+    0% { opacity: 1; }
+    100% { opacity: 0; content: initial; }
+    0%,99.9% { content: "Update #2 Available!"; }
 }
