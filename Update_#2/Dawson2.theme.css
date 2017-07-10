@@ -4,7 +4,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 SmarterEmbeds  made by Beard_Design -> https://github.com/BeardDesign1/SmarterEmbeds/blob/master/SmarterEmbeds.theme.css 
 Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac91e7a7ad2d90dee87c90c 
 */
-@import url(https://raw.githubusercontent.com/NFLD99/Better-Discord/master/Notifications/Update3.css);
+@import url(https://cdn.rawgit.com/NFLD99/Better-Discord/master/Notifications/Update3.css);
 
 body {
 -webkit-backface-visibility: hidden;
