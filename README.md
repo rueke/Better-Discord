@@ -20,5 +20,5 @@
  ![Alt Text](https://i.gyazo.com/03f392e7ae05673a2714e29bc76018dd.gif)
  #
  - Dawson4.theme.css ->  Rainbow (Will Probs Lag Pc)
- ![Alt Text](https://gfycat.com/SparseFrighteningIaerismetalmark)
+ ![Alt Text](https://thumbs.gfycat.com/SparseFrighteningIaerismetalmark-size_restricted.gif)
  #
