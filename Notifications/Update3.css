@@ -6,6 +6,10 @@ body:before {
     content: "Update #3 Available!";
     background: rgba(255, 255, 0, .1);
 	 animation: fade 8s linear 6s 1 linear;
+    z-index: 999999999;
+    line-height: 2em;
+    color: white;
+    text-align: center;
 }
 
 @keyframes fade {
