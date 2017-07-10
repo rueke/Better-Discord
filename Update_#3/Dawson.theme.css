@@ -1,13 +1,13 @@
 //META{"name":"Custom build","description":"Uses SmarterEmbeds, Server_Grid_2_Columns, Simplified-Green","author":"NFLD99","version":"69.2"}*//{}
 /*
-Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/master/Simplified-Green.theme.css  
+Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/master/Simplified-Green.theme.css    
 SmarterEmbeds  made by Beard_Design -> https://github.com/BeardDesign1/SmarterEmbeds/blob/master/SmarterEmbeds.theme.css 
 Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac91e7a7ad2d90dee87c90c 
 */
-
 body {
 -webkit-backface-visibility: hidden;
 }
+@import url(https://github.com/NFLD99/Better-Discord/blob/master/Update_%232/Update4.css);
 
  .theme-dark .chat{background: transparent;}
 
