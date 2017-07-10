@@ -3,13 +3,13 @@ body:before {
     left: 0 ;
     top: 0 ;
     width: 100vw ;
-    background: #e6e600 ;
+    background: transparent;
     content: "Update #4 Available!" ;
     animation: fadeUpdateNotification linear 6s 1 normal forwards ;
     animation-delay: 3s ;
     z-index: 999999999 ;
     line-height: 2em ;
-    color: black ;
+    color: Red ;
     font-weight: bold ;
     text-align: center ;
     opacity: 1 ;
