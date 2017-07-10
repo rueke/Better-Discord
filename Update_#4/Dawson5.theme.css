@@ -1,9 +1,10 @@
-//META{"name":"Custom build 5 ","description":"Uses SmarterEmbeds, Server_Grid_2_Columns, Simplified-Green {Black/Rainbow ver}","author":"NFLD99","version":"73.3"}*//{}
+//META{"name":"Custom build 6 ","description":"Uses SmarterEmbeds, Server_Grid_2_Columns, Simplified-Green {Rainbow ver}","author":"NFLD99","version":"73.4"}*//{}
 /*
 Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/master/Simplified-Green.theme.css  
 SmarterEmbeds  made by Beard_Design -> https://github.com/BeardDesign1/SmarterEmbeds/blob/master/SmarterEmbeds.theme.css 
 Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac91e7a7ad2d90dee87c90c 
 */
+
 body {
 -webkit-backface-visibility: hidden;
 }
@@ -13,8 +14,22 @@ body {
  .layers, .layer { background: transparent !important; }
  
 .app {
-    background-color: black !important;
-background-size: cover;}
+background-image: url(https://i.imgur.com/2iMdLRx.jpg) !important;
+background-size: cover;  
+animation: rainbow 3s infinite linear; }
+
+.theme-dark .message-group .comment .markup {
+    color: hsla(0,0%,100%,.7);
+animation: rainbow 3s infinite linear; }
+
+.message-group .comment .markup {
+    color: #737f8d;
+    font-size: 0.9375rem;
+    line-height: 1.1em;
+    white-space: pre-wrap;
+    margin-top: 6px;
+    word-wrap: break-word;
+animation: rainbow 3s infinite linear; }
 
 .theme-dark .ui-standard-sidebar-view .content-region {
     background: rgba(0,0,0,.5)!important;
@@ -33,11 +48,11 @@ background-size: cover;}
 }
 
 .theme-dark .ui-standard-sidebar-view {
-    background-color: black !important;
+    background-image: url(https://i.imgur.com/2iMdLRx.jpg) !important;
 background-size: cover;}
 
 .callout-backdrop {
-    background-color: black !important;
+    background-image: url(https://cdn.discordapp.com/attachments/234047838990893056/296942084567465985/NwOn.png) !important;
 background-size: cover;}
 
 #rtc-connection {
@@ -72,7 +87,6 @@ background-size: cover;}
 
 .guild-channels .channel-text.selected:before, .guild-channels .channel-text.selected:hover:before, .guild-channels .channel-text:hover.channel-muted:before, .guild-channels .channel-text:hover:not(.unread):before, .private-channels .channel.selected:before, .private-channels .channel:hover:before {
     border-left: 3px solid #00c416;
-    animation: rainbow 3s infinite linear;
 }
 
 .guild-channels .channel-text:hover {
@@ -94,7 +108,6 @@ background-size: cover;}
 
 .invite-btn {
     background-color: rgba(0,216,86, 0.5) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .private-channels .channel:hover:before {
@@ -126,7 +139,6 @@ background-size: cover;}
     font-size: 12px;
     color: #00c416 !important;
     line-height: 22px;
-    animation: rainbow 3s infinite linear;
 }
 
 /*Transparency*/
@@ -141,7 +153,6 @@ background-size: cover;}
     background-color: #00c416;
     border: 1px solid rgba(0, 0, 0, 0.5);
     color: #000000;
-    animation: rainbow 3s infinite linear;
 }
 
 .channel.channel-text.unread a {
@@ -197,12 +208,10 @@ background-size: cover;}
 
 .member-activity {
     color: linear-gradient(to right, rgba(255, 0, 0, 0.4), rgba(0, 0, 255, 0.0)) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .links li a:hover {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .topic.topic-expandable {
@@ -212,7 +221,6 @@ background-size: cover;}
 
 .topic.topic-expandable a {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .topic.topic-expandable:hover {
@@ -234,7 +242,6 @@ background-size: cover;}
     padding-bottom: 1px;
     border-bottom: 1px linear-gradient(to right, rgba(0, 255, 0, 0.3), rgba(0, 0, 255, 0.3), rgba(0, 255, 0, 0.3)) !important;
     margin-top: 1px;
-    animation: rainbow 3s infinite linear;
 }
 
 .guild-header header span {
@@ -313,13 +320,11 @@ background-size: cover;}
     border-right: 1px solid rgba(0,216,86, .3) !important;
     height: 26px;
     bottom: 2px;
-    animation: rainbow 3s infinite linear;
 }
 
 .account .btn-mute {
     border-right: 1px solid rgba(0,216,86, .3) !important;
     height: 26px;
-    animation: rainbow 3s infinite linear;
 }
 
 .account .btn-settings {
@@ -330,7 +335,6 @@ background-size: cover;}
     border-right: 1px solid rgba(0,216,86, .3) !important;
     height: 26px;
     background-color: #232323 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .account .btn-deafen:hover {
@@ -378,9 +382,8 @@ background-size: cover;}
 span.ping{
       background-color: transparent !important;
       color: #00c416 !important;
-      transition: opacity 3s ease-in-out;
-    animation: rainbow 3s infinite linear;
-}
+      transition: opacity 3s ease-in-out
+  }
   
 .voice-connection-quality-fine {    
     font-size: 80% !important;    
@@ -411,7 +414,7 @@ span.ping{
     padding-left: 10px !important;
   }
   .member-activity {    
-    color: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 69, 0, 0.0)) !important;    
+    color: linear-gradient(to right, rgba(255, 0, 0, 0.4), rgba(0, 0, 255, 0.0)) !important;    
     font-size: 10px !important;
   }
   .member-status {    
@@ -442,7 +445,6 @@ span.ping{
 .guild-header-open ul li a {
     color: #00c416;
     opacity: 1 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 #rtc-connection {
@@ -550,19 +552,16 @@ span.ping{
 
 .highlight {
     color: #00c416;
-    animation: rainbow 3s infinite linear;
 }
 
 .highlight:hover {
     background-color: rgba(0, 0, 0, 0.3) !important;
     border-radius: 3px !important;
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .friends-icon {
     background-color: rgba(0,216,86, 0.9);
-    animation: rainbow 3s infinite linear;
 }
 
 .friends-online {
@@ -572,7 +571,6 @@ span.ping{
 .guild-separator {
     border-top: 2px solid rgba(0,216,86, 0.5);
     border-bottom: 2px solid rgba(0,216,86, 0.5);
-    animation: rainbow 3s infinite linear;
 }
 
 .guild-separator:after {
@@ -585,18 +583,15 @@ span.ping{
 
 .speaking .avatar-small {
     border: 2px dotted #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .speaking .avatar-small:hover {
     border: 2px dotted #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .channel-members .member.popout-open {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)) !important;
     border-left: 4px solid rgba(0,216,86, 0.9);
-    animation: rainbow 3s infinite linear;
 }
 
 .status {
@@ -611,32 +606,27 @@ span.ping{
 
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
     background: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 /* Guild Unread Message */
 
 .guilds-wrapper .guilds .guild.unread:before {
     background: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 /* Guild Unread Message */
 
 .guilds-wrapper .guilds .guild.selected:before {
     background: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .divider.divider-red span {
     background-color: rgba(0, 0, 0, 0.7) !important;
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .divider.divider-red>div {
     background: rgba(0,216,86, 0.7) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 /* Private Chat */
@@ -651,13 +641,11 @@ span.ping{
 .private-channels .channel.selected:before {
     background-color: linear-gradient(to right, rgba(0,216,86, 0.4), rgba(0, 0, 0, 0.0)) !important;
     border-left: 2px solid #00c416;
-    animation: rainbow 3s infinite linear;
 }
 
 .priavte-channels .channel:hover::before {
     border-left: 2px solid #00c416 !important;
     background-color: linear-gradient(to right, rgba(0,216,86, 0.4), rgba(0, 0, 0, 0.0)) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .friends-header {
@@ -668,7 +656,6 @@ span.ping{
 .search-bar-inner input {
     font-size: 62% !important;
     border: 1px solid rgba(0,216,86, 0.4);
-    animation: rainbow 3s infinite linear;
 }
 
 /* Friends */
@@ -681,7 +668,6 @@ span.ping{
     margin-bottom: 2.5vh;
     margin-right: 2.5vh;
     -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%);
-    animation: rainbow 3s infinite linear;
 }
 
 #friends .friends-table .friends-table-header {
@@ -704,12 +690,10 @@ span.ping{
 .new-messages-bar button {
     background-color: black !important;
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 span.bot-tag {
     background-color: rgba(0,216,86, 0.8) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 /* Instant invite section */
@@ -722,12 +706,10 @@ span.bot-tag {
 
 .instant-invite-popout header {
     background-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .countdown {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .checkbox span {
@@ -739,12 +721,10 @@ span.bot-tag {
 .guild.guilds-add {
     border-color: rgba(0,216,86, 0.5) !important;
     border-style: groove !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .guild.guilds-add:hover {
     border-color: rgba(0,216,86, 0.9) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 /* Speech bubble CSS */
@@ -777,7 +757,6 @@ span.bot-tag {
 
 .form-header header {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .form-inner p {
@@ -787,7 +766,6 @@ span.bot-tag {
 .btn.btn-default.close {
     background-color: rgba(0, 0, 0, 0.0) !important;
     color: #00c416;
-    animation: rainbow 3s infinite linear;
 }
 
 .form-header {
@@ -800,7 +778,6 @@ span.bot-tag {
 
 ul li a {
     color: #00c416;
-    animation: rainbow 3s infinite linear;
 }
 
 .header.control-group {
@@ -815,33 +792,28 @@ ul li a {
     background-color: rgba(0, 0, 0, 0.1) !important;
     border-radius: 4px !important;
     border-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 #settings-username {
     border-radius: 4px;
     padding-left: 10px;
     border-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 #settings-email {
     border-radius: 4px;
     padding-left: 10px;
     border-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 #settings-current-password {
     border-radius: 4px;
     padding-left: 10px;
     border-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 button.btn.btn-primary {
     background-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .settings-actions {
@@ -850,12 +822,10 @@ button.btn.btn-primary {
 
 a.remove-button {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .control-group label a {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .settings .settings-inner, .settings .settings-actions {
@@ -864,7 +834,7 @@ background-size: cover;
 }
 
 div.settings-actions{
-    background-color: black !important;
+    background-image: url(https://i.imgur.com/nekmRkx.jpg) !important;
 background-size: cover;
 }
 
@@ -890,7 +860,6 @@ background-size: cover;
 .checkbox-inner span {
     background-color: #00c416 !important;
     border-color: rgba(0, 0, 0, 0.5) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .radio-inner {
@@ -910,12 +879,10 @@ background-size: cover;
 
 div p a {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .radio-theme.dark label {
     border-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .radio-theme.light label {
@@ -928,23 +895,19 @@ div p a {
 
 .slider-bar-fill {
     background: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .radio .radio-inner span:after {
     background: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .tab-bar.TOP .tab-bar-item.selected {
     border-bottom: 2px solid #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 #help-query {
     border-color: #00c416;
     border-width: 3px;
-    animation: rainbow 3s infinite linear;
 }
 
 /* User profile popup message box */
@@ -952,24 +915,20 @@ div p a {
 .avatar-popout {
     border: 3px dotted rgba(0,216,86, 0.7) !important;
     background-color: rgba(255, 255, 255, 0.8) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .reset-voice-settings {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 /* Add new server popup window */
 
 .form-inner header {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .action-header {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .action-icon {
@@ -978,7 +937,6 @@ div p a {
 
 .btn.btn-primary {
     background-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 /* Light Theme Support*/
@@ -1037,7 +995,6 @@ img.image {
 #app-mount > div > span:nth-child(6) > div.modal > div > div > a:hover {
     text-align: center;
     color: #00c416;
-    animation: rainbow 3s infinite linear;
 }
 
 div.form-inner {
@@ -1054,7 +1011,6 @@ div.form-inner {
 
 .settings-panel-header.user-settings-modal-connections-header label {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 header.header {
@@ -1077,7 +1033,6 @@ div#user-profile-modal footer {
 .add-friend{
     background-color: #00c416 !important;
     border: 1px solid white;
-    animation: rainbow 3s infinite linear;
 }
 
 div.scroller.guilds div.guild:hover{
@@ -1087,7 +1042,6 @@ div.scroller.guilds div.guild:hover{
 div.btn {
     background-color: #00c416 !important;
     border: 1px solid white;
-    animation: rainbow 3s infinite linear;
 }
 
 #user-profile-modal footer {
@@ -1103,17 +1057,14 @@ div.flex-horizontal.flex-spacer.content-inner label {
 
 label.subtitle {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 label.title {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 div.control-group label {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 div.checkbox span {
@@ -1132,20 +1083,18 @@ div.help-text {
 .channel-pins-wrap .header {
     background: transparent !important;
     background-color: rgba(0,216,86, 0.7) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .channel-pins .message-group {
     background: transparent !important;
-    background-color: black !important;
-    border: 1px solid lime !important;
+    background-color: #3d3d3d !important;
+    border: 1px solid #00c416 !important;
 }
 
 .action-buttons .jump-button {
     background: transparent !important;
     background-color: rgba(0,216,86, 0.6) !important;
     border: 1px solid rgba(0, 0, 0, 0.4) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .guild-channels .channel a {
@@ -1155,17 +1104,14 @@ div.help-text {
 .channel-members .member:hover {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)) !important;
     border-left: 4px solid rgba(0,216,86, 0.3);
-    animation: rainbow 3s infinite linear;
 }
 
 li div span {
     color: rgba(0,216,86, 0.8) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .channel-name:before {
     color: rgba(0,216,86, 0.9) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .action.create {
@@ -1178,12 +1124,10 @@ li div span {
 
 div.icon-friends {
     background-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .channel-textarea-autocomplete {
     background-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 #rtc-connection .btn:hover:after {
@@ -1193,7 +1137,6 @@ div.icon-friends {
 
 div.add-friend-popout header {
     background-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 div.notice {
@@ -1211,7 +1154,6 @@ div.activity {
 
 a.embed-title {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .tab-bar.SIDE .tab-bar-item.selected:before {
@@ -1300,14 +1242,12 @@ div.new-messages-bar button {
     background-color: rgba(0,216,86, 0.7) !important;
     border-radius: 5px;
     transition: all .3s ease-in-out;
-    animation: rainbow 3s infinite linear;
 }
 
 .server-row button:hover {
     background-color: rgba(0,216,86, 0.7) !important;
     border-radius: 5px;
     transition: all .3s ease-in-out;
-    animation: rainbow 3s infinite linear;
 }
 
 .server-info span{
@@ -1319,7 +1259,6 @@ div.new-messages-bar button {
     transition: all .3s ease-in-out;
     color: #fff !important;
     border-radius: 5px;
-    animation: rainbow 3s infinite linear;
 }
 
 input#pubs-sterm {
@@ -1331,7 +1270,6 @@ input#pubs-sterm {
     width: 120px !important;
     margin-right: 10px !important;
     margin-left: -10px !important;
-    animation: rainbow 3s infinite linear;
 }
 
 button#pubs-searchbtn {
@@ -1339,7 +1277,6 @@ button#pubs-searchbtn {
     transition: all .3s ease-in-out;
     color: #fff !important;
     border-radius: 5px;
-    animation: rainbow 3s infinite linear;
 }
 
 div.bd-dropdown-list {
@@ -1351,13 +1288,11 @@ div.bd-dropdown-list {
     background-color: rgba(0,216,86, 0.8) !important;
     transition: all .3s ease-in-out;
     color: #fff !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .server-row .server-icon {
     border-radius: 5px !important;
     border: 2px solid #00c416;
-    animation: rainbow 3s infinite linear;
 }
 
 #pubs-select-dropdown > div > ul {
@@ -1373,7 +1308,6 @@ div.bd-dropdown {
 .server-official {
     color: #00c416 !important;
     animation: color_change 1s infinite alternate;
-    animation: rainbow 3s infinite linear;
 }
 
 
@@ -1418,7 +1352,6 @@ div.bd-dropdown {
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb {
     border: 1px solid #00c416 !important;
     background: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb:active, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb:active, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb:active, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb:active {
@@ -1441,7 +1374,6 @@ div.bd-dropdown {
     background-color: rgba(0,216,86,0.6) !important;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
-    animation: rainbow 3s infinite linear;
 }
 
 #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > form > div > div.channel-textarea-autocomplete > div > ul > li {
@@ -1454,7 +1386,6 @@ div.bd-dropdown {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom: 1px solid rgba(0,0,0,0.2) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > form > div > div.channel-textarea-autocomplete > div {
@@ -1476,7 +1407,6 @@ div[data-bd="backdrop"] {
 #rmenu {
     background: #00c416 !important;
     border: 1px solid #00c416;
-    animation: rainbow 3s infinite linear;
 }
 
 .emoji-picker .search-bar input {
@@ -1529,13 +1459,12 @@ background-size: cover;
 
 .theme-dark .channel-members h2{
     border-bottom: 6px !important;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 255, 0, 0.3)) !important;
-    animation: rainbow 3s infinite linear;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.3), rgba(255, 0, 0, 0.3)) !important;
 }
 
 .channel-members h2 {
     border-radius: 3px;
-    color: rgba(0,255,0,1) !important;
+    color: rgba(0,255,0,0.6) !important;
     margin-left: 2px;
     padding-top: 2px;
 }
@@ -1547,7 +1476,6 @@ background-size: cover;
 
 .markup a {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .message-group {
@@ -1589,11 +1517,10 @@ div.guild-header header {
     background-color: transparent !important;
     margin-top: -5px;
     padding-top: 2px;
-    animation: rainbow 3s infinite linear;
 }
 
 .channel-textarea-inner {
-    background-color: rgba(35,35,35, 0) !important;
+    background-color: rgba(35,35,35, 0.5) !important;
     border-radius: 0px;
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
@@ -1602,7 +1529,6 @@ div.guild-header header {
     margin-left: 2vh px;
     -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%) !important;
     margin-bottom: -13px;
-    animation: rainbow 3s infinite linear;
 }
 
 .account {
@@ -1618,7 +1544,7 @@ div.guild-header header {
 }
 
 .channel-members {
-    background-color: rgba(35,35,35,0) !important;
+    background-color: rgba(35,35,35,0.5) !important;
     margin-right: 2px !important;
     margin-top: 3px !important;
     -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%) !important;
@@ -1633,7 +1559,6 @@ div.guild-header header {
     border-radius: 3px;
     margin-left:4px !important;
     border: 1px solid  #00c416;
-    animation: rainbow 3s infinite linear;
 }
 
 div.channel-textarea-inner textarea {
@@ -1651,7 +1576,6 @@ div.flex-spacer.flex-vertical form {
     border-radius:4px !important;
     background-size: cover !important;
     margin-left:3px !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .guilds-wrapper {
@@ -1678,24 +1602,20 @@ background-color: rgba(35,35,35,0.7) !important;
 
 .voice-connection-quality-fine {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 span.text {
     font-size: 10px !important;
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 span.text.strong {
     font-size: 10px !important;
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 spinner-pulsing-ellipsis .spinner-item {
     background-color: rgba(0,216,86,0.4) !important;
-    animation: rainbow 3s infinite linear;
 }
 
 
@@ -1808,7 +1728,6 @@ background:rgba(255,255,255,0.1);
 
 .bda-dark .server-info button {
     background-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 #bd-themes-pane > ul > li{
@@ -1829,50 +1748,40 @@ background:rgba(255,255,255,0.1);
 
 #bd-emotes-tab.selected {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 #bd-customcss-tab.selected {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 #bd-themes-tab.selected {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 #bd-settings-tab.selected {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 #bd-plugins-tab.selected {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 #app-mount > div > span:nth-child(6) > div.modal > div > form > div.settings-right > div:nth-child(1) > div > div > div.control-groups > div > div > div.user-settings-streamer-mode-enable-inner > ul > li > div.help-text > a {
         color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .tip > a {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 
 #app-mount > div > span:nth-child(6) > div.modal > div > form > div.settings-right > div:nth-child(1) > div > div > div > div > div > div:nth-child(2) > div > label .selected {
     border-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 #app-mount > div > span:nth-child(6) > div.modal > div > form > div.settings-right > div:nth-child(1) > div > div > div.tab-bar.TOP > div .selected {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 a {
     color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .win-close {
@@ -1902,14 +1811,10 @@ a {
 }
 
 #friends > div.friends-header > div.tab-bar.UNIQUE > div{
-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
-}
+color: #00c416 !important;}
 
 #friends > div.friends-header > div.btn{
-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
-}
+color: #00c416 !important;}
 
 #app-mount > div > span.theme-dark > div > div > div.body {
 background-color: #3d3d3d !important;
@@ -1929,19 +1834,14 @@ background-color: #3d3d3d !important;
 }
 
 #app-mount > div > span.theme-dark > div > div > div.body > div > div{
-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
-}
+color: #00c416 !important;}
 
 #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.guilds-wrapper > div > button{
-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
-}
+color: #00c416 !important;}
 
 #app-mount > div > div.app.flex-vertical.theme-light > div > section > div.guilds-wrapper > div > button{
 color: #00c416 !important;
 opacity: 0.4 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 #app-mount > div > div.app.flex-vertical.theme-light > div > section > div.guilds-wrapper > div > button:hover:after{
@@ -2001,13 +1901,11 @@ border:none !important;}
 .jump-to-present-bar button{
   background-color: #3d3d3d !important;
   color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .chat .jump-to-present-bar .spinner {
   background-color: #3d3d3d !important;
   color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .new-messages-bar{
@@ -2017,12 +1915,10 @@ border:none !important;}
 .spinner-pulsing-ellipsis .spinner-item{
   background-color: #00c416 !important;
   margin-bottom:-10px !important;
-    animation: rainbow 3s infinite linear;
 }
 
 div.tab-bar-item.selected{
   color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 
@@ -2067,7 +1963,6 @@ div.tab-bar-item.selected{
     width: 50px;
     transform: rotate(180deg) !important;
     background-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 div.avatar-uploader-inner {
@@ -2080,7 +1975,6 @@ div.avatar-uploader-inner {
 button.btn.icon.icon-logout:hover {
     background-color: #00c416 !important;
     border-radius: 5px;
-    animation: rainbow 3s infinite linear;
 }
 
 div.scroller.guilds {
@@ -2094,7 +1988,6 @@ div.avatar-small{
 
 .welcome-message h1 {
   color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 .item-group{
@@ -2103,18 +1996,15 @@ div.avatar-small{
 
 .item-group .item{
   background-color: #232323 !important;
-  color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
+  color: #00c416 !important;}
 }
 
 .emoji-picker .scroller .emoji-item.selected {
   border-bottom: 2px solid #00c416;
-    animation: rainbow 3s infinite linear;
 }
 
 .emoji-picker .categories .item.selected{
   border-bottom-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
 }
 
 
@@ -2136,9 +2026,7 @@ div.avatar-small{
 
 .option-popout .small-popout-box .btn-item{
   background-color: #232323 !important;
-color: #00c416 !important;
-    animation: rainbow 3s infinite linear;
-}
+color: #00c416 !important;}
 
 
 span[style='background-image: url("/assets/70b7e4bf8b79bb44805705ef2611393b.svg");'] {
@@ -2168,9 +2056,7 @@ border: none;}
 div.btn-item{
 background-color: #232323 !important;
 color: #00c416 !important;
-border:none;
-    animation: rainbow 3s infinite linear;
-}
+border:none;}
 
 
 .context-menu .item-toggle .checkbox {
@@ -2320,7 +2206,6 @@ div#rtc-connection{
 	.name-2SL4ev{
     color: #005b0a;
     font-size: 14px;
-    animation: rainbow 3s infinite linear;
 }
 /* thanks to @square#3880 for this code */
 .name-2SL4ev.nameUnreadText-1pxldj {
@@ -2357,7 +2242,7 @@ div#rtc-connection{
 .modal-image .qs_button {position:absolute;left:450px;bottom:6px;pointer-events:auto}
 .image.image-loading {opacity:.9;}
 .modal-image .image.image-loading::before {background: transparent;}
-
+	
 .deprecated-settings-modal .settings-inner {
     background-color: rgb(0, 0, 0);
     background-position: 0 100%;
@@ -2387,8 +2272,8 @@ div#rtc-connection{
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
     background:rgba(25, 0, 43, 0.3) !important;
 }
-	
-	.upload-modal {
+
+.upload-modal {
     width: 520px;
     min-height: 258px;
     background-color: rgba(0, 0, 0, 0.59);
@@ -2404,29 +2289,6 @@ div#rtc-connection{
     perspective: 1000;
     -webkit-filter: blur(0);
     filter: blur(0);
-}
-	
-	.popout-menu .popout-menu-item:hover {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 255, 0, 0.3)) !important;
-    opacity: 1;
-    color: #000000;
-    animation: rainbow 3s infinite linear;
-}
-.popout-menu .popout-menu-item {
-	  background-color: black !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 10px 14px;
-    cursor: pointer;
-    box-sizing: border-box;
-    color: #ffffff;
-    margin: 0;
-    font-size: 15px;
-    line-height: 18px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
 }
 	
 	.channel-members-loading {
@@ -2445,7 +2307,7 @@ div#rtc-connection{
     z-index: 1;
 }
 	
-		.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+	.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
     background: #000000 !important;
 }
 	
@@ -2460,7 +2322,7 @@ div#rtc-connection{
     border-left: 4px solid #005a06;
     border-radius: 2px 0 0 2px;
 }
-	
+
 	.theme-dark .message-group .comment .markup .mention:hover {
     background-color: rgba(124, 0, 134, 0.7);
 }
@@ -2472,7 +2334,7 @@ div#rtc-connection{
     text-decoration: underline;
 }
 .mentioned .mention, .mentioned .mention:hover {
-    background: rgba(255, 0, 0, 0)!important;
+    background: rgba(255, 0, 0, 0) !important;
 }
 .mention:hover {
     cursor: pointer;
@@ -2502,10 +2364,9 @@ div#rtc-connection{
     transition: background-color .05s,color .05s;
 }
 */
-	
-	.theme-dark .channel-members-loading .member:nth-child(2n-4), .theme-dark .channel-members-loading .member, .theme-dark .channel-members-loading .heading, .theme-dark .channel-members-loading .member:nth-child(7n-1), .theme-dark .channel-members-loading, .theme-dark .channel-members-loading .member:nth-child(3n+2), .theme-dark .channel-members-loading .member:nth-child(7n+4) { background: transparent; }
-	
-		.theme-dark .private-channel-call {
+		.theme-dark .channel-members-loading .member:nth-child(2n-4), .theme-dark .channel-members-loading .member, .theme-dark .channel-members-loading .heading, .theme-dark .channel-members-loading .member:nth-child(7n-1), .theme-dark .channel-members-loading, .theme-dark .channel-members-loading .member:nth-child(3n+2), .theme-dark .channel-members-loading .member:nth-child(7n+4) { background: transparent; }
+
+	.theme-dark .private-channel-call {
     background-color: rgba(0, 0, 0, 0) !important;
 }
 	
@@ -2514,6 +2375,16 @@ div#rtc-connection{
     border-radius: 15px;
     opacity: 0.7;
 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
