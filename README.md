@@ -6,6 +6,10 @@
  - -> Any Changes You Want Made.
  - One i make your theme i will post it to the mega folder named "Requested" i will also send you a msg on discord letting you know its done.
  - Dawsonsdiscodthemes@gmail.com
+ # To Disable Update Notification
+ - Open the theme in `%AppData%\BetterDiscord\themes`
+ - At the top you will see `@import url(https://cdn.rawgit.com/NFLD99/Better-Discord/master/Notifications/Update#.css)`
+ - Deleate this line and reboot discord
 # Theme List
  - Dawson.theme.css   ->  Rainbow
  ![Alt Text](https://i.gyazo.com/79c573494c5dbcdfe84134564a289ad2.gif)
