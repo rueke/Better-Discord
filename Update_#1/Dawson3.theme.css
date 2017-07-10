@@ -8,7 +8,7 @@ body {
 -webkit-backface-visibility: hidden;
 }
 
-@import url(https://github.com/NFLD99/Better-Discord/blob/master/Update_%232/Update2.css);
+@import url(https://raw.githubusercontent.com/NFLD99/Better-Discord/blob/master/Update_%232/Update2.css);
 
  .theme-dark .chat{background: transparent;}
 

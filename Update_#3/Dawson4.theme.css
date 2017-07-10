@@ -7,7 +7,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 body {
 -webkit-backface-visibility: hidden;
 }
-@import url(https://github.com/NFLD99/Better-Discord/blob/master/Update_%232/Update4.css);
+@import url(https://raw.githubusercontent.com/NFLD99/Better-Discord/blob/master/Update_%232/Update4.css);
 
  .theme-dark .chat{background: transparent;}
 
