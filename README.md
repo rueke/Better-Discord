@@ -4,7 +4,6 @@
  - -> What Colour You Want.
  - -> A HTTPS Link To Any Images You Want Used.
  - -> Any Changes You Want Made.
- - 
  - One i make your theme i will post it to the mega folder named "Requested" i will also send you a msg on discord letting you know its done.
  - Dawsonsdiscodthemes@gmail.com
 # Theme List
