@@ -1,11 +1,10 @@
-//META{"name":"Custom_Build_3","description":"Uses SmarterEmbeds, Server_Grid_2_Columns, Simplified-Green {Blue ver}","author":"NFLD99","version":"2.0"}*//{}
+//META{"name":"Custom_Build_3","description":"Uses SmarterEmbeds, Server_Grid_2_Columns, Simplified-Green {Black/Blue ver}","author":"NFLD99","version":"5.0"}*//{}
 /*
 Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/master/Simplified-Green.theme.css   
 SmarterEmbeds  made by Beard_Design -> https://github.com/BeardDesign1/SmarterEmbeds/blob/master/SmarterEmbeds.theme.css 
 Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac91e7a7ad2d90dee87c90c 
 */
-@import url(https://cdn.rawgit.com/NFLD99/Better-Discord/master/Notifications/Update3.css);
-
+@import url(https://cdn.rawgit.com/NFLD99/Better-Discord/master/Notifications/Update6.css);
 body {
 -webkit-backface-visibility: hidden;
 }
@@ -2351,12 +2350,33 @@ div#rtc-connection{
     background-color: #ac00b9;
 }
 
+.message-group .comment .markup .mention {
+    color : #00e5ff;
+    animation: rainbow 3s infinite linear;
+}
+
+.nameHovered-28u_Fz, .nameSpeaking-3ROx9q {
+	  color : #00e5ff;
+    animation: rainbow 3s infinite linear;
+}
+
+.nameDefault-1I0lx8 {
+	color : #00e5ff;
+	animation: rainbow 3s infinite linear;
+}
+@keyframes rainbow {
+    from { -webkit-filter: hue-rotate(0deg); }
+    to { -webkit-filter: hue-rotate(360deg); }
+}
+
+/*
 .mention {
     color: #00e5ff;
     background: #d6ff00;
     font-weight: 500;
     transition: background-color .05s,color .05s;
 }
+*/
 	
 	.theme-dark .channel-members-loading .member:nth-child(2n-4), .theme-dark .channel-members-loading .member, .theme-dark .channel-members-loading .heading, .theme-dark .channel-members-loading .member:nth-child(7n-1), .theme-dark .channel-members-loading, .theme-dark .channel-members-loading .member:nth-child(3n+2), .theme-dark .channel-members-loading .member:nth-child(7n+4) { background: transparent; }
 	
