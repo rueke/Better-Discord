@@ -1,5 +1,12 @@
-﻿//META{"name":"Cameron#2753","description":"Uses SmarterEmbeds, Server_Grid_2_Columns, Green","author":"NFLD99","version":"2.0"}*//{}
-@import url(https://cdn.rawgit.com/NFLD99/Better-Discord/master/Requested/Cameron%232753/Notifications/Update3.css);
+//META{"name":"BlueGeoGR#0825","description":"Uses SmarterEmbeds, Server_Grid_2_Columns, Simplified-Green {Black/Blue ver}","author":"NFLD99","version":"3.0"}*//{}
+/*
+Simplified-Green made by den -> "https://github.com/denBot/Simplistic-CSS/blob/master/Simplified-Green.theme.css"
+SmarterEmbeds  made by Beard_Design -> "https://github.com/BeardDesign1/SmarterEmbeds/blob/master/SmarterEmbeds.theme.css"
+Server_Grid_2_Columns made by Jiiks -> "https://gist.github.com/Jiiks/e1026d29aac91e7a7ad2d90dee87c90c"
+0, 108, 216 
+#006cd8  
+*/
+@import url(https://cdn.rawgit.com/NFLD99/Better-Discord/master/Requested/BlueGeoGR%230825/Notifications/Update4.css);
 body {
 -webkit-backface-visibility: hidden;
 }
@@ -9,8 +16,8 @@ body {
  .layers, .layer { background: transparent !important; }
  
 .app {
-    background-image: url(https://orig09.deviantart.net/f7f8/f/2016/224/d/0/nozomi_background___video__by_combolink-dadnq4l.png) !important;
-background-size: 100% 100% ;}
+    background-image: url(https://i.imgur.com/2iMdLRx.jpg) !important;
+background-size: cover;}
 
 .theme-dark .ui-standard-sidebar-view .content-region {
     background: rgba(0,0,0,.5)!important;
@@ -23,41 +30,18 @@ background-size: 100% 100% ;}
 .theme-dark .message-group .mentioned .message-text {
     background: rgba(138, 37, 228, 0.11)!important;
 }
-.message-group .comment .markup .mention {
-    color : #00e5ff;
-    animation: rainbow 3s infinite linear;
-}
-
-.nameDefault-1I0lx8 {
-	color : #00e5ff;
-	animation: rainbow 3s infinite linear;
-}
-@keyframes rainbow {
-    from { -webkit-filter: hue-rotate(0deg); }
-    to { -webkit-filter: hue-rotate(360deg); }
-}
-
-/*
-.mention {
-    color: #00e5ff;
-    background: #d6ff00;
-    font-weight: 500;
-    transition: background-color .05s,color .05s;
-}
-*/
 
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
     background: rgba(0,0,0,.5)!important;
 }
 
 .theme-dark .ui-standard-sidebar-view {
-    background-image: url(https://cdn.discordapp.com/attachments/237418838633873408/333350544376594443/options_background.png) !important;
-    background-color: Black;
-	background-size: 100% 100%;}
+    background-image: url(https://i.imgur.com/2iMdLRx.jpg) !important;
+background-size: cover;}
 
 .callout-backdrop {
-    background-image: url(https://orig09.deviantart.net/f7f8/f/2016/224/d/0/nozomi_background___video__by_combolink-dadnq4l.png) !important;
-background-size: 100% 100%;}
+    background-image: url(https://i.imgur.com/2iMdLRx.jpg) !important;
+background-size: cover;}
 
 #rtc-connection {
     margin-left: 3vh !important;
@@ -90,7 +74,7 @@ background-size: 100% 100%;}
 }
 
 .guild-channels .channel-text.selected:before, .guild-channels .channel-text.selected:hover:before, .guild-channels .channel-text:hover.channel-muted:before, .guild-channels .channel-text:hover:not(.unread):before, .private-channels .channel.selected:before, .private-channels .channel:hover:before {
-    border-left: 3px solid #9400ff;
+    border-left: 3px solid #006cd8;
 }
 
 .guild-channels .channel-text:hover {
@@ -111,7 +95,7 @@ background-size: 100% 100%;}
 }
 
 .invite-btn {
-    background-color: rgba(255,0,255,0.5) !important;
+    background-color: rgba(0, 108, 216, 0.5) !important;
 }
 
 .private-channels .channel:hover:before {
@@ -141,7 +125,7 @@ background-size: 100% 100%;}
     background-color: #23232323 !important;
     border-radius: 5px !important;
     font-size: 12px;
-    color: #9400ff !important;
+    color: #006cd8 !important;
     line-height: 22px;
 }
 
@@ -154,7 +138,7 @@ background-size: 100% 100%;}
 /*Buttons*/
 
 .badge {
-    background-color: #9400ff;
+    background-color: #006cd8;
     border: 1px solid rgba(0, 0, 0, 0.5);
     color: #000000;
 }
@@ -211,11 +195,11 @@ background-size: 100% 100%;}
 }
 
 .member-activity {
-    color: linear-gradient(to right, rgba(255, 0, 0, 0.4), rgba(0, 0, 255, 0.0)) !important;
+    color: linear-gradient(to right, rgba(255, 0, 0, 0.4), rgba(0, 0, 108, 216.0)) !important;
 }
 
 .links li a:hover {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .topic.topic-expandable {
@@ -224,7 +208,7 @@ background-size: 100% 100%;}
 }
 
 .topic.topic-expandable a {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .topic.topic-expandable:hover {
@@ -244,7 +228,7 @@ background-size: 100% 100%;}
 
 .chat .title-wrap {
     padding-bottom: 1px;
-    border-bottom: 1px linear-gradient(to right, rgba(0, 255, 0, 0.3), rgba(0, 0, 255, 0.3), rgba(0, 255, 0, 0.3)) !important;
+    border-bottom: 1px linear-gradient(to right, rgba(0, 108, 216, 0.3), rgba(0, 0, 108, 216.3), rgba(0, 108, 216, 0.3)) !important;
     margin-top: 1px;
 }
 
@@ -321,13 +305,13 @@ background-size: 100% 100%;}
 }
 
 #rtc-connection .btn-info {
-    border-right: 1px solid rgba(255,0,255,.3) !important;
+    border-right: 1px solid rgba(0, 108, 216, .3) !important;
     height: 26px;
     bottom: 2px;
 }
 
 .account .btn-mute {
-    border-right: 1px solid rgba(255,0,255,.3) !important;
+    border-right: 1px solid rgba(0, 108, 216, .3) !important;
     height: 26px;
 }
 
@@ -336,7 +320,7 @@ background-size: 100% 100%;}
 }
 
 .account .btn-deafen {
-    border-right: 1px solid rgba(255,0,255,.3) !important;
+    border-right: 1px solid rgba(0, 108, 216, .3) !important;
     height: 26px;
     background-color: #232323 !important;
 }
@@ -385,7 +369,7 @@ background-size: 100% 100%;}
 
 span.ping{
       background-color: transparent !important;
-      color: #9400ff !important;
+      color: #006cd8 !important;
       transition: opacity 3s ease-in-out
   }
   
@@ -418,7 +402,7 @@ span.ping{
     padding-left: 10px !important;
   }
   .member-activity {    
-    color: linear-gradient(to right, rgba(255, 0, 0, 0.4), rgba(0, 0, 255, 0.0)) !important;    
+    color: linear-gradient(to right, rgba(255, 0, 0, 0.4), rgba(0, 0, 108, 216.0)) !important;    
     font-size: 10px !important;
   }
   .member-status {    
@@ -447,7 +431,7 @@ span.ping{
 }
 
 .guild-header-open ul li a {
-    color: #9400ff;
+    color: #006cd8;
     opacity: 1 !important;
 }
 
@@ -555,17 +539,17 @@ span.ping{
 }
 
 .highlight {
-    color: #9400ff;
+    color: #006cd8;
 }
 
 .highlight:hover {
     background-color: rgba(0, 0, 0, 0.3) !important;
     border-radius: 3px !important;
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .friends-icon {
-    background-color: rgba(255,0,255, 0.9);
+    background-color: rgba(0, 108, 216, 0.9);
 }
 
 .friends-online {
@@ -573,8 +557,8 @@ span.ping{
 }
 
 .guild-separator {
-    border-top: 2px solid rgba(255,0,255, 0.5);
-    border-bottom: 2px solid rgba(255,0,255, 0.5);
+    border-top: 2px solid rgba(0, 108, 216, 0.5);
+    border-bottom: 2px solid rgba(0, 108, 216, 0.5);
 }
 
 .guild-separator:after {
@@ -586,16 +570,16 @@ span.ping{
 }
 
 .speaking .avatar-small {
-    border: 2px dotted #9400ff !important;
+    border: 2px dotted #006cd8 !important;
 }
 
 .speaking .avatar-small:hover {
-    border: 2px dotted #9400ff !important;
+    border: 2px dotted #006cd8 !important;
 }
 
 .channel-members .member.popout-open {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)) !important;
-    border-left: 4px solid rgba(255,0,255, 0.9);
+    border-left: 4px solid rgba(0, 108, 216, 0.9);
 }
 
 .status {
@@ -609,28 +593,28 @@ span.ping{
 /* Unread Channel Message */
 
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-    background: #9400ff !important;
+    background: #006cd8 !important;
 }
 
 /* Guild Unread Message */
 
 .guilds-wrapper .guilds .guild.unread:before {
-    background: #9400ff !important;
+    background: #006cd8 !important;
 }
 
 /* Guild Unread Message */
 
 .guilds-wrapper .guilds .guild.selected:before {
-    background: #9400ff !important;
+    background: #006cd8 !important;
 }
 
 .divider.divider-red span {
     background-color: rgba(0, 0, 0, 0.7) !important;
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .divider.divider-red>div {
-    background: rgba(255,0,255, 0.7) !important;
+    background: rgba(0, 108, 216, 0.7) !important;
 }
 
 /* Private Chat */
@@ -643,13 +627,13 @@ span.ping{
 }
 
 .private-channels .channel.selected:before {
-    background-color: linear-gradient(to right, rgba(255,0,255, 0.4), rgba(0, 0, 0, 0.0)) !important;
-    border-left: 2px solid #9400ff;
+    background-color: linear-gradient(to right, rgba(0, 108, 216, 0.4), rgba(0, 0, 0, 0.0)) !important;
+    border-left: 2px solid #006cd8;
 }
 
 .priavte-channels .channel:hover::before {
-    border-left: 2px solid #9400ff !important;
-    background-color: linear-gradient(to right, rgba(255,0,255, 0.4), rgba(0, 0, 0, 0.0)) !important;
+    border-left: 2px solid #006cd8 !important;
+    background-color: linear-gradient(to right, rgba(0, 108, 216, 0.4), rgba(0, 0, 0, 0.0)) !important;
 }
 
 .friends-header {
@@ -659,7 +643,7 @@ span.ping{
 
 .search-bar-inner input {
     font-size: 62% !important;
-    border: 1px solid rgba(255,0,255, 0.4);
+    border: 1px solid rgba(0, 108, 216, 0.4);
 }
 
 /* Friends */
@@ -667,7 +651,7 @@ span.ping{
 #friends .friends-table .friends-table-body {
     background-color: rgba(35,35,35,0.5) !important;
     border-radius: 5px !important;
-    border: 1px solid rgba(255,0,255, 0.0);
+    border: 1px solid rgba(0, 108, 216, 0.0);
     margin-left: 1.6vw;
     margin-bottom: 2.5vh;
     margin-right: 2.5vh;
@@ -692,12 +676,12 @@ span.ping{
 }
 
 .new-messages-bar button {
-    background-color: #3b3b3b !important;
-    color: #9400ff !important;
+    background-color: black !important;
+    color: #006cd8 !important;
 }
 
 span.bot-tag {
-    background-color: rgba(255,0,255, 0.8) !important;
+    background-color: rgba(0, 108, 216, 0.8) !important;
 }
 
 /* Instant invite section */
@@ -709,11 +693,11 @@ span.bot-tag {
 }
 
 .instant-invite-popout header {
-    background-color: #9400ff !important;
+    background-color: #006cd8 !important;
 }
 
 .countdown {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .checkbox span {
@@ -723,12 +707,12 @@ span.bot-tag {
 /* Guilds 'Add' Button */
 
 .guild.guilds-add {
-    border-color: rgba(255,0,255, 0.5) !important;
+    border-color: rgba(0, 108, 216, 0.5) !important;
     border-style: groove !important;
 }
 
 .guild.guilds-add:hover {
-    border-color: rgba(255,0,255, 0.9) !important;
+    border-color: rgba(0, 108, 216, 0.9) !important;
 }
 
 /* Speech bubble CSS */
@@ -760,7 +744,7 @@ span.bot-tag {
 }
 
 .form-header header {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .form-inner p {
@@ -769,7 +753,7 @@ span.bot-tag {
 
 .btn.btn-default.close {
     background-color: rgba(0, 0, 0, 0.0) !important;
-    color: #9400ff;
+    color: #006cd8;
 }
 
 .form-header {
@@ -781,7 +765,7 @@ span.bot-tag {
 }
 
 ul li a {
-    color: #9400ff;
+    color: #006cd8;
 }
 
 .header.control-group {
@@ -795,29 +779,29 @@ ul li a {
 .avatar-uploader-inner {
     background-color: rgba(0, 0, 0, 0.1) !important;
     border-radius: 4px !important;
-    border-color: #9400ff !important;
+    border-color: #006cd8 !important;
 }
 
 #settings-username {
     border-radius: 4px;
     padding-left: 10px;
-    border-color: #9400ff !important;
+    border-color: #006cd8 !important;
 }
 
 #settings-email {
     border-radius: 4px;
     padding-left: 10px;
-    border-color: #9400ff !important;
+    border-color: #006cd8 !important;
 }
 
 #settings-current-password {
     border-radius: 4px;
     padding-left: 10px;
-    border-color: #9400ff !important;
+    border-color: #006cd8 !important;
 }
 
 button.btn.btn-primary {
-    background-color: #9400ff !important;
+    background-color: #006cd8 !important;
 }
 
 .settings-actions {
@@ -825,11 +809,11 @@ button.btn.btn-primary {
 }
 
 a.remove-button {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .control-group label a {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .settings .settings-inner, .settings .settings-actions {
@@ -862,7 +846,7 @@ background-size: cover;
 }
 
 .checkbox-inner span {
-    background-color: #9400ff !important;
+    background-color: #006cd8 !important;
     border-color: rgba(0, 0, 0, 0.5) !important;
 }
 
@@ -882,11 +866,11 @@ background-size: cover;
 }
 
 div p a {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .radio-theme.dark label {
-    border-color: #9400ff !important;
+    border-color: #006cd8 !important;
 }
 
 .radio-theme.light label {
@@ -898,41 +882,41 @@ div p a {
 }
 
 .slider-bar-fill {
-    background: #9400ff !important;
+    background: #006cd8 !important;
 }
 
 .radio .radio-inner span:after {
-    background: #9400ff !important;
+    background: #006cd8 !important;
 }
 
 .tab-bar.TOP .tab-bar-item.selected {
-    border-bottom: 2px solid #9400ff !important;
+    border-bottom: 2px solid #006cd8 !important;
 }
 
 #help-query {
-    border-color: #9400ff;
+    border-color: #006cd8;
     border-width: 3px;
 }
 
 /* User profile popup message box */
 
 .avatar-popout {
-    border: 3px dotted rgba(255,0,255, 0.7) !important;
+    border: 3px dotted rgba(0, 108, 216, 0.7) !important;
     background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .reset-voice-settings {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 /* Add new server popup window */
 
 .form-inner header {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .action-header {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .action-icon {
@@ -940,7 +924,7 @@ div p a {
 }
 
 .btn.btn-primary {
-    background-color: #9400ff !important;
+    background-color: #006cd8 !important;
 }
 
 /* Light Theme Support*/
@@ -998,7 +982,7 @@ img.image {
 
 #app-mount > div > span:nth-child(6) > div.modal > div > div > a:hover {
     text-align: center;
-    color: #9400ff;
+    color: #006cd8;
 }
 
 div.form-inner {
@@ -1014,7 +998,7 @@ div.form-inner {
 }
 
 .settings-panel-header.user-settings-modal-connections-header label {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 header.header {
@@ -1035,7 +1019,7 @@ div#user-profile-modal footer {
 }
 
 .add-friend{
-    background-color: #9400ff !important;
+    background-color: #006cd8 !important;
     border: 1px solid white;
 }
 
@@ -1044,7 +1028,7 @@ div.scroller.guilds div.guild:hover{
 }
 
 div.btn {
-    background-color: #9400ff !important;
+    background-color: #006cd8 !important;
     border: 1px solid white;
 }
 
@@ -1060,15 +1044,15 @@ div.flex-horizontal.flex-spacer.content-inner label {
 }
 
 label.subtitle {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 label.title {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 div.control-group label {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 div.checkbox span {
@@ -1086,18 +1070,18 @@ div.help-text {
 
 .channel-pins-wrap .header {
     background: transparent !important;
-    background-color: rgba(255,0,255, 0.7) !important;
+    background-color: rgba(0, 108, 216, 0.7) !important;
 }
 
 .channel-pins .message-group {
     background: transparent !important;
     background-color: #3d3d3d !important;
-    border: 1px solid #9400ff !important;
+    border: 1px solid #006cd8 !important;
 }
 
 .action-buttons .jump-button {
     background: transparent !important;
-    background-color: rgba(255,0,255, 0.6) !important;
+    background-color: rgba(0, 108, 216, 0.6) !important;
     border: 1px solid rgba(0, 0, 0, 0.4) !important;
 }
 
@@ -1107,15 +1091,15 @@ div.help-text {
 
 .channel-members .member:hover {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)) !important;
-    border-left: 4px solid rgba(255,0,255, 0.3);
+    border-left: 4px solid rgba(0, 108, 216, 0.3);
 }
 
 li div span {
-    color: rgba(255,0,255, 0.8) !important;
+    color: rgba(0, 108, 216, 0.8) !important;
 }
 
 .channel-name:before {
-    color: rgba(255,0,255, 0.9) !important;
+    color: rgba(0, 108, 216, 0.9) !important;
 }
 
 .action.create {
@@ -1127,11 +1111,11 @@ li div span {
 }
 
 div.icon-friends {
-    background-color: #9400ff !important;
+    background-color: #006cd8 !important;
 }
 
 .channel-textarea-autocomplete {
-    background-color: #9400ff !important;
+    background-color: #006cd8 !important;
 }
 
 #rtc-connection .btn:hover:after {
@@ -1140,7 +1124,7 @@ div.icon-friends {
 }
 
 div.add-friend-popout header {
-    background-color: #9400ff !important;
+    background-color: #006cd8 !important;
 }
 
 div.notice {
@@ -1157,7 +1141,7 @@ div.activity {
 }
 
 a.embed-title {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .tab-bar.SIDE .tab-bar-item.selected:before {
@@ -1243,13 +1227,13 @@ div.new-messages-bar button {
 
 
 .server-row button {
-    background-color: rgba(255,0,255, 0.7) !important;
+    background-color: rgba(0, 108, 216, 0.7) !important;
     border-radius: 5px;
     transition: all .3s ease-in-out;
 }
 
 .server-row button:hover {
-    background-color: rgba(255,0,255, 0.7) !important;
+    background-color: rgba(0, 108, 216, 0.7) !important;
     border-radius: 5px;
     transition: all .3s ease-in-out;
 }
@@ -1259,14 +1243,14 @@ div.new-messages-bar button {
 }
 
 .bd-dropdown-select {
-    background-color: rgba(255,0,255, 0.9) !important;
+    background-color: rgba(0, 108, 216, 0.9) !important;
     transition: all .3s ease-in-out;
     color: #fff !important;
     border-radius: 5px;
 }
 
 input#pubs-sterm {
-    background-color: rgba(255,0,255, 0.9) !important;
+    background-color: rgba(0, 108, 216, 0.9) !important;
     transition: all .3s ease-in-out;
     color: #fff !important;
     padding-left: 7px;
@@ -1277,7 +1261,7 @@ input#pubs-sterm {
 }
 
 button#pubs-searchbtn {
-    background-color: rgba(255,0,255, 0.9) !important;
+    background-color: rgba(0, 108, 216, 0.9) !important;
     transition: all .3s ease-in-out;
     color: #fff !important;
     border-radius: 5px;
@@ -1289,14 +1273,14 @@ div.bd-dropdown-list {
 
 .pubs-cat-select-li {
     background: transparent !important;
-    background-color: rgba(255,0,255, 0.8) !important;
+    background-color: rgba(0, 108, 216, 0.8) !important;
     transition: all .3s ease-in-out;
     color: #fff !important;
 }
 
 .server-row .server-icon {
     border-radius: 5px !important;
-    border: 2px solid #9400ff;
+    border: 2px solid #006cd8;
 }
 
 #pubs-select-dropdown > div > ul {
@@ -1310,7 +1294,7 @@ div.bd-dropdown {
 }
 
 .server-official {
-    color: #9400ff !important;
+    color: #006cd8 !important;
     animation: color_change 1s infinite alternate;
 }
 
@@ -1323,7 +1307,7 @@ div.bd-dropdown {
   }
   to {
     
-    color: #9400ff;
+    color: #006cd8;
   }
 }
 
@@ -1354,8 +1338,8 @@ div.bd-dropdown {
 }
 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb {
-    border: 1px solid #9400ff !important;
-    background: #9400ff !important;
+    border: 1px solid #006cd8 !important;
+    background: #006cd8 !important;
 }
 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb:active, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb:active, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb:active, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb:active {
@@ -1375,7 +1359,7 @@ div.bd-dropdown {
 }
 
 #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > form > div > div.channel-textarea-autocomplete > div > ul {
-    background-color: rgba(255,0,255,0.6) !important;
+    background-color: rgba(0, 108, 216,0.6) !important;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
@@ -1385,7 +1369,7 @@ div.bd-dropdown {
 }
 
 #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > form > div > div.channel-textarea-autocomplete > div > header {
-    background-color: rgba(255,0,255,0.8) !important;
+    background-color: rgba(0, 108, 216,0.8) !important;
     color: #fff !important;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -1409,12 +1393,12 @@ div[data-bd="backdrop"] {
 /* Styling thanks to Nyxxay#8107 */
 
 #rmenu {
-    background: #9400ff !important;
-    border: 1px solid #9400ff;
+    background: #006cd8 !important;
+    border: 1px solid #006cd8;
 }
 
 .emoji-picker .search-bar input {
-    border: 1px solid #9400ff;
+    border: 1px solid #006cd8;
     -webkit-animation: searchpulse 2s infinite;
     animation: searchpulse 2s infinite;
 }
@@ -1449,7 +1433,7 @@ div[data-bd="backdrop"] {
 
 .guild-settings-modal-members {
     border: 1px solid #000000 !important;
-background-image: url(http://orig09.deviantart.net/f7f8/f/2016/224/d/0/nozomi_background___video__by_combolink-dadnq4l.png) !important;
+background-image: url(https://i.imgur.com/nekmRkx.jpg) !important;
 background-size: cover;
 }
 
@@ -1463,7 +1447,7 @@ background-size: cover;
 
 .theme-dark .channel-members h2{
     border-bottom: 6px !important;
-    background: linear-gradient(to right, rgba(62, 59, 84, 0.3), rgba(62, 59, 84, 0.3), rgba(139, 74, 207, 0.3)) !important;
+    background: linear-gradient(to right, rgba(0, 0, 108, 216.3), rgba(0, 0, 108, 216.3), rgba(255, 0, 0, 0.3)) !important;
 }
 
 .channel-members h2 {
@@ -1479,13 +1463,13 @@ background-size: cover;
 }
 
 .markup a {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .message-group {
-    background-color: rgba(35,35,35,0.5) !important;
+    background-color: rgba(35,35,35,0) !important;
     border-radius: 5px !important;
-    margin-top: 15px !important;
+    
     padding-left: 20px !important;
 }
 
@@ -1517,7 +1501,7 @@ div.guild-header header {
 .channel-textarea-inner textarea {
     padding-left: 10 px;
     margin-bottom: -10px;
-    color: rgba(255,0,255, 0.7) !important;
+    color: rgba(0, 108, 216, 0.7) !important;
     background-color: transparent !important;
     margin-top: -5px;
     padding-top: 2px;
@@ -1528,7 +1512,7 @@ div.guild-header header {
     border-radius: 0px;
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
-    border: 1px solid rgba(255,0,255, 0.0) !important;
+    border: 1px solid rgba(0, 108, 216, 0.0) !important;
     margin-top: 1.6vhpx;
     margin-left: 2vh px;
     -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%) !important;
@@ -1562,7 +1546,7 @@ div.guild-header header {
 .account .avatar-small {
     border-radius: 3px;
     margin-left:4px !important;
-    border: 1px solid  #9400ff;
+    border: 1px solid  #006cd8;
 }
 
 div.channel-textarea-inner textarea {
@@ -1574,7 +1558,7 @@ div.flex-spacer.flex-vertical form {
 }
 
 .avatar-large {
-    border: 3px solid rgba(255,0,255,0.6) !important;
+    border: 3px solid rgba(0, 108, 216,0.6) !important;
     width: 30px;
     height: 30px;
     border-radius:4px !important;
@@ -1588,7 +1572,7 @@ div.flex-spacer.flex-vertical form {
 
 .guilds {
     transition: all 900ms ease !important;
-    background-color: rgba(0,0,0,0.1) !important;
+    background: transparent !important;
     border-right-width: 5px !important;
     border-color: #121212 !important;
     border-style: solid !important;
@@ -1605,21 +1589,21 @@ background-color: rgba(35,35,35,0.7) !important;
 }
 
 .voice-connection-quality-fine {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 span.text {
     font-size: 10px !important;
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 span.text.strong {
     font-size: 10px !important;
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 spinner-pulsing-ellipsis .spinner-item {
-    background-color: rgba(255,0,255,0.4) !important;
+    background-color: rgba(0, 108, 216,0.4) !important;
 }
 
 
@@ -1643,6 +1627,17 @@ spinner-pulsing-ellipsis .spinner-item {
   opacity: 0 !important;
 }
 .account .status-idle {
+  opacity: 1 !important;
+}
+
+/* Do Not Desterb*/
+.member-status-dnd .avatar-small {
+    border: 3px solid rgba(250,0,0,0.7) !important;
+}
+.status-dnd {
+  opacity: 0 !important;
+}
+.account .status-dnd {
   opacity: 1 !important;
 }
 
@@ -1720,7 +1715,7 @@ background:rgba(255,255,255,0.1);
 
 
 .bda-dark .server-info button {
-    background-color: #9400ff !important;
+    background-color: #006cd8 !important;
 }
 
 #bd-themes-pane > ul > li{
@@ -1740,41 +1735,41 @@ background:rgba(255,255,255,0.1);
 }
 
 #bd-emotes-tab.selected {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 #bd-customcss-tab.selected {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 #bd-themes-tab.selected {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 #bd-settings-tab.selected {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 #bd-plugins-tab.selected {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 #app-mount > div > span:nth-child(6) > div.modal > div > form > div.settings-right > div:nth-child(1) > div > div > div.control-groups > div > div > div.user-settings-streamer-mode-enable-inner > ul > li > div.help-text > a {
-        color: #9400ff !important;
+        color: #006cd8 !important;
 }
 
 .tip > a {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 
 #app-mount > div > span:nth-child(6) > div.modal > div > form > div.settings-right > div:nth-child(1) > div > div > div > div > div > div:nth-child(2) > div > label .selected {
-    border-color: #9400ff !important;
+    border-color: #006cd8 !important;
 }
 
 #app-mount > div > span:nth-child(6) > div.modal > div > form > div.settings-right > div:nth-child(1) > div > div > div.tab-bar.TOP > div .selected {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 a {
-    color: #9400ff !important;
+    color: #006cd8 !important;
 }
 
 .win-close {
@@ -1804,10 +1799,10 @@ a {
 }
 
 #friends > div.friends-header > div.tab-bar.UNIQUE > div{
-color: #9400ff !important;}
+color: #006cd8 !important;}
 
 #friends > div.friends-header > div.btn{
-color: #9400ff !important;}
+color: #006cd8 !important;}
 
 #app-mount > div > span.theme-dark > div > div > div.body {
 background-color: #3d3d3d !important;
@@ -1827,13 +1822,13 @@ background-color: #3d3d3d !important;
 }
 
 #app-mount > div > span.theme-dark > div > div > div.body > div > div{
-color: #9400ff !important;}
+color: #006cd8 !important;}
 
 #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.guilds-wrapper > div > button{
-color: #9400ff !important;}
+color: #006cd8 !important;}
 
 #app-mount > div > div.app.flex-vertical.theme-light > div > section > div.guilds-wrapper > div > button{
-color: #9400ff !important;
+color: #006cd8 !important;
 opacity: 0.4 !important;
 }
 
@@ -1880,7 +1875,7 @@ border:none !important;}
 }
 
 .spinner-wandering-cubes .spinner-item {
-    background-color: #9400ff;
+    background-color: #006cd8;
     width: 10px;
     height: 10px;
     position: absolute;
@@ -1893,12 +1888,12 @@ border:none !important;}
 
 .jump-to-present-bar button{
   background-color: #3d3d3d !important;
-  color: #9400ff !important;
+  color: #006cd8 !important;
 }
 
 .chat .jump-to-present-bar .spinner {
   background-color: #3d3d3d !important;
-  color: #9400ff !important;
+  color: #006cd8 !important;
 }
 
 .new-messages-bar{
@@ -1906,12 +1901,12 @@ border:none !important;}
 }
 
 .spinner-pulsing-ellipsis .spinner-item{
-  background-color: #9400ff !important;
+  background-color: #006cd8 !important;
   margin-bottom:-10px !important;
 }
 
 div.tab-bar-item.selected{
-  color: #9400ff !important;
+  color: #006cd8 !important;
 }
 
 
@@ -1941,7 +1936,7 @@ div.tab-bar-item.selected{
     width: 50px;
     padding-bottom: 11px;
     background-color: #a8a8a8 !important;
-    background-image: url(http://orig09.deviantart.net/f7f8/f/2016/224/d/0/nozomi_background___video__by_combolink-dadnq4l.png) !important;
+    background-image: url(https://i.imgur.com/XVZz4KO.png) !important;
     background-size: 44%;
     background-repeat: no-repeat;
     border: none;
@@ -1955,7 +1950,7 @@ div.tab-bar-item.selected{
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     width: 50px;
     transform: rotate(180deg) !important;
-    background-color: #9400ff !important;
+    background-color: #006cd8 !important;
 }
 
 div.avatar-uploader-inner {
@@ -1966,7 +1961,7 @@ div.avatar-uploader-inner {
 }
 
 button.btn.icon.icon-logout:hover {
-    background-color: #9400ff !important;
+    background-color: #006cd8 !important;
     border-radius: 5px;
 }
 
@@ -1980,7 +1975,7 @@ div.avatar-small{
 }
 
 .welcome-message h1 {
-  color: #9400ff !important;
+  color: #006cd8 !important;
 }
 
 .item-group{
@@ -1989,15 +1984,15 @@ div.avatar-small{
 
 .item-group .item{
   background-color: #232323 !important;
-  color: #9400ff !important;}
+  color: #006cd8 !important;}
 }
 
 .emoji-picker .scroller .emoji-item.selected {
-  border-bottom: 2px solid #9400ff;
+  border-bottom: 2px solid #006cd8;
 }
 
 .emoji-picker .categories .item.selected{
-  border-bottom-color: #9400ff !important;
+  border-bottom-color: #006cd8 !important;
 }
 
 
@@ -2019,7 +2014,7 @@ div.avatar-small{
 
 .option-popout .small-popout-box .btn-item{
   background-color: #232323 !important;
-color: #9400ff !important;}
+color: #006cd8 !important;}
 
 
 span[style='background-image: url("/assets/70b7e4bf8b79bb44805705ef2611393b.svg");'] {
@@ -2048,7 +2043,7 @@ background-color: #232323 !important;
 border: none;}
 div.btn-item{
 background-color: #232323 !important;
-color: #9400ff !important;
+color: #006cd8 !important;
 border:none;}
 
 
@@ -2091,7 +2086,7 @@ div#rtc-connection{
 
 /*Stolen nitro thing */
 .avatar-large[style*="a_"] + .comment .message.first .body .username-wrapper:after {
-    content: url(http://orig09.deviantart.net/f7f8/f/2016/224/d/0/nozomi_background___video__by_combolink-dadnq4l.png);
+    content: url(https://i.imgur.com/rzf0lV7.png);
     color: lime;
     margin-left: 5px;
     background: transparent;
@@ -2197,14 +2192,36 @@ div#rtc-connection{
     font-weight: normal;
 }
 	.name-2SL4ev{
-    color: #5F008E;
+    color: #006cd8;
     font-size: 14px;
 }
+/* thanks to @square#3880 for this code */
 .name-2SL4ev.nameUnreadText-1pxldj {
-    color: #9400ff;
     font-size: 14px;
 }
-	
+
+.name-2SL4ev.nameUnreadText-1pxldj:before {
+    content: "";
+    width: calc(100% - 36px - 8px);
+    height: calc(100% - 2px);
+    position: absolute;
+    display: block;
+    left: 36;
+    top: 1;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 108, 216.3), rgba(0, 0, 0, 0.0));
+    animation: shakeUnread 2s ease-in-out infinite alternate;
+}
+
+@keyframes shakeUnread {
+    0% {
+        transform: translate(calc(100% / -2 - 36px), 0);
+    }
+    100% {
+        transform: translate(calc(100% / 2 + 8px), 0);
+    }
+}
+/* thanks to @square#3880 for this code */
+
 .modal-image {text-align:center;display:flex;flex-flow:column;max-height:130%;pointer-events:none;}
 .modal-image .scroller-wrap {position:fixed;width:100%;height:100%;left:0;top:0;}
 .modal-image .scroller-wrap .scroller{overflow:visible;}
@@ -2244,34 +2261,100 @@ div#rtc-connection{
     background:rgba(25, 0, 43, 0.3) !important;
 }
 
-/* thanks to @square#3880 for this code */
-.name-2SL4ev.nameUnreadText-1pxldj {
-    font-size: 14px;
+.upload-modal {
+    width: 520px;
+    min-height: 258px;
+    background-color: rgba(0, 0, 0, 0.59);
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    -webkit-filter: blur(0);
+    filter: blur(0);
 }
-
-.name-2SL4ev.nameUnreadText-1pxldj:before {
-    content: "";
-    width: calc(100% - 36px - 8px);
-    height: calc(100% - 2px);
-    position: absolute;
-    display: block;
-    left: 36;
-    top: 1;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 0, 255, 0.3), rgba(0, 0, 0, 0.0));
-    animation: shakeUnread 2s ease-in-out infinite alternate;
-}
-
-@keyframes shakeUnread {
-    0% {
-        transform: translate(calc(100% / -2 - 36px), 0);
-    }
-    100% {
-        transform: translate(calc(100% / 2 + 8px), 0);
-    }
-}
-/* thanks to @square#3880 for this code */
 	
-			.theme-dark .private-channel-call {
+	.channel-members-loading {
+    background-color: black !important
+}
+	
+.channel-members-loading .background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 600%;
+    background-image: linear-gradient(90deg,rgba(0, 28, 66, 0.64),rgba(135, 144, 156, 0),transparent);
+    -webkit-animation: channel-members-loading 3s ease-in-out infinite;
+    animation: channel-members-loading 3s ease-in-out infinite;
+    z-index: 1;
+}
+	
+	.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+    background: #000000 !important;
+}
+	
+	.message-group .mentioned .message-text:after {
+    position: absolute;
+    top: 0;
+    left: -6px;
+    bottom: 0;
+    content: " ";
+    width: 2px;
+    background: rgba(0, 68, 9, 0);
+    border-left: 4px solid #005a06;
+    border-radius: 2px 0 0 2px;
+}
+
+	.theme-dark .message-group .comment .markup .mention:hover {
+    background-color: rgba(124, 0, 134, 0.7);
+}
+.theme-dark .message-group .comment .markup .mention {
+    background-color: rgba(115,139,215,.1);
+}
+.mentioned .mention:hover {
+    color: #780079;
+    text-decoration: underline;
+}
+.mentioned .mention, .mentioned .mention:hover {
+    background: rgba(255, 0, 0, 0) !important;
+}
+.mention:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #ac00b9;
+}
+
+.message-group .comment .markup .mention {
+    color : #00e5ff;
+    animation: rainbow 3s infinite linear;
+}
+
+.nameDefault-1I0lx8 {
+	color : #00e5ff;
+	animation: rainbow 3s infinite linear;
+}
+@keyframes rainbow {
+    from { -webkit-filter: hue-rotate(0deg); }
+    to { -webkit-filter: hue-rotate(360deg); }
+}
+
+/*
+.mention {
+    color: #00e5ff;
+    background: #d6ff00;
+    font-weight: 500;
+    transition: background-color .05s,color .05s;
+}
+*/
+		.theme-dark .channel-members-loading .member:nth-child(2n-4), .theme-dark .channel-members-loading .member, .theme-dark .channel-members-loading .heading, .theme-dark .channel-members-loading .member:nth-child(7n-1), .theme-dark .channel-members-loading, .theme-dark .channel-members-loading .member:nth-child(3n+2), .theme-dark .channel-members-loading .member:nth-child(7n+4) { background: transparent; }
+
+	.theme-dark .private-channel-call {
     background-color: rgba(0, 0, 0, 0) !important;
 }
 	
@@ -2280,19 +2363,6 @@ div#rtc-connection{
     border-radius: 15px;
     opacity: 0.7;
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
@@ -3212,7 +3282,8 @@ div#rtc-connection{
    /* "name":"SmarterEmbeds","description":"It basically makes the embeds align horizontally, so when there's multitple links in the same message, it takes less space in the chat.","author":"Beard_Design","version":"1.0.0" */
 	
 	/* "name":"Server_Grid_2_Columns","description":"Display servers in 2 column grid (edited by uri#0002 lmao)","author":"Jiiks","version":"1.0"*/
-.guilds-wrapper{width: 115px;}
+
+	.guilds-wrapper{width: 115px;}
 .guilds-wrapper .scroller-wrap{width: 130px;}
 
 .guilds-wrapper .guilds{
@@ -3291,3 +3362,13 @@ div#rtc-connection{
 .guilds-wrapper .guilds .dms .guild + .guild{margin-left: 0;}
 .guilds-wrapper .guilds .dms:empty{display: none;}
 /* "name":"Server_Grid_2_Columns","description":"Display servers in 2 column grid (edited by uri#0002 lmao)","author":"Jiiks","version":"1.0"*/
+
+/* hover to show servers to enable remove this line 
+.guilds-wrapper:not(:hover) {
+  width: 10px;
+}
+
+.guilds-wrapper:not(:hover) * {
+  display: none;
+}
+*/
