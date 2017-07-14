@@ -4,9 +4,11 @@
  - -> What Colour You Want.
  - -> A HTTPS Link To Any Images You Want Used.
  - -> Any Changes You Want Made.
- - One i make your theme i will post it to the mega folder named "Requested" i will also send you a msg on discord letting you know its done.
- - Dawsonsdiscodthemes@gmail.com
+ - One i make your theme i will post it to the folder named "Requested" i will also send you a msg on discord letting you know its done.
+ - Dawsonsdiscodthemes [at] gmail [dot] com
  # To Disable Update Notification
+ - Install the update!
+ - or:
  - Open the theme in `%AppData%\BetterDiscord\themes`
  - At the top you will see `@import url(https://cdn.rawgit.com/NFLD99/Better-Discord/master/Notifications/Update#.css)`
  - Delete this line and restart/reload discord
