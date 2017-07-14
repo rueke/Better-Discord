@@ -18,8 +18,36 @@ background-image: url(https://i.imgur.com/2iMdLRx.jpg) !important;
 background-size: cover;  
 animation: rainbow 3s infinite linear; }
 
+.timestamp {
+    color : #00e5ff !important;
+animation: rainbow 3s infinite linear; }
+
 .theme-dark .message-group .comment .markup {
-    color: hsla(0,0%,100%,.7);
+    color : #00e5ff !important;
+animation: rainbow 3s infinite linear; }
+
+.nameDefault-Lnjrwm {
+    color : #00e5ff !important;
+animation: rainbow 3s infinite linear; }
+
+.header-toolbar button {
+    color : #00e5ff !important;
+animation: rainbow 3s infinite linear; }
+
+span.channel-name {
+    color : #00e5ff !important;
+animation: rainbow 3s infinite linear; }
+
+.header-1tSljs {
+    color : #00e5ff !important;
+animation: rainbow 3s infinite linear; }
+
+.channel-members .member .member-activity {
+    color : #00e5ff !important;
+animation: rainbow 3s infinite linear; }
+
+.theme-dark .message-group .comment .markup {
+    color : #00e5ff !important;
 animation: rainbow 3s infinite linear; }
 
 .message-group .comment .markup {
@@ -973,10 +1001,6 @@ div p a {
 }
 
 /* Light Theme Support*/
-
-span.channel-name {
-    color: #ffffff !important;
-}
 
 a.channel-name.channel-private {
     color: rgba(255, 255, 255, 0.9) !important;
