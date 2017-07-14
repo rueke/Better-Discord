@@ -26,3 +26,12 @@
  - Dawson5.theme.css ->  Rainbow (Will Probs Lag Pc)
  ![Alt Text](https://thumbs.gfycat.com/SparseFrighteningIaerismetalmark-size_restricted.gif)
  #
+ 
+ 
+ 
+ 
+ # Thanks To,
+ Jiiks -> https://github.com/BeardDesign1 
+ Beard_Design -> https://github.com/BeardDesign1
+ Den -> https://github.com/denBot
+ Square -> https://github.com/Inve1951
