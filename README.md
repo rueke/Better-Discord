@@ -9,7 +9,7 @@
  # To Disable Update Notification
  - Open the theme in `%AppData%\BetterDiscord\themes`
  - At the top you will see `@import url(https://cdn.rawgit.com/NFLD99/Better-Discord/master/Notifications/Update#.css)`
- - Deleate this line and reboot discord
+ - Delete this line and restart/reload discord
 # Theme List
  - Dawson.theme.css   ->  Rainbow
  ![Alt Text](https://i.gyazo.com/79c573494c5dbcdfe84134564a289ad2.gif)
@@ -31,7 +31,7 @@
  
  
  # Thanks To,
- Jiiks -> https://github.com/BeardDesign1 
- Beard_Design -> https://github.com/BeardDesign1
- Den -> https://github.com/denBot
- Square -> https://github.com/Inve1951
+ - Jiiks -> https://github.com/Jiiks/
+ - Beard Design -> https://github.com/BeardDesign1
+ - Den -> https://github.com/denBot
+ - Square -> https://github.com/Inve1951
