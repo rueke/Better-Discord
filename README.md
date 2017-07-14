@@ -30,7 +30,7 @@
  
  
  
- # Thanks To,
+ # Thanks To
  - Jiiks -> https://github.com/Jiiks/
  - Beard Design -> https://github.com/BeardDesign1
  - Den -> https://github.com/denBot
