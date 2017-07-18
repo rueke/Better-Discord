@@ -71,3 +71,4 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 99%{content:var(--load3);opacity:0;-webkit-transform:scale(.7);transform:scale(.7)}
 100%{content:"";-webkit-transform:scale(1);transform:scale(1);opacity:0}
 }
+ 
