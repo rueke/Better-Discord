@@ -29,11 +29,11 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 
 #app-mount::before{content:"";background:transparent;position:absolute;top:0;right:0;bottom:0;left:0;z-index:9998;pointer-events:none;-webkit-animation:cv-bg 3.5s ease-in-out;animation:cv-bg 3.5s ease-in-out}
 
-@-webkit-keyframes cv-bg{0%{background-color:rgba(0,0,0,1)}
+@-webkit-keyframes cv-bg{0%{background-color:rgba(0,0,0,.5)}
 
 72%{background-color:rgba(0,0,0,.5)}100%{background-color:transparent}}
 
-@keyframes cv-bg{0%{background-color:rgba(0,0,0,1)}
+@keyframes cv-bg{0%{background-color:rgba(0,0,0,.5)}
 72%{background-color:rgba(0,0,0,.5)}100%{background-color:transparent}
 }
 
