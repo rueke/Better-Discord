@@ -2667,6 +2667,16 @@ div.form-inner {
     background-color: black;
 }
 
+.itemDefaultSelected-1UAWLe {
+    color: #f00;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 255, 0, 0.3)) !important;
+}
+
+.itemBrandSelected-3LxxzT {
+    color: #f00;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 255, 0, 0.3)) !important;
+}
+
 /* NFLD99#3692 */
 .avatar-profile::before,
 .avatar-profile::after,
