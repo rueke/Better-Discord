@@ -13,23 +13,27 @@
  - At the top you will see `@import url(https://cdn.rawgit.com/NFLD99/Better-Discord/master/Notifications/Update#.css)`
  - Delete this line and restart/reload discord
 # Theme List
- - Dawson.theme.css   ->  Rainbow
- ![Alt Text](https://i.gyazo.com/79c573494c5dbcdfe84134564a289ad2.gif)
+ - Dawson.theme.css   ->  Static Rainbow
+ ![Alt Text](https://youtu.be/HZdSKlDzyi4)
  #
- - Dawson2.theme.css ->  Black/Green
- ![Alt Text](https://i.gyazo.com/635afa0ec55a5b052707970b0dff7263.gif)
+ - Dawson2.theme.css ->  Black Green
+ ![Alt Text](https://youtu.be/5rPu4CqIqys)
  #
- - Dawson3.theme.css ->  Black/Blue
- ![Alt Text](https://i.gyazo.com/f4f320f6fb79c55dfec81cd5df4304e1.gif)
+ - Dawson3.theme.css ->  Black Blue
+ ![Alt Text](https://youtu.be/ujMrwttbIuA)
  #
- - Dawson4.theme.css ->  Black/Red
- ![Alt Text](https://i.gyazo.com/03f392e7ae05673a2714e29bc76018dd.gif)
+ - Dawson4.theme.css ->  Black Red
+ ![Alt Text](https://youtu.be/mYCrBC7_emc)
  #
- - Dawson5.theme.css ->  Rainbow (Will Probs Lag Pc)
- ![Alt Text](https://thumbs.gfycat.com/SparseFrighteningIaerismetalmark-size_restricted.gif)
+ - Dawson5.theme.css ->  Animated Rainbow (Will Probs Lag Pc)
+ ![Alt Text](https://youtu.be/6y6zcvjI5sA)
  #
- 
- 
+ - Dawson6.theme.css   ->  Black Pink
+ ![Alt Text](https://youtu.be/fe2awPTNi5Q)
+ #
+ - Dawson7.theme.css   ->  Black Aqua
+ ![Alt Text](https://youtu.be/0JVupEa7Aaw)
+ #
  
  
  # Thanks To
