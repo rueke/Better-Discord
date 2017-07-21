@@ -5,7 +5,7 @@
  - -> A HTTPS Link To Any Images You Want Used.
  - -> Any Changes You Want Made.
  - One i make your theme i will post it to the folder named "Requested" i will also send you a msg on discord letting you know its done.
- - Dawsonsdiscodthemes [at] gmail [dot] com
+ - Dawsonsdiscordthemes [at] gmail [dot] com
  # To Disable Update Notification
  - Install the update!
  - or:
