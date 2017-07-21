@@ -14,25 +14,25 @@
  - Delete this line and restart/reload discord
 # Theme List
  - Dawson.theme.css   ->  Static Rainbow
- ![linkname](https://youtu.be/HZdSKlDzyi4)
+ https://youtu.be/HZdSKlDzyi4
  #
  - Dawson2.theme.css ->  Black Green
- ![linkname](https://youtu.be/5rPu4CqIqys)
+ https://youtu.be/5rPu4CqIqys
  #
  - Dawson3.theme.css ->  Black Blue
- ![linkname](https://youtu.be/ujMrwttbIuA)
+ https://youtu.be/ujMrwttbIuA
  #
  - Dawson4.theme.css ->  Black Red
- ![linkname](https://youtu.be/mYCrBC7_emc)
+ https://youtu.be/mYCrBC7_emc
  #
  - Dawson5.theme.css ->  Animated Rainbow (Will Probs Lag Pc)
- ![linkname](https://youtu.be/6y6zcvjI5sA)
+ https://youtu.be/6y6zcvjI5sA
  #
  - Dawson6.theme.css   ->  Black Pink
- ![linkname](https://youtu.be/fe2awPTNi5Q)
+ https://youtu.be/fe2awPTNi5Q
  #
  - Dawson7.theme.css   ->  Black Aqua
- ![linkname](https://youtu.be/0JVupEa7Aaw)
+ https://youtu.be/0JVupEa7Aaw
  #
  
  
