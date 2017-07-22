@@ -9251,7 +9251,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .theme-dark .inner-3if5cm textarea {
     padding-left: 10 px;
     margin-bottom: -10px;
-    color: var(--Main-Colour) !important;
+    color: var(--main-color) !important;
     background-color: transparent !important;
     margin-top: -5px;
     padding-top: 15px;
@@ -9267,7 +9267,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 	border-bottom: transparent !important;
     margin-top: 1.6px;
     margin-left: 2vh px;
-    -webkit-mask-image: -webkit-linear-gradient(top, var(--Background-Colour) 0%, var(--Background-Colour) 0%, var(--Background-Colour) 2%, var(--Background-Colour) 80%, var(--Background-Colour) 100%) !important;
+    -webkit-mask-image: -webkit-linear-gradient(top, black 0%, black 0%, black 2%, black 80%, black 100%) !important;
     margin-bottom: -13px;
 	vertical-align: middle;
 }
