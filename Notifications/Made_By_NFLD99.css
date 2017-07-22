@@ -39,7 +39,7 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 
 #app-mount::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;color:#fff;font-size:50px;font-weight:700;text-align:center;line-height:100vh;opacity:0;z-index:9999;pointer-events:none;-webkit-animation:cv-init 3s ease-in-out;animation:cv-init 3s ease-in-out}
 
-:root{--load1:"Thank You";--load2:"For Useing";--load3:"My Theme! ~NFLD99"}
+:root{--load1:"Thank You!";--load2:"Please Enjoy!";--load3:"➢ NFLD99"}
 
 @-webkit-keyframes cv-init{0%{content:var(--load1);-webkit-transform:scale(.7);transform:scale(.7)}
 25%{opacity:0;-webkit-transform:scale(.7);transform:scale(.7)}
