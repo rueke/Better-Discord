@@ -9173,6 +9173,97 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 /* Source for clear vision */
 
+	/* "name":"Server_Grid_2_Columns","description":"Display servers in 2 column grid (edited by uri#0002 lmao)","author":"Jiiks","version":"1.0"*/
+
+	.guilds-wrapper{width: 115px;}
+.guilds-wrapper .scroller-wrap{width: 130px;}
+
+.guilds-wrapper .guilds{
+	display: flex;
+	flex-flow: row wrap;
+	padding-left: 0;
+	align-content: flex-start;
+	justify-content: center;
+}
+
+.guilds-wrapper .guilds .guild{
+	position: relative;
+	margin: 8px 5px 2px 5px;
+}
+
+.guilds-wrapper .guilds .guild,
+.guilds-wrapper .guilds .guild .guild-inner a{
+	width: 40px;
+	height: 40px;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner {
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 25px;
+    background: transparent !important;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.guilds-wrapper .guilds .friends-icon{
+	background-size: 50%!important;
+	background-position: 30% 35%!important;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner a{background-size: cover!important;}
+
+.guilds-wrapper .guilds .guild.unread::before{
+	left: -2px;
+	top: 5px;
+	z-index: 9000;
+}
+
+.guilds-wrapper .guilds .guild:first-child{
+	position: relative;
+	left: 0;
+	margin: auto;
+}
+
+#bd-pub-li{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#bd-pub-li #bd-pub-button{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+.guilds-wrapper .guilds .guild-separator{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+.guilds-wrapper .guilds .friends-online{
+	position: relative;
+	width: 100%;
+	margin: auto;
+	margin-top: 5px;
+}
+.guilds-wrapper .guilds .guild.selected:before{
+	display: none;
+}
+
+.guilds-wrapper .guilds .dms{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.guilds-wrapper .guilds .dms .guild{left: 0;}
+.guilds-wrapper .guilds .dms .guild{margin: 8px 8px 8px 0;}
+.guilds-wrapper .guilds .dms .guild + .guild{margin-left: 0;}
+.guilds-wrapper .guilds .dms:empty{display: none;}
+/* "name":"Server_Grid_2_Columns","description":"Display servers in 2 column grid (edited by uri#0002 lmao)","author":"Jiiks","version":"1.0"*/
+
 /*Mic*/
 .container-iksrDt .horizontal-2BEEBe div button[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ii8+CiAgICA8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNyw0LjQ0MDg5MjFlLTE2IEM4LjY1Njg1NDI1LDAgMTAsMS4zNDMxNDU3NSAxMCwzIEwxMCw5IEMxMCwxMC42NTY4NTQyIDguNjU2ODU0MjUsMTIgNywxMiBDNS4zNDMxNDU3NSwxMiA0LDEwLjY1Njg1NDIgNCw5IEw0LDMgQzQsMS4zNDMxNDU3NSA1LjM0MzE0NTc1LDQuNDQwODkyMWUtMTYgNywwIEw3LDQuNDQwODkyMWUtMTYgWiBNMTQsOSBDMTQsMTIuNTMgMTEuMzksMTUuNDQgOCwxNS45MyBMOCwxOSBMNiwxOSBMNiwxNS45MyBDMi42MSwxNS40NCAwLDEyLjUzIDAsOSBMMiw5IEMyLDExLjc2MTQyMzcgNC4yMzg1NzYyNSwxNCA3LDE0IEM5Ljc2MTQyMzc1LDE0IDEyLDExLjc2MTQyMzcgMTIsOSBMMTQsOSBMMTQsOSBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1IDMpIi8+CiAgPC9nPgo8L3N2Zz4K");']{
     background: url(https://cdn.rawgit.com/NFLD99/9b216f3a3cde1f5cead4a6d347850a07/raw/4ca4535d8f0b36724d781e4df7fe356a9a8b3366/mic2.svg)!important;
@@ -9248,26 +9339,182 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 
-.theme-dark .inner-3if5cm textarea {
-    padding-left: 10 px;
-    margin-bottom: -10px;
-    color: var(--main-color) !important;
-    background-color: transparent !important;
-    margin-top: -5px;
-    padding-top: 15px;
-	vertical-align: middle;
+.chat > .content .messages .message-group h2 .user-name {
+    color: red !important;
+      animation: rainbow 3s infinite linear;
 }
 
-.theme-dark .inner-3if5cm {
+.theme-dark .message-group .comment .markup {
+    color: yellow !important;
+}
+
+.channel-members .member .member-activity, .channel-members .member .member-username-inner {
+    overflow: hidden;
+    color : red;
+    animation: rainbow 3s infinite linear;
+}
+
+.channel-members h2 {
+    color: red !important;
     background-color: transparent !important;
-    border-radius: 0px;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
-    border: 1px solid var(--Main-Colour) !important;
-	border-bottom: transparent !important;
-    margin-top: 1.6px;
-    margin-left: 2vh px;
-    -webkit-mask-image: -webkit-linear-gradient(top, black 0%, black 0%, black 2%, black 80%, black 100%) !important;
-    margin-bottom: -13px;
-	vertical-align: middle;
+    animation: rainbow 3s infinite linear;
+}
+
+.name-3gtcmp {
+    color : red;
+    animation: rainbow 3s infinite linear;
+}
+
+.nameDefault-Lnjrwm {
+    color: red !important;
+    animation: rainbow 3s infinite linear;
+}
+
+.private-channels .channel .channel-name {
+    color: red !important;
+    animation: rainbow 3s infinite linear;  
+     opacity: 1;
+    
+}
+
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
+    color: red ;
+    animation: rainbow 3s infinite linear;   
+}
+
+.colorDefaultText-2v6rRX, .colorDefaultVoice-1x4dEl, .colorHoveredText-1CsxK1, .colorHoveredVoice-1P3kui, .colorLockedText-2onHWv, .colorLockedVoice-2VCSgk, .colorSelectedText-3YhFC6, .colorSelectedVoice-ieXC3Z, .colorUnreadText-1KwCnP, .colorUnreadVoice-1Ztv9I {
+    color: red !important;
+    animation: rainbow 3s infinite linear;   
+}
+.channels-wrap [class*="scroller-"] [class*="Text"][class*="content"][class*="Selected"] {
+    background-color: red !important;
+    animation: rainbow 3s infinite linear;   
+}
+
+.wrapper-2ldvyE {
+    color: red !important;
+    background-color: transparent !important;
+    animation: rainbow 3s infinite linear;   
+}
+
+.nameUnreadText-1pxldj, .nameUnreadVoice-QK4gxH {
+    color: red !important;
+     animation: rainbow 3s infinite linear;   
+}
+.chat .divider:not(.divider-red)>span {
+    color: red !important;
+     animation: rainbow 3s infinite linear;   
+}
+
+.private-channels .channel .channel-activity {
+    color: red !important;
+    animation: rainbow 3s infinite linear;   
+} 
+
+.chat .title-wrap .channel-name, .theme-dark .chat .title-wrap .channel-name, .chat .title-wrap .title.channel-group-dm-managed .channel-name, .theme-dark .chat .title-wrap .title.channel-group-dm-managed .channel-name, .chat .title-wrap .title.channel-group-dm .channel-name .input-autosize-inner .input-autosize-input, .theme-dark .chat .title-wrap .title.channel-group-dm .channel-name .input-autosize-inner .input-autosize-input, .private-channels .channel.selected .channel-activity { 
+        color : red ;
+        animation: rainbow 3s infinite linear;   
+}  
+
+
+.chat>.title-wrap>.title .channel-name:before {
+    color : red !important;
+     animation: rainbow 3s infinite linear;      
+}
+
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"], #bd-settings-sidebar .ui-tab-bar-item {
+    color: red!important;
+    animation: rainbow 3s infinite linear; 
+}
+ 
+.channels-wrap [class*="scroller-"] [class*="Text"] [class*="unread-"] + div [class*="marginReset"]:first-child svg path {
+    fill: var(--main-color);
+    opacity: 1!important;
+    color : red;
+    animation: rainbow 3s infinite linear;     
+}
+
+.chat>.content .messages .message-group .mentioned .markup .mention {
+    color: red!important;
+    animation: rainbow 3s infinite linear;
+    background : transaprent !important;
+}
+
+.mention:hover, .chat > .content .messages .message-group .markup .mention:hover {
+    color: red !important;
+     animation: rainbow 3s infinite linear; 
+}
+
+.mention {
+    color: red !important;
+    background: transparent!important;
+    animation: rainbow 3s infinite linear; 
+}
+
+        
+@keyframes rainbow {
+    from { -webkit-filter: hue-rotate(0deg); }
+    to { -webkit-filter: hue-rotate(360deg); }
+}
+
+.content .flex-spacer, .content > .ui-flex {
+    background: transparent !important;
+}
+
+.channel-members, .search-results-wrap {
+    background: transparent !important;
+}
+.platform-osx .guilds-wrapper .guilds {
+    padding-top: 0;
+    opacity: 1;
+}
+
+.friends-table {
+    background: transparent !important;
+    margin-top: 0;
+}
+
+.title-wrap {
+    background: transparent !important;
+    border-bottom: 1px solid transparent!important;
+}
+
+#rtc-connection, #friends, #friends .btn, .friends-header, .friends-table, .search-bar, .guilds-wrapper, .channels-wrap, .guild-channels, .account, .links, .messages-wrapper, .title-wrap, .content, .chat-empty, .message-group-blocked, .private-channels, .guild-header header, .typing, .ider-red span {
+    background: transparent !important;
+}
+
+
+.guilds-wrapper .guilds .friends-online {
+    background: transparent !important;
+}
+.chat > .content .messages .message-group .markup {
+    line-height: 1em;
+    opacity: 1.0
+}
+
+.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO{
+background:transparent !important;
+    border-radius:15px;
+    opacity:0.7;
+}
+
+.chat .divider > span {
+    background: transparent !important;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+    color: #fff !important;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+[draggable] > div > div > div > svg {
+    display: none;
+}
+
+.container-iksrDt [class*="iconButton"], .container-iksrDt [class*="button"] svg, [class*="buttonDisconnect"]::after, [class*="buttonInfo"] {
+opacity : 1;
 }
