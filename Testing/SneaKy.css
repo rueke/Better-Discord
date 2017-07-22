@@ -873,9 +873,6 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
 .avatar-large {
     left: 8px
 }
-.channel-textarea {
-    margin: 10px 0 30px
-}
 .chat form,
 .theme-dark .chat form {
     border-top: none
@@ -1647,9 +1644,6 @@ a:link {
 .private-channels .search-result:hover::before {
     border-left: 4px solid var(--hover-color)
 }
-.message-group .edit-message .channel-textarea-inner {
-    border-color: var(--main-color)
-}
 .channel-members .member .member-game strong {
     color: var(--main-color)
 }
@@ -2280,9 +2274,6 @@ img.image {
 }
 .chat .empty-message {
     border-color: hsla(0, 0%, 100%, .04)
-}
-.channel-textarea-inner textarea {
-    color: rgba(255, 255, 255, .7)
 }
 .chat>.title-wrap>.title .channel-name {
     color: #BFBFBF
@@ -4320,9 +4311,6 @@ div.control-group .shortcut-recorder input[type=text]:focus {
     border-radius: 0 0 3px 3px;
     opacity: .8
 }
-.channel-textarea-inner .channel-textarea-upload:hover {
-    background-color: rgba(100, 100, 100, .1)!important
-}
 .header-toolbar .separator,
 #friends .friends-header .tab-bar .tab-bar-separator {
     background-color: hsla(0, 0%, 85%, .1)!important
@@ -4849,9 +4837,6 @@ ul.bda-slist {
 .theme-dark .message-group .embed a.embed-title {
     color: var(--main-color)
 }
-.channel-textarea .channel-textarea-inner textarea {
-    overflow-y: auto!important
-}
 .guild-settings-modal-security {
     background: none
 }
@@ -4886,11 +4871,6 @@ ul.bda-slist {
 }
 .message-group .comment .attachment .upload > .filename {
     color: var(--main-color)
-}
-.channel-textarea-inner textarea::-webkit-input-placeholder {
-    color: hsla(0, 0%, 100%, .2);
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1)
 }
 .message-group .embed .embed-author,
 .message-group .embed .embed-description,
@@ -5715,11 +5695,7 @@ pre:hover .copybutton {
     background-position: center;
     background-size: 24px
 }
-.channel-textarea-inner {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0)
-}
-.channel-textarea-inner .channel-textarea-emoji::after {
+.channel-textarea-emoji::after {
     content: "";
     position: fixed;
     top: -2px;
@@ -5733,7 +5709,7 @@ pre:hover .copybutton {
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out
 }
-.channel-textarea-inner textarea:focus + .channel-textarea-emoji::after {
+.channel-textarea-emoji::after {
     border-color: var(--main-color);
     -webkit-box-shadow: 0 0 3px var(--main-color);
     box-shadow: 0 0 3px var(--main-color)
@@ -6959,10 +6935,6 @@ pre:hover .copybutton {
 }
 .upload-modal .inner .file .icon.image {
     border: none!important
-}
-.channel-textarea-inner {
-    border: 2px solid hsla(0, 0%, 100%, 0.1)!important;
-    background: rgba(0, 0, 0, 0.5)!important
 }
 .channel-textarea-upload {
     background-image: none!important;
@@ -8556,9 +8528,6 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 .bda-slist .scroller::-webkit-scrollbar-thumb,
 .bda-slist .scroller::-webkit-scrollbar-track-piece {
     border-radius: 7px!important
-}
-.channel-textarea .channel-textarea-inner textarea::-webkit-scrollbar {
-    display: none
 }
 .ui-scroller-wrap.ui-scroller-track > .scroller::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 0, 0.3)!important
