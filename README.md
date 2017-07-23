@@ -15,6 +15,11 @@
  #
  
  # Other Info
+ 
+ # Discord Update Server
+ - https://discord.gg/MhtfhA4
+ 
+ # How To Request A Theme
  - If you want a custom theme made please contact me via email with the following
  - -> Discord Name. (Ex. NFLD99#3692)
  - -> What Colour You Want.
