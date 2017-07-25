@@ -1,0 +1,175 @@
+//META{"name":"All_In_1","description":"https://github.com/NFLD99/Better-Discord {Has_All_Versions}","author":"NFLD99","version":"18.0"}*//{}
+
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/MAINCODE.css);
+  /* To Set Background Images Use "url(LINK_HERE)" Must Be HTTPS */
+:root {
+  --Main-Colour: rgba(0,216,84, 1.0) ;
+  --Background-Colour: rgba(0,0,0, 1.0) ;
+  --S-Colour: rgba(0,0,0, .3) ;
+  --M-Colour: rgba(0,216,84, .5) ;
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --load1: "Thank You!" ;
+  --load2: "Please Enjoy!" ;
+  --load3: "➢NFLD99" ;
+  --Chat-Background: url(https://i.imgur.com/2iMdLRx.jpg) ;
+  --Settings-Background: url(https://i.imgur.com/2iMdLRx.jpg) ;
+  --Callout-Background: url(https://discordapp.com/attachments/234047838990893056/296942084567465985/NwOn.png) ;
+}
+
+
+/*
+Presets -To Use copy Eveything Below the name And paste It ABove (Replace The :root Above)
+================================================================================================
+Static_Rainbow_Ver
+
+:root {
+  --Main-Colour: rgba(0,216,84, 1.0);
+  --Background-Colour: rgba(0,0,0, 1.0);
+  --S-Colour: rgba(0,0,0, .3);
+  --M-Colour: rgba(0,216,84, .5);
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
+  --Chat-Background: url(https://i.imgur.com/2iMdLRx.jpg);
+  --Settings-Background: url(https://i.imgur.com/2iMdLRx.jpg);
+  url(https://discordapp.com/attachments/234047838990893056/296942084567465985/NwOn.png);
+}
+================================================================================================
+Black/Green_Ver
+
+:root {
+  --Main-Colour: rgba(0,255,0, 1.0);
+  --Background-Colour: rgba(0,0,0, 1.0);
+  --S-Colour: rgba(0,0,0, .3);
+  --M-Colour: rgba(0,255,0, .5);
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
+  --Chat-Background: black;
+  --Settings-Background: black;
+  --Callout-Background: black;
+}
+================================================================================================
+Black/Blue_Ver
+
+:root {
+  --Main-Colour: rgba(0,0,255, 1.0);
+  --Background-Colour: rgba(0,0,0, 1.0);
+  --S-Colour: rgba(0,0,0, .3);
+  --M-Colour: rgba(0,0,255, .5);
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
+  --Chat-Background: black;
+  --Settings-Background: black;
+  --Callout-Background: black;
+}
+================================================================================================
+Black/Red_Ver
+
+:root {
+  --Main-Colour: rgba(255,0,0, 1.0);
+  --Background-Colour: rgba(0,0,0, 1.0);
+  --S-Colour: rgba(0,0,0, .3);
+  --M-Colour: rgba(255,0,0, .5);
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
+  --Chat-Background: black;
+  --Settings-Background: black;
+  --Callout-Background: black;
+}
+================================================================================================
+Black/Pink_Ver
+
+:root {
+  --Main-Colour: rgba(255,0,238, 1);
+  --Background-Colour: rgba(0,0,0, 1);
+  --S-Colour: rgba(0,0,0, .3);
+  --M-Colour: rgba(255,0,238, .5);
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
+  --Chat-Background: black;
+  --Settings-Background: black;
+  --Callout-Background: black;
+}
+================================================================================================
+Black/Aqua_Ver
+
+:root {
+  --Main-Colour: rgba(0, 226, 204, 1);
+  --Background-Colour: rgba(0,0,0, 1);
+  --S-Colour: rgba(0,0,0, .3);
+  --M-Colour: rgba(0, 226, 204, .5);
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
+  --Chat-Background: black;
+  --Settings-Background: black;
+  --Callout-Background: black;
+}
+================================================================================================
+Rainbow_Ver (May Lag Pc)
+
+:root {
+  --Main-Colour: rgba(255, 0, 0, 1.0);
+  --Background-Colour: rgba(0, 0, 0, 1.0);
+  --S-Colour: rgba(0, 0, 0, .3);
+  --M-Colour: rgba(255, 0, 0, .5);
+  --Unread-Message-1: var(--Main-Colour);
+  --Unread-Message-2: var(--Background-Colour);
+  --load1: "Thank You!" ;
+  --load2: "Please Enjoy!" ;
+  --load3: "➢NFLD99" ;
+  --Chat-Background: url(https://i.imgur.com/2iMdLRx.jpg) ;
+  --Settings-Background: url(https://i.imgur.com/2iMdLRx.jpg) ;
+  --Callout-Background: url(https://discordapp.com/attachments/234047838990893056/296942084567465985/NwOn.png) ;
+}
+.app,
+.timestamp,
+.theme-dark .message-group .comment .markup,
+.nameDefault-Lnjrwm,
+.header-toolbar button,
+span.channel-name,
+.header-1tSljs,
+.channel-members .member .member-activity,
+.theme-dark .message-group .comment .markup,
+.message-group .comment .markup {
+  animation: rainbow 3s infinite linear;
+}
+span.bot-tag {
+  animation: rainbow 20s infinite linear;
+}
+.kawaii-tag {
+  animation: rainbow 20s infinite linear;
+}
+.compact .kawaii-tag {
+  animation: rainbow 20s infinite linear;
+}
+.kawaii-tag-bright {
+  animation: rainbow 20s infinite linear;
+}
+.kawaii-tag-invert {
+  animation: rainbow 20s infinite linear;
+}
+================================================================================================
+*/
+
+li [data-reactid*="All_In_1"] {
+  background: rgba(0,216,84,.5) !important;
+  color: Black !important;
+}
