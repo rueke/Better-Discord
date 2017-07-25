@@ -1,6 +1,6 @@
 //META{"name":"All_In_1","description":"https://github.com/NFLD99/Better-Discord {Has_All_Versions}","author":"NFLD99","version":"18.0"}*//{}
 
-@import url(https://rawgit.com/NFLD99/Better-Discord/master/MAINCODE.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Master_Code.css);
   /* To Set Background Images Use "url(LINK_HERE)" Must Be HTTPS */
 :root {
   --Main-Colour: rgba(0,216,84, 1.0) ;
