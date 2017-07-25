@@ -1131,7 +1131,7 @@ div[data-bd="backdrop"] {
 
 .theme-dark .channel-members h2 {
   border-bottom: 6px !important;
-  background: linear-gradient(to right, var(--Background-Colour), var(--Background-Colour), var(--Main-Colour)) !important;
+  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--M-Colour)) !important;
 }
 
 .channel-members h2 {
@@ -1244,7 +1244,7 @@ div.flex-spacer.flex-vertical form {
 
 .guilds {
   transition: all 900ms ease !important;
-  background: transparent !important;
+  background: var(--S-Colour) !important;
   border-right-width: 5px !important;
   border-color: #121212 !important;
   border-style: solid !important;
@@ -1772,7 +1772,7 @@ div.flex-spacer.flex-vertical form {
 .contentHoveredText-2HYGIY, 
 .contentHoveredVoice-3qGNKh:active, 
 .contentSelectedVoice-gTtYM9:active {
-  background: linear-gradient(to right, var(--Background-Colour), var(--Background-Colour), var(--Main-Colour)) !important;
+  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--M-Colour)) !important;
 }
 
 .vertical-3X17r5 {
@@ -2056,10 +2056,19 @@ div.flex-spacer.flex-vertical form {
 #user-profile-modal .tab-bar-container {
   background: transparent !important;
   background-color: var(--Background-Colour) !important;
+  border-bottom: 1px solid var(--Background-Colour);
 }
 
 #user-profile-modal .empty {
   background: transparent !important;
+}
+
+#user-profile-modal .avatar-wrapper {
+	    background-color: var(--Background-Colour);
+}
+
+#user-profile-modal .header .header-info .header-info-inner .discord-tag, #user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
+	color: var(--Main-Colour);
 }
 
 	/* "name":"SmarterEmbeds","description":"It basically makes the embeds align horizontally, so when there's multitple links in the same message, it takes less space in the chat.","author":"Beard_Design","version":"1.0.0" */
@@ -2343,6 +2352,13 @@ div.form-inner, .form-actions {
   cursor: pointer;
 }
 
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
+    border-top: 2px solid rgba(28,36,43,.6);
+    box-sizing: border-box;
+    background-color: var(--Background-Colour);
+	border: 2px solid var(--Main-Colour);
+}
+
 .theme-dark .search-results-wrap .search-header {
   background-color: var(--Background-Colour);
   -webkit-box-shadow: 0 1px 0 var(--Background-Colour);
@@ -2364,7 +2380,7 @@ div.form-inner, .form-actions {
 }
 
 .theme-dark .search-results-wrap .search-result .search-result-message.hit {
-  border: 2px solid rgba(0, 216, 84, 0.6);
+  border: 2px solid var(--Main-Colour);
 }
 
 .theme-dark .search-results-wrap .search-result .hit {
@@ -2465,16 +2481,31 @@ div.form-inner, .form-actions {
 	background: linear-gradient(to right, var(--Background-Colour), var(--Background-Colour), var(--Main-Colour)) !important;
 }
 
+.avatarSpeaking-3teDH6 {
+	animation: Talking 3s infinite linear;
+}
+
 /* Animations */
 
 @keyframes Spin {
     0% {
         -webkit-transform: rotate(0deg) scale(0.9);
-        transform: rotate(0deg) scale(0.9)
+        transform: rotate(0deg) scale(0.9);
     }
     100% {
         -webkit-transform: rotate(360deg) scale(0.9);
-        transform: rotate(360deg) scale(0.9)
+        transform: rotate(360deg) scale(0.9);
+    }
+}
+
+@keyframes Talking {
+    0% {
+        transform: rotate(-360deg) scale(1);
+		box-shadow: 0 0 0 2px var(--Main-Colour);
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+		box-shadow: 0 0 0 2px var(--Main-Colour);
     }
 }
 
@@ -2538,3 +2569,4 @@ div.form-inner, .form-actions {
   }
 }
 /* Animations */
+
