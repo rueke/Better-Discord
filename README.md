@@ -1,39 +1,21 @@
 # Theme List
  - All In The New Theme File!
  - Static Rainbow   https://youtu.be/HZdSKlDzyi4
- #
  - Black/Green      https://youtu.be/5rPu4CqIqys
- #
  - Black/Blue       https://youtu.be/ujMrwttbIuA
- #
  - Black/Red        https://youtu.be/mYCrBC7_emc
- #
  - Rainbow          https://youtu.be/6y6zcvjI5sA
- #
  - Black/Pink       https://youtu.be/fe2awPTNi5Q
- #
  - Black/Aqua       https://youtu.be/0JVupEa7Aaw
- #
- 
+ - 
  # Other Info
  
  # Discord Update Server
  - https://discord.gg/MhtfhA4
  
- # How To Request A Theme
- - If you want a custom theme made please contact me via email with the following
- - -> Discord Name. (Ex. NFLD99#3692)
- - -> What Colour You Want.
- - -> A HTTPS Link To Any Images You Want Used.
- - -> Any Changes You Want Made.
- - One i make your theme i will post it to the folder named "Requested" i will also send you a msg on discord letting you know its done.
+ # How To Report A Bug
+ - Send me an e-mail. Please provide as much info as possible screen-shot(s) if possible.
  - Dawsonsdiscordthemes [at] gmail [dot] com
- # To Disable Update Notification
- - Install the update!
- - or:
- - Open the theme in `%AppData%\BetterDiscord\themes`
- - At the top you will see `@import url(https://cdn.rawgit.com/NFLD99/Better-Discord/master/Notifications/Update#.css)`
- - Delete this line and restart/reload discord
  
  # Thanks To
  - Jiiks -> https://github.com/Jiiks/
