@@ -1,17 +1,18 @@
 # Theme List
- - Dawson.theme.css   ->  Static Rainbow                      https://youtu.be/HZdSKlDzyi4
+ - All In The New Theme File!
+ - Static Rainbow   https://youtu.be/HZdSKlDzyi4
  #
- - Dawson2.theme.css ->  Black Green                          https://youtu.be/5rPu4CqIqys
+ - Black/Green      https://youtu.be/5rPu4CqIqys
  #
- - Dawson3.theme.css ->  Black Blue                           https://youtu.be/ujMrwttbIuA
+ - Black/Blue       https://youtu.be/ujMrwttbIuA
  #
- - Dawson4.theme.css ->  Black Red                            https://youtu.be/mYCrBC7_emc
+ - Black/Red        https://youtu.be/mYCrBC7_emc
  #
- - Dawson5.theme.css ->  Animated Rainbow                     https://youtu.be/6y6zcvjI5sA
+ - Rainbow          https://youtu.be/6y6zcvjI5sA
  #
- - Dawson6.theme.css   ->  Black Pink                         https://youtu.be/fe2awPTNi5Q
+ - Black/Pink       https://youtu.be/fe2awPTNi5Q
  #
- - Dawson7.theme.css   ->  Black Aqua                         https://youtu.be/0JVupEa7Aaw
+ - Black/Aqua       https://youtu.be/0JVupEa7Aaw
  #
  
  # Other Info
