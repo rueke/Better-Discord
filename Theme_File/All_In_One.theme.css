@@ -3,18 +3,18 @@
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Master_Code.css);
   /* To Set Background Images Use "url(LINK_HERE)" Must Be HTTPS */
 :root {
-  --Main-Colour: rgba(0,216,84, 1.0) ;
-  --Background-Colour: rgba(0,0,0, 1.0) ;
-  --S-Colour: rgba(0,0,0, .3) ;
-  --M-Colour: rgba(0,216,84, .5) ;
+  --Main-Colour: rgba(0, 226, 204, 1);
+  --Background-Colour: rgba(0,0,0, 1);
+  --S-Colour: rgba(0,0,0, .3);
+  --M-Colour: rgba(0, 226, 204, .5);
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --load1: "Thank You!" ;
-  --load2: "Please Enjoy!" ;
-  --load3: "➢NFLD99" ;
-  --Chat-Background: url(https://i.imgur.com/2iMdLRx.jpg) ;
-  --Settings-Background: url(https://i.imgur.com/2iMdLRx.jpg) ;
-  --Callout-Background: url(https://discordapp.com/attachments/234047838990893056/296942084567465985/NwOn.png) ;
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
+  --Chat-Background: black;
+  --Settings-Background: black;
+  --Callout-Background: black;
 }
 
 
@@ -35,7 +35,7 @@ Static_Rainbow_Ver
   --load3: "➢NFLD99";
   --Chat-Background: url(https://i.imgur.com/2iMdLRx.jpg);
   --Settings-Background: url(https://i.imgur.com/2iMdLRx.jpg);
-  --Callout-Background: url(https://discordapp.com/attachments/234047838990893056/296942084567465985/NwOn.png);
+  --Callout-Background: url(https://i.imgur.com/qa81JED.jpg);
 }
 ================================================================================================
 Black/Green_Ver
@@ -137,7 +137,7 @@ Rainbow_Ver (May Lag Pc)
   --load3: "➢NFLD99" ;
   --Chat-Background: url(https://i.imgur.com/2iMdLRx.jpg) ;
   --Settings-Background: url(https://i.imgur.com/2iMdLRx.jpg) ;
-  --Callout-Background: url(https://discordapp.com/attachments/234047838990893056/296942084567465985/NwOn.png) ;
+  --Callout-Background: url(https://i.imgur.com/qa81JED.jpg) ;
 }
 .app,
 .timestamp,

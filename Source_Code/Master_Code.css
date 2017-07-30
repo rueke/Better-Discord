@@ -1050,7 +1050,7 @@ div.bd-dropdown {
 
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece {
   background-color: var(--Background-Colour) !important;
-  border: 1px solid var(--Background-Colour) !important;
+  border: 1px solid var(--Main-Colour) !important;
 }
 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb {
@@ -1073,8 +1073,6 @@ div[data-bd="backdrop"] {
   background-size: cover !important;
 }
 
-/* Paste into console to pause @innertext box: setTimeout(function(){debugger;}, 3000) */
-
 /* Styling thanks to Nyxxay#8107 */
 
 #rmenu {
@@ -1083,13 +1081,13 @@ div[data-bd="backdrop"] {
 }
 
 .emoji-picker .search-bar input {
-  border: 1px solid var(--Main-Colour);
   animation: searchpulse 2s infinite;
 }
 
 .bda-dark #bda-qem {
   background: transparent !important;
-  border-bottom: 1px solid var(--Background-Colour) !important;
+  border: 1px solid var(--Main-Colour) !important;
+  border-bottom:transparent!important;
 }
 
 .bda-dark #bda-qem button {
@@ -1099,6 +1097,7 @@ div[data-bd="backdrop"] {
 
 .bda-dark #bda-qem button.active {
   background: var(--Background-Colour) !important;
+  border: 1px solid var(--Main-Colour) !important;
 }
 
 .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark .emoji-picker, .bda-dark .emoji-picker .category, .bda-dark .emoji-picker .header .search-bar {
@@ -1408,7 +1407,7 @@ spinner-pulsing-ellipsis .spinner-item {
   color: #fff !important;
 }
 
-#bd-emotes-sidebar.selected, #bd-customcss-sidebar.selected, #bd-themes-sidebar.selected, #bd-settings-sidebar .ui-tab-bar-item.selected, #bd-plugins-v.selected {
+#bd-emotes-sidebar.selected, #bd-customcss-sidebar.selected, #bd-themes-sidebar.selected, #bd-settings-sidebar .ui-tab-bar-item.selected, #bd-plugins-v.selected, #bd-settings-sidebar .ui-tab-bar-item:hover {
   color: var(--Main-Colour) !important;
   background: linear-gradient(to right, var(--Background-Colour), var(--Background-Colour), rgba(0, 255, 0, 0.3)) !important;
 }
@@ -1624,7 +1623,12 @@ div.avatar-small {
 }
 
 .emoji-picker .scroller .emoji-item.selected {
-  border-bottom: 2px solid var(--Main-Colour);
+  border-bottom: 1px solid var(--Main-Colour);
+}
+
+.emoji-picker {
+	border-top: transparent!important;
+	border:1px solid var(--Main-Colour);
 }
 
 .emoji-picker .categories .item.selected {
@@ -1653,12 +1657,12 @@ div.avatar-small {
 }
 
 div.option-popout.small-popout-box {
-  background-color: #232323 !important;
-  border: none;
+  background: var(--Background-Colour) !important;
+  border: 2px  solid var(--Main-Colour) !important;
 }
 
 div.btn-item {
-  background-color: #232323 !important;
+  background-color: var(--Background-Colour) !important;
   color: var(--Main-Colour) !important;
   border: none;
 }
@@ -1895,12 +1899,12 @@ div.flex-spacer.flex-vertical form {
 }
 
 .ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
-  background: var(--Background-Colour);
+  background: transparent ;
   border-top: 1px solid #ff0000;
 }
 
 .ui-standard-sidebar-view .bda-slist li {
-  background: var(--Background-Colour);
+  background: transparent ;
   border-bottom: 1px solid #ff0000;
 }
 
@@ -2283,9 +2287,42 @@ div.form-inner, .form-actions {
   background-color: var(--Background-Colour);
 }
 
-.itemDefaultSelected-1UAWLe, .itemBrandSelected-3LxxzT {
-  color: #f00;
+.itemDefaultSelected-1UAWLe, .itemBrandSelected-3LxxzT, .itemDefault-3NDwnY:hover, .itemBrand-mC9YR4:hover{
+  color: var(--Main-Colour) !important;
   background: linear-gradient(to right, var(--Background-Colour), var(--Background-Colour), rgba(0, 255, 0, 0.3)) !important;
+}
+
+.itemDefault-3NDwnY, .itemBrand-mC9YR4, #bd-settings-sidebar .ui-tab-bar-item {
+	color:var(--M-Colour)!important;
+}
+
+.search-bar.search-bar-light .search-bar-inner{
+	background: transparent;
+	border: 1px solid var(--Main-Colour);
+}
+
+.itemBrand-mC9YR4 {
+	color: rgba(255,255,255,0.7);
+}
+
+.separator-3z7STW, #bd-settings-sidebar .ui-tab-bar-separator {
+  background: var(--M-Colour)!important;	
+}
+
+#bd-settings-sidebar .ui-tab-bar-separator{
+	background: var(--M-Colour)!important;
+}
+
+.header-1-f9X5, #bd-settings-sidebar .ui-tab-bar-header {
+	color: var(--Main-Colour)!important;
+}
+
+.theme-dark .link-13ZMYi:hover .foreground-3yJWZE {
+    fill: var(--Main-Colour);
+}
+
+.cardPrimary-ZVL9Jr{
+	background: transparent!important;
 }
 
 /* NFLD99#3692 */
@@ -2485,6 +2522,56 @@ div.form-inner, .form-actions {
 	animation: Talking 3s infinite linear;
 }
 
+.chat>.title-wrap>.topic .aka {
+    background: var(--Background-Colour);
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--Main-Colour);
+    margin-right: 8px;
+    padding: 1px 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 22px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+/* scrollbars */
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track-piece {
+  border: none;
+  background: transparent !important;
+}
+::-webkit-scrollbar-track-piece {
+  background: transparent !important;
+}
+:not(:hover)::-webkit-scrollbar-thumb {
+  background: transparent !important;
+}
+::-webkit-scrollbar {
+  max-width: 10px;
+}
+
+.description-15n-1L.margin-bottom-20{ display: none; }
+.title-2mmhgH.margin-bottom-8:after {
+    content: "Do You Wish To See Members Of The Itty Bitty Titty Committee?";
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    color: #b9bbbe;
+}
+
+.actionRed-sT3Bw5, .actionRed-sT3Bw5:hover {
+	Background: var(--M-Colour);
+}
+	
+.theme-dark .modal-3HOjGZ, .theme-dark .message-25xg43 {
+	Background: var(--Background-Colour);
+	box-shadow: 0 0 0 1px rgb(255, 0, 0),2px 2px 2px 0 rgb(255, 0, 0);
+}
 /* Animations */
 
 @keyframes Spin {
