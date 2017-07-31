@@ -1413,7 +1413,7 @@ spinner-pulsing-ellipsis .spinner-item {
 
 #bd-emotes-sidebar.selected, #bd-customcss-sidebar.selected, #bd-themes-sidebar.selected, #bd-settings-sidebar .ui-tab-bar-item.selected, #bd-plugins-v.selected, #bd-settings-sidebar .ui-tab-bar-item:hover {
   color: var(--Main-Colour) !important;
-  background: linear-gradient(to right, var(--Background-Colour), var(--Background-Colour), rgba(0, 255, 0, 0.3)) !important;
+  background: linear-gradient(to right, Transparent, var(--Background-Colour), var(--Main-Colour)) !important;
 }
 
 #app-mount > div > span:nth-child(6) > div.modal > div > form > div.settings-right > div:nth-child(1) > div > div > div.control-groups > div > div > div.user-settings-streamer-mode-enable-inner > ul > li > div.help-text > a {
@@ -2294,7 +2294,7 @@ div.form-inner, .form-actions {
 
 .itemDefaultSelected-1UAWLe, .itemBrandSelected-3LxxzT, .itemDefault-3NDwnY:hover, .itemBrand-mC9YR4:hover, .private-channels .channel.selected a, .private-channels .channel:hover a{
   color: var(--Main-Colour) !important;
-  background: linear-gradient(to right, transparent, var(--Background-Colour), rgba(0, 255, 0, 0.3)) !important;
+  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Main-Colour)) !important;
 }
 
 .itemDefault-3NDwnY, .itemBrand-mC9YR4, #bd-settings-sidebar .ui-tab-bar-item {
