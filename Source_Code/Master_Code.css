@@ -1621,7 +1621,7 @@ div.avatar-small {
 }
 
 .item-group .item {
-  background-color: #232323 !important;
+  background: var(--Background-Colour) !important;
   color: var(--Main-Colour) !important;
 }
 }
@@ -1660,7 +1660,7 @@ div.avatar-small {
   color: var(--Main-Colour) !important;
 }
 
-div.option-popout.small-popout-box {
+div.option-popout.small-popout-box, div.context-menu {
   background: var(--Background-Colour) !important;
   border: 2px  solid var(--Main-Colour) !important;
 }
