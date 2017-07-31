@@ -10,7 +10,7 @@
 }
 
 .app {
-  background: var(--Chat-Background) !important;
+  background: var(--Chat-Background) 50% 50% !important;
   background-size: cover;
   animation: Load4 3s 1 linear;
 }
@@ -32,12 +32,12 @@
 }
 
 .theme-dark .ui-standard-sidebar-view {
-  background: var(--Settings-Background) !important;
+  background: var(--Settings-Background) 50% 50% !important;
   background-size: cover;
 }
 
 .callout-backdrop {
-  background: var(--Callout-Background) !important;
+  background: var(--Callout-Background) 50% 50% !important;
   background-size: cover;
 }
 
@@ -54,12 +54,12 @@
 }
 
 .channel:not(.selected):hover {
-  background: var(--Background-Colour) !important;
+  background: transparent !important;
   transition: background .2s ease-in !important;
 }
 
 .friends-row:hover, .search-result:hover, .btn-friends.selected, .search-result.selected, .channel.selected.private, .channel.channel-text.selected {
-  background: var(--Background-Colour) !important;
+  background: transparent !important;
 }
 
 .guild-channels .channel-text.selected {
@@ -678,12 +678,16 @@ div p a {
 
 /* Light Theme Support*/
 
-span.channel-name {
-  color: #ffffff !important;
+span.channel-name, .private-channels .channel .channel-name, .chat>.title-wrap.title-wrap-dark .topic {
+  color: var(--Main-Colour) !important;
 }
 
-a.channel-name.channel-private {
-  color: rgba(255, 255, 255, 0.9) !important;
+a.channel-name.channel-private, #clockPluginClock, .header-1tSljs, .private-channels .channel .channel-activity, .private-channels header, .wrapper-2ldvyE{
+  color: var(--Main-Colour) !important;
+}
+
+.nameDefault-Lnjrwm, .theme-dark .channel-members .member {
+  color: var(--M-Colour);
 }
 
 .form-inner.loading {
@@ -1783,8 +1787,9 @@ div.flex-spacer.flex-vertical form {
   background: transparent !important;
 }
 
-.container-iksrDt {
+.container-iksrDt, .theme-dark .message-group h2 strong {
   background: transparent !important;
+  color: var(--Main-Colour);
 }
 
 .container-3lnMWU {
@@ -2287,9 +2292,9 @@ div.form-inner, .form-actions {
   background-color: var(--Background-Colour);
 }
 
-.itemDefaultSelected-1UAWLe, .itemBrandSelected-3LxxzT, .itemDefault-3NDwnY:hover, .itemBrand-mC9YR4:hover{
+.itemDefaultSelected-1UAWLe, .itemBrandSelected-3LxxzT, .itemDefault-3NDwnY:hover, .itemBrand-mC9YR4:hover, .private-channels .channel.selected a, .private-channels .channel:hover a{
   color: var(--Main-Colour) !important;
-  background: linear-gradient(to right, var(--Background-Colour), var(--Background-Colour), rgba(0, 255, 0, 0.3)) !important;
+  background: linear-gradient(to right, transparent, var(--Background-Colour), rgba(0, 255, 0, 0.3)) !important;
 }
 
 .itemDefault-3NDwnY, .itemBrand-mC9YR4, #bd-settings-sidebar .ui-tab-bar-item {
@@ -2514,8 +2519,8 @@ div.form-inner, .form-actions {
     color: var(--M-Colour);
 }
 
-.nameHoveredVoice-TIoHRJ {
-	background: linear-gradient(to right, var(--Background-Colour), var(--Background-Colour), var(--Main-Colour)) !important;
+.wrapperHoveredVoice-3tbfNN {
+	background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Main-Colour)) !important;
 }
 
 .avatarSpeaking-3teDH6 {
@@ -2656,4 +2661,3 @@ div.form-inner, .form-actions {
   }
 }
 /* Animations */
-
