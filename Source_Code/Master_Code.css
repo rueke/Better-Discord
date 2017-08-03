@@ -5,6 +5,14 @@
   background: transparent;
 }
 
+.theme-dark .messages-wrapper .messages .divider:not(.red) span {
+	color: var(--Main-Colour);
+}
+
+.theme-dark .messages-wrapper .messages .divider span, .theme-dark .messages-wrapper .messages .divider:not(.red) div {
+	background: var(--Background-Colour);
+}
+
 .layers, .layer {
   background: transparent !important;
 }
@@ -39,6 +47,72 @@
 .callout-backdrop {
   background: var(--Callout-Background) 50% 50% !important;
   background-size: cover;
+}
+
+.auth-center {
+    background: var(--Callout-Background) 50% 50% !important;
+    background-size: cover;
+}
+
+form.deprecated.auth-form {
+	background: rgba(0,0,0,.6) !important;
+	padding: 550px;
+}
+
+form.deprecated.auth-form .btn-primary{
+    padding: 10px 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.auth-inner .auth-brand {
+	display: none;
+}
+
+.auth-inner .auth-logo, .auth-inner .auth-name, .auth-inner .auth-name:after {
+	background: rgba(0,0,0,0) !important;
+}
+
+.connecting {
+	background: transparent !important;
+}
+
+form.deprecated.auth-form h1, form.deprecated.auth-form .control-group input[type=email], form.deprecated.auth-form .control-group input[type=password], form.deprecated.auth-form .control-group input[type=text], form.deprecated.auth-form .btn-forgot-password {
+	color: var(--Main-Colour);
+	border-bottom-color: var(--Main-Colour);
+}
+
+form.deprecated.auth-form footer {
+	color: var(--M-Colour);
+}
+
+.theme-dark #friends .friends-table .friends-table-header .friends-column, .theme-dark #friends .friends-table .friends-row .friends-column-name, .theme-dark #friends .friends-table .friends-row .friends-column-status {
+	color: var(--Main-Colour);
+}
+
+.theme-dark #friends .friends-table .friends-table-header .friends-column-separator {
+	background-color: var(--Main-Colour);
+}
+
+.form.deprecated .btn-primary {
+    color: var(--Background-Colour);
+}
+
+.theme-dark .themed-popout .header {
+	background-color: var(--Background-Colour);
+}
+
+.theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
+	background: var(--Background-Colour);
+}
+
+.theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend {
+	background: var(--Background-Colour);
+}
+
+.search-bar-tag {
+	background: var(--Background-Colour);
+	border: 1px solid var(--Main-Colour);
 }
 
 #qs_button {
@@ -354,11 +428,6 @@ span.ping {
 
 .divider.divider-red span {
   background-color: var(--Background-Colour) !important;
-  color: var(--Main-Colour) !important;
-}
-
-.divider.divider-red>div {
-  background: var(--Main-Colour) !important;
 }
 
 /* Private Chat */
@@ -392,17 +461,20 @@ span.ping {
 /* Friends */
 
 #friends .friends-table .friends-table-body {
-  background-color: rgba(35,35,35,0.5) !important;
+  background-color: var(--S-Colour) !important;
   border-radius: 5px !important;
   border: 1px solid var(--Main-Colour);
   margin-left: 1.6vw;
   margin-bottom: 2.5vh;
   margin-right: 2.5vh;
+  opacity: 1;
 }
 
 #friends .friends-table .friends-table-header {
-  background-color: rgba(35,35,35,0.5) !important;
+  background-color: var(--S-Colour) !important;
   border-radius: 5px !important;
+  border: 1px solid var(--Main-Colour);
+  border-bottom: 1px solid var(--Main-Colour)!important;
   margin-left: 1.6vw;
   height: 3vh;
   margin-bottom: 1.2vh;
@@ -691,11 +763,11 @@ a.channel-name.channel-private, #clockPluginClock, .header-1tSljs, .private-chan
 }
 
 .form-inner.loading {
-  background-color: #232323 !important;
+  background-color: var(--Background-Colour) !important;
 }
 
 div.footer {
-  background-color: transparent !important;
+  background-color: var(--Background-Colour) !important;
 }
 
 #user-profile-modal .scroller {
@@ -2069,7 +2141,7 @@ div.flex-spacer.flex-vertical form {
 }
 
 #user-profile-modal .empty {
-  background: transparent !important;
+  background: black !important;
 }
 
 #user-profile-modal .avatar-wrapper {
@@ -2578,12 +2650,11 @@ div.form-inner, .form-actions {
 	box-shadow: 0 0 0 1px rgb(255, 0, 0),2px 2px 2px 0 rgb(255, 0, 0);
 }
 
-.user-info-viewing .ui-form-item:last-child:hover div{
-    color: white;
+.user-info-viewing .ui-form-item:last-child div {
+  transition: filter .15s ease-in-out;
 }
-
-.user-info-viewing .ui-form-item:last-child div{
-    color: rgba(0,0,0,0);
+.user-info-viewing .ui-form-item:last-child:not(:hover) div {
+  filter: blur(6px); 
 }
 
 .description-3MVziF.formText-1L-zZB.margin-bottom-20.modeDefault-389VjU.primary-2giqSn {
