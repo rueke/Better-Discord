@@ -56,7 +56,10 @@
 
 form.deprecated.auth-form {
 	background: rgba(0,0,0,.6) !important;
-	padding: 550px;
+	padding-top: 600px;
+	padding-left: 500px;
+	padding-right: 600px;
+	padding-bottom: 600px;
 }
 
 form.deprecated.auth-form .btn-primary{
@@ -1840,7 +1843,7 @@ div.flex-spacer.flex-vertical form {
   margin-top: 1.5px;
   margin-left: 5px;
 }
-
+/* nitro thing */
 .container-RYiLUQ,
 .wrapper-2ldvyE,
 .private-channels .channel.selected a,
@@ -2639,6 +2642,10 @@ div.form-inner, .form-actions {
     margin-top: 8px;
     margin-bottom: 12px;
     color: #b9bbbe;
+}
+
+.theme-dark .image-2XJctU  {
+    background-image: url(https://i.imgur.com/PBwzzZX.jpg);
 }
 
 .actionRed-sT3Bw5, .actionRed-sT3Bw5:hover {
