@@ -1,4 +1,12 @@
+/*
+This Theme Uses Code From The Following Themes I DO NOT TAKE CREDIT FOR THE CODE USED FROM THEM,
+Please Check Them Out
 
+Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/master/Simplified-Green.theme.css   
+SmarterEmbeds  made by Beard_Design -> https://github.com/BeardDesign1/SmarterEmbeds/blob/master/SmarterEmbeds.theme.css 
+Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac91e7a7ad2d90dee87c90c 
+
+*/
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 
 .theme-dark .chat {
@@ -2175,8 +2183,6 @@ div.flex-spacer.flex-vertical form {
   order: 9999999999;
 }
    /* "name":"SmarterEmbeds","description":"It basically makes the embeds align horizontally, so when there's multitple links in the same message, it takes less space in the chat.","author":"Beard_Design","version":"1.0.0" */
-	
-	/* "name":"Server_Grid_2_Columns","description":"Display servers in 2 column grid (edited by uri#0002 lmao)","author":"Jiiks","version":"1.0"*/
 
 .guilds-wrapper {
   width: 115px;
@@ -2288,17 +2294,7 @@ div.flex-spacer.flex-vertical form {
 .guilds-wrapper .guilds .dms:empty {
   display: none;
 }
-/* "name":"Server_Grid_2_Columns","description":"Display servers in 2 column grid (edited by uri#0002 lmao)","author":"Jiiks","version":"1.0"*/
 
-/* hover to show servers to enable remove this line 
-.guilds-wrapper:not(:hover) {
-  width: 10px;
-}
-
-.guilds-wrapper:not(:hover) * {
-  display: none;
-}
-*/
 
 .theme-dark .themed-popout {
   background-color: var(--Background-Colour);
