@@ -58,7 +58,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 }
 
 .auth-center {
-    background: var(--Login-Background) 50% 50% !important;
+    background: var(--login-Background) 50% 50% !important;
     background-size: cover;
 }
 
@@ -2050,19 +2050,7 @@ div.flex-spacer.flex-vertical form {
 }
 
 .channel-members-loading {
-  background-color: var(--Background-Colour) !important;
-}
-
-.channel-members-loading .background {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 600%;
-  background-image: linear-gradient(90deg,rgba(0, 28, 66, 0.64),rgba(135, 144, 156, 0),transparent);
-  -webkit-animation: channel-members-loading 3s ease-in-out infinite;
-  animation: channel-members-loading 3s ease-in-out infinite;
-  z-index: 1;
+  background-color: transparent !important;
 }
 
 .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
