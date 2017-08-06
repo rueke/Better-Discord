@@ -11,7 +11,7 @@
  # Other Info
  
  # Discord Update Server
- -                  https://discord.gg/MhtfhA4
+ - https://discord.gg/MhtfhA4
  
  # How To Report A Bug
  - Send me an e-mail. Please provide as much info as possible screen-shot(s) if possible.
