@@ -2053,6 +2053,12 @@ div.flex-spacer.flex-vertical form {
   background-color: transparent !important;
 }
 
+.channel-members-loading .background {
+    background: var(--Main-Colour);
+	opacity:.1;
+	animation: rainbow 2.8s infinite linear;
+}
+
 .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
   background: var(--Background-Colour) !important;
 }
