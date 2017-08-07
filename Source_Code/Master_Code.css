@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 
 #bd-settingspane-container h2.ui-form-title::after{
-	content:" Scratched Up Update #22";
+	content:" Scratched Up Update #22.1";
 	position:absolute;
 	right:5px;
 	top:5px;
@@ -29,6 +29,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 		<text y="125" style="font-size: 1.1em;" x="37">5. Changed Overlay Warning To Match Theme</text>
 		<text y="145" style="font-size: 1.1em;" x="37">6. Games Tab Colour Fix</text>
 		<text y="165" style="font-size: 1.1em;" x="37">7. This Update Was More Or less A Huge Bug Fix</text>
+		<text y="185" style="font-size: 1.1em;" x="37">7. New Dm Animation</text>
     </g>
     </svg>');
 }
@@ -2290,10 +2291,8 @@ div.flex-spacer.flex-vertical form {
 
 .guilds-wrapper .guilds .dms .guild {
   left: 0;
-}
-
-.guilds-wrapper .guilds .dms .guild {
-  margin: 8px 8px 8px 0;
+  animation: Spin .5s 1 linear;
+    margin: 8px 8px 8px 0;
 }
 
 .guilds-wrapper .guilds .dms .guild + .guild {
