@@ -9,6 +9,13 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 */
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 
+#bd-settingspane-container h2.ui-form-title::after{
+	content:" Scratched Up Update #21";
+	position:absolute;
+	right:5px;
+	top:5px;
+}
+
 .theme-dark .chat {
   background: transparent;
 }
@@ -1331,10 +1338,7 @@ div.flex-spacer.flex-vertical form {
   border-color: #121212 !important;
   border-style: solid !important;
   width: 70px !important;
-  margin-top: 20% !important;
-  padding-top: 30px !important;
-  margin-bottom: 10% !important;
-  padding-bottom: 20px !important;
+  padding-top: 17px !important;
 }
 
 #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.guilds-wrapper > div {
@@ -1680,11 +1684,6 @@ div.avatar-uploader-inner {
 button.btn.icon.icon-logout:hover {
   background-color: var(--Main-Colour) !important;
   border-radius: 5px;
-}
-
-div.scroller.guilds {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
 }
 
 div.avatar-small {
@@ -2079,6 +2078,10 @@ div.flex-spacer.flex-vertical form {
   background-color: rgba(115,139,215,.1);
 }
 
+.markup .edited {
+    text-shadow: none;
+}
+
 .mentioned .mention:hover {
   color: #780079;
   text-decoration: underline;
@@ -2247,7 +2250,6 @@ div.flex-spacer.flex-vertical form {
 .guilds-wrapper .guilds .guild-separator {
   position: relative;
   width: 100%;
-  margin-top: 10px;
 }
 
 .guilds-wrapper .guilds .friends-online {
@@ -2700,6 +2702,12 @@ div.form-inner, .form-actions {
 }
 /* Support For Switch Fix */
 
+.theme-dark .friends-table .messages .divider.divider-red > span,
+.theme-dark .messages-wrapper .messages .divider.divider-red > span,
+.markup,
+.member.member-status .member-activity {
+    text-shadow: 0 0 6px var(--Background-Colour), 0 0 6px var(--Background-Colour), 0 0 5px var(--Background-Colour), 0 0 4px var(--Background-Colour);
+}
 
 /* Animations */
 
