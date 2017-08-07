@@ -26,8 +26,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 }
 
 .app {
-  background: var(--Chat-Background) 50% 50% !important;
-  background-size: cover;
+  background: var(--Chat-Background) 50% 50%/cover !important;
   animation: Load4 3s 1 linear;
 }
 
@@ -48,18 +47,15 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 }
 
 .theme-dark .ui-standard-sidebar-view {
-  background: var(--Settings-Background) 50% 50% !important;
-  background-size: cover;
+  background: var(--Settings-Background) 50% 50%/cover !important;
 }
 
 .callout-backdrop {
-  background: var(--Callout-Background) 50% 50% !important;
-  background-size: cover;
+  background: var(--Callout-Background) 50% 50%/cover !important;
 }
 
 .auth-center {
-    background: var(--login-Background) 50% 50% !important;
-    background-size: cover;
+    background: var(--login-Background) 50% 50%/cover !important;
 }
 
 form.deprecated.auth-form {
@@ -2117,7 +2113,7 @@ div.flex-spacer.flex-vertical form {
 }
 
 .theme-dark .private-channel-call {
-  background-color: var(--Background-Colour) !important;
+  background-color: transparent !important;
 }
 
 .user-popout {
@@ -2440,7 +2436,7 @@ div.form-inner, .form-actions {
   right: 0;
   pointer-events: none;
   transition: 80ms ease;
-  color: #fff;
+  color: var(--Main-Colour);
   width: 250px;
   left: 0;
   transform: translate(17px,-7px);
@@ -2693,6 +2689,18 @@ div.form-inner, .form-actions {
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .switchWrapperDefaultActive-2IdHq2:hover .switch-3lyafC.checked-7qfgSb, .switch-3lyafC.checked-7qfgSb {
 	background: var(--Main-Colour);
 }
+
+/* Support For Switch Fix */
+.ui-switch-checkbox:checked+.ui-switch {
+    background: var(--Main-Colour);
+}
+
+.ui-switch-wrapper .ui-switch {
+    background: var(--Background-Colour);
+}
+/* Support For Switch Fix */
+
+
 /* Animations */
 
 @keyframes Spin {
