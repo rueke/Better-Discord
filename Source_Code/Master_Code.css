@@ -2847,27 +2847,3 @@ div.form-inner, .form-actions {
   }
 }
 /* Animations */
-#bd-settingspane-container h2.ui-form-title::after{
-	content:" Scratched Up Update #22.1";
-	position:absolute;
-	right:5px;
-	top:5px;
-}
-[layer-id="user-settings"] .user-settings-account ~ :last-child:after {
-    margin-bottom: 30px;
-    padding-top: 20px;
-    display: block;
-    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;">
-    <g style="fill: lime; font-size: .8em; font-family:verdana">
-        <text y="20" style="font-size: 2em; fill: lime;">Change Log</text>
-        <text y="45" style="font-size: 1.1em;" x="37">1. Added Change Log!</text>
-        <text y="65" style="font-size: 1.1em;" x="37">2. Removed Icon For 2 Step Auth (It Was Annoying)</text>
-		<text y="85" style="font-size: 1.1em;" x="37">3. Changed Nitro Tab A Little</text>
-		<text y="105" style="font-size: 1.1em;" x="37">4. Sliders Now Match Theme Colours</text>
-		<text y="125" style="font-size: 1.1em;" x="37">5. Changed Overlay Warning To Match Theme</text>
-		<text y="145" style="font-size: 1.1em;" x="37">6. Games Tab Colour Fix</text>
-		<text y="165" style="font-size: 1.1em;" x="37">7. This Update Was More Or less A Huge Bug Fix</text>
-		<text y="185" style="font-size: 1.1em;" x="37">7. New Dm Animation</text>
-    </g>
-    </svg>');
-}
