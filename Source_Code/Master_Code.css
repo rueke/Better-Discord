@@ -8,18 +8,28 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 
 */
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
+
 #bd-settingspane-container h2.ui-form-title::after{
-	content:" Scratched Up Update #22";
+	content:" Scratched Up Update #23";
 	position:absolute;
 	right:5px;
 	top:5px;
+}
+#clockPluginClock::before{
+	content:'Scratched_Up_Update_#23 ';
 }
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
     margin-bottom: 30px;
     padding-top: 20px;
     display: block;
-    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Change Log</text><text y="45" style="font-size: 1.1em;" x="37">1. Added Change Log!</text><text y="65" style="font-size: 1.1em;" x="37">2. Removed Icon For 2 Step Auth (It Was Annoying)</text><text y="85" style="font-size: 1.1em;" x="37">3. Changed Nitro Tab A Little</text><text y="105" style="font-size: 1.1em;" x="37">4. Sliders Now Match Theme Colours</text><text y="125" style="font-size: 1.1em;" x="37">5. Changed Overlay Warning To Match Theme</text><text y="145" style="font-size: 1.1em;" x="37">6. Games Tab Colour Fix</text><text y="165" style="font-size: 1.1em;" x="37">7. This Update Was More Or less A Huge Bug Fix</text></g></svg>');
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="90" style="font-size: 2em; fill: lime;">Change Log</text><text y="115" style="font-size: 1.1em;" x="37">1. Added Change Log!</text><text y="135" style="font-size: 1.1em;" x="37">2. Removed Icon For 2 Step Auth (It Was Annoying)</text><text y="155" style="font-size: 1.1em;" x="37">3. Changed Nitro Tab A Little</text><text y="175" style="font-size: 1.1em;" x="37">4. Sliders Now Match Theme Colours</text><text y="195" style="font-size: 1.1em;" x="37">5. Changed Overlay Warning To Match Theme</text><text y="215" style="font-size: 1.1em;" x="37">6. Games Tab Colour Fix</text><text y="235" style="font-size: 1.1em;" x="37">7. Removed Stremer Mode Tab Image</text><text y="255" style="font-size: 1.1em;" x="37">8. Fixed Friends List Hover</text><text y="275" style="font-size: 1.1em;" x="37">9. Added Links Under "My Account"</text></g></svg>');
+	background:black;
 }
+
+.guilds-wrapper .guilds .guild:first-child{
+	margin-top:20px!important;
+}
+
 
 .theme-dark .chat {
   background: transparent;
@@ -153,6 +163,11 @@ form.deprecated.auth-form footer {
 
 .friends-row:hover, .search-result:hover, .btn-friends.selected, .search-result.selected, .channel.selected.private, .channel.channel-text.selected {
   background: transparent !important;
+}
+
+.theme-dark #friends .friends-table .friends-row:hover{
+	border-color:var(--Main-Colour);
+	border-bottom:2px solid var(--Main-Colour);
 }
 
 .guild-channels .channel-text.selected {
@@ -1680,9 +1695,9 @@ div.tab-bar-item.selected {
 }
 
 div.avatar-uploader-inner {
-  margin-top: 20px !important;
-  width: 200px !important;
-  height: 200px !important;
+  margin-top: 0px !important;
+  width: 170px !important;
+  height: 170px !important;
   background-size: cover !important;
 }
 
@@ -2431,7 +2446,7 @@ div.form-inner, .form-actions {
 }
 
 .avatar-large+.comment .timestamp::after {
-  content: "My GitHub: https://git.io/v7ovg";
+  content: "Github Link: https://git.io/v7ovg";
   background-color: var(--Background-Colour) !important;
   box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
   padding: 6px 10px;
@@ -2444,7 +2459,7 @@ div.form-inner, .form-actions {
   pointer-events: none;
   transition: 80ms ease;
   color: var(--Main-Colour);
-  width: 250px;
+  width: 200px;
   left: 0;
   transform: translate(17px,-7px);
   opacity: 0;
@@ -2673,7 +2688,7 @@ div.form-inner, .form-actions {
 	color: var(--M-Colour);
 }
 
-.theme-dark .defaultColor-v22dK1, #bd-settingspane-container h2.ui-form-title, #bd-settingspane-container .ui-switch-item h3, .theme-dark .h5-3KssQU {
+.theme-dark .defaultColor-v22dK1, #bd-settingspane-container h2.ui-form-title, #bd-settingspane-container .ui-switch-item h3, .theme-dark .h5-3KssQU, .theme-dark .user-settings-account .view-body {
 	color: var(--Main-Colour);
 }
 
@@ -2773,6 +2788,19 @@ div.form-inner, .form-actions {
 
 .theme-dark .user-settings-games .last-played, .theme-dark .user-settings-games .overlay-status-text{
 	color:var(--M-Colour);
+}
+
+.horizontalReverse-2LanvO>.flex-lFgbSz:first-child, .horizontalReverse-2LanvO>.flexChild-1KGW5q:first-child,.create-guild-container.deprecated .action.join .action-icon,.create-guild-container.deprecated .action.create .action-icon{
+	display:none;
+}
+
+.create-guild-container.deprecated .action.join .btn,
+.create-guild-container.deprecated .action .btn{
+	margin-top:15px;
+}
+
+.action.create,.action.join,.create-guild-container.deprecated .create-or-join .actions .or{
+	background: transparent!important;
 }
 
 /* Animations */
