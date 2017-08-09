@@ -9,13 +9,14 @@
   --M-Colour: rgba(0, 226, 204, .5);
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --load1: "Thank You!";
-  --load2: "Please Enjoy!";
-  --load3: "➢NFLD99";
+  --load1: "Testing Theme";
+  --load2: "Enabled";
+  --load3: "Save Often";
   --Chat-Background: url(https://i.imgur.com/DOFpZY5.jpg);
   --Settings-Background: url(https://i.imgur.com/DOFpZY5.jpg);
   --Callout-Background: url(https://i.imgur.com/DOFpZY5.jpg);
   --Login-Background: url(https://i.imgur.com/DOFpZY5.jpg);
+  --Status-Show-Dot: 0; /* 0=No 1=Yes */
 }
 
 
