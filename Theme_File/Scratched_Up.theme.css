@@ -17,6 +17,7 @@
   --Callout-Background: url(https://i.imgur.com/DOFpZY5.jpg);
   --Login-Background: url(https://i.imgur.com/DOFpZY5.jpg);
   --Status-Show-Dot: 0; /* 0=No 1=Yes */
+  --Status-Show-Border: 1; /* 0=No 1=Yes */
 }
 
 

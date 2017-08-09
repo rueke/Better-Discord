@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
     margin-bottom: 30px;
     padding-top: 20px;
     display: block;
-    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="90" style="font-size: 2em; fill: lime;">Change Log</text><text y="115" style="font-size: 1.1em;" x="37">1. Fixed Switches</text><text y="135" style="font-size: 1.1em;" x="37">2. Fix Dm Icons</text><text y="155" style="font-size: 1.1em;" x="37">3. Now Supports Horizontal Serverlist</text><text y="175" style="font-size: 1.1em;" x="37">4. Fixed Join/Create Server Popup</text><text y="195" style="font-size: 1.1em;" x="37">5. You Can Now Toggle Status Dots</text></g></svg>');
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="90" style="font-size: 2em; fill: lime;">Change Log</text><text y="115" style="font-size: 1.1em;" x="37">1. Fixed Switches</text><text y="135" style="font-size: 1.1em;" x="37">2. Fix Dm Icons</text><text y="155" style="font-size: 1.1em;" x="37">3. Now Supports Horizontal Serverlist</text><text y="175" style="font-size: 1.1em;" x="37">4. Fixed Join/Create Server Popup</text><text y="195" style="font-size: 1.1em;" x="37">5. You Can Now Toggle Status Dots</text><text y="215" style="font-size: 1.1em;" x="37">6. You Can Now Toggle Status Border</text><text y="235" style="font-size: 1.1em;" x="37">7. You Can Now Change Text Shadow Colour</text></g></svg>');
 	background:black;
 }
 
@@ -1383,7 +1383,7 @@ spinner-pulsing-ellipsis .spinner-item {
 /*User Status*/
 /* ONLINE */
 .member-status-online .avatar-small {
-  border: 3px solid rgba(67,181,129,0.7) !important;
+  border: 3px solid rgba(67,181,129,var(--Status-Show-Border)) !important;
 }
 
 .status-online {
@@ -1396,7 +1396,7 @@ spinner-pulsing-ellipsis .spinner-item {
 
 /* IDLE */
 .member-status-idle .avatar-small {
-  border: 3px solid rgba(250,166,26,0.7) !important;
+  border: 3px solid rgba(250,166,26,var(--Status-Show-Border)) !important;
 }
 
 .status-idle {
@@ -1409,7 +1409,7 @@ spinner-pulsing-ellipsis .spinner-item {
 
 /* Do Not Desterb*/
 .member-status-dnd .avatar-small {
-  border: 3px solid rgba(250,0,0,0.7) !important;
+  border: 3px solid rgba(250,0,0,var(--Status-Show-Border)) !important;
 }
 
 .status-dnd {
@@ -2727,7 +2727,7 @@ div.form-inner, .form-actions {
 .theme-dark .messages-wrapper .messages .divider.divider-red > span,
 .markup,
 .member.member-status .member-activity {
-    text-shadow: 0 0 6px var(--Background-Colour), 0 0 6px var(--Background-Colour), 0 0 5px var(--Background-Colour), 0 0 4px var(--Background-Colour);
+    text-shadow: 0 0 6px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
 }
 
 .user-settings-security-image{
