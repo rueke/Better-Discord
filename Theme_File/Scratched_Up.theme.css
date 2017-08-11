@@ -7,17 +7,23 @@
   --Background-Colour: rgba(0,0,0, 1);
   --S-Colour: rgba(0,0,0, .3);
   --M-Colour: rgba(0, 226, 204, .5);
+  --Text-Shadow-Colour: rgba(0,0,0, .45);
+  --Scroller-Colour: rgba(0, 226, 204, 0);
+  --Notification-Colour: rgba(0, 226, 204, 1);
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --load1: "Thank You!";
-  --load2: "Please Enjoy!";
-  --load3: "➢NFLD99";
   --Chat-Background: url(https://i.imgur.com/DOFpZY5.jpg);
   --Settings-Background: url(https://i.imgur.com/DOFpZY5.jpg);
   --Callout-Background: url(https://i.imgur.com/DOFpZY5.jpg);
   --Login-Background: url(https://i.imgur.com/DOFpZY5.jpg);
   --Status-Show-Dot: 0; /* 0=No 1=Yes */
   --Status-Show-Border: 1; /* 0=No 1=Yes */
+  --Chat-Font-Used: ; /* Leave Blank For No Custom Font, To Use The One Linked Below Put | 'PT Mono', monospace | */
+  --Chat-Font-Size: 15px; /* 15px Is Normal */
+  --Chat-Font-Import: url(https://fonts.googleapis.com/css?family=PT+Mono); /* Fonts Found Here https://fonts.google.com/?category=Monospace */
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
 }
 
 

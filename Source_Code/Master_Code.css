@@ -8,9 +8,9 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 
 */
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
-
+@import var(--Chat-Font-Import);
 :root{
-	--Update-Text: "Scratched_Up_Update_#25 ";
+	--Update-Text: "Scratched_Up_Update_#26 ";
 }
 #bd-settingspane-container h2.ui-form-title::after {
 	content:var(--Update-Text);
@@ -157,6 +157,10 @@ form.deprecated.auth-form footer {
 	border: 1px solid var(--Main-Colour);
 }
 
+.headerNormal-1cioxU{
+	background:var(--Background-Colour);
+}
+
 #qs_button {
   left: 400px;
 }
@@ -255,7 +259,8 @@ form.deprecated.auth-form footer {
 
 .markup {
   color: #ffffff;
-  font-size: 16px;
+  font-size: var(--Chat-Font-Size)!important;
+  font-family: var(--Chat-Font-Used);
 }
 
 .member.member-status.member-status-offline:hover {
@@ -764,7 +769,7 @@ div p a {
 
 /* User profile popup message box */
 
-.avatar-popout {
+.avatar-1BXaQj.avatar-1jmnc-.popout-UKvsJt {
   border: 3px dotted var(--Main-Colour) !important;
   background-color: rgba(255, 255, 255, 0.8) !important;
 }
@@ -809,7 +814,7 @@ a.channel-name.channel-private, #clockPluginClock, .header-1tSljs, .private-chan
   background-color: var(--Background-Colour) !important;
 }
 
-div.footer {
+div.footer-2J5zqP {
   background-color: var(--Background-Colour) !important;
 }
 
@@ -994,8 +999,8 @@ div.tab-bar-item {
   background: transparent !important;
 }
 
-div.activity {
-  color: #fff !important;
+div.headerActivityText-3qBQRo {
+  color: var(--Main-Colour) !important;
 }
 
 a.embed-title {
@@ -1304,7 +1309,6 @@ div.guild-header header {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
   border: 1px solid var(--Main-Colour) !important;
-  border-bottom: transparent !important;
   margin-top: 1.6px;
   margin-left: 2px;
   margin-bottom: -13px;
@@ -1449,7 +1453,7 @@ spinner-pulsing-ellipsis .spinner-item {
 .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO {
   background: transparent;
   border-radius: 15px;
-  opacity: 0.7;
+  opacity: 7;
 }
 
 /*Mic*/
@@ -1497,7 +1501,7 @@ spinner-pulsing-ellipsis .spinner-item {
   animation: Spin 2.8s infinite linear;
 }
 
-#app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > div > div > div > div:nth-child(37) > div.comment > div.message.mentioned > div.body > div > div.markup {
+#app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > div > div > div > div:nth-child(37) > div.comment > div.message.mentioned > div.body-3rkFrF > div > div.markup {
   background: transparent !important;
   border-top-right-radius: 5px !important;
   border-top-left-radius: 5px !important;
@@ -1525,7 +1529,7 @@ spinner-pulsing-ellipsis .spinner-item {
 
 #bd-emotes-sidebar.selected, #bd-customcss-sidebar.selected, #bd-themes-sidebar.selected, #bd-settings-sidebar .ui-tab-bar-item.selected, #bd-plugins-v.selected, #bd-settings-sidebar .ui-tab-bar-item:hover {
   color: var(--Main-Colour) !important;
-  background: linear-gradient(to right, Transparent, var(--Background-Colour), var(--Main-Colour)) !important;
+  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Notification-Colour)) !important;
 }
 
 #app-mount > div > span:nth-child(6) > div.modal > div > form > div.settings-right > div:nth-child(1) > div > div > div.control-groups > div > div > div.user-settings-streamer-mode-enable-inner > ul > li > div.help-text > a {
@@ -1586,11 +1590,11 @@ a {
   color: var(--Main-Colour) !important;
 }
 
-#app-mount > div > span.theme-dark > div > div > div.body, #app-mount > div > span.theme-dark > div > div > div.footer, #app-mount > div > span.theme-light > div > div > div.body, #app-mount > div > span.theme-light > div > div > div.footer {
+#app-mount > div > span.theme-dark > div > div > div.body-3rkFrF, #app-mount > div > span.theme-dark > div > div > div.footer-2J5zqP, #app-mount > div > span.theme-light > div > div > div.body-3rkFrF, #app-mount > div > span.theme-light > div > div > div.footer-2J5zqP {
   background-color: var(--Background-Colour) !important;
 }
 
-#app-mount > div > span.theme-dark > div > div > div.body > div > div, #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.guilds-wrapper > div > button {
+#app-mount > div > span.theme-dark > div > div > div.body-3rkFrF > div > div, #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.guilds-wrapper > div > button {
   color: var(--Main-Colour) !important;
 }
 
@@ -1821,7 +1825,7 @@ div.flex-spacer.flex-vertical form {
 
 
 /* nitro thing */
-.avatar-large[style*="a_"] + .comment .message.first .body .username-wrapper:after {
+.avatar-large[style*="a_"] + .comment .message.first .body-3rkFrF .username-wrapper:after {
   content: url(https://i.imgur.com/rzf0lV7.png);
   color: lime;
   margin-left: 5px;
@@ -1887,7 +1891,7 @@ div.flex-spacer.flex-vertical form {
 .contentHoveredText-2HYGIY, 
 .contentHoveredVoice-3qGNKh:active, 
 .contentSelectedVoice-gTtYM9:active {
-  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--M-Colour)) !important;
+  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Notification-Colour)) !important;
 }
 
 .vertical-3X17r5 {
@@ -1914,7 +1918,7 @@ div.flex-spacer.flex-vertical form {
 
 .ui-scroller-themed.ui-scroller-ghost-hairline .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scrollerThemed-19vinI.themeGhost-10fio9 .scroller-fzNley::-webkit-scrollbar-thumb {
   background: transparent !important;
-  border: transparent !important;
+  border: 1px solid var(--Scroller-Colour) !important;
 }
 
 .hljs {
@@ -1943,7 +1947,7 @@ div.flex-spacer.flex-vertical form {
   display: block;
   left: 36;
   top: 1;
-  background: linear-gradient(to right, transparent, var(--S-Colour), var(--M-Colour), var(--S-Colour), transparent);
+  background: linear-gradient(to right, transparent, var(--S-Colour), var(--Notification-Colour), var(--S-Colour), transparent);
   animation: shakeUnread 2s ease-in-out infinite alternate;
 }
 
@@ -2148,11 +2152,11 @@ div.flex-spacer.flex-vertical form {
   background-color: transparent !important;
 }
 
-.user-popout {
+.userPopout-4pfA0d {
 	background: var(--Background-Colour);
 }
 
-.user-popout .body {
+.userPopout-4pfA0d .body-3rkFrF {
   background: transparent !important;
   background-color: transparent !important;
 }
@@ -2177,12 +2181,12 @@ div.flex-spacer.flex-vertical form {
   background: black !important;
 }
 
-#user-profile-modal .avatar-wrapper {
+#user-profile-modal .avatarWrapper-2Gfmp1 {
 	    background-color: var(--Background-Colour);
 }
 
-#user-profile-modal .header .header-info .header-info-inner .discord-tag, #user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
-	color: var(--Main-Colour);
+#user-profile-modal .header .header-info .header-info-inner .discord-tag, #user-profile-modal .header .header-info .header-info-inner .discord-tag .headerDiscriminator-3fLlCR , .headerTagNormal-KyD3_J, .headerUsernameNoNickname-1iGxNP{
+	color: var(--Main-Colour)!important;
 }
 
 	/* "name":"SmarterEmbeds","description":"It basically makes the embeds align horizontally, so when there's multitple links in the same message, it takes less space in the chat.","author":"Beard_Design","version":"1.0.0" */
@@ -2386,7 +2390,7 @@ div.form-inner, .form-actions {
 
 .itemDefaultSelected-1UAWLe, .itemBrandSelected-3LxxzT, .itemDefault-3NDwnY:hover, .itemBrand-mC9YR4:hover, .private-channels .channel.selected a, .private-channels .channel:hover a{
   color: var(--Main-Colour) !important;
-  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Main-Colour)) !important;
+  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Notification-Colour)) !important;
 }
 
 .itemDefault-3NDwnY, .itemBrand-mC9YR4, #bd-settings-sidebar .ui-tab-bar-item {
@@ -2823,6 +2827,20 @@ div.form-inner, .form-actions {
 
 .ui-form-item.connection-list{
 	opacity:.75;
+}
+
+.typing {
+	bottom:-7px!important;
+}
+
+.theme-dark .ui-select .Select-option.is-focused, .theme-dark .ui-select .Select-option:hover, .theme-dark .ui-select .Select-option.is-selected:hover {
+	background: Var(--Background-Colour);
+	Color: var(--Main-Colour);
+}
+
+.theme-dark .ui-select .Select-option.is-selected {
+	background: Var(--Background-Colour);
+	border: .5px solid var(--Main-Colour);
 }
 
 /* Animations */
