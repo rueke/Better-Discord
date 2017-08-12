@@ -1301,6 +1301,7 @@ div.guild-header header {
   margin-top: -5px;
   padding-top: 15px;
   vertical-align: middle;
+  text-shadow: 0 0 6px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
 }
 
 .theme-dark .inner-3if5cm {
