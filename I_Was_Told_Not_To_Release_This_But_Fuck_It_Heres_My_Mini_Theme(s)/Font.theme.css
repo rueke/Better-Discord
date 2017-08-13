@@ -1,0 +1,13 @@
+//META{"name":"Font","description":"Enable This Theme LAST For it To Take Effect","author":"NFLD99","version":"1.0"}*//{}
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+:root {
+  --Chat-Font-Used: 'Lobster', cursive ;
+  --Chat-Font-Size: 15.5px;
+}
+
+.app, .message-group .comment .markup code.inline, .message-group .comment .markup pre code, .name-3gtcmp, .textArea-20yzAH {
+  font-family: var(--Chat-Font-Used)!important;
+}
+.markup {
+  font-size: var(--Chat-Font-Size)!important;
+}
