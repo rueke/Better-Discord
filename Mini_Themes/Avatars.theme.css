@@ -1,0 +1,16 @@
+//META{"name":"Avatars","description":"This Theme Makes Avatars Use Circles,  Enable This Theme LAST For it To Take Effect. Best Used If You Have A Theme And Dont Like The Avatars","author":"NFLD99","version":"2.0"}*//{}
+
+.message-group .avatar-large{
+   width           : 50px !important;
+   height          : 50px !important;
+   border          : 0px solid rgba(0,0,0,0.2);
+   border-radius   : 5 !important;
+   background-size : cover !important;
+   transition      : all .9s ease !important;
+   opacity         : 1 !important;
+}
+
+.message-group .avatar-large:hover {
+   width           : 100px !important;
+   height          : 100px !important;
+}

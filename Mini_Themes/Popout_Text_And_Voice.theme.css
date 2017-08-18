@@ -1,0 +1,42 @@
+//META{"name":"Popout_Text_And_Voice","description":"This Theme Makes The Text And Voice Area Hidden Unti Hovered,  Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"2.0"}*//{}
+
+/* channels */
+
+.channels-wrap:not(:hover)  {
+  width: 10px;
+}
+
+.channels-wrap:not(:hover) * {
+  display: none;
+}
+
+.channels-wrap:hover{
+  animation: shakeUnread 2s 1 ease-in-out;
+}
+
+@keyframes shakeUnread {
+  0% {
+    transform: translate(calc(100% / -2 - 36px), 0);
+	opacity: 0;
+  }
+
+  100% {
+    transform: translate(calc(100% / 0 + 0px), 0);
+	opacity: 1;
+  }
+}
+
+/* Guilds */
+/*
+.guilds-wrapper:not(:hover), .channels-wrap:not(:hover)  {
+  width: 10px;
+}
+
+.guilds-wrapper:not(:hover) *, .channels-wrap:not(:hover) * {
+  display: none;
+}
+
+.guilds-wrapper:hover{
+  animation: shakeUnread 2s 1 ease-in-out;
+}
+*/

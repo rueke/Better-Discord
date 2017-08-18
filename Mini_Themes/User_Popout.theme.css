@@ -1,0 +1,45 @@
+//META{"name":"User_Popout","description":"Changes The User Popout Look,  Enable This Theme LAST For it To Take Effect","author":"NFLD99","version":"2.0"}*//{}
+
+:root {
+  --Background-Colour: black;
+  --Main-Colour: aqua;
+}
+
+.userPopout-4pfA0d {
+	background: var(--Background-Colour);
+}
+
+.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.userPopout-4pfA0d .quick-message{
+	color: var(--Main-Colour);
+}
+
+.userPopout-4pfA0d .avatar-1BXaQj {
+    background-clip: padding-box;
+    position: relative;
+    background: 50% 50%/cover;
+    border-radius: 10px!important;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+	width: 200px!important;
+    height: 200px!important;
+	border: none;
+}
+
+.userPopout-4pfA0d .status-3jUEha{
+	width: 150%!important;
+    height: 5px!important;
+	bottom: -10%;
+	left:-20%;
+	border-radius: 0px!important;
+	border-color:var(--Background-Colour)!important;
+}
+
+.userPopout-4pfA0d .footer-2J5zqP{
+  display: none;
+}
+
