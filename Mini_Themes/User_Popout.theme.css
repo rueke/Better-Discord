@@ -30,6 +30,26 @@
 	border: none;
 }
 
+.avatarHint-2i5XWK {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    border-radius: 5%!important;
+    -webkit-box-shadow: inset 0 0 120px rgba(0,0,0,.75);
+    box-shadow: inset 0 0 120px rgba(0,0,0,.75);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    margin: 3px;
+    opacity: 0;
+    -webkit-transition: opacity .1s ease;
+    transition: opacity .1s ease;
+}
+
 .userPopout-4pfA0d .status-3jUEha{
 	width: 150%!important;
     height: 5px!important;
