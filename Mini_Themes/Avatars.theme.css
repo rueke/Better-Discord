@@ -1,16 +1,46 @@
 //META{"name":"Avatars","description":"This Theme Makes Avatars Use Circles,  Enable This Theme LAST For it To Take Effect. Best Used If You Have A Theme And Dont Like The Avatars","author":"NFLD99","version":"2.0"}*//{}
 
-.message-group .avatar-large{
-   width           : 50px !important;
-   height          : 50px !important;
-   border          : 0px solid rgba(0,0,0,0.2);
-   border-radius   : 5 !important;
-   background-size : cover !important;
-   transition      : all .9s ease !important;
-   opacity         : 1 !important;
+.message-group .avatar-large {
+    -ms-flex-negative: 0!important;
+    flex-shrink: 0!important;
+    margin-top: -2px!important;
+    margin-right: 20px!important;
 }
 
-.message-group .avatar-large:hover {
-   width           : 100px !important;
-   height          : 100px !important;
+.chat .avatar-large {
+    cursor: pointer!important;
+    opacity: 1!important;
+    -webkit-transition: opacity .2s ease!important;
+    transition: opacity .2s ease!important;
+}
+
+.avatar-large {
+    width: 40px!important;
+    height: 40px!important;
+    background-size: 40px 40px!important;
+}
+
+.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
+    background-clip: padding-box!important;
+    position: relative!important;
+    background-color: none!important;
+    background-position: 50%!important;
+    border-radius: 50%!important;
+}
+
+.channel-members .avatar-small {
+    float: none!important;
+    margin: 0 10px 0 0!important;
+    -ms-flex-negative: 0!important;
+    flex-shrink: 0!important;
+}
+
+
+
+.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
+    background-clip: padding-box!important;
+    position: relative!important;
+    background-color: none!important;
+    background-position: 50%!important;
+    border-radius: 50%!important;
 }
