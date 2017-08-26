@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 
 :root{
-	--Update-Text: "Update_#30 ";
+	--Update-Text: "Update_#31 ";
 }
 #bd-settingspane-container h2.ui-form-title::after {
 	content:var(--Update-Text);
@@ -25,7 +25,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
     margin-bottom: 30px;
     padding-top: 20px;
     display: block;
-    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="90" style="font-size: 2em; fill: lime;">Change Log</text><text y="115" style="font-size: 1.1em;" x="37">1. Added Unread-Message-Speed</text></g></svg>');
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="90" style="font-size: 2em; fill: lime;">Change Log</text><text y="115" style="font-size: 1.1em;" x="37">1. Added Small Res Support</text><text y="135" style="font-size: 1.1em;" x="37">2. New Esc Text</text><text y="155" style="font-size: 1.1em;" x="37">3. Added New Icon Tray (Thanks To uri#0002)</text></g></svg>');
 	background:black;
 }
 
@@ -357,10 +357,6 @@ form.deprecated.auth-form footer {
 
 .btn-group {
   opacity: 0.6 !important;
-}
-
-.channels-wrap {
-  width: 15vw !important;
 }
 
 .account .username {
@@ -1295,7 +1291,7 @@ div.guild-header header {
 }
 
 .theme-dark .inner-3if5cm textarea {
-  padding-left: 10 px;
+  padding-left: 10px!important;
   margin-bottom: -10px;
   color: var(--Chat-Input-Colour) !important;
   background-color: transparent !important;
@@ -2900,7 +2896,69 @@ div.form-inner, .form-actions {
 	color: var(--Background-Colour)!important;
 }
 
+.esc-text:after {
+  width: 50px;
+  height: 50px;
+  content: " Made By NFLD99";
+  background-size: 32px 28px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
 
+/* Thanks To uri#0002 For This Code */
+.channels-wrap > div:last-child{
+	position: relative;
+	overflow: visible;
+}
+
+.channels-wrap > div:last-child > div:last-child{
+	width: 35px;
+	height: 35px;
+	background-color: transparent!important;
+	border-radius: 5px!important;
+	margin: 0;
+	padding: 0 0 25px 0;
+	position: absolute;
+	bottom: 5px;
+	right: 0;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 200ms;
+	z-index: 3;
+	box-sizing: border-box;
+}
+
+.channels-wrap > div:last-child:hover > div:last-child:hover{
+	height: 140px;
+	background-color: var(--Background-Colour)!important;
+}
+
+.channels-wrap > div:last-child > div:last-child:before{
+	content: "";
+	width: 20px;
+	height: 20px;
+	background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnPgoJPGc+CgkJPHBvbHlnb24gcG9pbnRzPSIyMDAuMzQ4LDAgMzMuMzkxLDAgMCwwIDAsMzMuMzkxIDAsMjAwLjM0OCAwLDIzMy43MzkgMzMuMzkxLDIzMy43MzkgMjAwLjM0OCwyMzMuNzM5IDIzMy43MzksMjMzLjczOSAgICAgMjMzLjczOSwyMDAuMzQ4IDIzMy43MzksMzMuMzkxIDIzMy43MzksMCAgICIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBvbHlnb24gcG9pbnRzPSI0NzguNjA5LDAgMzExLjY1MiwwIDI3OC4yNjEsMCAyNzguMjYxLDMzLjM5MSAyNzguMjYxLDIwMC4zNDggMjc4LjI2MSwyMzMuNzM5IDMxMS42NTIsMjMzLjczOSA0NzguNjA5LDIzMy43MzkgICAgIDUxMiwyMzMuNzM5IDUxMiwyMDAuMzQ4IDUxMiwzMy4zOTEgNTEyLDAgICAiIGZpbGw9IiNGRkZGRkYiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwb2x5Z29uIHBvaW50cz0iMjAwLjM0OCwyNzguMjYxIDMzLjM5MSwyNzguMjYxIDAsMjc4LjI2MSAwLDMxMS42NTIgMCw0NzguNjA5IDAsNTEyIDMzLjM5MSw1MTIgMjAwLjM0OCw1MTIgMjMzLjczOSw1MTIgICAgIDIzMy43MzksNDc4LjYwOSAyMzMuNzM5LDMxMS42NTIgMjMzLjczOSwyNzguMjYxICAgIiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjQ3OC42MDksMjc4LjI2MSAzMTEuNjUyLDI3OC4yNjEgMjc4LjI2MSwyNzguMjYxIDI3OC4yNjEsMzExLjY1MiAyNzguMjYxLDQ3OC42MDkgMjc4LjI2MSw1MTIgMzExLjY1Miw1MTIgICAgIDQ3OC42MDksNTEyIDUxMiw1MTIgNTEyLDQ3OC42MDkgNTEyLDMxMS42NTIgNTEyLDI3OC4yNjEgICAiIGZpbGw9IiNGRkZGRkYiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	right: 7px;
+	bottom: 9px;
+	opacity: 0.2;
+	transition: opacity 200ms;
+}
+
+.channels-wrap > div:last-child:hover > div:last-child:before{opacity: 0.5;}
+
+.channels-wrap > div:last-child > div:last-child > div *{
+	left: 0;
+	display: none;
+}
+
+.channels-wrap > div:last-child:hover > div:last-child:hover > div *{display: block;}
+
+/* Thanks To uri#0002 For This Code */
 
 /* Animations */
 
