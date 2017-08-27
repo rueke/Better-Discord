@@ -1,13 +1,6 @@
-# Theme List
- - All In The New Theme File!
- - Static Rainbow   https://youtu.be/HZdSKlDzyi4
- - Black/Green      https://youtu.be/5rPu4CqIqys
- - Black/Blue       https://youtu.be/ujMrwttbIuA
- - Black/Red        https://youtu.be/mYCrBC7_emc
- - Rainbow          https://youtu.be/6y6zcvjI5sA
- - Black/Pink       https://youtu.be/fe2awPTNi5Q
- - Black/Aqua       https://youtu.be/0JVupEa7Aaw
- - Default          https://youtu.be/OdLNrD2RICM
+# Theme Preview
+ - https://youtu.be/B9XAUj7YkbA
+ 
  # Root Explained
  - This Has Been Moved To The Wiki Tab
  

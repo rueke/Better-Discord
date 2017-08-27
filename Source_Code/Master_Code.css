@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 
 :root{
-	--Update-Text: "Update_#31 ";
+	--Update-Text: "Update_#32 ";
 }
 #bd-settingspane-container h2.ui-form-title::after {
 	content:var(--Update-Text);
@@ -25,7 +25,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
     margin-bottom: 30px;
     padding-top: 20px;
     display: block;
-    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="90" style="font-size: 2em; fill: lime;">Change Log</text><text y="115" style="font-size: 1.1em;" x="37">1. Added Small Res Support</text><text y="135" style="font-size: 1.1em;" x="37">2. New Esc Text</text><text y="155" style="font-size: 1.1em;" x="37">3. Added New Icon Tray (Thanks To uri#0002)</text></g></svg>');
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="90" style="font-size: 2em; fill: lime;">Change Log</text><text y="115" style="font-size: 1.1em;" x="37">1.Bug Fix</text></g></svg>');
 	background:black;
 }
 
@@ -91,8 +91,8 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background: var(--Callout-Background) 50% 50%/cover !important;
 }
 
-.auth-center {
-    background: var(--login-Background) 50% 50%/cover !important;
+.auth-background {
+    background: url(https://i.imgur.com/DOFpZY5.jpg) 50% 50%/cover !important;
 }
 
 form.deprecated.auth-form {
@@ -2618,7 +2618,7 @@ div.form-inner, .form-actions {
   display: inline-block;
   padding: 3px 6px;
   text-shadow: 0 1px 0 rgba(0,0,0,.25);
-  left: -165px;
+  left: -200px;
   position: relative;
 }
 
@@ -2959,6 +2959,27 @@ div.form-inner, .form-actions {
 .channels-wrap > div:last-child:hover > div:last-child:hover > div *{display: block;}
 
 /* Thanks To uri#0002 For This Code */
+
+#user-profile-modal .avatar-wrapper {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: transparent!important;
+}
+
+.avatar-profile {
+    border-radius: 5px!important;
+}
+
+.avatar-profile .status {
+    width: 30px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 4px solid #fff;
+    bottom: 62px;
+    right: -40px;
+}
 
 /* Animations */
 
