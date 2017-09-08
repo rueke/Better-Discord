@@ -2,82 +2,56 @@
 
 @keyframes Spin {
     0% {
-        -webkit-transform: rotate(0deg) scale(0.9);
-        transform: rotate(0deg) scale(0.9);
     }
     100% {
-        -webkit-transform: rotate(360deg) scale(0.9);
-        transform: rotate(360deg) scale(0.9);
     }
 }
 
 @keyframes Talking {
     0% {
-        transform: rotate(-360deg) scale(1);
-		box-shadow: 0 0 0 2px var(--Main-Colour);
     }
     100% {
-        transform: rotate(360deg) scale(1);
-		box-shadow: 0 0 0 2px var(--Main-Colour);
     }
 }
 
 @keyframes Load4 {
     0% {
-        -webkit-transform: scale(0);
-        transform: rotate(-360deg) scale(0);
-		opacity:1;
     }
     100% {
-        -webkit-transform: scale(1);
-        transform: rotate(360deg) scale(1);
-		opacity:1;
     }
 }
 
 @keyframes opacity {
   0% {
-    opacity: 1;
-    background-color: var(--Unread-Message-1);
   }
 
   50% {
-    opacity: 1;
-    background-color: var(--Unread-Message-2);
   }
 
   100% {
-    opacity: 1;
-    background-color: var(--Unread-Message-1);
   }
 }
 
 @keyframes color_change {
   from {
-    color: var(--Background-Colour);
   }
 
   to {
-    color: #00c416;
   }
 }
 
 @keyframes shakeUnread {
   0% {
-    transform: translate(calc(100% / -2 - 36px), 0);
   }
 
   100% {
-    transform: translate(calc(100% / 2 + 8px), 0);
   }
 }
 
 @keyframes rainbow {
   from {
-    -webkit-filter: hue-rotate(0deg);
   }
 
   to {
-    -webkit-filter: hue-rotate(360deg);
   }
 }
