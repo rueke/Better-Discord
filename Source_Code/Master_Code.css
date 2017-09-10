@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 
 :root{
-	--Update-Text: "Update_#33 ";
+	--Update-Text: "Update_#34 ";
 }
 #bd-settingspane-container h2.ui-form-title::after {
 	content:var(--Update-Text);
@@ -25,7 +25,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
     margin-bottom: 30px;
     padding-top: 20px;
     display: block;
-    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="90" style="font-size: 2em; fill: lime;">Change Log</text><text y="115" style="font-size: 1.1em;" x="37">1. New Animation</text><text y="135" style="font-size: 1.1em;" x="37">2. Toggle Animations</text><text y="155" style="font-size: 1.1em;" x="37">3. Change Unread Pulse Speed</text><text y="175" style="font-size: 1.1em;" x="37">4. Toggle Fonts</text><text y="195" style="font-size: 1.1em;" x="37">5. Toggle Tpying Rainbow</text></g></svg>');
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="90" style="font-size: 2em; fill: lime;">Change Log</text><text y="115" style="font-size: 1.1em;" x="37">1. Update For Upcomming Discord Update</text></g></svg>');
 	background:black;
 }
 
@@ -44,8 +44,23 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	margin-top:20px!important;
 }
 
-.theme-dark .chat {
+.theme-dark .chat,.native-toolbar .app-layer {
   background: transparent;
+}
+
+.native-toolbar .titlebar {
+    position: relative;
+    background: rgba(216,0,86,var(--Title-Rainbow));
+    background-size: 54px 10px;
+	animation: rainbow 6s infinite linear;
+}
+
+.native-toolbar .titlebar:after{
+	content:var(--Update-Text);
+	position: absolute;
+    left: 5px;
+	bottom: 3px;
+	color: Var(--M-Colour) !important;
 }
 
 .theme-dark .messages-wrapper .messages .divider:not(.red) span {
