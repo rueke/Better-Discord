@@ -3008,7 +3008,7 @@ div.form-inner, .form-actions {
     border-color: var(--Main-Colour);
 }
 
-.wrapperDefault-1Dl4SS,.wrapperHovered-1KDCyZ {
+.wrapperDefault-1Dl4SS,.wrapperHovered-1KDCyZ,.containerDefault-1bbItS, .containerDragAfter-3O-noP, .containerDragBefore-2hcouM, .containerUserOver-3O3u5c {
 	height:15px;
     padding-top: 0px;
 }
