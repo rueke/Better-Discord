@@ -1,0 +1,18 @@
+//META{"name":"Make_Names_Clean","description":"Forces Name Font Size And Colour In Chat,  Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"1.0"}*//{}
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Fonts/Yes.css);
+:root {
+  --Name-Font-Used: 'Lobster', cursive ;
+  --Name-Font-Size: 15.5px;
+  --Name-Colour: #00f1ff ;
+  --Name-Colour-h: #a100ff ;
+}
+  
+.chat .user-name{
+color: var(--Name-Colour) !important;
+font-size: var(--Name-Font-Size)!important;
+font-family: var(--Name-Font-Used)!important;
+}
+
+.chat .user-name:hover{
+color: var(--Name-Colour-h) !important;
+}
