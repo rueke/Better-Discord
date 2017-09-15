@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 
 :root{
-	--Update-Text: "Update_#35 ";
+	--Update-Text: "Update_#36 ";
 }
 #bd-settingspane-container h2.ui-form-title::after {
 	content:var(--Update-Text);
@@ -25,7 +25,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
     margin-bottom: 30px;
     padding-top: 20px;
     display: block;
-    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="90" style="font-size: 2em; fill: lime;">Change Log</text><text y="115" style="font-size: 1.1em;" x="37">1. Update For Upcomming Discord Update</text><text y="135" style="font-size: 1.1em;" x="37">2. Fixed Spaceing For Category</text></g></svg>');
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="90" style="font-size: 2em; fill: lime;">Change Log</text><text y="115" style="font-size: 1.1em;" x="37">1. You Can Now Toggle Server Grid</text></g></svg>');
 	background:black;
 }
 
@@ -2252,116 +2252,11 @@ div.flex-spacer.flex-vertical form {
 }
    /* "name":"SmarterEmbeds","description":"It basically makes the embeds align horizontally, so when there's multitple links in the same message, it takes less space in the chat.","author":"Beard_Design","version":"1.0.0" */
 
-.guilds-wrapper {
-  width: 115px;
-}
-
-.guilds-wrapper .scroller-wrap {
-  width: 130px;
-}
-
-.guilds-wrapper .guilds {
-  display: flex;
-  flex-flow: row wrap;
-  padding-left: 0;
-  align-content: flex-start;
-  justify-content: center;
-}
-
-.guilds-wrapper .guilds .guild {
-  position: relative;
-  margin: 8px 5px 2px 5px;
-}
-
 .guilds-wrapper .guilds .guild,
 .guilds-wrapper .guilds .guild .guild-inner a {
   width: 40px;
   height: 40px;
 }
-
-.guilds-wrapper .guilds .guild .guild-inner {
-  cursor: pointer;
-  overflow: hidden;
-  border-radius: 25px;
-  background: transparent !important;
-  font-size: 18px;
-  text-align: center;
-  line-height: 50px;
-}
-
-.guilds-wrapper .guilds .friends-icon {
-  background-size: 50%!important;
-  background-position: 30% 35%!important;
-}
-
-.guilds-wrapper .guilds .guild .guild-inner a {
-  background-size: cover!important;
-}
-
-.guilds-wrapper .guilds .guild.unread::before {
-  left: -2px;
-  top: 5px;
-  z-index: 9000;
-}
-
-.guilds-wrapper .guilds > .guild:first-child {
-  position: relative;
-  left: 0;
-  margin: auto;
-}
-
-#bd-pub-li {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#bd-pub-li #bd-pub-button {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-}
-
-.guilds-wrapper .guilds .guild-separator {
-  position: relative;
-  width: 100%;
-}
-
-.guilds-wrapper .guilds .friends-online {
-  position: relative;
-  width: 100%;
-  margin: auto;
-  margin-top: 5px;
-}
-
-.guilds-wrapper .guilds .guild.selected:before {
-  display: none;
-}
-
-.guilds-wrapper .guilds .dms {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.guilds-wrapper .guilds .dms .guild {
-  left: 0;
-}
-
-.guilds-wrapper .guilds .dms .guild {
-  margin: 8px 8px 8px 0;
-}
-
-.guilds-wrapper .guilds .dms .guild + .guild {
-  margin-left: 0;
-}
-
-.guilds-wrapper .guilds .dms:empty {
-  display: none;
-}
-
 
 .theme-dark .themed-popout {
   background-color: var(--Background-Colour);
@@ -3008,9 +2903,12 @@ div.form-inner, .form-actions {
     border-color: var(--Main-Colour);
 }
 
-.wrapperDefault-1Dl4SS,.wrapperHovered-1KDCyZ,.containerDefault-1bbItS, .containerDragAfter-3O-noP, .containerDragBefore-2hcouM, .containerUserOver-3O3u5c {
-	height:15px;
-    padding-top: 0px;
+.channels-wrap [class^="scroller"] > [style^="width: 100%; height: 0"]{
+	overflow:visible!important;
+}
+
+.avatarHint-2i5XWK{
+	border-radius:0;
 }
 
 /* Support For Switch Fix */

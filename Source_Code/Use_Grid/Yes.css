@@ -1,0 +1,105 @@
+/* Display servers in 2 column grid (edited by uri#0002) */
+
+.guilds-wrapper {
+  width: 115px;
+}
+
+.guilds-wrapper .scroller-wrap {
+  width: 130px;
+}
+
+.guilds-wrapper .guilds {
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 0;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.guilds-wrapper .guilds .guild {
+  position: relative;
+  margin: 8px 5px 2px 5px;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 25px;
+  background: transparent !important;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.guilds-wrapper .guilds .friends-icon {
+  background-size: 50%!important;
+  background-position: 30% 35%!important;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+  background-size: cover!important;
+}
+
+.guilds-wrapper .guilds .guild.unread::before {
+  left: -2px;
+  top: 5px;
+  z-index: 9000;
+}
+
+.guilds-wrapper .guilds > .guild:first-child {
+  position: relative;
+  left: 0;
+  margin: auto;
+}
+
+#bd-pub-li {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#bd-pub-li #bd-pub-button {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.guilds-wrapper .guilds .guild-separator {
+  position: relative;
+  width: 100%;
+}
+
+.guilds-wrapper .guilds .friends-online {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.guilds-wrapper .guilds .guild.selected:before {
+  display: none;
+}
+
+.guilds-wrapper .guilds .dms {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.guilds-wrapper .guilds .dms .guild {
+  left: 0;
+}
+
+.guilds-wrapper .guilds .dms .guild {
+  margin: 8px 8px 8px 0;
+}
+
+.guilds-wrapper .guilds .dms .guild + .guild {
+  margin-left: 0;
+}
+
+.guilds-wrapper .guilds .dms:empty {
+  display: none;
+}
