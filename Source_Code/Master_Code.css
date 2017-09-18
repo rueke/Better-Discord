@@ -9,8 +9,9 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 */
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 
+
 :root{
-	--Update-Text: "Update_#37 ";
+	--Update-Text: "Update_#38 ";
 }
 #bd-settingspane-container h2.ui-form-title::after {
 	content:var(--Update-Text);
@@ -22,11 +23,11 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	content:var(--Update-Text);
 }
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
-    margin-bottom: 30px;
-    padding-top: 20px;
+    margin-bottom: -3px;
+    padding-top: 0;
     display: block;
 	background:black;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 325" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="90" style="font-size: 2em; fill: lime;">Change Log</text><text y="115" style="font-size: 1.1em;" x="37">1. Now Supports Minimal Mode</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 335" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/MhtfhA4</text><text y="85" style="font-size: 1.1em;" x="37">Wiki: https://tinyurl.com/NFLD99sWiki</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. You can now revoke bans</text><text y="155" style="font-size: 1.1em;" x="37">2. Added wiki link</text></g></svg>');
 }
 
 .container-3lnMWU:after {
@@ -2734,7 +2735,7 @@ div.form-inner, .form-actions {
 	color:var(--M-Colour);
 }
 
-.horizontalReverse-2LanvO>.flex-lFgbSz:first-child, .horizontalReverse-2LanvO>.flexChild-1KGW5q:first-child,.create-guild-container.deprecated .action.join .action-icon,.create-guild-container.deprecated .action.create .action-icon{
+.horizontalReverse-2LanvO>.flexChild-1KGW5q:first-child,.create-guild-container.deprecated .action.join .action-icon,.create-guild-container.deprecated .action.create .action-icon{
 	display:none;
 }
 
