@@ -1,15 +1,14 @@
-# Theme Preview
- - https://youtu.be/B9XAUj7YkbA
+# Theme Previews
+ - https://www.nfld99.com/previews
  
- # Root Explained
- - This Has Been Moved To The Wiki Tab
+ # Wiki
+ - https://www.nfld99.com/wiki
  
  # Discord Update Server
- - https://discord.gg/MhtfhA4
+ - https://www.nfld99.com/discord
  
  # How To Report A Bug
- - Send me an e-mail. Please provide as much info as possible screen-shot(s) if possible.
- - Dawsonsdiscordthemes [at] gmail [dot] com
+ - Join the discord
  
   # Website
  - https://www.nfld99.com/
