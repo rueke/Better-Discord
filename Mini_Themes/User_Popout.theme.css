@@ -14,7 +14,7 @@
   background-color: transparent !important;
 }
 
-.userPopout-4pfA0d .quick-message{
+.userPopout-4pfA0d .quick-message,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator{
 	color: var(--Main-Colour);
 }
 
@@ -63,3 +63,29 @@
   display: none;
 }
 
+#user-profile-modal .header:after {
+  background: transparent !important;
+  background-color: var(--Background-Colour) !important;
+}
+
+#user-profile-modal .tab-bar-container {
+  background: transparent !important;
+  background-color: var(--Background-Colour) !important;
+  border-bottom: 1px solid var(--Background-Colour);
+}
+
+#user-profile-modal .empty {
+  background: black !important;
+}
+
+#user-profile-modal .avatar-wrapper {
+  background: transparent !important;
+}
+
+#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller {
+	background-color: var(--Background-Colour);
+}
+
+#user-profile-modal .header .header-info .header-info-inner .discord-tag, #user-profile-modal .header .header-info .header-info-inner .discord-tag .headerDiscriminator-3fLlCR , .headerTagNormal-KyD3_J, .headerUsernameNoNickname-1iGxNP{
+	color: var(--Main-Colour)!important;
+}
