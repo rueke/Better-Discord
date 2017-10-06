@@ -1,4 +1,4 @@
-//META{"name":"Mini_ladd","description":"Github: https://git.io/v7ovg ,For More Info And The Support Link Please Visit My Site https://www.nfld99.com/","author":"NFLD99","version":"ersion auto updates"}*//{}
+//META{"name":"Halloween","description":"Github: https://git.io/v7ovg ,For More Info And The Support Link Please Visit My Site https://www.nfld99.com/","author":"NFLD99","version":"ersion auto updates"}*//{}
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Master_Code.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Animations/Yes.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Fonts/Yes.css);
@@ -15,9 +15,9 @@
   --Chat-Input-Colour: var(--Main-Colour) ;
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: url(https://i.imgur.com/iziz7MH.jpg);
-  --Settings-Background: url(https://i.imgur.com/iziz7MH.jpg);
-  --Callout-Background: url(https://i.imgur.com/iziz7MH.jpg);
+  --Chat-Background: url(https://i.imgur.com/kXpXawU.jpg);
+  --Settings-Background: url(https://i.imgur.com/kXpXawU.jpg);
+  --Callout-Background: url(https://i.imgur.com/kXpXawU.jpg);
   --Status-Show-Dot: 0;
   --Status-Show-Border: 1;
   --Tpying-Rainbow: 0.2;
@@ -33,7 +33,7 @@
 .guilds-wrapper .guilds .friends-icon {
     width: 50px;
     height: 50px;
-    background-image: url(https://i.imgur.com/gHbWNyR.jpg);
+    background-image: url(https://i.imgur.com/V8P3GPU.png);
     background-size: 100%;
     background-position: 100%;
     background-repeat: no-repeat;
