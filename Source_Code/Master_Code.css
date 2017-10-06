@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 :root{
-	--Update-Text: "Update_#49 ";
+	--Update-Text: "Update_#50 ";
 }
 #bd-settingspane-container h2.ui-form-title::after {
 	content:var(--Update-Text);
@@ -26,7 +26,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
     padding-top: 0;
     display: block;
 	background:black;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 230" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="85" style="font-size: 1.1em;" x="37">Wiki: https://www.nfld99.com/wiki</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Fixed New Notifation</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 230" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="85" style="font-size: 1.1em;" x="37">Wiki: https://www.nfld99.com/wiki</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Fixed New Notifation and unread</text></g></svg>');
 }
 
 .container-3lnMWU:after {
@@ -1706,8 +1706,9 @@ div.settings-right > div.settings-actions {
   color: var(--Main-Colour) !important;
 }
 
-.new-messages-bar {
-  background-color: var(--Background-Colour) !important;
+.new-messages-bar,div[class*=" unreadBar-"],.mention-RlZ5F3 {
+  background: linear-gradient(to right,  var(--M-Colour), var(--S-Colour), var(--S-Colour), var(--S-Colour), var(--M-Colour)) !important;
+  color: var(--Main-Colour) !important;
 }
 
 .spinner-pulsing-ellipsis .spinner-item {
