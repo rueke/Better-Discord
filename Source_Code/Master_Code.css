@@ -1377,7 +1377,6 @@ div.flex-spacer.flex-vertical form {
 
 .guilds {
   transition: all 900ms ease !important;
-  background: var(--S-Colour) !important;
   border-right-width: 5px !important;
   border-color: #121212 !important;
   border-style: solid !important;
@@ -1707,7 +1706,7 @@ div.settings-right > div.settings-actions {
 }
 
 .chat .new-messages-bar,div[class*=" unreadBar-"],.mention-RlZ5F3,.theme-dark .chat .jump-to-present-bar,.channels-wrap > div:last-child:hover > div:last-child:hover {
-  background: linear-gradient(to right,  var(--M-Colour), var(--S-Colour), var(--S-Colour), var(--S-Colour), var(--M-Colour)) !important;
+  background: linear-gradient(to right, var(--Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--Main-Colour)) !important;
   color: var(--Main-Colour) !important;
 }
 
