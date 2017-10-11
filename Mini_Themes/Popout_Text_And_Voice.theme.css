@@ -1,4 +1,4 @@
-//META{"name":"Popout_Text_And_Voice","description":"This Theme Makes The Text And Voice Area Hidden Unti Hovered,  NOTE: You May Need To Scroll On DM List For It To Show,  Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"3.0"}*//{}
+//META{"name":"Popout_Text_And_Voice","description":"This Theme Makes The Guild, Members, Text And Voice Area Hidden Unti Hovered,  NOTE: You May Need To Scroll On DM List For It To Show,  Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"4.0"}*//{}
 
 /* channels */
 
@@ -15,10 +15,49 @@
 }
 
 .channels-wrap:hover {
-  animation: shakeUnread 2s 1 ease-in-out;
+  animation: Popout 1s 1 ease-in-out;
 }
 
-@keyframes shakeUnread {
+/* Guilds */
+
+.guilds-wrapper:not(:hover) {
+  width: 10px;
+  height: 55px;
+  border: 1px solid green;
+  top: 92.5%;
+  position: relative;
+  background:transparent;
+}
+
+.guilds-wrapper:not(:hover), .channels-wrap:not(:hover)  {
+  width: 10px;
+}
+
+.guilds-wrapper:not(:hover) *, .channels-wrap:not(:hover) * {
+  display: none;
+}
+
+.guilds-wrapper:hover{
+  display: inherit	 ;
+}
+
+/* Members */
+.channel-members-wrap:not(:hover) {
+  width: 10px;
+}
+.channel-members-wrap:not(:hover) {
+  width: 10px;
+  height: 55px;
+  border: 1px solid green;
+  top: 0%;
+  position: relative;
+  background:transparent;
+  min-width: 10px;
+}
+
+/* animation */
+
+@keyframes Popout {
   0% {
     transform: translate(calc(100% / -2 - 36px), 0);
 	opacity: 0;
@@ -29,18 +68,3 @@
 	opacity: 1;
   }
 }
-
-/* Guilds */
-/*
-.guilds-wrapper:not(:hover), .channels-wrap:not(:hover)  {
-  width: 10px;
-}
-
-.guilds-wrapper:not(:hover) *, .channels-wrap:not(:hover) * {
-  display: none;
-}
-
-.guilds-wrapper:hover{
-  animation: shakeUnread 2s 1 ease-in-out;
-}
-*/
