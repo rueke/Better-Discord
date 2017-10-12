@@ -55,3 +55,7 @@
   to {
   }
 }
+
+.name-2SL4ev.nameUnreadText-1pxldj:before {
+  background: linear-gradient(to right, var(--Notification-Colour), var(--S-Colour), transparent);
+}
