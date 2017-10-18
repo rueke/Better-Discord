@@ -1,11 +1,10 @@
-//META{"name":"Popout_Text_And_Voice","description":"This Theme Makes The Guild, Members, Text And Voice Area Hidden Unti Hovered,  NOTE: You May Need To Scroll On DM List For It To Show,  Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"4.0"}*//{}
-
+//META{"name":"Popout_Text_And_Voice","description":"This Theme Makes The Guilds(Red), Members(Aqua), Text And Voice Area(Lime) Hidden Unti Hovered,  NOTE: You May Need To Scroll On DM List For It To Show,  Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"4.0"}*//{}
 /* channels */
 
 .channels-wrap:not(:hover) {
   width: 10px;
   height: 55px;
-  border: 1px solid green;
+  border: 1px solid lime;
   top: 92.5%;
   position: relative;
 }
@@ -23,7 +22,7 @@
 .guilds-wrapper:not(:hover) {
   width: 10px;
   height: 55px;
-  border: 1px solid green;
+  border: 1px solid red;
   top: 92.5%;
   position: relative;
   background:transparent;
@@ -48,7 +47,7 @@
 .channel-members-wrap:not(:hover) {
   width: 10px;
   height: 55px;
-  border: 1px solid green;
+  border: 1px solid aqua;
   top: 0%;
   position: relative;
   background:transparent;
