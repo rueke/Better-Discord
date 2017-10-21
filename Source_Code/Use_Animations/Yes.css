@@ -89,3 +89,17 @@
     -webkit-filter: hue-rotate(360deg);
   }
 }
+
+@keyframes Connecting {
+  0% {
+    background: var(--Chat-Background);
+  }
+
+  50% {
+    background: var(--Settings-Background);
+  }
+
+  100% {
+    background: var(--Callout-Background);
+  }
+}

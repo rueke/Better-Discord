@@ -151,7 +151,16 @@ form.deprecated.auth-form .btn-primary{
 }
 
 .connecting {
-	background: transparent !important;
+	background: var(--Chat-Background);
+	color: var(--M-Colour);
+	animation: Connecting 2s ease-in-out infinite alternate;
+}
+
+.connecting .attribution, .connecting .connection-status, .connecting .quote, .connecting .connecting-problems .connecting-problems-text {
+	color: var(--M-Colour);
+}
+.connecting a {
+	color: var(--Main-Colour);
 }
 
 form.deprecated.auth-form h1, form.deprecated.auth-form .control-group input[type=email], form.deprecated.auth-form .control-group input[type=password], form.deprecated.auth-form .control-group input[type=text], form.deprecated.auth-form .btn-forgot-password {
