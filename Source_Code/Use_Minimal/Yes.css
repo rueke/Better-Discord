@@ -6,6 +6,14 @@
     line-height: 20px;
 }
 
+.guilds-wrapper .guilds-error {
+    width: 20px!important;
+    height: 20px!important;
+    background-size: 100%;
+    font-size: 15px;
+    line-height: 20px;
+}
+
 .bd-minimal .guilds-wrapper {
   width: 115px;
 }
