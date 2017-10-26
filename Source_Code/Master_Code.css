@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 :root{
-	--Update-Text: " Update_#57 ";
+	--Update-Text: " Update_#58 ";
 }
 #bd-settingspane-container h2.ui-form-title::after {
 	content:var(--Theme-Variant)var(--Update-Text);
@@ -26,7 +26,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
     padding-top: 0;
     display: block;
 	background:black;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 230" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="85" style="font-size: 1.1em;" x="37">Wiki: https://www.nfld99.com/wiki</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Canary Bug Fixes</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 230" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. New Crash Screen (If You Manage To Get It)</text></g></svg>');
 }
 
 .container-3lnMWU:after {
@@ -151,16 +151,7 @@ form.deprecated.auth-form .btn-primary{
 }
 
 .connecting {
-	background: var(--Chat-Background);
-	color: var(--M-Colour);
-	animation: Connecting 2s ease-in-out infinite alternate;
-}
-
-.connecting .attribution, .connecting .connection-status, .connecting .quote, .connecting .connecting-problems .connecting-problems-text {
-	color: var(--M-Colour);
-}
-.connecting a {
-	color: var(--Main-Colour);
+	background: transparent !important;
 }
 
 form.deprecated.auth-form h1, form.deprecated.auth-form .control-group input[type=email], form.deprecated.auth-form .control-group input[type=password], form.deprecated.auth-form .control-group input[type=text], form.deprecated.auth-form .btn-forgot-password {
@@ -997,8 +988,8 @@ div.help-text {
 }
 
 .channel-members .member:hover {
-  background: linear-gradient(to right, var(--S-Colour), var(--Main-Colour)) !important;
-  border-left: 4px solid var(--Main-Colour);
+  background: linear-gradient(to right, var(--S-Colour), var(--M-Colour)) !important;
+  border-left: 2px solid var(--Main-Colour);
 }
 
 li div span {
@@ -1729,12 +1720,12 @@ div.settings-right > div.settings-actions {
 
 .jump-to-present-bar button, .chat .jump-to-present-bar .spinner {
   background-color: transparent !important;
-  color: var(--Main-Colour) !important;
+  color: var(--Background-Colour) !important;
 }
 
 .chat .new-messages-bar,div[class*=" unreadBar-"],.mention-RlZ5F3,.theme-dark .chat .jump-to-present-bar,.channels-wrap > div:last-child:hover > div:last-child:hover {
-  background: linear-gradient(to right, var(--Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--Main-Colour)) !important;
-  color: var(--Main-Colour) !important;
+  background: linear-gradient(to right, var(--Background-Colour), var(--M-Colour), var(--M-Colour), var(--Background-Colour)) !important;
+  color: var(--Background-Colour) !important;
 }
 
 .theme-dark .chat .has-more button {
@@ -3086,10 +3077,12 @@ div.form-inner, .form-actions {
 .imagesInner-lrmOIH,.stats-22hutn,.buttonBlurple-HN5AKD,.callout-2s8mFN,.footerBackgroundBlurple-1Ulhgr{
 	display:none!important;
 }
+
 .themeBrand-SmLCC0,.footerBlurple-BUhVUG,.fieldButton-2ES_NP,.fieldWrapClosed-2bqTxU,.fieldForm-qnusX2,.desktopMoreList-3GyfO6,.desktopMoreListItem-yTZpxg{
     background: transparent!important;
     background-color: transparent!important;
 }
+
 .separator-3v7eD_{
     margin: 13px 0;
 }
@@ -3097,7 +3090,35 @@ div.form-inner, .form-actions {
 body{
 	background:var(--Title-Background);
 }
+
 .container-2OU7Cz, .theme-dark .title-qAcLxz, .theme-dark .chat form, .channels-3g2vYe   {
     background-color: transparent !important;
 	box-shadow: 0 -1px 5px rgba(0, 243, 255, 0)!important;
+}
+
+.text-iOJAKO h4:after{
+	content: ". Ya fucked it, Please reload.";
+	max-width: 4000px;
+	max-height: 200px;
+	line-height: 26px;
+	text-transform: ;
+}
+
+.text-iOJAKO h4{
+	font-size: 18px;
+    text-shadow: 0 0 6px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
+}
+
+.theme_dark-2FtE3l .note-3vX6oT{
+	display:none;
+}
+
+.theme_dark-2FtE3l {
+    background-color: var(--Background-Colour);
+    background-image: url(https://media.giphy.com/media/XMc1Ui9rAFR1m/source.gif);
+    color: var(--Main-Colour);
+}
+
+.theme_dark-2FtE3l .image-2GuWXL {
+    display: none;
 }
