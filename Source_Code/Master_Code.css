@@ -3141,3 +3141,13 @@ body{
 .wordmark-2L03Wr {
 	animation: TextScroll 60s infinite linear;
 }
+
+.theme-dark .headerBar-cxbhPD,.theme-dark [class*='activityFeed-'],.theme-dark .body-2WmNzl,.theme-dark .activity-3tgXuD {
+  background: transparent;
+  color: var(--Main-Colour);
+  border-color: var(--M-Colour);
+}
+.splashArt-2R_m_a {
+    -webkit-filter: grayscale(0%)!important;
+    -webkit-mask: none!important;
+}
