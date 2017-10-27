@@ -103,3 +103,13 @@
     background: var(--Callout-Background);
   }
 }
+
+@keyframes TextScroll {
+  from {
+    left:-230px;
+  }
+
+  to {
+    left:100%;
+  }
+}
