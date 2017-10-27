@@ -1,4 +1,4 @@
-//META{"name":"User_Popout","description":"Changes The User Popout Look,  Enable This Theme LAST For it To Take Effect","author":"NFLD99","version":"2.0"}*//{}
+//META{"name":"User_Popout","description":"Changes The User Popout Look,  Enable This Theme LAST For it To Take Effect","author":"NFLD99","version":"3.0"}*//{}
 
 :root {
   --Background-Colour: black;
@@ -88,4 +88,10 @@
 
 #user-profile-modal .header .header-info .header-info-inner .discord-tag, #user-profile-modal .header .header-info .header-info-inner .discord-tag .headerDiscriminator-3fLlCR , .headerTagNormal-KyD3_J, .headerUsernameNoNickname-1iGxNP{
 	color: var(--Main-Colour)!important;
+}
+
+.mask-2vyqAW {
+    border-radius: 0;
+    -webkit-mask: none;
+    mask: none;
 }

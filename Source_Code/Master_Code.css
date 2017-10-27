@@ -804,6 +804,12 @@ div p a {
   background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
+.mask-2vyqAW {
+    border-radius: 0;
+    -webkit-mask: none;
+    mask: none;
+}
+
 .reset-voice-settings {
   color: var(--Main-Colour) !important;
 }
