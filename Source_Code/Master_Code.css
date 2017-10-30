@@ -10,34 +10,15 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 :root{
-	--Update-Text: " Update_#60 ";
+	--Update-Text: " Update_#61 ";
 }
-#bd-settingspane-container h2.ui-form-title::after {
-	content:var(--Theme-Variant)var(--Update-Text);
-	position:absolute;
-	right:5px;
-	top:5px;
-}
-#clockPluginClock::before{
-	content:var(--Theme-Variant)var(--Update-Text);
-}
+
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
     margin-bottom: -3px;
     padding-top: 0;
     display: block;
 	background:black;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 230" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. New Crash Screen (If You Manage To Get It)</text><text y="160" style="font-size: 1.1em;" x="37">2. Fixed Icon Tray</text><text y="180" style="font-size: 1.1em;" x="37">3. Updated To New Discord Stable</text><text y="200" style="font-size: 1.1em;" x="37">4. New Title Bar Animation</text<text y="200" style="font-size: 1.1em;" x="37">5. Fix The Fucking Mention Menu</text></g></svg>');
-}
-
-.container-3lnMWU:after {
-    content: var(--Theme-Variant)var(--Update-Text);
-    color: Var(--M-Colour) !important;
-    font-size: 13px;
-    font-weight: 700;
-    position: absolute;
-    left: 126px;
-	bottom: -2.4px;
-    opacity: .5;
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. New Crash Screen (If You Manage To Get It)</text><text y="160" style="font-size: 1.1em;" x="37">2. Fixed Icon Tray</text><text y="180" style="font-size: 1.1em;" x="37">3. Updated To New Discord Stable</text><text y="200" style="font-size: 1.1em;" x="37">4. New Title Bar Animation</text><text y="220" style="font-size: 1.1em;" x="37">5. Fix The Changelog Derp</text><text y="240" style="font-size: 1.1em;" x="37">6. Fix The Fucking Mention Menu</text><text y="260" style="font-size: 1.1em;" x="37">7. Support For tagID</text></g></svg>');
 }
 
 .guilds-wrapper .guilds > .guild:first-child{
@@ -62,14 +43,6 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 
 .titleBar-3_fDwJ {
     background: var(--S-Colour) !important;
-}
-
-.appMount-14L89u:after{
-	content: 'Current_' var(--Theme-Variant)var(--Update-Text);
-	position: absolute;
-    left: 70px;
-	top: 3px;
-	color: Var(--M-Colour) !important;
 }
 
 .theme-dark .messages-wrapper .messages .divider:not(.red) span {
@@ -3082,6 +3055,25 @@ div.form-inner, .form-actions {
   pointer-events: auto;
 }
 /* Support For Copy Images */
+
+/* Support For tagID */
+#tagID {
+    font-size: 10px;
+    letter-spacing: 0.025rem;
+    position: relative;
+    top: -0.4ex;
+    height: 9px;
+    margin-left: -3px;
+    margin-right: 6px;
+    text-shadow: 0 1px 3px black;
+    background: var(--Background-Colour);
+    border-radius: 3px;
+    font-weight: 500;
+    padding: 3px 5px;
+    color: var(--Main-Colour);
+    font-family: 'Roboto', 'Inconsolata', 'Whitney', sans-serif;
+}
+/* Support For name IDs */
 
 /* Web Ver Of Discord */
 .imagesInner-lrmOIH,.stats-22hutn,.buttonBlurple-HN5AKD,.callout-2s8mFN,.footerBackgroundBlurple-1Ulhgr{
