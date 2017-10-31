@@ -777,7 +777,7 @@ div p a {
 /* User profile popup message box */
 
 .avatar-1BXaQj.avatar-1jmnc-.popout-UKvsJt {
-  border: 3px dotted var(--Main-Colour) !important;
+	border:none!important;
   background-color: rgba(255, 255, 255, 0) !important;
 }
 
