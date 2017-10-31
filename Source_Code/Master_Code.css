@@ -18,7 +18,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
     padding-top: 0;
     display: block;
 	background:black;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. New Crash Screen (If You Manage To Get It)</text><text y="160" style="font-size: 1.1em;" x="37">2. Fixed Icon Tray</text><text y="180" style="font-size: 1.1em;" x="37">3. Updated To New Discord Stable</text><text y="200" style="font-size: 1.1em;" x="37">4. New Title Bar Animation</text><text y="220" style="font-size: 1.1em;" x="37">5. Fix The Changelog Derp</text><text y="240" style="font-size: 1.1em;" x="37">6. Fix The Fucking Mention Menu</text><text y="260" style="font-size: 1.1em;" x="37">7. Support For tagID</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Support For Server Folders</text><text y="160" style="font-size: 1.1em;" x="37">2. Minor Bug Fixes</text><text y="180" style="font-size: 1.1em;" x="37">3. Fixed Content For @NFLD99 Icon</text></g></svg>');
 }
 
 .guilds-wrapper .guilds > .guild:first-child{
@@ -30,7 +30,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 }
 
 .native-toolbar .titlebar:after{
-	content:var(--Theme-Variant)var(--Theme-Variant)var(--Update-Text);
+	content:var(--Theme-Variant)var(--Update-Text);
 	position: absolute;
     left: 5px;
 	bottom: 3px;
@@ -2455,7 +2455,7 @@ div.form-inner, .form-actions {
 }
 
 .avatar-large+.comment .timestamp::after {
-  content: "Github Link: https://git.io/v7ovg";
+  content: "Github Link: https://git.io/v7ovg   Support Server Link: https://discord.gg/K6Gevwk";
   background-color: var(--Background-Colour) !important;
   box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
   padding: 6px 10px;
@@ -2815,7 +2815,7 @@ div.form-inner, .form-actions {
     border: 1px solid var(--Main-Colour)!important;
 }
 
-.buttonBrandFilled-3Mv0Ra, button.btn.btn-primary, .ui-standard-sidebar-view .bda-slist .bda-right button, .themeClear-1NqU69.valueChecked-3Bzkbm, .themeClear-1NqU69.valueChecked-3Bzkbm, .themeClear-1NqU69.valueChecked-3Bzkbm {
+.buttonBrandFilled-3Mv0Ra, button.btn.btn-primary, .ui-standard-sidebar-view .bda-slist .bda-right button, .themeClear-1NqU69.valueChecked-3Bzkbm, .themeClear-1NqU69.valueChecked-3Bzkbm, .themeClear-1NqU69.valueChecked-3Bzkbm,.theme-dark .messages-popout-wrap .has-more button {
     color: var(--Main-Colour)!important;
     background-color: transparent!important;
 	border: 1px solid var(--Main-Colour)!important;
@@ -2977,6 +2977,103 @@ div.form-inner, .form-actions {
     align-items: initial;
 }
 
+
+/* Web Ver Of Discord */
+.imagesInner-lrmOIH,.stats-22hutn,.buttonBlurple-HN5AKD,.callout-2s8mFN,.footerBackgroundBlurple-1Ulhgr{
+	display:none!important;
+}
+
+.themeBrand-SmLCC0,.footerBlurple-BUhVUG,.fieldButton-2ES_NP,.fieldWrapClosed-2bqTxU,.fieldForm-qnusX2,.desktopMoreList-3GyfO6,.desktopMoreListItem-yTZpxg{
+    background: transparent!important;
+    background-color: transparent!important;
+}
+
+.separator-3v7eD_{
+    margin: 13px 0;
+}
+
+body{
+	background:var(--Title-Background) 50% 50%/cover !important;
+}
+
+.container-2OU7Cz, .theme-dark .title-qAcLxz, .theme-dark .chat form, .channels-3g2vYe   {
+    background-color: transparent !important;
+	box-shadow: 0 -1px 5px rgba(0, 243, 255, 0)!important;
+}
+
+.text-iOJAKO h4:after{
+	content: ". Ya fucked it, Please reload.";
+	max-width: 4000px;
+	max-height: 200px;
+	line-height: 26px;
+	text-transform: ;
+}
+
+.text-iOJAKO h4{
+	font-size: 18px;
+    text-shadow: 0 0 6px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
+}
+
+.theme_dark-2FtE3l .note-3vX6oT{
+	display:none;
+}
+
+.theme_dark-2FtE3l {
+    background-color: var(--Background-Colour);
+    background-image: url(https://media.giphy.com/media/XMc1Ui9rAFR1m/source.gif);
+    color: var(--Main-Colour);
+}
+
+.theme_dark-2FtE3l .image-2GuWXL {
+    display: none;
+}
+
+.wordmark-2L03Wr:after {
+    content: var(--Theme-Variant)var(--Update-Text);
+    color: Var(--M-Colour) !important;
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+	width: 4000px;
+	top: 5px;
+}
+
+.wordmark-2L03Wr {
+	animation: TextScroll 60s infinite linear;
+}
+
+.theme-dark .headerBar-cxbhPD,.theme-dark [class*='activityFeed-'],.theme-dark .body-2WmNzl,.theme-dark .activity-3tgXuD {
+  background: transparent;
+  color: var(--Main-Colour);
+  border-color: var(--M-Colour);
+}
+.splashArt-2R_m_a {
+    -webkit-filter: grayscale(0%)!important;
+    -webkit-mask: none!important;
+}
+.autocompleteInner-N7OQf1 {
+	background: var(--Background-Colour);
+	border: 1px solid var(--M-Colour);
+}
+.theme-dark .autocomplete-1TnWNR,.autocomplete-1TnWNR {
+	background: var(--Background-Colour);
+}
+.theme-dark .selectorSelected-2M0IGv,.selectorSelected-2M0IGv {
+	background:var(--Background-Colour);
+	border: 1px solid var(--M-Colour);
+}
+
+.form.deprecated .control-group input[type=email], .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password], .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea{
+	background:var(--Background-Colour);
+	border: 1px solid var(--M-Colour);
+	border-bottom: 1px solid var(--M-Colour);
+	color: var(--Main-Colour)!important;
+}
+
+.channel-notices .channel-notice.invite.new,.container-3NvGrL, .header-1tSljs{
+	background:var(--S-Colour);
+}
+
 /* Support For Switch Fix */
 .ui-switch-checkbox:checked+.ui-switch {
     background: var(--Main-Colour);
@@ -3075,87 +3172,23 @@ div.form-inner, .form-actions {
 }
 /* Support For name IDs */
 
-/* Web Ver Of Discord */
-.imagesInner-lrmOIH,.stats-22hutn,.buttonBlurple-HN5AKD,.callout-2s8mFN,.footerBackgroundBlurple-1Ulhgr{
-	display:none!important;
+/* Support For Server Folders */
+.serverfolders-modal .form-tabcontent,.serverfolders-modal .form-tabcontent,.serverfolders-modal .form-tab,.serverfolders-modal .control-group label, .serverfolders-modal .form-tab button,.serverfolders-modal .modal-inner{
+	background: var(--Background-Colour)!important;
+	background-color: var(--Background-Colour)!important;
 }
 
-.themeBrand-SmLCC0,.footerBlurple-BUhVUG,.fieldButton-2ES_NP,.fieldWrapClosed-2bqTxU,.fieldForm-qnusX2,.desktopMoreList-3GyfO6,.desktopMoreListItem-yTZpxg{
-    background: transparent!important;
-    background-color: transparent!important;
+.serverfolders-modal .form-tablinks.active{
+	border: 1px solid var(--Main-Colour)!important;
+	background-color: var(--Background-Colour)!important;
 }
 
-.separator-3v7eD_{
-    margin: 13px 0;
+.serverfolders-modal [class^="ui-icon-picker-icon"],.serverfolders-modal input{
+	border: .5px solid var(--M-Colour)!important;
 }
 
-body{
-	background:var(--Title-Background) 50% 50%/cover !important;
+.ui-icon-picker-icon.selected{
+	border: 1px solid var(--Main-Colour)!important;
+	background-color: var(--M-Colour)!important;
 }
-
-.container-2OU7Cz, .theme-dark .title-qAcLxz, .theme-dark .chat form, .channels-3g2vYe   {
-    background-color: transparent !important;
-	box-shadow: 0 -1px 5px rgba(0, 243, 255, 0)!important;
-}
-
-.text-iOJAKO h4:after{
-	content: ". Ya fucked it, Please reload.";
-	max-width: 4000px;
-	max-height: 200px;
-	line-height: 26px;
-	text-transform: ;
-}
-
-.text-iOJAKO h4{
-	font-size: 18px;
-    text-shadow: 0 0 6px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
-}
-
-.theme_dark-2FtE3l .note-3vX6oT{
-	display:none;
-}
-
-.theme_dark-2FtE3l {
-    background-color: var(--Background-Colour);
-    background-image: url(https://media.giphy.com/media/XMc1Ui9rAFR1m/source.gif);
-    color: var(--Main-Colour);
-}
-
-.theme_dark-2FtE3l .image-2GuWXL {
-    display: none;
-}
-
-.wordmark-2L03Wr:after {
-    content: var(--Theme-Variant)var(--Update-Text);
-    color: Var(--M-Colour) !important;
-    font-size: 13px;
-    font-weight: 700;
-    position: absolute;
-	width: 4000px;
-	top: 5px;
-}
-
-.wordmark-2L03Wr {
-	animation: TextScroll 60s infinite linear;
-}
-
-.theme-dark .headerBar-cxbhPD,.theme-dark [class*='activityFeed-'],.theme-dark .body-2WmNzl,.theme-dark .activity-3tgXuD {
-  background: transparent;
-  color: var(--Main-Colour);
-  border-color: var(--M-Colour);
-}
-.splashArt-2R_m_a {
-    -webkit-filter: grayscale(0%)!important;
-    -webkit-mask: none!important;
-}
-.autocompleteInner-N7OQf1 {
-	background: var(--Background-Colour);
-	border: 1px solid var(--M-Colour);
-}
-.theme-dark .autocomplete-1TnWNR,.autocomplete-1TnWNR {
-	background: var(--Background-Colour);
-}
-.theme-dark .selectorSelected-2M0IGv,.selectorSelected-2M0IGv {
-	background:var(--Background-Colour);
-	border: 1px solid var(--M-Colour);
-}
+/* Support For Server Folders */

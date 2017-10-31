@@ -3,7 +3,7 @@
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Animations/Yes.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Fonts/Yes.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Grid/Yes.css);
-:root {
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Minimal/No.css);
   --Main-Colour: rgba( 255, 153, 0, 1);
   --Background-Colour: rgba(0,0,0, 1);
   --S-Colour: rgba(0,0,0, .3);
