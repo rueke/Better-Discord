@@ -3070,10 +3070,6 @@ body{
 	color: var(--Main-Colour)!important;
 }
 
-.channel-notices .channel-notice.invite.new,.container-3NvGrL, .header-1tSljs{
-	background:var(--S-Colour);
-}
-
 /* Support For Switch Fix */
 .ui-switch-checkbox:checked+.ui-switch {
     background: var(--Main-Colour);
