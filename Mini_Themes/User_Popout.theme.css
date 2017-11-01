@@ -1,12 +1,12 @@
 //META{"name":"User_Popout","description":"Changes The User Popout Look,  Enable This Theme LAST For it To Take Effect","author":"NFLD99","version":"3.0"}*//{}
 
 :root {
-  --Background-Colour: black;
-  --Main-Colour: aqua;
+  --Popout-Background-Colour: black;
+  --Popout-Main-Colour: aqua;
 }
 
 .userPopout-4pfA0d {
-	background: var(--Background-Colour);
+	background: var(--Popout-Background-Colour);
 }
 
 .userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message {
@@ -15,7 +15,7 @@
 }
 
 .userPopout-4pfA0d .quick-message,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator{
-	color: var(--Main-Colour);
+	color: var(--Popout-Main-Colour);
 }
 
 .userPopout-4pfA0d .avatar-1BXaQj {
@@ -50,28 +50,19 @@
     transition: opacity .1s ease;
 }
 
-.userPopout-4pfA0d .status-3jUEha{
-	width: 150%!important;
-    height: 5px!important;
-	bottom: -10%;
-	left:-20%;
-	border-radius: 0px!important;
-	border-color:var(--Background-Colour)!important;
-}
-
 .userPopout-4pfA0d .footer-2J5zqP{
   display: none;
 }
 
 #user-profile-modal .header:after {
   background: transparent !important;
-  background-color: var(--Background-Colour) !important;
+  background-color: var(--Popout-Background-Colour) !important;
 }
 
 #user-profile-modal .tab-bar-container {
   background: transparent !important;
-  background-color: var(--Background-Colour) !important;
-  border-bottom: 1px solid var(--Background-Colour);
+  background-color: var(--Popout-Background-Colour) !important;
+  border-bottom: 1px solid var(--Popout-Background-Colour);
 }
 
 #user-profile-modal .empty {
@@ -83,11 +74,11 @@
 }
 
 #user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller {
-	background-color: var(--Background-Colour);
+	background-color: var(--Popout-Background-Colour);
 }
 
 #user-profile-modal .header .header-info .header-info-inner .discord-tag, #user-profile-modal .header .header-info .header-info-inner .discord-tag .headerDiscriminator-3fLlCR , .headerTagNormal-KyD3_J, .headerUsernameNoNickname-1iGxNP{
-	color: var(--Main-Colour)!important;
+	color: var(--Popout-Main-Colour)!important;
 }
 
 .mask-2vyqAW {
@@ -99,4 +90,60 @@
 .avatar-1BXaQj.avatar-1jmnc-.popout-UKvsJt {
 	border:none!important;
   background-color: rgba(255, 255, 255, 0) !important;
+}
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section{
+	border:none!important;
+}
+
+.avatar-profile .status {
+    width: 600%;
+    height: 10%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+	border-radius: 5px;
+    top: -31%;
+    left: -100%;
+	animation: pulse 3s infinite linear;
+	opacity: 0.5;
+}
+
+.userPopout-4pfA0d .status-3jUEha{
+	width: 150%!important;
+    height: 5px!important;
+	top: -7%;
+	left:-20%;
+	border-radius: 0px!important;
+	border-color:transparent!important;
+	animation: pulse 3s infinite linear;
+	opacity: 0.5;
+}
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section{
+	border:none!important;
+}
+
+#user-profile-modal .guilds .guild:hover{
+	background:transparent;
+	border: none;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+
+  25% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }

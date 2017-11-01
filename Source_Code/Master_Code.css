@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 :root{
-	--Update-Text: " Update_#62 ";
+	--Update-Text: " Update_#63 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
@@ -18,7 +18,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
     padding-top: 0;
     display: block;
 	background:black;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Support For Server Folders</text><text y="160" style="font-size: 1.1em;" x="37">2. Minor Bug Fixes</text><text y="180" style="font-size: 1.1em;" x="37">3. Fixed Content For @NFLD99 Icon</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. New User Popouts</text><text y="160" style="font-size: 1.1em;" x="37">2. New Animation</text></g></svg>');
 }
 
 .guilds-wrapper .guilds > .guild:first-child{
@@ -2250,15 +2250,6 @@ div.flex-spacer.flex-vertical form {
 	border: none;
 }
 
-.userPopout-4pfA0d .status-3jUEha{
-	width: 150%!important;
-    height: 5px!important;
-	bottom: -10%;
-	left:-20%;
-	border-radius: 0px!important;
-	border-color:var(--Background-Colour)!important;
-}
-
 .userPopout-4pfA0d .footer-2J5zqP{
   display: none;
 }
@@ -2939,16 +2930,6 @@ div.form-inner, .form-actions {
     border-radius: 5px!important;
 }
 
-.avatar-profile .status {
-    width: 30px;
-    height: 30px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 4px solid #fff;
-    bottom: 62px;
-    right: -40px;
-}
-
 .typing{
 	text-shadow: 0 0 6px Black, 0 0 6px Black, 0 0 5px Black, 0 0 4px Black;
 	background: rgba(216,0,86,var(--Tpying-Rainbow)) !important;
@@ -3068,6 +3049,39 @@ body{
 	border: 1px solid var(--M-Colour);
 	border-bottom: 1px solid var(--M-Colour);
 	color: var(--Main-Colour)!important;
+}
+
+.avatar-profile .status {
+    width: 600%;
+    height: 10%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+	border-radius: 5px;
+    top: -31%;
+    left: -100%;
+	animation: pulse 3s infinite linear;
+	opacity: 0.5!important;
+}
+
+.userPopout-4pfA0d .status-3jUEha{
+	width: 150%!important;
+    height: 5px!important;
+	top: -7%;
+	left:-20%;
+	border-radius: 0px!important;
+	border-color:transparent!important;
+	animation: pulse 3s infinite linear;
+	opacity: 0.5!important;
+}
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section{
+	border:none!important;
+}
+
+#user-profile-modal .guilds .guild:hover{
+	background:transparent;
+	border: none;
 }
 
 /* Support For Switch Fix */
