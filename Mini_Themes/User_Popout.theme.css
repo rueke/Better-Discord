@@ -1,21 +1,10 @@
-//META{"name":"User_Popout","description":"Changes The User Popout Look,  Enable This Theme LAST For it To Take Effect","author":"NFLD99","version":"3.0"}*//{}
+//META{"name":"User_Popout","description":"Changes The User Popout Look,  Enable This Theme LAST For it To Take Effect","author":"NFLD99","version":"4.0"}*//{}
 
 :root {
-  --Popout-Background-Colour: black;
-  --Popout-Main-Colour: aqua;
-}
-
-.userPopout-4pfA0d {
-	background: var(--Popout-Background-Colour);
-}
-
-.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message {
-  background: transparent !important;
-  background-color: transparent !important;
-}
-
-.userPopout-4pfA0d .quick-message,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator{
-	color: var(--Popout-Main-Colour);
+  --Popout-Main-Colour: lime;
+  --Popout-Background: url(https://hdwallsource.com/img/2014/7/chill-wallpapers-20302-20812-hd-wallpapers.jpg);
+  --Popout-Background-Blur: 2px;
+  --Popout-Text-Shadow-Colour:#000000;
 }
 
 .userPopout-4pfA0d .avatar-1BXaQj {
@@ -51,34 +40,7 @@
 }
 
 .userPopout-4pfA0d .footer-2J5zqP{
-  display: none;
-}
-
-#user-profile-modal .header:after {
-  background: transparent !important;
-  background-color: var(--Popout-Background-Colour) !important;
-}
-
-#user-profile-modal .tab-bar-container {
-  background: transparent !important;
-  background-color: var(--Popout-Background-Colour) !important;
-  border-bottom: 1px solid var(--Popout-Background-Colour);
-}
-
-#user-profile-modal .empty {
-  background: black !important;
-}
-
-#user-profile-modal .avatar-wrapper {
-  background: transparent !important;
-}
-
-#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller {
-	background-color: var(--Popout-Background-Colour);
-}
-
-#user-profile-modal .header .header-info .header-info-inner .discord-tag, #user-profile-modal .header .header-info .header-info-inner .discord-tag .headerDiscriminator-3fLlCR , .headerTagNormal-KyD3_J, .headerUsernameNoNickname-1iGxNP{
-	color: var(--Popout-Main-Colour)!important;
+  display:none ;
 }
 
 .mask-2vyqAW {
@@ -90,10 +52,6 @@
 .avatar-1BXaQj.avatar-1jmnc-.popout-UKvsJt {
 	border:none!important;
   background-color: rgba(255, 255, 255, 0) !important;
-}
-
-#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section{
-	border:none!important;
 }
 
 .avatar-profile .status {
@@ -111,7 +69,7 @@
 
 .userPopout-4pfA0d .status-3jUEha{
 	width: 150%!important;
-    height: 5px!important;
+    height: 5%!important;
 	top: -7%;
 	left:-20%;
 	border-radius: 0px!important;
@@ -120,13 +78,44 @@
 	opacity: 0.5;
 }
 
-#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section{
-	border:none!important;
+#user-profile-modal .guilds .guild .status{
+	width: 100%!important;
+    height: 100%!important;
+	top: -4%;
+	left: -4%;
+	border-radius: 70px!important;
+	border-color:transparent!important;
+	animation: pulse 3s infinite linear;
+	opacity: 6;
 }
 
-#user-profile-modal .guilds .guild:hover{
+#user-profile-modal .guilds .guild:hover,#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message,#user-profile-modal .header,.userPopout-4pfA0d{
 	background:transparent;
 	border: none;
+}
+
+.scroller-wrap.fade .scroller:hover:hover::-webkit-scrollbar-thumb, .scroller-wrap.fade .scroller:hover:hover::-webkit-scrollbar-track-piece, .scroller-wrap.fade:hover:hover::-webkit-scrollbar-thumb, .scroller-wrap.fade:hover:hover::-webkit-scrollbar-track-piece{
+	display:none;
+}
+
+.avatar-profile{
+	border-radius: 0;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,#user-profile-modal .tab-bar .tab-bar-item.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.note textarea,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,#user-profile-modal .guilds .guild .guild-nick,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitleText-hSiL7d,#user-profile-modal .header .header-info .header-info-inner .activity{
+	color:var(--Popout-Main-Colour)!important;
+}
+
+.avatarHint-2i5XWK{
+	border-radius:0!important;
+	width: 100%!important;
+    height: 100%!important;
+	top: -1.5%;
+	left: -1.5%;
+}
+	
+#user-profile-modal,.userPopout-4pfA0d{
+	background:var(--Popout-Background)50% 50%/cover!important;
+	text-shadow: 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 5px var(--Popout-Text-Shadow-Colour), 0 0 4px var(--Popout-Text-Shadow-Colour)!important;
 }
 
 @keyframes pulse {
