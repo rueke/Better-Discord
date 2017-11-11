@@ -117,6 +117,13 @@
 	text-shadow: 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 5px var(--Popout-Text-Shadow-Colour), 0 0 4px var(--Popout-Text-Shadow-Colour)!important;
 }
 
+.member-roles .member-role {
+    background-color: rgba(243, 243, 243, 0)!important;
+    border: 1px solid #dbdde1!important;
+    border-radius: 3px!important;
+    color: var(--Popout-Main-Colour)!important;
+}
+
 @keyframes pulse {
   0% {
     opacity: 0.5;
@@ -135,3 +142,4 @@
     opacity: 0.5;
   }
 }
+

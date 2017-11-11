@@ -3271,6 +3271,13 @@ body{
 	display:none;
 }
 
+.member-roles .member-role {
+    background-color: rgba(243, 243, 243, 0)!important;
+    border: 1px solid #dbdde1!important;
+    border-radius: 3px!important;
+    color: var(--Main-Colour)!important;
+}
+
 /*--------------------------------------------*/
 
 
