@@ -3275,7 +3275,7 @@ body{
     background-color: rgba(243, 243, 243, 0);
     border: 1px solid #dbdde1;
     border-radius: 3px;
-    color: var(--Popout-Main-Colour);
+    color: var(--Main-Colour);
 }
 
 /*--------------------------------------------*/
