@@ -118,10 +118,10 @@
 }
 
 .member-roles .member-role {
-    background-color: rgba(243, 243, 243, 0)!important;
-    border: 1px solid #dbdde1!important;
-    border-radius: 3px!important;
-    color: var(--Popout-Main-Colour)!important;
+    background-color: rgba(243, 243, 243, 0);
+    border: 1px solid #dbdde1;
+    border-radius: 3px;
+    color: var(--Popout-Main-Colour);
 }
 
 @keyframes pulse {
