@@ -2908,14 +2908,18 @@ div.form-inner, .form-actions {
 	transition: opacity 200ms;
 }
 
-.channels-3g2vYe > div:last-child:hover > div:last-child:before{opacity: 0.5;}
+.channels-3g2vYe > div:last-child:hover > div:last-child:before{
+	opacity: 0.5;
+}
 
 .channels-3g2vYe > div:last-child > div:last-child > div *{
 	left: 0;
 	display: none;
 }
 
-.channels-3g2vYe > div:last-child:hover > div:last-child:hover > div *{display: block;}
+.channels-3g2vYe > div:last-child:hover > div:last-child:hover > div *{
+	display: block;
+}
 
 /* Thanks To uri#0002 For This Code */
 
@@ -3097,6 +3101,38 @@ body{
     right: 0;
     top: -1%!important;
     z-index: auto;
+}
+
+.popout-menu .popout-menu-item:hover {
+  background: linear-gradient(to top, var(--Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Main-Colour)) !important;
+  opacity: 1;
+  color: var(--Main-Colour);
+}
+
+.popout-menu .popout-menu-separator {
+    -webkit-box-sizing: border-box;
+    border: 1px solid var(--Background-Colour);
+    box-sizing: border-box;
+}
+
+.popout-menu .popout-menu-item {
+    background-color: var(--Background-Colour) !important;
+    color: var(--M-Colour);
+}
+
+.popout-menu {
+    background: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 216px;
+}
+
+.status-picker .popout-menu-item .helper{
+	display:none;
+}
+
+#app-mount > div.theme-dark.popouts > div[style=z-index: 1000; overflow: hidden; visibility: visible; left: 125px; top: 686px; height: 216px; width: 216px; transform: translateY(-100%) translateX(0%) translateZ(0px);] {
+    height: 156px!important;
 }
 /*--------------------------------------------*/
 /* New UserPopouts */
