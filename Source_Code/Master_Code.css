@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 :root{
-	--Update-Text: " Update_#67 ";
+	--Update-Text: " Update_#68 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
@@ -18,7 +18,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
     padding-top: 0;
     display: block;
 	background:black;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Added Nuke For Update Ready</text><text y="160" style="font-size: 1.1em;" x="37">2. Fixed Tooltips</text><text y="180" style="font-size: 1.1em;" x="37">3. Fixed Mute/Unmute/Deafen/Undeafen/Settings Icons</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New Upload Screen</text></g></svg>');
 }
 
 .guilds-wrapper .guilds > .guild:first-child{
@@ -3134,7 +3134,78 @@ body{
 #app-mount > div.theme-dark.popouts > div[style=z-index: 1000; overflow: hidden; visibility: visible; left: 125px; top: 686px; height: 216px; width: 216px; transform: translateY(-100%) translateX(0%) translateZ(0px);] {
     height: 156px!important;
 }
-/*--------------------------------------------*/
+
+.theme-dark .wrapper-uAa07y {
+    background: rgba(47,49,54,.0);
+    border-color: var(--Main-Colour);
+}
+.theme-dark .buttonPrimaryOutlinedDefault--H0hhk, .theme-dark .buttonPrimaryOutlinedSubmitting-3m3eFx {
+    border-color: var(--Main-Colour);
+    color: var(--Main-Colour);
+}
+
+.onlineCount-2__VKq,.theme-dark .guildName-C1hTEs {
+    color: var(--Main-Colour);
+}
+
+#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > div.messages-wrapper > div > div > div.message-group.hide-overflow > div.comment > div > div.accessory > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyCenter-29N31w.alignStretch-1hwxMa.noWrap-v6g9vO.guildInfo-mu0TQL > div.guildDetail-1-o1X5.small-3-03j1.size12-1IGJl9.height16-1qXrGy.weightSemiBold-T8sxWH > div > span:nth-child(4) {
+    color: var(--M-Colour);
+}
+
+#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > div.messages-wrapper > div > div > div.message-group.hide-overflow > div.comment > div > div.accessory > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyCenter-29N31w.alignStretch-1hwxMa.noWrap-v6g9vO.guildInfo-mu0TQL > div.guildDetail-1-o1X5.small-3-03j1.size12-1IGJl9.height16-1qXrGy.weightSemiBold-T8sxWH > div > span:nth-child(4):before {
+    color: var(--M-Colour);
+	content: " Out  Of  "
+}
+
+.statusOffline-1Vd2wV {
+    background-color: transparent;
+	display:none;
+}
+
+.upload-modal .inner .file .icon.image {
+    -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    -webkit-box-sizing: border-box;
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.4);
+	top:32%;
+	left:-3%;
+    width: 100%;
+}
+
+.upload-modal .inner {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    border: none;
+    border-radius: 0 0 0 0;
+    color: var(--M-Colour);
+    flex: 1;
+    margin: 0;
+}
+
+.button {
+	background: transparent!important;
+	border: 1px solid Var(--M-Colour)!important;
+    border-radius: 3px!important;
+	color:Var(--M-Colour)!important;
+}
+
+.button:hover {
+	background: transparent!important;
+	border: 1px solid Var(--Main-Colour);
+    border-radius: 3px;
+	color:Var(--Main-Colour)!important;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* New UserPopouts */
 .userPopout-4pfA0d .avatar-1BXaQj {
     background-clip: padding-box!important;
@@ -3277,6 +3348,7 @@ body{
     border-radius: 3px;
     color: var(--Main-Colour);
 }
+
 
 /*--------------------------------------------*/
 
