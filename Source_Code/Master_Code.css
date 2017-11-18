@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 :root{
-	--Update-Text: " Update_#68 ";
+	--Update-Text: " Update_#69 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
@@ -18,7 +18,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
     padding-top: 0;
     display: block;
 	background:black;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New Upload Screen</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fix</text></g></svg>');
 }
 
 .guilds-wrapper .guilds > .guild:first-child{
@@ -3278,15 +3278,15 @@ body{
 	opacity: 0.5!important;
 }
 
-#user-profile-modal .guilds .guild .status{
-	width: 100%!important;
+#user-profile-modal .guilds .guild .status {
+    width: 12%!important;
     height: 100%!important;
-	top: -4%!important;
-	left: -4%!important;
-	border-radius: 70px!important;
-	border-color:transparent!important;
-	animation: pulse 3s infinite linear!important;
-	opacity: 6!important;
+    top: -7%!important;
+    left: 110%!important;
+    border-radius: 0px!important;
+    border-color: transparent!important;
+    animation: pulse 3s infinite linear!important;
+    opacity: 6!important;
 }
 
 #user-profile-modal .guilds .guild:hover,#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message,#user-profile-modal .header,.userPopout-4pfA0d{
@@ -3349,6 +3349,9 @@ body{
     color: var(--Main-Colour);
 }
 
+.container-2oOGIt {
+    background: var(--Chat-Background) 50% 50%/cover !important;;
+}
 
 /*--------------------------------------------*/
 
