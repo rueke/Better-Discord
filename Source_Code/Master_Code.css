@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 :root{
-	--Update-Text: " Update_#70 ";
+	--Update-Text: " Update_#71 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
@@ -18,7 +18,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
     padding-top: 0;
     display: block;
 	background:black;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Made Some SVG Icons Match Main Colour.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Made Some SVG Icons Match Main Colour.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Update Button.</text></g></svg>');
 }
 
 .guilds-wrapper .guilds > .guild:first-child{
@@ -3091,7 +3091,12 @@ body{
 /* Tac Nuke */
 .updateIconForeground-2wrWU1 {
     fill: transparent;
-	background: url(https://www.speedrun.com/themes/user/RacingmonsterFTW/icon.png) 50% 50%/cover;
+	background: url(https://i.imgur.com/80u9AQy.gif) 50% 50%/cover;
+}
+
+.iconInactive-WWHQEI[name="Update"] {
+	fill: transparent;
+    background: url(https://i.imgur.com/80u9AQy.gif) 50% 50%/cover!important;
 }
 /* Tac Nuke */
 
@@ -3379,6 +3384,15 @@ body{
 
 .tab-bar.TOP .tab-bar-item:hover {
     border-bottom: 2px solid var(--M-Colour);
+}
+
+.nameMutedText-1YDcP-, .nameMutedVoice-26k4cP,.iconMuted-Hb4ttQ, .nameMuted-1n0LSj{
+	opacity:.5!important;
+	color: var(--Main-Colour);
+}
+
+.theme-dark .iconForeground-2c7s3m, .theme-dark .title-2Ul_Rx{
+	color: var(--M-Colour);
 }
 
 /*--------------------------------------------*/
