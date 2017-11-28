@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 :root{
-	--Update-Text: " Update #72 ";
+	--Update-Text: " Update #73 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
@@ -20,7 +20,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New sexy changelog.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Update Button.</text><text y="180" style="font-size: 1.1em;" x="37">3.Fixed Muted things.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.New Themes "Super Mario World" and "One Up".</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -564,6 +564,7 @@ span.ping {
 .new-messages-bar button {
   background-color: transparent !important;
   color: var(--Main-Colour) !important;
+  text-shadow: 0 0 2px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
 }
 
 /* Tags */
@@ -2426,7 +2427,7 @@ div.form-inner, .form-actions {
 	background: transparent!important;
 }
 
-/* NFLD99#3692 */
+/* NFLD99#9782 */
 .avatar-profile::before,
 .avatar-profile::after,
 .avatar-large+.comment .timestamp::before,
@@ -2598,6 +2599,7 @@ div.form-inner, .form-actions {
 .new-messages-indicator .new-messages-indicator-mention, .unread-mentions-indicator-bottom, .unread-mentions-indicator-top {
   background-color: transparent;
   color: var(--Main-Colour);
+  text-shadow: 0 0 2px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
 }
 
 .guilds-wrapper .guilds .guild .badge {
@@ -3034,6 +3036,7 @@ body{
     position: absolute;
 	width: 4000px;
 	top: 5px;
+	padding-left: 3px;
 }
 
 .wordmark-2L03Wr {
@@ -3406,6 +3409,17 @@ body{
     background: linear-gradient(90deg,#000,#000);
 	border-radius:5px;
 	border: .02px solid var(--Main-Colour);
+}
+
+.avatar-large+.comment .timestamp{ 
+  text-shadow: 0 0 2px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
+  color: var(--Main-Colour) !important;
+  font-size: 13px;
+}
+
+.chat .new-messages-bar, div[class*=" unreadBar-"], .mention-RlZ5F3, .theme-dark .chat .jump-to-present-bar, .channels-wrap > div:last-child:hover > div:last-child:hover {
+    background: linear-gradient(to right, var(--Background-Colour), var(--M-Colour), var(--M-Colour), var(--Background-Colour)) !important;
+    color: var(--Background-Colour) !important;
 }
 
 /*--------------------------------------------*/
