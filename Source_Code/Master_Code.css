@@ -10,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 :root{
-	--Update-Text: " Update #73 ";
+	--Update-Text: " Update #74 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
@@ -20,7 +20,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.New Themes "Super Mario World" and "One Up".</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.New Themes "Super Mario World" and "One Up".</text><text y="180" style="font-size: 1.1em;" x="37">3.New Hover Animation On My Name "NFLD99#9782".</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -2428,21 +2428,14 @@ div.form-inner, .form-actions {
 }
 
 /* NFLD99#9782 */
-.avatar-profile::before,
-.avatar-profile::after,
-.avatar-large+.comment .timestamp::before,
-.avatar-large+.comment .timestamp::after {
-  display: none!important;
-}
-
-.avatar-profile[style*="avatars/187615613944856576"]::before,
-.avatar-profile[style*="avatars/187615613944856576"]::after,
-.avatar-large[style*="avatars/187615613944856576"]+.comment .timestamp::before,
-.avatar-large[style*="avatars/187615613944856576"]+.comment .timestamp::after {
+[style*="avatars/187615613944856576"].avatar-profile::before,
+[style*="avatars/187615613944856576"].avatar-profile[style*="avatars/187615613944856576"]::after,
+[style*="avatars/187615613944856576"].avatar-large[style*="avatars/187615613944856576"]+.comment .timestamp::before,
+[style*="avatars/187615613944856576"].avatar-large[style*="avatars/187615613944856576"]+.comment .timestamp::after {
   display: inline-block!important;
 }
 
-.avatar-large+.comment .timestamp::before {
+[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp::before {
   content: url(https://rawgit.com/NFLD99/9617a094e34f8640f6bd1b0ac54ea8e3/raw/df7dc3d00727f07ad70c3db3af2d3e8642990b48/Github.svg);
   color: rgba(0,255,0,.3);
   font-size: 13px;
@@ -2459,8 +2452,9 @@ div.form-inner, .form-actions {
   animation: rainbow 3s infinite linear;
 }
 
-.avatar-large+.comment .timestamp::after {
-  content: "Github Link: https://git.io/v7ovg   Support Server Link: https://discord.gg/K6Gevwk";
+[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp::after {
+  content: "Hello Im The Theme Dev If You Have Any Issues Please Join The Server! \a Github Link: https://git.io/v7ovg \a Support Server Link: https://discord.gg/K6Gevwk";
+  white-space: pre;
   background-color: var(--Background-Colour) !important;
   box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
   padding: 6px 10px;
@@ -2473,7 +2467,7 @@ div.form-inner, .form-actions {
   pointer-events: none;
   transition: 80ms ease;
   color: var(--Main-Colour);
-  width: 200px;
+  width: 330%;
   left: 0;
   transform: translate(17px,-7px);
   opacity: 0;
@@ -2481,15 +2475,23 @@ div.form-inner, .form-actions {
   animation: rainbow 3s infinite linear;
 }
 
-.avatar-large+.comment .timestamp:hover::after {
+[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp:hover::after {
   opacity: 1;
-  transition: 80ms ease 10ms;
+  transition: 180ms ease-in-out 100ms;
+  animation: boop .5s 1 linear;
 }
 
-.avatar-large+.comment .timestamp {
+[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp:not(:hover)::after {
+  opacity: 0;
+  transition: 180ms ease-in-out 150ms;
+  animation: boop2 .5s 1 linear;
+}
+
+[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp {
   position: relative;
   cursor: pointer;
 }
+/* NFLD99#9782 */
 
 .theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
     border-top: 2px solid rgba(28,36,43,.6);
