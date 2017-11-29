@@ -38,8 +38,17 @@
     transition: opacity .1s ease!important;
 }
 
-.userPopout-4pfA0d .footer-2J5zqP{
+.userPopout-4pfA0d .footer-2J5zqP,.emptyIconFriends-2q_v-C,#user-profile-modal .empty .empty-icon-friends{
   display:none !important;
+}
+
+.emptyText-AUFSH0:after,#user-profile-modal .empty .empty-text:after{
+	content: ". You Should Get Out More.";
+	max-width: 4000px;
+	max-height: 200px;
+	line-height: 26px;
+	text-transform: ;
+	color:var(--Popout-Main-Colour)!important;
 }
 
 .mask-2vyqAW {
@@ -48,13 +57,13 @@
     mask: none!important;
 }
 
-.avatar-1BXaQj.avatar-1jmnc-.popout-UKvsJt {
+.avatar-1BXaQj.avatar-1jmnc-.popout-UKvsJt,.connectedAccount-3mKaTA,.activity-AFBUEw,.headerPlaying-2eYqm9,.topSectionPlaying-3jAH9b,.headerStreaming-3F-wjT,.topSectionStreaming-3rIBIm {
 	border:none!important;
   background-color: rgba(255, 255, 255, 0) !important;
 }
 
-.avatar-profile .status {
-    width: 600%!important;
+.avatar-profile .status,.statusProfile-29OBzn {
+    width: 6000%!important;
     height: 10%!important;
     -webkit-box-sizing: border-box!important;
     box-sizing: border-box!important;
@@ -77,18 +86,18 @@
 	opacity: 0.5!important;
 }
 
-#user-profile-modal .guilds .guild .status{
-	width: 100%!important;
+#user-profile-modal .guilds .guild .status,.listAvatarStatus-1Egz5B{
+    width: 10%!important;
     height: 100%!important;
-	top: -4%!important;
-	left: -4%!important;
-	border-radius: 70px!important;
-	border-color:transparent!important;
-	animation: pulse 3s infinite linear!important;
-	opacity: 6!important;
+    top: -6%!important;
+    left: -22%!important;
+    border-radius: 0px!important;
+    border-color: transparent!important;
+    animation: pulse 3s infinite linear!important;
+    opacity: 6!important;
 }
 
-#user-profile-modal .guilds .guild:hover,#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message,#user-profile-modal .header,.userPopout-4pfA0d{
+#user-profile-modal .guilds .guild:hover,#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message,#user-profile-modal .header,.userPopout-4pfA0d,.topSectionNormal-2LlRG1,.theme-dark .body-3_tdh6{
 	background:transparent!important;
 	border: none!important;
 }
@@ -97,10 +106,10 @@
 	display:none!important;
 }
 
-.avatar-profile{
+.avatar-profile,.inner-1_1f7b{
 	border-radius: 0!important;
 }
-#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,#user-profile-modal .tab-bar .tab-bar-item.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.note textarea,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,#user-profile-modal .guilds .guild .guild-nick,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitleText-hSiL7d,#user-profile-modal .header .header-info .header-info-inner .activity{
+#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,#user-profile-modal .tab-bar .tab-bar-item.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.note textarea,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,#user-profile-modal .guilds .guild .guild-nick,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitleText-hSiL7d,#user-profile-modal .header .header-info .header-info-inner .activity,.discriminator-3KVlLu,.username-24t9uh,.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected,.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555,.userInfoSectionHeader-pmdPGs,.connectedAccountName-3EFj01,.theme-dark .listRow-1wEi-U,.headerName-2N8Pdz, .headerTagUsernameNoNickname-1gGsAP,.headerTag-3zin_i,.theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK,.theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0,.emptyText-AUFSH0,#user-profile-modal .empty .empty-text{
 	color:var(--Popout-Main-Colour)!important;
 }
 
@@ -112,7 +121,7 @@
 	left: -1.5%!important;
 }
 	
-#user-profile-modal,.userPopout-4pfA0d{
+#user-profile-modal,.userPopout-4pfA0d,.inner-1_1f7b{
 	background:var(--Popout-Background)50% 50%/cover!important;
 	text-shadow: 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 5px var(--Popout-Text-Shadow-Colour), 0 0 4px var(--Popout-Text-Shadow-Colour)!important;
 }

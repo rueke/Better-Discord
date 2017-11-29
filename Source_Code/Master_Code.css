@@ -9,8 +9,9 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 */
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Notifications/Made_By_NFLD99.css);
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #74 ";
+	--Update-Text: " Update #75 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
@@ -20,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.New Themes "Super Mario World" and "One Up".</text><text y="180" style="font-size: 1.1em;" x="37">3.New Hover Animation On My Name "NFLD99#9782".</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.Updated User Popouts.</text><text y="180" style="font-size: 1.1em;" x="37">3.New Hover Animation On Some Names ;]</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -2427,72 +2428,6 @@ div.form-inner, .form-actions {
 	background: transparent!important;
 }
 
-/* NFLD99#9782 */
-[style*="avatars/187615613944856576"].avatar-profile::before,
-[style*="avatars/187615613944856576"].avatar-profile[style*="avatars/187615613944856576"]::after,
-[style*="avatars/187615613944856576"].avatar-large[style*="avatars/187615613944856576"]+.comment .timestamp::before,
-[style*="avatars/187615613944856576"].avatar-large[style*="avatars/187615613944856576"]+.comment .timestamp::after {
-  display: inline-block!important;
-}
-
-[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp::before {
-  content: url(https://rawgit.com/NFLD99/9617a094e34f8640f6bd1b0ac54ea8e3/raw/df7dc3d00727f07ad70c3db3af2d3e8642990b48/Github.svg);
-  color: rgba(0,255,0,.3);
-  font-size: 13px;
-  z-index: 1;
-  position: relative;
-  padding-left: 1px;
-  padding-right: 4px;
-  border-radius: 2px;
-  margin-left: -3px;
-  transform: translate(0,1px);
-  cursor: pointer;
-  transition: 100ms ease;
-  pointer-events: initial;
-  animation: rainbow 3s infinite linear;
-}
-
-[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp::after {
-  content: "Hello Im The Theme Dev If You Have Any Issues Please Join The Server! \a Github Link: https://git.io/v7ovg \a Support Server Link: https://discord.gg/K6Gevwk";
-  white-space: pre;
-  background-color: var(--Background-Colour) !important;
-  box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
-  padding: 6px 10px;
-  border-radius: 3px;
-  font-size: 13px;
-  z-index: 3000000;
-  display: block;
-  position: absolute;
-  right: 0;
-  pointer-events: none;
-  transition: 80ms ease;
-  color: var(--Main-Colour);
-  width: 330%;
-  left: 0;
-  transform: translate(17px,-7px);
-  opacity: 0;
-  top: 0;
-  animation: rainbow 3s infinite linear;
-}
-
-[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp:hover::after {
-  opacity: 1;
-  transition: 180ms ease-in-out 100ms;
-  animation: boop .5s 1 linear;
-}
-
-[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp:not(:hover)::after {
-  opacity: 0;
-  transition: 180ms ease-in-out 150ms;
-  animation: boop2 .5s 1 linear;
-}
-
-[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp {
-  position: relative;
-  cursor: pointer;
-}
-/* NFLD99#9782 */
-
 .theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
     border-top: 2px solid rgba(28,36,43,.6);
     box-sizing: border-box;
@@ -3255,8 +3190,17 @@ body{
     transition: opacity .1s ease!important;
 }
 
-.userPopout-4pfA0d .footer-2J5zqP{
+.userPopout-4pfA0d .footer-2J5zqP,.emptyIconFriends-2q_v-C,#user-profile-modal .empty .empty-icon-friends{
   display:none !important;
+}
+
+.emptyText-AUFSH0:after,#user-profile-modal .empty .empty-text:after{
+	content: ". You Should Get Out More.";
+	max-width: 4000px;
+	max-height: 200px;
+	line-height: 26px;
+	text-transform: ;
+	color:var(--Popout-Main-Colour)!important;
 }
 
 .mask-2vyqAW {
@@ -3265,13 +3209,13 @@ body{
     mask: none!important;
 }
 
-.avatar-1BXaQj.avatar-1jmnc-.popout-UKvsJt {
+.avatar-1BXaQj.avatar-1jmnc-.popout-UKvsJt,.connectedAccount-3mKaTA,.activity-AFBUEw,.headerPlaying-2eYqm9,.topSectionPlaying-3jAH9b,.headerStreaming-3F-wjT,.topSectionStreaming-3rIBIm {
 	border:none!important;
   background-color: rgba(255, 255, 255, 0) !important;
 }
 
-.avatar-profile .status {
-    width: 600%!important;
+.avatar-profile .status,.statusProfile-29OBzn {
+    width: 6000%!important;
     height: 10%!important;
     -webkit-box-sizing: border-box!important;
     box-sizing: border-box!important;
@@ -3294,18 +3238,18 @@ body{
 	opacity: 0.5!important;
 }
 
-#user-profile-modal .guilds .guild .status {
-    width: 12%!important;
+#user-profile-modal .guilds .guild .status,.listAvatarStatus-1Egz5B{
+    width: 10%!important;
     height: 100%!important;
-    top: -7%!important;
-    left: 110%!important;
+    top: -6%!important;
+    left: -22%!important;
     border-radius: 0px!important;
     border-color: transparent!important;
     animation: pulse 3s infinite linear!important;
     opacity: 6!important;
 }
 
-#user-profile-modal .guilds .guild:hover,#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message,#user-profile-modal .header,.userPopout-4pfA0d{
+#user-profile-modal .guilds .guild:hover,#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message,#user-profile-modal .header,.userPopout-4pfA0d,.topSectionNormal-2LlRG1,.theme-dark .body-3_tdh6{
 	background:transparent!important;
 	border: none!important;
 }
@@ -3314,10 +3258,10 @@ body{
 	display:none!important;
 }
 
-.avatar-profile{
+.avatar-profile,.inner-1_1f7b{
 	border-radius: 0!important;
 }
-#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,#user-profile-modal .tab-bar .tab-bar-item.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.note textarea,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,#user-profile-modal .guilds .guild .guild-nick,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitleText-hSiL7d,#user-profile-modal .header .header-info .header-info-inner .activity{
+#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,#user-profile-modal .tab-bar .tab-bar-item.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.note textarea,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,#user-profile-modal .guilds .guild .guild-nick,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitleText-hSiL7d,#user-profile-modal .header .header-info .header-info-inner .activity,.discriminator-3KVlLu,.username-24t9uh,.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected,.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555,.userInfoSectionHeader-pmdPGs,.connectedAccountName-3EFj01,.theme-dark .listRow-1wEi-U,.headerName-2N8Pdz, .headerTagUsernameNoNickname-1gGsAP,.headerTag-3zin_i,.theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK,.theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0,.emptyText-AUFSH0,#user-profile-modal .empty .empty-text{
 	color:var(--Popout-Main-Colour)!important;
 }
 
@@ -3329,10 +3273,18 @@ body{
 	left: -1.5%!important;
 }
 	
-#user-profile-modal,.userPopout-4pfA0d{
+#user-profile-modal,.userPopout-4pfA0d,.inner-1_1f7b{
 	background:var(--Popout-Background)50% 50%/cover!important;
 	text-shadow: 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 5px var(--Popout-Text-Shadow-Colour), 0 0 4px var(--Popout-Text-Shadow-Colour)!important;
 }
+
+.member-roles .member-role {
+    background-color: rgba(243, 243, 243, 0);
+    border: 1px solid #dbdde1;
+    border-radius: 3px;
+    color: var(--Popout-Main-Colour);
+}
+/* New UserPopouts */
 
 ::selection{
 	background:var(--M-Colour)!important;
