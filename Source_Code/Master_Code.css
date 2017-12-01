@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #76 ";
+	--Update-Text: " Update #77 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
@@ -21,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Search Window.</text><text y="160" style="font-size: 1.1em;" x="37">2.Updated User Popouts.</text><text y="180" style="font-size: 1.1em;" x="37">3.New Hover Animation On Some Names ;]</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Updated/Fixed Join Server Screen.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -3422,6 +3422,15 @@ body{
 .chat .new-messages-bar, div[class*=" unreadBar-"], .mention-RlZ5F3, .theme-dark .chat .jump-to-present-bar, .channels-wrap > div:last-child:hover > div:last-child:hover {
     background: linear-gradient(to right, var(--Background-Colour), var(--M-Colour), var(--M-Colour), var(--Background-Colour)) !important;
     color: var(--Background-Colour) !important;
+}
+
+.invite-modal .scroller,.invite-modal .invite-body{
+	background:transparent;
+	color: var(--Main-Colour);
+}
+
+.invite-modal .invite-splash{
+	display:none;
 }
 
 /*--------------------------------------------*/
