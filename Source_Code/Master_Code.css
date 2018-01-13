@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #82 ";
+	--Update-Text: " Update #83 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
@@ -21,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Themed LFG Tab.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Major Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.Added popup toggle for settings.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -2865,64 +2865,7 @@ div.form-inner, .form-actions {
   background-repeat: no-repeat;
 }
 
-/* Thanks To uri#0002 For This Code */
-.channels-3g2vYe > div:last-child{
-	position: relative;
-	overflow: visible;
-}
 
-.channels-3g2vYe > div:last-child > div:last-child{
-	width: 35px;
-	height: 35px;
-	background-color: transparent!important;
-	border-radius: 5px!important;
-	margin: 0;
-	padding: 0 0 25px 0;
-	position: absolute;
-	bottom: 5px;
-	right: -10px;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
-	transition: background-color 200ms;
-	z-index: 3;
-	box-sizing: border-box;
-}
-
-.channels-3g2vYe > div:last-child:hover > div:last-child:hover{
-	height: 140px;
-	transition: 500ms ease-in-out;
-}
-
-.channels-3g2vYe > div:last-child > div:last-child:before{
-	content: "";
-	width: 20px;
-	height: 20px;
-	background-image: url(https://rawgit.com/NFLD99/ba33a3c2c1dbf9eca602758315e98ae8/raw/8d4fd00be567551cd55a5cc84f48898178363bfc/Options.svg);
-	background-size: cover;
-	background-position: center;
-	position: absolute;
-	right: 7px;
-	bottom: 9px;
-	opacity: 0.2;
-	transition: opacity 200ms;
-}
-
-.channels-3g2vYe > div:last-child:hover > div:last-child:before{
-	opacity: 0.5;
-}
-
-.channels-3g2vYe > div:last-child > div:last-child > div *{
-	left: 0;
-	display: none;
-}
-
-.channels-3g2vYe > div:last-child:hover > div:last-child:hover > div *{
-	display: block;
-}
-
-/* Thanks To uri#0002 For This Code */
 
 #user-profile-modal .avatar-wrapper {
     position: absolute;
@@ -3609,6 +3552,171 @@ body{
 .theme-dark .gameDefault-2SBp6B:focus, .theme-dark .gameDefault-2SBp6B:hover {
     background-color: transparent;
     border-color: var(--M-Colour);
+}
+
+.profileBadgePremium-3Lp76B {
+	background-image: url(/assets/386884eecd36164487505ddfbac35a9d.svg);
+}
+
+.profileBadgeHypesquad-1z0hV_{
+	background-image: url(/assets/17ebd99540a6e983bade13c3afff7946.svg);
+}
+
+.profileBadges-2B6TBS{
+	animation: PFB 3s 1 ease-in;
+}
+
+.status-picker .popout-menu-item{
+	margin-left:-20px;
+}
+*[style*='74822222203584512']{
+    background-image: url(https://cdn.discordapp.com/avatars/74822222203584512/be7bc7f7cd3080b4681e089a612c5b53.webp?size=128) !important;
+}
+
+.theme-dark .incoming-call-inner {
+    background: var(--Background-Colour);
+    border-color: var(--Main-Colour);
+    padding: 20px 10px 10px;
+}
+
+.incoming-call-inner {
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.embed .embed-thumbnail-gifv:after {
+    right: 0px;
+    top: -25px;
+}
+
+.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW{
+  background: rgba(0,0,0,.5) !important;
+}
+ .theme-dark .layers-20RVFW{
+  background: transparent !important;
+}
+
+#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.channels-3g2vYe.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR > div.container-iksrDt > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO > div.button-1aU9q1 > svg > path {
+	display:none;
+}
+
+#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after {
+    margin-bottom: -3px;
+    padding-top: 0;
+    display: block;
+	background:transparent;
+	border:1px solid var(--Main-Colour);
+	border-radius: 5px;
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Themed LFG Tab.</text></g></svg>');
+	animation: CLog 10s infinite linear;
+}
+.connectionAccountValue-1jN2ex {
+	color: #fff !important;
+}
+
+.theme-dark .premium-settings .premium-settings-background {
+	background: transparent !important;
+}
+
+ #app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x > div > div > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO {
+	display:none;
+}
+
+.premiumPaymentModal-w4sE7z .premiumAnimation-kyGkpE{
+	display:none;
+}
+
+.premiumPaymentModal-w4sE7z{
+	background:var(--Background-Colour);
+}
+
+.premiumPaymentModal-w4sE7z .premiumPaymentForm-1UbSRI .premiumPaymentTitle-1EZFkv{
+	color:var(--Main-Colour);
+}
+
+div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu:not(.item-subMenu), .contextMenu-uoJTbz, .contextMenu-uoJTbz.disabled-dlOjhg .checkbox {
+    background: var(--Background-Colour) !important;
+    background-color: var(--Background-Colour) !important;
+    border: 2px solid var(--M-Colour) !important;
+}
+
+.theme-dark .typing-3eiiL_, .typing-3eiiL_{
+	background-color: rgba(0,0,0,0)!important;
+	bottom:-7px!important;
+}
+
+.text-1rI06-{
+	text-shadow: 0 0 6px Black, 0 0 6px Black, 0 0 5px Black, 0 0 4px Black;
+	background: rgba(216,0,86,var(--Tpying-Rainbow)) !important;
+    animation: rainbow 3s infinite linear;
+	border-radius: 5px !important;
+	color:var(--Main-Colour)!important;
+	bottom:-7px!important;
+}
+
+.upload-modal .footer,.uploadModal-2KN6Mm .footer-4pOKm8 {
+    background-color: rgba(0,0,0,0);
+}
+
+.userPopout-4pfA0d, .inner-1_1f7b{
+    border: .5px solid Black;
+    border-radius: 5px!important;
+}
+
+#user-profile-modal, .userPopout-4pfA0d, .inner-1_1f7b {
+    background: var(--Popout-Background)50% 50%/cover!important;
+    text-shadow: 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 5px var(--Popout-Text-Shadow-Colour), 0 0 4px var(--Popout-Text-Shadow-Colour)!important;
+}
+
+.upload-modal .inner .file .icon.image, .uploadModal-2KN6Mm {
+    -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    -webkit-box-sizing: border-box;
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    top: 32%;
+    left: -3%;
+    width: 100%;
+}
+
+.uploadModal-2KN6Mm .inner-1-09ZV{
+    border: .5px solid transparent;
+}
+
+.uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {
+    -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    -webkit-box-sizing: border-box;
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0);
+    top: 400px !important;
+    left: 0%;
+    width: 100%;
+	height: 104px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -7px;
+}
+
+.uploadModal-2KN6Mm .inner-1-09ZV .comment-1faMgX .label-Cfxxz9{
+	color:var(--Main-Colour);
+}
+
+.theme-dark .item-1XYaYf:hover{
+	background: var(--Background-Colour) !important;
+    background-color: var(--Background-Colour) !important;
+    color: var(--Main-Colour)!important;
+}
+
+.theme-dark .item-1XYaYf{
+    background: var(--Background-Colour) !important;
+    background-color: var(--Background-Colour) !important;
+    color: var(--M-Colour)!important;
 }
 
 /*--------------------------------------------*/

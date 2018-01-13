@@ -1,0 +1,58 @@
+/* Thanks To uri#0002 For This Code */
+.channels-3g2vYe > div:last-child{
+	position: relative;
+	overflow: visible;
+}
+
+.channels-3g2vYe > div:last-child > div:last-child{
+	width: 35px;
+	height: 35px;
+	background-color: transparent!important;
+	border-radius: 5px!important;
+	margin: 0;
+	padding: 0 0 25px 0;
+	position: absolute;
+	bottom: 5px;
+	right: -10px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 200ms;
+	z-index: 3;
+	box-sizing: border-box;
+}
+
+.channels-3g2vYe > div:last-child:hover > div:last-child:hover{
+	height: 140px;
+	transition: 500ms ease-in-out;
+}
+
+.channels-3g2vYe > div:last-child > div:last-child:before{
+	content: "";
+	width: 20px;
+	height: 20px;
+	background-image: url(https://rawgit.com/NFLD99/ba33a3c2c1dbf9eca602758315e98ae8/raw/8d4fd00be567551cd55a5cc84f48898178363bfc/Options.svg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	right: 7px;
+	bottom: 9px;
+	opacity: 0.2;
+	transition: opacity 200ms;
+}
+
+.channels-3g2vYe > div:last-child:hover > div:last-child:before{
+	opacity: 0.5;
+}
+
+.channels-3g2vYe > div:last-child > div:last-child > div *{
+	left: 0;
+	display: none;
+}
+
+.channels-3g2vYe > div:last-child:hover > div:last-child:hover > div *{
+	display: block;
+}
+
+/* Thanks To uri#0002 For This Code */

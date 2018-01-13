@@ -150,3 +150,14 @@
     transform: translate(17px, 50px);
   }
 }
+
+@keyframes PFB {
+  0% {
+    transform: translate(0px, -70px);   
+  	opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 00px);
+	opacity: 1;
+  }
+}
