@@ -1,4 +1,4 @@
-//META{"name":"Winter","description":"Github: https://git.io/v7ovg ,For More Info And The Support Link Please Visit My Server https://discord.gg/K6Gevwk","author":"NFLD99","version":"ersion auto updates"}*//{}
+//META{"name":"Retro","description":"Github: https://git.io/v7ovg ,For More Info And The Support Link Please Visit My Server https://discord.gg/K6Gevwk","author":"NFLD99","version":"ersion auto updates"}*//{}
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Master_Code.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Animations/No.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Fonts/No.css);
@@ -6,35 +6,32 @@
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Minimal/No.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Popup/Yes.css);
 :root {
-  --Main-Colour: rgba(153,255,255, 1);
-  --Background-Colour: rgba(0,0,0, 1);
-  --S-Colour: rgba(0,0,0, .3);
-  --M-Colour: rgba(153,255,255, .5);
-  --Text-Shadow-Colour: rgba(0,0,0, .95);
-  --Scroller-Colour: rgba(153,255,255, 0);
-  --Notification-Colour: rgba(153,255,255, 1);
+  --Main-Colour: rgba(0,172,234,1);
+  --Background-Colour: rgba(0,0,0,1);
+  --S-Colour: rgba(0,0,0,.3);
+  --M-Colour: rgba(0,172,234,.5);
+  --Text-Shadow-Colour: rgba(0,0,0,.65);
+  --Scroller-Colour: rgba(0,172,234,0);
+  --Notification-Colour: rgba(0,172,234,1);
   --Chat-Input-Background: rgba(0,0,0,0);
   --Chat-Input-Colour: var(--Main-Colour) ;
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: url(https://newevolutiondesigns.com/images/freebies/winter-wallpaper-12.jpg);
-  --Settings-Background: url(https://newevolutiondesigns.com/images/freebies/winter-wallpaper-12.jpg);
-  --Callout-Background: url(https://newevolutiondesigns.com/images/freebies/winter-wallpaper-12.jpg);
+  --Chat-Background: url(https://i.imgur.com/L1KaXjH.jpg);
+  --Settings-Background: url(https://i.imgur.com/L1KaXjH.jpg);
+  --Callout-Background: url(https://i.imgur.com/L1KaXjH.jpg);
   --Status-Show-Dot: 0;
   --Status-Show-Border: 1;
   --Title-Background: var(--Background-Colour);
-  --Theme-Variant: " Winter";
+  --Theme-Variant: " Retro ";
   --Tpying-Rainbow: 0;
   --Chat-Font-Used: ;
   --Chat-Font-Size: 15px;
   --Unread-Message-Speed: 1.5s;
   --Popout-Main-Colour: var(--Main-Colour);
-  --Popout-Background: var(--Chat-Background) ;
+  --Popout-Background: var(--Chat-Background);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --load1: "Thank You!";
   --load2: "Please Enjoy!";
   --load3: "➢NFLD99";
-}
-.layers, .layer, .theme-dark .layer-kosS71, .theme-dark .layers-20RVFW{
-    background: rgba(0, 0, 0, 0.43) !important;
 }

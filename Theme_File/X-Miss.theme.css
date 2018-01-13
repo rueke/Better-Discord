@@ -4,6 +4,7 @@
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Fonts/No.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Grid/Yes.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Minimal/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Popup/Yes.css);
 :root {
   --Main-Colour: rgba(153,52,10, 1);
   --Background-Colour: rgba(0,0,0, 1);
@@ -34,7 +35,7 @@
   --load2: "Please Enjoy!";
   --load3: "➢NFLD99";
 }
-.layers, .layer {
+.layers, .layer, .theme-dark .layer-kosS71, .theme-dark .layers-20RVFW{
     background: rgba(0, 0, 0, 0.43) !important;
 }
 

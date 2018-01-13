@@ -4,14 +4,15 @@
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Fonts/No.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Grid/Yes.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Minimal/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Popup/Yes.css);
 :root {
-  --Main-Colour: rgba(128,128,128,1);
+  --Main-Colour: rgba(0,172,234,1);
   --Background-Colour: rgba(48,48,48,1);
   --S-Colour: rgba(48,48,48,.3);
-  --M-Colour: rgba(128,128,128,.5);
+  --M-Colour: rgba(0,172,234,.5);
   --Text-Shadow-Colour: rgba(48,48,48,.65);
-  --Scroller-Colour: rgba(128,128,128,0);
-  --Notification-Colour: rgba(128,128,128,1);
+  --Scroller-Colour: rgba(0,172,234,0);
+  --Notification-Colour: rgba(0,172,234,1);
   --Chat-Input-Background: rgba(0,0,0,0);
   --Chat-Input-Colour: var(--Main-Colour) ;
   --Unread-Message-1: var(--Main-Colour) ;

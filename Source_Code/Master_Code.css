@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #83 ";
+	--Update-Text: " Update #84 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
@@ -21,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Major Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.Added popup toggle for settings.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Major Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.Added popup toggle for settings.</text><text y="180" style="font-size: 1.1em;" x="37">3.Fixed Email blur.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -2620,7 +2620,7 @@ div.form-inner, .form-actions {
 .user-info-viewing .ui-form-item:last-child div, .user-settings-security .checkbox-group .code {
   transition: filter .15s ease-in-out;
 }
-.user-info-viewing .ui-form-item:last-child:not(:hover) div, .user-settings-security .checkbox-group .code:not(:hover) {
+.user-info-viewing .ui-form-item:last-child:not(:hover) div, .user-settings-security .checkbox-group .code:not(:hover),#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div.content-region > div > div > div > div.content-column.default > div > div.userSettingsAccount-2WOnTW > div > div > div > div:nth-child(2) > div:nth-child(2) > div {
   filter: blur(6px); 
 }
 
@@ -3717,6 +3717,10 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
     background: var(--Background-Colour) !important;
     background-color: var(--Background-Colour) !important;
     color: var(--M-Colour)!important;
+}
+
+.theme-dark .userSettingsAccount-2WOnTW .viewBody-14sCmR{
+	color:var(--Main-Colour)!important;
 }
 
 /*--------------------------------------------*/
