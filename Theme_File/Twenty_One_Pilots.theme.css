@@ -29,7 +29,7 @@
   --Chat-Font-Size: 15px;
   --Unread-Message-Speed: 1.5s;
   --Popout-Main-Colour: var(--Main-Colour);
-  --Popout-Background: url(https://i.imgur.com/MtXxJKK.png);
+  --Popout-Background: var(--Chat-Background);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --load1: "Thank You!";
   --load2: "Please Enjoy!";
