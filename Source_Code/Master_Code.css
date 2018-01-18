@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #85 ";
+	--Update-Text: " Update #86 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after {
@@ -21,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Email blur.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Major Bug Fixes.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -569,7 +569,7 @@ span.ping {
 }
 
 /* Tags */
-span.bot-tag {
+span.botTagRegular-288-ZL {
   background-color: rgba(0,216,86, 0.8) !important;
   animation: rainbow 20s infinite linear;
 }
@@ -826,12 +826,13 @@ div p a {
 
 /* Light Theme Support*/
 
-span.channel-name, .private-channels .channel .channel-name, .chat>.title-wrap.title-wrap-dark .topic {
+span.channel-name, .private-channels .channel .channel-name, .chat>.title-wrap.title-wrap-dark .topic, .theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu, .theme-dark .input-autosize-input, .theme-dark .input-autosize-input:focus {
   color: var(--Main-Colour) !important;
 }
 
 a.channel-name.channel-private, #clockPluginClock, .header-1tSljs, .private-channels .channel .channel-activity, .private-channels header, .wrapper-2ldvyE{
   color: var(--Main-Colour) !important;
+  box-shadow:none;
 }
 
 .nameDefault-Lnjrwm, .theme-dark .channel-members .member {
@@ -2112,8 +2113,8 @@ div.flex-spacer.flex-vertical form {
   background: var(--Background-Colour);
   padding: 5px;
   border-bottom: 1px solid var(--Background-Colour);
-  min-height: 116px;
-  max-height: 116px;
+    min-height: 0%;
+    max-height: 100%;
 }
 
 .content-region .CodeMirror, .content-region .cm-s-material .CodeMirror-gutters, #bd-customcss-detach-container .CodeMirror, #bd-customcss-detach-container .cm-s-material .CodeMirror-gutters, .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
@@ -3348,6 +3349,14 @@ body{
 	stroke: var(--M-Colour) !important;
 }
 
+* svg > path, * svg > polygon, .theme-dark .foreground-3yJWZE{
+	fill: var(--M-Colour) !important;
+}
+
+* svg > g > path:nth-child(3),* svg > g > path:nth-child(2){
+	stroke: var(--M-Colour) !important;
+}
+
 .winButtonClose-2rIvsa:hover {
     background: transparent!important;
 }
@@ -3721,6 +3730,107 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 
 .theme-dark .userSettingsAccount-2WOnTW .viewBody-14sCmR{
 	color:var(--Main-Colour)!important;
+}
+
+.bd-pfbtn:hover, .bda-slist .bda-footer button:hover {
+    color: var(--Main-Colour);
+    background-color: Var(--Background-Colour);
+    border: 1px Solid var(--Main-Colour);
+}
+
+.bd-pfbtn:not(:hover), .bda-slist .bda-footer button:not(:hover) {
+    color: var(--M-Colour);
+    background-color: Var(--Background-Colour-Colour);
+    border: 1px Solid var(--M-Colour);
+}
+
+.menu-3BZuDT, .item-rK1j5B{
+	color:var(--M-Colour);
+	background:var(--Background-Colour);
+    padding: 0px 0px;
+}
+
+.item-rK1j5B:hover {
+	color:var(--Main-Colour);
+	background:var(--Background-Colour);
+    padding: 0px 0px;
+}
+
+.alt-2vq4VR .item-rK1j5B .helper-3X2gjI, .separator-1hpa3S{
+	display:none;
+}
+
+.alt-2vq4VR .item-rK1j5B{
+	max-width:100%;
+}
+
+.theme-dark .select-3JqNgs .Select-menu-outer {
+    background: var(--Background-Colour);
+    border-color: var(--M-Colour);
+}
+
+.theme-dark .select-3JqNgs .Select-menu-outer:hover {
+    background: var(--Background-Colour);
+    border-color: var(--Main-Colour);
+}
+
+.theme-dark .select-3JqNgs .Select-option.is-selected {
+    background: var(--Background-Colour);
+    border-color: var(--Main-Colour);
+	border: 1px solid var(--Background-Colour);
+}
+
+.theme-dark .select-3JqNgs .Select-option:hover{
+    background: var(--Background-Colour);
+    color: var(--Main-Colour);
+    border: 1px solid var(--M-Colour);
+}
+
+.theme-dark .select-3JqNgs .Select-option{
+    background: var(--Background-Colour);
+    color: var(--M-Colour);
+    border: 1px solid var(--M-Colour);
+}
+
+.guilds-wrapper .guilds .friends-online{
+	color:var(--M-Colour);
+}
+
+.marginReset-1YolDJ > div:nth-child(2) > svg > path,.marginReset-1YolDJ > div:nth-child(1) > svg > path{
+	fill:var(--Background-Colour)!important;
+}
+
+.theme-dark .select-3JqNgs .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .theme-dark .select-3JqNgs .has-value.Select--single>.Select-control .Select-value .Select-value-label,.theme-dark .title-3i-5G_,.theme-dark .descChecked-KbaI-r, .theme-dark .titleChecked-3Ngoss,.theme-dark .radioGroup-2P3MJo,.theme-dark .input-1aITJk,.theme-dark .buttonGreyGhost-SfY7zU{
+	color:var(--Main-Colour)!important;
+}
+
+.theme-dark .checked-2TahvT{
+	background:var(--Background-Colour)!important;
+    border: 1px solid var(--M-Colour)!important;
+}
+
+.theme-dark .cardPrimaryEditable-2IQ7-V, #app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div > div.ui-form-item.margin-bottom-20 > div > div:nth-child(1){
+    border: 1px solid var(--M-Colour)!important;
+}
+
+.theme-dark .expandIconForeground-3XL8Rh{
+	stroke:var(--Main-Colour)!important;
+}
+
+.user-settings-games .overlay-toggle-icon-off .fill {
+    fill: var(--M-Colour);
+}
+
+.theme-dark .content-3KEfmo p, .theme-dark .content-3KEfmo ul li {
+    color: var(--M-Colour);
+}
+
+#bd-settings-sidebar > span > div:nth-child(2), #bd-settings-sidebar > span > div:nth-child(3){
+    color: var(--M-Colour)!important;
+}
+
+.theme-dark #autocomplete-popout section,.theme-dark #autocomplete-popout .row.selected,.theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background {
+    background: var(--Background-Colour);
 }
 
 /*--------------------------------------------*/
