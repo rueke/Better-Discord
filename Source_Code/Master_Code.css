@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #86 ";
+	--Update-Text: " Update #87 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -21,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Major Bug Fixes.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Classes For Some Stuff.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -3525,10 +3525,6 @@ body{
 	border-right: 1px solid Var(--M-Colour);
 }
 
-.theme-dark .primary-2giqSn {
-    color: Var(--Main-Colour);
-}
-
 .theme-dark .contentLocked-33_aJm, .theme-dark .descriptionColor-2woJAm {
     color: Var(--M-Colour);
 }
@@ -3608,10 +3604,6 @@ body{
 
 #app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.channels-3g2vYe.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR > div.container-iksrDt > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO > div.button-1aU9q1 > svg > path {
 	display:none;
-}
-
-.connectionAccountValue-1jN2ex {
-	color: #fff !important;
 }
 
 .theme-dark .premium-settings .premium-settings-background {
@@ -3821,6 +3813,161 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 
 .theme-dark #autocomplete-popout section,.theme-dark #autocomplete-popout .row.selected,.theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background {
     background: var(--Background-Colour);
+}
+
+.theme-dark .input-2YozMi:focus {
+    border-color: var(--M-Colour);
+}
+
+.theme-dark .input-2YozMi:hover {
+    border-color: var(--Main-Colour);
+}
+.theme-dark .input-2YozMi{
+	color: var(--Main-Colour);
+    border-color: var(--M-Colour);
+}
+
+.theme-dark .buttonPrimaryLinkDefault-1PQflF, .theme-dark .buttonPrimaryLinkDisabled-3Ey7-S, .theme-dark .buttonPrimaryLinkSubmitting-RbBzR4{
+	color: var(--M-Colour);
+}
+
+.theme-dark .buttonPrimaryLinkDefault-1PQflF:active .contents-4L4hQM, .theme-dark .buttonPrimaryLinkDefault-1PQflF:hover .contents-4L4hQM {
+    background-image: linear-gradient(0deg,transparent,transparent 1px,var(--Main-Colour) 0,var(--Main-Colour) 2px,transparent 0);
+	color: var(--Main-Colour);
+}
+
+.theme-dark .checkbox-1QwaS4 {
+    border-color: var(--M-Colour);
+}
+
+.theme-dark .accountBtnInner-3zsU2z {
+    background-color: transparent;
+    border-color: var(--M-Colour);
+}
+
+.theme-dark .accountBtnInner-3zsU2z:hover {
+    background-color: transparent;
+    border-color: var(--Main-Colour);
+}
+
+.connection-2r9Zua{
+	background:transparent !important;
+}
+
+.connectionDelete-1E0cwj {
+    border-color: var(--M-Colour);
+}
+
+.connectionDelete-1E0cwj:after, .connectionDelete-1E0cwj:before {
+    background: var(--M-Colour);
+}
+
+.connectionDelete-1E0cwj:hover {
+    border-color: var(--Main-Colour);
+}
+
+.theme-dark .primary-2giqSn {
+    color: Var(--Main-Colour)!important;
+}
+
+.clipboardInputInner-oj8y-S {
+    background: var(--Background-Colour)!important;
+    border: 1px solid var(--Main-Colour);
+    overflow: hidden;
+}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
+    color: var(--Main-Colour);
+}
+
+input {
+    background-color: transparent;
+}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_, .Select-control {
+    background-color: var(--Background-Colour);
+}
+
+.clipboardInputInner-oj8y-S button {
+    border-left: 1px solid var(--Main-Colour);
+    color: var(--Main-Colour);
+}
+
+.clipboardInputInner-oj8y-S button:first-of-type:before {
+    background: transparent;
+}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .expireText-NeAc7v, .wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz, div.checkbox span {
+    color: var(--M-Colour)!important;
+}
+
+.Select--single>.Select-control .Select-value, .Select-placeholder,.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .has-value.Select--single>.Select-control .Select-value .Select-value-label {
+    color: var(--Main-Colour)!important;
+}
+
+.form-deprecated .Select-option.is-focused, .form.deprecated .Select-option.is-focused {
+    background: var(--Background-Colour);
+    color: var(--Main-Colour);
+}
+
+.form-deprecated .Select-option, .form.deprecated .Select-option {
+    color: var(--M-Colour);
+}
+
+.Select-control,.Select-menu-outer,.Select-option{
+    background: var(--Background-Colour)!important;
+    border-color: var(--Main-Colour)!important;
+}
+
+div.help-text {
+    color: var(--M-Colour)!important;
+}
+
+button.btn.btn-default {
+    background: transparent !important;
+    color: var(--Main-Colour) !important;
+}
+
+.form-deprecated .btn-default, .form.deprecated .btn-default {
+    border-bottom: 2px solid var(--Main-Colour);
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .channel-separator .guild-name,.theme-dark .recent-mentions-popout .tab-bar-item, .theme-dark .recent-mentions-popout .mention-filter .label {
+    color: var(--M-Colour) !important;
+}
+
+.theme-dark .themed-popout .header .title, .theme-dark .recent-mentions-popout .mention-filter .value,.theme-dark .recent-mentions-popout .tab-bar-item{
+    color: var(--Main-Colour) !important;
+}
+
+.theme-dark .themed-popout {
+    background-color: var(--Background-Colour);
+    border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    -webkit-box-shadow: 0 0 6px 4px var(--Background-Colour);
+    background-color: var(--Background-Colour);
+    box-shadow: 0 0 6px 4px var(--Background-Colour);
+}
+
+.theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
+    color: var(--Main-Colour) !important;
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+    background-color: var(--Background-Colour);
+    color:var(--Main-Colour);
+}
+
+.need-help-modal.deprecated .footer{
+    background: var(--Background-Colour)!important;
+    border-color: var(--Main-Colour)!important;
+    color:var(--M-Colour);
+}
+
+.need-help-modal.deprecated .header h1{
+    color:var(--Main-Colour);
 }
 
 /*--------------------------------------------*/
