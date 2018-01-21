@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #87 ";
+	--Update-Text: " Update #89 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -21,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Classes For Some Stuff.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Classes For Some Stuff.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed some popouts to work and not blind you..</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -3968,6 +3968,111 @@ button.btn.btn-default {
 
 .need-help-modal.deprecated .header h1{
     color:var(--Main-Colour);
+}
+
+.message-group .message .markup a[href="https://discord.gg/aSyUs69"] {
+    font-size: 0;
+}
+
+.message-group .message .markup a[href="https://discord.gg/aSyUs69"]:after {
+    content: "NFLD99s Support Server";
+	color:lime;
+    font-size: 15px;
+}
+
+#app-mount > div:nth-child(5) > div.modal-2LIEKY > div > div > div > div > div > div.inviteTitle-2yNtkC,.keyboard-shortcuts-modal .modal-title{
+	color: var(--Main-Colour);
+}
+
+.create-guild-container.deprecated .action .action-body,.inviteModal-1di4Hk .inviteBody-1kVhyx,.inviteModal-1di4Hk .inviteCancel-2dlgcH,.keyboard-shortcuts-modal .keyboard-shortcut-list .keybind-group .keybind-description,.keyboard-shortcuts-modal .modal-subtitle,.keybind-shortcut{
+	color: var(--M-Colour);
+}
+
+#app-mount > div:nth-child(5) > div.modal-2LIEKY > div > div > div > div.scroller-wrap.fade > div > div > div > div.keybind-shortcuts > div > span > svg > g{
+	fill:var(--M-Colour);
+}
+
+.create-guild-container.deprecated .create-or-join .actions .or {
+display:none;
+}
+
+.create-guild-container.deprecated {
+    background:transparent;
+}
+
+.create-guild-container.deprecated .create-or-join .form-inner {
+    background:transparent;
+	height:100%;
+}
+#app-mount > div:nth-child(5) > div.modal-2LIEKY > div {
+    background:transparent;
+}
+
+.ddr-arrows{
+	display:none;
+}
+
+.keybind-shortcut span {
+    -webkit-box-shadow: inset 0 -4px 0 var(--M-Colour);
+    border: 1px solid var(--M-Colour);
+    border-radius: 2px;
+    box-shadow: inset 0 -4px 0 var(--M-Colour);
+}
+
+.keybind-shortcut.dim span {
+    background-color: var(--Background-Colour);
+    color: var(--M-Colour);
+}
+
+.create-guild-container.deprecated .action:hover.join .btn,.keyboard-shortcuts-modal{
+    color: var(--Main-Colour) !important;
+    background-color: Var(--Background-Colour) !important;
+    border: 1px Solid var(--Main-Colour) !important;
+}
+
+.create-guild-container.deprecated .action:not(:hover).join .btn{
+    color: var(--M-Colour) !important;
+    background-color: Var(--Background-Colour-Colour) !important;
+    border: 1px Solid var(--M-Colour) !important;
+}
+
+.create-guild-container.deprecated .create-or-join header{
+	display:none;
+}
+
+.userPopout-4pfA0d, .inner-1_1f7b{
+    border: 1px Solid transparent !important;
+}
+
+.uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .bgScale-1i4Cp3 {
+    background: var(--Background-Colour);
+}
+
+.uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .inner-1-09ZV {
+    border: 2px dashed var(--Main-Colour);
+    color: var(--Main-Colour);
+}
+
+/* ICONS
+.uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .inner-1-09ZV .icon-19bbE_.one-3Z3WUg {
+    background-image: url(/assets/60c3eaf0d7173c929482362ea1d2543a.svg);
+}
+
+.uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .inner-1-09ZV .icon-19bbE_.two-3djYgO {
+    background-image: url(/assets/4ab2ee5027741df387151ca717ae5614.svg);
+}
+
+.uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .inner-1-09ZV .icon-19bbE_.three-jJjLhh {
+    background-image: url(/assets/a4ef7d20760cef4c165825770fd12ac7.svg);
+}
+
+.uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .inner-1-09ZV .instructions-KnejBP {
+    color:  var(--M-Colour);
+}
+ ICONS */
+
+.inviteModal-1di4Hk .scroller {
+    background: var(--Background-Colour);
 }
 
 /*--------------------------------------------*/
