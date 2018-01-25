@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #89 ";
+	--Update-Text: " Update #90 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -21,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.themed error popup.</text><text y="160" style="font-size: 1.1em;" x="37">2.Buttered the Toast!</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.themed More popups.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -2801,49 +2801,53 @@ div.form-inner, .form-actions {
 }
 
 /* Search */
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker,.theme-dark .theme-light .ui-calendar-picker .react-datepicker__header, .theme-light .ui-calendar-picker .react-datepicker__header,.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--outside-month, .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day--outside-month,.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-light .ui-calendar-picker .react-datepicker__day:hover {
-    background-color: var(--S-Colour);
-	color:var(--Main-Colour);
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker, .theme-light .calendarPicker-16Q6sl .react-datepicker, .theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day--disabled, .theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day--outside-month, .theme-light .calendarPicker-16Q6sl .react-datepicker__day--disabled, .theme-light .calendarPicker-16Q6sl .react-datepicker__day--outside-month,.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day, .theme-light .calendarPicker-16Q6sl .react-datepicker__day {
+    background-color: var(--S-Colour)!important;
+	color:var(--M-Colour)!important;
+    border-left-color: var(--M-Colour)!important;
+    border-top-color: var(--M-Colour)!important;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day, .theme-light .ui-calendar-picker .react-datepicker__day {
-    border-left-color: var(--S-Colour);
-    border-top-color: var(--S-Colour);
-    color: var(--M-Colour);
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day:hover, .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:hover, .theme-light .calendarPicker-16Q6sl .react-datepicker__day:hover,.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__header, .theme-light .calendarPicker-16Q6sl .react-datepicker__header,.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__current-month, .theme-light .calendarPicker-16Q6sl .react-datepicker__current-month,.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day-name, .theme-light .calendarPicker-16Q6sl .react-datepicker__day-name {
+    background-color: var(--Background-Colour)!important;
+	color:var(--Main-Colour)!important;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__week:last-of-type .react-datepicker__day, .theme-light .ui-calendar-picker .react-datepicker__week:last-of-type .react-datepicker__day {
-    border-bottom-color: var(--S-Colour);
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__week .react-datepicker__day:last-of-type, .theme-light .calendarPicker-16Q6sl .react-datepicker__week .react-datepicker__day:last-of-type {
+    border-right-color: var(--M-Colour)!important;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type, .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type {
-    border-right-color: var(--S-Colour);
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__week:last-of-type .react-datepicker__day, .theme-light .calendarPicker-16Q6sl .react-datepicker__week:last-of-type .react-datepicker__day {
+    border-bottom-color: var(--M-Colour)!important;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-light .ui-calendar-picker .react-datepicker__day:hover {
-    border-left-color: var(--Main-Colour);
-    border-right-color: var(--Main-Colour);
-    border-top-color: var(--Main-Colour);
-    border-bottom-color: var(--Main-Colour);
-	border:1px solid;
-    color: var(--Main-Colour);
+.search-popout .date-picker .date-picker-hint .hint {
+	color:var(--M-Colour)!important;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--next, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous,.search-popout .date-picker {
-    border-color: transparent;
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-light .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--next, .theme-light .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__current-month, .theme-light .calendarPicker-16Q6sl .react-datepicker__current-month {
+    border-color: var(--M-Colour)!important;
 }
 
-.search-popout .date-picker .date-picker-hint .hint-value {
-    background-color: var(--S-Colour);
-    color: var(--Main-Colour);
+.search-popout .date-picker .date-picker-hint {
+    border-top-color: var(--M-Colour)!important;
 }
 
-.search-popout .date-picker .date-picker-hint .hint-value:hover,.theme-dark .search-answer, .theme-dark .search-filter {
-    background-color: var(--Background-Colour);
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after, .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after {
+    background-color: var(--Main-Colour)!important;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after {
-    background-color: var(--Main-Colour);
+.theme-dark .searchAnswer-yD90ey, .theme-dark .searchFilter-1fJ0cd{
+    background-color: var(--Background-Colour)!important;
+	color:var(--Main-Colour)!important;
+}
+
+.theme-dark .search .DraftEditor-root, .search-popout .results-group .header, .search-popout .option.user .display-username {
+	color:var(--Main-Colour)!important;
+}
+
+.search-popout .option strong, .search-popout .option.user .displayed-nick{
+	color:var(--M-Colour)!important;
 }
 
 .search-popout, .search-popout .option, .search-popout .option:after, .search-popout .search-option .answer,.search-popout .search-option .filter{
@@ -4103,8 +4107,6 @@ display:none;
     color: var(--Main-Colour)!important;
 }
 
-.bd-modal-wrapper .footer button{}
-
 .bd-modal-wrapper .footer button {
 	background: transparent!important;
 	border: 1px solid Var(--M-Colour)!important;
@@ -4124,6 +4126,76 @@ display:none;
 	border: 1px solid Var(--Main-Colour);
     border-radius: 3px;
 	color: Var(--Main-Colour);
+}
+
+.regionSelectModal-QBpi1R{
+	background:var(--Popout-Background);
+}
+
+.regionSelectModal-QBpi1R .regionSelectModalOption-3giLPN{
+    background-color: var(--S-Colour);
+    border: 2px solid var(--M-Colour);
+}
+
+.regionSelectModal-QBpi1R .regionSelectModalOption-3giLPN:hover{
+    background-color: var(--Background-Colour);
+    border: 2px solid var(--Main-Colour);
+}
+
+.regionSelectModal-QBpi1R .regionSelectModalHeader-33y0EU, .regionSelectName-1XSzzb{
+	color:var(--Main-Colour);
+}
+
+.regionSelectModal-QBpi1R .regionSelectModalFooter-1a5bzj{
+	color:var(--M-Colour);
+}
+
+.buttonWhiteOutlined-2KwPTg, .buttonBrandGhost-1-Lmhc {
+	background: transparent!important;
+	border: 1px solid Var(--M-Colour)!important;
+    border-radius: 3px!important;
+	color:Var(--M-Colour)!important;
+}
+
+.buttonWhiteOutlined-2KwPTg:hover {
+	background: transparent!important;
+	border: 1px solid Var(--Main-Colour);
+    border-radius: 3px;
+	color: Var(--Main-Colour)!important;
+}
+
+.theme-dark .container-Q1c3uJ.hover-1civje {
+	border-color: Var(--M-Colour)!important;
+}
+
+.theme-dark .container-2YgzWd {
+	border-color: Var(--M-Colour)!important;
+	background: transparent!important;
+}
+
+.buttonGreyGhost-SfY7zU {
+    background-color: transparent!important;
+    color: Var(--M-Colour)!important;
+    border: 1px solid Var(--M-Colour)!important;
+}
+
+.theme-dark .invite-settings-invite-row, .theme-dark .quickSelect-2sgeoi, .theme-dark .searchBar-YMJBu9 .input-yt44Uw, .theme-dark .inputDefault-3MyqtX, .theme-dark .userHook-DFT5u7, .theme-dark .auditLog-1XsYCj strong, .theme-dark .headerClickable-1jGUp8, .theme-dark .headerDefault-1ajMkj{
+    color: Var(--Main-Colour)!important;
+}
+
+.theme-dark .timestamp-5LpvaA, .theme-dark .headerExpanded-wW1rBx{
+    color: Var(--M-Colour)!important;
+}
+
+.theme-dark .auditLog-1XsYCj {
+	border-color: Var(--M-Colour)!important;
+	background: transparent!important;
+	color: Var(--M-Colour)!important;
+}
+
+.theme-dark .headerExpanded-wW1rBx {
+	background: transparent!important;
+	color: Var(--M-Colour)!important;
 }
 
 /*--------------------------------------------*/
