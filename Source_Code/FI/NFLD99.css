@@ -1,4 +1,4 @@
-/* NFLD99#9782 */
+/* NFLD99#0001 */
 [style*="avatars/187615613944856576"].avatar-profile::before,
 [style*="avatars/187615613944856576"].avatar-profile[style*="avatars/187615613944856576"]::after,
 [style*="avatars/187615613944856576"].avatar-large[style*="avatars/187615613944856576"]+.comment .timestamp::before,
@@ -24,7 +24,7 @@
 }
 
 [style*="avatars/187615613944856576"].avatar-large+.comment .timestamp::after {
-  content: "Hello Im The Theme Dev If You Have Any Issues Please Join The Server! \a Github Link: https://git.io/v7ovg \a Support Server Link: https://discord.gg/K6Gevwk";
+  content: "Hello Im The Theme Dev If You Have Any Issues Please Join The Server! \a Github Link: https://git.io/v7ovg \a Support Server Link: https://discord.gg/aSyUs69";
   white-space: pre;
   background-color: var(--Background-Colour) !important;
   box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
@@ -62,4 +62,4 @@
   position: relative;
   cursor: pointer;
 }
-/* NFLD99#9782 */
+/* NFLD99#0001 */

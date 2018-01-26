@@ -1,13 +1,13 @@
-/* hammy#2400 */
-[style*="avatars/256531049222242304"].avatar-profile::before,
-[style*="avatars/256531049222242304"].avatar-profile[style*="avatars/256531049222242304"]::after,
-[style*="avatars/256531049222242304"].avatar-large[style*="avatars/256531049222242304"]+.comment .timestamp::before,
-[style*="avatars/256531049222242304"].avatar-large[style*="avatars/256531049222242304"]+.comment .timestamp::after {
+/* DevilsLynAvenged#6457 */
+[style*="avatars/235302947058089984"].avatar-profile::before,
+[style*="avatars/235302947058089984"].avatar-profile[style*="avatars/235302947058089984"]::after,
+[style*="avatars/235302947058089984"].avatar-large[style*="avatars/235302947058089984"]+.comment .timestamp::before,
+[style*="avatars/235302947058089984"].avatar-large[style*="avatars/235302947058089984"]+.comment .timestamp::after {
   display: inline-block!important;
 }
 
-[style*="avatars/256531049222242304"].avatar-large+.comment .timestamp::before {
-  content: url(https://i.imgur.com/ntEE9nR.png);
+[style*="avatars/235302947058089984"].avatar-large+.comment .timestamp::before {
+  content: url(https://i.imgur.com/RehWwuP.png);
   color: rgba(0,255,0,.3);
   font-size: 13px;
   z-index: 1;
@@ -23,8 +23,8 @@
   animation: rainbow 3s infinite linear;
 }
 
-[style*="avatars/256531049222242304"].avatar-large+.comment .timestamp::after {
-  content: "Hello Im Hammy! \a I Am A Plugin Dev. \a I Also Do Like Ham.";
+[style*="avatars/235302947058089984"].avatar-large+.comment .timestamp::after {
+  content: "Hello Im DevilsLynAvenged! \a I Am A Theme Dev. \a I Normally Have An Anime PFP.";
   white-space: pre;
   background-color: var(--Background-Colour) !important;
   box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
@@ -38,7 +38,7 @@
   pointer-events: none;
   transition: 80ms ease;
   color: var(--Main-Colour);
-  width: 105px;
+  width: 165px;
   left: 0;
   transform: translate(17px,-7px);
   opacity: 0;
@@ -46,20 +46,20 @@
   animation: rainbow 3s infinite linear;
 }
 
-[style*="avatars/256531049222242304"].avatar-large+.comment .timestamp:hover::after {
+[style*="avatars/235302947058089984"].avatar-large+.comment .timestamp:hover::after {
   opacity: 1;
   transition: 180ms ease-in-out 100ms;
   animation: boop .5s 1 linear;
 }
 
-[style*="avatars/256531049222242304"].avatar-large+.comment .timestamp:not(:hover)::after {
+[style*="avatars/235302947058089984"].avatar-large+.comment .timestamp:not(:hover)::after {
   opacity: 0;
   transition: 180ms ease-in-out 150ms;
   animation: boop2 .5s 1 linear;
 }
 
-[style*="avatars/256531049222242304"].avatar-large+.comment .timestamp {
+[style*="avatars/235302947058089984"].avatar-large+.comment .timestamp {
   position: relative;
   cursor: pointer;
 }
-/* hammy#2400 */
+/* DevilsLynAvenged#6457 */
