@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #92 ";
+	--Update-Text: " Update #93 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Themed More Stuff.</text><text y="160" style="font-size: 1.1em;" x="37">2.Bug Fixes.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Spotify Update :/.</text><text y="160" style="font-size: 1.1em;" x="37">2.Bug Fixes.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -4201,6 +4201,38 @@ display:none;
 
 .theme-dark .input-2YozMi.focused-xL_GX6{
 	border-color: var(--Main-Colour);
+}
+
+.foldercontainer .guild.selected .guild-inner a[style*=font] {
+    background-color: transparent;
+}
+
+.headerSpotify-1fSJPO,.topSectionSpotify-3744IX {
+    background: transparent;
+}
+
+.buttonGreenInverted-3wLrIA {
+    color: var(--Main-Colour);
+    background-color: Var(--S-Colour);
+	border: 1px Solid var(--Main-Colour);
+}
+
+.buttonGreenInverted-3wLrIA:hover {
+    color: var(--Main-Colour);
+    background-color: Var(--Background-Colour);
+	border: 1px Solid var(--Main-Colour);
+}
+
+.bar-45Cs4I {
+    background-color: Var(--S-Colour);
+}
+
+.barInner-2eCe2h {
+    background-color: Var(--S-Colour);
+	border: 1px solid var(--M-Colour);
+}
+.text-38ELUs {
+    color: var(--Main-Colour);
 }
 
 /*--------------------------------------------*/
