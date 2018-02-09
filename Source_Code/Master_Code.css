@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #94 ";
+	--Update-Text: " Update #95 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Repo Plugin Support.</text><text y="160" style="font-size: 1.1em;" x="37">2.Added Boop For First Donator!.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Spotify Themed.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -4233,6 +4233,52 @@ display:none;
 }
 .text-38ELUs {
     color: var(--Main-Colour);
+}
+
+.theme-dark .preview-1mYYph{
+	border-color:var(--M-Colour);
+}
+
+.theme-dark .invite-CTGItT{
+	background:var(--S-Colour);
+}
+
+.theme-dark .header-ygd_5b, .theme-dark .subHeader-11w1JS, .theme-dark .name-14yY4P, .theme-dark .partyStatus-2OUdt3{
+	color:var(--M-Colour);
+}
+
+.buttonBrandLinkDefault-1bjP4F:active .contents-4L4hQM, .buttonBrandLinkDefault-1bjP4F:hover .contents-4L4hQM {
+    background-image: linear-gradient(0deg,transparent,transparent 1px,var(--Main-Colour) 0,var(--Main-Colour) 2px,transparent 0);
+}
+
+.buttonBrandLink-3csEAP{
+	color:var(--M-Colour);
+}
+
+.theme-dark .attachPopout-gjwHsr{
+  background: var(--Background-Colour) !important;
+  background-color: var(--Background-Colour) !important;
+  color: var(--M-Colour)!important;
+  padding:0;
+}
+
+.theme-dark .attachPopoutRow-elxASe:hover {
+  border: 0.5px solid var(--M-Colour) !important;
+  color: var(--Main-Colour)!important;
+  background-color: var(--Background-Colour) !important;
+}
+
+.theme-dark .attachPopoutRowText-3YWM_W {
+  color: var(--Main-Colour)!important;
+}
+
+.attachPopoutIcon-37fHgm{
+	display:none;
+}
+
+.theme-dark .attachment-1Vom9D{
+	background:transparent;
+	border-color:transparent;
 }
 
 /*--------------------------------------------*/
