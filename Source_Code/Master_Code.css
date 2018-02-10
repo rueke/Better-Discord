@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #95 ";
+	--Update-Text: " Update #96 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Spotify Themed.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.me/NFLD99s-Support</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Role List.</text><text y="160" style="font-size: 1.1em;" x="37">2.Updated React Panel</text><text y="180" style="font-size: 1.1em;" x="37">3.Updated Start Convo Popup.</text><text y="200" style="font-size: 1.1em;" x="37">4.Added Support For Member Count.</text><text y="220" style="font-size: 1.1em;" x="37">5.Updated Spotify Invite.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -2397,7 +2397,7 @@ div.form-inner, .form-actions {
     background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Notification-Colour)) !important;
 }
 
-.itemDefault-3NDwnY:not(.guild-role), .itemBrand-mC9YR4:not(.guild-role), #bd-settings-sidebar .ui-tab-bar-item:not(.guild-role) {
+.itemDefault-3NDwnY:not(.role-3-cErg), .itemBrand-mC9YR4:not(.role-3-cErg), #bd-settings-sidebar .ui-tab-bar-item:not(.role-3-cErg) {
 	color:var(--M-Colour)!important;
 }
 
@@ -4281,6 +4281,83 @@ display:none;
 	border-color:transparent;
 }
 
+.theme-dark .invite-CTGItT{
+	background:var(--S-Colour);
+	border: 5px ridge var(--Main-Colour);
+}
+
+.coverImageActionable-3eG55a.blurred-eylnMq{
+	display:none;
+}
+
+.theme-dark .artworkSpotifySessionEnded-1GyuWx{
+	display:none;
+}
+
+.theme-dark .container-a2vS7i, .theme-dark .reactors-2PjMP0{
+	background:var(--Background-Colour);
+}
+
+.theme-dark .reactionSelected-rLBoT_,.theme-dark .sidebar-32BRdp{
+	background:transparent;
+}
+
+.theme-dark .discriminator-3d3E8U{
+	color:var(--M-Colour);
+}
+
+.theme-dark .reaction{
+	background:var(--S-Colour)!important;
+	border: 1px ridge var(--Main-Colour)!important;
+}
+
+.theme-dark .reaction .reaction-count{
+	color:var(--M-Colour);
+}
+
+.reaction.reaction-me .reaction-count,.theme-dark .reaction.reaction-me .reaction-count{
+	color:var(--Main-Colour);
+}
+
+.theme-dark .input-MwQhcX,.theme-dark .quickswitcher-2NdiGJ {
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0), 0 0 0 1px rgba(0,0,0,0);
+    background-color: var(--S-Colour);
+    box-shadow: 0 2px 5px rgba(0,0,0,0), 0 0 0 1px rgba(0,0,0,0);
+    color: var(--M-Colour);
+	border: 1px solid var(--Main-Colour)!important;
+}
+
+.theme-dark .contentDefault-EFuBhq,.theme-dark .header-1WeC_O{
+    color: var(--M-Colour);
+}
+
+.theme-dark .resultFocused-2geRUA{
+    background-color: var(--S-Colour);
+	border: 1px solid var(--Main-Colour)!important;
+}
+
+.theme-dark .tipsWithoutResults-202oQR, .theme-dark .tipsWithResults-3TVZGE{
+	background:transparent!important;
+	color:var(--M-Colour)!important;
+}
+
+.dark-2Ll8iS span {
+    -webkit-box-shadow: inset 0 -4px 0 rgba(35,39,42,0);
+    background-color: var(--S-Colour);
+    border-color: var(--M-Colour);
+    box-shadow: inset 0 -4px 0 rgba(35,39,42,0);
+    color: var(--M-Colour);
+}
+
+.dark-2Ll8iS span .bindArrow-3Mm64N g {
+    fill: var(--M-Colour);
+}
+
+.botTagInvert-gorWR_{
+	background-color: rgba(0,216,86, 0.8) !important;
+    animation: rainbow 20s infinite linear;
+}
+
 /*--------------------------------------------*/
 
 
@@ -4446,3 +4523,10 @@ display:none;
 	border: 1px Solid var(--Main-Colour)!important;
 }
 /* Support For Repo Plugins */
+
+/* Support For Member Count */
+.theme-dark #memberCount{
+	background:transparent!important;
+	color:var(--M-Colour)!important;
+}
+/* Support For Member Count */
