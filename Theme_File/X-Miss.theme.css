@@ -1,4 +1,4 @@
-//META{"name":"X-Miss","description":"Github: https://git.io/v7ovg ,Support server link: https://discord.gg/aSyUs69","author":"NFLD99","version":"ersion auto updates"}*//{}
+//META{"name":"X-Miss","description":"Github: https://git.io/v7ovg ,Support Server Link: https://discord.gg/aSyUs69","author":"NFLD99","version":"ersion auto updates"}*//{}
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Master_Code.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Animations/No.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Fonts/No.css);
@@ -6,13 +6,13 @@
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Minimal/No.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Popup/Yes.css);
 :root {
-  --Main-Colour: rgba(153,52,10, 1);
+  --Main-Colour: rgba(153,10,10, 1);
   --Background-Colour: rgba(0,0,0, 1);
   --S-Colour: rgba(0,0,0, .3);
-  --M-Colour: rgba(153,52,10, .5);
+  --M-Colour: rgba(153,10,10, .5);
   --Text-Shadow-Colour: rgba(0,0,0, .95);
-  --Scroller-Colour: rgba(153,52,10, 0);
-  --Notification-Colour: rgba(153,52,10, 1);
+  --Scroller-Colour: rgba(153,10,10, 0);
+  --Notification-Colour: rgba(153,10,10, 1);
   --Chat-Input-Background: rgba(0,0,0,0);
   --Chat-Input-Colour: var(--Main-Colour) ;
   --Unread-Message-1: var(--Main-Colour) ;

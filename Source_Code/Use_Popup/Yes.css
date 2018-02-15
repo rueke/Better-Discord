@@ -1,4 +1,4 @@
-/* Thanks To uri#0002 For This Code */
+/* Thanks To uri#0002 For This Code, and to Square#3880 for helping me make it better */
 .channels-3g2vYe > div:last-child{
 	position: relative;
 	overflow: visible;
@@ -29,11 +29,12 @@
 }
 
 .channels-3g2vYe > div:last-child > div:last-child:before{
-	content: "";
+	content:"";
+	-webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" style="transform: scale(0.6)"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/><title>list2</title><g class="currentLayer" style=""><title>Layer 1</title><path d="M12,2 h20 v4 h-20 v-4 zM12,14 h20 v4 h-20 v-4 zM12,26 h20 v4 h-20 v-4 zM0,4 c0,-2.209 1.791,-4 4,-4 s4,1.791 4,4 c0,2.209 -1.791,4 -4,4 s-4,-1.791 -4,-4 zM0,16 c0,-2.209 1.791,-4 4,-4 s4,1.791 4,4 c0,2.209 -1.791,4 -4,4 s-4,-1.791 -4,-4 zM0,28 c0,-2.209 1.791,-4 4,-4 s4,1.791 4,4 c0,2.209 -1.791,4 -4,4 s-4,-1.791 -4,-4 z" id="svg_1" class="selected" fill="none" stroke="white" stroke-width="2" stroke-opacity="1"/></g></svg>');
+	background-color: var(--M-Colour);
 	width: 20px;
 	height: 20px;
-	background-image: url(https://rawgit.com/NFLD99/ba33a3c2c1dbf9eca602758315e98ae8/raw/8d4fd00be567551cd55a5cc84f48898178363bfc/Options.svg);
-	background-size: cover;
+	background-size: fit;
 	background-position: center;
 	position: absolute;
 	right: 7px;
@@ -55,4 +56,4 @@
 	display: block;
 }
 
-/* Thanks To uri#0002 For This Code */
+/* Thanks To uri#0002 For This Code, and to Square#3880 for helping me make it better */
