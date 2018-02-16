@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #98 ";
+	--Update-Text: " Update #99 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://Twitch.Tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed A Boop.</text><text y="160" style="font-size: 1.1em;" x="37">2.Added Support For ChannelHistory.</text><text y="180" style="font-size: 1.1em;" x="37">3.Added URL Changes.</text><text y="200" style="font-size: 1.1em;" x="37">4.Popup Settings Is Now Themed To Match Theme.</text><text y="220" style="font-size: 1.1em;" x="37">5.Fixed Add Note Background When Focused.</text><text y="240" style="font-size: 1.1em;" x="37">6.Fixed Friends Icon.</text><text y="260" style="font-size: 1.1em;" x="37">7.Fixed Add Guild Icon.</text><text y="280" style="font-size: 1.1em;" x="37">8.Fixed Edit Msg Text.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed A Boop.</text><text y="160" style="font-size: 1.1em;" x="37">2.Added Support For ChannelHistory.</text><text y="180" style="font-size: 1.1em;" x="37">3.Added URL Changes.</text><text y="200" style="font-size: 1.1em;" x="37">4.Popup Settings Is Now Themed To Match Theme.</text><text y="220" style="font-size: 1.1em;" x="37">5.Fixed Add Note Background When Focused.</text><text y="240" style="font-size: 1.1em;" x="37">6.Fixed Friends Icon.</text><text y="260" style="font-size: 1.1em;" x="37">7.Fixed Add Guild Icon.</text><text y="280" style="font-size: 1.1em;" x="37">8.Fixed Edit Msg Text.</text><text y="300" style="font-size: 1.1em;" x="37">9.Fixed Incoming Call Popup.</text><text y="320" style="font-size: 1.1em;" x="37">10.Fixed User Popouts.</text><text y="340" style="font-size: 1.1em;" x="37">11.Fixed Buttons.</text><text y="360" style="font-size: 1.1em;" x="37">12.Themed Streamer Mode Notice.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -3230,19 +3230,6 @@ body{
   background-color: rgba(255, 255, 255, 0) !important;
 }
 
-.avatar-profile .status,.statusProfile-29OBzn {
-    width: 670%!important;
-    height: 10%!important;
-    -webkit-box-sizing: border-box!important;
-    box-sizing: border-box!important;
-    border: none!important;
-	border-radius: 0px!important;
-    top: -25%!important;
-    left: -25%!important;
-	animation: pulse 3s infinite linear!important;
-	opacity: 0.5!important;
-}
-
 .userPopout-4pfA0d .status-3jUEha{
 	width: 150%!important;
     height: 5%!important;
@@ -3301,17 +3288,17 @@ body{
     color: var(--Popout-Main-Colour);
 }
 
-.avatar-profile .status,.statusProfile-29OBzn {
-    width: 670%!important;
+.avatar-profile .status, .statusProfile-29OBzn {
+    width: 766%!important;
     height: 10%!important;
     -webkit-box-sizing: border-box!important;
     box-sizing: border-box!important;
     border: none!important;
-	border-radius: 0px!important;
-    top: -25%!important;
-    left: -25%!important;
-	animation: pulse 3s infinite linear!important;
-	opacity: 0.5!important;
+    border-radius: 0px!important;
+    top: -20%!important;
+    animation: pulse 3s infinite linear!important;
+    opacity: 0.5!important;
+    left: -100%!Important;
 }
 
 .status-3jUEha:not(.statusProfile-29OBzn) {
@@ -3325,6 +3312,50 @@ body{
     left: -55%!important;
 	animation: pulse 3s infinite linear!important;
 	opacity: 0.5!important;
+}
+
+.theme-dark .headerNormal-3Vn9nT {
+    background-color: transparent;
+}
+
+.header-3budic {
+    color: var(--Popout-Main-Colour);
+    line-height: 20px;
+}
+
+.theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
+    background-color: transparent;
+    color: var(--Popout-Main-Colour);
+}
+
+.theme-dark .footer-2wFs91 {
+    display:none;
+}
+
+.userPopout-11hFKo {
+    background: var(--Popout-Background);
+}
+
+.headerName-3U6eDn, .headerTagUsernameNoNickname-22Y2PV,.headerTag-I11IJx,.bodyTitle-18hsd9,.theme-dark .note-2AtC_s textarea{
+	color: var(--Popout-Main-Colour)!important;
+}
+
+.theme-dark .note-2AtC_s textarea:focus {
+    background-color: var(--S-Colour);
+}
+
+.headerSpotify-26yUf5,.headerPlaying-2Q7mBy,.headerStreaming-lmgoma {
+    background: transparent;
+}
+
+.lookOutlined-1c5nhl.colorWhite-1IbOTe {
+    border-color: var(--M-Colour);
+	color: var(--M-Colour);
+}
+
+.lookOutlined-1c5nhl.colorWhite-1IbOTe:hover {
+    border-color: var(--Main-Colour);
+	color: var(--Main-Colour);
 }
 
 /* New UserPopouts */
@@ -4451,6 +4482,92 @@ display:none;
     content: "Hammy's repo";
 	color:var(--Main-Colour);
     font-size: 15px;
+}
+
+[class*="lookFilled-"]:hover {
+    background-color: var(--S-Colour)!important;
+	color: var(--Main-Colour)!important;
+	border: 1px solid var(--Main-Colour)!important;
+}
+
+[class*="lookFilled-"] {
+    background-color: var(--S-Colour)!important;
+    color: var(--M-Colour)!important;
+	border: 1px solid var(--M-Colour)!important;
+}
+
+.theme-dark .lookLink-3VWONr.colorPrimary-2KuK5O:hover .contents-4L4hQM,.lookLink-3VWONr.colorGrey-4JijJ1:hover .contents-4L4hQM {
+    background-image: linear-gradient(0deg,transparent,transparent 1px,var(--Main-Colour) 0,var(--Main-Colour) 2px,transparent 0);
+}
+
+.theme-dark .add-game-popout .cancel-button {
+    color: var(--Main-Colour);
+}
+
+.theme-dark .lookOutlined-1c5nhl.colorPrimary-2KuK5O:hover {
+    border-color: var(--Main-Colour);
+	color: var(--Main-Colour);
+}
+
+.theme-dark .lookOutlined-1c5nhl.colorPrimary-2KuK5O {
+    border-color: var(--M-Colour);
+	color: var(--M-Colour);
+}
+
+.theme-dark .lookLink-3VWONr.colorPrimary-2KuK5O {
+    color: var(--Main-Colour);
+}
+
+.theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected {
+    background-color: var(--S-Colour);
+}
+
+.theme-dark .user-settings-games .not-detected .game-name, .theme-light .user-settings-games .not-detected .game-name {
+    color: var(--Main-Colour);
+}
+
+.theme-dark .user-settings-games .not-detected .last-played, .theme-light .user-settings-games .not-detected .last-played {
+    color: var(--M-Colour);
+}
+
+.theme-dark .user-settings-games .game-name-input:focus, .theme-dark .user-settings-games .game-name-input:hover {
+    background-color: var(--Background-Colour);
+    border-color: var(--Main-Colour);
+}
+
+.theme-dark .incomingCallInner-1LQbjf .members-39w8ve {
+    color: var(--Main-Colour);
+}
+
+.incomingCallInner-1LQbjf .subtitle-3es__m {
+    color: var(--M-Colour);
+}
+
+.theme-dark .incomingCallInner-1LQbjf {
+    background: var(--Popout-Background);
+    border-color: var(--Main-Colour);
+}
+
+[class*="notice"] {
+    background-color: var(--Background-Colour);
+    color: var(--Main-Colour);
+	border: 1px solid var(--Main-Colour);
+}
+
+.button-2TvR03:hover,.noticeStreamerMode-1OlfKV .button-2TvR03:hover,.streamerModeEnabledBtn-3dSeeO:hover {
+    background: var(--Background-Colour);
+    color: var(--Main-Colour);
+	border: 1px solid var(--Main-Colour);
+}
+
+.button-2TvR03,.streamerModeEnabledBtn-3dSeeO {
+    background: var(--S-Colour);
+    color: var(--M-Colour);
+	border: 1px solid var(--M-Colour);
+}
+
+.theme-dark .streamerModeEnabledImage-1k7awp {
+	background:none;
 }
 
 /*--------------------------------------------*/
