@@ -2394,7 +2394,7 @@ ul.bda-slist > li[data-reactid^=".3.$scroller.$pcolumn.1:$plugin-list.$"] > div:
   background-image:none!important;
 }
 
-#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div > div > div.guilds-wrapper.folderopen > div.scroller-wrap > div > div:nth-child(2) > div{
+.guild-inner[style*="background-color: rgb"]{
 	border-radius:1px!important;
 }
 
