@@ -4410,9 +4410,17 @@ display:none;
 .checkbox .checkbox-inner span {
     bottom: 10%;
     box-sizing: border-box;
-    left: 3260%;
-    right: -3460%;
+    left: 0%;
+    right: 0%;
     top: 0;
+    transition: .54s;
+}
+[id*="plugin-settings"] div.checkbox > div > span {
+    bottom: 10%;
+    box-sizing: border-box;
+    left: 3209%;
+    right: -3209%;
+    top: -40%;
     transition: .54s;
 }
 
