@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #100 ";
+	--Update-Text: " Update #101 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Unsaved Changes.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Toggles.</text><text y="180" style="font-size: 1.1em;" x="37">3.Fixed Need Help Box.</text><text y="200" style="font-size: 1.1em;" x="37">4.Themed More SVGs.</text><text y="220" style="font-size: 1.1em;" x="37">5.Fixed Create Server Window.</text><text y="240" style="font-size: 1.1em;" x="37">6.Fixed DM Icon.</text><text y="260" style="font-size: 1.1em;" x="37">7.Fixed Get Nitro In Settings.</text><text y="280" style="font-size: 1.1em;" x="37">8.Fixed Join-Make Server Popup.</text><text y="300" style="font-size: 1.1em;" x="37">9.Update 100 Hype.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed More Svgs</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Friends List.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -1557,6 +1557,112 @@ spinner-pulsing-ellipsis .spinner-item {
   background: transparent;
   border-radius: 15px;
   opacity: 7;
+}
+
+.connectedAccountOpenIcon-2J8hDS {
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><g fill="none" fill-rule="evenodd" opacity=".60000002"><path d="M0 0h18v18H0z"/><path fill="#99AAB5" d="M10.5 2.25v1.5h2.6925L5.82 11.1225 6.8775 12.18 14.25 4.8075V7.5h1.5V2.25H10.5zm3.75 12H3.75V3.75H9v-1.5H3.75c-.8325 0-1.5.675-1.5 1.5v10.5c0 .8284271.67157287 1.5 1.5 1.5h10.5c.8284271 0 1.5-.6715729 1.5-1.5V9h-1.5v5.25z"/></g></svg>');
+  background-color: var(--Main-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+/*Thanks to Nomuit#7411 For Helping me find this */
+.connectedAccountVerifiedIcon-1Ms4J8 g {
+    display: none;
+}
+/*Thanks to Nomuit#7411 For Helping me find this */
+
+.connectedAccountVerifiedIcon-1Ms4J8 {
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title></title><g id="icomoon-ignore"></g><path d="M446.134 257.245c1.221-5.554 1.866-11.323 1.866-17.245 0-44.183-35.817-80-80-80-7.112 0-14.007 0.934-20.567 2.676-12.398-38.676-48.644-66.676-91.433-66.676-43.674 0-80.527 29.168-92.163 69.085-11.371-3.31-23.396-5.085-35.837-5.085-70.692 0-128 57.308-128 128s57.308 128 128 128h304c44.183 0 80-35.816 80-80 0-39.359-28.427-72.080-65.866-78.755zM208 384l-80-80 32-32 48 48 112-112 32 32-144 144z"></path></svg>');
+  background-color: var(--M-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+.theme-dark .search .search-bar .search-bar-icon .icon.icon-search-bar-clear {
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><g fill="none" fill-rule="evenodd"><rect width="18" height="18"/><path fill="#FFFFFF" d="M9,2 C12.871,2 16,5.129 16,9 C16,12.871 12.871,16 9,16 C5.129,16 2,12.871 2,9 C2,5.129 5.129,2 9,2 L9,2 Z M11.6925,5.25 L9,7.9425 L6.3075,5.25 L5.25,6.3075 L7.9425,9 L5.25,11.6925 L6.3075,12.75 L9,10.0575 L11.6925,12.75 L12.75,11.6925 L10.0575,9 L12.75,6.3075 L11.6925,5.25 Z"/></g></svg>');
+  background-color: var(--M-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+.theme-dark .search .search-bar .search-bar-icon .icon.icon-search-bar-eye-glass {
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><g fill="none" fill-rule="evenodd"><path d="M0 0h18v18H0z"/><path fill="#FFF" d="M3.6009148 7.20297313c0-1.99313894 1.6089194-3.60205832 3.60205833-3.60205832 1.99313893 0 3.60205827 1.6089194 3.60205827 3.60205834 0 1.99313893-1.60891934 3.60205827-3.60205827 3.60205827-1.99313894 0-3.60205832-1.60891933-3.60205832-3.60205826zm8.4048028 3.60205827h-.6323614l-.2241281-.2161235c.7844483-.9125214 1.2567182-2.09719835 1.2567182-3.38593477C12.4059463 4.32933105 10.0766152 2 7.20297313 2 4.32933105 2 2 4.32933105 2 7.20297313c0 2.87364207 2.32933105 5.20297317 5.20297313 5.20297317 1.28873642 0 2.47341338-.4722699 3.38593477-1.2567182l.2161235.2241281v.6323614L14.8073185 16 16 14.8073185l-3.7897462-3.7973409-.2045362-.2049462z"/></g></svg>');
+  background-color: var(--M-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+.search-popout .results-group .search-learn-more {
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><g fill="none" fill-rule="evenodd"><path d="M0 0h18v18H0"/><path fill="#99AAB5" d="M8.25 13.5h1.5V12h-1.5v1.5zM9 1.5C4.86 1.5 1.5 4.86 1.5 9c0 4.14 3.36 7.5 7.5 7.5 4.14 0 7.5-3.36 7.5-7.5 0-4.14-3.36-7.5-7.5-7.5zM9 15c-3.3075 0-6-2.6925-6-6s2.6925-6 6-6 6 2.6925 6 6-2.6925 6-6 6zM9 4.5c-1.6575 0-3 1.3425-3 3h1.5C7.5 6.675 8.175 6 9 6s1.5.675 1.5 1.5c0 1.5-2.25 1.3125-2.25 3.75h1.5C9.75 9.5625 12 9.375 12 7.5c0-1.6575-1.3425-3-3-3z"/></g></svg>');
+  background-color: var(--M-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+.search-popout .results-group .search-clear-history {
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><g fill="none" fill-rule="evenodd"><path d="M0 0h18v18H0"/><path fill="#99AAB5" d="M7.5 7.5h-6V9h6V7.5zm3-3h-9V6h9V4.5zm3.3106602 6.75l2.1213203-2.12132034-1.0606602-1.06066018L12.75 10.1893398l-2.1213203-2.12132032-1.06066022 1.06066018L11.6893398 11.25l-2.12132032 2.1213203 1.06066022 1.0606602L12.75 12.3106602l2.1213203 2.1213203 1.0606602-1.0606602L13.8106602 11.25zM1.5 12h6v-1.5h-6V12z"/></g></svg>');
+  background-color: var(--M-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove {
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><g fill="none" fill-rule="evenodd"><path fill="#FFF" d="M10 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm9.3073999-3.5066333l1.6724326-1.67243255c.124596-.12459606.39675-.3967501-.0040202-.79752037-.4007703-.40077028-.6769006-.1325925-.8014967-.00799643l-1.6724325 1.67243252-1.636821-1.636821c-.1236964-.12369646-.4297191-.42971917-.8344657-.02497265-.4047465.40474653-.0995039.7115494.0241925.83524585l1.636821 1.63682103-1.6258273 1.6258273c-.1236965.1236965-.4385989.4465514-.0378286.8473217.4007703.4007702.6792282.1223123.8029247-.0013842l1.666248-1.666248 1.6540174 1.6540173c.1241462.1241463.4199216.4183614.8246682.0136149.4047465-.4047466.1097512-.6997418-.014395-.8238881l-1.6540174-1.6540173z"/><path d="M0 0h24v24H0"/></g></svg>');
+  background-color: var(--M-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-voice-call {
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" ><g fill="none" fill-rule="evenodd"><polygon points="0 0 24 0 24 24 0 24"/><path fill="#FFFFFF" d="M7.5,10.5 C8.94,13.33 10.6691281,15.05 13.4991281,16.5 L15.41,15.18 C15.68,14.91 16.08,14.82 16.43,14.94 C17.55,15.31 18.76,15.51 20,15.51 C20.55,15.51 21,15.96 21,16.51 L21,20 C21,20.55 20.55,21 20,21 C10.61,21 2.79399907,13.6404449 3,4 C3.01174994,3.45012573 3.45,3 4,3 L7.5,3 C8.05,3 8.5,3.45 8.5,4 C8.5,5.25 8.7,6.45 9.07,7.57 C9.18,7.92 9.1,8.31 8.82,8.59 L7.5,10.5 Z"/></g></svg>');
+  background-color: var(--M-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-video-call {
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" ><g fill="none" fill-rule="evenodd"><polygon points="0 0 24 0 24 24 0 24"/><path fill="#FFFFFF" fill-rule="nonzero" d="M17,10.5 L17,7 C17,6.45 16.55,6 16,6 L4,6 C3.45,6 3,6.45 3,7 L3,17 C3,17.55 3.45,18 4,18 L16,18 C16.55,18 17,17.55 17,17 L17,13.5 L21,17.5 L21,6.5 L17,10.5 Z"/><rect width="24" height="24"/></g></svg>')!important;
+  background-color: var(--M-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-cancel, #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-ignore {
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0"/><path fill="#FFF" d="M12.6666667 4.27333333l-.94-.94L8 7.06 4.27333333 3.33333333l-.94.94L7.06 8l-3.72666667 3.7266667.94.94L8 8.94l3.7266667 3.7266667.94-.94L8.94 8"/></g></svg>')!important;
+  background-color: var(--M-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
 }
 
 /*Mic*/
@@ -4678,6 +4784,22 @@ display:none;
 
 .theme-dark .questionMark-1R8WLs:hover {
     background-color:transparent;
+}
+
+#friends .friends-table .friends-row .friends-column+.friends-column {
+    margin-left: 4px;
+}
+
+#friends .friends-table .friends-table-header .friends-column-separator {
+    margin: 0 9.5px;
+}
+
+.theme-dark #friends .tab-bar .tab-bar-item {
+    color: var(--M-Colour);
+}
+
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+    color: var(--Main-Colour);
 }
 
 /*--------------------------------------------*/
