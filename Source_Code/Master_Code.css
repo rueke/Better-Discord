@@ -3491,7 +3491,7 @@ body{
 }
 
 .userPopout-11hFKo {
-    background: var(--Popout-Background);
+    background: var(--Popout-Background) 50% 50%/cover;
 }
 
 .headerName-3U6eDn, .headerTagUsernameNoNickname-22Y2PV,.headerTag-I11IJx,.bodyTitle-18hsd9,.theme-dark .note-2AtC_s textarea{
@@ -4898,6 +4898,19 @@ display:none;
     top: -8%!important;
     left: -8%!important;
     border: 2.5px solid #593695!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+/* OFFLINE */
+.statusInvisible-2ci18Q:not(.statusProfile-29OBzn), .statusOffline-jZXr_u:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -8%!important;
+    left: -8%!important;
+    border: 2.5px solid #747f8d!important;
     border-radius: 5px !important;
 	background:none;
 	opacity: 1 !important;
