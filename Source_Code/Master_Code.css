@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #102 ";
+	--Update-Text: " Update #103 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Added Support For Discord Logger</text><text y="160" style="font-size: 1.1em;" x="37">2.New Boop For StratoBotElite#4763 Thanks For The $20 Donation.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Member List</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Better Docs Links in Chat.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -1504,6 +1504,81 @@ spinner-pulsing-ellipsis .spinner-item {
 
 .account .status-offline,.account .status-invisible {
   opacity: 1 !important;
+}
+
+/* User Status 2 */
+/* DND */
+.statusDnd-35xAXU:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -8%!important;
+    left: -8%!important;
+    border: 2.5px solid #f04747!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+/* ONLINE */
+.statusOnline-1Mp2_H:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -8%!important;
+    left: -8%!important;
+    border: 2.5px solid #43b581!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+/* AWAY */
+.statusIdle-2AQdvu:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -8%!important;
+    left: -8%!important;
+    border: 2.5px solid #faa61a!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+/* STREAM */
+.statusStreaming-1bZ3Hq:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -8%!important;
+    left: -8%!important;
+    border: 2.5px solid #593695!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+
+.theme-dark .memberOnline-1xn3V8 {
+    color: var(--Main-Colour) !important;
+}
+
+.theme-dark .memberOffline-lvMbAs {
+    color: var(--M-Colour) !important;
+}
+
+.theme-dark .activity-1PAe08 {
+    color: var(--M-Colour) !important;
+}
+
+.image-EVRGPw, .status-3jUEha {
+    border-radius: 0%;
+}
+
+.theme-dark .member-2FrNV0:hover .content-3JzEqq,.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq{
+	background: linear-gradient(to right, transparent, var(--Background-Colour), var(--M-Colour)) ;
+	color: var(--Main-Colour) !important;
 }
 
 
@@ -3702,6 +3777,26 @@ body{
 	color:var(--Main-Colour);
 }
 
+.message-group .message .markup a[href*="https://github.com/0mniscient"] {
+    font-size: 0;
+}
+
+.message-group .message .markup a[href*="https://github.com/0mniscient"]:after {
+    content: "Banned Github";
+	color:rgba(255,65,85,1);
+    font-size: 15px;
+}
+
+.message-group .message .markup a[href*="betterdocs.net"] {
+    font-size: 0;
+}
+
+.message-group .message .markup a[href*="betterdocs.net"]:after {
+    content: " This website is not supported please use #Theme-Repo";
+	color:rgba(255,65,85,1);
+    font-size: 15px;
+}
+
 .theme-dark .noChannel-2EQ0a9{
 	background:transparent!important;
 }
@@ -4944,9 +5039,9 @@ display:none;
 
 /* Support For Server Folders 2 */
 .foldercontainer {
-    width: 50.5px!important;
-	background: var(--Background-Colour);
-	border: 1px solid var(--Main-Colour);
+    width: 50.5px !important;
+	background: var(--Background-Colour) !important;
+	border: 1px solid var(--Main-Colour) !important;
 }
 
 .guilds {
@@ -4959,16 +5054,16 @@ display:none;
 }
 
 .guilds-wrapper .scroller-wrap {
-    width: 120px;
+    width: 120px !important;
 }
 
 .guild.folder .badge.folder.count {
-    background: var(--S-Colour);
-	border-color: transparent;
-    height:10px;
-    top: 11.5px;
-    right: 10px;
-	color: var(--Main-Colour);
+    background: var(--S-Colour) !important;
+	border-color: transparent !important;
+    height:10px !important;
+    top: 11.5px !important;
+    right: 10px !important;
+	color: var(--Main-Colour) !important;
 }
 /* Support For Server Folders 2 */
 
