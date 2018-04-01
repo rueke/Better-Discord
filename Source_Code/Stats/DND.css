@@ -1,0 +1,13 @@
+/* DND */
+.statusDnd-35xAXU:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -8%!important;
+    left: -8%!important;
+    border: 2.5px solid #f04747!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
