@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #103 ";
+	--Update-Text: " Update #104 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Member List</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Better Docs Links in Chat.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Member List</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Better Docs Links in Chat.</text><text y="180" style="font-size: 1.1em;" x="37">3.Fixed The Fucking Toasts.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -3142,6 +3142,20 @@ body{
     color: var(--Main-Colour);
 }
 
+.themeDark-20sYEW .image-2GuWXL{
+	display:none;
+}
+
+.text-iOJAKO,.themeDark-20sYEW .note-3vX6oT{
+	color:var(--Main-Colour);
+}
+
+.theme_dark-2FtE3l {
+    background-color: var(--Background-Colour);
+    background-image: url(https://media.giphy.com/media/XMc1Ui9rAFR1m/source.gif);
+    color: var(--Main-Colour);
+}
+
 .theme_dark-2FtE3l .image-2GuWXL {
     display: none;
 }
@@ -4391,7 +4405,41 @@ display:none;
     border-radius: 3px;
 	color: Var(--Main-Colour);
 }
+/* Thanks to Uri#0001 */
+.bd-toasts,.toasts{
+	width:calc(100% - 10px)!important;
+	height:calc(100% - 70px)!important;
+	position:absolute;
+	top: initial!important;
+	right:initial!important;
+	bottom: 0px!important;
+	left:initial!important;
+	display:flex;
+	flex-flow:column;
+	justify-content:flex-end;
+}
 
+.bd-toasts{
+	left:10px!important;
+	align-items: flex-start;
+}
+
+.toasts{
+	right:10px!important;
+	align-items: flex-end;
+}
+
+.bd-toasts:nth-child(5):last-child,.toasts:nth-child(5):last-child{
+	width:100%!important;
+	right:initial!important;
+	left: 0!important;
+	align-items: center;
+}
+
+[class*="toast"]{
+	font-size:10px!important;
+}
+/* Thanks to Uri#0001 */
 .regionSelectModal-QBpi1R{
 	background:var(--Popout-Background);
 }
