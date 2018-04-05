@@ -5094,8 +5094,9 @@ display:none;
 	border-color:var(--Main-Colour)!important;
 }
 
-.hljs{
+.theme-dark .message-group .comment .markup pre{
 	border-color:var(--M-Colour)!important;
+	background:var(--Background-Colour)!important;
 }
 
 .theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
