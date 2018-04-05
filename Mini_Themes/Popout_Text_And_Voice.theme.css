@@ -1,86 +1,37 @@
-//META{"name":"Popout_Text_And_Voice","description":"This Theme Makes The Guilds(Red), Members(Aqua), Text And Voice Area(Lime) Hidden Unti Hovered,  NOTE: You May Need To Scroll On DM List For It To Show,  Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"5.0"}*//{}
-/* channels */
-
-.channels-3g2vYe:not(:hover) {
-  width: 10px;
-  height: 55px;
-  border: 1px solid lime;
-  top: 92.5%;
-  position: relative;
+//META{"name":"Popout_Text_And_Voice","description":"This Theme Makes The Guilds, Members, Text And Voice Area Hidden Unti Hovered,Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"6.0"}*//{}
+/* Members */
+.membersWrap-3wRngy{
+	min-width:50px!important;
+	max-width:240px!important;
+	width:50px;
+	transition: width .5s;
 }
 
-.channels-3g2vYe:not(:hover) * {
-  display: none;
+.membersWrap-3wRngy:hover{
+	width:240px;
+	transition: width .6s;
 }
-
-.channels-3g2vYe:hover {
-  animation: Popout 1s 1 ease-in-out;
-}
-
-/* Guilds */
-
-.guilds-wrapper:not(:hover) {
-  width: 10px;
-  height: 55px;
-  border: 1px solid red;
-  top: 92.5%;
-  position: relative;
-  background:transparent;
-}
-
-.guilds-wrapper:not(:hover), .channels-3g2vYe:not(:hover)  {
-  width: 10px;
-}
-
-.guilds-wrapper:not(:hover) *, .channels-3g2vYe:not(:hover) * {
-  display: none;
+/* Giulds */
+.guilds-wrapper{
+	min-width:50px!important;
+	max-width:240px!important;
+	width:50px;
+	transition: width .5s;
 }
 
 .guilds-wrapper:hover{
-  display: inherit;
-    animation: Popout 1s 1 ease-in-out;
+	width:100px;
+	transition: width .6s;
+}
+/* Channels */
+.channels-3g2vYe{
+	min-width:50px!important;
+	max-width:240px!important;
+	width:60px;
+	transition: width .5s;
 }
 
-/* Members */
-.channel-members-wrap:not(:hover) {
-  width: 10px;
-}
-.channel-members-wrap:not(:hover) {
-  width: 10px;
-  height: 55px;
-  border: 1px solid aqua;
-  top: 0%;
-  position: relative;
-  background:transparent;
-  min-width: 10px;
-}
-
-.channel-members-wrap:hover{
-  animation: Popout2 1s 1 ease-in-out;
-}
-
-/* animation */
-
-@keyframes Popout {
-  0% {
-    transform: translate(calc(100% / -2 - 36px), 0);
-	opacity: 0;
-  }
-
-  100% {
-    transform: translate(calc(100% / 0 + 0px), 0);
-	opacity: 1;
-  }
-}
-
-@keyframes Popout2 {
-  0% {
-    transform: translate(calc(-100% / -2 - 36px), 0);
-	opacity: 0;
-  }
-
-  100% {
-    transform: translate(calc(100% / 0 + 0px), 0);
-	opacity: 1;
-  }
+.channels-3g2vYe:hover{
+	width:240px;
+	transition: width .6s;
 }
