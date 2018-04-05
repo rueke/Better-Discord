@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #107 ";
+	--Update-Text: " Update #108 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Updated How Member List Loads.</text><text y="160" style="font-size: 1.1em;" x="37">1.Fixed Status Boxes Being Off By A Few Pixels.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Updated How Member List Loads.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Status Boxes Being Off By A Few Pixels.</text><text y="180" style="font-size: 1.1em;" x="37">3.Fixed Typo.</text><text y="200" style="font-size: 1.1em;" x="37">3.Fixed Themed Popouts.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -168,7 +168,7 @@ form.deprecated.auth-form footer {
 }
 
 .theme-dark .themed-popout .header {
-	background-color: var(--Background-Colour);
+	background-color: var(--Background-Colour)!important;
 }
 
 .theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
@@ -4219,8 +4219,8 @@ button.btn.btn-default {
 }
 
 .theme-dark .themed-popout {
-    background-color: var(--Background-Colour);
-    border: 1px solid var(--Main-Colour);
+    background-color: var(--Background-Colour)!important;
+    border: 1px solid var(--Main-Colour)!important;
 }
 
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
@@ -5089,6 +5089,35 @@ display:none;
 .placeholder-1r59uP.member-2FrNV0:nth-child(20){
 	animation-delay: 9.5s!important;
 }
+
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group{
+	border-color:var(--Main-Colour)!important;
+}
+
+.hljs{
+	border-color:var(--M-Colour)!important;
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+    background-color: var(--Background-Colour)!important;
+    color: var(--M-Colour)!important;
+	border:1px solid var(--M-Colour)!important;
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button:hover {
+    background-color: var(--Background-Colour)!important;
+    color: var(--Main-Colour)!important;
+	border:1px solid var(--Main-Colour)!important;
+}
+
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group{
+	border-color:var(--M-Colour)!important;
+}
+
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover{
+	border-color:var(--Main-Colour)!important;
+}
+
 
 /*--------------------------------------------*/
 
