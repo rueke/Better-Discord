@@ -1,4 +1,7 @@
-//META{"name":"Avatars","description":"This Theme Makes Avatars Use Circles,  Enable This Theme LAST For it To Take Effect. Best Used If You Have A Theme And Dont Like The Avatars","author":"NFLD99","version":"2.0"}*//{}
+//META{"name":"Avatars","description":"This Theme Makes Chat Avatars Use Circles,  Enable This Theme LAST For it To Take Effect. Best Used If You Have A Theme And Dont Like The Avatars","author":"NFLD99","version":"3.0"}*//{}
+:root{
+	--Radius:50%
+}
 
 .message-group .avatar-large {
     -ms-flex-negative: 0!important;
@@ -25,7 +28,7 @@
     position: relative!important;
     background-color: none!important;
     background-position: 50%!important;
-    border-radius: 50%!important;
+    border-radius: var(--Radius)!important;
 }
 
 .channel-members .avatar-small {
@@ -35,12 +38,10 @@
     flex-shrink: 0!important;
 }
 
-
-
 .avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
     background-clip: padding-box!important;
     position: relative!important;
     background-color: none!important;
     background-position: 50%!important;
-    border-radius: 50%!important;
+    border-radius: var(--Radius)!important;
 }

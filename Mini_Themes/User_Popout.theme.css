@@ -1,4 +1,4 @@
-//META{"name":"User_Popout","description":"Changes The User Popout Look,  Enable This Theme LAST For it To Take Effect","author":"NFLD99","version":"5.0"}*//{}
+//META{"name":"User_Popout","description":"Changes The User Popout Look,  Enable This Theme LAST For it To Take Effect","author":"NFLD99","version":"6.0"}*//{}
 
 :root {
   --Popout-Main-Colour: rgba(0, 226, 204, 1);
@@ -133,18 +133,81 @@
     opacity: 0.5!important;
     left: -100%!Important;
 }
+/* User Status 2 */
+/* DND */
+.statusDnd-35xAXU:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -6.3%!important;
+    left: -7.3%!important;
+    border: 2.5px solid #f04747!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+/* ONLINE */
+.statusOnline-1Mp2_H:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -6.3%!important;
+    left: -7.3%!important;
+    border: 2.5px solid #43b581!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+/* AWAY */
+.statusIdle-2AQdvu:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -6.3%!important;
+    left: -7.3%!important;
+    border: 2.5px solid #faa61a!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+/* STREAM */
+.statusStreaming-1bZ3Hq:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -6.3%!important;
+    left: -7.3%!important;
+    border: 2.5px solid #593695!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+/* OFFLINE */
+.avatarOffline-YdYOwX:not(.statusProfile-29OBzn){
+    top: -6.3%!important;
+    left: -7.3%!important;
+    border: 2.5px solid #747f8d!important;
+    border-radius: 5px !important;
+}
+.statusOffline-jZXr_u:not(.statusProfile-29OBzn){
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -6.3%!important;
+    left: -7.3%!important;
+    border: 2.5px solid #747f8d!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+}
+/* User Status 2 */
 
-.status-3jUEha:not(.statusProfile-29OBzn) {
-    width: 1455%!important;
-    height: 10%!important;
-    -webkit-box-sizing: border-box!important;
-    box-sizing: border-box!important;
-    border: none!important;
-	border-radius: 0px!important;
-    top: -12%!important;
-    left: -55%!important;
-	animation: pulse 3s infinite linear!important;
-	opacity: 0.5!important;
+.image-EVRGPw, .status-3jUEha {
+    border-radius: 0%;
 }
 
 .theme-dark .headerNormal-3Vn9nT {
@@ -195,20 +258,20 @@
 
 @keyframes pulse {
   0% {
-    opacity: 0.5;
+    opacity: 0.2;
   }
 
   25% {
-    opacity: 0.1;
+    opacity: 1;
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.2;
   }
   75% {
-    opacity: 0.1;
+    opacity: 1;
   }
   100% {
-    opacity: 0.5;
+    opacity: 0.2;
   }
 }
 
