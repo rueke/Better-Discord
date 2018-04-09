@@ -161,3 +161,33 @@
 	opacity: 1;
   }
 }
+
+@keyframes Dnd {
+  0%{border: 2.5px solid rgba(240,71,71,1);}
+  50%{border: 2.5px solid rgba(240,71,71,0.4);}
+  100%{border: 2.5px solid rgba(240,71,71,1);}
+}
+
+@keyframes Online {
+  0%{border: 2.5px solid rgba(67,181,129,1);}
+  50%{border: 2.5px solid rgba(67,181,129,0.4);}
+  100%{border: 2.5px solid rgba(67,181,129,1);}
+}
+
+@keyframes Away {
+  0%{border: 2.5px solid rgba(250,166,26,1);}
+  50%{border: 2.5px solid rgba(250,166,26,0.4);}
+  100%{border: 2.5px solid rgba(250,166,26,1);}
+}
+
+@keyframes Stream {
+  0%{border: 2.5px solid rgba(89,54,149,1);}
+  50%{border: 2.5px solid rgba(89,54,149,0.4);}
+  100%{border: 2.5px solid rgba(89,54,149,1);}
+}
+
+@keyframes Offline {
+  0%{border: 2.5px solid rgba(116,127,141,1);}
+  50%{border: 2.5px solid rgba(116,127,141,0.4);}
+  100%{border: 2.5px solid rgba(116,127,141,1);}
+}

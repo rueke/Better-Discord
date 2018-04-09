@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #109 ";
+	--Update-Text: " Update #110 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.DM Call Update.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed status animations.</text><text y="160" style="font-size: 1.1em;" x="37">2.Made my name stand out more.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -4907,67 +4907,276 @@ display:none;
 	color: var(--M-Colour)!important;
 }
 
+/* Support For Switch Fix */
+.ui-switch-checkbox:checked+.ui-switch {
+  background: var(--Main-Colour);
+}
+.ui-switch-wrapper .ui-switch {
+  background: var(--Background-Colour);
+}
+/* Support For Switch Fix */
+
+/* Support For Better Formatting Redux */
+.bf-toolbar:before{
+background: var(--Background-Colour);
+}
+
+.upload-modal .bf-toolbar{
+top:13px;
+}
+/* Support For Better Formatting Redux */
+
+/* Support For Horizontal Server List */
+.app {
+--guild-column-count: calc(26 / 17);
+}
+/* Support For Horizontal Server List */
+
+/* Support For Avatar Hover */
+#AvatarHover {
+box-shadow: 1px 1px 15px var(--Main-Colour)!important;
+}
+/* Support For Avatar Hover */
+
+/* Support For Date Viewer */
+#dv-container{
+  background: transparent!important;
+  bottom: 0;
+  box-sizing: border-box;
+  color: var(--Main-Colour)!important;
+  height: 95px;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+#dv-settings-panel {
+  background: var(--Background-Colour)!important;
+  bottom: 0;
+  box-sizing: border-box;
+  color: var(--Main-Colour)!important;
+  height: 95px;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+.dv-btn {
+  border-radius: 4px;
+  cursor: pointer;
+  height: 32px;
+  opacity: .6;
+  position: absolute;
+  right: 0px;
+  width: 32px;
+}
+/* Support For Date Viewer */
+
+/* Support For Copy Images */
+.modal-image .download-button:nth-of-type(1) {
+position: absolute;
+left: 200px;
+bottom: 6px;
+pointer-events: auto;
+}
+
+.modal-image .download-button:nth-of-type(2) {
+position: absolute;
+left: 300px;
+bottom: 6px;
+pointer-events: auto;
+}
+/* Support For Copy Images */
+
+/* Support For tagID */
+#tagID {
+  font-size: 10px;
+  letter-spacing: 0.025rem;
+  position: relative;
+  top: -0.4ex;
+  height: 9px;
+  margin-left: -3px;
+  margin-right: 6px;
+  text-shadow: 0 1px 3px black;
+  background: var(--Background-Colour);
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 3px 5px;
+  color: var(--Main-Colour);
+  font-family: 'Roboto', 'Inconsolata', 'Whitney', sans-serif;
+}
+/* Support For name IDs */
+
+/* Support For Server Folders */
+.serverfolders-modal .form-tabcontent,.serverfolders-modal .form-tabcontent,.serverfolders-modal .form-tab,.serverfolders-modal .control-group label, .serverfolders-modal .form-tab button,.serverfolders-modal .modal-inner{
+background: var(--Background-Colour)!important;
+background-color: var(--Background-Colour)!important;
+}
+
+.serverfolders-modal .form-tablinks.active{
+border: 1px solid var(--Main-Colour)!important;
+background-color: var(--Background-Colour)!important;
+}
+
+.serverfolders-modal [class^="ui-icon-picker-icon"],.serverfolders-modal input{
+border: .5px solid var(--M-Colour)!important;
+}
+
+.ui-icon-picker-icon.selected{
+border: 1px solid var(--Main-Colour)!important;
+background-color: var(--M-Colour)!important;
+}
+/* Support For Server Folders */
+
+/* Support For Server Folders 2 */
+.foldercontainer {
+  width: 50.5px !important;
+background: var(--Background-Colour) !important;
+border: 1px solid var(--Main-Colour) !important;
+}
+
+.guilds {
+  transition: all 900ms ease !important;
+  border-right-width: 1px !important;
+  border-color: transparent !important;
+  border-style: solid !important;
+  width: 60px !important;
+  padding-top:0px !important;
+}
+
+.guilds-wrapper .scroller-wrap {
+  width: 120px !important;
+}
+
+.guild.folder .badge.folder.count {
+  background: var(--S-Colour) !important;
+border-color: transparent !important;
+  height:10px !important;
+  top: 11.5px !important;
+  right: 10px !important;
+color: var(--Main-Colour) !important;
+}
+/* Support For Server Folders 2 */
+
+/* Support For Repo Plugins */
+.pluginrepo-modal .pluginEntry.downloadable .btn-download,.pluginrepo-modal .pluginEntry.updated .btn-download,.themerepo-modal .themeEntry.downloadable .btn-download,.themerepo-modal .themeEntry.downloadable .btn-download {
+  color: var(--Main-Colour)!important;
+  background-color: Var(--S-Colour)!important;
+border: 1px Solid var(--Main-Colour)!important;
+}
+
+.pluginrepo-modal .pluginEntry.downloadable .btn-download:hover,.pluginrepo-modal .pluginEntry.updated .btn-download:hover,.themerepo-modal .themeEntry.downloadable .btn-download:hover,.themerepo-modal .themeEntry.updated .btn-download {
+  color: var(--Main-Colour)!important;
+  background-color: Var(--Background-Colour)!important;
+border: 1px Solid var(--Main-Colour)!important;
+}
+/* Support For Repo Plugins */
+
+/* Support For Member Count */
+.theme-dark #memberCount{
+background:transparent!important;
+color:var(--M-Colour)!important;
+}
+/* Support For Member Count */
+
+/* Support For ChannelHistory */
+.channelHistoryButtons .btn{
+
+position:flex;
+}
+
+.channelHistoryButtons {
+  position: absolute;
+  left: 50%!important;
+}
+
+.btn.back {
+  color: var(--Main-Colour);
+  font-weight: bold;
+border: 1px solid var(--Main-Colour);
+background:transparent!important;
+}
+
+.btn.back.cant {
+  color: var(--Main-Colour);
+  font-weight: bold;
+border: 1px solid var(--Main-Colour);
+background:transparent!important;
+}
+
+.btn.forward.cant {
+  color: var(--M-Colour);
+  font-weight: bold;
+border: 1px solid var(--M-Colour);
+background:transparent!important;
+}
+
+.btn.forward {
+  color: var(--M-Colour);
+  font-weight: bold;
+border: 1px solid var(--M-Colour);
+background:transparent!important;
+}
+/* Support For ChannelHistory */
 
 /* User Status 2 */
 /* DND */
 .statusDnd-35xAXU:not(.statusProfile-29OBzn) {
-    width: 115%!important;
-    height: 115%!important;
-    box-sizing: border-box;
-    top: -6.3%!important;
-    left: -7.3%!important;
-    border: 2.5px solid #f04747!important;
-    border-radius: 5px !important;
-	background:none;
-	opacity: 1 !important;
-    animation: pulse 3s linear infinite !important;
+  width: 115%!important;
+  height: 115%!important;
+  box-sizing: border-box;
+  top: -6.3%!important;
+  left: -7.3%!important;
+  border: 2.5px solid #f04747!important;
+  border-radius: 5px !important;
+  background:none;
+  opacity: 1 !important;
+  animation: Dnd 3s linear infinite !important;
 }
 /* ONLINE */
 .statusOnline-1Mp2_H:not(.statusProfile-29OBzn) {
-    width: 115%!important;
-    height: 115%!important;
-    box-sizing: border-box;
-    top: -6.3%!important;
-    left: -7.3%!important;
-    border: 2.5px solid #43b581!important;
-    border-radius: 5px !important;
-	background:none;
-	opacity: 1 !important;
-    animation: pulse 3s linear infinite !important;
+  width: 115%!important;
+  height: 115%!important;
+  box-sizing: border-box;
+  top: -6.3%!important;
+  left: -7.3%!important;
+  border: 2.5px solid #43b581!important;
+  border-radius: 5px !important;
+  background:none;
+  opacity: 1 !important;
+  animation: Online 3s linear infinite !important;
 }
 /* AWAY */
 .statusIdle-2AQdvu:not(.statusProfile-29OBzn) {
-    width: 115%!important;
-    height: 115%!important;
-    box-sizing: border-box;
-    top: -6.3%!important;
-    left: -7.3%!important;
-    border: 2.5px solid #faa61a!important;
-    border-radius: 5px !important;
-	background:none;
-	opacity: 1 !important;
-    animation: pulse 3s linear infinite !important;
+  width: 115%!important;
+  height: 115%!important;
+  box-sizing: border-box;
+  top: -6.3%!important;
+  left: -7.3%!important;
+  border: 2.5px solid #faa61a!important;
+  border-radius: 5px !important;
+  background:none;
+  opacity: 1 !important;
+  animation: Away 3s linear infinite !important;
 }
 /* STREAM */
 .statusStreaming-1bZ3Hq:not(.statusProfile-29OBzn) {
-    width: 115%!important;
-    height: 115%!important;
-    box-sizing: border-box;
-    top: -6.3%!important;
-    left: -7.3%!important;
-    border: 2.5px solid #593695!important;
-    border-radius: 5px !important;
-	background:none;
-	opacity: 1 !important;
-    animation: pulse 3s linear infinite !important;
+  width: 115%!important;
+  height: 115%!important;
+  box-sizing: border-box;
+  top: -6.3%!important;
+  left: -7.3%!important;
+  border: 2.5px solid #593695!important;
+  border-radius: 5px !important;
+  background:none;
+  opacity: 1 !important;
+  animation: Stream 3s linear infinite !important;
 }
 /* OFFLINE */
 .avatarOffline-YdYOwX{
-    top: -6.3%!important;
-    left: -7.3%!important;
-    border: 2.5px solid #747f8d!important;
-    border-radius: 5px !important;
-    animation: pulse 3s linear infinite !important;
+  top: -6.3%!important;
+  left: -7.3%!important;
+  border: 2.5px solid #747f8d!important;
+  border-radius: 5px !important;
+  animation: Offline 3s linear infinite !important;
 }
 /* User Status 2 */
 
@@ -5146,216 +5355,19 @@ display:none;
     background:var(--S-Colour);
 }
 
-
-/*--------------------------------------------*/
-
-
-/* Support For Switch Fix */
-.ui-switch-checkbox:checked+.ui-switch {
-    background: var(--Main-Colour);
-}
-.ui-switch-wrapper .ui-switch {
-    background: var(--Background-Colour);
-}
-/* Support For Switch Fix */
-
-/* Support For Better Formatting Redux */
-.bf-toolbar:before{
-	background: var(--Background-Colour);
+[style*="avatars/187615613944856576"].avatar-large+.comment h2 strong  {
+	text-shadow: 0 0 6px rgba(0,0,0,.6), 0 0 6px rgba(0,0,0,.6), 0 0 5px rgba(0,0,0,.6), 0 0 4px rgba(0,0,0,.6);
 }
 
-.upload-modal .bf-toolbar{
-	top:13px;
-}
-/* Support For Better Formatting Redux */
-
-/* Support For Horizontal Server List */
-.app {
-  --guild-column-count: calc(26 / 17);
-}
-/* Support For Horizontal Server List */
-
-/* Support For Avatar Hover */
-#AvatarHover {
-	box-shadow: 1px 1px 15px var(--Main-Colour)!important;
-}
-/* Support For Avatar Hover */
-
-/* Support For Date Viewer */
-#dv-container{
-    background: transparent!important;
-    bottom: 0;
-    box-sizing: border-box;
-    color: var(--Main-Colour)!important;
-    height: 95px;
-    position: absolute;
-    width: 100%;
-    z-index: 10;
-}
-#dv-settings-panel {
-    background: var(--Background-Colour)!important;
-    bottom: 0;
-    box-sizing: border-box;
-    color: var(--Main-Colour)!important;
-    height: 95px;
-    position: absolute;
-    width: 100%;
-    z-index: 10;
-}
-.dv-btn {
-    border-radius: 4px;
-    cursor: pointer;
-    height: 32px;
-    opacity: .6;
-    position: absolute;
-    right: 0px;
-    width: 32px;
-}
-/* Support For Date Viewer */
-
-/* Support For Copy Images */
-.modal-image .download-button:nth-of-type(1) {
-  position: absolute;
-  left: 200px;
-  bottom: 6px;
-  pointer-events: auto;
+.theme-dark .imageError-11mA4M{
+background:url(https://i.imgur.com/96Ymjfy.png) 50% 50%/contain;
+background-repeat: no-repeat!important;
 }
 
-.modal-image .download-button:nth-of-type(2) {
-  position: absolute;
-  left: 300px;
-  bottom: 6px;
-  pointer-events: auto;
-}
-/* Support For Copy Images */
-
-/* Support For tagID */
-#tagID {
-    font-size: 10px;
-    letter-spacing: 0.025rem;
-    position: relative;
-    top: -0.4ex;
-    height: 9px;
-    margin-left: -3px;
-    margin-right: 6px;
-    text-shadow: 0 1px 3px black;
-    background: var(--Background-Colour);
-    border-radius: 3px;
-    font-weight: 500;
-    padding: 3px 5px;
-    color: var(--Main-Colour);
-    font-family: 'Roboto', 'Inconsolata', 'Whitney', sans-serif;
-}
-/* Support For name IDs */
-
-/* Support For Server Folders */
-.serverfolders-modal .form-tabcontent,.serverfolders-modal .form-tabcontent,.serverfolders-modal .form-tab,.serverfolders-modal .control-group label, .serverfolders-modal .form-tab button,.serverfolders-modal .modal-inner{
-	background: var(--Background-Colour)!important;
-	background-color: var(--Background-Colour)!important;
-}
-
-.serverfolders-modal .form-tablinks.active{
-	border: 1px solid var(--Main-Colour)!important;
-	background-color: var(--Background-Colour)!important;
-}
-
-.serverfolders-modal [class^="ui-icon-picker-icon"],.serverfolders-modal input{
-	border: .5px solid var(--M-Colour)!important;
-}
-
-.ui-icon-picker-icon.selected{
-	border: 1px solid var(--Main-Colour)!important;
-	background-color: var(--M-Colour)!important;
-}
-/* Support For Server Folders */
-
-/* Support For Server Folders 2 */
-.foldercontainer {
-    width: 50.5px !important;
-	background: var(--Background-Colour) !important;
-	border: 1px solid var(--Main-Colour) !important;
-}
-
-.guilds {
-    transition: all 900ms ease !important;
-    border-right-width: 1px !important;
-    border-color: transparent !important;
-    border-style: solid !important;
-    width: 60px !important;
-    padding-top:0px !important;
-}
-
-.guilds-wrapper .scroller-wrap {
-    width: 120px !important;
-}
-
-.guild.folder .badge.folder.count {
-    background: var(--S-Colour) !important;
-	border-color: transparent !important;
-    height:10px !important;
-    top: 11.5px !important;
-    right: 10px !important;
-	color: var(--Main-Colour) !important;
-}
-/* Support For Server Folders 2 */
-
-/* Support For Repo Plugins */
-.pluginrepo-modal .pluginEntry.downloadable .btn-download,.pluginrepo-modal .pluginEntry.updated .btn-download,.themerepo-modal .themeEntry.downloadable .btn-download,.themerepo-modal .themeEntry.downloadable .btn-download {
-    color: var(--Main-Colour)!important;
-    background-color: Var(--S-Colour)!important;
-	border: 1px Solid var(--Main-Colour)!important;
-}
-
-.pluginrepo-modal .pluginEntry.downloadable .btn-download:hover,.pluginrepo-modal .pluginEntry.updated .btn-download:hover,.themerepo-modal .themeEntry.downloadable .btn-download:hover,.themerepo-modal .themeEntry.updated .btn-download {
-    color: var(--Main-Colour)!important;
-    background-color: Var(--Background-Colour)!important;
-	border: 1px Solid var(--Main-Colour)!important;
-}
-/* Support For Repo Plugins */
-
-/* Support For Member Count */
-.theme-dark #memberCount{
-	background:transparent!important;
-	color:var(--M-Colour)!important;
-}
-/* Support For Member Count */
-
-/* Support For ChannelHistory */
-.channelHistoryButtons .btn{
-	
-	position:flex;
-}
-
-.channelHistoryButtons {
-    position: absolute;
-    left: 50%!important;
-}
-
-.btn.back {
-    color: var(--Main-Colour);
-    font-weight: bold;
-	border: 1px solid var(--Main-Colour);
+.backgroundBlur-2hMM9N,.theme-dark .pictureInPictureVideo-2w62Uz{
 	background:transparent!important;
 }
 
-.btn.back.cant {
-    color: var(--Main-Colour);
-    font-weight: bold;
-	border: 1px solid var(--Main-Colour);
-	background:transparent!important;
+.backgroundBlurOverlay-278FQ6,.backgroundBlur-2hMM9N,.theme-dark .pictureInPictureVideo-2w62Uz,.private-channel-call .private-channel-call-video-wrapper,.wrapper-31F9np,.video-2vmmgZ {
+    background-color: transparent;
 }
-
-.btn.forward.cant {
-    color: var(--M-Colour);
-    font-weight: bold;
-	border: 1px solid var(--M-Colour);
-	background:transparent!important;
-}
-
-.btn.forward {
-    color: var(--M-Colour);
-    font-weight: bold;
-	border: 1px solid var(--M-Colour);
-	background:transparent!important;
-}
-/* Support For ChannelHistory */
