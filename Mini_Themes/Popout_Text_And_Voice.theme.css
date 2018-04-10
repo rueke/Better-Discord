@@ -1,4 +1,4 @@
-//META{"name":"Popout_Text_And_Voice","description":"This Theme Makes The Guilds, Members, Text And Voice Area Hidden Unti Hovered,Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"6.0"}*//{}
+//META{"name":"Popout_Text_And_Voice","description":"This Theme Makes The Guilds, Members, Text And Voice Area Hidden Unti Hovered,Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"7.0"}*//{}
 /* Members */
 .membersWrap-3wRngy{
 	min-width:50px!important;
@@ -13,25 +13,29 @@
 }
 /* Giulds */
 .guilds-wrapper{
-	min-width:50px!important;
+	min-width:10px!important;
 	max-width:240px!important;
-	width:50px;
-	transition: width .5s;
+	width:10px;
+	transition: all .5s;
+	opacity: 0;
 }
 
 .guilds-wrapper:hover{
 	width:100px;
-	transition: width .6s;
+	transition: all .6s;
+	opacity: 1;
 }
 /* Channels */
 .channels-3g2vYe{
-	min-width:50px!important;
+	min-width:10px!important;
 	max-width:240px!important;
-	width:60px;
-	transition: width .5s;
+	width:10px;
+	transition: all .5s;
+	opacity: 0;
 }
 
 .channels-3g2vYe:hover{
 	width:240px;
-	transition: width .6s;
+	transition: all .6s;
+	opacity: 1;
 }

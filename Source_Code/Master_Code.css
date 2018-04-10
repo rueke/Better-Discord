@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #110 ";
+	--Update-Text: " Update #111 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed status animations.</text><text y="160" style="font-size: 1.1em;" x="37">2.Made my name stand out more.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">2.Fixed game popout.</text><text y="160" style="font-size: 1.1em;" x="37">2.Made my name stand out more.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -5370,4 +5370,50 @@ background-repeat: no-repeat!important;
 
 .backgroundBlurOverlay-278FQ6,.backgroundBlur-2hMM9N,.theme-dark .pictureInPictureVideo-2w62Uz,.private-channel-call .private-channel-call-video-wrapper,.wrapper-31F9np,.video-2vmmgZ {
     background-color: transparent;
+}
+
+.theme-dark .body-_3kd4C {
+  Display:none;
+}
+
+.theme-dark .gameName-Bq7SaH {
+  color: var(--Main-Colour);
+}
+
+.theme-dark .publisher-3vuyrO {
+  color: var(--M-Colour);
+}
+
+.theme-dark .gamePreview-4pQzIA{
+  border:1px solid var(--M-Colour);
+  border-radius: 3px!important;
+}
+
+.uploadModal-2KN6Mm .inner-1-09ZV,.theme-dark .filename-13hhfJ,.wrapper-GhVnpx{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .size-22vab7{
+  color: var(--M-Colour);
+}
+
+.progress-33epXr{
+  background: var(--S-Colour)!important;
+}
+
+.progressBar-mI5LOq.small-eBZ2fL{
+  background: var(--M-Colour)!important;
+}
+
+.icon-3cn2VC{
+  display: none;
+}
+
+.activityName-1L6vjN{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .attachment-1Vom9D{
+  background: var(--S-Colour)!important;
+  border: 1px solid var(--M-Colour);
 }
