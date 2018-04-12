@@ -1347,7 +1347,7 @@ div.guild-header header {
 }
 
 .theme-dark .inner-3if5cm {
-  background-color: var(--Chat-Input-Background) !important;
+  background: var(--Chat-Input-Background) 50% 50%/cover !important;
   border-radius: 4px;
   border: 1px solid var(--Main-Colour) !important;
   margin-top: 1.6px;
