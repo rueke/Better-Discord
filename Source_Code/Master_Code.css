@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #113 ";
+	--Update-Text: " Update #114 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 	background:transparent;
 	border:1px solid var(--Main-Colour);
 	border-radius: 5px;
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Member list Re-Done.</text></g></svg>');
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Updated Search Menu.</text><text y="160" style="font-size: 1.1em;" x="37">2.Min-max-min for Channel History.</text><text y="180" style="font-size: 1.1em;" x="37">3.New Invite Popup Themed.</text><text y="200" style="font-size: 1.1em;" x="37">4.Fixed Crash Screen.</text><text y="220" style="font-size: 1.1em;" x="37">5.Fixed Server Drop Down.</text></g></svg>');
 	animation: CLog 10s infinite linear;
 }
 
@@ -529,7 +529,6 @@ span.ping {
 
 .search-bar-inner input {
   font-size: 62% !important;
-  border: 1px solid var(--Main-Colour);
 }
 
 /* Friends */
@@ -638,7 +637,7 @@ span.botTagRegular-288-ZL {
 
 .guilds-wrapper .guilds-add-inner {
     position: absolute;
-    top: calc(50% - 20px);
+    top: calc(50% - 22px);
 	left:22.4%;
 	text-align:center;
 }
@@ -3146,7 +3145,7 @@ body{
 	display:none;
 }
 
-.theme_dark-2FtE3l {
+.theme_dark-2FtE3l,.themeDark-20sYEW {
     background-color: var(--Background-Colour);
     background-image: url(https://media.giphy.com/media/XMc1Ui9rAFR1m/source.gif);
     color: var(--Main-Colour);
@@ -3613,7 +3612,7 @@ body{
     background: var(--Chat-Background) 50% 50%/cover !important;
 }
 
-#app-mount > div.typeWindows-15E0Ys.titleBar-3_fDwJ.horizontalReverse-k5PqxT.flex-3B1Tl4.directionRowReverse-2eZTxP.justifyStart-2yIZo0.alignStretch-1hwxMa > div:nth-child(4) > svg > rect,#app-mount > div.typeWindows-15E0Ys.titleBar-3_fDwJ.horizontalReverse-k5PqxT.flex-3B1Tl4.directionRowReverse-2eZTxP.justifyStart-2yIZo0.alignStretch-1hwxMa > div.winButtonClose-2rIvsa.winButton-U7zAqI.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP > svg > polygon,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.titleWrapper-3Vi_wz.theme-dark > div > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO > svg:nth-child(1) > g > path,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.titleWrapper-3Vi_wz.theme-dark > div > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO > svg:nth-child(2) > g > path.iconForeground-2c7s3m,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.titleWrapper-3Vi_wz.theme-dark > div > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO > svg.iconActive-3K4uxh.icon-mr9wAc.iconMargin-2Js7V9 > g > path,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.titleWrapper-3Vi_wz.theme-dark > div > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO > svg:nth-child(6) > path,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.titleWrapper-3Vi_wz.theme-dark > div > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO > svg:nth-child(7) > g,.foreground-2zy1hc,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.titleWrapper-3Vi_wz.theme-dark > div > div.titleText-2IfpkV > span > svg > path,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.channels-3g2vYe.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.container-RYiLUQ > div.scrollerWrap-2uBjct.scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW.scrollerFade-28dRsO > div > div.container-5 > div:nth-child(3) > div > div > div:nth-child(1) > svg > path.background-2nyTH_,#app-mount > div.theme-dark.popouts > div > div > div.body-3rkFrF > div:nth-child(1) > svg > path,#app-mount > div.theme-dark.popouts > div > div > div.body-3rkFrF > div:nth-child(3) > svg > path {
+#app-mount > div.typeWindows-15E0Ys.titleBar-3_fDwJ.horizontalReverse-k5PqxT.flex-3B1Tl4.directionRowReverse-2eZTxP.justifyStart-2yIZo0.alignStretch-1hwxMa > div:nth-child(4) > svg ,#app-mount > div.typeWindows-15E0Ys.titleBar-3_fDwJ.horizontalReverse-k5PqxT.flex-3B1Tl4.directionRowReverse-2eZTxP.justifyStart-2yIZo0.alignStretch-1hwxMa > div.winButtonClose-2rIvsa.winButton-U7zAqI.center-1MLNrE.flex-3B1Tl4.justifyCenter-29N31w.alignCenter-3VxkQP > svg > polygon,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.titleWrapper-3Vi_wz.theme-dark > div > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO > svg:nth-child(1) > g > path,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.titleWrapper-3Vi_wz.theme-dark > div > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO > svg:nth-child(2) > g > path.iconForeground-2c7s3m,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.titleWrapper-3Vi_wz.theme-dark > div > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO > svg.iconActive-3K4uxh.icon-mr9wAc.iconMargin-2Js7V9 > g > path,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.titleWrapper-3Vi_wz.theme-dark > div > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO > svg:nth-child(6) > path,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.titleWrapper-3Vi_wz.theme-dark > div > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO > svg:nth-child(7) > g,.foreground-2zy1hc,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.chat.flex-vertical.flex-spacer > div.titleWrapper-3Vi_wz.theme-dark > div > div.titleText-2IfpkV > span > svg > path,#app-mount > div.app-XZYfmp.platform-win > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer > div > div > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.base-3AoPqv > div.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.spacer-3Dkonz > div.channels-3g2vYe.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR > div.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.container-RYiLUQ > div.scrollerWrap-2uBjct.scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW.scrollerFade-28dRsO > div > div.container-5 > div:nth-child(3) > div > div > div:nth-child(1) > svg > path.background-2nyTH_,#app-mount > div.theme-dark.popouts > div > div > div.body-3rkFrF > div:nth-child(1) > svg > path,#app-mount > div.theme-dark.popouts > div > div > div.body-3rkFrF > div:nth-child(3) > svg > path {
 	fill: var(--M-Colour) !important;
 }
 
@@ -5456,4 +5455,219 @@ background-repeat: no-repeat!important;
 
 .activityText-258pdj {
   white-space: pre-wrap;
+}
+
+.themeDark-20sYEW{
+  background-color: var(--Background-Colour);
+  background-image: url(https://media.giphy.com/media/XMc1Ui9rAFR1m/source.gif);
+  color: var(--Main-Colour);
+}
+
+.channelNotices-3AUnoM .channelNotice-cQsVXw.invite-1D-l1h.new-R6EGhf,.channelNotices-3AUnoM .channelNotice-cQsVXw.invite-1D-l1h.new-R6EGhf .headerTint-2TF8xq,.channelNotices-3AUnoM .channelNotice-cQsVXw.invite-1D-l1h.new-R6EGhf .message-1SsTiA {
+  background: var(--Background-Colour);
+  color: var(--Main-Colour);
+}
+
+.channelNotices-3AUnoM .channelNotice-cQsVXw.invite-1D-l1h.new-R6EGhf .message-1SsTiA .inviteInput-10_P2g {
+  background: var(--S-Colour);
+  color: var(--M-Colour);
+  border: 1px solid var(--M-Colour);
+}
+
+.channelNotices-3AUnoM .channelNotice-cQsVXw.invite-1D-l1h.new-R6EGhf .message-1SsTiA .inviteInput-10_P2g:hover {
+  background: var(--Background-Colour);
+  color: var(--Main-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.search-bar .search-bar-inner{
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .inviteRow-1V_uzW:hover{
+  background: var(--Background-Colour);
+}
+
+.theme-dark .inviteRowName-17D8Nk{
+  color: var(--Main-Colour);
+}
+
+.lookOutlined-1c5nhl.colorGreen-22At8E{
+  color: var(--M-Colour);
+  border-color: var(--M-Colour);
+}
+
+.theme-dark .checkBoxLabel-2XGyJf, .theme-dark .footerText-2-dHt5{
+  color: var(--M-Colour);
+}
+
+.search-bar input{
+  color: var(--Main-Colour);
+}
+
+.channelNotices-3AUnoM .channelNotice-cQsVXw{
+  padding-top: 2px;
+}
+
+.item-rK1j5B.invite-YM1l0n{
+  color: var(--M-Colour);
+}
+
+.item-rK1j5B:hover.invite-YM1l0n{
+  color: var(--Main-Colour);
+}
+
+.icon-3ICDZz{
+  display:none;
+}
+
+.menu-3BZuDT{
+  width: 100%;
+}
+
+.popout{
+  box-shadow: none;
+}
+
+.theme-dark .searchPopout-38pRYh{
+  border: 1px solid var(--M-Colour);
+  background: var(--Background-Colour);
+}
+
+.theme-dark .resultsGroup-2qzvNj .header-1pJ5N1{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .searchOption-vKNX73 .filter-3kZ3tT,.theme-dark .option-1MvVr1 .answer-9L5NhD, .theme-dark .option-1MvVr1 .nonText-1oayCI, .theme-dark .option-1MvVr1 strong{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .searchOption-vKNX73 .answer-9L5NhD,.theme-dark .option-1MvVr1 .filter-3kZ3tT,.theme-dark .searchResultChannelCategory-CTQNMT, .theme-dark .searchResultChannelIcon-3WC6xU{
+  color: var(--M-Colour);
+}
+
+.theme-dark .option-1MvVr1.selected-_bTXUG{
+  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--M-Colour));
+}
+
+.theme-dark .option-1MvVr1.selected-_bTXUG:before{
+  display:none;
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker{
+  background: var(--Background-Colour);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__header{
+  border: none;
+  background: var(--Background-Colour);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled:hover{
+  color: var(--M-Colour);
+  background: var(--Background-Colour);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day {
+  border-left-color: var(--M-Colour);
+  border-top-color: var(--M-Colour);
+  color: var(--Main-Colour);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .calendarPicker-16Q6sl .react-datepicker__day:hover{
+  color: var(--Main-Colour);
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour)!important;
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after {
+  background-color: var(--Main-Colour);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__week .react-datepicker__day:last-of-type {
+  border-right-color: var(--M-Colour);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__week:last-of-type .react-datepicker__day {
+  border-bottom-color: var(--M-Colour);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__current-month{
+  color: var(--Main-Colour);
+  border: none;
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--previous{
+  color: var(--Main-Colour);
+  border: none;
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day-name{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .popout .messages-popout-wrap .footer{
+  display:none;
+}
+
+.messages-popout .empty-placeholder .image{
+  display:none;
+}
+
+.theme-dark .popout .messages-popout-wrap .messages-popout .empty-placeholder .body{
+  color: var(--M-Colour);
+}
+
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz{
+  display:none;
+}
+
+.theme-dark .search .search-bar .public-DraftEditorPlaceholder-root{
+  color: var(--M-Colour);
+}
+
+.theme-dark .option-1MvVr1.user-1TwSRF .displayedNick-1487Dr{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .option-1MvVr1.user-1TwSRF .displayUsername-3PmTeH{
+  color: var(--M-Colour);
+}
+
+.theme-dark .keybindShortcut-tTramc span{
+  color: var(--Main-Colour);
+  background: var(--Background-Colour);
+}
+
+.theme-dark .searchQuery-3o17HL{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .search-results-wrap .search-result .hit{
+  box-shadow: none;
+}
+
+.theme-dark .search-results-wrap .search-header{
+  box-shadow: none;
+}
+
+.theme-dark .search-results-wrap .search-header .tab, .theme-dark .search-results-wrap .search-header .total-results{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .search-results-wrap .search-header .tab.selected, .theme-dark .search-results-wrap .search-header .tab:hover{
+  border:none;
+  background: linear-gradient(to bottom, transparent, var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--M-Colour));
+}
+
+.typeWindows-15E0Ys.titleBar-3_fDwJ.horizontalReverse-k5PqxT.flex-3B1Tl4.directionRowReverse-2eZTxP.justifyStart-2yIZo0.alignStretch-1hwxMa > div:nth-child(4) > svg > rect{
+  stroke: var(--M-Colour)!important;
+}
+
+.typeWindows-15E0Ys.titleBar-3_fDwJ.horizontalReverse-k5PqxT.flex-3B1Tl4.directionRowReverse-2eZTxP.justifyStart-2yIZo0.alignStretch-1hwxMa > div:nth-child(5) > svg > rect{
+  fill: var(--M-Colour)!important;
+}
+
+[class*="winButton"]:hover{
+  background: transparent;
 }
