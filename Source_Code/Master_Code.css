@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-	--Update-Text: " Update #116 ";
+	--Update-Text: " Update #117 ";
 }
 
 [layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-XZYfmp.platform-win > div > div.layers-20RVFW.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-10QB5x:after  {
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.added boop.</text><text y="160" style="font-size: 1.1em;" x="37">2.❤️ Donator Easter Egg ❤️.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Scrollbar Colour now affects all Scrollbars aka "Mewt Compatibility".</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Date Viewer Support.</text><text y="180" style="font-size: 1.1em;" x="37">2.Use Grid No now fixes guild width.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 
@@ -249,16 +249,6 @@ form.deprecated.auth-form footer {
 
 .user-settings-modal button.preview-sound:before {
   -webkit-filter: hue-rotate(235deg) saturate(400%);
-}
-
-.scroller-wrap .scroller::-webkit-scrollbar-thumb {
-  background-color: transparent !important;
-  border: 1px solid transparent !important;
-}
-
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-  background-color: transparent !important;
-  border: 1px solid transparent !important;
 }
 
 .voice-connection-channel {
@@ -1196,43 +1186,6 @@ div.bd-dropdown {
   border-top: 1px solid rgba(255,255,255,0.3);
 }
 
-/* Scroller for popup servers window */
-
-#pubs-scroller::-webkit-scrollbar-thumb {
-  background-color: var(--Background-Colour) !important;
-  border: 2px solid var(--Background-Colour) !important;
-}
-
-#pubs-scroller::-webkit-scrollbar-track-piece {
-  background-color: var(--Background-Colour) !important;
-  border: 1px solid var(--Background-Colour) !important;
-}
-
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece {
-  background-color: var(--Background-Colour) !important;
-  border: 1px solid var(--Main-Colour) !important;
-}
-
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb {
-  border: 1px solid var(--Main-Colour) !important;
-  background: var(--Main-Colour) !important;
-}
-
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb:active, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb:active, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb:active, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb:active {
-  background-color: var(--Background-Colour) !important;
-  border: 1px solid var(--Background-Colour) !important;
-}
-
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
-  background-color: var(--Background-Colour) !important;
-  border: 1px solid var(--Background-Colour) !important;
-}
-
-div[data-bd="backdrop"] {
-  background-image: url(https://i.imgur.com/6f8vevM.jpg) !important;
-  background-size: cover !important;
-}
-
 /* Styling thanks to Nyxxay#8107 */
 
 #rmenu {
@@ -1266,12 +1219,6 @@ div[data-bd="backdrop"] {
 
 .emoji-picker .sticky-header {
   background: var(--Background-Colour) !important;
-}
-
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece {
-  background: var(--Background-Colour) !important;
-  border: 1px solid var(--Background-Colour) !important;
-  width: 8px;
 }
 
 .guild-settings-modal-members {
@@ -2170,22 +2117,8 @@ div.flex-spacer.flex-vertical form {
   border-bottom: transparent !important;
 }
 
-.scroller-NXV0-d::-webkit-scrollbar {
-  display: none;
-}
-
 .scroller-NXV0-d {
   padding-right: 1px;
-}
-
-.ui-scroller-themed.ui-scroller-ghost-hairline .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scrollerThemed-19vinI.themeGhost-10fio9 .scroller-fzNley::-webkit-scrollbar-thumb {
-  background: transparent !important;
-  border: 1px solid var(--Scroller-Colour) !important;
-}
-
-::-webkit-scrollbar-thumb {
-  background: transparent !important;
-  border: 1px solid var(--Scroller-Colour) !important;
 }
 
 .hljs {
@@ -2635,11 +2568,6 @@ div.form-inner, .form-actions {
   box-shadow: 0 1px 15px rgba(0,255,0,.2);
 }
 
-.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb {
-  background-color: rgba(30, 33, 36, 0)!important;
-  border: 3px solid var(--Background-Colour)!important;
-}
-
 .theme-dark .search-results-wrap {
   background-color: var(--Background-Colour);
 }
@@ -2667,10 +2595,6 @@ div.form-inner, .form-actions {
 .theme-dark .search-results-wrap .search-result:before {
   background-image: -webkit-gradient(linear,left bottom,left top,from(rgba(47,49,54,0)),to(rgba(47, 49, 54, 0)));
   background-image: linear-gradient(0deg,rgba(47,49,54,0),rgba(47, 49, 54, 0));
-}
-
-.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-  background-color: transparent !important;
 }
 
 .bf-toolbar {
@@ -2772,19 +2696,20 @@ div.form-inner, .form-actions {
 }
 
 /* scrollbars */
-::-webkit-scrollbar-thumb,
-::-webkit-scrollbar-track-piece {
-  border: none;
+*::-webkit-scrollbar-track-piece {
+  border: none !important;
   background: transparent !important;
 }
-::-webkit-scrollbar-track-piece {
+*::-webkit-scrollbar-thumb {
   background: transparent !important;
+  border: 1px solid var(--Scroller-Colour) !important;
 }
-:not(:hover)::-webkit-scrollbar-thumb {
+*:not(:hover)::-webkit-scrollbar-thumb {
   background: transparent !important;
+  border: 0px solid transparent !important;
 }
 ::-webkit-scrollbar {
-  max-width: 10px;
+  max-width: 10px !important;
 }
 
 .description-15n-1L.margin-bottom-20{ display: none; }
@@ -3448,10 +3373,6 @@ body{
 #user-profile-modal .guilds .guild:hover,#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message,#user-profile-modal .header,.userPopout-4pfA0d,.topSectionNormal-2LlRG1,.theme-dark .body-3_tdh6{
 	background:transparent!important;
 	border: none!important;
-}
-
-.scroller-wrap.fade .scroller:hover:hover::-webkit-scrollbar-thumb, .scroller-wrap.fade .scroller:hover:hover::-webkit-scrollbar-track-piece, .scroller-wrap.fade:hover:hover::-webkit-scrollbar-thumb, .scroller-wrap.fade:hover:hover::-webkit-scrollbar-track-piece{
-	display:none!important;
 }
 
 .avatar-profile,.inner-1_1f7b{
@@ -4938,7 +4859,7 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
 /* Support For Avatar Hover */
 
 /* Support For Date Viewer */
-#dv-container{
+#dv-mount{
   background: transparent!important;
   bottom: 0;
   box-sizing: border-box;
@@ -4948,24 +4869,9 @@ box-shadow: 1px 1px 15px var(--Main-Colour)!important;
   width: 100%;
   z-index: 10;
 }
-#dv-settings-panel {
-  background: var(--Background-Colour)!important;
-  bottom: 0;
-  box-sizing: border-box;
+#dv-main{
+  border-color: transparent;
   color: var(--Main-Colour)!important;
-  height: 95px;
-  position: absolute;
-  width: 100%;
-  z-index: 10;
-}
-.dv-btn {
-  border-radius: 4px;
-  cursor: pointer;
-  height: 32px;
-  opacity: .6;
-  position: absolute;
-  right: 0px;
-  width: 32px;
 }
 /* Support For Date Viewer */
 
