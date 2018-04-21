@@ -1,4 +1,4 @@
-//META{"name":"420","description":"Github: https://git.io/v7ovg ,Support Server Link: https://discord.gg/aSyUs69","author":"NFLD99","version":"ersion auto updates"}*//{} 
+//META{"name":"four_twenty","description":"Github: https://git.io/v7ovg ,Support Server Link: https://discord.gg/aSyUs69","author":"NFLD99","version":"ersion auto updates"}*//{} 
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Master_Code.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Animations/No.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Fonts/No.css);
@@ -41,5 +41,5 @@
 }
 
 .layers, .layer, .theme-dark .layer-kosS71, .theme-dark .layers-20RVFW{
-    background: rgba(0, 0, 0, 0.43) !important;
+  background: rgba(0, 0, 0, 0.43) !important;
 }
