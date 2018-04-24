@@ -1,0 +1,14 @@
+/* Channels */
+.channels-3g2vYe{
+	min-width:10px!important;
+	max-width:240px!important;
+	width:10px;
+	transition: all .5s;
+	opacity: 0;
+}
+
+.channels-3g2vYe:hover{
+	width:240px;
+	transition: all .6s;
+	opacity: 1;
+}

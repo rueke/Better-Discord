@@ -1,0 +1,14 @@
+/* Giulds */
+.guilds-wrapper{
+	min-width:10px!important;
+	max-width:240px!important;
+	width:10px;
+	transition: all .5s;
+	opacity: 0;
+}
+
+.guilds-wrapper:hover{
+	width:100px;
+	transition: all .6s;
+	opacity: 1;
+}
