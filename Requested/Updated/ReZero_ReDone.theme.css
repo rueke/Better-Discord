@@ -1,5 +1,5 @@
-//META{"name":"Mitsuki","description":"Github: https://git.io/v7ovg ,Support Server Link: https://discord.gg/aSyUs69","author":"NFLD99","version":"ersion auto updates"}*//{}
-@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Master_Code.css);
+//META{"name":"ReZero_ReDone","description":"Github: https://git.io/v7ovg ,For More Info And The Support Link Please Visit My Server https://discord.gg/K6Gevwk","author":"NFLD99","version":"ersion auto updates"}*//{} 
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Master_Code.css); 
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Animations/No.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Fonts/No.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Grid/Yes.css);
@@ -12,24 +12,24 @@
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Members/No.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Windows_Bar/No.css);
 :root {
-  --Main-Colour: rgba(135,206,250,1);
-  --Background-Colour: rgba(30,37,47,1);
-  --S-Colour: rgba(30,37,47,.3);
-  --M-Colour: rgba(135,206,250,.5);
-  --Text-Shadow-Colour: rgba(30,37,47,.65);
-  --Scroller-Colour: rgba(135,206,250,0);
-  --Notification-Colour: rgba(135,206,250,1);
+  --Main-Colour: rgba(182, 155, 241,1);
+  --Background-Colour: rgba(50,42,88,1);
+  --S-Colour: rgba(50,42,88,.3);
+  --M-Colour: rgba(182, 155, 241,.5);
+  --Text-Shadow-Colour: rgba(50,42,88,.65);
+  --Scroller-Colour: rgba(182, 155, 241,0);
+  --Notification-Colour: rgba(182, 155, 241,1);
   --Chat-Input-Background: rgba(0,0,0,0);
   --Chat-Input-Colour: var(--Main-Colour) ;
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: url(https://i.imgur.com/hcBb9bR.jpg) ;
-  --Settings-Background: url(https://i.imgur.com/hcBb9bR.jpg) ;
-  --Callout-Background: url(https://i.imgur.com/hcBb9bR.jpg) ;
+  --Chat-Background: url("https://images7.alphacoders.com/823/823316.png");
+  --Settings-Background: url("https://i.imgur.com/NUhSyNd.jpg");
+  --Callout-Background: url(https://images5.alphacoders.com/860/860634.png);
   --Status-Show-Dot: 0;
   --Status-Show-Border: 1;
-  --Title-Background: var(--Background-Colour);
-  --Theme-Variant: " Mitsuki";
+  --Title-Background: rgba(50, 42, 88, 0.64);
+  --Theme-Variant: " ReZero ReDone";
   --Tpying-Rainbow: 0;
   --Chat-Font-Used: ;
   --Chat-Font-Size: 15px;
@@ -40,4 +40,7 @@
   --load1: "Thank You!";
   --load2: "Please Enjoy!";
   --load3: "➢NFLD99";
+}
+.container-2OU7Cz{
+    background: rgba(50, 42, 88, 0.64) !important;
 }

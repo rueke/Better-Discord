@@ -1,4 +1,4 @@
-//META{"name":"Mitsuki","description":"Github: https://git.io/v7ovg ,Support Server Link: https://discord.gg/aSyUs69","author":"NFLD99","version":"ersion auto updates"}*//{}
+//META{"name":"Jikan_No_Shihaisha","description":"Github: https://git.io/v7ovg ,Support Server Link: https://discord.gg/aSyUs69","author":"NFLD99","version":"ersion auto updates"}*//{} 
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Master_Code.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Animations/No.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Fonts/No.css);
@@ -12,24 +12,24 @@
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Members/No.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Windows_Bar/No.css);
 :root {
-  --Main-Colour: rgba(135,206,250,1);
-  --Background-Colour: rgba(30,37,47,1);
-  --S-Colour: rgba(30,37,47,.3);
-  --M-Colour: rgba(135,206,250,.5);
-  --Text-Shadow-Colour: rgba(30,37,47,.65);
-  --Scroller-Colour: rgba(135,206,250,0);
-  --Notification-Colour: rgba(135,206,250,1);
+  --Main-Colour: rgba(128,107,124,1);
+  --Background-Colour: rgba(0,0,0,1);
+  --S-Colour: rgba(0,0,0,.3);
+  --M-Colour: rgba(128,107,124,.5);
+  --Text-Shadow-Colour: rgba(0,0,0,.65);
+  --Scroller-Colour: rgba(128,107,124,0);
+  --Notification-Colour: rgba(128,107,124,1);
   --Chat-Input-Background: rgba(0,0,0,0);
   --Chat-Input-Colour: var(--Main-Colour) ;
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: url(https://i.imgur.com/hcBb9bR.jpg) ;
-  --Settings-Background: url(https://i.imgur.com/hcBb9bR.jpg) ;
-  --Callout-Background: url(https://i.imgur.com/hcBb9bR.jpg) ;
+  --Chat-Background: url(https://i.imgur.com/gCL6GaN.png);
+  --Settings-Background: url(https://i.imgur.com/gCL6GaN.png);
+  --Callout-Background: url(https://i.imgur.com/gCL6GaN.png);
   --Status-Show-Dot: 0;
   --Status-Show-Border: 1;
   --Title-Background: var(--Background-Colour);
-  --Theme-Variant: " Mitsuki";
+  --Theme-Variant: " Jikan No Shihaisha";
   --Tpying-Rainbow: 0;
   --Chat-Font-Used: ;
   --Chat-Font-Size: 15px;
