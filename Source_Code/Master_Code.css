@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #133 ";
+  --Update-Text: " Update #134 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -23,7 +23,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.YAY It SHOULD be all fixed now.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Upload modal.</text><text y="180" style="font-size: 1.1em;" x="37">3.Added --Background-Brightness.</text><text y="200" style="font-size: 1.1em;" x="37">4.Fixed unread.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.YAY It SHOULD be all fixed now.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Upload modal more.</text><text y="180" style="font-size: 1.1em;" x="37">3.Added --Background-Brightness.</text><text y="200" style="font-size: 1.1em;" x="37">4.Fixed unread.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -6091,10 +6091,12 @@ userSettingsAccount-2eMFVR > div > div > div > div:nth-child(2) > div:nth-child(
   border: none;
   background-color: transparent;
   width: 100%;
-  height: 100%;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: -3px;
+  box-shadow: none;
+  background-size: contain;
+  height: 193px;
 }
 
 .inner-1JeGVc{
