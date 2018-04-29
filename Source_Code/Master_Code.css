@@ -6100,3 +6100,7 @@ userSettingsAccount-2eMFVR > div > div > div > div:nth-child(2) > div:nth-child(
 .inner-1JeGVc{
   background: var(--S-Colour)!important;
 }
+
+.theme-dark .typing-2GQL18 span{
+  color: var(--Main-Colour);
+}
