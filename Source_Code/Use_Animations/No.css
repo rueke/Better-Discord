@@ -1,7 +1,7 @@
 /* Animations For My Themes */
 
 .unread-1Dp-OI {
-  background: linear-gradient(to right, var(--Notification-Colour), var(--S-Colour), transparent);
+  background: transparent;
   transform: translate(calc(10% / -2 - 36px), 0);
 }
 
