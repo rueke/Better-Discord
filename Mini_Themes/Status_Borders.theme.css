@@ -9,26 +9,26 @@
     bottom: -2.5px !important; /* You May Need To Adjust This */
 }
 .status-idle, .channel-members .status-idle,
-.container-iksrDt .status-idle,
+.container-2Thooq .status-idle,
 .channel.private .status-idle {
     background-color: transparent;
     border-color: #faa61a !important;
 }
 .status-online, .channel-members .status-online,
-.container-iksrDt .status-online,
+.container-2Thooq .status-online,
 .channel.private .status-online {
     background-color: transparent;
     border-color: #43b581 !important;
 }
 .status-dnd, .channel-members .status-dnd,
-.container-iksrDt .status-dnd,
+.container-2Thooq .status-dnd,
 .channel.private .status-dnd {
     background-color: transparent;
     border-color: #f04747 !important;
 }
 .status-invisible, .status-offline, .channel-members .status-invisible,
 .channel-members .status-offline,
-.container-iksrDt .status-invisible,
+.container-2Thooq .status-invisible,
 .channel.private .status-invisible,
 .channel.private .status-offline {
     background-color: transparent;
@@ -36,7 +36,7 @@
 	display: block;
 }
 .status-streaming, .channel-members .status-streaming,
-.container-iksrDt .status-streaming,
+.container-2Thooq .status-streaming,
 .channel.private .status-streaming {
 	background-color: transparent;
     border-color: #593695 !important;
@@ -44,7 +44,7 @@
 .status, .channel-members .status,
 .channel-members .status .status-typing,
 .channel.private .status,
-.container-iksrDt .status {
+.container-2Thooq .status {
     width: var(--width) !important;
     height: var(--height) !important;
     border-radius: 70px !important;

@@ -1,5 +1,5 @@
 /* Invites */
-.wrapper-uAa07y{
+.wrapper-35wsBm{
 	min-width:10px!important;
 	max-width:400px!important;
 	width:45px;
@@ -8,13 +8,13 @@
   overflow: hidden;
 }
 
-.wrapper-uAa07y:hover{
+.wrapper-35wsBm:hover{
 	width:400px;
 	transition: all .6s;
 	opacity: 1;
 }
 
-.wrapper-uAa07y{
+.wrapper-35wsBm{
 	min-height:10px!important;
 	max-height:100px!important;
 	height:10px;
@@ -23,7 +23,7 @@
   overflow: hidden;
 }
 
-.wrapper-uAa07y:hover{
+.wrapper-35wsBm:hover{
 	height:100px;
 	transition: all .6s;
 	opacity: 1;

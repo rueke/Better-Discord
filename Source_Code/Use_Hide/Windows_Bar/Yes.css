@@ -1,5 +1,5 @@
 /* Windows Bar */
-.typeWindows-15E0Ys{
+.typeWindows-1za-n7{
 	min-height:5px!important;
 	max-height:20px!important;
 	height:5px;
@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-.typeWindows-15E0Ys:hover{
+.typeWindows-1za-n7:hover{
 	height:20px;
 	transition: all .6s;
 	opacity: 1;
