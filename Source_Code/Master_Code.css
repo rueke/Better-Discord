@@ -5786,7 +5786,7 @@ background: var(--Background-Colour);
   color: var(--M-Colour)!important;
 }
 
-.iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB,.theme-dark .activityProfile-2bJRaP .headerText-1HLrL7, .theme-dark .activityUserPopout-2yItg2 .headerText-1HLrL7, .theme-light .activityProfile-2bJRaP .headerText-1HLrL7, .theme-light .activityUserPopout-2yItg2 .headerText-1HLrL7,.theme-dark .item-1GzJrl:hover.invite-271nFU,.theme-dark .topic-2QX7LI,.theme-dark .itemDefault-3Jdr52, .theme-dark .itemHover-EnbcjT{
+.iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB,.theme-dark .activityProfile-2bJRaP .headerText-1HLrL7, .theme-dark .activityUserPopout-2yItg2 .headerText-1HLrL7, .theme-light .activityProfile-2bJRaP .headerText-1HLrL7, .theme-light .activityUserPopout-2yItg2 .headerText-1HLrL7,.theme-dark .item-1GzJrl:hover.invite-271nFU,.theme-dark .topic-2QX7LI,.theme-dark .itemDefault-3Jdr52:not(.role-3wi9Tf), .theme-dark .itemHover-EnbcjT{
   color: var(--Main-Colour)!important;
 }
 
@@ -6075,5 +6075,5 @@ userSettingsAccount-2eMFVR > div > div > div > div:nth-child(2) > div:nth-child(
 }
 
 * {
-  text-shadow: 0 0 2px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour)!important;
+  text-shadow: 0 0 1px var(--Text-Shadow-Colour), 0 0 1px var(--Text-Shadow-Colour), 0 0 1px var(--Text-Shadow-Colour), 0 0 1px var(--Text-Shadow-Colour)!important;
 }
