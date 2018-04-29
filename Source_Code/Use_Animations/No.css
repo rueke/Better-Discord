@@ -1,6 +1,6 @@
 /* Animations For My Themes */
 
-.name-3M0b8v.nameUnreadText-1pxldj:before {
+.unread-1Dp-OI {
   background: linear-gradient(to right, var(--Notification-Colour), var(--S-Colour), transparent);
   transform: translate(calc(10% / -2 - 36px), 0);
 }
