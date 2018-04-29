@@ -40,15 +40,5 @@
   --load1: "Anti";
   --load2: "Lag";
   --load3: "➢NFLD99";
+  --Background-Brightness: 0.5;
 }
-
-/*
-[style*="avatars/122204411962327043"].avatar-large+ .comment strong{
-  font-size: 0;
-}
-
-[style*="avatars/122204411962327043"].avatar-large+ .comment strong:after {
-  content: " Annoying Little Dweeb";
-  font-size: 15px;
-}
-*/

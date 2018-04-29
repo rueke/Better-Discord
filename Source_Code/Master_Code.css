@@ -11,10 +11,11 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #129 ";
+  --Update-Text: " Update #130 ";
 }
 
-[layer-id="user-settings"] .user-settings-account ~ :last-child:after,#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.flex-vertical.flex-spacer > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div.content-column.default > div > div.userSettingsSecurity-1hjwAn.marginTop60-3PGbtK:after  {
+/* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
+[layer-id="user-settings"] .userSettingsAccount-2eMFVR ~ :last-child:after{
   margin-bottom: -3px;
   padding-top: 10px;
   padding-left: 10px;
@@ -22,9 +23,10 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.YAY It SHOULD be all fixed now.</text><text y="160" style="font-size: 1.1em;" x="37">2.fucking pain in my ass updates :p.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.YAY It SHOULD be all fixed now.</text><text y="160" style="font-size: 1.1em;" x="37">2.fucking pain in my ass updates :p.</text><text y="180" style="font-size: 1.1em;" x="37">3.Added --Background-Brightness.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
+/* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
 
 @keyframes CLog {
   from {
@@ -2140,27 +2142,6 @@ div.flex-spacer.flex-vertical form {
   color: var(--Main-Colour);
   font-size: 14px;
 }
-/* thanks to @square#3880 for this code */
-.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active{
-  background: linear-gradient(to right,  transparent, var(--Background-Colour), var(--Notification-Colour));
-}
-
-.contentUnreadText-2vNnZc:hover, .contentUnreadText-2vNnZc{
-  background: linear-gradient(to left, transparent, var(--Background-Colour), var(--Notification-Colour));
-}
-
-.unread-1Dp-OI{
-  content: "";
-  width: calc(100% - 36px - 8px);
-  height: 150%;
-  position: absolute;
-  display: block;
-  left: 84px;
-  top: 1px;
-  background: linear-gradient(to right, transparent, var(--S-Colour), var(--Notification-Colour), var(--S-Colour), transparent);
-  animation: shakeUnread 2s ease-in-out infinite alternate;
-}
-/* thanks to @square#3880 for this code */
 
 .modal-image {
   text-align: center;
@@ -3804,11 +3785,7 @@ body{
 }
 
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ{
-  background: rgba(0,0,0,0) !important;
-}
-
- .theme-dark .layers-3iHuyZ{
-  background: transparent !important;
+  background: rgba(0,0,0,var(--Background-Brightness)) !important;
 }
 
 #app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.flex-vertical.flex-spacer > div > div > div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8 > div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.container-2Thooq > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > div.button-2b6hmh > svg > path {
@@ -5799,13 +5776,11 @@ background: var(--Background-Colour);
   height: 150%;
   position: absolute;
   display: block;
-  left: 84px;
+  left: 53px;
   top: 1px;
   background: linear-gradient(to right, transparent, var(--S-Colour), var(--Notification-Colour), var(--S-Colour), transparent);
   animation: shakeUnread 2s ease-in-out infinite alternate;
 }
-
-
 
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H,.theme-dark .activityProfile-2bJRaP .content-3JfFJh, .theme-dark .activityProfile-2bJRaP .details-38sfDr, .theme-dark .activityProfile-2bJRaP .name-29ETJS, .theme-dark .activityUserPopout-2yItg2 .content-3JfFJh, .theme-dark .activityUserPopout-2yItg2 .details-38sfDr, .theme-dark .activityUserPopout-2yItg2 .name-29ETJS, .theme-light .activityProfile-2bJRaP .content-3JfFJh, .theme-light .activityProfile-2bJRaP .details-38sfDr, .theme-light .activityProfile-2bJRaP .name-29ETJS, .theme-light .activityUserPopout-2yItg2 .content-3JfFJh, .theme-light .activityUserPopout-2yItg2 .details-38sfDr, .theme-light .activityUserPopout-2yItg2 .name-29ETJS,.theme-dark .item-1GzJrl.invite-271nFU,.theme-dark .mentionFilter-1PQ6ey .label-12YslM{
   color: var(--M-Colour)!important;
@@ -6097,4 +6072,8 @@ userSettingsAccount-2eMFVR > div > div > div > div:nth-child(2) > div:nth-child(
   background-color: var(--Background-Colour);
   color: var(--Main-Colour);
   border: 1px solid var(--Main-Colour);
+}
+
+* {
+  text-shadow: 0 0 2px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour)!important;
 }

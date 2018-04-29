@@ -40,12 +40,9 @@
   --load1: "ローリンガール";
   --load2: "(Rolling Girl)";
   --load3: "➢NFLD99";
+  --Background-Brightness: 0.5;
 }
 
 .container-16j22k,.app,.callout-backdrop,.modal-1UGdnR,.theme-dark .ui-standard-sidebar-view,.appMount-3VJmYg {
   background-size: 100% 100% !important;
-}
-
-*{
-	text-shadow: 0 0 6px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
 }
