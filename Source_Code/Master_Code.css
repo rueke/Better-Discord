@@ -2310,7 +2310,7 @@ div.flex-spacer.flex-vertical form {
 }
 
 .mentioned .mention:hover {
-  color: #780079;
+  color: var(--Main-Colour);
   text-decoration: underline;
 }
 
@@ -2320,8 +2320,8 @@ div.flex-spacer.flex-vertical form {
 
 .mention:hover {
   cursor: pointer;
-  color: #fff;
-  background-color: #ac00b9;
+  color: var(--Main-Colour);
+  background-color: var(--S-Colour);
 }
 
 .message-group .comment .markup .mention, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q, .nameDefault-2s3kbY {
