@@ -1,1 +1,1 @@
-[Info](https://github.com/NFLD99/Info/blob/master/README.md)
+[Info](https://nfld99.github.io/Info/)
