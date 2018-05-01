@@ -42,3 +42,7 @@
   --load3: "➢NFLD99";
   --Background-Brightness: 0.64;
 }
+
+.container-2OU7Cz,.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ{
+  background: rgba(50, 42, 88, var(--Background-Brightness)) !important;
+}
