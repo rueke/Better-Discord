@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #135 ";
+  --Update-Text: " Update #136 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -23,7 +23,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.YAY It SHOULD be all fixed now.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Upload modal more.</text><text y="180" style="font-size: 1.1em;" x="37">3.Added --Background-Brightness.</text><text y="200" style="font-size: 1.1em;" x="37">4.Fixed unread.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed typo.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed mxngxxse boop, #DonatorHype.</text><text y="180" style="font-size: 1.1em;" x="37">3.Fixed Unread Muted Hover.</text><text y="200" style="font-size: 1.1em;" x="37">4.Returned ddr arrows.</text><text y="220" style="font-size: 1.1em;" x="37">5.Fixed Shorcuts Window.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -58,6 +58,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 
 .appMount-3VJmYg {
   background: Var(--Title-Background)50% 50%/cover !important;
+  background-color: transparent!important;
 }
 
 .titleBar-AC4pGV {
@@ -4200,10 +4201,6 @@ display:none;
   background:transparent;
 }
 
-.ddr-arrows{
-  display:none;
-}
-
 .keybind-shortcut span {
   -webkit-box-shadow: inset 0 -4px 0 var(--M-Colour);
   border: 1px solid var(--M-Colour);
@@ -5580,7 +5577,7 @@ background: var(--Background-Colour);
   background: url(https://i.imgur.com/DOFpZY5.jpg) 50% 50%/cover !important;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: rgba(0,172,234,1); font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: rgba(0,172,234,1);">Thank you for using my theme!</text><text y="45" style="font-size: 1.1em;" x="37">Dontaors:</text><text y="65" style="font-size: 1.1em;" x="37">@StratoBotElite#4763.</text><text y="85" style="font-size: 1.1em;" x="37">@BLACKROOSTER#1395.</text><text y="105" style="font-size: 1.1em;" x="37">@Meowster Mewt#0817.</text><text y="125" style="font-size: 1.1em;" x="37">@mxngxxse#0666.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: rgba(0,172,234,1); font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: rgba(0,172,234,1);">Thank you for using my theme!</text><text y="45" style="font-size: 1.1em;" x="37">Donators:</text><text y="65" style="font-size: 1.1em;" x="37">@StratoBotElite#4763.</text><text y="85" style="font-size: 1.1em;" x="37">@BLACKROOSTER#1395.</text><text y="105" style="font-size: 1.1em;" x="37">@Meowster Mewt#0817.</text><text y="125" style="font-size: 1.1em;" x="37">@mxngxxse#0666.</text></g></svg>');
 }
 
 .theme-dark .modalTitle-37O4n6 {
@@ -5594,10 +5591,6 @@ background: var(--Background-Colour);
 
 .theme-dark .keyboardShortcutList-13cQ-8 .keybindGroup-BB3G2K .keybindDescription-2RDbC2,.theme-dark .modalSubtitle-1Pj5nv{
   color: var(--Main-Colour);
-}
-
-.ddrArrows-lSnH7P{
-  display: none;
 }
 
 .fade > div > div > div:nth-child(26) > div.keybindDescription-2RDbC2{
@@ -6114,4 +6107,12 @@ userSettingsAccount-2eMFVR > div > div > div > div:nth-child(2) > div:nth-child(
 
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K {
   height: 193px;
+}
+
+.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
+  filter: brightness(1.5)
+}
+
+.theme-dark .keyboardShortcutsModal-3piNz7 {
+  background-color: var(--S-Colour);
 }

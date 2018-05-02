@@ -24,7 +24,7 @@
 }
 
 [style*="avatars/150927669809250305"].avatar-large+.comment .timestamp::after {
-  content: "Hello Im mxngxxse! \a I run an extremely toxic community Find us at https://discord.io/toxicgaming/ \a 4th Donator";
+  content: "I run an extremely toxic community \a Find us at https://discord.io/toxicgaming/ \a 4th Donator";
   white-space: pre;
   background-color: var(--Background-Colour) !important;
   box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
@@ -38,7 +38,7 @@
   pointer-events: none;
   transition: 80ms ease;
   color: var(--Main-Colour);
-  width: 420px;
+  width: 226px;
   left: 0;
   transform: translate(17px,-7px);
   opacity: 0;
