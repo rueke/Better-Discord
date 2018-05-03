@@ -24,7 +24,7 @@
 }
 
 [style*="avatars/167462879975571456"].avatar-large+.comment .timestamp::after {
-  content: "Hello Im Blackrooster! \a I stream on https://www.twitch.tv/blackrooster73 \a 1st Donator";
+  content: "I am the darkest rooster! \a I stream on https://www.twitch.tv/blackrooster73 \a 1st Donator";
   white-space: pre;
   background-color: var(--Background-Colour) !important;
   box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
