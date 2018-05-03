@@ -191,3 +191,8 @@
   50%{border: 2.5px solid rgba(116,127,141,0.4);}
   100%{border: 2.5px solid rgba(116,127,141,1);}
 }
+
+
+.contentUnreadText-2vNnZc:hover, .contentUnreadText-2vNnZc{
+  background:transparent!important;
+}
