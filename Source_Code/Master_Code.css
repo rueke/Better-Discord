@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #138 ";
+  --Update-Text: " Update #139 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -23,7 +23,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Squashed Chat Scroll Bug.</text><text y="140" style="font-size: 1.1em;" x="37">2.Blacklisted badges for text shadow.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Squashed Chat Scroll Bug.</text><text y="160" style="font-size: 1.1em;" x="37">2.Blacklisted Badges For Text Shadow.</text><text y="180" style="font-size: 1.1em;" x="37">3.Updated BFR Support.</text><text y="200" style="font-size: 1.1em;" x="37">4.Rethemed Auto Compleate.</text><text y="220" style="font-size: 1.1em;" x="37">5.Rethemed Connected Accounts.</text><text y="240" style="font-size: 1.1em;" x="37">6.Fixed Muted Names.</text><text y="260" style="font-size: 1.1em;" x="37">7.Background Brightness Now Effects More Things.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -97,29 +97,34 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   border: 1px solid var(--background-color);
 }
 
-.theme-dark .ui-standard-sidebar-view .content-region {
+/* .theme-dark .ui-standard-sidebar-view .content-region {
   background: transparent !important;
-}
-
-.ui-video-backgroundtext {
-  background: rgba(138, 37, 228, 0.11)!important;
-}
+} */
 
 .theme-dark .message-group .mentioned .message-text {
-  background: rgba(138, 37, 228, 0.11)!important;
+  background: rgba(97, 13, 170, 0.11)!important;
 }
 
-.theme-dark .ui-standard-sidebar-view .content-region, .ui-standard-sidebar-view .content-region,  .theme-dark .ui-standard-sidebar-view .sidebar-region,  .ui-standard-sidebar-view .sidebar-region { 
+/* .theme-dark .ui-standard-sidebar-view .content-region, .ui-standard-sidebar-view .content-region,  .theme-dark .ui-standard-sidebar-view .sidebar-region,  .ui-standard-sidebar-view .sidebar-region { 
   background: rgba(0,0,0,0.5) !important
+} */
+
+.theme-dark .ui-standard-sidebar-view .content-region, .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .sidebar-region{
+  background: rgba(0,0,0,var(--Background-Brightness)) !important;
 }
 
 .theme-dark .ui-standard-sidebar-view {
   background: var(--Settings-Background) 50% 50%/cover !important;
 }
 
-.callout-backdrop,.modal-1UGdnR {
+.callout-backdrop,.modal-1UGdnR,.header-2BwW8b,.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+  background: rgba(0, 0, 0, var(--Background-Brightness))!important;
+}
+
+.backdrop-1ocfXc{
   background: var(--Callout-Background) 50% 50%/cover !important;
 }
+
 
 .auth-background {
   background: url(https://i.imgur.com/DOFpZY5.jpg) 50% 50%/cover !important;
@@ -3111,17 +3116,19 @@ body{
   -webkit-filter: grayscale(0%)!important;
   -webkit-mask: none!important;
 }
-.autocompleteInner-zh20B_ {
-  background: var(--Background-Colour);
+/* .autocompleteInner-zh20B_ {
+  background: var(--Popout-Background) 505 50%/cover!important;
   border: 1px solid var(--M-Colour);
-}
+} */
+/* 
 .theme-dark .autocomplete-1vrmpx,.autocomplete-1vrmpx {
   background: var(--Background-Colour);
-}
-.theme-dark .selectorSelected-1_M1WV,.selectorSelected-1_M1WV {
+} */
+
+/* .theme-dark .selectorSelected-1_M1WV,.selectorSelected-1_M1WV {
   background:var(--Background-Colour);
   border: 1px solid var(--M-Colour);
-}
+} */
 
 .form.deprecated .control-group input[type=email], .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password], .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea{
   background:var(--Background-Colour);
@@ -3787,8 +3794,12 @@ body{
   top: -25px;
 }
 
-.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ{
+.theme-dark .layers-3iHuyZ{
   background: rgba(0,0,0,var(--Background-Brightness)) !important;
+}
+
+.theme-dark .layer-3QrUeG{
+  background: transparent;
 }
 
 #app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.flex-vertical.flex-spacer > div > div > div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8 > div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.container-2Thooq > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > div.button-2b6hmh > svg > path {
@@ -4834,11 +4845,16 @@ display:none;
 
 /* Support For Better Formatting Redux */
 .bf-toolbar:before{
-background: var(--Background-Colour);
+background: var(--S-Colour);
 }
 
 .upload-modal .bf-toolbar{
   top:13px;
+}
+
+.bf-toolbar .format:hover {
+  background: var(--M-Colour);
+  color: var(--Main-Colour);
 }
 /* Support For Better Formatting Redux */
 
@@ -6115,4 +6131,37 @@ userSettingsAccount-2eMFVR > div > div > div > div:nth-child(2) > div:nth-child(
 
 .theme-dark .keyboardShortcutsModal-3piNz7 {
   background-color: var(--S-Colour);
+}
+
+.nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ {
+  color: var(--M-Colour);
+}
+
+.theme-dark .descriptionDiscriminator-3vUOCc,.theme-dark .description-11DmNu, .theme-dark .descriptionUsername-J_75O8{
+  color: var(--M-Colour);
+}
+
+.theme-dark .description-11DmNu, .theme-dark .descriptionUsername-J_75O8,.theme-dark .contentTitle-2tG_sM,.marginLeft8-1YseBe{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .autocomplete-1vrmpx,.autocomplete-1vrmpx {
+  background: var(--Popout-Background) 50% 50%/cover!important;
+}
+
+.autocompleteInner-zh20B_ {
+  border: 1px solid var(--M-Colour);
+  background: rgba(0,0,0, var(--Background-Brightness));
+}
+
+.theme-dark .selectorSelected-1_M1WV,.selectorSelected-1_M1WV {
+  background:linear-gradient(to top, var(--M-Colour), transparent, transparent, transparent, var(--M-Colour)) !important;
+}
+
+.theme-dark .connectedAccount-36nQx7, .theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx {
+  border-color: var(--M-Colour);
+}
+
+.connectedAccountName-f8AEe2{
+  color: var(--Main-Colour);
 }
