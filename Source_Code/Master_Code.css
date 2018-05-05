@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #139 ";
+  --Update-Text: " Update #140 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -23,7 +23,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Squashed Chat Scroll Bug.</text><text y="160" style="font-size: 1.1em;" x="37">2.Blacklisted Badges For Text Shadow.</text><text y="180" style="font-size: 1.1em;" x="37">3.Updated BFR Support.</text><text y="200" style="font-size: 1.1em;" x="37">4.Rethemed Auto Compleate.</text><text y="220" style="font-size: 1.1em;" x="37">5.Rethemed Connected Accounts.</text><text y="240" style="font-size: 1.1em;" x="37">6.Fixed Muted Names.</text><text y="260" style="font-size: 1.1em;" x="37">7.Background Brightness Now Effects More Things.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Squashed Chat Scroll Bug.</text><text y="160" style="font-size: 1.1em;" x="37">2.Blacklisted Badges For Text Shadow.</text><text y="180" style="font-size: 1.1em;" x="37">3.Updated BFR Support Hope it fixes the issues.</text><text y="200" style="font-size: 1.1em;" x="37">4.Rethemed Auto Compleate.</text><text y="220" style="font-size: 1.1em;" x="37">5.Rethemed Connected Accounts.</text><text y="240" style="font-size: 1.1em;" x="37">6.Fixed Muted Names.</text><text y="260" style="font-size: 1.1em;" x="37">7.Background Brightness Now Effects More Things.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -4845,18 +4845,18 @@ display:none;
 
 /* Support For Better Formatting Redux */
 .bf-toolbar:before{
-background: var(--S-Colour);
-}
-
-.upload-modal .bf-toolbar{
-  top:13px;
-}
-
-.bf-toolbar .format:hover {
-  background: var(--M-Colour);
-  color: var(--Main-Colour);
-}
-/* Support For Better Formatting Redux */
+  background: var(--S-Colour)!important;
+  }
+  
+  .upload-modal .bf-toolbar{
+    top:13px!important;
+  }
+  
+  .bf-toolbar .format:hover {
+    background: var(--M-Colour)!important;
+    color: var(--Main-Colour)!important;
+  }
+  /* Support For Better Formatting Redux */
 
 /* Support For Horizontal Server List */
 .app {
