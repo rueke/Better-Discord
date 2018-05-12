@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #142 ";
+  --Update-Text: " Update #143 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -23,7 +23,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Themed New login Screen.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Updated Status borders.</text><text y="160" style="font-size: 1.1em;" x="37">2.Updated user popoout roles.</text><text y="180" style="font-size: 1.1em;" x="37">3.Updated mic bar in settings.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -5052,12 +5052,12 @@ display:none;
 
 /* User Status 2 */
 /* DND */
-.statusDnd-2DDKST:not(.statusProfile-3ynqtt) {
-  width: 115%!important;
-  height: 115%!important;
+.statusDnd-2DDKST:not(.statusProfile-3ynqtt),.avatar-small .status-dnd{
+  width: 114%!important;
+  height: 114%!important;
   box-sizing: border-box;
   top: -6.3%!important;
-  left: -7.3%!important;
+  left: -6.3%!important;
   border: 2.5px solid #f04747!important;
   border-radius: 5px !important;
   background:none;
@@ -5065,12 +5065,12 @@ display:none;
   animation: Dnd 3s linear infinite !important;
 }
 /* ONLINE */
-.statusOnline-1FlpW_:not(.statusProfile-3ynqtt) {
-  width: 115%!important;
-  height: 115%!important;
+.statusOnline-1FlpW_:not(.statusProfile-3ynqtt),.avatar-small .status-online {
+  width: 114%!important;
+  height: 114%!important;
   box-sizing: border-box;
   top: -6.3%!important;
-  left: -7.3%!important;
+  left: -6.3%!important;
   border: 2.5px solid #43b581!important;
   border-radius: 5px !important;
   background:none;
@@ -5078,12 +5078,12 @@ display:none;
   animation: Online 3s linear infinite !important;
 }
 /* AWAY */
-.statusIdle-1XoSCz:not(.statusProfile-3ynqtt) {
-  width: 115%!important;
-  height: 115%!important;
+.statusIdle-1XoSCz:not(.statusProfile-3ynqtt),.avatar-small .status-idle  {
+  width: 114%!important;
+  height: 114%!important;
   box-sizing: border-box;
   top: -6.3%!important;
-  left: -7.3%!important;
+  left: -6.3%!important;
   border: 2.5px solid #faa61a!important;
   border-radius: 5px !important;
   background:none;
@@ -5092,11 +5092,11 @@ display:none;
 }
 /* STREAM */
 .statusStreaming-2eqoUF:not(.statusProfile-3ynqtt) {
-  width: 115%!important;
-  height: 115%!important;
+  width: 114%!important;
+  height: 114%!important;
   box-sizing: border-box;
   top: -6.3%!important;
-  left: -7.3%!important;
+  left: -6.3%!important;
   border: 2.5px solid #593695!important;
   border-radius: 5px !important;
   background:none;
@@ -5106,9 +5106,21 @@ display:none;
 /* OFFLINE */
 .avatarOffline-3GF27z{
   top: -6.3%!important;
-  left: -7.3%!important;
+  left: -6.3%!important;
   border: 2.5px solid #747f8d!important;
   border-radius: 5px !important;
+  animation: Offline 3s linear infinite !important;
+}
+.statusOffline-3R-4Bv:not(.statusOfflineProfile-9tGGr-),.avatar-small .status-invisible,.avatar-small .status-offline{
+  width: 114%!important;
+  height: 114%!important;
+  box-sizing: border-box;
+  top: -6.3%!important;
+  left: -6.3%!important;
+  border: 2.5px solid #747f8d!important;
+  border-radius: 5px !important;
+  background: none;
+  opacity: 1 !important;
   animation: Offline 3s linear infinite !important;
 }
 /* User Status 2 */
@@ -6251,4 +6263,76 @@ userSettingsAccount-2eMFVR > div > div > div > div:nth-child(2) > div:nth-child(
   background-repeat: no-repeat;
   width:140px;
   height: 70px;
+}
+
+.theme-dark .alt-3btY0e .helper-2c73HK{
+  display: none;
+}
+
+.menu-Sp6bN1 {
+  width: calc(100% + 20px) !important;
+}
+
+.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH{
+  width: calc(100% + 20px) !important;
+}
+.statusIconText-3b4TkH > span {
+  margin-right: 3px!important;
+}
+
+.root-3-B5F3{
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.root-3-B5F3:-webkit-scrollbar-track-piece {
+  border: none !important;
+  background: transparent !important;
+  border: 1px solid var(--Scroller-Colour) !important;
+}
+.root-3-B5F3:-webkit-scrollbar-thumb {
+  background: transparent !important;
+  border: 1px solid var(--Scroller-Colour) !important;
+}
+.root-3-B5F3:not(:hover):-webkit-scrollbar-thumb {
+  background: transparent !important;
+  border: 0px solid transparent !important;
+  border: 1px solid var(--Scroller-Colour) !important;
+}
+.root-3-B5F3:-webkit-scrollbar {
+  max-width: 10px !important;
+  background: transparent !important;
+  border: 1px solid var(--Scroller-Colour) !important;
+}
+
+.body-3ND3kc > div > div > div > div > div > div > svg{
+  display: none;
+}
+
+.theme-dark .passthroughSelected-1Eq0Kl {
+  border: 1px solid #747f8d;
+  background: transparent;
+}
+
+.denySelected-1mh2mZ {
+  background: transparent;
+}
+
+.allowSelected-25S_i5 {
+  background: transparent;
+}
+
+.bar-2Qqk5Z[style="background: rgb(251, 184, 72);"] {
+  background-color: var(--Background-Colour)!important;
+}
+
+.barFill-23-gu-[style="background: rgb(105, 196, 154); width: 45.5385%;"] {
+  background-color: var(--M-Colour)!important;
+}
+
+.userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o.manual-36Evg9 .microphone-2rtdHw .fill-3eUagR {
+  -webkit-transition: width 35ms ease;
+  background-color: var(--Main-Colour);
+  height: 100%;
+  transition: width 35ms ease;
 }
