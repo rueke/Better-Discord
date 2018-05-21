@@ -4,59 +4,40 @@
   background: transparent;
   transform: translate(calc(10% / -2 - 36px), 0);
 }
+/* Disabled */
 
-@keyframes Spin {
-    0% {
-    }
-    100% {
-    }
-}
+@keyframes Spin {}
 
-@keyframes Talking {
-    0% {
-    }
-    100% {
-    }
-}
+@keyframes Talking {}
 
-@keyframes Load4 {
-    0% {
-    }
-    100% {
-    }
-}
+@keyframes Load4 {}
 
-@keyframes opacity {
-  0% {
-  }
+@keyframes opacity {}
 
-  50% {
-  }
+@keyframes color_change {}
 
-  100% {
-  }
-}
+@keyframes shakeUnread {}
 
-@keyframes color_change {
-  from {
-  }
+@keyframes rainbow {}
 
-  to {
-  }
-}
+@keyframes Connecting {}
 
-@keyframes shakeUnread {
-  0% {
-  }
+@keyframes TextScroll {}
 
-  100% {
-  }
-}
+@keyframes pulse {}
 
-@keyframes rainbow {
-  from {
-  }
+@keyframes boop {}
 
-  to {
-  }
-}
+@keyframes boop2 {}
+
+@keyframes PFB {}
+
+@keyframes Dnd {}
+
+@keyframes Online {}
+
+@keyframes Away {}
+
+@keyframes Stream {}
+
+@keyframes Offline {}
