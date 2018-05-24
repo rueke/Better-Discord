@@ -23,9 +23,9 @@
   --Chat-Input-Colour: var(--Main-Colour) ;
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: url("https://images7.alphacoders.com/823/823316.png");
+  --Chat-Background: url("https://i.imgur.com/w7UVsOs.jpg");
   --Settings-Background: url("https://i.imgur.com/NUhSyNd.jpg");
-  --Callout-Background: url(https://images5.alphacoders.com/860/860634.png);
+  --Callout-Background: url(https://i.imgur.com/eeDIMtw.jpg);
   --Status-Show-Dot: 0;
   --Status-Show-Border: 1;
   --Title-Background: rgba(50, 42, 88, 0.64);
@@ -40,7 +40,7 @@
   --load1: "Thank You!";
   --load2: "Please Enjoy!";
   --load3: "➢NFLD99";
-  --Background-Brightness: 0.64;
+  --Background-Brightness: 0.54;
 }
 
 .container-2OU7Cz,.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ{
