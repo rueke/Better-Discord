@@ -6520,7 +6520,7 @@ userSettingsAccount-2eMFVR > div > div > div > div:nth-child(2) > div:nth-child(
 }
 
 .bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j,.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark .emoji-picker, .bda-dark .emoji-picker .category, .bda-dark .emoji-picker .header .search-bar{
-  background:var(--Emote-Popout-Background) !important;
+  background:var(--Emote-Popout-Background) 50% 50%/cover !important;
   border: 1px solid var(--Main-Colour) !important;
 }
 
