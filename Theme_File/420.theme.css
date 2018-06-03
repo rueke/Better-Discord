@@ -26,17 +26,15 @@
   --Chat-Background: url(https://i.imgur.com/52cPQtD.png);
   --Settings-Background: url(https://i.imgur.com/52cPQtD.png);
   --Callout-Background: url(https://i.imgur.com/52cPQtD.png);
-  --Status-Show-Dot: 0;
-  --Status-Show-Border: 1;
   --Title-Background: var(--Background-Colour);
   --Theme-Variant: " 420";
-  --Tpying-Rainbow: 0;
   --Chat-Font-Used: ;
   --Chat-Font-Size: 15px;
   --Unread-Message-Speed: 1.5s;
   --Popout-Main-Colour: var(--Main-Colour);
   --Popout-Background: var(--Chat-Background);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background: var(--S-Colour);
   --load1: "Thank You!";
   --load2: "Please Enjoy!";
   --load3: "➢NFLD99";

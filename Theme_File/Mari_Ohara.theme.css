@@ -26,17 +26,15 @@
   --Chat-Background: var(--S-Colour);
   --Settings-Background: var(--S-Colour);
   --Callout-Background: var(--S-Colour);
-  --Status-Show-Dot: 0;
-  --Status-Show-Border: 1;
   --Title-Background: url(https://pm1.narvii.com/6195/6ca8cbb902db7e443c29d13fad7a13ebd78c2443_hq.jpg);
   --Theme-Variant: " Mari Ohara";
-  --Tpying-Rainbow: 0.2;
   --Chat-Font-Used: ;
   --Chat-Font-Size: 15px;
   --Unread-Message-Speed: 1.5s;
   --Popout-Main-Colour: var(--Main-Colour);
   --Popout-Background: var(--Chat-Background);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background: var(--S-Colour);
   --load1: "Thank You!";
   --load2: "Please Enjoy!";
   --load3: "➢NFLD99";
