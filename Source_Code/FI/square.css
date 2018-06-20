@@ -1,17 +1,19 @@
 /* square#3880 */
-[style*="avatars/219363409097916416"].avatar-profile::before,
-[style*="avatars/219363409097916416"].avatar-profile[style*="avatars/219363409097916416"]::after,
-[style*="avatars/219363409097916416"].avatar-large[style*="avatars/219363409097916416"]+.comment .timestamp::before,
-[style*="avatars/219363409097916416"].avatar-large[style*="avatars/219363409097916416"]+.comment .timestamp::after {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/219363409097916416"].avatar-profile::before,
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/219363409097916416"].avatar-profile.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/219363409097916416"]::after,
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/219363409097916416"].avatar-large.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/219363409097916416"]::before,
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/219363409097916416"].avatar-large.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/219363409097916416"]::after {
   display: inline-block!important;
 }
 
-[style*="avatars/219363409097916416"].avatar-large+.comment .timestamp::before {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/219363409097916416"]::before {
   content: url(https://i.imgur.com/xMxKHXH.png);
   color: rgba(0,255,0,.3);
   font-size: 13px;
   z-index: 1;
   position: relative;
+  left:105%;
+  top:85%;
   padding-left: 1px;
   padding-right: 4px;
   border-radius: 2px;
@@ -23,7 +25,7 @@
   animation: rainbow 3s infinite linear;
 }
 
-[style*="avatars/219363409097916416"].avatar-large+.comment .timestamp::after {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/219363409097916416"]::after {
   content: "Hello Im Square! \a I Am A Plugin/Theme Dev. \a I Also Love Squares.";
   white-space: pre;
   background-color: var(--Background-Colour) !important;
@@ -39,26 +41,26 @@
   transition: 80ms ease;
   color: var(--Main-Colour);
   width: 150px;
-  left: 0;
+  left:105%;
+  top:85%;
   transform: translate(17px,-7px);
   opacity: 0;
-  top: 0;
   animation: rainbow 3s infinite linear;
 }
 
-[style*="avatars/219363409097916416"].avatar-large+.comment .timestamp:hover::after {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/219363409097916416"]:hover::after {
   opacity: 1;
   transition: 180ms ease-in-out 100ms;
   animation: boop .5s 1 linear;
 }
 
-[style*="avatars/219363409097916416"].avatar-large+.comment .timestamp:not(:hover)::after {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/219363409097916416"]:not(:hover)::after {
   opacity: 0;
   transition: 180ms ease-in-out 150ms;
   animation: boop2 .5s 1 linear;
 }
 
-[style*="avatars/219363409097916416"].avatar-large+.comment .timestamp {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/219363409097916416"] {
   position: relative;
   cursor: pointer;
 }

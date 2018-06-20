@@ -1,17 +1,19 @@
 /* NFLD99#0001 */
-[style*="avatars/187615613944856576"].avatar-profile::before,
-[style*="avatars/187615613944856576"].avatar-profile[style*="avatars/187615613944856576"]::after,
-[style*="avatars/187615613944856576"].avatar-large[style*="avatars/187615613944856576"]+.comment .timestamp::before,
-[style*="avatars/187615613944856576"].avatar-large[style*="avatars/187615613944856576"]+.comment .timestamp::after {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]::before,
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/187615613944856576"].maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]::after,
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/187615613944856576"].maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]::before,
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/187615613944856576"].maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]::after {
   display: inline-block!important;
 }
 
-[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp::before {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]::before {
   content: url(https://rawgit.com/NFLD99/9617a094e34f8640f6bd1b0ac54ea8e3/raw/df7dc3d00727f07ad70c3db3af2d3e8642990b48/Github.svg);
   color: rgba(0,255,0,.3);
   font-size: 13px;
   z-index: 1;
   position: relative;
+  left:105%;
+  top:53%;
   padding-left: 1px;
   padding-right: 4px;
   border-radius: 2px;
@@ -23,7 +25,7 @@
   animation: rainbow 3s infinite linear;
 }
 
-[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp::after {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]::after {
   content: "Hello Im The Theme Dev If You Have Any Issues Please Join The Server! \a Github Link: https://git.io/v7ovg \a Support Server Link: https://discord.gg/aSyUs69";
   white-space: pre;
   background-color: var(--Background-Colour) !important;
@@ -39,26 +41,27 @@
   transition: 80ms ease;
   color: var(--Main-Colour);
   width: 385px;
-  left: 0;
+  height: 40px;
+  left:105%;
+  top:85%;
   transform: translate(17px,-7px);
   opacity: 0;
-  top: 0;
   animation: rainbow 3s infinite linear;
 }
 
-[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp:hover::after {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]:hover::after {
   opacity: 1;
   transition: 180ms ease-in-out 100ms;
   animation: boop .5s 1 linear;
 }
 
-[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp:not(:hover)::after {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]:not(:hover)::after {
   opacity: 0;
   transition: 180ms ease-in-out 150ms;
   animation: boop2 .5s 1 linear;
 }
 
-[style*="avatars/187615613944856576"].avatar-large+.comment .timestamp {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/187615613944856576"] {
   position: relative;
   cursor: pointer;
 }

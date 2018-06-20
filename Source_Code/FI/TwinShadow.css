@@ -1,17 +1,19 @@
 /* TwinShadow#5717 */
-[style*="avatars/276212376104337409"].avatar-profile::before,
-[style*="avatars/276212376104337409"].avatar-profile[style*="avatars/276212376104337409"]::after,
-[style*="avatars/276212376104337409"].avatar-large[style*="avatars/276212376104337409"]+.comment .timestamp::before,
-[style*="avatars/276212376104337409"].avatar-large[style*="avatars/276212376104337409"]+.comment .timestamp::after {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/276212376104337409"].avatar-profile::before,
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/276212376104337409"].avatar-profile.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/276212376104337409"]::after,
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/276212376104337409"].avatar-large.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/276212376104337409"]::before,
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/276212376104337409"].avatar-large.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/276212376104337409"]::after {
   display: inline-block!important;
 }
 
-[style*="avatars/276212376104337409"].avatar-large+.comment .timestamp::before {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/276212376104337409"]::before {
   content: url(https://i.imgur.com/oCNwWHl.png);
   color: rgba(0,255,0,.3);
   font-size: 13px;
   z-index: 1;
   position: relative;
+  left:105%;
+  top:85%;
   padding-left: 1px;
   padding-right: 4px;
   border-radius: 2px;
@@ -23,7 +25,7 @@
   animation: rainbow 3s infinite linear;
 }
 
-[style*="avatars/276212376104337409"].avatar-large+.comment .timestamp::after {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/276212376104337409"]::after {
   content: "Just an anime lover and encoder \a Also, stay away from my foxgirls, mk? \a 5th Donator";
   white-space: pre;
   background-color: var(--Background-Colour) !important;
@@ -39,26 +41,26 @@
   transition: 80ms ease;
   color: var(--Main-Colour);
   width: 226px;
-  left: 0;
+  left:105%;
+  top:85%;
   transform: translate(17px,-7px);
   opacity: 0;
-  top: 0;
   animation: rainbow 3s infinite linear;
 }
 
-[style*="avatars/276212376104337409"].avatar-large+.comment .timestamp:hover::after {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/276212376104337409"]:hover::after {
   opacity: 1;
   transition: 180ms ease-in-out 100ms;
   animation: boop .5s 1 linear;
 }
 
-[style*="avatars/276212376104337409"].avatar-large+.comment .timestamp:not(:hover)::after {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/276212376104337409"]:not(:hover)::after {
   opacity: 0;
   transition: 180ms ease-in-out 150ms;
   animation: boop2 .5s 1 linear;
 }
 
-[style*="avatars/276212376104337409"].avatar-large+.comment .timestamp {
+.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/276212376104337409"] {
   position: relative;
   cursor: pointer;
 }
