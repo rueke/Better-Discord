@@ -5153,18 +5153,6 @@ display:none;
 .status-3fQvEa{
   display:none;
 }
-.theme-dark .item-1GzJrl:nth-child(1):not(:hover){
-  color: rgb(67,181,129)!important;
-}
-.theme-dark .item-1GzJrl:nth-child(3):not(:hover){
-  color: rgb(250,166,26)!important;
-}
-.theme-dark .item-1GzJrl:nth-child(4):not(:hover){
-  color: rgb(240,71,71)!important;
-}
-.theme-dark .item-1GzJrl:nth-child(5):not(:hover){
-  color: rgb(116,127,141)!important;
-}
 /* User Status 3 */
 .avatar-large {
   border: 2.5px solid var(--Main-Colour) !important;
