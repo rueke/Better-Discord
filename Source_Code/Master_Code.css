@@ -6797,3 +6797,7 @@ color: var(--Main-Colour)!important;
   border: 1px solid var(--Main-Colour);
   box-shadow: 0 2px 10px 0 rgba(0,0,0,0);
 }
+
+.theme-dark .username-_4ZSMR{
+  color: var(--Main-Colour);
+}
