@@ -6722,13 +6722,13 @@ color: var(--Main-Colour)!important;
   background: var(--Background-Colour);
 }
 
-.theme-dark .isMentioned-N-h9aa .mention:hover, .theme-light .isMentioned-N-h9aa .mention:hover,.theme-dark .wrapperHover-1GktnT:hover {
+.theme-dark .wrapper-3WhCwL:hover,.theme-dark .isMentioned-N-h9aa .mention:hover, .theme-light .isMentioned-N-h9aa .mention:hover,.theme-dark .wrapperHover-1GktnT:hover {
   background: var(--S-Colour);
-  color: var(--Main-Colour);
+  color: var(--M-Colour);
   animation: rainbow 3s infinite linear;
 }
 
-.theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention,.theme-dark .wrapperHover-1GktnT {
+.theme-dark .wrapper-3WhCwL,.theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention,.theme-dark .wrapperHover-1GktnT {
   background: var(--S-Colour);
   color: var(--Main-Colour);
   animation: rainbow 3s infinite linear;
