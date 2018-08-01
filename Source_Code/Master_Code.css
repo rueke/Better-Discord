@@ -1,3 +1,4 @@
+
 /*
 This Theme Uses Code From The Following Themes I DO NOT TAKE CREDIT FOR THE CODE USED FROM THEM,
 Please Check Them Out
@@ -11,7 +12,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #159 ";
+  --Update-Text: " Update #160 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -23,7 +24,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Settings.</text><text y="140" style="font-size: 1.1em;" x="37">2.Fixed Mentions.</text><text y="160" style="font-size: 1.1em;" x="37">3.Misc Bug Fixes.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Server Grid.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Mentions.</text><text y="180" style="font-size: 1.1em;" x="37">3.Misc Bug Fixes.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -40,7 +41,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   }
 }
 
-.guilds-wrapper .guilds > .guild:first-child{
+.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild:first-child{
   margin-top:10px!important;
 } 
 
@@ -201,7 +202,7 @@ form.deprecated.auth-form footer {
   left: 400px;
 }
 
-#friends, #friends .btn, .friends-header, .friends-table, .search-bar, .guilds-wrapper, .channels-wrap, .guild-channels, .account, .links, .messages-wrapper, .title-wrap, .content, .chat-empty, .message-group-blocked, .private-channels, .guild-header header, .ider-red span {
+#friends, #friends .btn, .friends-header, .friends-table, .search-bar, .guildsWrapper-5TJh6A, .channels-wrap, .guild-channels, .account, .links, .messages-wrapper, .title-wrap, .content, .chat-empty, .message-group-blocked, .private-channels, .guild-header header, .ider-red span {
   background: transparent !important;
 }
 
@@ -273,10 +274,12 @@ form.deprecated.auth-form footer {
   line-height: 22px;
 }
 
-.badge {
+.badge-1GsMF2 {
   background-color: var(--Main-Colour);
   border: 1px solid var(--Background-Colour);
   color: var(--Background-Colour);
+  bottom: -8px;
+  right: 10px;
 }
 
 .channel.channel-text.unread a {
@@ -371,7 +374,7 @@ form.deprecated.auth-form footer {
   padding-top: 3 px;
 }
 
-.guilds {
+.guilds-1q_RqH {
   transition: all 900ms ease !important;
 }
 
@@ -450,16 +453,16 @@ span.ping {
   background-color: var(--Main-Colour);
 }
 
-.friends-online {
+.friendsOnline-_wi_fM {
   color: #ffffff;
 }
 
-.guild-separator {
+.guildSeparator-1X4GQ1 {
   border-top: 2px solid var(--Main-Colour);
   border-bottom: 2px solid var(--Main-Colour);
 }
 
-.guild-separator:after {
+.guildSeparator-1X4GQ1:after {
   background-color: transparent !important;
 }
 
@@ -488,14 +491,14 @@ span.ping {
 
 /* Guild Unread Message */
 
-.guilds-wrapper .guilds .guild.unread:before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
   animation: opacity var(--Unread-Message-Speed) infinite linear;
   background-color: var(--Unread-Message-1);
 }
 
 /* Guild Unread Message */
 
-.guilds-wrapper .guilds .guild.selected:before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
   background: var(--Main-Colour) !important;
 }
 
@@ -623,18 +626,18 @@ span.botTagRegular-2HEhHi {
 
 /* Guilds 'Add' Button */
 
-.guild.guilds-add {
+.guild-1EfMGQ.guildsAdd-21_Id {
   border-color: var(--Main-Colour) !important;
   border-style: groove !important;
   background: var(--Background-Colour);
 }
 
-.guild.guilds-add:hover {
+.guild-1EfMGQ.guildsAdd-21_Id:hover {
   border-color: var(--Main-Colour) !important;
   background: var(--Background-Colour);
 }
 
-.guilds-wrapper .guilds-add-inner {
+.guildsWrapper-5TJh6A .guildsAdd-21_Id-inner {
   position: absolute;
   top: calc(50% - 22px);
   left:22.4%;
@@ -930,7 +933,7 @@ div#user-profile-modal footer {
   border: 1px solid white;
 }
 
-div.scroller.guilds div.guild:hover {
+div.scroller.guilds-1q_RqH div.guild:hover {
   border-radius: 4px !important;
 }
 
@@ -1347,11 +1350,11 @@ div.flex-spacer.flex-vertical form {
   background-color: #121212;
 }
 
-.guilds-wrapper {
+.guildsWrapper-5TJh6A {
   background: transparent !important;
 }
 
-.guilds {
+.guilds-1q_RqH {
   transition: all 900ms ease !important;
   border-right-width: 5px !important;
   border-color: #121212 !important;
@@ -1360,18 +1363,18 @@ div.flex-spacer.flex-vertical form {
   padding-top: 17px !important;
 }
 
-.guilds-wrapper .guilds-error:hover {
+.guildsWrapper-5TJh6A .guilds-error:hover {
   background: linear-gradient(to left, var(--M-Colour), transparent, transparent, var(--M-Colour));
   animation: Spin 2s ease-in-out infinite alternate;
 }
 
-.guilds-wrapper .guilds-error {
+.guildsWrapper-5TJh6A .guilds-error {
   height: 40px;
   width: 40px;
   background: linear-gradient(to left, var(--M-Colour), transparent, transparent, var(--M-Colour));
 }
 
-#app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.guilds-wrapper > div {
+#app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.guildsWrapper-5TJh6A > div {
   background-color: rgba(35,35,35,0.7) !important;
 }
 
@@ -1669,7 +1672,7 @@ spinner-pulsing-ellipsis .spinner-item {
   background-repeat: no-repeat!important;
 }
 
-.guilds-wrapper .guilds .guild.audio .guild-inner:after {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.audio .guildInner-3DSoA4:after {
   content:"";
   -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve"><g id="volume_-_high_interface_2_"><g><path fill-rule="evenodd" clip-rule="evenodd" fill="#00D856" d="M13,8c0-1.8-1.3-3.2-3-3.4v1c1.1,0.2,2,1.2,2,2.5c0,1.2-0.9,2.2-2,2.4v1C11.7,11.2,13,9.8,13,8z M10,1.1v1C12.8,2.6,15,5,15,8c0,3-2.2,5.4-5,5.9v1c3.4-0.5,6-3.4,6-6.9C16,4.5,13.4,1.6,10,1.1z M2,5C1.4,5,1,5.4,1,6v4c0,0.6,0.4,1,1,1h2l5,3V2L4,5H2z M4,10H2.5C2.2,10,2,9.8,2,9.5v-3C2,6.2,2.2,6,2.5,6H4V10z M5,5.4l3-1.9v9l-3-1.9V5.4z"/></g></g></svg>');
   background-color: var(--Main-Colour);
@@ -1773,16 +1776,16 @@ a {
   background-color: var(--Background-Colour) !important;
 }
 
-#app-mount > div > span.theme-dark > div > div > div.body-3rkFrF > div > div, #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.guilds-wrapper > div > button {
+#app-mount > div > span.theme-dark > div > div > div.body-3rkFrF > div > div, #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.guildsWrapper-5TJh6A > div > button {
   color: var(--Main-Colour) !important;
 }
 
-#app-mount > div > div.app.flex-vertical.theme-light > div > section > div.guilds-wrapper > div > button {
+#app-mount > div > div.app.flex-vertical.theme-light > div > section > div.guildsWrapper-5TJh6A > div > button {
   color: var(--Main-Colour) !important;
   opacity: 0.4 !important;
 }
 
-#app-mount > div > div.app.flex-vertical.theme-light > div > section > div.guilds-wrapper > div > button:hover:after {
+#app-mount > div > div.app.flex-vertical.theme-light > div > section > div.guildsWrapper-5TJh6A > div > button:hover:after {
   opacity: 1 !important;
 }
 
@@ -1808,7 +1811,7 @@ div.settings-right > div.settings-actions {
   background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/green/twitter.svg') !important;
 }
 
-.guilds .avatar-small {
+.guilds-1q_RqH .avatar-small {
   border: none !important;
 }
 
@@ -2402,8 +2405,8 @@ div.flex-spacer.flex-vertical form {
 }
    /* "name":"SmarterEmbeds","description":"It basically makes the embeds align horizontally, so when there's multitple links in the same message, it takes less space in the chat.","author":"Beard_Design","version":"1.0.0" */
 
-.guilds-wrapper .guilds .guild,
-.guilds-wrapper .guilds .guild .guild-inner a {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild,
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.guildInner-3DSoA4 a {
   width: 40px;
   height: 40px;
 }
@@ -2419,7 +2422,7 @@ ul.bda-slist > li[data-reactid^=".3.$scroller.$pcolumn.1:$plugin-list.$"] > div:
   color: white !important;
 }
 
-.guilds-wrapper .guilds .friends-icon, .guilds-wrapper .guilds .home-icon {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friends-icon, .guildsWrapper-5TJh6A .guilds-1q_RqH .homeIcon-1FoKUJ {
   content:"";
   -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>bubble2</title><path d="M16 6c-1.717 0-3.375 0.271-4.928 0.804-1.46 0.502-2.76 1.211-3.863 2.108-2.069 1.681-3.209 3.843-3.209 6.088 0 1.259 0.35 2.481 1.039 3.63 0.711 1.185 1.781 2.268 3.093 3.133 0.949 0.625 1.587 1.623 1.755 2.747 0.056 0.375 0.091 0.753 0.105 1.129 0.233-0.194 0.461-0.401 0.684-0.624 0.755-0.755 1.774-1.172 2.828-1.172 0.168 0 0.336 0.011 0.505 0.032 0.655 0.083 1.325 0.126 1.99 0.126 1.717 0 3.375-0.271 4.928-0.804 1.46-0.502 2.76-1.211 3.863-2.108 2.069-1.681 3.209-3.843 3.209-6.088s-1.14-4.407-3.209-6.088c-1.104-0.897-2.404-1.606-3.863-2.108-1.553-0.534-3.211-0.804-4.928-0.804zM16 2v0c8.837 0 16 5.82 16 13s-7.163 13-16 13c-0.849 0-1.682-0.054-2.495-0.158-3.437 3.437-7.539 4.053-11.505 4.144v-0.841c2.142-1.049 4-2.961 4-5.145 0-0.305-0.024-0.604-0.068-0.897-3.619-2.383-5.932-6.024-5.932-10.103 0-7.18 7.163-13 16-13z"></path></svg>');
   background-color: var(--M-Colour);
@@ -2430,7 +2433,7 @@ ul.bda-slist > li[data-reactid^=".3.$scroller.$pcolumn.1:$plugin-list.$"] > div:
   color: transparent;
 }
 
-.guild-inner[style*="background-color: rgb"]{
+.guildInner-3DSoA4[style*="background-color: rgb"]{
   border-radius:1px!important;
 }
 
@@ -2617,17 +2620,15 @@ div.form-inner, .form-actions {
   display: inline-block;
   padding: 3px 6px;
   text-shadow: 0 1px 0 rgba(0,0,0,.25);
-  left: -198px;
-  position: relative;
 }
 
-.new-messages-indicator .new-messages-indicator-mention, .unread-mentions-indicator-bottom, .unread-mentions-indicator-top {
+.new-messages-indicator .new-messages-indicator-mention, .unread-mentions-indicator-bottom, .unreadMentionsIndicatorTop-gA6RCh {
   background-color: transparent;
   color: var(--Main-Colour);
   text-shadow: 0 0 2px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
 }
 
-.guilds-wrapper .guilds .guild .badge {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.badge-1GsMF2 {
   position: absolute;
   bottom: -8px;
   right: 9px;
@@ -3135,11 +3136,11 @@ body{
   opacity: 0.5!important;
 }
 
-#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section{
+#user-profile-modal .guilds-1q_RqH .section .connected-accounts .connected-account,#user-profile-modal .guilds-1q_RqH .section+.section{
   border:none!important;
 }
 
-#user-profile-modal .guilds .guild:hover{
+#user-profile-modal .guilds-1q_RqH .guild:hover{
   background:transparent;
   border: none;
 }
@@ -3333,7 +3334,7 @@ body{
   opacity: 0.5!important;
 }
 
-#user-profile-modal .guilds .guild .status,.listAvatarStatus-1Egz5B{
+#user-profile-modal .guilds-1q_RqH .guild-1EfMGQ.status,.listAvatarStatus-1Egz5B{
   width: 10%!important;
   height: 100%!important;
   top: -6%!important;
@@ -3344,7 +3345,7 @@ body{
   opacity: 6!important;
 }
 
-#user-profile-modal .guilds .guild:hover,#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message,#user-profile-modal .header,.userPopout-4pfA0d,.topSectionNormal-2LlRG1,.theme-dark .body-3ND3kc{
+#user-profile-modal .guilds-1q_RqH .guild:hover,#user-profile-modal .guilds-1q_RqH .section .connected-accounts .connected-account,#user-profile-modal .guilds-1q_RqH .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message,#user-profile-modal .header,.userPopout-4pfA0d,.topSectionNormal-2LlRG1,.theme-dark .body-3ND3kc{
   background:transparent!important;
   border: none!important;
 }
@@ -3352,7 +3353,7 @@ body{
 .avatar-profile,.inner-1JeGVc{
   border-radius: 0!important;
 }
-#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,#user-profile-modal .tab-bar .tab-bar-item.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.note textarea,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,#user-profile-modal .guilds .guild .guild-nick,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitleText-hSiL7d,#user-profile-modal .header .header-info .header-info-inner .activity,.discriminator-xUhQkU,.username-3gJmXY,.tab-bar.tabBar-2MuP6- .tabBarItem-1b8RUP.selected,.tab-bar.tabBar-2MuP6- .tabBarItem-1b8RUP,.userInfoSectionHeader-CBvMDh,.connectedAccountName-3EFj01,.theme-dark .listRow-hutiT_,.headerName-2N8Pdz, .headerTagUsernameNoNickname-1gGsAP,.headerTag-3zin_i,.theme-dark .activityProfile-2pymp0 .headerText-1HLrL7, .theme-dark .activityUserPopout-1nmgaw .headerText-1HLrL7, .theme-light .activityProfile-2pymp0 .headerText-1HLrL7, .theme-light .activityUserPopout-1nmgaw .headerText-1HLrL7,.theme-dark .activityProfile-2pymp0 .content-3JfFJh, .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .content-3JfFJh, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .content-3JfFJh, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .content-3JfFJh, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0,.emptyText-6tYmO5,#user-profile-modal .empty .empty-text{
+#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,#user-profile-modal .tab-bar .tab-bar-item.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds-1q_RqH .section .section-header,.note textarea,#user-profile-modal .guilds-1q_RqH .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds-1q_RqH .guild,#user-profile-modal .guilds-1q_RqH .guild-1EfMGQ.guild-nick,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitleText-hSiL7d,#user-profile-modal .header .header-info .header-info-inner .activity,.discriminator-xUhQkU,.username-3gJmXY,.tab-bar.tabBar-2MuP6- .tabBarItem-1b8RUP.selected,.tab-bar.tabBar-2MuP6- .tabBarItem-1b8RUP,.userInfoSectionHeader-CBvMDh,.connectedAccountName-3EFj01,.theme-dark .listRow-hutiT_,.headerName-2N8Pdz, .headerTagUsernameNoNickname-1gGsAP,.headerTag-3zin_i,.theme-dark .activityProfile-2pymp0 .headerText-1HLrL7, .theme-dark .activityUserPopout-1nmgaw .headerText-1HLrL7, .theme-light .activityProfile-2pymp0 .headerText-1HLrL7, .theme-light .activityUserPopout-1nmgaw .headerText-1HLrL7,.theme-dark .activityProfile-2pymp0 .content-3JfFJh, .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .content-3JfFJh, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .content-3JfFJh, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .content-3JfFJh, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0,.emptyText-6tYmO5,#user-profile-modal .empty .empty-text{
   color:var(--Popout-Main-Colour)!important;
 }
 
@@ -3477,7 +3478,7 @@ body{
   background:var(--M-Colour)!important;
 }
 
-.guilds-wrapper .guilds .guild-separator {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
   position: relative;
   width: 80%!important;
   margin-top: 10px;
@@ -3946,7 +3947,7 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
   border: 1px solid var(--M-Colour);
 }
 
-.guilds-wrapper .guilds .friends-online{
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM{
   color:var(--M-Colour);
 }
 
@@ -4414,7 +4415,7 @@ display:none;
   border-color: var(--Main-Colour);
 }
 
-.foldercontainer .guild.selected .guild-inner a[style*=font] {
+.foldercontainer .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4 a[style*=font] {
   background-color: transparent;
 }
 
@@ -4922,7 +4923,7 @@ display:none;
   border: 1px solid var(--Main-Colour) !important;
 }
 
-.guilds {
+.guilds-1q_RqH {
   transition: all 900ms ease !important;
   border-right-width: 1px !important;
   border-color: transparent !important;
@@ -4931,11 +4932,11 @@ display:none;
   padding-top:0px !important;
 }
 
-.guilds-wrapper .scroller-wrap {
+.guildsWrapper-5TJh6A .scroller-wrap {
   width: 120px !important;
 }
 
-.guild.folder .badge.folder.count {
+.guild-1EfMGQ.folder .badge-1GsMF2.folder.count {
   background: var(--S-Colour) !important;
   border-color: transparent !important;
   height:10px !important;
@@ -4944,17 +4945,17 @@ display:none;
   color: var(--Main-Colour) !important;
 }
 
-.guilds-wrapper.folderopen .scroller-wrap {
+.guildsWrapper-5TJh6A.folderopen .scroller-wrap {
   overflow: visible !important;
   width: 110px!important;
 }
 
-.guilds-wrapper.folderopen .guilds {
+.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH {
   overflow: visible !important;
   width: 170px;
 }
 
-.guilds-wrapper.folderopen{
+.guildsWrapper-5TJh6A.folderopen{
   overflow: visible !important;
   width: 114.5px;
 }
@@ -4963,19 +4964,19 @@ display:none;
   display: none;
 }
 
-.layer-3QrUeG > .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > .guilds-wrapper.folderopen .scroller-wrap, .layer-3QrUeG > .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > .guilds-wrapper.folderopen .scroller-wrap.folderopen {
+.layer-3QrUeG > .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > .guildsWrapper-5TJh6A.folderopen .scroller-wrap, .layer-3QrUeG > .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > .guildsWrapper-5TJh6A.folderopen .scroller-wrap.folderopen {
   overflow: visible !important;
   width: 110px!important;
 }
 
-.guilds-wrapper.folderopen, .guilds-wrapper.folderopen .scroller-wrap, .guilds-wrapper.folderopen .guilds {
+.guildsWrapper-5TJh6A.folderopen, .guildsWrapper-5TJh6A.folderopen .scroller-wrap, .guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH {
   overflow: visible !important;
   width: 170px!important;
   min-width: 10px!important;
   transition: all .1s;
 }
 
-.layer-3QrUeG > .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > .guilds-wrapper.folderopen {
+.layer-3QrUeG > .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > .guildsWrapper-5TJh6A.folderopen {
   overflow: visible !important;
   width: 114.5px;
   min-width: 114.5px;
@@ -6197,7 +6198,7 @@ color: var(--Main-Colour)!important;
   border: 1px solid var(--Main-Colour);
 }
 
-*:not(.badge):not(.wrapper-232cHJ) {
+*:not(.badge-1GsMF2):not(.wrapper-232cHJ) {
   text-shadow: 0 0 1px var(--Text-Shadow-Colour), 0 0 1px var(--Text-Shadow-Colour), 0 0 1px var(--Text-Shadow-Colour), 0 0 1px var(--Text-Shadow-Colour)!important;
 }
 
@@ -6800,4 +6801,22 @@ color: var(--Main-Colour)!important;
 
 .theme-dark .username-_4ZSMR{
   color: var(--Main-Colour);
+}
+
+.guild-1EfMGQ {
+  height: 40px;
+  width: 40px;
+}
+
+.guild-1EfMGQ .guildInner-3DSoA4 a {
+  height: 40px;
+  width: 40px;
+}
+
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+  background: transparent!important;
+}
+
+.unreadMentionsIndicatorBottom-BXS58x.da-unreadMentionsIndicatorBottom > div > svg{
+  display:none;
 }
