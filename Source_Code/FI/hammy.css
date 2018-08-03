@@ -1,19 +1,19 @@
 /* hammy#2400 */
-.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/256531049222242304"].avatar-profile::before,
-.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/256531049222242304"].avatar-profile.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::after,
-.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/256531049222242304"].avatar-large.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::before,
-.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/256531049222242304"].avatar-large.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::after {
+.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"].avatar-profile::before,
+.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"].avatar-profile.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::after,
+.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"].avatar-large.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::before,
+.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"].avatar-large.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::after {
   display: inline-block!important;
 }
 
-.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::before {
+.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::before {
   content: url(https://i.imgur.com/ntEE9nR.png);
   color: rgba(0,255,0,.3);
   font-size: 13px;
   z-index: 1;
   position: relative;
-  left:105%;
-  top:85%;
+  left:25%;
+  top:115%;
   padding-left: 1px;
   padding-right: 4px;
   border-radius: 2px;
@@ -25,7 +25,7 @@
   animation: rainbow 3s infinite linear;
 }
 
-.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::after {
+.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::after {
   content: "Hello Im Hammy! \a I Am A Plugin Dev. \a I Also Do Like Ham.";
   white-space: pre;
   background-color: var(--Background-Colour) !important;
@@ -41,26 +41,26 @@
   transition: 80ms ease;
   color: var(--Main-Colour);
   width: 105px;
-  left:105%;
-  top:85%;
+  left:70%;
+  top:15%;
   transform: translate(17px,-7px);
   opacity: 0;
   animation: rainbow 3s infinite linear;
 }
 
-.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]:hover::after {
+.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]:hover::after {
   opacity: 1;
   transition: 180ms ease-in-out 100ms;
   animation: boop .5s 1 linear;
 }
 
-.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]:not(:hover)::after {
+.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]:not(:hover)::after {
   opacity: 0;
   transition: 180ms ease-in-out 150ms;
   animation: boop2 .5s 1 linear;
 }
 
-.maskProfile-1ObLFT:not(.popout-2fzvxG)[style*="avatars/256531049222242304"] {
+.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"] {
   position: relative;
   cursor: pointer;
 }
