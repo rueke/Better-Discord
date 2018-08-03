@@ -12,7 +12,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #163 ";
+  --Update-Text: " Update #164 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -24,7 +24,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New Donator Kiari#1204.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Boop Icons.</text><text y="180" style="font-size: 1.1em;" x="37">3.Surprise for my Donators.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Chat Size.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -286,7 +286,7 @@ form.deprecated.auth-form footer {
   background: transparent !important;
 }
 
-.markup {
+.markup-2BOw-j {
   color: #ffffff;
   font-size: var(--Chat-Font-Size)!important;
 }
@@ -1269,7 +1269,7 @@ div.bd-dropdown {
   background-color: #121212;
 }
 
-.markup a {
+.markup-2BOw-j a {
   color: var(--Main-Colour) !important;
 }
 
@@ -1697,7 +1697,7 @@ spinner-pulsing-ellipsis .spinner-item {
   Fill: var(--Background-Colour)!important;
 }
 
-#app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > div > div > div > div:nth-child(37) > div.comment > div.message.mentioned > div.body-3rkFrF > div > div.markup {
+#app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > div > div > div > div:nth-child(37) > div.comment > div.message.mentioned > div.body-3rkFrF > div > div.markup-2BOw-j {
   background: transparent !important;
   border-top-right-radius: 5px !important;
   border-top-left-radius: 5px !important;
@@ -2277,7 +2277,7 @@ div.flex-spacer.flex-vertical form {
   animation: rainbow 2.8s infinite linear;
 }
 
-.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+.theme-dark .message-group .comment .markup-2BOw-j code.inline, .theme-dark .message-group .comment .markup-2BOw-j pre code {
   background: var(--Background-Colour) !important;
 }
 
@@ -2293,15 +2293,15 @@ div.flex-spacer.flex-vertical form {
   border-radius: 2px 0 0 2px;
 }
 
-.theme-dark .message-group .comment .markup .mention:hover {
+.theme-dark .message-group .comment .markup-2BOw-j .mention:hover {
   background-color: rgba(124, 0, 134, 0.7);
 }
 
-.theme-dark .message-group .comment .markup .mention {
+.theme-dark .message-group .comment .markup-2BOw-j .mention {
   background-color: rgba(115,139,215,.1);
 }
 
-.markup .edited {
+.markup-2BOw-j .edited {
   text-shadow: none;
 }
 
@@ -2320,7 +2320,7 @@ div.flex-spacer.flex-vertical form {
   background-color: var(--S-Colour);
 }
 
-.message-group .comment .markup .mention, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q, .nameDefault-2s3kbY {
+.message-group .comment .markup-2BOw-j .mention, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q, .nameDefault-2s3kbY {
   color: var(--Main-Colour) ;
   animation: rainbow 3s infinite linear;
 }
@@ -2778,7 +2778,7 @@ div.form-inner, .form-actions {
 
 .theme-dark .friends-table .messages ..-2zF9y8..-2zF9y8-red > span,
 .theme-dark .messages-wrapper .messages ..-2zF9y8..-2zF9y8-red > span,
-.markup,
+.markup-2BOw-j ,
 .member.member-status .member-activity {
   text-shadow: 0 0 6px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
 }
@@ -3625,41 +3625,41 @@ body{
   white-space: pre-wrap !important;
 }
 
-.message-group .message .markup a[href="https://t.co/fERO36wNAg?amp=1"], .markup-2BOw-j.da-markup > a[href="https://t.co/fERO36wNAg?amp=1"] {
+.message-group .message .markup-2BOw-j a[href="https://t.co/fERO36wNAg?amp=1"], .markup-2BOw-j.da-markup > a[href="https://t.co/fERO36wNAg?amp=1"] {
   font-size: 0;
 }
 
-.message-group .message .markup a[href="https://t.co/fERO36wNAg?amp=1"]:after, .markup-2BOw-j.da-markup > a[href="https://t.co/fERO36wNAg?amp=1"]:after {
+.message-group .message .markup-2BOw-j a[href="https://t.co/fERO36wNAg?amp=1"]:after, .markup-2BOw-j.da-markup > a[href="https://t.co/fERO36wNAg?amp=1"]:after {
   content: "Net Neutrality Battle";
   color:var(--Main-Colour);
   font-size: 15px;
 }
 
-.message-group .message .markup a[href="https://youtu.be/MGu8zOvITb8"], .markup-2BOw-j.da-markup > a[href="https://youtu.be/MGu8zOvITb8"] {
+.message-group .message .markup-2BOw-j a[href="https://youtu.be/MGu8zOvITb8"], .markup-2BOw-j.da-markup > a[href="https://youtu.be/MGu8zOvITb8"] {
   font-size: 0;
 }
 
-.message-group .message .markup a[href="https://youtu.be/MGu8zOvITb8"]:after, .markup-2BOw-j.da-markup > a[href="https://youtu.be/MGu8zOvITb8"]:after {
+.message-group .message .markup-2BOw-j a[href="https://youtu.be/MGu8zOvITb8"]:after, .markup-2BOw-j.da-markup > a[href="https://youtu.be/MGu8zOvITb8"]:after {
   content: "How To Use Font Nano Theme ";
   font-size: 15px;
   color:var(--Main-Colour);
 }
 
-.message-group .message .markup a[href*="https://github.com/0mniscient"], .markup-2BOw-j.da-markup > a[href*="https://github.com/0mniscient"] {
+.message-group .message .markup-2BOw-j a[href*="https://github.com/0mniscient"], .markup-2BOw-j.da-markup > a[href*="https://github.com/0mniscient"] {
   font-size: 0;
 }
 
-.message-group .message .markup a[href*="https://github.com/0mniscient"]:after, .markup-2BOw-j.da-markup > a[href*="https://github.com/0mniscient"]:after {
+.message-group .message .markup-2BOw-j a[href*="https://github.com/0mniscient"]:after, .markup-2BOw-j.da-markup > a[href*="https://github.com/0mniscient"]:after {
   content: "Banned Github";
   color:rgba(255,65,85,1);
   font-size: 15px;
 }
 
-.message-group .message .markup a[href*="betterdocs.net"], .markup-2BOw-j.da-markup > a[href*="betterdocs.net"] {
+.message-group .message .markup-2BOw-j a[href*="betterdocs.net"], .markup-2BOw-j.da-markup > a[href*="betterdocs.net"] {
   font-size: 0;
 }
 
-.message-group .message .markup a[href*="betterdocs.net"]:after, .markup-2BOw-j.da-markup > a[href*="betterdocs.net"]:after {
+.message-group .message .markup-2BOw-j a[href*="betterdocs.net"]:after, .markup-2BOw-j.da-markup > a[href*="betterdocs.net"]:after {
   content: " This website is not supported please use #Theme-Repo / #Plugin-Repo";
   color:rgba(255,65,85,1);
   font-size: 15px;
@@ -4157,11 +4157,11 @@ button.btn.btn-default {
   color:var(--Main-Colour);
 }
 
-.message-group .message .markup a[href="https://discord.gg/aSyUs69"] , .markup-2BOw-j.da-markup > a[href="https://discord.gg/aSyUs69"] {
+.message-group .message .markup-2BOw-j a[href="https://discord.gg/aSyUs69"] , .markup-2BOw-j.da-markup > a[href="https://discord.gg/aSyUs69"] {
   font-size: 0;
 }
 
-.message-group .message .markup a[href="https://discord.gg/aSyUs69"]:after , .markup-2BOw-j.da-markup > a[href="https://discord.gg/aSyUs69"]:after {
+.message-group .message .markup-2BOw-j a[href="https://discord.gg/aSyUs69"]:after , .markup-2BOw-j.da-markup > a[href="https://discord.gg/aSyUs69"]:after {
   content: "NFLD99s Support Server";
   color:var(--Main-Colour);
   font-size: 15px;
@@ -4613,61 +4613,61 @@ display:none;
   border-bottom-color: var(--M-Colour);
 }
 
-.message-group .message .markup a[href="https://www.twitch.tv/NFLD99"], .markup-2BOw-j.da-markup > a[href="https://www.twitch.tv/NFLD99"] {
+.message-group .message .markup-2BOw-j a[href="https://www.twitch.tv/NFLD99"], .markup-2BOw-j.da-markup > a[href="https://www.twitch.tv/NFLD99"] {
   font-size: 0;
 }
 
-.message-group .message .markup a[href="https://www.twitch.tv/NFLD99"]:after, .markup-2BOw-j.da-markup > a[href="https://www.twitch.tv/NFLD99"]:after {
+.message-group .message .markup-2BOw-j a[href="https://www.twitch.tv/NFLD99"]:after, .markup-2BOw-j.da-markup > a[href="https://www.twitch.tv/NFLD99"]:after {
   content: "NFLD99s Twitch";
   color:var(--Main-Colour);
   font-size: 15px;
 }
 
-.message-group .message .markup a[href="https://github.com/Inve1951/BetterDiscordStuff"], .markup-2BOw-j.da-markup > a[href="https://github.com/Inve1951/BetterDiscordStuff"] {
+.message-group .message .markup-2BOw-j a[href="https://github.com/Inve1951/BetterDiscordStuff"], .markup-2BOw-j.da-markup > a[href="https://github.com/Inve1951/BetterDiscordStuff"] {
   font-size: 0;
 }
 
-.message-group .message .markup a[href="https://github.com/Inve1951/BetterDiscordStuff"]:after, .markup-2BOw-j.da-markup > a[href="https://github.com/Inve1951/BetterDiscordStuff"]:after {
+.message-group .message .markup-2BOw-j a[href="https://github.com/Inve1951/BetterDiscordStuff"]:after, .markup-2BOw-j.da-markup > a[href="https://github.com/Inve1951/BetterDiscordStuff"]:after {
   content: "square's repo";
   color:var(--Main-Colour);
   font-size: 15px;
 }
 
-.message-group .message .markup a[href="https://github.com/rauenzi/BetterDiscordAddons"], .markup-2BOw-j.da-markup > a[href="https://github.com/rauenzi/BetterDiscordAddons"] {
+.message-group .message .markup-2BOw-j a[href="https://github.com/rauenzi/BetterDiscordAddons"], .markup-2BOw-j.da-markup > a[href="https://github.com/rauenzi/BetterDiscordAddons"] {
   font-size: 0;
 }
 
-.message-group .message .markup a[href="https://github.com/rauenzi/BetterDiscordAddons"]:after, .markup-2BOw-j.da-markup > a[href="https://github.com/rauenzi/BetterDiscordAddons"]:after {
+.message-group .message .markup-2BOw-j a[href="https://github.com/rauenzi/BetterDiscordAddons"]:after, .markup-2BOw-j.da-markup > a[href="https://github.com/rauenzi/BetterDiscordAddons"]:after {
   content: "Zerebos' repo";
   color:var(--Main-Colour);
   font-size: 15px;
 }
 
-.message-group .message .markup a[href="https://github.com/NFLD99/Better-Discord"], .markup-2BOw-j.da-markup > a[href="https://github.com/NFLD99/Better-Discord"] {
+.message-group .message .markup-2BOw-j a[href="https://github.com/NFLD99/Better-Discord"], .markup-2BOw-j.da-markup > a[href="https://github.com/NFLD99/Better-Discord"] {
   font-size: 0;
 }
 
-.message-group .message .markup a[href="https://github.com/NFLD99/Better-Discord"]:after, .markup-2BOw-j.da-markup > a[href="https://github.com/NFLD99/Better-Discord"]:after {
+.message-group .message .markup-2BOw-j a[href="https://github.com/NFLD99/Better-Discord"]:after, .markup-2BOw-j.da-markup > a[href="https://github.com/NFLD99/Better-Discord"]:after {
   content: "NFLD99's repo";
   color:var(--Main-Colour);
   font-size: 15px;
 }
 
-.message-group .message .markup a[href="https://github.com/mwittrien/BetterDiscordAddons"], .markup-2BOw-j.da-markup > a[href="https://github.com/mwittrien/BetterDiscordAddons"] {
+.message-group .message .markup-2BOw-j a[href="https://github.com/mwittrien/BetterDiscordAddons"], .markup-2BOw-j.da-markup > a[href="https://github.com/mwittrien/BetterDiscordAddons"] {
   font-size: 0;
 }
 
-.message-group .message .markup a[href="https://github.com/mwittrien/BetterDiscordAddons"]:after, .markup-2BOw-j.da-markup > a[href="https://github.com/mwittrien/BetterDiscordAddons"]:after {
+.message-group .message .markup-2BOw-j a[href="https://github.com/mwittrien/BetterDiscordAddons"]:after, .markup-2BOw-j.da-markup > a[href="https://github.com/mwittrien/BetterDiscordAddons"]:after {
   content: "DevilBro's repo";
   color:var(--Main-Colour);
   font-size: 15px;
 }
 
-.message-group .message .markup a[href="https://github.com/hammy13/BDPlugins"], .markup-2BOw-j.da-markup > a[href="https://github.com/hammy13/BDPlugins"] {
+.message-group .message .markup-2BOw-j a[href="https://github.com/hammy13/BDPlugins"], .markup-2BOw-j.da-markup > a[href="https://github.com/hammy13/BDPlugins"] {
   font-size: 0;
 }
 
-.message-group .message .markup a[href="https://github.com/hammy13/BDPlugins"]:after, .markup-2BOw-j.da-markup > a[href="https://github.com/hammy13/BDPlugins"]:after {
+.message-group .message .markup-2BOw-j a[href="https://github.com/hammy13/BDPlugins"]:after, .markup-2BOw-j.da-markup > a[href="https://github.com/hammy13/BDPlugins"]:after {
   content: "Hammy's repo";
   color:var(--Main-Colour);
   font-size: 15px;
@@ -5363,7 +5363,7 @@ display:none;
   border-color:var(--Main-Colour)!important;
 }
 
-.theme-dark .message-group .comment .markup pre{
+.theme-dark .message-group .comment .markup-2BOw-j pre{
   border-color:var(--M-Colour)!important;
   background:var(--Background-Colour)!important;
 }
