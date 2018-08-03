@@ -14,7 +14,7 @@
   position: relative;
   left:25%;
   top:115%;
-  padding-left: 1px;
+  padding-left: 2px;
   padding-right: 4px;
   border-radius: 2px;
   margin-left: -3px;
@@ -40,7 +40,7 @@
   pointer-events: none;
   transition: 80ms ease;
   color: var(--Main-Colour);
-  width: 270px;
+  width: 260px;
   left:70%;
   top:15%;
   transform: translate(17px,-7px);
