@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #166 ";
+  --Update-Text: " Update #168 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -23,7 +23,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Chat.</text><text y="150" style="font-size: 1.1em;" x="37">2.Fixed Boops.</text><text y="180" style="font-size: 1.1em;" x="37">3.Themed That Useless DM Popout.</text><text y="200" style="font-size: 1.1em;" x="37">4.Fixed BFR.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/aSyUs69</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Typing.</text><text y="150" style="font-size: 1.1em;" x="37">2.Fixed Uris Boop.</text><text y="180" style="font-size: 1.1em;" x="37">3.Misc Bug Fix.</text><text y="200" style="font-size: 1.1em;" x="37">4.Fixed Blocks.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -6982,6 +6982,33 @@ color: var(--Main-Colour)!important;
   color: var(--M-Colour);
 }
 
+.typing-2GQL18 > span.ellipsis-19qdx6.da-ellipsis > span{
+  width:28px
+}
+
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
+  background: var(--S-Colour);
+}
+
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKs{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf,.theme-dark .messageGroupBlocked-3wrQQX{
+  background: var(--S-Colour);
+  border-color: var(--M-Colour);
+}
+
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf{
+  border-color: var(--M-Colour);
+  box-shadow: none;
+}
+
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover,.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover,.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf:hover,.theme-dark .messageGroupBlocked-3wrQQX:hover{
+  background: var(--S-Colour);
+  border-color: var(--Main-Colour);
+}
+
 /* Boops */
 
 .large-3ChYtB:not(.popout-2fzvxG)::after {
@@ -7025,7 +7052,7 @@ color: var(--Main-Colour)!important;
   font-size: 13px;
   z-index: 1;
   position: absolute;
-  left:25%;
+  left:38.9%!important;
   top:115%;
   padding-left: 2px;
   padding-right: 4px;
