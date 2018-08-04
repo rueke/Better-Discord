@@ -6965,6 +6965,15 @@ color: var(--Main-Colour)!important;
   display: none;
 }
 
+.search-bar-light .searchBarInner-1_Tg2R{
+  background-color: var(--S-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.bda-dark .emoji-picker .search-bar input, .bda-dark .emojiPicker-3m1S-j .search-bar input{
+  color: var(--Main-Colour);
+}
+
 /* Boops */
 
 .large-3ChYtB:not(.popout-2fzvxG)::after {
@@ -7036,3 +7045,4 @@ color: var(--Main-Colour)!important;
 .large-3ChYtB:not(.popout-2fzvxG){
   background-visibility: hidden!important;
 }
+/* Boops */
