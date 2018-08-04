@@ -1,68 +1,9 @@
 /* NFLD99#0001 */
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]::before,
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/187615613944856576"].large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]::after,
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/187615613944856576"].large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]::before,
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/187615613944856576"].large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]::after {
-  display: inline-block!important;
-}
-
 .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]::before {
   content: url(https://rawgit.com/NFLD99/9617a094e34f8640f6bd1b0ac54ea8e3/raw/df7dc3d00727f07ad70c3db3af2d3e8642990b48/Github.svg);
-  color: rgba(0,255,0,.3);
-  font-size: 13px;
-  z-index: 1;
-  position: relative;
-  left:25%;
-  top:115%;
-  padding-left: 2px;
-  padding-right: 4px;
-  border-radius: 2px;
-  margin-left: -3px;
-  transform: translate(0,1px);
-  cursor: pointer;
-  transition: 100ms ease;
-  pointer-events: initial;
-  animation: rainbow 3s infinite linear;
 }
 
 .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]::after {
-  content: "Hello Im The Theme Dev If You Have Any Issues Please Join The Server! \a Github Link: https://git.io/v7ovg \a Support Server Link: https://discord.gg/aSyUs69";
-  white-space: pre;
-  background-color: var(--Background-Colour) !important;
-  box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
-  padding: 6px 10px;
-  border-radius: 3px;
-  font-size: 13px;
-  z-index: 3000000;
-  display: block;
-  position: absolute;
-  right: 0;
-  pointer-events: none;
-  transition: 80ms ease;
-  color: var(--Main-Colour);
-  width: 385px;
-  height: 40px;
-  left:70%;
-  top:15%;
-  transform: translate(17px,-7px);
-  opacity: 0;
-  animation: rainbow 3s infinite linear;
-}
-
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]:hover::after {
-  opacity: 1;
-  transition: 180ms ease-in-out 100ms;
-  animation: boop .5s 1 linear;
-}
-
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/187615613944856576"]:not(:hover)::after {
-  opacity: 0;
-  transition: 180ms ease-in-out 150ms;
-  animation: boop2 .5s 1 linear;
-}
-
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/187615613944856576"] {
-  position: relative;
-  cursor: pointer;
+  content: "Hello Im The Theme Dev If You Have Any Issues Please Join The Server! \a Github Link: https://git.io/v7ovg \a Support Server Link: https://discor d.gg/aSyUs69";
 }
 /* NFLD99#0001 */

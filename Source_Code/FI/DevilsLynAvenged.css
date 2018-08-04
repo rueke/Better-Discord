@@ -1,67 +1,9 @@
 /* DevilsLynAvenged#6457 */
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"].avatar-profile::before,
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"].avatar-profile.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"]::after,
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"].avatar-large.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"]::before,
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"].avatar-large.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"]::after {
-  display: inline-block!important;
-}
-
 .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"]::before {
   content: url(https://i.imgur.com/zkO7deS.png);
-  color: rgba(0,255,0,.3);
-  font-size: 13px;
-  z-index: 1;
-  position: relative;
-  left:25%;
-  top:115%;
-  padding-left: 2px;
-  padding-right: 4px;
-  border-radius: 2px;
-  margin-left: -3px;
-  transform: translate(0,1px);
-  cursor: pointer;
-  transition: 100ms ease;
-  pointer-events: initial;
-  animation: rainbow 3s infinite linear;
 }
 
 .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"]::after {
   content: "Hello Im DevilsLynAvenged! \a I Am A Theme Dev. \a I Normally Have An Anime PFP.";
-  white-space: pre;
-  background-color: var(--Background-Colour) !important;
-  box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
-  padding: 6px 10px;
-  border-radius: 3px;
-  font-size: 13px;
-  z-index: 3000000;
-  display: block;
-  position: absolute;
-  right: 0;
-  pointer-events: none;
-  transition: 80ms ease;
-  color: var(--Main-Colour);
-  width: 165px;
-  left:79%;
-  top:15%;
-  transform: translate(17px,-7px);
-  opacity: 0;
-  animation: rainbow 3s infinite linear;
-}
-
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"]:hover::after {
-  opacity: 1;
-  transition: 180ms ease-in-out 100ms;
-  animation: boop .5s 1 linear;
-}
-
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"]:not(:hover)::after {
-  opacity: 0;
-  transition: 180ms ease-in-out 150ms;
-  animation: boop2 .5s 1 linear;
-}
-
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"] {
-  position: relative;
-  cursor: pointer;
 }
 /* DevilsLynAvenged#6457 */

@@ -1,67 +1,9 @@
 /* uri#0002 */
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"].avatar-profile::before,
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"].avatar-profile.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"]::after,
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"].avatar-large.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"]::before,
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"].avatar-large.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"]::after {
-  display: inline-block!important;
-}
-
 .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"]::before {
   content: url(https://i.imgur.com/TqfeQ1G.png);
-  color: rgba(0,255,0,.3);
-  font-size: 13px;
-  z-index: 1;
-  position: relative;
-  left:25%;
-  top:115%;
-  padding-left: 2px;
-  padding-right: 4px;
-  border-radius: 2px;
-  margin-left: -3px;
-  transform: translate(0,1px);
-  cursor: pointer;
-  transition: 100ms ease;
-  pointer-events: initial;
-  animation: rainbow 3s infinite linear;
 }
 
 .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"]::after {
   content: "Hello Im Uri! \a I Am A Plugin/Theme Dev. \a I Will Release My Theme Soon™.";
-  white-space: pre;
-  background-color: var(--Background-Colour) !important;
-  box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
-  padding: 6px 10px;
-  border-radius: 3px;
-  font-size: 13px;
-  z-index: 3000000;
-  display: block;
-  position: absolute;
-  right: 0;
-  pointer-events: none;
-  transition: 80ms ease;
-  color: var(--Main-Colour);
-  width: 175px;
-  left:70%;
-  top:15%;
-  transform: translate(17px,-7px);
-  opacity: 0;
-  animation: rainbow 3s infinite linear;
-}
-
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"]:hover::after {
-  opacity: 1;
-  transition: 180ms ease-in-out 100ms;
-  animation: boop .5s 1 linear;
-}
-
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"]:not(:hover)::after {
-  opacity: 0;
-  transition: 180ms ease-in-out 150ms;
-  animation: boop2 .5s 1 linear;
-}
-
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"] {
-  position: relative;
-  cursor: pointer;
 }
 /* uri#0002 */
