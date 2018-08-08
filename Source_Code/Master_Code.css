@@ -3670,7 +3670,6 @@ body{
 
 .message-group .message .markup-2BOw-j a[href*="https://gyazo.com"]:after, .markup-2BOw-j.da-markup > a[href*="https://gyazo.com"]:after {
   content: " This website is not supported by anyone who like previews.";
-  color:rgba(255,255,0,1);
   font-size: 15px;
   animation: Links 2s infinite linear;
 }
