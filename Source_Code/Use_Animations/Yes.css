@@ -213,6 +213,34 @@
   }
 }
 
+@keyframes Brainbow {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes Links {
+  0% {
+    content: "Im";
+  }
+  25% {
+    content: "Bad";
+  }
+  50% {
+    content: "At";
+  }
+  75% {
+    content: "Url";
+  }
+  100% {
+    content: "Choices";
+  }
+}
+
 .contentUnreadText-2vNnZc:hover, .contentUnreadText-2vNnZc{
   background:transparent!important;
 }
