@@ -3,7 +3,6 @@ This Theme Uses Code From The Following Themes I DO NOT TAKE CREDIT FOR THE CODE
 Please Check Them Out
 
 Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/master/Simplified-Green.theme.css   
-SmarterEmbeds  made by Beard_Design -> https://github.com/BeardDesign1/SmarterEmbeds/blob/master/SmarterEmbeds.theme.css 
 Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac91e7a7ad2d90dee87c90c 
 
 */
@@ -11,7 +10,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #174 ";
+  --Update-Text: " Update #175 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -23,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Please Redownload the theme file.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed esc text.</text><text y="180" style="font-size: 1.1em;" x="37">3.Themed New Game Tab.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Update 175 needs a fresh theme file as Ive added imports.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Embeds.</text><text y="180" style="font-size: 1.1em;" x="37">3.Misc bug fixes.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -39,6 +38,78 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   -webkit-filter: hue-rotate(360deg);
   }
 }
+
+/* Boops */
+
+.large-3ChYtB:not(.popout-2fzvxG)::after {
+  white-space: pre;
+  background-color: var(--Background-Colour) !important;
+  box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  z-index: 3000000;
+  display: inline;
+  position: relative;
+  left: 100%;
+  top: 50%;
+  transform: translate(0, -50%);
+  pointer-events: none;
+  transition: 80ms ease;
+  color: var(--Main-Colour);
+  opacity: 0;
+  animation: rainbow 3s infinite linear;
+}
+
+.large-3ChYtB:not(.popout-2fzvxG):hover::after {
+  opacity: 1;
+  transition: 180ms ease-in-out 100ms;
+  animation: boop .5s 1 linear;
+}
+
+.large-3ChYtB:not(.popout-2fzvxG):not(:hover)::after {
+  opacity: 0;
+  transition: 180ms ease-in-out 150ms;
+  animation: boop2 .5s 1 linear;
+}
+
+.large-3ChYtB:not(.popout-2fzvxG) {
+  cursor: pointer;
+}
+
+.large-3ChYtB:not(.popout-2fzvxG)::before {
+  color: rgba(0,255,0,.3);
+  font-size: 13px;
+  z-index: 1;
+  position: absolute;
+  left:38.9%!important;
+  top:115%;
+  padding-left: 2px;
+  padding-right: 4px;
+  border-radius: 2px;
+  margin-left: -3px;
+  transform: translate(0,1px);
+  cursor: pointer;
+  transition: 100ms ease;
+  pointer-events: initial;
+  animation: Brainbow 3s infinite linear;
+}
+
+.large-3ChYtB:not(.popout-2fzvxG)::before,
+.large-3ChYtB:not(.popout-2fzvxG).large-3ChYtB:not(.popout-2fzvxG)::after,
+.large-3ChYtB:not(.popout-2fzvxG).large-3ChYtB:not(.popout-2fzvxG)::before,
+.large-3ChYtB:not(.popout-2fzvxG).large-3ChYtB:not(.popout-2fzvxG)::after {
+  display: inline-block!important;
+}
+
+.avatar-17mtNa:hover {
+  opacity: 1;
+}
+
+.large-3ChYtB:not(.popout-2fzvxG){
+  background-visibility: hidden!important;
+}
+/* Boops */
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH > .guild:first-child{
   margin-top:10px!important;
@@ -2414,27 +2485,6 @@ div.flex-spacer.flex-vertical form {
 #user-profile-modal .header .header-info .header-info-inner .discord-tag, #user-profile-modal .header .header-info .header-info-inner .discord-tag .headerDiscriminator-3fLlCR , .headerTagNormal-KyD3_J, .headerUsernameNoNickname-1iGxNP{
   color: var(--Main-Colour)!important;
 }
-
-  /* "name":"SmarterEmbeds","description":"It basically makes the embeds align horizontally, so when there's multitple links in the same message, it takes less space in the chat.","author":"Beard_Design","version":"1.0.0" */
-.message-group .accessory {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.message-group .accessory>*:not(:last-of-type) {
-  margin-right: 10px;
-}
-
-.message-group .accessory>* {
-  margin-top: 5px;
-}
-
-.reactions {
-  width: 100%;
-  flex: 100%;
-  order: 9999999999;
-}
-   /* "name":"SmarterEmbeds","description":"It basically makes the embeds align horizontally, so when there's multitple links in the same message, it takes less space in the chat.","author":"Beard_Design","version":"1.0.0" */
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild,
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.guildInner-3DSoA4 a {
@@ -4997,10 +5047,6 @@ display:none;
   padding-top:0px !important;
 }
 
-.guildsWrapper-5TJh6A .scroller-wrap {
-  width: 120px !important;
-}
-
 .guild-1EfMGQ.folder .badge-1GsMF2.folder.count {
   background: var(--S-Colour) !important;
   border-color: transparent !important;
@@ -7155,74 +7201,18 @@ color: var(--Main-Colour)!important;
   color: var(--Main-Colour);
 }
 
-/* Boops */
-
-.large-3ChYtB:not(.popout-2fzvxG)::after {
-  white-space: pre;
-  background-color: var(--Background-Colour) !important;
-  box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
-  padding: 6px 10px;
-  border-radius: 3px;
-  font-size: 13px;
-  z-index: 3000000;
-  display: inline;
-  position: relative;
-  left: 100%;
-  top: 50%;
-  transform: translate(0, -50%);
-  pointer-events: none;
-  transition: 80ms ease;
-  color: var(--Main-Colour);
-  opacity: 0;
-  animation: rainbow 3s infinite linear;
+.container-1YxwTf .container-1e22Ot{
+  display: flex;
+  flex-flow: row wrap;
 }
-
-.large-3ChYtB:not(.popout-2fzvxG):hover::after {
-  opacity: 1;
-  transition: 180ms ease-in-out 100ms;
-  animation: boop .5s 1 linear;
+.container-1YxwTf .container-1e22Ot>*:not(:last-of-type){
+  margin-right:10px;
 }
-
-.large-3ChYtB:not(.popout-2fzvxG):not(:hover)::after {
-  opacity: 0;
-  transition: 180ms ease-in-out 150ms;
-  animation: boop2 .5s 1 linear;
+.container-1YxwTf .container-1e22Ot>*{
+  margin-top:5px;
 }
-
-.large-3ChYtB:not(.popout-2fzvxG) {
-  cursor: pointer;
+.reactions{
+  width:100%;
+  flex:100%;
+  order:9999999999;
 }
-
-.large-3ChYtB:not(.popout-2fzvxG)::before {
-  color: rgba(0,255,0,.3);
-  font-size: 13px;
-  z-index: 1;
-  position: absolute;
-  left:38.9%!important;
-  top:115%;
-  padding-left: 2px;
-  padding-right: 4px;
-  border-radius: 2px;
-  margin-left: -3px;
-  transform: translate(0,1px);
-  cursor: pointer;
-  transition: 100ms ease;
-  pointer-events: initial;
-  animation: Brainbow 3s infinite linear;
-}
-
-.large-3ChYtB:not(.popout-2fzvxG)::before,
-.large-3ChYtB:not(.popout-2fzvxG).large-3ChYtB:not(.popout-2fzvxG)::after,
-.large-3ChYtB:not(.popout-2fzvxG).large-3ChYtB:not(.popout-2fzvxG)::before,
-.large-3ChYtB:not(.popout-2fzvxG).large-3ChYtB:not(.popout-2fzvxG)::after {
-  display: inline-block!important;
-}
-
-.avatar-17mtNa:hover {
-  opacity: 1;
-}
-
-.large-3ChYtB:not(.popout-2fzvxG){
-  background-visibility: hidden!important;
-}
-/* Boops */

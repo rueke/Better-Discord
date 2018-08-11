@@ -1,106 +1,22 @@
-
-/* Display servers in 2 column grid (edited by uri#0002) */
-
-.guildsWrapper-5TJh6A {
-  width: 115px;
+.backdrop-1ocfXc,.backdrop-1wrmKB {
+  background: url(https://i.imgur.com/3bNtp1z.png) 50% 50%/cover !important;
 }
-
-.guildsWrapper-5TJh6A .scroller-wrap {
-  width: 130px;
+.image-1SwJLX.loaded-1CMjvT{
+  background: url(https://i.imgur.com/3bNtp1z.png) 50% 50%/cover !important;
 }
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH {
-  display: flex;
-  flex-flow: row wrap;
-  padding-left: 0;
-  align-content: flex-start;
-  justify-content: center;
+.wrapper-3Q5DdO{
+  background: url(https://i.imgur.com/3bNtp1z.png) 50% 50%/cover !important;
 }
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ{
-  position: relative;
-  margin: 8px 5px 2px 5px;
+.theme-dark .ui-standard-sidebar-view {
+  background: url(https://i.imgur.com/3bNtp1z.png) 50% 50%/cover !important;
 }
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.guildInner-3DSoA4 {
-  cursor: pointer;
-  overflow: hidden;
-  border-radius: 25px;
-  background: transparent !important;
-  font-size: 18px;
-  text-align: center;
-  line-height: 50px;
+.app {
+  background: url(https://i.imgur.com/3bNtp1z.png) 50% 50%/cover !important;
 }
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .friends-icon {
-  background-size: 50%!important;
-  background-position: 30% 35%!important;
+.appMount-3VJmYg {
+  background: url(https://i.imgur.com/3bNtp1z.png) 50% 50%/cover !important;
+  background-color: transparent!important;
 }
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.guildInner-3DSoA4 a {
-  background-size: cover!important;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr::before {
-  left: -2px;
-  top: 5px;
-  z-index: 9000;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild:first-child {
-  position: relative;
-  left: 0;
-  margin: auto;
-}
-
-#bd-pub-li {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#bd-pub-li #bd-pub-button {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
-  position: relative;
-  width: 100%;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
-  position: relative;
-  width: 100%;
-  margin: auto;
-  margin-top: 5px;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
-  display: none;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ{
-  left: 0;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ{
-  margin: 8px 8px 8px 0;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ+ .guild-1EfMGQ{
-  margin-left: 0;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV:empty {
-  display: none;
+body{
+  background:url(https://i.imgur.com/3bNtp1z.png) 50% 50%/cover !important;
 }
