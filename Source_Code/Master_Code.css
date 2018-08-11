@@ -11,7 +11,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/SwitchFix/SwitchFix.theme.css);
 @import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #173 ";
+  --Update-Text: " Update #174 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -23,7 +23,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New support server JOIN IT!</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed URLs showing a |.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Please Redownload the theme file.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed esc text.</text><text y="180" style="font-size: 1.1em;" x="37">3.Themed New Game Tab.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -2985,16 +2985,36 @@ div.form-inner, .form-actions {
 }
 /* Search */
 
-.esc-text:after {
-  width: 50px;
-  height: 50px;
-  content: " Made By NFLD99";
-  background-size: 32px 28px;
-  background-position: 50%;
-  background-repeat: no-repeat;
+.esc-text:after,.keybind-KpFkfr:after {
+  content: "Made By NFLD99";
+  font-size: 15px;
 }
 
+.esc-text:after,.keybind-KpFkfr {
+  font-size: 0px;
+}
 
+.theme-dark .keybind-KpFkfr{
+  color: var(--M-Colour);
+}
+
+.theme-dark .closeButton-1tv5uR {
+  border-color: var(--M-Colour);
+  background-color: var(--S-Colour);
+}
+
+.theme-dark .closeButton-1tv5uR:hover {
+  border-color: var(--Background-Colour);
+  background-color: var(--Main-Colour);
+}
+
+.closeButton-1tv5uR > svg > g > path.fill{
+  fill:var(--M-Colour)
+}
+
+.closeButton-1tv5uR:hover > svg > g > path.fill{
+  fill:var(--Background-Colour)
+}
 
 #user-profile-modal .avatar-wrapper {
   position: absolute;
@@ -7076,6 +7096,65 @@ color: var(--Main-Colour)!important;
   border: 1px solid var(--Main-Colour);
   border-radius: 3px;
 }
+
+.theme-dark .gameLibrary-TTDw4Y{
+  background: transparent;
+}
+
+.theme-dark .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY {
+  border-top-color: var(--M-Colour);
+}
+
+.rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY {
+  border-top: 1px solid transparent;
+}
+
+.theme-dark .row-ZLfFhY{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .headerCellSorted-3a5AzJ {
+  color: var(--Main-Colour);
+}
+
+.theme-dark .headerCell-3L6rFG {
+  border-left-color: var(--M-Colour);
+}
+
+.theme-dark .header-39GIC8 {
+  border-bottom-color: var(--M-Colour);
+  color: var(--M-Colour);
+}
+
+.theme-dark .headerCell-3L6rFG:hover:not(.headerCellSorted-3a5AzJ) {
+  color: var(--Main-Colour);
+}
+
+.rowBackground-3MeNoN {
+  -webkit-filter: none;
+  -webkit-mask: radial-gradient(100% 100% at top left,var(--S-Colour) 0,var(--S-Colour));
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  bottom: 0;
+  filter: none;
+  left: 0;
+  mask: radial-gradient(100% 100% at top left,var(--S-Colour) 0,var(--S-Colour));
+  position: absolute;
+  top: 0;
+  width: 272px;
+}
+
+.theme-dark .rowWrapperActive-2L7i9f {
+  -webkit-box-shadow: 0 2px 5px 0 var(--M-Colour);
+  background-color: transparent;
+  box-shadow: 0 2px 5px 0 var(--M-Colour);
+}
+
+.theme-dark .actionIconBase-2L-mPj{
+  color: var(--Main-Colour);
+}
+
 /* Boops */
 
 .large-3ChYtB:not(.popout-2fzvxG)::after {
