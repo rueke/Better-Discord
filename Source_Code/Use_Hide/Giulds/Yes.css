@@ -1,5 +1,5 @@
 /* Giulds */
-.guilds-wrapper-5TJh6A{
+.guildsWrapper-5TJh6A{
 	min-width:10px!important;
 	max-width:240px!important;
 	width:10px;
@@ -7,8 +7,8 @@
 	opacity: 0;
 }
 
-.guilds-wrapper-5TJh6A:hover{
-	width:100px;
+.guildsWrapper-5TJh6A:hover{
+	width:auto;
 	transition: all .6s;
 	opacity: 1;
 }

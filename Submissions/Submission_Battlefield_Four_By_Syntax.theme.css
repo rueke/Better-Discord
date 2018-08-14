@@ -1,0 +1,54 @@
+﻿//META{"name":"Battlefield_Four","description":"Battlefield 4 theme created by Syntax using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.github.io/Info/","author":"Syntax","version":"ersion auto updates"}*//{} 
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Master_Code.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Animations/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Fonts/Yes.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Minimal/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Popup/Yes.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Channels/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Chat_Title_Bar/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Giulds/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Invites/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Members/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Windows_Bar/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Offline/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Popout_Footer/Yes.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_1_Guild_Row/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_2_Guild_Rows/Yes.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_3_Guild_Rows/No.css);
+:root {
+  --Main-Colour: rgba(255,255,255,1);
+  --Background-Colour: rgba(50,50,50,1);
+  --S-Colour: rgba(40,40,40,0.5);
+  --M-Colour: rgba(231,173,37,0.88);
+  --Text-Shadow-Colour: rgba(0,0,0,.73);
+  --Scroller-Colour: rgba(222,222,222,0.9);
+  --Notification-Colour: rgba(231,173,37,1);
+  --Chat-Input-Background: rgba(0,0,0,0.4);
+  --Chat-Input-Colour: rgba(215,215,215,0.8) ;
+  --Unread-Message-1: rgba(235,90,35,1) ;
+  --Unread-Message-2: rgba(235,90,35,1) ;
+  --Chat-Background: url(https://i.imgur.com/53vHTzJ.jpg);
+  --Settings-Background: url(https://i.imgur.com/wjeTE1n.jpg);
+  --Callout-Background: url(https://i.imgur.com/53vHTzJ.jpg);
+  --Title-Background: rgba(40,40,40,1);
+  --Theme-Variant: " Battlefield 4";
+  --Chat-Font-Used: 'Electrolize', sans-serif;
+  --Chat-Font-Size: 17px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background: url(https://i.imgur.com/K2Rdals.jpg);
+  --Popout-Text-Shadow-Colour: var(--Text-Shadow-Colour);
+  --Emote-Popout-Background: rgba(0,0,0,0.8);
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
+  --Background-Brightness: 0.48;
+}
+
+::-webkit-input-placeholder, body, button, input, select, textarea {  font-family: Electrolize,sans-serif;}
+
+.textArea-2Spzkt {  font-size: 17px;}
+
+.wrapper-232cHJ {  background-color: rgb(235,90,35);  color: rgb(255,255,255);  font-size: 13px;}
+
+.badge-1GsMF2 {  border: 1px solid rgba(235,90,35,0.69);}

@@ -1,6 +1,6 @@
-//META{"name":"NoMoreCssTab","description":"Removes The Css Tab","author":"NFLD99","version":"1"}*//{}
+//META{"name":"NoMoreCssTab","description":"Removes The Css Tab","author":"NFLD99","version":"2"}*//{}
 
-.content-region .CodeMirror, .content-region .cm-s-material .CodeMirror-gutters, #bd-customcss-detach-container .CodeMirror, #bd-customcss-detach-container .cm-s-material .CodeMirror-gutters, .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls{
+#bd-settings-sidebar .ui-tab-bar-item:nth-last-child(3){
 display:none !important;
 }
 

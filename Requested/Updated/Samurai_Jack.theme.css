@@ -1,0 +1,46 @@
+//META{"name":"Samurai_Jack","description":"Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.github.io/Info/","author":"NFLD99","version":"ersion auto updates"}*//{} 
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Master_Code.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Animations/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Fonts/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Minimal/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Popup/Yes.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Channels/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Chat_Title_Bar/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Giulds/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Invites/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Members/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Windows_Bar/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Offline/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_Hide/Popout_Footer/Yes.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_1_Guild_Row/No.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_2_Guild_Rows/Yes.css);
+@import url(https://rawgit.com/NFLD99/Better-Discord/master/Source_Code/Use_3_Guild_Rows/No.css);
+:root {
+  --Main-Colour: rgba(253,226,158,1);
+  --Background-Colour: rgba(27,31,43,1);
+  --S-Colour: rgba(27,31,43,.3);
+  --M-Colour: rgba(253,226,158,.5);
+  --Text-Shadow-Colour: rgba(27,31,43,.65);
+  --Scroller-Colour: rgba(253,226,158,0);
+  --Notification-Colour: rgba(253,226,158,1);
+  --Chat-Input-Background: rgba(27,31,43,0);
+  --Chat-Input-Colour: var(--Main-Colour) ;
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --Chat-Background: url(https://i.imgur.com/t77K6wf.jpg);
+  --Settings-Background: url(https://i.imgur.com/t77K6wf.jpg);
+  --Callout-Background: url(https://i.imgur.com/t77K6wf.jpg);
+  --Title-Background: var(--Background-Colour);
+  --Theme-Variant: " Samurai Jack";
+  --Chat-Font-Used: ;
+  --Chat-Font-Size: 15px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background: var(--Chat-Background);
+  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background: var(--S-Colour);
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
+  --Background-Brightness: 0.5;
+}

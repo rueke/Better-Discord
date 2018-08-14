@@ -1,12 +1,12 @@
-//META{"name":"Mentioned_Box","description":"This Theme Customizes The Mention Box,  Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"2.0"}*//{}
+//META{"name":"Mentioned_Box","description":"This Theme Customizes The Mention Box,  Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"3.0"}*//{}
 
 :root{
-	--Background: rgba(58, 113, 193, 0.2) ;
-	--Mention: #7289da;
-	--Bar: #1adbfa;
+	--Background: rgba(85, 193, 58, 0.2) ;
+	--Mention: #95da72;
+	--Bar: rgba(26, 250, 93, 0.357);
 }
 
-.theme-dark .message-group .mentioned .message-text {
+.theme-dark .isMentioned-N-h9aa {
     background: var(--Background) !important;
 }
 
@@ -14,7 +14,7 @@
     color: var(--Mention) !important;
 }
 
-.message-group .mentioned .message-text:after {
+.isMentionedCozy-3isp7y:after {
     position: absolute;
     top: 0;
     left: -6px;
