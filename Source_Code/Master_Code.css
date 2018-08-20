@@ -9,7 +9,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #181 ";
+  --Update-Text: " Update #182 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -21,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New Themes!</text><text y="160" style="font-size: 1.1em;" x="37">2.Themed No Nitro Popup. [Seems twin wanted to say after I pushed an update]</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New Themes!</text><text y="160" style="font-size: 1.1em;" x="37">2.Themed No Nitro Popup. [Seems twin wanted to say after I pushed an update]</text><text y="180" style="font-size: 1.1em;" x="37">3.updated more SVGs.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -1933,6 +1933,46 @@ spinner-pulsing-ellipsis .spinner-item {
   background-color: var(--M-Colour)!important;
   -webkit-mask-size: 50%!important;
   -webkit-mask-position: 50%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+.theme-dark .quickSelectArrow-1QublR{
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5"><path fill="#FFFFFF" fill-rule="evenodd" d="M4.69121533 4.67377205c-.0032764.00327642-.00647163.00647164-.00957886.00957887l-.3304384.3304384L.00237527.73009987.72838543.00408973 4.49140948 3.7671138l3.7802572-3.78025722.72601014.72601013-4.13370567 4.1337057-.17277807-.17277806z"/></svg>');
+  background-color: var(--Main-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+.themeOverrideDark-1u5Vo0.icon-RTGJu3.targetAll-13V3n6, .theme-dark .icon-RTGJu3.targetAll-13V3n6{
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path fill="#FFFFFF" fill-opacity=".6" fill-rule="nonzero" d="M3,13 L5,13 L5,11 L3,11 L3,13 Z M3,17 L5,17 L5,15 L3,15 L3,17 Z M3,9 L5,9 L5,7 L3,7 L3,9 Z M7,13 L21,13 L21,11 L7,11 L7,13 Z M7,17 L21,17 L21,15 L7,15 L7,17 Z M7,7 L7,9 L21,9 L21,7 L7,7 Z"/><polygon points="0 0 24 0 24 24 0 24"/></g></svg>');
+  background-color: var(--Main-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+#app-mount > div.app-19_DXt.platform-win.da-app.da-platformWin > div > div.layers-3iHuyZ.flex-vertical.flex-spacer.da-layers.da-flexVertical.da-flexSpacer > div:nth-child(2) > div > div.content-region.da-contentRegion > div > div > div > div.content-column.minimal.da-contentColumn.da-minimal > div > aside > div > div > div > div > div > div.itemDefault-3Jdr52.item-PXvHYJ.notSelected-1N1G5p.role-3wi9Tf.da-itemDefault.da-item.da-notSelected.da-role > div > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.da-flex.da-horizontal.da-directionRow.da-justifyStart.da-alignCenter.da-noWrap > button{
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><g fill="none" fill-rule="evenodd"><path fill="#FFFFFF" d="M8,6 L2,6 L2,5 C2,3.346 3.346,2 5,2 C6.654,2 8,3.346 8,5 L8,6 Z M4,12 L6,12 L6,8 L4,8 L4,12 Z M5,0 C2.238,0 0,2.238 0,5 L0,12 C0,13.104 0.896,14 2,14 L8,14 C9.104,14 10,13.104 10,12 L10,5 C10,2.238 7.762,0 5,0 Z" transform="translate(4 2)"/><rect width="18" height="18"/></g></svg>');
+  background-color: var(--Main-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.flex-vertical.flex-spacer > div:nth-child(2) > div > div.content-region > div > div > div > div.content-column.minimal > div > aside > div > div > div > div > div > div.header-2RyJ0Y > div > img{
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5"><path fill="#FFFFFF" fill-rule="evenodd" d="M4.69121533 4.67377205c-.0032764.00327642-.00647163.00647164-.00957886.00957887l-.3304384.3304384L.00237527.73009987.72838543.00408973 4.49140948 3.7671138l3.7802572-3.78025722.72601014.72601013-4.13370567 4.1337057-.17277807-.17277806z"/></svg>');
+  background-color: var(--Main-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
   -webkit-mask-repeat: no-repeat!important;
   background-image:none!important;
 }
@@ -7730,6 +7770,94 @@ color: var(--Main-Colour)!important;
 }
 
 .premiumPromo-yVfLiA.da-premiumPromo > img{
-  content:url('http://tinyurl.com/ybhv6yho');
+  content:url('https://i.imgur.com/mTBPNOQ.png');
   height: 25%;
+}
+
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.wrap-ZIn9Iy.marginReset-236NPn > svg > g > polyline{
+  stroke: var(--Main-Colour);
+}
+
+.theme-dark .colorPickerSwatch-5GX3Ve.noColor-1pdBDm .colorPickerDropperFg-3jYKWI {
+  fill: var(--Main-Colour);
+}
+
+.theme-dark .colorPickerSwatch-5GX3Ve.noColor-1pdBDm {
+  border-color: var(--M-Colour);
+}
+
+.theme-dark .member-1q7VfX .overflowIconFg-QMRRFI {
+  fill: var(--Main-Colour);
+}
+
+.theme-dark .actionButton-VzECiy {
+  border-color: var(--M-Colour);
+  color: var(--M-Colour);
+}
+
+.theme-dark .actionButton-VzECiy:hover {
+  border-color: var(--Main-Colour);
+  color: var(--Main-Colour);
+}
+
+.theme-dark .guild-settings-banned-user .username {
+  color: var(--Main-Colour);
+}
+
+.theme-dark .guild-settings-banned-user-modal .reason, .theme-dark .guild-settings-banned-user-modal .user-discrim, .theme-dark .guild-settings-banned-user .username .discrim{
+  color: var(--M-Colour);
+}
+
+.theme-dark .guild-settings-banned-user-modal .reason-header{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .inviteRowName-1tVaxu{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .inviteRow-2L02ae:hover {
+  background-color: var(--S-Colour);
+  box-shadow: 0px 0px 4px 0px var(--Main-Colour);
+}
+
+.lookOutlined-3sRXeN.colorGreen-29iAKY {
+  border-color: var(--M-Colour);
+  color: var(--M-Colour);
+}
+
+.theme-dark .checkBoxLabel-4PWfpk, .theme-dark .footerText-2a7NxZ, .theme-dark .subText-bCySlS{
+  color: var(--M-Colour);
+}
+
+.theme-dark .select-2TCrqx .is-focused .Select-control .Select-arrow{
+  border-color: var(--M-Colour) transparent transparent;
+}
+
+.lookLink-9FtZy-.colorWhite-rEQuAQ:hover .contents-18-Yxp {
+  background-image: linear-gradient(0deg,transparent,transparent 1px,var(--Main-Colour) 0,var(--Main-Colour) 2px,transparent 0);
+}
+
+.lookLink-9FtZy-.colorWhite-rEQuAQ{
+  color: var(--Main-Colour);
+}
+
+.buttonInvertedPurple-WtBglX {
+  border: 1px solid var(--M-Colour);
+  color: var(--M-Colour);
+  background:transparent;
+}
+
+.buttonInvertedPurple-WtBglX:hover {
+  border: 1px solid var(--Main-Colour);
+  color: var(--Main-Colour);
+}
+
+.profileBadgeHypeSquadOnlineHouse2-3jBpXR{
+  background-image: url(/assets/48cf0556d93901c8cb16317be2436523.svg);
+}
+
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.selectableItem-1MP3MQ.actionItem-11pIwh.selected-31soGA {
+  background-color: var(--S-Colour)!important;
+  color: var(--Main-Colour)!important;
 }
