@@ -9,7 +9,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #182 ";
+  --Update-Text: " Update #183 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -21,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New Themes!</text><text y="160" style="font-size: 1.1em;" x="37">2.Themed No Nitro Popup. [Seems twin wanted to say after I pushed an update]</text><text y="180" style="font-size: 1.1em;" x="37">3.updated more SVGs.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Houses.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Houses BG.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -7854,7 +7854,19 @@ color: var(--Main-Colour)!important;
 }
 
 .profileBadgeHypeSquadOnlineHouse2-3jBpXR{
-  background-image: url(/assets/48cf0556d93901c8cb16317be2436523.svg);
+  background-image: url(https://discordapp.com/assets/48cf0556d93901c8cb16317be2436523.svg)!important;
+}
+
+.profileBadgeHypeSquadOnlineHouse1-xN6tES {
+  background-image: url(https://discordapp.com/assets/1115767aed344e96a27a12e97718c171.svg)!important;
+}
+
+.profileBadgeHypeSquadOnlineHouse3-1YbjMX {
+  background-image: url(https://discordapp.com/assets/2a085ed9c86f3613935a6a8667ba8b89.svg)!important;
+}
+
+[class*="membershipDialogHouse"] {
+  background-color: var(--S-Colour)!important;
 }
 
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.selectableItem-1MP3MQ.actionItem-11pIwh.selected-31soGA {
