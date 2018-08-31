@@ -9,7 +9,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #188 ";
+  --Update-Text: " Update #189 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -21,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.Updated DM Svgs and call UI.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.New Themes Added.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -8473,4 +8473,28 @@ color: var(--M-Colour)!important;
 .theme-dark .selected-P8xTeN {
   border-bottom: 2px solid var(--Main-Colour);
   color: var(--Main-Colour);
+}
+
+.theme-dark .passthroughSelected-1Eq0Kl,.theme-dark .denySelected-1mh2mZ,.theme-dark .allowSelected-25S_i5 {
+  border-color: var(--Main-Colour)!important;
+}
+
+[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"]{
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5"><path fill="#FFFFFF" fill-rule="evenodd" d="M4.69121533 4.67377205c-.0032764.00327642-.00647163.00647164-.00957886.00957887l-.3304384.3304384L.00237527.73009987.72838543.00408973 4.49140948 3.7671138l3.7802572-3.78025722.72601014.72601013-4.13370567 4.1337057-.17277807-.17277806z"/></svg>');
+  background-color: var(--Main-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: none!important;
+}
+
+[style='background-image: url("/assets/959a1978f7be567071a1354a98b46ecd.svg");']{
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><g fill="none" fill-rule="evenodd"><path fill="#FFFFFF" d="M8,6 L2,6 L2,5 C2,3.346 3.346,2 5,2 C6.654,2 8,3.346 8,5 L8,6 Z M4,12 L6,12 L6,8 L4,8 L4,12 Z M5,0 C2.238,0 0,2.238 0,5 L0,12 C0,13.104 0.896,14 2,14 L8,14 C9.104,14 10,13.104 10,12 L10,5 C10,2.238 7.762,0 5,0 Z" transform="translate(4 2)"/><rect width="18" height="18"/></g></svg>');
+  background-color: var(--Main-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
 }
