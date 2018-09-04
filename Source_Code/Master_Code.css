@@ -9,7 +9,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #189 ";
+  --Update-Text: " Update #190 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -21,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.New Themes Added.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.Updated Boop Icon For Fire Phox.</text><text y="180" style="font-size: 1.1em;" x="37">2.New Donator Satela#1771.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -135,11 +135,11 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background: transparent !important;
 }
 
-.theme-dark .messagesWrapper-3lZDfY .messages ..-2zF9y8:not(.red) span {
+.theme-dark .messagesWrapper-3lZDfY .messages :not(.red) span {
   color: var(--Main-Colour);
 }
 
-.theme-dark .messagesWrapper-3lZDfY .messages ..-2zF9y8 span, .theme-dark .messagesWrapper-3lZDfY .messages ..-2zF9y8:not(.red) div {
+.theme-dark .messagesWrapper-3lZDfY .messages span, .theme-dark .messagesWrapper-3lZDfY .messages :not(.red) div {
   background: var(--Background-Colour);
 }
 
@@ -346,6 +346,7 @@ form.deprecated.auth-form footer {
 
 .user-settings-modal button.preview-sound:before {
   -webkit-filter: hue-rotate(235deg) saturate(400%);
+  filter: hue-rotate(235deg) saturate(400%);
 }
 
 .voice-connection-channel {
@@ -445,7 +446,7 @@ form.deprecated.auth-form footer {
 
 .chat .title-wrap {
   padding-bottom: 1px;
-  border-bottom: 1px solid var(--Main-Colour); !important;
+  border-bottom: 1px solid var(--Main-Colour)!important;
   margin-top: 1px;
 }
 
@@ -587,10 +588,6 @@ span.ping {
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
   background: var(--Main-Colour) !important;
-}
-
-..-2zF9y8..-2zF9y8-red span {
-  background-color: var(--Background-Colour) !important;
 }
 
 /* Private Chat */
@@ -866,6 +863,7 @@ div p a {
 
 .action-icon:before {
   -webkit-filter: hue-rotate(305deg) saturate(400%) !important;
+  filter: hue-rotate(305deg) saturate(400%) !important;
 }
 
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
@@ -1031,9 +1029,6 @@ div.btn {
 
 #user-profile-modal footer {
   background-color: rgba(255, 255, 255, 0.9) !important;
-}
-
-button.btn.add-friend {
 }
 
 div.flex-horizontal.flex-spacer.content-inner label {
@@ -2197,6 +2192,37 @@ spinner-pulsing-ellipsis .spinner-item {
   background-image:none!important;
 }
 
+[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"]{
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5"><path fill="#FFFFFF" fill-rule="evenodd" d="M4.69121533 4.67377205c-.0032764.00327642-.00647163.00647164-.00957886.00957887l-.3304384.3304384L.00237527.73009987.72838543.00408973 4.49140948 3.7671138l3.7802572-3.78025722.72601014.72601013-4.13370567 4.1337057-.17277807-.17277806z"/></svg>');
+  background-color: var(--Main-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: none!important;
+}
+
+[style='background-image: url("/assets/959a1978f7be567071a1354a98b46ecd.svg");']{
+  content:"";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><g fill="none" fill-rule="evenodd"><path fill="#FFFFFF" d="M8,6 L2,6 L2,5 C2,3.346 3.346,2 5,2 C6.654,2 8,3.346 8,5 L8,6 Z M4,12 L6,12 L6,8 L4,8 L4,12 Z M5,0 C2.238,0 0,2.238 0,5 L0,12 C0,13.104 0.896,14 2,14 L8,14 C9.104,14 10,13.104 10,12 L10,5 C10,2.238 7.762,0 5,0 Z" transform="translate(4 2)"/><rect width="18" height="18"/></g></svg>');
+  background-color: var(--Main-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image:none!important;
+}
+
+.ragingDemon-bDcoXE,.symbolBackground-1w6i-M{
+  margin-bottom: -3px;
+  padding-top: 2%;
+  padding-left: 23%;
+  display: block;
+  background: url(https://i.imgur.com/DOFpZY5.jpg) 50% 50%/cover !important;
+  border:1px solid var(--Main-Colour);
+  border-radius: 5px;
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: rgba(0,172,234,1); font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: rgba(0,172,234,1);">Thank you for using my theme!</text><text y="45" style="font-size: 1.1em;" x="37">Donators:</text><text y="65" style="font-size: 1.1em;" x="37">@Strato#4763.</text><text y="85" style="font-size: 1.1em;" x="37">@BLACKROOSTER#1395.</text><text y="105" style="font-size: 1.1em;" x="37">@Meowster Mewt#0817.</text><text y="125" style="font-size: 1.1em;" x="37">@mxngxxse#0666.</text><text y="145" style="font-size: 1.1em;" x="37">@TwinShadow#5717.</text><text y="165" style="font-size: 1.1em;" x="37">@Kiari#1204.</text><text y="185" style="font-size: 1.1em;" x="37">@Cpt_Corde#1945.</text><text y="205" style="font-size: 1.1em;" x="37">@FirePhox#5261.</text><text y="225" style="font-size: 1.1em;" x="37">@breadcat#6969.</text><text y="245" style="font-size: 1.1em;" x="37">@GhostieSpook#6565.</text><text y="265" style="font-size: 1.1em;" x="37">@Satela#1771.</text></g></svg>');
+}
+
 .private-channels .channel .icon-friends {
   background: url(https://rawgit.com/NFLD99/1ca29ab156d06fe6a54461074da0deeb/raw/6548f48e815388d30ac9d978459c0485a6fb95f2/Friends.svg);
   background-size: 65%!important;
@@ -2562,8 +2588,6 @@ div.flex-spacer.flex-vertical form {
   position: relative!important;
 }
 
-.has-more display:none;
-
 .channel-members-loading {
   display: none;
 }
@@ -2733,11 +2757,13 @@ div.flex-spacer.flex-vertical form {
 .ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
   background: transparent ;
   -webkit-box-shadow: 0 0 1px 0 var(--Main-Colour);
+  box-shadow: 0 0 1px 0 var(--Main-Colour);
 }
 
 .ui-standard-sidebar-view .bda-slist li {
   background: transparent ;
   -webkit-box-shadow: 0 0 1px 0 var(--Main-Colour);
+  box-shadow: 0 0 1px 0 var(--Main-Colour);
 }
 
 .bda-slist li {
@@ -3213,10 +3239,6 @@ div.form-inner, .form-actions {
   animation: Spin 2.8s infinite linear;
 }
 
-.theme-dark ..-2zF9y8-3573oO{
-  background: var(--M-Colour);
-}
-
 .theme-dark .ui-standard-sidebar-view .esc-text, #bd-settingspane-container .ui-switch-item .style-description, .ui-standard-sidebar-view .bda-slist .bda-description, .theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1BebCl {
   color: var(--M-Colour);
 }
@@ -3245,8 +3267,8 @@ div.form-inner, .form-actions {
   background: var(--Main-Colour);
 }
 
-.theme-dark .friends-table .messages ..-2zF9y8..-2zF9y8-red > span,
-.theme-dark .messagesWrapper-3lZDfY .messages ..-2zF9y8..-2zF9y8-red > span,
+.theme-dark .friends-table .messages > span,
+.theme-dark .messagesWrapper-3lZDfY .messages > span,
 .markup-2BOw-j ,
 .member.member-status .member-activity {
   text-shadow: 0 0 6px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
@@ -3534,7 +3556,7 @@ body{
   max-width: 4000px;
   max-height: 200px;
   line-height: 26px;
-  text-transform: ;
+  text-transform: none ;
 }
 
 .text-NLHgOm h4{
@@ -3593,20 +3615,9 @@ body{
 .splashArt-2R_m_a {
   -webkit-filter: grayscale(0%)!important;
   -webkit-mask: none!important;
+  filter: grayscale(0%)!important;
+  mask: none!important;
 }
-/* .autocompleteInner-zh20B_ {
-  background: var(--Popout-Background) 505 50%/cover!important;
-  border: 1px solid var(--M-Colour);
-} */
-/* 
-.theme-dark .autocomplete-1vrmpx,.autocomplete-1vrmpx {
-  background: var(--Background-Colour);
-} */
-
-/* .theme-dark .selectorSelected-1_M1WV,.selectorSelected-1_M1WV {
-  background:var(--Background-Colour);
-  border: 1px solid var(--M-Colour);
-} */
 
 .form.deprecated .control-group input[type=email], .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password], .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea{
   background:var(--Background-Colour);
@@ -3696,10 +3707,6 @@ body{
   display:none;
 }
 
-#app-mount > div.theme-dark.popouts > div[style=z-index: 1000; overflow: hidden; visibility: visible; left: 125px; top: 686px; height: 216px; width: 216px; transform: translateY(-100%) translateX(0%) translateZ(0px);] {
-  height: 156px!important;
-}
-
 .theme-dark .wrapper-35wsBm {
   background: rgba(47,49,54,.0);
   border-color: var(--Main-Colour);
@@ -3730,6 +3737,7 @@ body{
 .upload-modal .inner .file .icon.image {
   -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.4);
   -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   background-color: transparent;
   background-size: contain;
   border: none;
@@ -3811,7 +3819,7 @@ body{
   max-width: 4000px;
   max-height: 200px;
   line-height: 26px;
-  text-transform: ;
+  text-transform: none ;
   color:var(--Popout-Main-Colour)!important;
 }
 
@@ -4084,11 +4092,11 @@ body{
   background-color: var(--S-Colour)!important;
 }
 
-.theme-dark .gameName-Ivkyss,.theme-dark .sectionTitle-le2fuz,.theme-dark .username-1cRqpK,..-2zF9y8Title-20owGF,.theme-dark .activityActivityFeed-2gIGSa .content-3JfFJh, .theme-dark .activityActivityFeed-3xysim .details-38sfDr,.theme-dark .description-12ntlD, .theme-dark .title-bYqmgP,.theme-dark .gameName-ZXDRa6 {
+.theme-dark .gameName-Ivkyss,.theme-dark .sectionTitle-le2fuz,.theme-dark .username-1cRqpK,.theme-dark .activityActivityFeed-2gIGSa .content-3JfFJh, .theme-dark .activityActivityFeed-3xysim .details-38sfDr,.theme-dark .description-12ntlD, .theme-dark .title-bYqmgP,.theme-dark .gameName-ZXDRa6 {
   color:var(--Main-Colour);
 }
 
-.theme-dark .discriminator-20nIyt,.theme-dark .playTime-2KDQrS, .theme-dark .voiceChannelIcon-Ac0fPK,..-2zF9y8Blurb-TigR6c{
+.theme-dark .discriminator-20nIyt,.theme-dark .playTime-2KDQrS, .theme-dark .voiceChannelIcon-Ac0fPK{
   color:var(--M-Colour);
 }
 
@@ -4349,6 +4357,7 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 .upload-modal .inner .file .icon.image, .uploadModal-2ifh8j {
   -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.4);
   -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   background-color: transparent;
   background-size: contain;
   border: none;
@@ -4366,6 +4375,7 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 .uploadModal-2ifh8j .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {
   -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.4);
   -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   background-color: transparent;
   background-size: contain;
   border: none;
@@ -6211,17 +6221,6 @@ display:none;
   background: transparent;
 }
 
-.ragingDemon-bDcoXE,.symbolBackground-1w6i-M{
-  margin-bottom: -3px;
-  padding-top: 2%;
-  padding-left: 23%;
-  display: block;
-  background: url(https://i.imgur.com/DOFpZY5.jpg) 50% 50%/cover !important;
-  border:1px solid var(--Main-Colour);
-  border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" style="width:100%;height:100px;"><g style="fill: rgba(0,172,234,1); font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: rgba(0,172,234,1);">Thank you for using my theme!</text><text y="45" style="font-size: 1.1em;" x="37">Donators:</text><text y="65" style="font-size: 1.1em;" x="37">@Strato#4763.</text><text y="85" style="font-size: 1.1em;" x="37">@BLACKROOSTER#1395.</text><text y="105" style="font-size: 1.1em;" x="37">@Meowster Mewt#0817.</text><text y="125" style="font-size: 1.1em;" x="37">@mxngxxse#0666.</text><text y="145" style="font-size: 1.1em;" x="37">@TwinShadow#5717.</text><text y="165" style="font-size: 1.1em;" x="37">@Kiari#1204.</text><text y="185" style="font-size: 1.1em;" x="37">@Cpt_Corde#1945.</text><text y="205" style="font-size: 1.1em;" x="37">@FirePhox#5261.</text><text y="225" style="font-size: 1.1em;" x="37">@breadcat#6969.</text><text y="245" style="font-size: 1.1em;" x="37">@GhostieSpook#6565.</text></g></svg>');
-}
-
 .theme-dark .modalTitle-37O4n6 {
   background-color: var(--Background-Colour);
 }
@@ -6376,6 +6375,7 @@ display:none;
 
 .avatarMasked-3y6o4j{
   -webkit-mask-image: none!important;
+  mask-image: none!important;
 }
 
 .avatarDefault-35WC3R, .avatarSpeaking-1wJCNq {
@@ -8479,22 +8479,8 @@ color: var(--M-Colour)!important;
   border-color: var(--Main-Colour)!important;
 }
 
-[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"]{
-  content: "";
-  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5"><path fill="#FFFFFF" fill-rule="evenodd" d="M4.69121533 4.67377205c-.0032764.00327642-.00647163.00647164-.00957886.00957887l-.3304384.3304384L.00237527.73009987.72838543.00408973 4.49140948 3.7671138l3.7802572-3.78025722.72601014.72601013-4.13370567 4.1337057-.17277807-.17277806z"/></svg>');
-  background-color: var(--Main-Colour)!important;
-  -webkit-mask-size: 100%!important;
-  -webkit-mask-position: 100%!important;
-  -webkit-mask-repeat: no-repeat!important;
-  background-image: none!important;
-}
-
-[style='background-image: url("/assets/959a1978f7be567071a1354a98b46ecd.svg");']{
-  content:"";
-  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><g fill="none" fill-rule="evenodd"><path fill="#FFFFFF" d="M8,6 L2,6 L2,5 C2,3.346 3.346,2 5,2 C6.654,2 8,3.346 8,5 L8,6 Z M4,12 L6,12 L6,8 L4,8 L4,12 Z M5,0 C2.238,0 0,2.238 0,5 L0,12 C0,13.104 0.896,14 2,14 L8,14 C9.104,14 10,13.104 10,12 L10,5 C10,2.238 7.762,0 5,0 Z" transform="translate(4 2)"/><rect width="18" height="18"/></g></svg>');
-  background-color: var(--Main-Colour)!important;
-  -webkit-mask-size: 100%!important;
-  -webkit-mask-position: 100%!important;
-  -webkit-mask-repeat: no-repeat!important;
-  background-image:none!important;
+.isFailed-19WM0A, .isFailed-19WM0A .hljs, .isFailed-19WM0A a, .isFailed-19WM0A code.inline, .theme-dark .isFailed-19WM0A, .theme-light .isFailed-19WM0A{
+  color: var(--Main-Colour);
+  box-shadow: 0px 0px 20px 0px red;
+  animation: fail 3s infinite linear;
 }
