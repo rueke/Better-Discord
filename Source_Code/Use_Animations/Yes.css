@@ -319,6 +319,18 @@
   }
 }
 
+@keyframes NSFW {
+  0% {
+    fill: var(--M-Colour);
+  }
+  50% {
+    fill: var(--Main-Colour);
+  }
+  100% {
+    fill: var(--M-Colour);
+  }
+}
+
 .contentUnreadText-2vNnZc:hover, .contentUnreadText-2vNnZc{
   background:transparent!important;
 }
