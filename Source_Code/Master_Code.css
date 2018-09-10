@@ -9,7 +9,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #195 ";
+  --Update-Text: " Update #196 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -21,7 +21,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Added Hover Colour For Connected Voice.</text><text y="160" style="font-size: 1.1em;" x="37">2.Updated URLS.</text><text y="180" style="font-size: 1.1em;" x="37">3.NEW Website: NFLD99.com.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fixes.</text><text y="160" style="font-size: 1.1em;" x="37">2.Updated URLS.</text><text y="180" style="font-size: 1.1em;" x="37">3.NEW Website: NFLD99.com.</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -920,7 +920,7 @@ div p a {
 
 /* Light Theme Support*/
 
-span.channel-name, .private-channels .channel .channel-name, .chat>.title-wrap.title-wrap-dark .topic, .theme-dark .channelName-3stJzi, .theme-dark .groupDM-3qU0Ks .channelName-3stJzi, .theme-dark .groupDMManaged-1GyXtq .channelName-3stJzi, .theme-dark .input-autosize-input, .theme-dark .input-autosize-input:focus {
+span.channel-name, .private-channels .channel .channel-name, .chat>.title-wrap.title-wrap-dark .topic, .theme-dark .channelName-3stJzi, .theme-dark .groupDM-3qU0Ks .channelName-3stJzi, .theme-dark .groupDMManaged-1GyXtq .channelName-3stJzi, .theme-dark .input-autosize-input, .theme-dark .input-autosize-input:focus,.channel-2QD9_O.selected-1HYmZZ .name-2WpE7M, .channel-2QD9_O:hover .name-2WpE7M,.channel-2QD9_O.selected-1HYmZZ .name-2WpE7M, .channel-2QD9_O:hover .name-2WpE7M, .name-2WpE7M,.activity-525YDR, .privateChannels-1nO12o header,.theme-dark .username-XRo90I,.theme-dark .gameName-wzJptK,.theme-dark .activityActivityFeed-3xysim .content-3JfFJh, .theme-dark .activityActivityFeed-3xysim .details-38sfDr {
   color: var(--Main-Colour) !important;
 }
 
@@ -3009,7 +3009,7 @@ div.form-inner, .form-actions {
   background-color: var(--Background-Colour);
 }
 
-.itemDefaultSelected-1UAWLe, .itemBrandSelected-3LxxzT, .itemDefault-3NDwnY:hover, .itemBrand-mC9YR4:hover, .private-channels .channel.selected a, .private-channels .channel:hover a,.side-8zPYf6 .itemSelected-1qLhcL {
+.itemDefaultSelected-1UAWLe, .itemBrandSelected-3LxxzT, .itemDefault-3NDwnY:hover, .itemBrand-mC9YR4:hover, .private-channels .channel.selected a, .private-channels .channel:hover a,.side-8zPYf6 .itemSelected-1qLhcL,.channel-2QD9_O.selected-1HYmZZ a,.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a {
   color: var(--Main-Colour) !important;
   background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Notification-Colour)) !important;
 }
@@ -3206,18 +3206,21 @@ div.form-inner, .form-actions {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.description-3t0KC1.margin-bottom-20{ display: none; }
-.title-SL0Wts.margin-bottom-8:after {
+.description-2ydcYn.margin-bottom-20{ 
+  display: none; 
+}
+
+.title-1VcOOr.margin-bottom-8:after {
   content: "Do You Wish To See Members Of The Itty Bitty Titty Committee?";
   display: block;
   font-size: 16px;
   line-height: 16px;
   margin-top: 8px;
   margin-bottom: 12px;
-  color: #b9bbbe;
+  color: var(--Main-Colour);
 }
 
-.theme-dark .image-3fVkBI  {
+.theme-dark .image-2LqJex  {
   background-image: url(https://i.imgur.com/PBwzzZX.jpg);
 }
 
@@ -4106,8 +4109,8 @@ body{
   color:var(--Main-Colour);
 }
 
-.theme-dark .discriminator-20nIyt,.theme-dark .playTime-2KDQrS, .theme-dark .voiceChannelIcon-Ac0fPK{
-  color:var(--M-Colour);
+.theme-dark .discriminator-20nIyt,.theme-dark .playTime-2KDQrS, .theme-dark .voiceChannelIcon-Ac0fPK,.theme-dark .discriminator-1Kma2g,.theme-dark .playTime-2SuPqW,.theme-dark .icon-2oIyBi{
+  color:var(--M-Colour)!important;
 }
 
 .tabBarContainer-1s1u-z,.theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx {
@@ -5172,12 +5175,52 @@ a[href="https://github.com/NFLD99/Better-Discord"]:after {
   font-size: 15px;
 }
 
-a[href*="nfld99.com"] {
+a[href="https://nfld99.com/"] {
   font-size: 0;
 }
 
-a[href*="nfld99.com"]:after {
-  content: "NFLD99's Website";
+a[href="https://nfld99.com/"]:after {
+  content: "NFLD99's Website - Home Page";
+  color:var(--Main-Colour);
+  font-size: 15px;
+}
+
+a[href="https://nfld99.com/Main.html"] {
+  font-size: 0;
+}
+
+a[href="https://nfld99.com/Main.html"]:after {
+  content: "NFLD99's Website - Main Themes";
+  color:var(--Main-Colour);
+  font-size: 15px;
+}
+
+a[href="https://nfld99.com/mini.html"] {
+  font-size: 0;
+}
+
+a[href="https://nfld99.com/mini.html"]:after {
+  content: "NFLD99's Website - Mini Themes";
+  color:var(--Main-Colour);
+  font-size: 15px;
+}
+
+a[href="https://nfld99.com/requested.html"] {
+  font-size: 0;
+}
+
+a[href="https://nfld99.com/requested.html"]:after {
+  content: "NFLD99's Website - Requested Themes";
+  color:var(--Main-Colour);
+  font-size: 15px;
+}
+
+a[href="https://nfld99.com/submitted.html"] {
+  font-size: 0;
+}
+
+a[href="https://nfld99.com/submitted.html"]:after {
+  content: "NFLD99's Website - Submited Themes";
   color:var(--Main-Colour);
   font-size: 15px;
 }
@@ -7246,11 +7289,10 @@ color: var(--Main-Colour)!important;
   background-color: var(--S-Colour);
 }
 
-.nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS,.nameConnectedText-3CzNQn, .nameConnectedVoice-MHUX5F, .nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameHoveredText-1uO31y, .nameHoveredVoice-YJ1Vfd, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1, .nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ, .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5, .nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI,.private-channels .channel .channel-name, .private-channels .channel .channel-activity strong{
+.nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS,.nameConnectedText-3CzNQn, .nameConnectedVoice-MHUX5F, .nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameHoveredText-1uO31y, .nameHoveredVoice-YJ1Vfd, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1, .nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ, .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5, .nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI,.private-channels .channel .channel-name, .private-channels .channel .channel-activity strong,.channel-2QD9_O.selected-1HYmZZ .name-2WpE7M, .channel-2QD9_O:hover .name-2WpE7M,.activity-525YDR,.theme-dark .activityActivityFeed-3xysim .content-3JfFJh, .theme-dark .activityActivityFeed-3xysim .details-38sfDr,.ellipsis-1XUmPN{
   white-space: pre-wrap !important;
   line-height: inherit;
 }
-
 
 .isMentionedCozy-3isp7y:after{
   border-color: var(--Main-Colour);
@@ -8517,4 +8559,21 @@ color: var(--M-Colour)!important;
 
 .contentConnectedVoice-qL-YrL:hover{
   background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Notification-Colour))!important;
+}
+
+.theme-dark .applicationStore-1pNvnv{
+  background: transparent;
+}
+
+.wanderingCubesItem-WPXqao{
+  background-color: var(--Main-Colour);
+}
+
+.theme-dark .headerBar-UHpsPw,.searchBar-6Kv8R2{
+  box-shadow: none;
+}
+
+.theme-dark .libraryFilterInput-3JzqZD{
+  background: var(--S-Colour);
+  border: 1px solid var(--M-Colour);
 }
