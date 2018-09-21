@@ -23,6 +23,14 @@
 }
 
 @keyframes Load4 {
+  from {
+    top: 50%;
+    bottom: 50%;
+  }
+}
+
+/* Old Loading
+@keyframes Load4 {
     0% {
         -webkit-transform: scale(0);
         transform: rotate(-360deg) scale(0);
@@ -41,7 +49,7 @@
         transform: rotate(-360deg) scale(1);
 		opacity:1;
     }
-}
+} */
 
 @keyframes opacity {
   0% {
