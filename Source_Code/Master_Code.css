@@ -9,7 +9,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #199 ";
+  --Update-Text: " Update #200 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -22,7 +22,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New Loading Animation.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed Toasts.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://git.io/v7ovg</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://discord.gg/kWRYPrq</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://twitch.tv/NFLD99</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New site page https://www.nfld99.com/Discord.html.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed a thing that wasnt ment to happen o.o.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -42,17 +42,6 @@ body:before {
   text-align: center;
   position: absolute;
   top: 0;
-  z-index: 9997;
-  color: var(--Main-Colour);
-}
-
-.side-8zPYf6 .header-2RyJ0Y:first-child:after{
-  margin-bottom: -3px;
-  display: block;
-  background:transparent;
-  border-radius: 5px;
-  content:var(--Theme-Variant)", "var(--Update-Text) ;
-  white-space: pre-wrap;
   z-index: 9997;
   color: var(--Main-Colour);
 }
@@ -8643,4 +8632,8 @@ color: var(--M-Colour)!important;
 
 .theme-dark .contentTitle-2tG_sM strong{
   color: var(--Main-Colour);
+}
+
+.videoBackgroundWrapper-2dCt49{
+  background: var(--Popout-Background);
 }
