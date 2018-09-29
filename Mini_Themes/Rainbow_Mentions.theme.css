@@ -5,10 +5,10 @@
 
 .theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention,.theme-dark .wrapper-3WhCwL,.theme-dark .wrapper-3WhCwL:hover,.theme-dark .isMentioned-N-h9aa, .theme-dark .isMentioned-N-h9aa {
   color: #00e5ff;
-  animation: rainbow 3s infinite linear;
+  animation: rainbowmention 3s infinite linear;
 }
 
-@keyframes rainbow {
+@keyframes rainbowmention {
   from {
     -webkit-filter: hue-rotate(0deg);
   }
