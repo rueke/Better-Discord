@@ -42,5 +42,6 @@
   --load1: "Anti";
   --load2: "Lag";
   --load3: "➢NFLD99";
+  --Timestamp-Colour: var(--M-Colour);
   --Background-Brightness: 0.27;
 }
