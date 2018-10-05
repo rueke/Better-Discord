@@ -41,7 +41,7 @@
   --Emote-Popout-Background: var(--S-Colour);
   --load1: "ローリンガール";
   --load2: "(Rolling Girl)";
-  --load3: "➢NFLD99";
+  --load3: "➢NFLD99";  --Timestamp-Colour: var(--M-Colour);
   --Background-Brightness: 0.5;
 }
 
