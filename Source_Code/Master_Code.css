@@ -4,12 +4,14 @@ Please Check Them Out
 
 Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/master/Simplified-Green.theme.css   
 Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac91e7a7ad2d90dee87c90c 
+Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPicker/fullScreenStatusPicker.theme.css
 
 */
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
+@import url(https://cmpdc.github.io/bdtf/themes/FullScreenStatusPicker/fullScreenStatusPicker.theme.css);
 :root{
-  --Update-Text: " Update #208 ";
+  --Update-Text: " Update #209 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -22,7 +24,7 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed a lot, AGAIN.</text><text y="160" style="font-size: 1.1em;" x="37">2.FIXED A LOT.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed a lot, AGAIN.</text><text y="160" style="font-size: 1.1em;" x="37">2.Added Uris Status Picker.</text><text y="180" style="font-size: 1.1em;" x="37">3.Edited Clyde.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -8955,4 +8957,101 @@ color: var(--M-Colour)!important;
 .theme-dark .lookOutlined-3sRXeN:hover.colorTransparent-1ewNp9 {
   border-color: var(--Main-Colour);
   color: var(--Main-Colour);
+}
+
+.theme-dark .bda-slist li {
+  background-color: var(--S-Colour);
+  color: var(--M-Colour);
+  border-color: var(--M-Colour);
+  box-shadow: 0 1px 5px 0 var(--M-Colour);
+}
+
+.theme-dark .bda-slist li:hover {
+  box-shadow: 0 0 5px 0 var(--Main-Colour);
+}
+
+.theme-dark .bda-slist .bda-description, .themeDark-3Ap_7i .note-450gs3 {
+  color: var(--M-Colour);
+}
+
+.bda-dark .emoji-picker .scroller .emoji-item.selected, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+  background-color: var(--Background-Colour);
+}
+
+.emojiPicker-3m1S-j {
+  -webkit-box-shadow: 0 0 6px 0 var(--M-Colour);
+  border: 1px solid var(--M-Colour);
+  box-shadow: 0 0 6px 0 var(--M-Colour);
+}
+
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
+  background-color: var(--S-Colour) !important;
+  border-color: transparent !important;
+}
+
+.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
+  background-color: var(--S-Colour) !important;
+  border-color: var(--M-Colour) !important;
+}
+
+.theme-dark .header-39GIC8 {
+  background: transparent;
+}
+
+.theme-dark .icon-1IKq3C, .theme-dark .textCell-1aBIUP {
+  color: var(--M-Colour);
+}
+
+.buttonShine-1CSUM8 {
+  animation-delay: .75s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: Shine-2sIJ1p;
+  animation-timing-function: ease-in-out;
+  color: var(--M-Colour);
+}
+
+.popout-3sVMXz:not(.noArrow-3BYQ0Z){
+  box-shadow: 0 0 6px 0 var(--M-Colour);
+  padding: 1px;
+}
+
+.theme-dark .text-GwUZgS {
+  font-size: 15px;
+}
+
+.theme-dark .text-GwUZgS:after {
+  content: " NFLD99.com/Discord";
+  color:var(--Main-Colour);
+  font-size: 15px;
+}
+
+.appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O {
+  height: 35vh !important;
+}
+
+.verified-3uJH7V > g > path:nth-child(2){
+  fill: var(--Main-Colour);
+}
+
+[src="/assets/cdea41ede63f61153e4a3c0531fa3873.svg"],.theme-dark .background-3N1V7e{
+  display:none;
+}
+
+[style="color: rgb(114, 137, 218); background-color: rgba(114, 137, 218, 0.0980392);"],[style="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.0980392);"]{
+  background-color: transparent!important;
+}
+
+.thumbQuicksave{
+  background: var(--S-Colour);
+  color: var(--Main-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .isLocalBot-38G0P0 {
+  background-image: linear-gradient(90deg,var(--S-Colour) 80%,var(--Main-Colour));
+  border-color: transparent;
+  box-shadow: 0px 0px 20px 0px red;
+  animation: fail 3s infinite linear;
+  color: var(--M-Colour);
 }
