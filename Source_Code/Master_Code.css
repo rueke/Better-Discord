@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 @import url(https://cmpdc.github.io/bdtf/themes/FullScreenStatusPicker/fullScreenStatusPicker.theme.css);
 :root{
-  --Update-Text: " Update #209 ";
+  --Update-Text: " Update #210 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -24,7 +24,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed a lot, AGAIN.</text><text y="160" style="font-size: 1.1em;" x="37">2.Added Uris Status Picker.</text><text y="180" style="font-size: 1.1em;" x="37">3.Edited Clyde.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed premissions save.</text><text y="160" style="font-size: 1.1em;" x="37">2.Edited Uris Status Picker.</text><text y="180" style="font-size: 1.1em;" x="37">3.Changed settings icon.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -46,27 +46,6 @@ body:before {
   top: 0;
   z-index: 9997;
   color: var(--Main-Colour);
-}
-
-@keyframes Notif {
-  from, to {
-      transform: translate(-50%, -100%);
-      opacity: 0;
-  }
-  20%, 80% {
-      transform: translate(-50%, 10%);
-      opacity: 1;
-  }
-}
-
-@keyframes CLog {
-  from {
-  -webkit-filter: hue-rotate(0deg);
-  }
-
-  to {
-  -webkit-filter: hue-rotate(360deg);
-  }
 }
 
 /* Boops */
@@ -214,7 +193,7 @@ body:before {
   background: rgba(0,0,0,var(--Background-Brightness)) !important;
 }
 
-.theme-dark .ui-standard-sidebar-view {
+.theme-dark .ui-standard-sidebar-view,.theme-dark .standardSidebarView-3F1I7i {
   background: var(--Settings-Background) 50% 50%/cover !important;
 }
 
@@ -1609,8 +1588,6 @@ spinner-pulsing-ellipsis .spinner-item {
 }
 
 .container-2Thooq .flex-1xMQg5 :nth-child(3) svg {
-  content:"";
-  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" style="transform: scale(0.5)"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/><title>cog</title><g class="currentLayer"><title>Layer 1</title><path d="M29.02180585923295,18.876715099097275 c-1.640921504483237,-2.7678649854477397 -0.6538275678971328,-6.314310974367369 2.2038582445561032,-7.926677991337269 l-3.0736736936270264,-5.184511889867207 c-0.8776340149052687,0.5016041428235762 -1.8989341770166337,0.7890509191664987 -2.9886467901785205,0.7890509191664987 c-3.2847749711543526,0 -5.946996637748953,-2.6098644395109036 -5.946996637748953,-5.829839420862244 h-6.14637006652476 c0.007818565834345396,0.9936901804702342 -0.24628482378187946,2.001657518705845 -0.7926071114567627,2.9220582893138105 c-1.640921504483237,2.7678649854477397 -5.288282466205355,3.7092055874449263 -8.149877561575762,2.104453054616559 l-3.0726963728977337,5.184511889867207 c0.8844752600103214,0.4901824166112742 1.6506947117761688,1.206895736433196 2.195062357992465,2.12634469652347 c1.6379895422953576,2.7631059328592817 0.6567595300850128,6.303841058672759 -2.1901757543459985,7.9181116966780465 l3.0736736936270264,5.184511889867207 c0.8747020527173897,-0.4968450902351174 1.891115611182288,-0.7804846245072723 2.9749642999684163,-0.7804846245072723 c3.2740244431321273,0 5.929404864621677,2.5936836607101426 5.946019317019658,5.798429673778416 h6.14637006652476 c-0.002931962187879523,-0.9841720752933161 0.2531260688869316,-1.9797658767989341 0.7926071114567627,-2.8916003527476732 c1.6379895422953576,-2.7631059328592817 5.2765546174538365,-3.706350155891851 8.136195071365659,-2.1120675387580934 l3.0736736936270264,-5.184511889867207 c-0.8786113356345627,-0.4901824166112742 -1.639944183753943,-1.2049921153978125 -2.1813798677823604,-2.1187302123819363 zM16.139741326419646,22.1214371539086 c-3.4968535694109706,0 -6.332061005090463,-2.7612023118238973 -6.332061005090463,-6.166780344125141 s2.835207435679492,-6.166780344125141 6.332061005090463,-6.166780344125141 c3.4968535694109706,0 6.332061005090463,2.7612023118238973 6.332061005090463,6.166780344125141 s-2.835207435679492,6.166780344125141 -6.332061005090463,6.166780344125141 z" id="svg_1" class="selected" fill="none" stroke="#00d854" stroke-opacity="1"/></g></svg>');
   background-color: var(--Main-Colour);
   background-size: 90%!important;
   background-position: 80%!important;
@@ -2291,6 +2268,84 @@ spinner-pulsing-ellipsis .spinner-item {
 }
 
 /* CUSTOM SVGs */
+
+/* Keyframs */
+
+@keyframes DropDown {
+  from {
+      transform: translate(0, 100vh);
+      opacity: 0;
+  }
+  to {
+      transform: translate(0, 0);
+      opacity: 1;
+  }
+}
+
+@keyframes Notif {
+  from, to {
+      transform: translate(-50%, -100%);
+      opacity: 0;
+  }
+  20%, 80% {
+      transform: translate(-50%, 10%);
+      opacity: 1;
+  }
+}
+
+@keyframes CLog {
+  from {
+  -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+  -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes Everyone {
+  0% {
+    box-shadow: 0px 0px 15px 0px var(--M-Colour);
+  }
+  50% {
+    box-shadow: 0px 0px 15px 5px var(--M-Colour);
+  }
+  100% {
+    box-shadow: 0px 0px 15px 0px var(--M-Colour);
+  }
+}
+
+@keyframes Everyone2 {
+  0% {
+    transform: translate(0, -200%) scale(0);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes auth {
+  from {
+  -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+  -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes Popoutinvite {
+  from {
+    width:0px;
+  }
+
+  to {
+    width:920px;
+  }
+}
+
+
+/* Keyframs */
 
 /*Thanks to Nomuit#7411 For Helping me find this */
 .connectedAccountVerifiedIcon-1Ms4J8 g {
@@ -7003,16 +7058,6 @@ color: var(--Main-Colour)!important;
 	animation: Popoutinvite 2s 1 linear;
 }
 
-@keyframes Popoutinvite {
-  from {
-    width:0px;
-  }
-
-  to {
-    width:920px;
-  }
-}
-
 .image-1SwJLX.loaded-1CMjvT{
   background: var(--Callout-Background) 50% 50%/cover !important;
   filter: blur(0px);
@@ -7044,16 +7089,6 @@ color: var(--Main-Colour)!important;
 
 .white-2qwKC7, .white100-1kM2ad, .white200-3zgO-Z, .white300-9aRwFJ, .white400-18yif1, .white500-2pqdDy{
   color: var(--Main-Colour);
-}
-
-@keyframes auth {
-  from {
-  -webkit-filter: hue-rotate(0deg);
-  }
-
-  to {
-  -webkit-filter: hue-rotate(360deg);
-  }
 }
 
 .subTitle-3TUjmF{
@@ -7293,27 +7328,6 @@ color: var(--Main-Colour)!important;
   background: var(--Popout-Background)50% 50%/cover!important;
   animation: Everyone 2.5s infinite linear,Everyone2 2s 1 linear;
   text-shadow: 0 0 6px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
-}
-
-@keyframes Everyone {
-  0% {
-    box-shadow: 0px 0px 15px 0px var(--M-Colour);
-  }
-  50% {
-    box-shadow: 0px 0px 15px 5px var(--M-Colour);
-  }
-  100% {
-    box-shadow: 0px 0px 15px 0px var(--M-Colour);
-  }
-}
-
-@keyframes Everyone2 {
-  0% {
-    transform: translate(0, -200%) scale(0);
-  }
-  100% {
-    transform: translate(0, 0) scale(1);
-  }
 }
 
 .bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j,.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark .emoji-picker, .bda-dark .emoji-picker .category, .bda-dark .emoji-picker .header .search-bar{
@@ -8945,7 +8959,7 @@ color: var(--M-Colour)!important;
   background: var(--Background-Colour);
 }
 
-.theme-dark .contentRegion-3nDuYy,.theme-dark .sidebarRegion-VFTUkN,.theme-dark .standardSidebarView-3F1I7i,.tierGrandfathered-R6zrrD.banner-3Kac2g,.membershipDialog-rVL-t_:after{
+.theme-dark .contentRegion-3nDuYy,.theme-dark .sidebarRegion-VFTUkN,.tierGrandfathered-R6zrrD.banner-3Kac2g,.membershipDialog-rVL-t_:after{
   background: transparent;
 }
 
@@ -9054,4 +9068,16 @@ color: var(--M-Colour)!important;
   box-shadow: 0px 0px 20px 0px red;
   animation: fail 3s infinite linear;
   color: var(--M-Colour);
+}
+
+[style="background-color: rgba(32, 34, 37, 0.901961);"]{
+  background: transparent!important;
+}
+
+[style="color: rgb(255, 255, 255);"]{
+  color: var(--Main-Colour)!important;
+}
+
+.appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O{
+  animation: 500ms DropDown 1 linear;
 }
