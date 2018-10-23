@@ -9086,3 +9086,8 @@ color: var(--M-Colour)!important;
 .appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O{
   animation: 500ms DropDown 1 linear;
 }
+
+.theme-dark .callAvatarWrapper-TICyxO .ripple-16ZT2p {
+  background-color: var(--Main-Colour)!important;
+  border-radius: 0%;
+}
