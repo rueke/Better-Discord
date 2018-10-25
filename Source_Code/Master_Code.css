@@ -9177,3 +9177,7 @@ border: 0.5px solid var(--Main-Colour) !important;
 .theme-dark .itemDefault-3Jdr52, .theme-dark .itemHover-EnbcjT {
   color: var(--Main-Colour);
 }
+
+.fullScreen-3DKbL8{
+  background: url(https://i.imgur.com/1uIcwYm.png) 50% 50%/cover !important;
+}
