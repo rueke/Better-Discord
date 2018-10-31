@@ -5627,13 +5627,17 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   border: 1px solid var(--Main-Colour) !important;
 }
 
-.guildsWrapper-5TJh6A.foldercontent.da-guildsWrapper.da-foldercontent.da-foldercontentclosed.foldercontentopen > div {
+.guildsWrapper-5TJh6A.foldercontent.da-guildsWrapper.da-foldercontent.foldercontentopen > div {
   width: 60px!important;
 }
 
 .foldercontentopen > .scroller-wrap{
   width: 50.5px!important;
   padding-left: 5px;
+}
+
+.foldercontent{
+  width: 50.5px!important;
 }
 
 .guilds-1q_RqH {
