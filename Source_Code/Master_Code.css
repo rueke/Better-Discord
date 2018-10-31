@@ -5623,9 +5623,17 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 /* Support For Server Folders 2 */
 .foldercontent {
-  width: 50.5px !important;
   background: var(--Background-Colour) !important;
   border: 1px solid var(--Main-Colour) !important;
+}
+
+.guildsWrapper-5TJh6A.foldercontent.da-guildsWrapper.da-foldercontent.da-foldercontentclosed.foldercontentopen > div {
+  width: 60px!important;
+}
+
+.foldercontentopen > .scroller-wrap{
+  width: 50.5px!important;
+  padding-left: 5px;
 }
 
 .guilds-1q_RqH {
@@ -9172,13 +9180,4 @@ border: 0.5px solid var(--Main-Colour) !important;
 
 .fullScreen-3DKbL8{
   background: url(https://i.imgur.com/1uIcwYm.png) 50% 50%/cover !important;
-}
-
-.guildsWrapper-5TJh6A.foldercontent.da-guildsWrapper.da-foldercontent.da-foldercontentclosed.foldercontentopen > div {
-  width: 60px!important;
-}
-
-.foldercontentopen > .scroller-wrap{
-  width: 50.5px!important;
-  padding-left: 5px;
 }
