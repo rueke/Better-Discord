@@ -1594,8 +1594,8 @@ spinner-pulsing-ellipsis .spinner-item {
   background-size: 90%!important;
   background-position: 50%!important;
   background-repeat: no-repeat!important;
-  width: 16px!important;
-  height: 100%!important;
+  height: 32px!important;
+  width: 32px !important;
 }
 
 .connectedAccountOpenIcon-2cNbq5 {
