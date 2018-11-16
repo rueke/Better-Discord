@@ -28,7 +28,9 @@
   --Unread-Message-Speed: 1.5s;
   --load1: "Thank You!";
   --load2: "Please Enjoy!";
-  --load3: "➢NFLD99";  --Timestamp-Colour: var(--M-Colour);
+  --load3: "➢NFLD99";
+  --Settings-Dock-Colour: var(--Main-Colour);
+  --Timestamp-Colour: var(--M-Colour);
 }
 
 /* 
