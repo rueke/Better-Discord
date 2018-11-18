@@ -15,6 +15,7 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Windows_Bar/No.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Offline/No.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Popout_Footer/Yes.css);
+ @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Transparency/No.css);
 :root {
   --Main-Colour: rgba(253,251,254,1);
   --Background-Colour: rgba(32,6,39,1);
