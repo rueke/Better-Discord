@@ -28,9 +28,9 @@
   --Chat-Input-Colour: var(--Main-Colour) ;
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: url(https://i.imgur.com/kXpXawU.jpg);
-  --Settings-Background: url(https://i.imgur.com/kXpXawU.jpg);
-  --Callout-Background: url(https://i.imgur.com/kXpXawU.jpg);
+  --Chat-Background: url(https://nfld99.com/Bkg/kXpXawU.jpg);
+  --Settings-Background: url(https://nfld99.com/Bkg/kXpXawU.jpg);
+  --Callout-Background: url(https://nfld99.com/Bkg/kXpXawU.jpg);
   --Title-Background: var(--Background-Colour);
   --Theme-Variant: "Halloween";
   --Chat-Font-Used: ;
@@ -51,7 +51,7 @@
 .guilds-wrapper .guilds .friends-icon {
     width: 50px;
     height: 50px;
-    background-image: url(https://i.imgur.com/V8P3GPU.png);
+    background-image: url(https://nfld99.com/Bkg/V8P3GPU.png);
     background-size: 100%;
     background-position: 100%;
     background-repeat: no-repeat;

@@ -20,9 +20,9 @@ Server_Grid_2_Columns made by Jiiks -> https://gist.github.com/Jiiks/e1026d29aac
   --load3: "➢NFLD99";
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: var(--M-Colour);
-  --Chat-Background: black; /* To Set Image Use "url(https://i.imgur.com/2iMdLRx.jpg)" NOTE Link Must Be HTTPS And Direct Link To Image */
-  --Settings-Background: black; /* To Set Image Use "url(https://i.imgur.com/2iMdLRx.jpg)" NOTE Link Must Be HTTPS And Direct Link To Image */
-  --Callout-Background: black; /* To Set Image Use "url(https://i.imgur.com/2iMdLRx.jpg)" NOTE Link Must Be HTTPS And Direct Link To Image */
+  --Chat-Background: black; /* To Set Image Use "url(https://nfld99.com/Bkg/2iMdLRx.jpg)" NOTE Link Must Be HTTPS And Direct Link To Image */
+  --Settings-Background: black; /* To Set Image Use "url(https://nfld99.com/Bkg/2iMdLRx.jpg)" NOTE Link Must Be HTTPS And Direct Link To Image */
+  --Callout-Background: black; /* To Set Image Use "url(https://nfld99.com/Bkg/2iMdLRx.jpg)" NOTE Link Must Be HTTPS And Direct Link To Image */
 }
 
 .theme-dark .chat {
@@ -891,7 +891,7 @@ a.remove-button {
 }
 
 .settings .settings-inner, .settings .settings-actions {
-  background-image: url(https://i.imgur.com/nekmRkx.jpg) !important;
+  background-image: url(https://nfld99.com/Bkg/nekmRkx.jpg) !important;
   background-size: cover;
 }
 
@@ -901,17 +901,17 @@ div.settings-actions {
 }
 
 .settings .settings-header {
-  background-image: url(https://i.imgur.com/nekmRkx.jpg) !important;
+  background-image: url(https://nfld99.com/Bkg/nekmRkx.jpg) !important;
   background-size: cover;
 }
 
 .settings-wrapper.settings-panel {
-  background-image: url(https://i.imgur.com/nekmRkx.jpg) !important;
+  background-image: url(https://nfld99.com/Bkg/nekmRkx.jpg) !important;
   background-size: cover;
 }
 
 .user-settings-modal {
-  background-image: url(https://i.imgur.com/nekmRkx.jpg) !important;
+  background-image: url(https://nfld99.com/Bkg/nekmRkx.jpg) !important;
   background-size: cover;
 }
 
@@ -1441,7 +1441,7 @@ div.bd-dropdown {
 }
 
 div[data-bd="backdrop"] {
-  background-image: url(https://i.imgur.com/6f8vevM.jpg) !important;
+  background-image: url(https://nfld99.com/Bkg/6f8vevM.jpg) !important;
   background-size: cover !important;
 }
 
@@ -1490,7 +1490,7 @@ div[data-bd="backdrop"] {
 
 .guild-settings-modal-members {
   border: 1px solid var(--Background-Colour) !important;
-  background-image: url(https://i.imgur.com/nekmRkx.jpg) !important;
+  background-image: url(https://nfld99.com/Bkg/nekmRkx.jpg) !important;
   background-size: cover;
 }
 
@@ -2040,7 +2040,7 @@ div.tab-bar-item.selected {
   width: 50px;
   padding-bottom: 11px;
   background-color: #a8a8a8 !important;
-  background-image: url(https://i.imgur.com/XVZz4KO.png) !important;
+  background-image: url(https://nfld99.com/Bkg/XVZz4KO.png) !important;
   background-size: 44%;
   background-repeat: no-repeat;
   border: none;
@@ -2200,7 +2200,7 @@ div#rtc-connection {
 
 /*Stolen nitro thing */
 .avatar-large[style*="a_"] + .comment .message.first .body .username-wrapper:after {
-  content: url(https://i.imgur.com/rzf0lV7.png);
+  content: url(https://nfld99.com/Bkg/rzf0lV7.png);
   color: lime;
   margin-left: 5px;
   background: transparent;
