@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 @import url(https://cmpdc.github.io/bdtf/themes/FullScreenStatusPicker/fullScreenStatusPicker.theme.css);
 :root{
-  --Update-Text: " Update #219 ";
+  --Update-Text: " Update #220 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -25,7 +25,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed Ping Icon.</text><text y="160" style="font-size: 1.1em;" x="37">2.Added Transparency Import.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed BOT Tag.</text><text y="160" style="font-size: 1.1em;" x="37">2.Moved imgur images to my website.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -207,7 +207,7 @@ body:before {
 }
 
 .auth-background {
-  background: url(https://i.imgur.com/DOFpZY5.jpg) 50% 50%/cover !important;
+  background: url(https://nfld99.com/Bkg/DOFpZY5.jpg) 50% 50%/cover !important;
 }
 
 form.deprecated.auth-form {
@@ -1328,7 +1328,7 @@ div.bd-dropdown {
 
 .guild-settings-modal-members {
   border: 1px solid var(--Background-Colour) !important;
-  background-image: url(https://i.imgur.com/nekmRkx.jpg) !important;
+  background-image: url(https://nfld99.com/Bkg/nekmRkx.jpg) !important;
   background-size: cover;
 }
 
@@ -2240,7 +2240,7 @@ spinner-pulsing-ellipsis .spinner-item {
   padding-top: 2%;
   padding-left: 23%;
   display: block;
-  background: url(https://i.imgur.com/DOFpZY5.jpg) 50% 50%/cover !important;
+  background: url(https://nfld99.com/Bkg/DOFpZY5.jpg) 50% 50%/cover !important;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
   content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: rgba(0,172,234,1); font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: rgba(0,172,234,1);">Thank you for using my theme!</text><text y="45" style="font-size: 1.1em;" x="37">Donators:</text><text y="65" style="font-size: 1.1em;" x="37">@Strato#4763.</text><text y="85" style="font-size: 1.1em;" x="37">@BLACKROOSTER#1395.</text><text y="105" style="font-size: 1.1em;" x="37">@Meowster Mewt#0817.</text><text y="125" style="font-size: 1.1em;" x="37">@mxngxxse#0666.</text><text y="145" style="font-size: 1.1em;" x="37">@TwinShadow#5717.</text><text y="165" style="font-size: 1.1em;" x="37">@Kiari#1204.</text><text y="185" style="font-size: 1.1em;" x="37">@Cpt_Corde#1945.</text><text y="205" style="font-size: 1.1em;" x="37">@FirePhox#5261.</text><text y="225" style="font-size: 1.1em;" x="37">@breadcat#6969.</text><text y="245" style="font-size: 1.1em;" x="37">@GhostieSpook#6565.</text><text y="265" style="font-size: 1.1em;" x="37">@Satela#1771.</text></g></svg>');
@@ -2252,7 +2252,7 @@ spinner-pulsing-ellipsis .spinner-item {
 }
 
 .image-33JSyf[style*='74b8b6de441bce1a59f9c4ac74f666e6']{
-  content: url(https://i.imgur.com/6iUZYGP.png);
+  content: url(https://nfld99.com/Bkg/6iUZYGP.png);
   background-image: none!important;
 }
 
@@ -2580,7 +2580,7 @@ div.tab-bar-item.selected {
   width: 50px;
   padding-bottom: 11px;
   background-color: #a8a8a8 !important;
-  background-image: url(https://i.imgur.com/XVZz4KO.png) !important;
+  background-image: url(https://nfld99.com/Bkg/XVZz4KO.png) !important;
   background-size: 44%;
   background-repeat: no-repeat;
   border: none;
@@ -2727,7 +2727,7 @@ div.flex-spacer.flex-vertical form {
 
 /* nitro thing */
 .avatar-large[style*="a_"] + .comment .message.first .body-3rkFrF .username-wrapper:after {
-  content: url(https://i.imgur.com/rzf0lV7.png);
+  content: url(https://nfld99.com/Bkg/rzf0lV7.png);
   color: lime;
   margin-left: 5px;
   background: transparent;
@@ -3343,7 +3343,7 @@ div.form-inner, .form-actions {
 }
 
 .theme-dark .image-2LqJex  {
-  background-image: url(https://i.imgur.com/PBwzzZX.jpg);
+  background-image: url(https://nfld99.com/Bkg/PBwzzZX.jpg);
 }
 
 .actionRed-1J19Tx, .actionRed-1J19Tx:hover {
@@ -3798,12 +3798,12 @@ div.form-inner, .form-actions {
 /* Tac Nuke */
 .updateIconForeground-2jeItf {
   fill: transparent;
-  background: url(https://i.imgur.com/80u9AQy.gif) 50% 50%/cover;
+  background: url(https://nfld99.com/Bkg/80u9AQy.gif) 50% 50%/cover;
 }
 
 .iconInactive-g2AXfB[name="Update"] {
   fill: transparent;
-  background: url(https://i.imgur.com/80u9AQy.gif) 50% 50%/cover!important;
+  background: url(https://nfld99.com/Bkg/80u9AQy.gif) 50% 50%/cover!important;
 }
 /* Tac Nuke */
 
@@ -6143,7 +6143,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .imageError-2OefUi{
-  background:url(https://i.imgur.com/96Ymjfy.png) 50% 50%/contain;
+  background:url(https://nfld99.com/Bkg/96Ymjfy.png) 50% 50%/contain;
   background-repeat: no-repeat!important;
 }
 
@@ -7059,7 +7059,7 @@ color: var(--Main-Colour)!important;
 
 .theme-dark .contentWrapper-3WC1ID{
   background-color: var(--S-Colour);
-  background-image: url(https://i.imgur.com/Mcvi43u.png);
+  background-image: url(https://nfld99.com/Bkg/Mcvi43u.png);
   background-size: contain;
   height: 440px;
   position: relative;
@@ -7113,7 +7113,7 @@ color: var(--Main-Colour)!important;
 }
 
 .logo-2iEHEq{
-  background: url(https://i.imgur.com/UI9uFRU.png) 50% 50%/contain;
+  background: url(https://nfld99.com/Bkg/UI9uFRU.png) 50% 50%/contain;
   background-repeat: no-repeat;
   width:140px;
   height: 70px;
@@ -7200,7 +7200,7 @@ color: var(--Main-Colour)!important;
 
 .inviteModal-34DdOm .scroller-3__pG8{
   background-color: var(--S-Colour);
-  background-image: url(https://i.imgur.com/EMb6GWq.png);
+  background-image: url(https://nfld99.com/Bkg/EMb6GWq.png);
   height: 100%;
   position: relative;
   width: 400px;
@@ -8162,7 +8162,7 @@ color: var(--Main-Colour)!important;
 }
 
 .premiumPromo-yVfLiA > img{
-  content:url('https://i.imgur.com/mTBPNOQ.png');
+  content:url(https://nfld99.com/Bkg/mTBPNOQ.png);
   height: 25%;
 }
 
@@ -9197,7 +9197,7 @@ border: 0.5px solid var(--Main-Colour) !important;
 }
 
 .fullScreen-3DKbL8{
-  background: url(https://i.imgur.com/1uIcwYm.png) 50% 50%/cover !important;
+  background: url(https://nfld99.com/Bkg/1uIcwYm.png) 50% 50%/cover !important;
 }
 
 .ownerIcon-uZ6mE7 {
@@ -9212,4 +9212,8 @@ border: 0.5px solid var(--Main-Colour) !important;
 
 [fill="#faa61a"]{
   fill: currentColor;
+}
+
+.nameTag-m8r81H,.name-1ug6d4{
+  overflow: visible!important;
 }
