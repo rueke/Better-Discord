@@ -7421,7 +7421,7 @@ color: var(--Main-Colour)!important;
   animation: rainbow 3s infinite linear;
 }
 
-.theme-dark .timestampCozy-2hLAPV{
+.theme-dark .timestampCozy-2hLAPV,.theme-dark .timestamp-1E3uAL{
   color: var(--Timestamp-Colour);
 }
 
@@ -7645,10 +7645,6 @@ color: var(--Main-Colour)!important;
 
 .bda-dark .emoji-picker .search-bar input, .bda-dark .emojiPicker-3m1S-j .search-bar input{
   color: var(--Main-Colour);
-}
-
-.theme-dark .timestamp-1E3uAL{
-  color: var(--M-Colour);
 }
 
 .typing-2GQL18 > span.ellipsis-19qdx6 > span{
