@@ -4308,7 +4308,8 @@ div.form-inner, .form-actions {
   background:transparent!important;
 }
 
-.theme-dark .headerNormal-1cioxU .creationDate,.theme-dark .topSectionNormal-2-vo2m .creationDate{
+.theme-dark .headerNormal-1cioxU .creationDate,.theme-dark .topSectionNormal-2-vo2m .creationDate,
+.theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .creationDate, .theme-dark [class*='topSection'] .creationDate,.theme-light .header-2BwW8b:not(.headerNormal-T_seeN) .creationDate, .theme-dark .header-2BwW8b .creationDate{
   color:var(--Popout-Main-Colour);
   text-shadow: 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 5px var(--Popout-Text-Shadow-Colour), 0 0 4px var(--Popout-Text-Shadow-Colour)!important;
 }
