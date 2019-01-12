@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 @import url(https://cmpdc.github.io/bdtf/themes/FullScreenStatusPicker/fullScreenStatusPicker.theme.css);
 :root{
-  --Update-Text: " Update #237 ";
+  --Update-Text: " Update #238 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -25,7 +25,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.BUG FIXES *Discord server burns wile update is pushed*.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Canary fixes? *Discord server burns wile update is pushed*.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -116,7 +116,7 @@ body:before {
   opacity: 1;
 }
 
-.large-3ChYtB:not(.popout-2fzvxG),.app,.appMount-3VJmYg{
+.large-3ChYtB:not(.popout-2fzvxG),.app,.appMount-3VJmYg,.appMount-3lHmkl{
   background-visibility: hidden!important;
 }
 /* Boops */
@@ -137,7 +137,7 @@ body:before {
   color: Var(--M-Colour) !important;
 }
 
-.appMount-3VJmYg {
+.appMount-3VJmYg,.appMount-3lHmkl {
   background: Var(--Title-Background)50% 50%/cover !important;
   background-color: rgba(0,0,0,var(--Background-Brightness)) !important;
 }
@@ -9044,7 +9044,7 @@ color: var(--M-Colour)!important;
   font-size: 15px;
 }
 
-.appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O {
+.appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O, .appMount-3lHmkl .popout-3sVMXz.popoutTopLeft-b5Eb3O{
   height: 35vh !important;
   top:5vh!important;
 }
@@ -9083,7 +9083,7 @@ color: var(--M-Colour)!important;
   color: var(--Main-Colour)!important;
 }
 
-.appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O{
+.appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O, .appMount-3lHmkl .popout-3sVMXz.popoutTopLeft-b5Eb3O{
   animation: 500ms DropDown 1 linear;
 }
 
@@ -9160,7 +9160,7 @@ color: var(--M-Colour)!important;
   pointer-events: none
 }
 
-.appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O{
+.appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O, .appMount-3lHmkl .popout-3sVMXz.popoutTopLeft-b5Eb3O{
   top:5vh!important;
   height: 35vh !important;
   border: 0.5px solid var(--Main-Colour) !important;
@@ -9558,4 +9558,155 @@ border: 0.5px solid var(--Main-Colour) !important;
 
 .theme-dark .top-28JiJ- .itemSelected-1qLhcL{
   border-color: var(--Main-Colour)!important;
+}
+
+/* ======================================Canary fix for 2019-01-12 I hope====================================== */
+
+.large-3ChYtB:not(.popout-2fzvxG), .app-2rEoOp, .appMount-3VJmYg {
+  background-visibility: hidden!important;
+}
+
+.app-2rEoOp {
+  background: var(--Chat-Background) 50% 50%/cover !important;
+  animation: Load4 3s 1 linear, var(--StartUp) 3s 1 linear;
+  font-family: var(--Chat-Font-Used)!important;
+}
+
+.app-2rEoOp:not(.popout section) {
+  text-shadow: 0 0 6px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
+}
+
+#app-mount>div>div.app-2rEoOp.flex-vertical.theme-dark>div>section>div.guildsWrapper-5TJh6A>div {
+  background-color: rgba(35, 35, 35, 0.7) !important;
+}
+
+#app-mount>div>div.app-2rEoOp.flex-vertical.theme-dark>div>section>div.chat.flex-vertical.flex-spacer>div.content.flex-spacer.flex-horizontal>div.flex-spacer.flex-vertical>div>div>div>div:nth-child(37)>div.comment>div.message.mentioned>div.body-3rkFrF>div>div.markup-2BOw-j {
+  background: transparent !important;
+  border-top-right-radius: 5px !important;
+  border-top-left-radius: 5px !important;
+}
+
+#app-mount>div>span.theme-dark>div>div>div.body-3rkFrF>div>div, #app-mount>div>div.app-2rEoOp.flex-vertical.theme-dark>div>section>div.guildsWrapper-5TJh6A>div>button {
+  color: var(--Main-Colour) !important;
+}
+
+#app-mount>div>div.app-2rEoOp.flex-vertical.theme-light>div>section>div.guildsWrapper-5TJh6A>div>button {
+  color: var(--Main-Colour) !important;
+  opacity: 0.4 !important;
+}
+
+#app-mount>div>div.app-2rEoOp.flex-vertical.theme-light>div>section>div.guildsWrapper-5TJh6A>div>button:hover:after {
+  opacity: 1 !important;
+}
+
+#app-mount>div>div.app-2rEoOp.flex-vertical.theme-dark>div>section>div.chat.flex-vertical.flex-spacer>div.content.flex-spacer.flex-horizontal>div.flex-spacer.flex-vertical>div>div>div>div>div:nth-child(3)>div {
+  background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/green/invite.svg') !important;
+}
+
+#app-mount>div>div.app-2rEoOp.flex-vertical.theme-dark>div>section>div.chat.flex-vertical.flex-spacer>div.content.flex-spacer.flex-horizontal>div.flex-spacer.flex-vertical>div>div>div>div>div:nth-child(4)>div {
+  background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/green/mobile.svg') !important;
+}
+
+#app-mount>div>div.app-2rEoOp.flex-vertical.theme-dark>div>section>div.chat.flex-vertical.flex-spacer>div.content.flex-spacer.flex-horizontal>div.flex-spacer.flex-vertical>div>div>div>div>div:nth-child(5)>div {
+  background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/green/twitter.svg') !important;
+}
+
+#app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.content.flex-spacer.flex-horizontal>div.flex-spacer.flex-vertical>div.messagesWrapper-3lZDfY>div>div>div.message-group.hide-overflow>div.comment>div>div.accessory>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignStretch-DpGPf3.noWrap-3jynv6.guildInfo-1STtYi>div.guildDetail-1nRKNE.small-29zrCQ.size12-3R0845.height16-2Lv3qA.weightSemiBold-NJexzi>div>span:nth-child(4) {
+  color: var(--M-Colour);
+}
+
+#app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.content.flex-spacer.flex-horizontal>div.flex-spacer.flex-vertical>div.messagesWrapper-3lZDfY>div>div>div.message-group.hide-overflow>div.comment>div>div.accessory>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignStretch-DpGPf3.noWrap-3jynv6.guildInfo-1STtYi>div.guildDetail-1nRKNE.small-29zrCQ.size12-3R0845.height16-2Lv3qA.weightSemiBold-NJexzi>div>span:nth-child(4):before {
+  color: var(--M-Colour);
+  content: " Out  Of  "
+}
+
+#app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr>div.container-2Thooq>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6>div.button-2b6hmh>svg>path {
+  display: none;
+}
+
+#app-mount>div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3>div:nth-child(4)>svg, #app-mount>div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3>div.winButtonClose-1HsbF-.winButton-iRh8-Z.center-1MLNrE.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs>svg>polygon, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg:nth-child(1)>g>path, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg:nth-child(2)>g>path.iconForeground-2c7s3m, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg.iconActive-AKd_jq.icon-1R19_H.iconMargin-2YXk4F>g>path, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg:nth-child(6)>path, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg:nth-child(7)>g, .foreground-2W-aJk, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.titleText-3X-zRE>span>svg>path, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.container-PNkimc>div.scrollerWrap-2lJEkd.scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW.scrollerFade-28dRsO>div>div.container-5>div:nth-child(3)>div>div>div:nth-child(1)>svg>path.background-2OVjk_, #app-mount>div.theme-dark.popouts>div>div>div.body-3rkFrF>div:nth-child(1)>svg>path, #app-mount>div.theme-dark.popouts>div>div>div.body-3rkFrF>div:nth-child(3)>svg>path {
+  fill: var(--M-Colour) !important;
+}
+
+#app-mount>div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3>div:nth-child(3)>svg>rect, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.container-PNkimc>div.flexChild-1KGW5q>div>header>svg>g>path:nth-child(2), #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.container-PNkimc>div.flexChild-1KGW5q>div>header>svg>g>path:nth-child(3) {
+  stroke: var(--M-Colour) !important;
+}
+
+.app-2rEoOp {
+  --guild-column-count: calc(26 / 17);
+}
+
+.large-3ChYtB:not(.popout-2fzvxG), .app, .appMount-3VJmYg, .appMount-3lHmkl {
+  background-visibility: hidden!important;
+}
+
+.appMount-3VJmYg, .appMount-3lHmkl {
+  background: Var(--Title-Background)50% 50%/cover !important;
+  background-color: rgba(0, 0, 0, var(--Background-Brightness)) !important;
+}
+
+.appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O, .appMount-3lHmkl .popout-3sVMXz.popoutTopLeft-b5Eb3O {
+  height: 35vh !important;
+  top: 5vh!important;
+}
+
+.appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O, .appMount-3lHmkl .popout-3sVMXz.popoutTopLeft-b5Eb3O {
+  animation: 500ms DropDown 1 linear;
+}
+
+.appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O, .appMount-3lHmkl .popout-3sVMXz.popoutTopLeft-b5Eb3O {
+  top: 5vh!important;
+  height: 35vh !important;
+  border: 0.5px solid var(--Main-Colour) !important;
+}
+
+.inner-1W0Bkn {
+  border-radius: 0px;
+}
+
+/* ======================================Canary fix for 2019-01-12 I hope====================================== */
+
+.tooltip-1OS-Ti.black-2bmmnj {
+  background: linear-gradient(to top, var(--M-Colour), var(--Background-Colour), var(--Background-Colour), var(--M-Colour));
+}
+
+.tooltip-1OS-Ti.right-KM_vfY {
+  margin-left: 8px;
+}
+
+.tooltip-1OS-Ti {
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .2);
+  -webkit-box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .2);
+  box-sizing: border-box;
+  color: var(--Main-Colour);
+  contain: layout;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  max-width: 190px;
+  padding: 8px 12px;
+  position: absolute;
+  word-wrap: break-word;
+  z-index: 1002;
+}
+
+.tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY:after {
+  border-right-color: var(--Background-Colour);
+}
+
+.tooltip-1OS-Ti.right-KM_vfY:after {
+  margin-top: -5px;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+}
+
+.tooltip-1OS-Ti:after {
+  border: 5px solid transparent;
+  content: " ";
+  height: 0;
+  pointer-events: none;
+  width: 0;
 }
