@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 @import url(https://cmpdc.github.io/bdtf/themes/FullScreenStatusPicker/fullScreenStatusPicker.theme.css);
 :root{
-  --Update-Text: " Update #236 ";
+  --Update-Text: " Update #237 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -25,7 +25,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Misc bug fixes, yep theres more.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.BUG FIXES *Discord server burns wile update is pushed*.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -9484,4 +9484,78 @@ border: 0.5px solid var(--Main-Colour) !important;
 .theme-dark .annualDiscount-1VxngV, .theme-light .annualDiscount-1VxngV {
   background-color: var(--S-Colour);
   color: var(--Main-Colour);
+}
+
+.channel-2QD9_O.selected-1HYmZZ .name-2WpE7M,.channel-2QD9_O:hover .name-2WpE7M {
+  white-space: nowrap !important;
+}
+
+.icon-3nr6O-,.icon-29PTzq{
+  opacity: 1;
+}
+
+.searchBar-2_Yu-C .searchBarInner-1_Tg2R,.searchBar-2_Yu-C,.theme-dark .search-2oPWTC .searchBar-3dMhjb{
+ background: var(--S-Colour);
+}
+
+.theme-dark .header-13MUnb,.theme-dark .contentUnread-3gTHvA,.theme-dark .contentDefault-16dKSY, .theme-light .resultFocused-2geRUA,.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2,.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm,.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ,.theme-dark .subsectionHeader-1SVMaW,.theme-dark .featuredGame-1EfWhT,.theme-dark .itemDescription-234GLf, .theme-dark .title-1Qzsze{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .contentDefault-16dKSY .note-S--UP5,.theme-dark .contentUnread-3gTHvA .note-S--UP5{
+  color: var(--M-Colour);
+}
+
+.theme-dark .search-2oPWTC .searchBar-3dMhjb .public-DraftEditorPlaceholder-root{
+  color: var(--M-Colour);
+}
+
+.theme-dark .container-3gCOGc{
+  background: transparent;
+}
+
+.tabBar-1E2ExX .primary-3j8BhM,.searchBar-2_Yu-C.searchBarLight-1NxoDG{
+  background-color: var(--S-Colour)!important;
+}
+
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d{
+  border-bottom-color: var(--M-Colour);
+}
+
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumnSeparator-3MqtMA{
+  background-color: var(--M-Colour);
+}
+
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover{
+  background: var(--S-Colour);
+}
+
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud {
+  border: 1px solid transparent;
+}
+
+.theme-dark .grandfatheredMessage-1BnHtv {
+  background-image: linear-gradient(270deg,var(--S-Colour),var(--S-Colour));
+  color: var(--Main-Colour);
+}
+
+.searchBar-2_Yu-C.searchBarLight-1NxoDG input {
+  color: var(--M-Colour);
+}
+
+.searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
+  background-color: var(--S-Colour);
+}
+
+.scroller-2FKFPG{
+  background: transparent;
+}
+
+.top-28JiJ- .item-PXvHYJ,.theme-dark .top-28JiJ- .itemSelected-1qLhcL {
+  color: var(--M-Colour) !important;
+  background: linear-gradient(to bottom, var(--M-Colour), var(--Background-Colour), var(--M-Colour)) !important;
+}
+
+.theme-dark .top-28JiJ- .itemSelected-1qLhcL{
+  border-color: var(--Main-Colour)!important;
 }
