@@ -9,9 +9,8 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 */
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
-@import url(https://cmpdc.github.io/bdtf/themes/FullScreenStatusPicker/fullScreenStatusPicker.theme.css);
 :root{
-  --Update-Text: " Update #238 ";
+  --Update-Text: " Update #239 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -25,7 +24,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Canary fixes? *Discord server burns wile update is pushed*.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Reverted status picker.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -9331,12 +9330,6 @@ border: 0.5px solid var(--Main-Colour) !important;
   border: 1px solid var(--Main-Colour);
 }
 
-.notSelected-1N1G5p:hover{
-  background: var(--Background-Colour)!important;
-  color: var(--Main-Colour);
-  border: 1px solid var(--Main-Colour);
-}
-
 .notSelected-1N1G5p{
   background: var(--S-Colour);
   color: var(--M-Colour);
@@ -9709,4 +9702,154 @@ border: 0.5px solid var(--Main-Colour) !important;
   height: 0;
   pointer-events: none;
   width: 0;
+}
+
+/*  */
+
+.guild-1EfMGQ .avatar-S_nsxk {
+  height: 40px;
+  width: 40px;
+}
+
+.theme-dark .option-96V44q.selected-rZcOL-:after {
+  background: transparent;
+}
+
+.theme-dark .option-96V44q:after {
+  background: transparent;
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+  background: linear-gradient(to bottom, transparent, var(--Background-Colour), var(--Main-Colour));
+  color: var(--Main-Colour);
+}
+
+.theme-dark .search-2oPWTC .DraftEditor-root,.searchHeader-1l-wpR, .theme-dark .searchHeader-1l-wpR .tab-2Ixsn0, .theme-dark .searchHeader-1l-wpR .totalResults-gxvzgw {
+  color: var(--Main-Colour);
+}
+
+.theme-dark .searchHeader-1l-wpR {
+  background-color: var(--S-Colour);
+  box-shadow: 0 1px 0 var(--M-Colour);
+}
+
+.theme-dark .searchResultsWrap-2DKFzt {
+  background-color: var(--S-Colour);
+}
+
+.theme-dark .searchHeader-1l-wpR .tab-2Ixsn0.selected-16te-P, .theme-dark .searchHeader-1l-wpR .tab-2Ixsn0:hover{
+  border-bottom: 2px solid var(--Main-Colour);
+}
+
+.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {
+  background: transparent;
+  color: var(--Main-Colour);
+}
+
+.theme-dark .channelSeparator-1X1FuH:before {
+  border-color: var(--M-Colour);
+}
+
+.channelSeparator-1X1FuH:before {
+  border-bottom: 1px solid var(--M-Colour);
+}
+
+.theme-dark .searchResult-3pzFAB:before,.searchResult-3pzFAB:before,.theme-dark .searchResult-3pzFAB:after,.searchResult-3pzFAB:after {
+  background-image: linear-gradient(360deg,transparent,transparent);
+}
+
+.theme-dark .searchResult-3pzFAB .hit-NLlWXA {
+  background-color: var(--S-Colour);
+  box-shadow: 0 0 5px 3px var(--M-Colour);
+  transition: all 200ms;
+}
+
+.theme-dark .searchResult-3pzFAB .hit-NLlWXA:hover {
+  background-color: var(--S-Colour);
+  box-shadow: 0 0 10px 6px var(--Main-Colour);
+  transition: all 200ms;
+}
+
+.theme-dark .jumpButton-Ia2hRJ {
+  background-color: var(--S-Colour);
+  color: var(--M-Colour);
+  border: 1px solid var(--M-Colour);
+}
+
+.theme-dark .jumpButton-Ia2hRJ:hover {
+  background-color: var(--S-Colour);
+  color: var(--Main-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz {
+  border: 2px solid var(--M-Colour);
+  transition: all 200ms;
+}
+
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz:hover {
+  border: 2px solid var(--Main-Colour);
+  transition: all 200ms;
+}
+
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
+  -webkit-box-sizing: border-box;
+  background-color: var(--S-Colour);
+  border-bottom: 2px solid var(--M-Colour);
+  border-top: 2px solid var(--M-Colour);
+  box-sizing: border-box;
+}
+
+.top-28JiJ- .item-PXvHYJ, .theme-dark .top-28JiJ- .itemSelected-1qLhcL {
+  color: var(--M-Colour) !important;
+  background: linear-gradient(to top, var(--M-Colour), var(--Background-Colour), var(--Background-Colour), var(--M-Colour))!important;
+  border-radius: 25%;
+  height: 50%;
+  transition: all 200ms;
+}
+
+.theme-dark .top-28JiJ- .itemSelected-1qLhcL {
+  border-bottom-color: var(--Main-Colour);
+  color: var(--Main-Colour) !important;
+  background: linear-gradient(to top, var(--Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Main-Colour))!important;
+  border-radius: 25%;
+  height: 50%;
+  transition: all 200ms;
+}
+
+.notSelected-1N1G5p:hover {
+  background: linear-gradient(to top, var(--Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Main-Colour))!important;
+  color: var(--M-Colour);
+  border-bottom: 2px solid var(--Main-Colour)!important;
+  transition: all 200ms;
+}
+
+.tabBarItem-1b8RUP{
+  margin-right: 2%
+}
+
+.theme-dark .note-3kmerW textarea:focus {
+  background-color: var(--S-Colour)!important;
+}
+
+.theme-dark .listRow-hutiT_:hover {
+  background: linear-gradient(to bottom, var(--Main-Colour), transparent, transparent, var(--Main-Colour));
+  color: var(--Main-Colour);
+  transition: all 200ms;
+}
+
+.theme-dark .listRow-hutiT_ {
+  transition: all 200ms;
+}
+
+.tabBar-2MuP6-{
+  height: 50%;
+}
+
+.guildNick-3uAm3i{
+  color: var(--Main-Colour);
+}
+
+.buttonWrapper-1ZmCpA[tabindex="3"]{
+  display: none!important;
 }
