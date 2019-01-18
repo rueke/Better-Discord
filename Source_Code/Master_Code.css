@@ -10,7 +10,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root{
-  --Update-Text: " Update #241 ";
+  --Update-Text: " Update #242 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -24,7 +24,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Updated Animations.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug fixes.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -2355,7 +2355,7 @@ spinner-pulsing-ellipsis .spinner-item {
 
 /* Keyframs */
 
-@keyframes DropDown {
+/* @keyframes DropDown {
   from {
       transform: translate(0, 100vh);
       opacity: 0;
@@ -2364,7 +2364,7 @@ spinner-pulsing-ellipsis .spinner-item {
       transform: translate(0, 0);
       opacity: 1;
   }
-}
+} */
 
 @keyframes Notif {
   from, to {
@@ -2662,6 +2662,40 @@ div.tab-bar-item.selected {
   width: 50px;
   transform: rotate(180deg) !important;
   background-color: var(--Main-Colour) !important;
+}
+
+.checkbox-3kaeSU span {
+  color: #a6a6a6;
+  padding-left: 30px;
+  margin-top: 3px !important;
+  margin-bottom: 3px !important;
+  transition: 500ms all;
+}
+
+.checkbox-3kaeSU .checkboxInner-3yjcPe span {
+  border-radius: 10px;
+  height: 22px;
+  width: 50px;
+  padding-bottom: 11px;
+  background-color: #a8a8a8 !important;
+  background-image: url(https://nfld99.com/Bkg/XVZz4KO.png) !important;
+  background-size: 44%;
+  background-repeat: no-repeat;
+  border: none;
+  transition: 500ms all;
+}
+
+.checkbox-3kaeSU .checkboxInner-3yjcPe input[type=checkbox]:checked+span:after {
+  margin-left: 15px !important;
+  border: none !important;
+  transition: 500ms all;
+}
+
+.checkbox-3kaeSU .checkboxInner-3yjcPe input[type=checkbox]:checked+span {
+  width: 50px;
+  transform: rotate(180deg) !important;
+  background-color: var(--Main-Colour) !important;
+  transition: 500ms all;
 }
 
 div.avatar-uploader-inner {
@@ -4622,10 +4656,10 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
   border: 1px Solid var(--M-Colour);
 }
 
-.popout-3sVMXz {
+/* .popout-3sVMXz {
   min-height: 96px!important;
   min-width: 216px!important;
-}
+} */
 
 .menu-Sp6bN1 /*, .item-1GzJrl */{
   color:var(--M-Colour);
@@ -5732,7 +5766,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .foldercontent{
-  width: 50.5px!important;
+  width: 64px!important;
+  border-radius: 4px;
 }
 
 .guilds-1q_RqH {
@@ -9145,9 +9180,9 @@ color: var(--M-Colour)!important;
   color: var(--Main-Colour)!important;
 }
 
-.appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O, .appMount-3lHmkl .popout-3sVMXz.popoutTopLeft-b5Eb3O{
+/* .appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O, .appMount-3lHmkl .popout-3sVMXz.popoutTopLeft-b5Eb3O{
   animation: 500ms DropDown 1 linear;
-}
+} */
 
 .theme-dark .callAvatarWrapper-TICyxO .ripple-16ZT2p {
   background-color: var(--Main-Colour)!important;
@@ -9394,7 +9429,6 @@ border: 0.5px solid var(--Main-Colour) !important;
 .notSelected-1N1G5p{
   background: var(--S-Colour);
   color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
 }
 
 .theme-dark .directoryHeroPrice-1_MqzA, .theme-dark .directoryHeroPricePremium-tR0nU8,.theme-dark .description-2XMjXn,.theme-dark .description-3rB3Rp,.theme-dark .redemptionHeader-3FSfP7,.theme-dark .emptyStateHeader-1ADtcL, .theme-dark .header-2HrZI4,.theme-dark .inputPrompt-1vnYnD,.theme-dark .nameCellText-Ubz8FY,.theme-dark .title-i-qCkH,.theme-dark .header-1fmANI{
@@ -9475,7 +9509,6 @@ border: 0.5px solid var(--Main-Colour) !important;
 #bd-settings-sidebar .ui-tab-bar-item.selected,.side-8zPYf6 .itemSelected-1qLhcL {
   color: var(--Main-Colour) !important;
   background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Notification-Colour)) !important;
-  border: 1px solid var(--M-Colour);
 }
 
 .theme-dark .separator-gCa7yv,#bd-settings-sidebar .ui-tab-bar-separator{
@@ -9693,7 +9726,7 @@ border: 0.5px solid var(--Main-Colour) !important;
 
 .appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O, .appMount-3lHmkl .popout-3sVMXz.popoutTopLeft-b5Eb3O {
   border: 0.5px solid var(--Main-Colour) !important;
-  animation: 500ms DropDown 1 linear;
+  /* animation: 500ms DropDown 1 linear; */
 }
 
 .inner-1W0Bkn {
@@ -9852,7 +9885,6 @@ border: 0.5px solid var(--Main-Colour) !important;
 }
 
 .theme-dark .top-28JiJ- .itemSelected-1qLhcL {
-  border-bottom-color: var(--Main-Colour);
   color: var(--Main-Colour) !important;
   background: linear-gradient(to top, var(--Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Main-Colour))!important;
   border-radius: 25%;
@@ -9863,7 +9895,6 @@ border: 0.5px solid var(--Main-Colour) !important;
 .notSelected-1N1G5p:hover {
   background: linear-gradient(to top, var(--Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Main-Colour))!important;
   color: var(--M-Colour);
-  border-bottom: 2px solid var(--Main-Colour)!important;
   transition: all 200ms;
 }
 
