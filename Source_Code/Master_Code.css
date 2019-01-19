@@ -9695,7 +9695,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   background: var(--M-Colour)!important;
 }
 
-.theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .joinedAtDate, .theme-dark [class*='topSection'] .joinedAtDate {
+.theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .joinedAtDate, .theme-dark [class*='topSection'] .joinedAtDate, .theme-light .header-2BwW8b:not(.headerNormal-T_seeN) .joinedAtDate, .theme-dark .header-2BwW8b .joinedAtDate {
   color: var(--Main-Colour);
 }
 
@@ -10082,10 +10082,6 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .guildNick-3uAm3i {
   color: var(--Main-Colour);
-}
-
-.buttonWrapper-1ZmCpA[tabindex="3"] {
-  display: none!important;
 }
 
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO {
