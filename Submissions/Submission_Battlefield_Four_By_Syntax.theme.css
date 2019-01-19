@@ -1,5 +1,8 @@
 ﻿//META{"name":"Battlefield_Four","description":"Battlefield 4 theme created by Syntax using NFLD99's template.    |   Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |  Website: https://nfld99.com/","author":"Syntax","version":"ersion auto updates"}*//{} 
+
+/* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Guild Rows */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_1_Guild_Row/No.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_2_Guild_Rows/Yes.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_3_Guild_Rows/No.css);
@@ -7,19 +10,34 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_5_Guild_Rows/No.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_6_Guild_Rows/No.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_7_Guild_Rows/No.css);
+/* Animations */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Animations/No.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Fonts/Yes.css);
+/* Minimal Mode */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Minimal/No.css);
+/* Settings Dock */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Popup/Yes.css);
+/* Channels */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Chat_Title_Bar/No.css);
+/* Guild List */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Guilds/No.css);
+/* Invites */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Invites/No.css);
+/* Member List */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Members/No.css);
+/* Windows Bar */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Offline/No.css);
+/* User Popout Footer */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Popout_Footer/Yes.css);
- @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Transparency/No.css);
+ 
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Transparency/No.css);
+
 :root {
   --Main-Colour: rgba(255,255,255,1);
   --Background-Colour: rgba(50,50,50,1);
@@ -51,11 +69,7 @@
   --Timestamp-Colour: var(--M-Colour);
   --Background-Brightness: 0.48;
 }
-
 ::-webkit-input-placeholder, body, button, input, select, textarea {  font-family: Electrolize,sans-serif;}
-
 .textArea-2Spzkt {  font-size: 17px;}
-
 .wrapper-232cHJ {  background-color: rgb(235,90,35);  color: rgb(255,255,255);  font-size: 13px;}
-
 .badge-1GsMF2 {  border: 1px solid rgba(235,90,35,0.69);}
