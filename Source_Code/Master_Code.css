@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root {
-  --Update-Text: " Update #244 ";
+  --Update-Text: " Update #245 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -26,7 +26,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Updated animation.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New Settings Layout.</text><text y="160" style="font-size: 1.1em;" x="37">2.Added plugin tags for supported plugins (well some of them).</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -48,6 +48,34 @@ body:before {
   position: absolute;
   top: 0;
   z-index: 9997;
+  color: var(--Main-Colour);
+}
+
+[data-name="AccountDetailsPlus"]:after,
+[data-name="AutoStartRichPresence"]:after,
+[data-name="BetterFormattingRedux"]:after,
+[data-name="BetterFriendCount"]:after,
+[data-name="Channel History"]:after,
+[data-name="Character Counter"]:after,
+[data-name="CreationDate"]:after,
+[data-name="Direct-Download"]:after,
+[data-name="Discord Experiments"]:after,
+[data-name="EditUsers"]:after,
+[data-name="Extended Context Menu"]:after,
+[data-name="GoogleTranslateOption"]:after,
+[data-name="Guild Counter"]:after,
+[data-name="JoinedAtDate"]:after,
+[data-name="MemberCount"]:after,
+[data-name="PinDMs"]:after,
+[data-name="PluginRepo"]:after,
+[data-name="Quoter"]:after,
+[data-name="ReverseImageSearch"]:after,
+[data-name="RoleMembers"]:after,
+[data-name="SendLargeMessages"]:after,
+[data-name="ServerFolders"]:after,
+[data-name="ShowHiddenChannels"]:after,
+[data-name="User Avatar And Server Icon Viewer"]:after {
+  content: " (✔) Plugin has Theme Support (✔) ";
   color: var(--Main-Colour);
 }
 
@@ -5570,7 +5598,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 */
 
 .container-2VW0UT {
-  background: var(--Background-Colour);
+  background: var(--Background-Colour)!important;
   border: 1px solid var(--M-Colour);
 }
 
@@ -10104,4 +10132,77 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .mobileIndicator-3gyhuE, .theme-dark .mobileIndicator-U-7hTl {
   color: var(--Main-Colour);
+}
+
+/* 
+.button-38aScr[tabindex="2"], [Gift] {
+  display: none;
+}
+
+.button-38aScr[tabindex="3"], [Gif] {
+  display: none;
+}
+
+.button-38aScr[tabindex="4"], [Emote] {
+  display: none;
+}
+
+.button-38aScr[tabindex="5"], [Upload] {
+  display: none;
+} 
+*/
+
+.theme-dark .otDetected-33MY4s .gameName-1RiWHm, .theme-light .notDetected-33MY4s .gameName-1RiWHm,.theme-dark .lastPlayed-3bQ7Bo, .theme-dark .overlayStatusText-L2IACa,.theme-dark .notDetected-33MY4s .lastPlayed-3bQ7Bo, .theme-light .notDetected-33MY4s .lastPlayed-3bQ7Bo,.theme-dark .nowPlayingAdd-1Kdmh_, .theme-light .nowPlayingAdd-1Kdmh_,.theme-dark .gameName-1RiWHm,.theme-dark .nowPlaying-284llR .gameName-1RiWHm, .theme-light .nowPlaying-284llR .gameName-1RiWHm,.theme-dark .nowPlaying-284llR .lastPlayed-3bQ7Bo, .theme-dark .nowPlaying-284llR .overlayStatusText-L2IACa, .theme-light .nowPlaying-284llR .lastPlayed-3bQ7Bo, .theme-light .nowPlaying-284llR .overlayStatusText-L2IACa{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s,.theme-dark .nowPlaying-284llR, .theme-light .nowPlaying-284llR{
+  background: var(--S-Colour);
+}
+
+.gameVerifiedIcon-2dGGa5:after {
+  content: "(✔)";
+  color: var(--Main-Colour);
+}
+
+.gameVerifiedIcon-2dGGa5 {
+  background-image: none!important;
+}
+
+.theme-dark .gameNameInput-385LoS:focus, .theme-dark .gameNameInput-385LoS:hover {
+  background-color: var(--S-Colour);
+  border-color: var(--M-Colour);
+}
+
+#user-settings > div > div > div.sidebarRegion-VFTUkN > div > div > div > div > div.itemSelected-1qLhcL.item-PXvHYJ.selected-3s45Ha:after,
+#bd-settings-sidebar > span > div > div.ui-tab-bar-item.selected:after {
+  content: " (✔)";
+  color: var(--Main-Colour);
+  transition: all 200ms;
+}
+
+#user-settings > div > div > div.sidebarRegion-VFTUkN > div > div > div > div > div.itemSelected-1qLhcL.item-PXvHYJ.selected-3s45Ha {
+box-shadow: 1px 1px 15px var(--Main-Colour)!important;
+transition: all 200ms;
+}
+
+#bd-settings-sidebar .ui-tab-bar-item.selected, .side-8zPYf6 .itemSelected-1qLhcL,.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, .contentHoveredVoice-3p_NEO, .contentSelectedVoice-1WDIBM,.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
+  color: var(--Main-Colour) !important;
+  background: var(--S-Colour) !important;
+  transition: all 200ms;
+}
+
+.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover{
+  box-shadow: 1px 1px 15px var(--Main-Colour)!important;
+  transition: all 200ms;
+}
+
+.side-8zPYf6 .itemDefault-3Jdr52,#bd-settings-sidebar > span > div > div.ui-tab-bar-item.selected{
+  box-shadow: 1px 1px 5px var(--M-Colour)!important;
+  transition: all 200ms;
+}
+
+.guild-1EfMGQ .selected-ML3OIq{
+  box-shadow: 0px 0px 15px 0px var(--Main-Colour);
+  border-radius: 15px;
 }
