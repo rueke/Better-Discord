@@ -2,14 +2,6 @@
 
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
-/* Guild Rows */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_1_Guild_Row/Yes.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_2_Guild_Rows/No.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_3_Guild_Rows/No.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_4_Guild_Rows/No.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_5_Guild_Rows/No.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_6_Guild_Rows/No.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_7_Guild_Rows/No.css);
 /* Animations */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Animations/No.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
@@ -65,9 +57,11 @@
   --load1: "NEKOPARA";
   --load2: "Sleeping";
   --load3: "Kitties";
-  --Background-Brightness: 0.65;
-  --Timestamp-Colour: rgba(255, 183, 197, 1);
   --Settings-Dock-Colour: rgba(255, 228, 233, 1);
+  --Timestamp-Colour: rgba(255, 183, 197, 1);
+  --Guild-Rows: 2;
+  --Chat-Avatar-Border-Radius: 10%;
+  --Background-Brightness: 0.65;
 }
 
 /* Embeds Discord Default Behavior */
@@ -85,4 +79,16 @@
 .theme-dark .members-1998pB{
   background:url(https://i.imgur.com/EamoHtd.png) 50% 50%/cover;
 }
+/* END */
+
+/* Get rid of Gift Nitro and GIF buttons */
+/*
+.button-38aScr[tabindex="2"]{
+  display: none;
+}
+
+.button-38aScr[tabindex="3"]{
+  display: none;
+}
+*/
 /* END */
