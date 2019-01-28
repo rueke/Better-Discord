@@ -2,14 +2,6 @@
 
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
-/* Guild Rows */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_1_Guild_Row/Yes.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_2_Guild_Rows/No.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_3_Guild_Rows/No.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_4_Guild_Rows/No.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_5_Guild_Rows/No.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_6_Guild_Rows/No.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_7_Guild_Rows/No.css);
 /* Animations */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Animations/No.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
@@ -66,5 +58,7 @@
   --load2: "Please Enjoy!";
   --load3: "➢Satela *Invidia*";
   --Timestamp-Colour: var(--M-Colour);
+  --Guild-Rows: 2;
+  --Chat-Avatar-Border-Radius: 10%;
   --Background-Brightness: 0.5;
 }

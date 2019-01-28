@@ -1,11 +1,12 @@
-
+/* Credit to MasicoreLord#5338 (197435711476072449) */
 .guildsWrapper-5TJh6A {
-  width: calc(var(--columns) * 57.5px)
+  width: calc(var(--Guild-Rows) * 65px)
 }
 
 .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv {
-  width: calc(var(--columns) * 65px)!important;
+  width: calc(var(--Guild-Rows) * 64px)!important;
 }
+/* Credit to MasicoreLord#5338 (197435711476072449) */
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH {
   display: flex;
