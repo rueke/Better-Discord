@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root {
-  --Update-Text: " Update #247 ";
+  --Update-Text: " Update #248 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -26,7 +26,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Major Overhaul, please redownload..</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed a minor bug withthe new grid X3.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Themed new server tab.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed a join create guild popup.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -10341,4 +10341,110 @@ transition: all 200ms;
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV:empty {
   display: none;
+}
+
+.guildsDiscoverInner-wC7iEN{
+  top: -2px;
+}
+
+.guildsDiscoverInner-wC7iEN:not(:hover){
+  color: var(--M-Colour)
+}
+
+.theme-dark .pageWrapper-1PgVDX {
+  background-color: transparent;
+  color: var(--Main-Colour);
+}
+
+.bg-AYqtMd,.emptySearchResults-1ba__I{
+  display: none;
+}
+
+.theme-dark .memberInfo-3r4FKx, .theme-light .memberInfo-3r4FKx,.theme-dark .title-OqQvkN, .theme-light .title-OqQvkN,.theme-light .description-Bw8krY,.theme-light .sampleLink-KPFu3I,.theme-light .inputLabel-vJ2Z0B,.avatarUploader-3XDtmn .sizeInfo-SKMPPw,.theme-light .helpText-h3r3wC, .theme-light .label-wQQoIq,.avatarUploaderInner-3UNxY3>*,.theme-dark .finePrint-xGGTK5{
+  color: var(--Main-Colour)
+}
+
+.theme-dark .guildsAdd-21_IdK.selected-ML3OIq, .theme-dark .guildsAdd-21_IdK:hover{
+  border-color: var(--Main-Colour);
+}
+
+.theme-dark .header-3ZP1MY, .theme-light .header-3ZP1MY{
+  display: none;
+}
+
+.theme-dark .action-1lSjCi, .theme-light .action-1lSjCi{
+  background: var(--S-Colour);
+  border: none;;
+  box-shadow: 0 2px 4px rgba(0,0,0,0);
+  padding-top: 33%;
+}
+
+.theme-dark .or-3THJsp, .theme-light .or-3THJsp,.theme-dark .join-33Tr-7 .actionIcon-2IISM_, .theme-light .join-33Tr-7 .actionIcon-2IISM_,.theme-dark .create-3jownz .actionIcon-2IISM_, .theme-light .create-3jownz .actionIcon-2IISM_,.theme-dark .actionBody-1qj65C, .theme-light .actionBody-1qj65C,.theme-dark .join-33Tr-7 .actionHeader-2CT5c7, .theme-light .join-33Tr-7 .actionHeader-2CT5c7,.theme-dark .create-3jownz .actionHeader-2CT5c7, .theme-light .create-3jownz .actionHeader-2CT5c7,.theme-dark .title-2CFvp_,#app-mount > div:nth-child(5) > div.modal-1UGdnR > div.inner-1JeGVc > div > div > div > form > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.content-2BXhLs.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div.instructions-3xkbTC > p:nth-child(3),.cancelButton-RGXhAE:before,.theme-light .title-2Dc-Cb,.theme-light .description-QF3836 {
+  display: none;
+}
+
+.theme-dark .slideBody-2nMrnU, .theme-light .slideBody-2nMrnU {
+  background-image: none;
+}
+
+.actions-pBaxX6{
+  height: auto;
+}
+
+.theme-dark .actionButton-2PeQbJ, .theme-light .actionButton-2PeQbJ{
+  background: var(--S-Colour)!important;
+  color: var(--M-Colour)!important;
+  border: 1px solid var(--M-Colour);
+  transition: all 200ms;
+}
+
+.theme-dark .actionButton-2PeQbJ:hover, .theme-light .actionButton-2PeQbJ:hover {
+  background: var(--S-Colour)!important;
+  color: var(--Main-Colour)!important;
+  border: 1px solid var(--Main-Colour);
+  transition: all 200ms;
+}
+
+#app-mount > div:nth-child(5) > div.modal-1UGdnR > div.inner-1JeGVc > div > div > div > form > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.content-2BXhLs.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div.instructions-3xkbTC > p:nth-child(4),#app-mount > div:nth-child(5) > div.modal-1UGdnR > div.inner-1JeGVc > div > div > div > form > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.content-2BXhLs.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div.instructions-3xkbTC > p:nth-child(2){
+  font-size: 0;
+}
+
+#app-mount > div:nth-child(5) > div.modal-1UGdnR > div.inner-1JeGVc > div > div > div > form > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.content-2BXhLs.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div.instructions-3xkbTC > p:nth-child(4):after{
+  font-size: initial;
+  content: "kWRYPrq";
+}
+
+#app-mount > div:nth-child(5) > div.modal-1UGdnR > div.inner-1JeGVc > div > div > div > form > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.content-2BXhLs.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div.instructions-3xkbTC > p:nth-child(2):after{
+  font-size: initial;
+  content: "https://discord.gg/kWRYPrq";
+}
+
+.theme-dark .footer-2yfCgX {
+  box-shadow: inset 0 1px 0 var(--M-Colour);
+}
+
+.theme-light .cancelButton-RGXhAE{
+  color: var(--M-Colour);
+}
+
+.theme-light .cancelButton-RGXhAE:hover{
+  color: var(--Main-Colour);
+}
+
+.theme-light .cancelButton-RGXhAE:hover {
+  border-bottom-color: var(--Main-Colour);
+}
+
+.avatar-21196O {
+  border: none;
+}
+
+.avatarUploaderInner-3UNxY3{
+  height: 40px;
+  width: 40px;
+  background-color: var(--M-Colour);
+}
+
+.theme-dark .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce, .theme-dark .regionSelect-3lf4eE:hover button, .theme-light .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce, .theme-light .regionSelect-3lf4eE:hover button{
+  border-color: var(--Main-Colour);
 }
