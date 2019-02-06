@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root {
-  --Update-Text: " Update #250 ";
+  --Update-Text: " Update #251 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -26,7 +26,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed bug with chat box not going back to a normal size.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed bug with chat box not going back to a normal size.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed bug with embed spoilers.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -158,11 +158,11 @@ body:before {
 }
 
 .native-toolbar .titlebar:after {
-  content: var(--Theme-Variant)var(--Update-Text);
+  content: ", " var(--Theme-Variant) ", " var(--Update-Text);
   position: absolute;
   left: 5px;
   bottom: 3px;
-  color: Var(--M-Colour) !important;
+  color: Var(--Main-Colour) !important;
 }
 
 .appMount-3VJmYg, .appMount-3lHmkl {
@@ -3864,8 +3864,8 @@ div.form-inner, .form-actions {
 }
 
 .wordmark-2iDDfm:after {
-  content: var(--Theme-Variant)var(--Update-Text);
-  color: Var(--M-Colour) !important;
+  content: var(--Theme-Variant) ", " var(--Update-Text);
+  color: Var(--Main-Colour) !important;
   font-size: 13px;
   font-weight: 700;
   position: absolute;
@@ -10497,4 +10497,8 @@ transition: all 200ms;
 
 .textArea-2Spzkt{
   resize: both;
+}
+
+.embedDescription-1Cuq9a > [aria-label="Spoiler"]{
+  line-height: 1.5rem;
 }
