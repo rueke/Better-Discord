@@ -43,7 +43,7 @@ body:before {
   border-radius: 5px;
   padding: 5px 15px;
   transform: translate(-50%, -100%);
-  animation: Notif 4s ease-in-out, CLog 10s infinite linear;
+  animation: Notif 4s , CLog 10s infinite linear;
   text-align: center;
   position: absolute;
   top: 0;
@@ -81,7 +81,7 @@ body:after {
   border-radius: 5px;
   padding: 5px 15px;
   transform: translate(-50%, -100%);
-  animation: Notif2 4s infinite ease-in-out, CLog 10s infinite linear;
+  animation: Notif2 4s ease-in-out, CLog 10s infinite linear;
   text-align: center;
   position: absolute;
   top: 0;
