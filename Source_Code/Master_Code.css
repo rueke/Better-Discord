@@ -231,7 +231,6 @@ body:after {
 .app {
   background: var(--Chat-Background) 50% 50%/cover !important;
   animation: Load4 3s 1 linear, var(--StartUp) 3s 1 linear;
-  font-family: var(--Chat-Font-Used)!important;
 }
 
 .app:not(.popout section) {
@@ -9892,7 +9891,14 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 .app-2rEoOp {
   background: var(--Chat-Background) 50% 50%/cover !important;
   animation: Load4 3s 1 linear, var(--StartUp) 3s 1 linear;
+}
+
+*:not([class*="hljs"]):not(code){
   font-family: var(--Chat-Font-Used)!important;
+}
+
+.markup:not(code) {
+  font-size: var(--Chat-Font-Size)!important;
 }
 
 .app-2rEoOp:not(.popout section) {
