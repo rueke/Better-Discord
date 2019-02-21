@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root {
-  --Update-Text: " Update #247 ";
+  --Update-Text: " Update #258 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -26,7 +26,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Major Overhaul, please redownload..</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed a minor bug withthe new grid X3.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Changed input box</text><text y="160" style="font-size: 1.1em;" x="37">2. added replyer support</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -43,13 +43,55 @@ body:before {
   border-radius: 5px;
   padding: 5px 15px;
   transform: translate(-50%, -100%);
-  animation: Notif 4s ease-in-out, CLog 10s infinite linear;
+  animation: Notif 4s , CLog 10s infinite linear;
   text-align: center;
   position: absolute;
   top: 0;
   z-index: 9997;
   color: var(--Main-Colour);
 }
+
+/* FUCK BETTERDOCS */
+
+.message-group .message .markup-2BOw-j a[href*="betterdocs."], .markup-2BOw-j>a[href*="betterdocs."] {
+  font-size: 0;
+}
+
+.message-group .message .markup-2BOw-j a[href*="betterdocs."]:after, .markup-2BOw-j>a[href*="betterdocs."]:after {
+  content: " This website is not supported please use #Theme-Repo / #Plugin-Repo. also DO NOT USE ANYTHING FROM THIS SITE";
+  color: red;
+  font-weight: bolder;
+  font-size: 15px;
+  animation: CLog 10s infinite linear;
+}
+
+[style*="icons/153708594091655168"]{
+  display:none;
+}
+
+.guild-1EfMGQ .guildInner-3DSoA4 a[aria-label="BetterDocs"]{
+  display:none;
+}
+
+body:after {
+  content: "Do Not Use Betterdocs";
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+  left: 50%;
+  border-radius: 5px;
+  padding: 5px 15px;
+  transform: translate(-50%, -100%);
+  animation: Notif2 4s ease-in-out, CLog 10s infinite linear;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  height: auto;
+  width: auto;
+  z-index: 9997;
+  color: var(--Main-Colour);
+}
+
+/* FUCK BETTERDOCS */
 
 [data-name="AccountDetailsPlus"]:after,
 [data-name="AutoStartRichPresence"]:after,
@@ -158,11 +200,11 @@ body:before {
 }
 
 .native-toolbar .titlebar:after {
-  content: var(--Theme-Variant)var(--Update-Text);
+  content: ", " var(--Theme-Variant) ", " var(--Update-Text);
   position: absolute;
   left: 5px;
   bottom: 3px;
-  color: Var(--M-Colour) !important;
+  color: Var(--Main-Colour) !important;
 }
 
 .appMount-3VJmYg, .appMount-3lHmkl {
@@ -2346,7 +2388,7 @@ spinner-pulsing-ellipsis .spinner-item {
   background: url(https://nfld99.com/Bkg/DOFpZY5.jpg) 50% 50%/cover !important;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" style="width:100%;height:100px;"><g style="fill: rgba(0,172,234,1); font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: rgba(0,172,234,1);">Thank you for using my theme!</text><text y="45" style="font-size: 1.1em;" x="37">Donators:</text><text y="65" style="font-size: 1.1em;" x="37">@Strato#4763.</text><text y="85" style="font-size: 1.1em;" x="37">@BLACKROOSTER#1395.</text><text y="105" style="font-size: 1.1em;" x="37">@Meowster Mewt#0817.</text><text y="125" style="font-size: 1.1em;" x="37">@mxngxxse#0666.</text><text y="145" style="font-size: 1.1em;" x="37">@TwinShadow#5717.</text><text y="165" style="font-size: 1.1em;" x="37">@Kiari#1204.</text><text y="185" style="font-size: 1.1em;" x="37">@Cpt_Corde#1945.</text><text y="205" style="font-size: 1.1em;" x="37">@FirePhox#5261.</text><text y="225" style="font-size: 1.1em;" x="37">@breadcat#6969.</text><text y="245" style="font-size: 1.1em;" x="37">@GhostieSpook#6565.</text><text y="265" style="font-size: 1.1em;" x="37">@Satela#1771.</text><text y="285" style="font-size: 1.1em;" x="37">@PoroUsedSnow#1337.</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" style="width:100%;height:100px;"><g style="fill: rgba(0,172,234,1); font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: rgba(0,172,234,1);">Thank you for using my theme!</text><text y="45" style="font-size: 1.1em;" x="37">Donators:</text><text y="65" style="font-size: 1.1em;" x="37">@BLACKROOSTER#1395.</text><text y="85" style="font-size: 1.1em;" x="37">@breadcat#6969.</text><text y="105" style="font-size: 1.1em;" x="37">@Pepsiman#1945.</text><text y="125" style="font-size: 1.1em;" x="37">@DragonStryder#7331.</text><text y="145" style="font-size: 1.1em;" x="37">@FirePhox#9737.</text><text y="165" style="font-size: 1.1em;" x="37">@GhostieFloof#6565.</text><text y="185" style="font-size: 1.1em;" x="37">@Cloud#7822.</text><text y="205" style="font-size: 1.1em;" x="37">@mxngxxse#0666.</text><text y="225" style="font-size: 1.1em;" x="37">@PoroUsedSnax#1337.</text><text y="245" style="font-size: 1.1em;" x="37">@RoV ZeRo#1337.</text><text y="265" style="font-size: 1.1em;" x="37">@Strato#4763.</text><text y="285" style="font-size: 1.1em;" x="37">@Kiari#1204.</text><text y="305" style="font-size: 1.1em;" x="37">@TwinShadow#5717.</text></g></svg>');
 }
 
 [d="M9.75,8 L15.25,8 L15.25,8 C15.6642136,8 16,7.66421356 16,7.25 L16,6.71660919 L16,6.71660919 C16,6.57385832 15.9694372,6.43276186 15.9103665,6.30280625 L13.7664532,1.58619706 L13.7664532,1.58619706 C13.6041831,1.22920277 13.2482302,1 12.8560867,1 L12.1439133,1 L12.1439133,1 C11.7517698,1 11.3958169,1.22920277 11.2335468,1.58619706 L9.08963352,6.30280625 L9.08963352,6.30280625 C9.03056279,6.43276186 9,6.57385832 9,6.71660919 L9,7.25 L9,7.25 C9,7.66421356 9.33578644,8 9.75,8 Z M13,7 L12,7 L12,6 L13,6 L13,7 Z M13,4.96118197 L12,4.96118197 L12,3 L13,3 L13,4.96118197 Z"] {
@@ -2400,6 +2442,17 @@ spinner-pulsing-ellipsis .spinner-item {
   }
   20%, 80% {
     transform: translate(-50%, 10%);
+    opacity: 1;
+  }
+}
+
+@keyframes Notif2 {
+  from, to {
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+  20%, 80% {
+    transform: translate(-50%, 112%);
     opacity: 1;
   }
 }
@@ -3724,11 +3777,22 @@ div.form-inner, .form-actions {
   content: "Made By NFLD99";
   font-size: 15px;
 } */
-
+/* water marks */
 .esc-text:after, .keybind-KpFkfr:after {
   content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAOCAYAAACfOxrCAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS4zjST9ZwAABHNJREFUSEvNVl2IVkUYHsOItL+LtP8yyqgosDAiomSpMCoDr7SwhDDtIiIqspvwpqCLoosiWIouttz2nJmzrlstrGuuSmmFIHVjXZSp++05M+dz2+wHzNyv531nzpxzvm9iP+2iXniYM+88887MMz/nFSLW2z1kdo+omtTbfJtKe5xvY61PCMqsElF2h5BmjOvSSNGXzuf+7RalD3b0Jyg9gvm8LFR+vWOWNti8AfN4D+N8BRzH9y4RZ6+JrdlFjmGt1ToD/VeAsxWYwDwylKNCZesdA6ZMy0PqHc5rTem/fFucrmafNH21PkHkL0KwFYg343yZiKfO5/7tJs2T9b5tkGYKQqxxbMwpfwxx/wxylQY3X8q8fa0zWfggj6B3Q+hz6gIQZPoEByD7PwhAkOagiCYXiCRdiJhHgpwCdBp6sfikubIyfhhx9mxAAP09js4cntxsAki9F0E2YMHra4j1ktMUYL9I8g3wPYO+dLyLcU7g2N4rBs0yzMnGlKaJ7zvFcGMe/A/B94fl62mhpq5Cn4FK/zHRf+hSMTozH/W3vV+Z7Z0CEGIDZWCzCpD1sS9kpyOA1B86r+D7rMxh36ayRyFuT8nF/RfCbtTmxoXwpa5tWnyULgI3tjzMQZryVCfZSsejGJ+VAkjzm/9W5pAYmTmrixMwJqLmfXjwKtDXMq9bAWKzrhKvFKAXO6vMd76NBTB3+5hS/4BysRg5toAfb2V+tTwIwCfAbHZ1Wts7zKMrFOtXK/6KAMqcQNBPy8bsKZSzCQB19ck2DOD5ndO1AFF6NRZnFzqbAFHzMnAmS5/+BfUpfLvjz5jGWFfCvxY46Xg0LzyQDFwnx20TgCawtlLfj/ouX+/+EUxOSQCyoeaNiPs5ducD5wkLQG+T1C+gXuy2hd2IYiwrAL0Nygzx4qvc6qnuECDJH0agg7aRg2rfFhQAO6DwaFaRmLdOWQCyCEc01o+7muAF0IPsx4IAZPxvx1VI9LAd03wD3isojeNaAciiw2eD8zTav2au1Dvxm3zD8QICKL0c5QN1n0NYgH4xigSHkpwC9HaQVQWQRvNDRb+nKoq/TbuRPzG3oj8ELsZyApAN5efCt5jHpkXG+mLMpVMA2ogtPy/idppb7z7KDR7xMYMCbBqfi/LLuh8IvgFd/gU4caGY2Rc1DJrrbMaYv1lH9j76/OTH4WzP3MULirKb8b0D7ZPgrhHxxBJ8vwtOcd+PQrxLxHhrLsrVaGsAO5FHLAN/Kb4P+LgSGaKv2M7L3eR7QCyOr8W/EeCfkDSwy90kQvpb7OQFvItS7wlyCkijePyB9CZ8/x7kEGhuUboqLABZrD+utf0XAlB/Ogl0HQpL8tswbiPIVXpcJEcuZ94mvBUy3Yi2zrSZ/gRSv848JAyfeFQH6p+4BUembKOHhyzOn6/4nmNfyGR6Owap9A9gUF+DvOH+YFuM9yVBjrDl6BUuYmmUa8QZZXQ/YtHHUW5D+ZIYaZ7nGNZIBMpT6FQofQzzwbUxw5w5sgnxNyB3m34raxnsAAAAAElFTkSuQmCC');
   animation: CLog 10s infinite linear;
 }
+
+#app-mount > div > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div > div > div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8.firefoxFixScrollFlex-cnI2ix > div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.container-2Thooq > div.accountDetails-3k9g4n.nameTag-m8r81H > span.discriminator:after {
+  content: "  NFLD99.com  " !important;
+  font-weight: bolder;
+}
+
+#app-mount > div > div > div > div > div > div > div > div > div > div > span.discriminator:after {
+  content: "  NFLD99.com  " !important;
+  font-weight: bolder;
+}
+/* water marks */
 
 .esc-text:after, .keybind-KpFkfr {
   font-size: 0px;
@@ -3855,8 +3919,8 @@ div.form-inner, .form-actions {
 }
 
 .wordmark-2iDDfm:after {
-  content: var(--Theme-Variant)var(--Update-Text);
-  color: Var(--M-Colour) !important;
+  content: var(--Theme-Variant) ", " var(--Update-Text);
+  color: Var(--Main-Colour) !important;
   font-size: 13px;
   font-weight: 700;
   position: absolute;
@@ -4416,16 +4480,6 @@ div.form-inner, .form-actions {
   font-size: 15px;
 }
 
-.message-group .message .markup-2BOw-j a[href*="betterdocs.net"], .markup-2BOw-j>a[href*="betterdocs.net"] {
-  font-size: 0;
-}
-
-.message-group .message .markup-2BOw-j a[href*="betterdocs.net"]:after, .markup-2BOw-j>a[href*="betterdocs.net"]:after {
-  content: " This website is not supported please use #Theme-Repo / #Plugin-Repo";
-  color: rgba(255, 65, 85, 1);
-  font-size: 15px;
-}
-
 .message-group .message .markup-2BOw-j a[href*="https://gyazo.com"], .markup-2BOw-j>a[href*="https://gyazo.com"] {
   font-size: 0;
 }
@@ -4595,7 +4649,7 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 
 .theme-dark .typing-2GQL18, .typing-2GQL18 {
   background-color: rgba(0, 0, 0, 0)!important;
-  bottom: -7px!important;
+  bottom: -4px!important;
 }
 
 .text-1rI06- {
@@ -10341,4 +10395,190 @@ transition: all 200ms;
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV:empty {
   display: none;
+}
+
+.guildsDiscoverInner-wC7iEN{
+  top: -2px;
+}
+
+.guildsDiscoverInner-wC7iEN:not(:hover){
+  color: var(--M-Colour)
+}
+
+.theme-dark .pageWrapper-1PgVDX {
+  background-color: transparent;
+  color: var(--Main-Colour);
+}
+
+.bg-AYqtMd,.emptySearchResults-1ba__I{
+  display: none;
+}
+
+.theme-dark .memberInfo-3r4FKx, .theme-light .memberInfo-3r4FKx,.theme-dark .title-OqQvkN, .theme-light .title-OqQvkN,.theme-light .description-Bw8krY,.theme-light .sampleLink-KPFu3I,.theme-light .inputLabel-vJ2Z0B,.avatarUploader-3XDtmn .sizeInfo-SKMPPw,.theme-light .helpText-h3r3wC, .theme-light .label-wQQoIq,.avatarUploaderInner-3UNxY3>*,.theme-dark .finePrint-xGGTK5{
+  color: var(--Main-Colour)
+}
+
+.theme-dark .guildsAdd-21_IdK.selected-ML3OIq, .theme-dark .guildsAdd-21_IdK:hover{
+  border-color: var(--Main-Colour);
+}
+
+.theme-dark .header-3ZP1MY, .theme-light .header-3ZP1MY{
+  display: none;
+}
+
+.theme-dark .action-1lSjCi, .theme-light .action-1lSjCi{
+  background: var(--S-Colour);
+  border: none;;
+  box-shadow: 0 2px 4px rgba(0,0,0,0);
+  padding-top: 33%;
+}
+
+.theme-dark .or-3THJsp, .theme-light .or-3THJsp,.theme-dark .join-33Tr-7 .actionIcon-2IISM_, .theme-light .join-33Tr-7 .actionIcon-2IISM_,.theme-dark .create-3jownz .actionIcon-2IISM_, .theme-light .create-3jownz .actionIcon-2IISM_,.theme-dark .actionBody-1qj65C, .theme-light .actionBody-1qj65C,.theme-dark .join-33Tr-7 .actionHeader-2CT5c7, .theme-light .join-33Tr-7 .actionHeader-2CT5c7,.theme-dark .create-3jownz .actionHeader-2CT5c7, .theme-light .create-3jownz .actionHeader-2CT5c7,.theme-dark .title-2CFvp_,#app-mount > div:nth-child(5) > div.modal-1UGdnR > div.inner-1JeGVc > div > div > div > form > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.content-2BXhLs.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div.instructions-3xkbTC > p:nth-child(3),.cancelButton-RGXhAE:before,.theme-light .title-2Dc-Cb,.theme-light .description-QF3836 {
+  display: none;
+}
+
+.theme-dark .slideBody-2nMrnU, .theme-light .slideBody-2nMrnU {
+  background-image: none;
+}
+
+.actions-pBaxX6{
+  height: auto;
+}
+
+.theme-dark .actionButton-2PeQbJ, .theme-light .actionButton-2PeQbJ{
+  background: var(--S-Colour)!important;
+  color: var(--M-Colour)!important;
+  border: 1px solid var(--M-Colour);
+  transition: all 200ms;
+}
+
+.theme-dark .actionButton-2PeQbJ:hover, .theme-light .actionButton-2PeQbJ:hover {
+  background: var(--S-Colour)!important;
+  color: var(--Main-Colour)!important;
+  border: 1px solid var(--Main-Colour);
+  transition: all 200ms;
+}
+
+#app-mount > div:nth-child(5) > div.modal-1UGdnR > div.inner-1JeGVc > div > div > div > form > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.content-2BXhLs.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div.instructions-3xkbTC > p:nth-child(4),#app-mount > div:nth-child(5) > div.modal-1UGdnR > div.inner-1JeGVc > div > div > div > form > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.content-2BXhLs.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div.instructions-3xkbTC > p:nth-child(2){
+  font-size: 0;
+}
+
+#app-mount > div:nth-child(5) > div.modal-1UGdnR > div.inner-1JeGVc > div > div > div > form > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.content-2BXhLs.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div.instructions-3xkbTC > p:nth-child(4):after{
+  font-size: initial;
+  content: "kWRYPrq";
+}
+
+#app-mount > div:nth-child(5) > div.modal-1UGdnR > div.inner-1JeGVc > div > div > div > form > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.content-2BXhLs.scrollerThemed-2oenus.themeGhostHairline-DBD-2d > div > div.instructions-3xkbTC > p:nth-child(2):after{
+  font-size: initial;
+  content: "https://discord.gg/kWRYPrq";
+}
+
+.theme-dark .footer-2yfCgX {
+  box-shadow: inset 0 1px 0 var(--M-Colour);
+}
+
+.theme-light .cancelButton-RGXhAE{
+  color: var(--M-Colour);
+}
+
+.theme-light .cancelButton-RGXhAE:hover{
+  color: var(--Main-Colour);
+}
+
+.theme-light .cancelButton-RGXhAE:hover {
+  border-bottom-color: var(--Main-Colour);
+}
+
+.avatar-21196O {
+  border: none;
+}
+
+.avatarUploaderInner-3UNxY3{
+  height: 40px;
+  width: 40px;
+  background-color: var(--M-Colour);
+}
+
+.theme-dark .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce, .theme-dark .regionSelect-3lf4eE:hover button, .theme-light .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce, .theme-light .regionSelect-3lf4eE:hover button{
+  border-color: var(--Main-Colour);
+}
+
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+  background-color: var(--S-Colour);
+  border-color: var(--S-Colour);
+}
+
+.theme-dark .root-26DmKJ {
+  background-color: transparent;
+}
+
+.theme-dark .description-1RsfgZ,.theme-dark .tagline-2nvxi0,.theme-dark .description-2Ifi6N,.theme-dark .description-2Ifi6N strong, .theme-dark .username-2gp_Xw {
+  color: var(--Main-Colour);
+}
+
+.theme-dark .tile-2OwFgW {
+  background-color: var(--S-Colour);
+  box-shadow: 0 0 0 var(--M-Colour);
+}
+
+.theme-dark .tile-2OwFgW:hover {
+  background-color: var(--S-Colour);
+  box-shadow: 0 0 0 var(--Main-Colour);
+}
+
+.theme-dark .popout-2xBvMR {
+  background-color: var(--Background-Colour);
+  box-shadow: 0 0 0 0 var(--M-Colour);
+  color: var(--Main-Colour);
+}
+
+.theme-dark .iconCircle-1dlYo0 {
+  background-color: var(--Background-Colour);
+}
+
+.theme-dark .circle-1nK_79 {
+  color: var(--Main-Colour);
+}
+
+.embedDescription-1Cuq9a > [aria-label="Spoiler"]{
+  line-height: 1.5rem;
+}
+
+#bd-pub-li{
+  position: relative!important;
+  margin: 0!important;
+}
+
+.backgroundBlur-dazcBE,
+.theme-dark .pictureInPictureVideo-20ZvXn {
+  background: transparent!important;
+}
+
+.theme-dark .wrapper-29NfPK {
+  border: 1px solid transparent;
+}
+
+.theme-dark .wrapper-29NfPK {
+  background-color: transparent;
+}
+
+
+[class^="reply"] > svg > path:nth-child(2) {
+  fill: transparent!important;
+}
+
+.reply-list,.reply-item {
+  background: var(--S-Colour);
+  color: var(--Main-Colour);
+  border: 1px solid var(--M-Colour);
+}
+
+.theme-dark .inner-zqa7da:focus-within {
+  border-color: var(--Main-Colour)!important;
+  transition: border 200ms;
+}
+
+.theme-dark .inner-zqa7da {
+  border-color: var(--M-Colour)!important;
+  transition: border 200ms;
 }
