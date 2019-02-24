@@ -19,6 +19,7 @@ if /i "%answer:~,1%" EQU "Y" set Fonts=@import url(https://nfld99.github.io/Bett
 if /i "%answer:~,1%" EQU "N" set Fonts=@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Fonts/No.css); & goto Mini
 GOTO Fonts
 
+:Mini
 set /p answer=Use Mini (Y/N)?
 if /i "%answer:~,1%" EQU "Y" set Minimal=@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Minimal/Yes.css); & goto Settings
 if /i "%answer:~,1%" EQU "N" set Minimal=@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Minimal/No.css); & goto Settings
