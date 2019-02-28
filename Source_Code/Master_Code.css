@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root {
-  --Update-Text: " Update #258 ";
+  --Update-Text: " Update #259 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -26,7 +26,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Changed input box</text><text y="160" style="font-size: 1.1em;" x="37">2. added replyer support</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Moved slowmode.</text><text y="160" style="font-size: 1.1em;" x="37">2. Fixed the typing dots.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -10581,4 +10581,39 @@ transition: all 200ms;
 .theme-dark .inner-zqa7da {
   border-color: var(--M-Colour)!important;
   transition: border 200ms;
+}
+
+.base-gE7OpD .cooldownWrapper-3joyFc {
+  margin-left: 0%;
+  overflow: visible;
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.theme-dark .typing-2GQL18 span {
+  color: var(--Main-Colour);
+}
+
+.typing-2GQL18.base-gE7OpD > span.spinner-2enMB9.ellipsis-19qdx6 > span{
+  top: 0!important;
+  left: 0!important;
+}
+
+.theme-dark .base-gE7OpD .ellipsis-19qdx6 .spinnerItem-2HfQC8 {
+  background-color: var(--Main-Colour);
+}
+
+.spacer-1fA9zc.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > form > div.typing-2GQL18.base-gE7OpD > div > svg{
+  color: var(--M-Colour);
+}
+
+#app-mount .theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .joinedAtDate,#app-mount .theme-dark [class*='topSection'] .joinedAtDate, #app-mount .theme-light .header-2BwW8b:not(.headerNormal-T_seeN) .joinedAtDate, #app-mount .theme-dark .header-2BwW8b .joinedAtDate{
+  color: var(--Main-Colour);
+}
+
+#app-mount .theme-dark .headerNormal-1cioxU .creationDate, #app-mount .theme-dark .topSectionNormal-2-vo2m .creationDate, #app-mount .theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .creationDate, #app-mount .theme-dark [class*='topSection'] .creationDate, #app-mount .theme-light .header-2BwW8b:not(.headerNormal-T_seeN) .creationDate, #app-mount .theme-dark .header-2BwW8b .creationDate{
+  color: var(--Main-Colour);
+}
+.uploadInput-2lNPSo #charcounter{
+  color: var(--M-Colour);
 }
