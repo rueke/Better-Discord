@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root {
-  --Update-Text: " Update #260 ";
+  --Update-Text: " Update #261 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -26,7 +26,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Thank you Shiz#9686 for the donation!.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Updated to fix canary.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -10614,6 +10614,48 @@ transition: all 200ms;
 #app-mount .theme-dark .headerNormal-1cioxU .creationDate, #app-mount .theme-dark .topSectionNormal-2-vo2m .creationDate, #app-mount .theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .creationDate, #app-mount .theme-dark [class*='topSection'] .creationDate, #app-mount .theme-light .header-2BwW8b:not(.headerNormal-T_seeN) .creationDate, #app-mount .theme-dark .header-2BwW8b .creationDate{
   color: var(--Main-Colour);
 }
+
 .uploadInput-2lNPSo #charcounter{
   color: var(--M-Colour);
+}
+
+.theme-dark .wrapper-2lTRaf {
+  background: transparent;
+}
+
+.container-2td-dC,.circleIconButton-jET_ig{
+  height: 40px;
+  width: 40px;
+}
+
+.selected-nT-gM3:before{
+  display: none;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC {
+  position: relative;
+  margin: 8px 5px 2px 5px;
+}
+
+.theme-dark .unread-2OHH1w:before {
+  left: -2px;
+  top: 5px;
+  z-index: 9000;
+  animation: opacity var(--Unread-Message-Speed) infinite linear;
+  background-color: var(--Unread-Message-1);
+}
+
+.unread-2OHH1w:before {
+  animation: opacity var(--Unread-Message-Speed) infinite linear;
+  background-color: var(--Unread-Message-1);
+}
+
+.container-2td-dC.folder .badge-3dItlm.folder.count {
+  background: transparent !important;
+  border-color: transparent !important;
+  height: 10px !important;
+  top: 12.5px !important;
+  right: 5px !important;
+  left: 5px !important;
+  color: var(--Main-Colour) !important;
 }
