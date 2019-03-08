@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 :root {
-  --Update-Text: " Update #266 ";
+  --Update-Text: " Update #267 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -26,7 +26,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Fixed guilds again....</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Bug fixes</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -10349,7 +10349,7 @@ transition: all 200ms;
 .wrapper-1Rf91z .scroller-2TZvBN .container-1ETFDs.unread-2OHH1w::before {
   left: -2px;
   top: 5px;
-  z-index: 9000;
+  z-index: 30;
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN>.guild:first-child {
@@ -10365,7 +10365,6 @@ transition: all 200ms;
 }
 
 #bd-pub-li #bd-pub-button {
-  position: absolute;
   width: 100%;
   text-align: center;
 }
@@ -10653,7 +10652,7 @@ transition: all 200ms;
 .theme-dark .unread-2OHH1w:before {
   left: -2px;
   top: 5px;
-  z-index: 9000;
+  z-index: 30;
   animation: opacity var(--Unread-Message-Speed) infinite linear;
   background-color: var(--Unread-Message-1);
 }
@@ -10684,6 +10683,17 @@ transition: all 200ms;
 }
 
 .container-1aNBdK,.avatar-3f3jk4{
-  width: 40px;
-  height: 40px;
+  width: 40px!important;
+  height: 40px!important;
+}
+
+.container-2td-dC:not(#bd-pub-li), .circleIconButton-jET_ig{
+  width: 40px!important;
+  height: 40px!important;
+  position: relative;
+  margin: 8px 5px 2px 5px;
+}
+
+#bd-pub-li{
+  position: absolute!important;
 }
