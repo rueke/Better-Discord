@@ -53,11 +53,11 @@ body:before {
 
 /* FUCK BETTERDOCS */
 
-.message-group .message .markup-2BOw-j a[href*="betterdocs."], .markup-2BOw-j>a[href*="betterdocs."] {
+.markup-2BOw-j>a[href*="://betterdocs."] {
   font-size: 0;
 }
 
-.message-group .message .markup-2BOw-j a[href*="betterdocs."]:after, .markup-2BOw-j>a[href*="betterdocs."]:after {
+.markup-2BOw-j>a[href*="://betterdocs."]:after {
   content: " This website is not supported please use #Theme-Repo / #Plugin-Repo. also DO NOT USE ANYTHING FROM THIS SITE";
   color: red;
   font-weight: bolder;
