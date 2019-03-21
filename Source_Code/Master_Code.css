@@ -8,11 +8,16 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 
 */
 
-@import url(https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css);
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
+@import url('https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css');
+@import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css');
+@import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #270 ";
+  --Update-Text: " Update #271 ";
   --Settings-Dock-Colour: var(--Main-Colour);
+  --BetterDocsBlockerRed: var(--Main-Colour);
+  --BetterDocsBlockerWhite: var(--Main-Colour);
+  --BetterDocsBlockerBlack1: rgb(22, 22, 22);
+  --BetterDocsBlockerBlack2: rgba(0, 0, 0, 0.5);
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -26,7 +31,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1. Fixed no icon guilds</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New ShitDocs blocker</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -52,19 +57,6 @@ body:before {
 }
 
 /* FUCK BETTERDOCS */
-
-.markup-2BOw-j>a[href*="://betterdocs."] {
-  font-size: 0;
-}
-
-.markup-2BOw-j>a[href*="://betterdocs."]:after {
-  content: " This website is not supported please use #Theme-Repo / #Plugin-Repo. also DO NOT USE ANYTHING FROM THIS SITE";
-  color: red;
-  font-weight: bolder;
-  font-size: 15px;
-  animation: CLog 10s infinite linear;
-}
-
 [style*="icons/153708594091655168"]{
   display:none;
 }
