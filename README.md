@@ -34,13 +34,13 @@ To contact NFLD99:
 - ... from copying and using more than 50 lines of code (in the spacing as shown in the original files) in a different theme without giving due credit.
 
 ### Approved hosting locations
-⋅⋅* [My Website](https://nfld99.com/)
-⋅⋅* [My Discord](https://nfld99.com/discord)
-⋅⋅* [My Github](https://nfld99.com/github)
-⋅⋅* [BetterDiscord Server 1 (#theme repo)](https://nfld99.com/BD1)
-⋅⋅* [BetterDiscord Server 2 (#theme repo)](https://nfld99.com/BD2)
-⋅⋅* [TwinDragon's Github](https://github.com/TwinDragon)
-⋅⋅* [The-Shiz's Github](https://github.com/The-Shiz)
+- [My Website](https://nfld99.com/)  
+- [My Discord](https://nfld99.com/discord)  
+- [My Github](https://nfld99.com/github)  
+- [BetterDiscord Server 1 (#theme repo)](https://nfld99.com/BD1)  
+- [BetterDiscord Server 2 (#theme repo)](https://nfld99.com/BD2)  
+- [TwinDragon's Github](https://github.com/TwinDragon)  
+- [The-Shiz's Github](https://github.com/The-Shiz)  
 
 **All these terms apply to all files in this repository**
 
