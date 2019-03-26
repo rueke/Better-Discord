@@ -27,6 +27,7 @@ Author reserves the right to request take down of any content that is found to b
 ### Disallowed
 #### Users are forbidden...
 - ... from redistributing the code, edited or otherwise, in any platform that NFLD99 does not allow. (Contact to discuss exceptions.)
+- ... from re-uploading anything in the "Previews" directory, edited or otherwise, in any platform that NFLD99 does not allow. (Contact to discuss exceptions.)
 - ... from distributing an edited version of any code without explicit permission from the author.
 - ... from copying and using more than 50 lines of code (in the spacing as shown in the original files) in a different theme without giving due credit.
 ---
