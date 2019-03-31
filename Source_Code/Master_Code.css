@@ -12,7 +12,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #273 ";
+  --Update-Text: " Update #274 ";
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -2423,6 +2423,16 @@ spinner-pulsing-ellipsis .spinner-item {
   -webkit-mask-repeat: no-repeat!important;
   background-image: none!important;
   background-color: var(--M-Colour)!important;
+}
+
+[class*="rtc-connection-quality"] .ping{
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg width="11px" height="12px" viewBox="0 0 11 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch --><title>icon-ping-0</title><desc>Created with Sketch.</desc><defs></defs><g id="General-Playground" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"><g id="Desktop-HD---Channels" sketch:type="MSArtboardGroup" transform="translate(-1224.000000, -887.000000)" fill="#D8D8D8" opacity="0.2"><g id="//-Channels" sketch:type="MSLayerGroup" transform="translate(1214.000000, 0.000000)"><g id="=-User-Menu" transform="translate(0.000000, 873.000000)" sketch:type="MSShapeGroup"><g id="=-Voice-Status" transform="translate(1.000000, 0.000000)"><g id="icon-ping-0" transform="translate(9.000000, 14.000000)"><rect id="Rectangle-1668" x="8" y="0" width="3" height="12" rx="1"></rect><rect id="Rectangle-1668" x="4" y="4" width="3" height="8" rx="1"></rect><rect id="Rectangle-1668" x="0" y="8" width="3" height="4" rx="1"></rect></g></g></g></g></g></g></svg>');
+  background-color: var(--Main-Colour)!important;
+  -webkit-mask-size: 100%!important;
+  -webkit-mask-position: 100%!important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: none!important;
 }
 
 .image-33JSyf[style*='74b8b6de441bce1a59f9c4ac74f666e6'] {
@@ -9607,11 +9617,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   fill: var(--Main-Colour)
 }
 
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8.firefoxFixScrollFlex-cnI2ix>div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr>div.container-1UB9sr>div.inner-btChU7>div>div>span:nth-child(2) {
+.rtc-connection-status > div > span {
   font-size: 0%;
 }
 
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8.firefoxFixScrollFlex-cnI2ix>div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr>div.container-1UB9sr>div.inner-btChU7>div>div>span:nth-child(2):after {
+.rtc-connection-status > div > span:after {
   content: "Connected";
   font-size: initial;
 }
