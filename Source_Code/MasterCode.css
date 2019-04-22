@@ -12,7 +12,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " TEST ";
+  --Update-Text: " THIS BUILD IS NOT LIKELY TO BE UPDATED ";
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -9918,4 +9918,97 @@ transition: all 200ms;
 
 #user-settings > div:nth-child(3) > div > div:nth-child(2) > div > div > div > div.contentColumn-2hrIYH.contentColumnDefault-1VQkGM > div > div > div:nth-child(2) > .radioGroup-1GBvlr > div:nth-child(1){
   display: none;
+}
+
+
+
+/* ===============================================canary bs=============================================== */
+.theme-dark .container-1r6BKw{
+  background: transparent;
+  box-shadow: none;
+  color: var(--Main-Colour);
+}
+
+.theme-dark .icon-22AiRD,.theme-dark .base-1x0h_U,.theme-dark .colorStandard-2KCXvj,.theme-dark .header-3uLGFv,.theme-dark .whiteButton-1lwF-y,.theme-dark .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,.theme-dark .themed-OHr7kt.item-PXvHYJ:hover,.tutorialMessages-12mfId,.theme-dark .input-3Xdcic,.theme-dark .wrapper-1ucjTd.modeMuted-3osy7j:hover .name-3_Dsmg, .theme-dark .wrapper-1ucjTd:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeMuted-3osy7j:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd:hover .name-3_Dsmg,.theme-dark .wrapper-1ucjTd.modeConnected-2IEL4z .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeConnected-2IEL4z:hover .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeUnread-1zpFdA:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeConnected-2IEL4z .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeConnected-2IEL4z:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeUnread-1zpFdA:hover .name-3_Dsmg,.wrapper-CU3qI5:hover,.container-2Thooq,.theme-dark .icon-3cZ1F_{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .themed-OHr7kt.item-PXvHYJ,.channel-2QD9_O .linkButtonIcon-Mlm5d6,.darkTheme-3uETC4 .input-1Rv96N,.theme-dark .input-1Rv96N,.theme-dark .container-2XeR5Z,.theme-dark .icon-1S6UIr,.theme-dark .name-3_Dsmg, .theme-light .name-3_Dsmg,.theme-dark .colorMuted-HdFt4q,.wrapper-CU3qI5{
+  color: var(--M-Colour);
+}
+
+.theme-dark .children-19S4PO:after,.theme-dark .empty-hejAOj,.arrowContainer-17eG6u{
+  display: none;
+}
+
+.theme-dark .outer-2IVh5n,.coloredBackground-37Z6Gv,.theme-dark .unwrapped-37iUtM,.theme-dark .outer-2IVh5n.interactive-1BeKSi:hover,.darkTheme-3uETC4.container-2XeR5Z,.theme-dark .container-2XeR5Z,.theme-dark .container-cMG81i{
+  background: var(--S-Colour);
+}
+
+.theme-dark .wrapper-3UweLa{
+  background: var(--S-Colour);
+  color: var(--Main-Colour);
+}
+
+.theme-dark .unwrapped-37iUtM.clickable-nnkAZy:hover, .theme-dark .wrapped-15rg6t,.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover{
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .unwrapped-37iUtM.clickable-nnkAZy, .theme-dark .wrapped-15rg6t,.theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover{
+  background: var(--S-Colour);
+  border: 1px solid var(--M-Colour);
+}
+
+.theme-dark .wrapper-9ppXpy{
+  box-shadow: none;
+}
+
+.tabBarItem-1b8RUP{
+  border-color: transparent!important;
+}
+
+.theme-dark .button-OhfaWu.selected-wSa2KV, .theme-light .button-OhfaWu.selected-wSa2KV,.theme-dark .button-OhfaWu, .theme-light .button-OhfaWu{
+  background-color: transparent!important;
+}
+
+.item-2hkk8m{
+  left: 8px;
+  top: 0px;
+  z-index: 30;
+  animation: opacity var(--Unread-Message-Speed) infinite linear;
+  background-color: var(--Unread-Message-1);
+  position: relative;
+  width: 5px!important;
+  height: 5px!important;
+}
+
+.base-PmTxvP{
+  background: var(--Background-Colour)!important;
+  color: var(--Main-Colour)!important;
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,.theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-light .wrapper-1ucjTd:hover .content-3at_AU{
+  background: var(--S-Colour);
+  border: 1px solid var(--Main-Colour);
+  transition: all 200ms;
+}
+
+.theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,.theme-dark .wrapper-1ucjTd .content-3at_AU, .theme-light .wrapper-1ucjTd .content-3at_AU{
+  background: var(--S-Colour);
+  border: 1px solid transparent;
+  transition: all 200ms;
+}
+
+.side-8zPYf6 .item-PXvHYJ{
+  background: var(--S-Colour);
+  border: 1px solid var(--M-Colour);
+  transition: all 200ms;
+}
+
+.side-8zPYf6 .item-PXvHYJ:hover{
+  background: var(--S-Colour);
+  border: 1px solid var(--Main-Colour);
+  transition: all 200ms;
 }
