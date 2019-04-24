@@ -342,3 +342,15 @@
 .contentUnreadText-2vNnZc:hover, .contentUnreadText-2vNnZc{
   background:transparent!important;
 }
+
+@keyframes Unreadpulse {
+  0% {
+    filter: brightness(160%);
+  }
+  50% {
+    filter: brightness(100%);
+  }
+  100% {
+    filter: brightness(160%);
+  }
+}

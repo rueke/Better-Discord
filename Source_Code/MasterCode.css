@@ -10013,10 +10013,6 @@ transition: all 200ms;
   width: 55px;
 }
 
-.modeUnread-1zpFdA {
-  filter: brightness(160%);
-}
-
 .modeMuted-3osy7j {
   filter: brightness(50%);
 }
@@ -10279,4 +10275,14 @@ transition: all 200ms;
 
 .RANbutton:hover {
   border: 1px solid var(--Main-Colour);
+}
+
+.modeUnread-1zpFdA {
+  filter: brightness(160%);
+  animation: Unreadpulse var(--Unread-Message-Speed) ease-in-out infinite alternate;
+}
+
+.modeUnread-1zpFdA > .content-3at_AU{
+  border-right: 1px var(--Main-Colour) solid !important;
+  border-left: 1px var(--Main-Colour) solid !important;
 }
