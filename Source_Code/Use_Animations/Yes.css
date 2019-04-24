@@ -346,12 +346,15 @@
 @keyframes Unreadpulse {
   0% {
     filter: brightness(160%);
+    border-right: 10px solid var(--Main-Colour);
   }
   50% {
     filter: brightness(100%);
+    border-right: 1px solid var(--Main-Colour);
   }
   100% {
     filter: brightness(160%);
+    border-right: 10px solid var(--Main-Colour);
   }
 }
 
