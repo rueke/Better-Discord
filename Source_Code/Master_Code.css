@@ -12,13 +12,29 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #291 ";
+  --Update-Text: " Update #292 ";
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
   --BetterDocsBlockerBlack1: rgb(22, 22, 22);
   --BetterDocsBlockerBlack2: rgba(0, 0, 0, 0.5);
 }
+
+
+/* TEMP FIX FOR SERVER FOLDERS */
+/* TEMP FIX FOR SERVER FOLDERS */
+/* TEMP FIX FOR SERVER FOLDERS */
+/* TEMP FIX FOR SERVER FOLDERS */
+
+[id*="folder_"] > div.wrapper-sa6paO.pill-31IEus > span{
+  display: none;
+}
+
+/* TEMP FIX FOR SERVER FOLDERS */
+/* TEMP FIX FOR SERVER FOLDERS */
+/* TEMP FIX FOR SERVER FOLDERS */
+/* TEMP FIX FOR SERVER FOLDERS */
+
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
 
@@ -31,7 +47,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Updated Unread Chats.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.TEMP FIX FOR SERVER FOLDERS.</text><text y="160" style="font-size: 1.1em;" x="37">2.Bug Fixs.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -10285,26 +10301,6 @@ transition: all 200ms;
   border-left: 1px var(--Main-Colour) solid !important;
 }
 
-.wrapper-1Rf91z .scroller-2TZvBN>.listItem-2P_4kh:first-of-type {
-  width: calc(var(--Guild-Rows) * 60px + 2px)!important;
-}
-
-.wrapper-1Rf91z .scroller-2TZvBN>.listItem-2P_4kh:nth-last-of-type(1) {
-  width: calc(var(--Guild-Rows) * 60px + 2px)!important;
-  /* Search Servers */
-}
-.wrapper-1Rf91z .scroller-2TZvBN>.listItem-2P_4kh:nth-last-of-type(2) {
-  width: calc(var(--Guild-Rows) * 60px + 2px)!important;
-  /* Add Servers */
-}
-
-.item-2hkk8m{
-  left:10px;
-  filter: brightness(160%);
-  height: 50px!important;
-  animation: UnreadGuildpulse var(--Unread-Message-Speed) ease-in-out infinite alternate;
-}
-
 .wrapper-sa6paO{
   overflow: visible
 }
@@ -10361,7 +10357,7 @@ transition: all 200ms;
   fill: var(--M-Colour) !important;
 }
 
-.theme-dark .notificationsSoundIcon-3PkO7b:before,.theme-dark .nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG, .theme-dark .nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG, .theme-light .nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG, .theme-light .nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG,.theme-dark .overlayToggleIconOn-3UNmty .fill-1ugeBG,.overlayToggleIconOff-1kT42w .fill-1ugeBG,.button-mM-y8i,.theme-dark .avatarUploaderIndicator-2G-aIZ,.theme-dark .quickSelectArrow-1QublR,.container-1YxwTf .btn-quote,[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"],[style*="/assets/959a1978f7be567071a1354a98b46ecd.svg"],.homeIcon-tEMBK1,.additionalActionsIcon-1FoUlE,.connectedAccountOpenIcon-2cNbq5 {
+.theme-dark .notificationsSoundIcon-3PkO7b:before,.theme-dark .nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG, .theme-dark .nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG, .theme-light .nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG, .theme-light .nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG,.theme-dark .overlayToggleIconOn-3UNmty .fill-1ugeBG,.overlayToggleIconOff-1kT42w .fill-1ugeBG,.button-mM-y8i,.theme-dark .avatarUploaderIndicator-2G-aIZ,.theme-dark .quickSelectArrow-1QublR,.container-1YxwTf .btn-quote,[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"],[style*="/assets/959a1978f7be567071a1354a98b46ecd.svg"],.homeIcon-tEMBK1,.additionalActionsIcon-1FoUlE,.connectedAccountOpenIcon-2cNbq5,.check-2by_h9,[style*="/assets/37d23346ca73770fda04fbdcc54336e5.svg"] {
   background-color: var(--Main-Colour) !important;
   color: var(--Main-Colour) !important;
   fill: var(--Main-Colour) !important;
@@ -10569,4 +10565,117 @@ transition: all 200ms;
 
 .consentBody-3xZVZA{
   color: var(--Main-Colour);
+}
+
+.listItem-2P_4kh,.svg-1X37T1, .wrapper-25eVIn{
+  width: 45px!important;
+  height: 45px!important;
+}
+
+.item-2hkk8m[style*="0.7; height"] {
+  background: transparent;
+  border:2px solid var(--Unread-Message-1);
+  border-radius: 50%;
+  width: 46px!important;
+  height: 46px!important;
+  left: 2px;
+  top: 1px;
+  z-index: 0;
+}
+
+.wrapper-sa6paO, .listItem-2P_4kh, s.svg-1X37T1, .wrapper-25eVIn, .svg-1X37T1, .wrapper-25eVIn{
+  width: 45px!important;
+  height: 45px!important;
+}
+
+.listItem-2P_4kh {
+  margin: 4px;
+}
+
+.theme-dark .regionSelectName-c5qL8O {
+  color: var(--Main-Colour);
+}
+
+.check-2by_h9{
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12"><path fill="none" stroke="#7289DA" stroke-width="3" d="M1.99609375 5.7835338l3.70287382 3.7028738L14.1853752 1"/></svg>');
+  -webkit-mask-size: 80% !important;
+  -webkit-mask-position: 80% !important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: none!important;
+}
+
+[style*="/assets/37d23346ca73770fda04fbdcc54336e5.svg"]{
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><rect width="24" height="24"/><path fill="#FFFFFF" d="M7,18 L7,16 L3.41,16 L7.91,11.5 L6.5,10.09 L2,14.59 L2,11 L0,11 L0,18 L7,18 L7,18 Z M11.5,7.91 L16,3.41 L16,7 L18,7 L18,0 L11,0 L11,2 L14.59,2 L10.09,6.5 L11.5,7.91 Z" transform="translate(3 3)"/></g></svg>');
+  -webkit-mask-size: 80% !important;
+  -webkit-mask-position: 80% !important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: none!important;
+}
+
+.theme-dark .quickSelectPopout-X1hvgV{
+  background: var(--Background-Colour)!important;
+  border: 1px solid var(--M-Colour);
+}
+
+.theme-dark .quickSelectPopout-X1hvgV:hover{
+  background: var(--Background-Colour)!important;
+  border: 1px solid var(--Main-Colour);
+}
+
+.quickSelectPopoutOption-opKBx9 .selected{
+  border-right: 4px solid var(--Main-Colour);
+}
+
+.quickSelectPopoutOption-opKBx9 .selected, .quickSelectPopoutOption-opKBx9:hover{
+  filter: brightness(160%);
+}
+
+.regionSelectFlag-1htPow{
+  display:none;
+}
+
+.upperBadge-2XnnGB.count {
+  left: 11px;
+  top: 15px;
+  right: unset;
+}
+
+[id*="folder_"] mask{
+  display: none;
+}
+
+.svg-1X37T1 > mask{
+  display: none;
+}
+
+.icon-27yU2q:not(:hover){
+  border-radius: 50%;
+}
+
+.wrapper-sa6paO, .listItem-2P_4kh, s.svg-1X37T1, .wrapper-25eVIn, .svg-1X37T1, .wrapper-25eVIn{
+  width: 45px!important;
+  height: 45px!important;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN > .listItem-2P_4kh:not([folder*="folder_"]):first-of-type {
+  width: calc(var(--Guild-Rows) * 60px + 2px) !important;
+  align-content: center;
+}
+
+.circleButtonMask-2VNJsN.wrapper-25eVIn > svg > foreignObject > div{
+  border-radius: 50%;
+}
+
+.item-2hkk8m {
+  background: transparent;
+  border:2px solid var(--Unread-Message-1);
+  border-radius: 50%;
+  width: 46px!important;
+  height: 46px!important;
+  left: 2px;
+  top: 0px;
+  z-index: 0;
+  animation: UnreadGuildpulse var(--Unread-Message-Speed) ease-in-out infinite alternate;
 }
