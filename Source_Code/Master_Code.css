@@ -12,7 +12,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #296 ";
+  --Update-Text: " Update #297 ";
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -47,7 +47,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Removed -> TEMP FIX FOR SERVER FOLDERS.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.237 lines of fixes.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -72,9 +72,13 @@ body:before {
   color: var(--Main-Colour);
 }
 
+#app-mount::after{
+  color: var(--Main-Colour);
+}
+
 /* FUCK BETTERDOCS */
 body:after {
-  content: "Do Not Use Betterdocs";
+  content: "Do Not Use Betterdocs/Discord Source";
   background: var(--Background-Colour);
   border: 1px solid var(--Main-Colour);
   left: 50%;
@@ -10709,4 +10713,238 @@ transition: all 200ms;
 
 .wrapper-1Rf91z.foldercontent .folderseparatorouter{
   width: calc(var(--Guild-Rows) * 60px + 2px) !important;
+}
+
+.mirror-1Z13AJ{
+  filter: blur(100px)
+}
+
+.item-2hkk8m:not(:hover)[style*="1; height"] {
+  border-radius: 0%;
+  width: 0!important;
+  height: 5px!important;
+  border-color: var(--Unread-Message-1);
+  background: var(--Unread-Message-1);
+  border: var(--Thiccness) solid var(--Unread-Message-1);
+  left:5px;
+  top: 0px;
+  z-index: 2;
+}
+
+.theme-dark .multipleIconWrapper-1PjkRO, .theme-dark .section-2VKIPC,.theme-dark .inset-GQDQYw {
+  background-color: transparent;
+}
+
+.theme-dark .popout-3G62UL {
+  -webkit-box-shadow: 0 8px 16px var(--Background-Colour);
+  background-color: var(--Background-Colour);
+  box-shadow: 0 8px 16px var(--Background-Colour);
+}
+
+.theme-dark .memberListItem-2ZX2pl:hover,.theme-dark .enabled-5QKLzu:hover,.theme-dark .popoutContainer-3WC9HR:hover,.interactive-1BeKSi:hover {
+  background-color: var(--S-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .memberListItem-2ZX2pl,.theme-dark .enabled-5QKLzu,.theme-dark .popoutContainer-3WC9HR,.interactive-1BeKSi {
+  background-color: var(--S-Colour);
+  border: 1px solid var(--M-Colour);
+}
+
+.theme-dark .recentlyPlayedContainer-2F3MqS{
+  background-color: transparent;
+}
+
+.theme-dark .layout-1cQCv2{
+  background: transparent;
+}
+
+.theme-dark .itemBackground-2vEldQ {
+  background-color:var(--S-Colour);
+}
+
+.theme-dark .itemBackground-2vEldQ:before {
+  background: radial-gradient(ellipse at top, rgba(0, 0, 0, 0), var(--M-Colour)), linear-gradient(90deg, var(--S-Colour) 0, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, var(--S-Colour)), linear-gradient(0deg, var(--M-Colour) 0, rgba(0, 0, 0, 0) 25%);
+}
+
+.theme-dark .overlappingBorder-3aFng4, .theme-light .overlappingBorder-3aFng4{
+  border-color: var(--Main-Colour);
+}
+
+.theme-dark .header-2Qd56c{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .description-2oYgWO,.theme-dark .tagline-EIH5-W, .theme-dark .title-2XwaXv,.theme-dark .perkTag-2O4dx4, .theme-light .perkTag-2O4dx4 {
+  color: var(--Main-Colour);
+}
+
+.perkTag-2O4dx4 {
+  background: linear-gradient(90deg, var(--S-Colour),var(--M-Colour));
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0 6px;
+  text-transform: uppercase;
+}
+
+.theme-dark .tile-QA_yMc {
+  background-color: var(--S-Colour);
+  border: 1px solid var(--M-Colour);
+}
+
+.theme-dark .tile-QA_yMc:hover {
+  background-color: var(--S-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .gradientOverlayLeft-3w159C {
+  background-image: linear-gradient(90deg,var(--M-Colour),rgba(0,0,0,0));
+}
+
+.theme-dark .gradientOverlayRight-3vMuS8 {
+  background-image: linear-gradient(90deg,rgba(0,0,0,0),var(--M-Colour));
+}
+
+.theme-dark .categoryHeader-1D7Tqy, .theme-dark .premiumApplicationsHeader-Zmkm5e {
+  border-color: var(--M-Colour);
+  color: var(--Main-Colour);
+}
+
+.theme-dark .details-1DqjXP {
+  color: var(--Main-Colour);
+}
+
+.theme-dark .tileMedia-1q3guD,.theme-dark .tileMedia-1q3guD:hover {
+  background-color: var(--S-Colour);
+  box-shadow: 0 0 0 var(--S-Colour);
+}
+
+.theme-dark .genreTag-3QLRUJ {
+  background: var(--S-Colour);
+  color: var(--M-Colour);
+}
+
+.theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr {
+  background: linear-gradient(-180deg,var(--S-Colour),var(--S-Colour));
+  border-bottom: 1px solid var(--S-Colour);
+}
+
+.theme-dark .friendsTable-133bsv .friendTableAddDescription-19D3dl,.theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr .connectAccounts-1orH6X h3 {
+  color: var(--M-Colour);
+}
+
+.theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK h2,.theme-dark .header-3YT7-d {
+  color: var(--Main-Colour);
+}
+
+.theme-dark .wrapper-1cBijl {
+  background-color: var(--S-Colour);
+  border-color: var(--M-Colour);
+}
+
+.tabBar-1E2ExX .primarySelected-3uHKZn {
+  background-color: var(--S-Colour)!important;
+  color: var(--Main-Colour)!important;
+}
+
+.theme-dark .themed-OHr7kt.item-PXvHYJ{
+  background-color: var(--S-Colour)!important;
+  color: var(--M-Colour)!important;
+  border: 1px solid var(--M-Colour);
+}
+
+.reactionBtn-2na4rd,.button-3Jq0g9,.theme-dark .closeButton-17RIVZ{
+  background-color: var(--Main-Colour) !important;
+  color: var(--Main-Colour) !important;
+  fill: var(--Main-Colour) !important;
+}
+
+.close-3hZ5Ni{
+  background-color: var(--Background-Colour) !important;
+  color: var(--Background-Colour) !important;
+  fill: var(--Background-Colour) !important;
+}
+
+.reactionBtn-2na4rd {
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch --><title>ic_reactions_grey_16px</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="ic_reactions_grey_16px"><g id="Group-2"><g id="0:0:0:0"><rect id="Rectangle-5" x="0" y="0" width="16" height="16"></rect><g id="emoticon" transform="translate(1.333333, 1.333333)"></g><path d="M14.6332705,7.33333333 C14.6554304,7.55389388 14.6666667,7.77636769 14.6666667,8 C14.6666667,11.6818983 11.6818983,14.6666667 8,14.6666667 C6.23189007,14.6666667 4.53619732,13.9642877 3.28595479,12.7140452 C2.03571227,11.4638027 1.33333333,9.76810993 1.33333333,8 C1.33333333,4.33333333 4.31333333,1.33333333 8,1.33333333 L8,1.33333333 C8.22363231,1.33333333 8.44610612,1.3445696 8.66666667,1.36672949 L8.66666667,2.70847693 C8.44668912,2.68076722 8.22407146,2.66666667 8,2.66666667 C5.05448133,2.66666667 2.66666667,5.05448133 2.66666667,8 C2.66666667,10.9455187 5.05448133,13.3333333 8,13.3333333 C10.9455187,13.3333333 13.3333333,10.9455187 13.3333333,8 C13.3333333,7.77592854 13.3192328,7.55331088 13.2915231,7.33333333 L14.6332705,7.33333333 Z M8,11.6666667 C9.55333333,11.6666667 10.8666667,10.6933333 11.4066667,9.33333333 L4.59333333,9.33333333 C5.12666667,10.6933333 6.44666667,11.6666667 8,11.6666667 Z M10.3333333,7.33333333 C10.8856181,7.33333333 11.3333333,6.88561808 11.3333333,6.33333333 C11.3333333,5.78104858 10.8856181,5.33333333 10.3333333,5.33333333 C9.78104858,5.33333333 9.33333333,5.78104858 9.33333333,6.33333333 C9.33333333,6.88561808 9.78104858,7.33333333 10.3333333,7.33333333 L10.3333333,7.33333333 Z M5.66666667,7.33333333 C6.21895142,7.33333333 6.66666667,6.88561808 6.66666667,6.33333333 C6.66666667,5.78104858 6.21895142,5.33333333 5.66666667,5.33333333 C5.11438192,5.33333333 4.66666667,5.78104858 4.66666667,6.33333333 C4.66666667,6.88561808 5.11438192,7.33333333 5.66666667,7.33333333 Z" id="Combined-Shape" fill="#99AAB5"></path></g><g id="Group-15" transform="translate(10.666667, 0.000000)" fill="#99AAB5"><polygon id="Path" points="3.33333333 2 3.33333333 0 2 0 2 2 0 2 0 3.33333333 2 3.33333333 2 5.33333333 3.33333333 5.33333333 3.33333333 3.33333333 5.33333333 3.33333333 5.33333333 2"></polygon></g></g></g></g></svg>');
+  -webkit-mask-size: 90% !important;
+  -webkit-mask-position: 90% !important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: none!important;
+}
+
+.button-3Jq0g9 {
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch --><title>ic_overflow_vertical_grey_16px</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="ic_overflow_vertical_grey_16px"><g id="Group-22" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) "><rect id="Rectangle-8" x="0" y="0" width="16" height="16"></rect><g id="dots-horizontal-(1)" transform="translate(2.666667, 6.666667)" fill="#99AAB5"><path d="M8,1.33333333 C8,0.596953667 8.59695367,0 9.33333333,0 C10.069713,0 10.6666667,0.596953667 10.6666667,1.33333333 C10.6666667,2.069713 10.069713,2.66666667 9.33333333,2.66666667 C8.59695367,2.66666667 8,2.069713 8,1.33333333 L8,1.33333333 Z M4,1.33333333 C4,0.596953667 4.59695367,0 5.33333333,0 C6.069713,0 6.66666667,0.596953667 6.66666667,1.33333333 C6.66666667,2.069713 6.069713,2.66666667 5.33333333,2.66666667 C4.59695367,2.66666667 4,2.069713 4,1.33333333 L4,1.33333333 Z M0,1.33333333 C0,0.596953667 0.596953667,0 1.33333333,0 C2.069713,0 2.66666667,0.596953667 2.66666667,1.33333333 C2.66666667,2.069713 2.069713,2.66666667 1.33333333,2.66666667 C0.596953667,2.66666667 0,2.069713 0,1.33333333 L0,1.33333333 Z" id="Shape"></path></g></g></g></g></svg>');
+  -webkit-mask-size: 90% !important;
+  -webkit-mask-position: 90% !important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: none!important;
+}
+
+.close-3hZ5Ni {
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><polygon fill="#FFFFFF" transform="translate(12.000000, 12.000000) rotate(45.000000) translate(-12.000000, -12.000000) " points="19 13 13 13 13 19 11 19 11 13 5 13 5 11 11 11 11 5 13 5 13 11 19 11"></polygon><polygon points="0 0 24 0 24 24 0 24"></polygon></g></svg>');
+  -webkit-mask-size: 90% !important;
+  -webkit-mask-position: 90% !important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: none!important;
+}
+
+.guildsError-b7zR5H:hover {
+  background-color: var(--S-Colour);
+  border-color: var(--Main-Colour);
+  color: var(--Main-Colour);
+}
+
+.guildsError-b7zR5H {
+  background: var(--S-Colour);
+  border-color: var(--M-Colour);
+  color: var(--M-Colour);
+}
+
+.theme-dark .tooltipRed-8-9NeP, .theme-light .tooltipRed-8-9NeP {
+  background: linear-gradient(to top, var(--M-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--M-Colour)) !important;
+  color: var(--Main-Colour);
+}
+
+.theme-dark .tooltipRed-8-9NeP .tooltipPointer-3ZfirK, .theme-light .tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
+  border-top-color: var(--Background-Colour);
+}
+
+.tooltip-2QfLtc{
+  max-width: 100%;
+}
+
+.selected-3s45Ha:after {
+  content: " (✔)";
+  color: var(--Main-Colour);
+  transition: all 200ms;
+}
+
+.theme-dark .keybindShortcut-1BD6Z1 span .bindArrow-2X3Aom g {
+  fill: var(--Main-Colour);
+}
+
+.container-3qKHyN {
+  height: auto;
+}
+
+.keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w.groupEnd-1cdweh {
+  margin-bottom: 0;
+}
+
+.iconBadge-qZ4Ksk{
+  background-color: var(--Main-Colour);
+}
+
+.theme-dark .closeButton-17RIVZ {
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0"/><path fill="#FFF" d="M12.6666667 4.27333333l-.94-.94L8 7.06 4.27333333 3.33333333l-.94.94L7.06 8l-3.72666667 3.7266667.94.94L8 8.94l3.7266667 3.7266667.94-.94L8.94 8"/></g></svg>');
+  -webkit-mask-size: 90% !important;
+  -webkit-mask-position: 90% !important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: none!important;
 }
