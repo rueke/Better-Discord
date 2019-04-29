@@ -12,12 +12,13 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #304 ";
+  --Update-Text: " Update #305 ";
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
   --BetterDocsBlockerBlack1: rgb(22, 22, 22);
   --BetterDocsBlockerBlack2: rgba(0, 0, 0, 0.5);
+  --SF-Guild-Rows: var(--Guild-Rows);
 }
 
 
@@ -47,7 +48,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Direct Download Bug Fix.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New var! --SF-Guild-Rows this will let you set rows in server folders.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -10949,129 +10950,6 @@ transition: all 200ms;
   background-image: none!important;
 }
 
-/* Thanks to Tropical#8908 For this */
-
-.friendsTable-133bsv .scroller-2FKFPG>div:not(.friendsRow-2yicud),
-.friendsTable-133bsv .scroller-2FKFPG {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-}
-
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud {
-	border-radius: 4px;
-	background:var(--S-Colour);
-	margin: 8px;
-	padding: 0;
-	height: 135px !important;
-	width: 40%;
-	display: block;
-	position: relative;
-}
-
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud:hover {
-  background-color: var(--S-Colour) !important;
-  box-shadow:none !important;
-}
-
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .discord-tag {
-	display: block;
-	position: absolute;
-	font-size: 13px;
-	top: 30px;
-	left: 58px;
-	overflow: visible;
-}
-
-.container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {
-	width: 100%;
-}
-
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .avatarSmall--gkJKA {
-	margin-left: 6px !important;
-	margin-top: 30px;
-	width: 44px;
-	height: 44px;
-}
-
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .discord-tag .discriminator {
-	visibility: visible !important;
-	position: absolute;
-	top: 15px;
-	left: 0;
-	opacity: 1 !important;
-}
-
-.friendsColumnActions-1LT3_M {
-	position: absolute;
-	bottom: 0 !important;
-	top: 70%;
-	left: 5px;
-	visibility:visible !important; 
-}
-
-.friendsTable-133bsv .friendsColumnGuilds-2we6jb {
-  margin-top:3px !important;
-  margin-left:4px !important;
-}
-
-.iconSizeSmall-3aWgx9,
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO {
-	width: 20px;
-	height: 20px;
-	margin: 2px;
-	font-size: 9px;
-	border-radius:0;
-}
-
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb a+a {
-	margin: 0;
-}
-
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsTableHeader-32yE7d {
-	display: none !important;
-}
-
-.container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
-	background-size: 20px !important;
-	height: 30px;
-	width: 30px;
-}
-
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
-	margin: 0;
-}
-
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq,
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 {
-	width: 100% !important;
-	margin-right:0 !important;
-	display:flex;
-	opacity: .8;
-	justify-content: center;
-	height:20px !important;
-	position: absolute;
-	top: 0;
-	border-radius:3px;
-	z-index: 0;
-}
-
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .statusText-2F9zIF {
-	position: absolute;
-	color: rgba(255, 255, 255, 075);
-	font-weight: 500 !important;
-	max-width: 900%;
-	font-size: 11px;
-	line-height: 18px;
-	top: 0;
-}
-
-.friendsTable-133bsv .friendsRow-2yicud .discord-tag .discriminator, .friendsTable-133bsv .friendsRow-2yicud .discord-tag .username{
-  font-size: 1rem
-}
-
-/* Thanks to Tropical#8908 For this */
-
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh, .theme-light .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {
   background-color: var(--S-Colour);
   border: 1px solid var(--Main-Colour);
@@ -11139,3 +11017,25 @@ transition: all 200ms;
   width: calc(var(--Guild-Rows) * 60px + 2px) !important;
   align-content: center;
 }
+
+/* Seprate Rows For Server Folders And Guild List */
+.wrapper-1Rf91z.foldercontent .folderseparatorouter{
+  width: calc(var(--SF-Guild-Rows) * 60px + 2px) !important;
+}
+
+.wrapper-1Rf91z.foldercontent.da-guildsWrapper.da-foldercontent.foldercontentopen>div {
+  width: calc(var(--SF-Guild-Rows) * 60px + 2px)!important;
+  max-width: calc(var(--SF-Guild-Rows) * 60px + 2px)!important;
+}
+
+.foldercontentopen>.scrollerWrap-1IAIlv {
+  width: calc(var(--SF-Guild-Rows) * 60px + 2px)!important;
+  max-width: calc(var(--SF-Guild-Rows) * 60px + 2px)!important;
+}
+
+.foldercontent {
+  width: calc(var(--SF-Guild-Rows) * 60px + 2px)!important;
+  max-width: calc(var(--SF-Guild-Rows) * 60px + 2px)!important;
+}
+
+/* Seprate Rows For Server Folders And Guild List */

@@ -60,6 +60,7 @@
   --Settings-Dock-Colour: rgba(255, 228, 233, 1);
   --Timestamp-Colour: rgba(255, 183, 197, 1);
   --Guild-Rows: 2;
+  --SF-Guild-Rows: var(--Guild-Rows);
   --Chat-Avatar-Border-Radius: 10%;
   --Background-Brightness: 0.65;
 }
