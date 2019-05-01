@@ -12,7 +12,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #309 ";
+  --Update-Text: " Update #310 ";
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -48,7 +48,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Tactical Nuke Ready, Turn the Key!.</text><text y="160" style="font-size: 1.1em;" x="37">(for those who dont get it: watch?v=HqwahOyO4No)</text><text y="180" style="font-size: 1.1em;" x="37">2.Macos Update!</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fixes!.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -10372,7 +10372,7 @@ transition: all 200ms;
   fill: var(--M-Colour) !important;
 }
 
-.theme-dark .notificationsSoundIcon-3PkO7b:before,.theme-dark .nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG, .theme-dark .nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG, .theme-light .nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG, .theme-light .nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG,.theme-dark .overlayToggleIconOn-3UNmty .fill-1ugeBG,.overlayToggleIconOff-1kT42w .fill-1ugeBG,.button-mM-y8i,.theme-dark .avatarUploaderIndicator-2G-aIZ,.theme-dark .quickSelectArrow-1QublR,.container-1YxwTf .btn-quote,[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"],[style*="/assets/959a1978f7be567071a1354a98b46ecd.svg"],.homeIcon-tEMBK1,.additionalActionsIcon-1FoUlE,.connectedAccountOpenIcon-2cNbq5,.check-2by_h9,[style*="/assets/37d23346ca73770fda04fbdcc54336e5.svg"] {
+.theme-dark .notificationsSoundIcon-3PkO7b:before,.theme-dark .nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG, .theme-dark .nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG, .theme-light .nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG, .theme-light .nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG,.theme-dark .overlayToggleIconOn-3UNmty .fill-1ugeBG,.overlayToggleIconOff-1kT42w .fill-1ugeBG,.button-mM-y8i,.theme-dark .avatarUploaderIndicator-2G-aIZ,.theme-dark .quickSelectArrow-1QublR,.container-1YxwTf .btn-quote,[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"],[style*="/assets/959a1978f7be567071a1354a98b46ecd.svg"],.homeIcon-tEMBK1,.additionalActionsIcon-1FoUlE,.connectedAccountOpenIcon-2cNbq5,.check-2by_h9,[style*="/assets/37d23346ca73770fda04fbdcc54336e5.svg"],.theme-dark .editIcon-13gaox {
   background-color: var(--Main-Colour) !important;
   color: var(--Main-Colour) !important;
   fill: var(--Main-Colour) !important;
@@ -11045,3 +11045,48 @@ transition: all 200ms;
 }
 
 /* Seprate Rows For Server Folders And Guild List */
+
+.theme-dark .expandedInfo-3kfShd {
+  background-color: var(--S-Colour);
+}
+
+.theme-dark .paymentHeader-3QlZQi,.theme-dark .paymentText-2vaF7U,.css-1k00wn6-singleValue,.css-12o7ek3-option,.css-12o7ek5-option,.css-1gnr91b-option,.css-1aymab5-option,.css-13kbzi0-control,.css-548n9r-singleValue {
+  color: var(--Main-Colour);
+}
+
+.theme-dark .paymentHeader-3QlZQi {
+  border-color: var(--M-Colour);
+}
+
+.css-15ejc46-control,.css-12o7ek3-option,.css-12o7ek5-option,.css-13kbzi0-control {
+  background-color: var(--S-Colour);
+  border-color: var(--M-Colour);
+}
+
+.css-ua3v5p-menu,.css-1gnr91b-option,.css-1aymab5-option {
+  background-color: var(--Background-Colour);
+  border: 1px solid var(--M-Colour);
+}
+
+.css-ua3v5p-menu:hover,.css-1gnr91b-option:hover {
+  background-color: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.css-15ejc46-control:hover,.css-2yldzf-control,.css-12o7ek3-option:hover,.css-12o7ek5-option:hover,.css-2yldzf-control:hover {
+  background-color: var(--S-Colour);
+  border-color: var(--Main-Colour);
+}
+
+.css-12o7ek3-option{
+  display:none;
+}
+
+.theme-dark .editIcon-13gaox {
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path fill="#FFFFFF" fill-rule="nonzero" d="M20,5 L4,5 C2.9,5 2.01,5.9 2.01,7 L2,17 C2,18.1 2.9,19 4,19 L20,19 C21.1,19 22,18.1 22,17 L22,7 C22,5.9 21.1,5 20,5 Z M11,8 L13,8 L13,10 L11,10 L11,8 Z M11,11 L13,11 L13,13 L11,13 L11,11 Z M8,8 L10,8 L10,10 L8,10 L8,8 Z M8,11 L10,11 L10,13 L8,13 L8,11 Z M7,13 L5,13 L5,11 L7,11 L7,13 Z M7,10 L5,10 L5,8 L7,8 L7,10 Z M16,17 L8,17 L8,15 L16,15 L16,17 Z M16,13 L14,13 L14,11 L16,11 L16,13 Z M16,10 L14,10 L14,8 L16,8 L16,10 Z M19,13 L17,13 L17,11 L19,11 L19,13 Z M19,10 L17,10 L17,8 L19,8 L19,10 Z"/><path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z"/></g></svg>');
+  -webkit-mask-size: 100% !important;
+  -webkit-mask-position: 100% !important;
+  -webkit-mask-repeat: no-repeat !important;
+  background-image: none !important;
+}
