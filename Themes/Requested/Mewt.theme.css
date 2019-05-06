@@ -33,8 +33,8 @@
 :root {
   --Main-Colour: rgba(255,0,0,1);
   --Background-Colour: rgba(7,7,7,1);
-  --S-Colour: rgba(7,7,7,.3);
-  --M-Colour: rgba(255,0,0,.5);
+  --Secondary-Background-Colour: rgba(7,7,7,.3);
+  --Secondary-Main-Colour: rgba(255,0,0,.5);
   --Text-Shadow-Colour: rgba(7,7,7,.65);
   --Scroller-Colour: rgba(255,0,0,1);
   --Notification-Colour: rgba(255,0,0,1);
@@ -53,15 +53,15 @@
   --Popout-Main-Colour: var(--Main-Colour);
   --Popout-Background: var(--Chat-Background);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
-  --Emote-Popout-Background: var(--S-Colour);
+  --Emote-Popout-Background: var(--Secondary-Background-Colour);
   --load1: "Anti";
   --load2: "Lag";
   --load3: "➢NFLD99";
-  --Timestamp-Colour: var(--M-Colour);
-  --Guild-Rows: 2;
-  --SF-Guild-Rows: var(--Guild-Rows);
+  --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 10%;
-  --Background-Brightness: 0.5;
+  --Background-Darkness: 0.5;
 }
 [style*="avatars/325746166518251530"].avatar-large+ .comment strong:before,[style*="avatars/325746166518251530"].avatar-large+ .comment strong:after,
 [style*="avatars/322758556946530304"].avatar-large+ .comment strong:before,[style*="avatars/322758556946530304"].avatar-large+ .comment strong:after,

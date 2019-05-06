@@ -8,7 +8,7 @@ body{-webkit-backface-visibility:hidden;backface-visibility:hidden}
 
 body::after{z-index:-9999}
 
-body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center;-webkit-filter:brightness(var(--background-brightness)) blur(var(--background-blur));filter:brightness(var(--background-brightness)) blur(var(--background-blur))}
+body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center;-webkit-filter:brightness(var(--Background-Darkness)) blur(var(--background-blur));filter:brightness(var(--Background-Darkness)) blur(var(--background-blur))}
 
 .callout-backdrop::after{background-image:inherit}
 

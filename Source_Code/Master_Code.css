@@ -12,13 +12,13 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #310 ";
+  --Update-Text: " Update #311 ";
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
   --BetterDocsBlockerBlack1: rgb(22, 22, 22);
   --BetterDocsBlockerBlack2: rgba(0, 0, 0, 0.5);
-  --SF-Guild-Rows: var(--Guild-Rows);
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
 }
 
 
@@ -48,7 +48,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fixes!.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Major Update, Please Redownload.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -213,7 +213,7 @@ body:after {
 
 .appMount-3VJmYg, .appMount-3lHmkl {
   background: Var(--Title-Background)50% 50%/cover !important;
-  background-color: rgba(0, 0, 0, var(--Background-Brightness)) !important;
+  background-color: rgba(0, 0, 0, var(--Background-Darkness)) !important;
 }
 
 .titleBar-AC4pGV {
@@ -265,7 +265,7 @@ body:after {
 } */
 
 .theme-dark .ui-standard-sidebar-view .content-region, .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .sidebar-region {
-  background: rgba(0, 0, 0, var(--Background-Brightness)) !important;
+  background: rgba(0, 0, 0, var(--Background-Darkness)) !important;
 }
 
 .theme-dark .ui-standard-sidebar-view, .theme-dark .standardSidebarView-3F1I7i {
@@ -273,7 +273,7 @@ body:after {
 }
 
 .callout-backdrop, .modal-1UGdnR, .header-2BwW8b, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
-  background: rgba(0, 0, 0, var(--Background-Brightness))!important;
+  background: rgba(0, 0, 0, var(--Background-Darkness))!important;
 }
 
 .backdrop-1ocfXc, .backdrop-1wrmKB {
@@ -316,7 +316,7 @@ form.deprecated.auth-form h1, form.deprecated.auth-form .control-group input[typ
 }
 
 form.deprecated.auth-form footer {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark #friends .friends-table .friends-table-header .friends-column, .theme-dark #friends .friends-table .friends-row .friends-column-name, .theme-dark #friends .friends-table .friends-row .friends-column-status {
@@ -464,11 +464,11 @@ form.deprecated.auth-form footer {
 }
 
 .member.member-status.member-status-offline:hover {
-  background-color: var(--S-Colour) !important;
+  background-color: var(--Secondary-Background-Colour) !important;
 }
 
 .member.member-status.member-status-online:hover {
-  background-color: var(--S-Colour) !important;
+  background-color: var(--Secondary-Background-Colour) !important;
 }
 
 .notice {
@@ -477,7 +477,7 @@ form.deprecated.auth-form footer {
 }
 
 .timestamp {
-  color: var(--M-Colour) !important;
+  color: var(--Secondary-Main-Colour) !important;
   font-size: 13px;
 }
 
@@ -648,7 +648,7 @@ span.ping {
 }
 
 .channel-members .member.popout-open {
-  background: linear-gradient(to right, var(--S-Colour), var(--Main-Colour)) !important;
+  background: linear-gradient(to right, var(--Secondary-Background-Colour), var(--Main-Colour)) !important;
   border-left: 4px solid var(--Main-Colour);
 }
 
@@ -705,7 +705,7 @@ span.ping {
 /* Friends */
 
 #friends .friends-table .friends-table-body {
-  background-color: var(--S-Colour) !important;
+  background-color: var(--Secondary-Background-Colour) !important;
   border-radius: 5px !important;
   border: 1px solid var(--Main-Colour);
   margin-left: 1.6vw;
@@ -715,7 +715,7 @@ span.ping {
 }
 
 #friends .friends-table .friends-table-header {
-  background-color: var(--S-Colour) !important;
+  background-color: var(--Secondary-Background-Colour) !important;
   border-radius: 5px !important;
   border: 1px solid var(--Main-Colour);
   border-bottom: 1px solid var(--Main-Colour)!important;
@@ -817,7 +817,7 @@ span.botTagRegular-2HEhHi {
 /* Speech bubble CSS */
 
 .tooltip, .tooltip.tooltip-black {
-  background: linear-gradient(to top, var(--M-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--M-Colour)) !important;
+  background: linear-gradient(to top, var(--Secondary-Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--Secondary-Main-Colour)) !important;
 }
 
 .tooltip.tooltip-right:after {
@@ -1016,7 +1016,7 @@ a.channel-name.channel-private, .header-2o-2hj, .private-channels .channel .chan
 }
 
 .nameDefault-Lnjrwm, .theme-dark .channel-members .member {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .form-inner.loading {
@@ -1164,7 +1164,7 @@ div.help-text {
 }
 
 .channel-members .member:hover {
-  background: linear-gradient(to right, var(--S-Colour), var(--M-Colour)) !important;
+  background: linear-gradient(to right, var(--Secondary-Background-Colour), var(--Secondary-Main-Colour)) !important;
   border-left: 2px solid var(--Main-Colour);
 }
 
@@ -1417,7 +1417,7 @@ div.bd-dropdown {
 
 .theme-dark .channel-members h2, .theme-dark .membersGroup-v9BXpm {
   border-bottom: 6px !important;
-  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--M-Colour)) !important;
+  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Secondary-Main-Colour)) !important;
 }
 
 .channel-members h2, .membersGroup-v9BXpm {
@@ -1536,14 +1536,14 @@ div.flex-spacer.flex-vertical form {
 }
 
 .wrapper-1Rf91z .guilds-error:hover {
-  background: linear-gradient(to left, var(--M-Colour), transparent, transparent, var(--M-Colour));
+  background: linear-gradient(to left, var(--Secondary-Main-Colour), transparent, transparent, var(--Secondary-Main-Colour));
   animation: Spin 2s ease-in-out infinite alternate;
 }
 
 .wrapper-1Rf91z .guilds-error {
   height: 40px;
   width: 40px;
-  background: linear-gradient(to left, var(--M-Colour), transparent, transparent, var(--M-Colour));
+  background: linear-gradient(to left, var(--Secondary-Main-Colour), transparent, transparent, var(--Secondary-Main-Colour));
 }
 
 #app-mount>div>div.app.flex-vertical.theme-dark>div>section>div.wrapper-1Rf91z>div {
@@ -1610,11 +1610,11 @@ spinner-pulsing-ellipsis .spinner-item {
 }
 
 .theme-dark .memberOffline-2lN7gt {
-  color: var(--M-Colour) !important;
+  color: var(--Secondary-Main-Colour) !important;
 }
 
 .theme-dark .activity-1IYsbk {
-  color: var(--M-Colour) !important;
+  color: var(--Secondary-Main-Colour) !important;
 }
 
 .image-33JSyf, .status-oxiHuE {
@@ -1622,7 +1622,7 @@ spinner-pulsing-ellipsis .spinner-item {
 }
 
 .theme-dark .member-3W1lQa:hover .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
-  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--M-Colour));
+  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Secondary-Main-Colour));
   color: var(--Main-Colour) !important;
 }
 
@@ -1672,13 +1672,13 @@ spinner-pulsing-ellipsis .spinner-item {
 
 @keyframes Everyone {
   0% {
-    box-shadow: 0px 0px 15px 0px var(--M-Colour);
+    box-shadow: 0px 0px 15px 0px var(--Secondary-Main-Colour);
   }
   50% {
-    box-shadow: 0px 0px 15px 5px var(--M-Colour);
+    box-shadow: 0px 0px 15px 5px var(--Secondary-Main-Colour);
   }
   100% {
-    box-shadow: 0px 0px 15px 0px var(--M-Colour);
+    box-shadow: 0px 0px 15px 0px var(--Secondary-Main-Colour);
   }
 }
 
@@ -1888,7 +1888,7 @@ div.settings-right>div.settings-actions {
 }
 
 .chat .new-messages-bar, div[class*=" unreadBar-"], .mention-1f5kbO, .theme-dark .chat .jump-to-present-bar, .channels-wrap>div:last-child:hover>div:last-child:hover {
-  background: linear-gradient(to right, var(--Background-Colour), var(--M-Colour), var(--M-Colour), var(--Background-Colour)) !important;
+  background: linear-gradient(to right, var(--Background-Colour), var(--Secondary-Main-Colour), var(--Secondary-Main-Colour), var(--Background-Colour)) !important;
   color: var(--Background-Colour) !important;
 }
 
@@ -2041,7 +2041,7 @@ div.avatar-small {
 div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu, .theme-dark.context-menu .item, .context-menu .item:not(.item-subMenu) {
   background: var(--Background-Colour) !important;
   background-color: var(--Background-Colour) !important;
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 div.option-popout.small-popout-box:hover, div.context-menu:hover, .context-menu .context-menu:hover, .theme-dark.context-menu .item:hover, .context-menu .item:hover {
@@ -2059,12 +2059,12 @@ div.option-popout.small-popout-box:hover, div.context-menu:hover, .context-menu 
 div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu:not(.item-subMenu) {
   background: var(--Background-Colour) !important;
   background-color: var(--Background-Colour) !important;
-  border: 2px solid var(--M-Colour) !important;
+  border: 2px solid var(--Secondary-Main-Colour) !important;
 }
 
 div.btn-item {
   background-color: var(--Background-Colour) !important;
-  color: var(--M-Colour) !important;
+  color: var(--Secondary-Main-Colour) !important;
   border: none;
 }
 
@@ -2384,7 +2384,7 @@ div.flex-spacer.flex-vertical form {
 .mention:hover {
   cursor: pointer;
   color: var(--Main-Colour);
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .message-group .comment .markup-2BOw-j .mention, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q, .nameDefault-2s3kbY {
@@ -2515,7 +2515,7 @@ div.form-inner, .form-actions {
 }
 
 .itemDefault-3NDwnY:not(.role-3wi9Tf), .itemBrand-mC9YR4:not(.role-3wi9Tf), #bd-settings-sidebar .ui-tab-bar-item:not(.role-3wi9Tf) {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .search-bar.search-bar-light .search-bar-inner {
@@ -2528,11 +2528,11 @@ div.form-inner, .form-actions {
 }
 
 .separator-gCa7yv, #bd-settings-sidebar .ui-tab-bar-separator {
-  background: var(--M-Colour)!important;
+  background: var(--Secondary-Main-Colour)!important;
 }
 
 #bd-settings-sidebar .ui-tab-bar-separator {
-  background: var(--M-Colour)!important;
+  background: var(--Secondary-Main-Colour)!important;
 }
 
 .header-2RyJ0Y, #bd-settings-sidebar .ui-tab-bar-header {
@@ -2619,7 +2619,7 @@ div.form-inner, .form-actions {
 .theme-dark .message-group .edit-message .edit-operation {
   margin-top: 5px;
   margin-right: 0px;
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .message-group .embed {
@@ -2659,7 +2659,7 @@ div.form-inner, .form-actions {
 }
 
 .container-37-TX2 {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .wrapperHoveredVoice-3tbfNN {
@@ -2729,7 +2729,7 @@ div.form-inner, .form-actions {
 }
 
 .actionRed-1J19Tx, .actionRed-1J19Tx:hover {
-  Background: var(--M-Colour);
+  Background: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .modal-3HD5ck, .theme-dark .message-2qRu38 {
@@ -2750,16 +2750,16 @@ div.form-inner, .form-actions {
 }
 
 .theme-dark .cardPrimary-1Hv-to, .theme-dark .cardPrimaryOutline-29Ujqw, .theme-dark .cardPrimaryEditable-3KtE4g, .theme-dark .ui-standard-sidebar-view .btn-close {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .ui-standard-sidebar-view .btn-close:hover {
-  background: var(--M-Colour);
+  background: var(--Secondary-Main-Colour);
   animation: Spin 2.8s infinite linear;
 }
 
 .theme-dark .ui-standard-sidebar-view .esc-text, #bd-settingspane-container .ui-switch-item .style-description, .ui-standard-sidebar-view .bda-slist .bda-description, .theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1BebCl {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .defaultColor-1_ajX0, #bd-settingspane-container h2.ui-form-title, #bd-settingspane-container .ui-switch-item h3, .theme-dark .h5-18_1nd, .theme-dark .user-settings-account .view-body {
@@ -2767,11 +2767,11 @@ div.form-inner, .form-actions {
 }
 
 .theme-dark .item-3eFBNF {
-  box-shadow: inset 0 -1px 0 0 var(--M-Colour);
+  box-shadow: inset 0 -1px 0 0 var(--Secondary-Main-Colour);
 }
 
 #bd-settingspane-container .ui-switch-item .style-description {
-  border-bottom-color: var(--M-Colour);
+  border-bottom-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .cardPrimary-1Hv-to, .theme-dark .cardPrimaryOutline-29Ujqw, .theme-dark .cardPrimaryEditable-3KtE4g {
@@ -2849,7 +2849,7 @@ div.form-inner, .form-actions {
 }
 
 .theme-dark .user-settings-games .last-played, .theme-dark .user-settings-games .overlay-status-text {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .horizontalReverse-2eTKWD>.flexChild-1KGW5q:first-child, .create-guild-container.deprecated .action.join .action-icon, .create-guild-container.deprecated .action.create .action-icon {
@@ -2917,10 +2917,10 @@ div.form-inner, .form-actions {
 /* Search */
 
 .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker, .theme-light .calendarPicker-2yf6Ci .react-datepicker, .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__day--disabled, .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__day--outside-month, .theme-light .calendarPicker-2yf6Ci .react-datepicker__day--disabled, .theme-light .calendarPicker-2yf6Ci .react-datepicker__day--outside-month, .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__day, .theme-light .calendarPicker-2yf6Ci .react-datepicker__day {
-  background-color: var(--S-Colour)!important;
-  color: var(--M-Colour)!important;
-  border-left-color: var(--M-Colour)!important;
-  border-top-color: var(--M-Colour)!important;
+  background-color: var(--Secondary-Background-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
+  border-left-color: var(--Secondary-Main-Colour)!important;
+  border-top-color: var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__day:hover, .theme-light .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover, .theme-light .calendarPicker-2yf6Ci .react-datepicker__day:hover, .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__header, .theme-light .calendarPicker-2yf6Ci .react-datepicker__header, .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__current-month, .theme-light .calendarPicker-2yf6Ci .react-datepicker__current-month, .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__day-name, .theme-light .calendarPicker-2yf6Ci .react-datepicker__day-name {
@@ -2929,23 +2929,23 @@ div.form-inner, .form-actions {
 }
 
 .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__week .react-datepicker__day:last-of-type, .theme-light .calendarPicker-2yf6Ci .react-datepicker__week .react-datepicker__day:last-of-type {
-  border-right-color: var(--M-Colour)!important;
+  border-right-color: var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__week:last-of-type .react-datepicker__day, .theme-light .calendarPicker-2yf6Ci .react-datepicker__week:last-of-type .react-datepicker__day {
-  border-bottom-color: var(--M-Colour)!important;
+  border-bottom-color: var(--Secondary-Main-Colour)!important;
 }
 
 .search-popout .date-picker .date-picker-hint .hint {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-light .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--next, .theme-light .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__current-month, .theme-light .calendarPicker-2yf6Ci .react-datepicker__current-month {
-  border-color: var(--M-Colour)!important;
+  border-color: var(--Secondary-Main-Colour)!important;
 }
 
 .search-popout .date-picker .date-picker-hint {
-  border-top-color: var(--M-Colour)!important;
+  border-top-color: var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .theme-light .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after, .theme-light .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after {
@@ -2962,12 +2962,12 @@ div.form-inner, .form-actions {
 }
 
 .search-popout .option strong, .search-popout .option.user .displayed-nick {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .search-popout, .search-popout .option, .search-popout .option:after, .search-popout .search-option .answer, .search-popout .search-option .filter {
   background: var(--Background-Colour)!important;
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .search-popout .option.selected:hover, .search-popout .option.selected, .search-popout .option:hover {
@@ -3003,12 +3003,12 @@ div.form-inner, .form-actions {
 }
 
 .theme-dark .keybind-KpFkfr {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .closeButton-1tv5uR {
-  border-color: var(--M-Colour);
-  background-color: var(--S-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .closeButton-1tv5uR:hover {
@@ -3017,7 +3017,7 @@ div.form-inner, .form-actions {
 }
 
 .closeButton-1tv5uR>svg>g>path.fill {
-  fill: var(--M-Colour)
+  fill: var(--Secondary-Main-Colour)
 }
 
 .closeButton-1tv5uR:hover>svg>g>path.fill {
@@ -3054,7 +3054,7 @@ div.form-inner, .form-actions {
 }
 
 ::-webkit-input-placeholder {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .spinner {
@@ -3151,7 +3151,7 @@ div.form-inner, .form-actions {
 .theme-dark .iconForeground-2c7s3m, .theme-dark .title-1aVOXw, .theme-dark [class*='activityFeed-'], .theme-dark .body-2WmNzl, .theme-dark .activity-3tgXuD {
   background: transparent;
   color: var(--Main-Colour);
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .splashArt-2R_m_a {
@@ -3163,8 +3163,8 @@ div.form-inner, .form-actions {
 
 .form.deprecated .control-group input[type=email], .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password], .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea {
   background: var(--Background-Colour);
-  border: 1px solid var(--M-Colour);
-  border-bottom: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+  border-bottom: 1px solid var(--Secondary-Main-Colour);
   color: var(--Main-Colour)!important;
 }
 
@@ -3236,7 +3236,7 @@ svg[name="Nova_Download"]{
 
 .popout-menu .popout-menu-item {
   background-color: var(--Background-Colour) !important;
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .popout-menu {
@@ -3265,11 +3265,11 @@ svg[name="Nova_Download"]{
 }
 
 #app-mount>div.app-19_DXt.platform-win>div.app.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.content.flex-spacer.flex-horizontal>div.flex-spacer.flex-vertical>div.messagesWrapper-3lZDfY>div>div>div.message-group.hide-overflow>div.comment>div>div.accessory>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignStretch-DpGPf3.noWrap-3jynv6.guildInfo-1STtYi>div.guildDetail-1nRKNE.small-29zrCQ.size12-3R0845.height16-2Lv3qA.weightSemiBold-NJexzi>div>span:nth-child(4) {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 #app-mount>div.app-19_DXt.platform-win>div.app.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.content.flex-spacer.flex-horizontal>div.flex-spacer.flex-vertical>div.messagesWrapper-3lZDfY>div>div>div.message-group.hide-overflow>div.comment>div>div.accessory>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignStretch-DpGPf3.noWrap-3jynv6.guildInfo-1STtYi>div.guildDetail-1nRKNE.small-29zrCQ.size12-3R0845.height16-2Lv3qA.weightSemiBold-NJexzi>div>span:nth-child(4):before {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   content: " Out  Of  "
 }
 
@@ -3297,16 +3297,16 @@ svg[name="Nova_Download"]{
   -webkit-box-flex: 1;
   border: none;
   border-radius: 0 0 0 0;
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   flex: 1;
   margin: 0;
 }
 
 .button {
   background: transparent!important;
-  border: 1px solid Var(--M-Colour)!important;
+  border: 1px solid Var(--Secondary-Main-Colour)!important;
   border-radius: 3px!important;
-  color: Var(--M-Colour)!important;
+  color: Var(--Secondary-Main-Colour)!important;
 }
 
 .button:hover {
@@ -3463,7 +3463,7 @@ svg[name="Nova_Download"]{
 
 .userPopout-3XzG_A {
   background: var(--Popout-Background) 50% 50%/cover;
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .headerName-fajvi9, .headerTagUsernameNoNickname-2_H881, .headerTag-2pZJzA, .bodyTitle-Y0qMQz, .theme-dark .note-3kmerW textarea {
@@ -3471,7 +3471,7 @@ svg[name="Nova_Download"]{
 }
 
 .theme-dark .note-3kmerW textarea:focus {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .headerSpotify-zpWxgT, .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .lookGhost-2Fn_0-.colorGrey-4JijJ1:active, .lookGhost-2Fn_0-.colorBrand-3PmwCE {
@@ -3479,8 +3479,8 @@ svg[name="Nova_Download"]{
 }
 
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover, .lookGhost-2Fn_0-.colorGrey-4JijJ1:active {
-  border-color: var(--M-Colour);
-  color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover:hover, .lookGhost-2Fn_0-.colorBrand-3PmwCE {
@@ -3501,7 +3501,7 @@ svg[name="Nova_Download"]{
 }
 
 .form-inner p {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .form-deprecated .form-actions, .form.deprecated .form-actions {
@@ -3509,7 +3509,7 @@ svg[name="Nova_Download"]{
 }
 
 .regionSelect-3lf4eE .regionSelectInner-1cIYbU, .regionSelect-3lf4eE button {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .regionSelect-3lf4eE:hover .regionSelectInner-1cIYbU, .regionSelect-3lf4eE:hover button {
@@ -3527,7 +3527,7 @@ svg[name="Nova_Download"]{
 /* New UserPopouts */
 
 ::selection {
-  background: var(--M-Colour)!important;
+  background: var(--Secondary-Main-Colour)!important;
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
@@ -3535,7 +3535,7 @@ svg[name="Nova_Download"]{
 }
 
 .theme-dark .attachButtonPlus-rUdX-B {
-  fill: var(--M-Colour);
+  fill: var(--Secondary-Main-Colour);
 }
 
 .spriteNormal-1wvG5n {
@@ -3560,15 +3560,15 @@ svg[name="Nova_Download"]{
 }
 
 #app-mount>div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3>div:nth-child(4)>svg, #app-mount>div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3>div.winButtonClose-1HsbF-.winButton-iRh8-Z.center-1MLNrE.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs>svg>polygon, #app-mount>div.app-19_DXt.platform-win>div.app.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg:nth-child(1)>g>path, #app-mount>div.app-19_DXt.platform-win>div.app.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg:nth-child(2)>g>path.iconForeground-2c7s3m, #app-mount>div.app-19_DXt.platform-win>div.app.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg.iconActive-AKd_jq.icon-1R19_H.iconMargin-2YXk4F>g>path, #app-mount>div.app-19_DXt.platform-win>div.app.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg:nth-child(6)>path, #app-mount>div.app-19_DXt.platform-win>div.app.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg:nth-child(7)>g, .foreground-2W-aJk, #app-mount>div.app-19_DXt.platform-win>div.app.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.titleText-3X-zRE>span>svg>path, #app-mount>div.app-19_DXt.platform-win>div.app.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.container-PNkimc>div.scrollerWrap-2lJEkd.scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW.scrollerFade-28dRsO>div>div.container-5>div:nth-child(3)>div>div>div:nth-child(1)>svg>path.background-2OVjk_, #app-mount>div.theme-dark.popouts>div>div>div.body-3rkFrF>div:nth-child(1)>svg>path, #app-mount>div.theme-dark.popouts>div>div>div.body-3rkFrF>div:nth-child(3)>svg>path {
-  fill: var(--M-Colour) !important;
+  fill: var(--Secondary-Main-Colour) !important;
 }
 
 #app-mount>div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3>div:nth-child(3)>svg>rect, #app-mount>div.app-19_DXt.platform-win>div.app.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.container-PNkimc>div.flexChild-1KGW5q>div>header>svg>g>path:nth-child(2), #app-mount>div.app-19_DXt.platform-win>div.app.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.container-PNkimc>div.flexChild-1KGW5q>div>header>svg>g>path:nth-child(3) {
-  stroke: var(--M-Colour) !important;
+  stroke: var(--Secondary-Main-Colour) !important;
 }
 
 * svg>path, * svg>polygon, .theme-dark .foreground-26ym5y {
-  fill: var(--M-Colour) !important;
+  fill: var(--Secondary-Main-Colour) !important;
 }
 
 .winButtonClose-1HsbF-:hover {
@@ -3580,7 +3580,7 @@ svg[name="Nova_Download"]{
 }
 
 .iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .iconHovered-3PRzOR, .iconHoveredCollapsed-jNYgOD, .nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI {
@@ -3588,7 +3588,7 @@ svg[name="Nova_Download"]{
 }
 
 .tab-bar.TOP .tab-bar-item:hover {
-  border-bottom: 2px solid var(--M-Colour);
+  border-bottom: 2px solid var(--Secondary-Main-Colour);
 }
 
 .nameMutedText-1YDcP-, .nameMutedVoice-26k4cP, .iconMuted-Hb4ttQ, .nameMuted-1n0LSj {
@@ -3597,7 +3597,7 @@ svg[name="Nova_Download"]{
 }
 
 .theme-dark .iconForeground-2c7s3m, .theme-dark .title-1aVOXw {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 #autocomplete-popout .row.selected, #autocomplete-popout .row:hover {
@@ -3614,7 +3614,7 @@ svg[name="Nova_Download"]{
 }
 
 .chat .new-messages-bar, div[class*=" unreadBar-"], .mention-1f5kbO, .theme-dark .chat .jump-to-present-bar, .channels-wrap>div:last-child:hover>div:last-child:hover {
-  background: linear-gradient(to right, var(--Background-Colour), var(--M-Colour), var(--M-Colour), var(--Background-Colour)) !important;
+  background: linear-gradient(to right, var(--Background-Colour), var(--Secondary-Main-Colour), var(--Secondary-Main-Colour), var(--Background-Colour)) !important;
   color: var(--Background-Colour) !important;
 }
 
@@ -3628,7 +3628,7 @@ svg[name="Nova_Download"]{
 }
 
 .theme-dark .body-SKIE6r {
-  background-color: var(--S-Colour)!important;
+  background-color: var(--Secondary-Background-Colour)!important;
 }
 
 .theme-dark .gameName-Ivkyss, .theme-dark .sectionTitle-le2fuz, .theme-dark .username-1cRqpK, .theme-dark .activityActivityFeed-2gIGSa .content-3JfFJh, .theme-dark .activityActivityFeed-3xysim .details-38sfDr, .theme-dark .description-12ntlD, .theme-dark .title-bYqmgP, .theme-dark .gameName-ZXDRa6 {
@@ -3636,7 +3636,7 @@ svg[name="Nova_Download"]{
 }
 
 .theme-dark .discriminator-20nIyt, .theme-dark .playTime-2KDQrS, .theme-dark .voiceChannelIcon-Ac0fPK, .theme-dark .discriminator-1Kma2g, .theme-dark .playTime-2SuPqW, .theme-dark .icon-2oIyBi {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .tabBarContainer-1s1u-z, .theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx {
@@ -3715,13 +3715,13 @@ svg[name="Nova_Download"]{
 
 .theme-dark .card-FDVird:before {
   background-color: Transparent;
-  border-color: Var(--M-Colour);
+  border-color: Var(--Secondary-Main-Colour);
 }
 
 .buttonGreyFilled-3qPP_J, .pill-1nbD-Z, .buttonGreenFilled-6QHNrw {
   background-color: Transparent;
-  border: 1px solid Var(--M-Colour);
-  color: Var(--M-Colour);
+  border: 1px solid Var(--Secondary-Main-Colour);
+  color: Var(--Secondary-Main-Colour);
 }
 
 .pill-1nbD-Z:hover, .buttonGreenFilledDefault-_lLQaz:hover {
@@ -3749,30 +3749,30 @@ svg[name="Nova_Download"]{
   -webkit-box-flex: 1;
   flex: 1 1 auto;
   padding-right: -4px;
-  border-right: 1px solid Var(--M-Colour);
+  border-right: 1px solid Var(--Secondary-Main-Colour);
 }
 
 .theme-dark .contentLocked-33_aJm, .theme-dark .descriptionColor-2woJAm {
-  color: Var(--M-Colour);
+  color: Var(--Secondary-Main-Colour);
 }
 
 .emptyUser-3FRJaF {
   background: transparent;
   border-radius: 50%;
-  border: 1px solid Var(--M-Colour);
+  border: 1px solid Var(--Secondary-Main-Colour);
   height: 20px;
   width: 20px;
 }
 
 .moreUsers-1s5Her {
   background: transparent;
-  color: Var(--M-Colour);
-  border: 1px solid Var(--M-Colour);
+  color: Var(--Secondary-Main-Colour);
+  border: 1px solid Var(--Secondary-Main-Colour);
 }
 
 .top-28JiJ- .item-PXvHYJ {
-  color: var(--M-Colour) !important;
-  background: linear-gradient(to bottom, transparent, var(--Background-Colour), var(--M-Colour)) !important;
+  color: var(--Secondary-Main-Colour) !important;
+  background: linear-gradient(to bottom, transparent, var(--Background-Colour), var(--Secondary-Main-Colour)) !important;
 }
 
 .theme-dark .top-28JiJ- .itemSelected-1qLhcL {
@@ -3783,7 +3783,7 @@ svg[name="Nova_Download"]{
 
 .theme-dark .gameDefault-2SBp6B:focus, .theme-dark .gameDefault-2SBp6B:hover {
   background-color: transparent;
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .profileBadgePremium-3kZ9Qj {
@@ -3824,7 +3824,7 @@ svg[name="Nova_Download"]{
 }
 
 .theme-dark .layers-3iHuyZ {
-  background: rgba(0, 0, 0, var(--Background-Brightness)) !important;
+  background: rgba(0, 0, 0, var(--Background-Darkness)) !important;
 }
 
 .theme-dark .layer-3QrUeG {
@@ -3858,7 +3858,7 @@ svg[name="Nova_Download"]{
 div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu:not(.item-subMenu), .contextMenu-HLZMGh, .contextMenu-HLZMGh.disabled-dlOjhg .checkbox {
   background: var(--Background-Colour) !important;
   background-color: var(--Background-Colour) !important;
-  border: 2px solid var(--M-Colour) !important;
+  border: 2px solid var(--Secondary-Main-Colour) !important;
 }
 
 .theme-dark .typing-2GQL18, .typing-2GQL18 {
@@ -3936,7 +3936,7 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 .theme-dark .item-1Yvehc {
   background: var(--Background-Colour) !important;
   background-color: var(--Background-Colour) !important;
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .userSettingsSecurity-3IYeMF .codeCheckbox-1T0TTy {
@@ -3950,9 +3950,9 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 }
 
 .bd-pfbtn:not(:hover), .bda-slist .bda-footer button:not(:hover) {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   background-color: Var(--Background-Colour-Colour);
-  border: 1px Solid var(--M-Colour);
+  border: 1px Solid var(--Secondary-Main-Colour);
 }
 
 /* .popout-3sVMXz {
@@ -3964,9 +3964,9 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 /*, .item-1GzJrl */
 
   {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   background: var(--Background-Colour);
-  border: 2px solid var(--M-Colour);
+  border: 2px solid var(--Secondary-Main-Colour);
 }
 
 .item-1GzJrl, .item-1GzJrl:hover {
@@ -3986,7 +3986,7 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 
 .theme-dark .select-2TCrqx .Select-menu-outer {
   background: var(--Background-Colour);
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .select-2TCrqx .Select-menu-outer:hover {
@@ -4003,17 +4003,17 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 .theme-dark .select-2TCrqx .Select-option:hover {
   background: var(--Background-Colour);
   color: var(--Main-Colour);
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .select-2TCrqx .Select-option {
   background: var(--Background-Colour);
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN .friendsOnline-2JkivW {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .marginReset-3RfdVe>div:nth-child(2)>svg>path, .marginReset-3RfdVe>div:nth-child(1)>svg>path {
@@ -4026,11 +4026,11 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 
 .theme-dark .checked-3_4uQ9 {
   background: var(--Background-Colour)!important;
-  border: 1px solid var(--M-Colour)!important;
+  border: 1px solid var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .cardPrimaryEditable-3KtE4g, #app-mount>div.app-19_DXt.platform-win>div>div.layers-3iHuyZ.flex-vertical.flex-spacer>div:nth-child(2)>div>div:nth-child(2)>div>div>div>div.content-column.default>div>div>div.ui-form-item.margin-bottom-20>div>div:nth-child(1) {
-  border: 1px solid var(--M-Colour)!important;
+  border: 1px solid var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .expandIconForeground-1h4s61 {
@@ -4038,15 +4038,15 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 }
 
 .user-settings-games .overlay-toggle-icon-off .fill {
-  fill: var(--M-Colour);
+  fill: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .content-8biNdB p, .theme-dark .content-8biNdB ul li {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 #bd-settings-sidebar>span>div:nth-child(2), #bd-settings-sidebar>span>div:nth-child(3) {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark #autocomplete-popout section, .theme-dark #autocomplete-popout .row.selected, .theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background {
@@ -4054,7 +4054,7 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 }
 
 .theme-dark .input-cIJ7To:focus {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .input-cIJ7To:hover {
@@ -4063,11 +4063,11 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 
 .theme-dark .input-cIJ7To {
   color: var(--Main-Colour);
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .buttonPrimaryLinkDefault-1PQflF, .theme-dark .buttonPrimaryLinkDisabled-3Ey7-S, .theme-dark .buttonPrimaryLinkSubmitting-RbBzR4 {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .buttonPrimaryLinkDefault-1PQflF:active .contents-4L4hQM, .theme-dark .buttonPrimaryLinkDefault-1PQflF:hover .contents-4L4hQM {
@@ -4076,12 +4076,12 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 }
 
 .theme-dark .checkbox-1ix_J3 {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .connection-1fbD7X {
   background-color: transparent;
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .connection-1fbD7X:hover {
@@ -4094,11 +4094,11 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 }
 
 .connectionDelete-2Odoln:after, .connectionDelete-2Odoln:before {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .connectionDelete-2Odoln:after, .connectionDelete-2Odoln:before:after, .connectionDelete-2Odoln:after, .connectionDelete-2Odoln:before:before {
-  background: var(--M-Colour);
+  background: var(--Secondary-Main-Colour);
 }
 
 .connectionDelete-2Odoln:after, .connectionDelete-2Odoln:before:hover {
@@ -4137,7 +4137,7 @@ input {
 }
 
 .wrapper-O5i5-0 .instantInviteModal-5L33Qh .expireText-NeAc7v, .wrapper-O5i5-0 .instantInviteModal-5L33Qh .blurb-ArHxCz, div.checkbox span {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .Select--single>.Select-control .Select-value, .Select-placeholder, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .has-value.Select--single>.Select-control .Select-value .Select-value-label {
@@ -4150,7 +4150,7 @@ input {
 }
 
 .form-deprecated .Select-option, .form.deprecated .Select-option {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .Select-control, .Select-menu-outer, .Select-option {
@@ -4159,7 +4159,7 @@ input {
 }
 
 div.help-text {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 button.btn.btn-default {
@@ -4172,7 +4172,7 @@ button.btn.btn-default {
 }
 
 .theme-dark .messages-popout-wrap .messages-popout .channel-separator .guild-name, .theme-dark .recent-mentions-popout .tab-bar-item, .theme-dark .recent-mentions-popout .mention-filter .label {
-  color: var(--M-Colour) !important;
+  color: var(--Secondary-Main-Colour) !important;
 }
 
 .theme-dark .themed-popout .header .title, .theme-dark .recent-mentions-popout .mention-filter .value, .theme-dark .recent-mentions-popout .tab-bar-item {
@@ -4202,7 +4202,7 @@ button.btn.btn-default {
 .need-help-modal.deprecated .footer {
   background: var(--Background-Colour)!important;
   border-color: var(--Main-Colour)!important;
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .need-help-modal.deprecated .header h1 {
@@ -4224,11 +4224,11 @@ button.btn.btn-default {
 }
 
 .create-guild-container.deprecated .action .action-body, .inviteModal-34DdOm .inviteBody-1kVhyx, .inviteModal-34DdOm .inviteCancel-2dlgcH, .keyboard-shortcuts-modal .keyboard-shortcut-list .keybind-group .keybind-description, .keyboard-shortcuts-modal .modal-subtitle, .keybind-shortcut {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 #app-mount>div:nth-child(5)>div.modal-1UGdnR>div>div>div>div.scroller-wrap.fade>div>div>div>div.keybind-shortcuts>div>span>svg>g {
-  fill: var(--M-Colour);
+  fill: var(--Secondary-Main-Colour);
 }
 
 .create-guild-container.deprecated .create-or-join .actions .or {
@@ -4253,15 +4253,15 @@ button.btn.btn-default {
 }
 
 .keybind-shortcut span {
-  -webkit-box-shadow: inset 0 -4px 0 var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  -webkit-box-shadow: inset 0 -4px 0 var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
   border-radius: 2px;
-  box-shadow: inset 0 -4px 0 var(--M-Colour);
+  box-shadow: inset 0 -4px 0 var(--Secondary-Main-Colour);
 }
 
 .keybind-shortcut.dim span {
   background-color: var(--Background-Colour);
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .create-guild-container.deprecated .action:hover.join .btn, .keyboard-shortcuts-modal {
@@ -4271,9 +4271,9 @@ button.btn.btn-default {
 }
 
 .create-guild-container.deprecated .action:not(:hover).join .btn {
-  color: var(--M-Colour) !important;
+  color: var(--Secondary-Main-Colour) !important;
   background-color: Var(--Background-Colour-Colour) !important;
-  border: 1px Solid var(--M-Colour) !important;
+  border: 1px Solid var(--Secondary-Main-Colour) !important;
 }
 
 .create-guild-container.deprecated .create-or-join header {
@@ -4307,7 +4307,7 @@ button.btn.btn-default {
 }
 
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-1-09ZV .instructions-KnejBP {
-  color:  var(--M-Colour);
+  color:  var(--Secondary-Main-Colour);
 }
  ICONS */
 
@@ -4322,11 +4322,11 @@ button.btn.btn-default {
 
 .bd-modal-wrapper .table-header {
   color: var(--Main-Colour);
-  border-bottom: 1px solid var(--M-Colour);
+  border-bottom: 1px solid var(--Secondary-Main-Colour);
 }
 
 .bd-modal-wrapper .error {
-  border-bottom: 1px solid var(--M-Colour);
+  border-bottom: 1px solid var(--Secondary-Main-Colour);
 }
 
 .bd-modal-wrapper .tab-bar-container {
@@ -4355,9 +4355,9 @@ button.btn.btn-default {
 
 .bd-modal-wrapper .footer button {
   background: transparent!important;
-  border: 1px solid Var(--M-Colour)!important;
+  border: 1px solid Var(--Secondary-Main-Colour)!important;
   border-radius: 3px!important;
-  color: Var(--M-Colour)!important;
+  color: Var(--Secondary-Main-Colour)!important;
 }
 
 .bd-modal-wrapper .footer button:hover {
@@ -4418,8 +4418,8 @@ button.btn.btn-default {
 }
 
 .regionSelectModal-12e-57 .regionSelectModalOption-3giLPN {
-  background-color: var(--S-Colour);
-  border: 2px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border: 2px solid var(--Secondary-Main-Colour);
 }
 
 .regionSelectModal-12e-57 .regionSelectModalOption-3giLPN:hover {
@@ -4432,14 +4432,14 @@ button.btn.btn-default {
 }
 
 .regionSelectModal-12e-57 .regionSelectModalFooter-1a5bzj {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .buttonWhiteOutlined-2KwPTg, .buttonBrandGhost-1-Lmhc {
   background: transparent!important;
-  border: 1px solid Var(--M-Colour)!important;
+  border: 1px solid Var(--Secondary-Main-Colour)!important;
   border-radius: 3px!important;
-  color: Var(--M-Colour)!important;
+  color: Var(--Secondary-Main-Colour)!important;
 }
 
 .buttonWhiteOutlined-2KwPTg:hover {
@@ -4450,18 +4450,18 @@ button.btn.btn-default {
 }
 
 .theme-dark .container-1s4HBn.hover-1civje {
-  border-color: Var(--M-Colour)!important;
+  border-color: Var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .container-1nZlH6 {
-  border-color: Var(--M-Colour)!important;
+  border-color: Var(--Secondary-Main-Colour)!important;
   background: transparent!important;
 }
 
 .buttonGreyGhost-SfY7zU {
   background-color: transparent!important;
-  color: Var(--M-Colour)!important;
-  border: 1px solid Var(--M-Colour)!important;
+  color: Var(--Secondary-Main-Colour)!important;
+  border: 1px solid Var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .invite-settings-invite-row, .theme-dark .quickSelect-3BxO0K, .theme-dark .searchBar-1MOL6S .input-yt44Uw, .theme-dark .inputDefault-A2ud2y, .theme-dark .userHook-3AdCBF, .theme-dark .auditLog-3jNbM6 strong, .theme-dark .headerClickable-1jGUp8, .theme-dark .headerDefault-1wrJcN {
@@ -4469,18 +4469,18 @@ button.btn.btn-default {
 }
 
 .theme-dark .timestamp-1mruiI, .theme-dark .headerExpanded-CUEwZ5 {
-  color: Var(--M-Colour)!important;
+  color: Var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .auditLog-3jNbM6 {
-  border-color: Var(--M-Colour)!important;
+  border-color: Var(--Secondary-Main-Colour)!important;
   background: transparent!important;
-  color: Var(--M-Colour)!important;
+  color: Var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .headerExpanded-CUEwZ5 {
   background: transparent!important;
-  color: Var(--M-Colour)!important;
+  color: Var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .input-cIJ7To.focused-1mmYsC {
@@ -4497,7 +4497,7 @@ button.btn.btn-default {
 
 .buttonGreenInverted-3wLrIA {
   color: var(--Main-Colour);
-  background-color: Var(--S-Colour);
+  background-color: Var(--Secondary-Background-Colour);
   border: 1px Solid var(--Main-Colour);
 }
 
@@ -4508,12 +4508,12 @@ button.btn.btn-default {
 }
 
 .bar-3urHkF {
-  background-color: Var(--S-Colour);
+  background-color: Var(--Secondary-Background-Colour);
 }
 
 .barInner-3NDaY_ {
-  background-color: Var(--S-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: Var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .text-AOoUen {
@@ -4521,15 +4521,15 @@ button.btn.btn-default {
 }
 
 .theme-dark .preview-yX6Nx7 {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .invite-18yqGF {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .header-Hg_qNF, .theme-dark .subHeader-27gFHC, .theme-dark .name-GG2Mcs, .theme-dark .partyStatus-6AjDud {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .buttonBrandLinkDefault-1bjP4F:active .contents-4L4hQM, .buttonBrandLinkDefault-1bjP4F:hover .contents-4L4hQM {
@@ -4537,7 +4537,7 @@ button.btn.btn-default {
 }
 
 .buttonBrandLink-3csEAP {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .attachPopoutRowText-1tIocA {
@@ -4554,7 +4554,7 @@ button.btn.btn-default {
 }
 
 .theme-dark .invite-18yqGF {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   border: 5px ridge var(--Main-Colour);
 }
 
@@ -4575,16 +4575,16 @@ button.btn.btn-default {
 }
 
 .theme-dark .discriminator-byOsvi {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .reaction {
-  background: var(--S-Colour)!important;
+  background: var(--Secondary-Background-Colour)!important;
   border: 1px ridge var(--Main-Colour)!important;
 }
 
 .theme-dark .reaction .reaction-count {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .reaction.reaction-me .reaction-count, .theme-dark .reaction.reaction-me .reaction-count {
@@ -4593,36 +4593,36 @@ button.btn.btn-default {
 
 .theme-dark .input-2VB9rf, .theme-dark .quickswitcher-3JagVE {
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0), 0 0 0 1px rgba(0, 0, 0, 0);
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0), 0 0 0 1px rgba(0, 0, 0, 0);
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   border: 1px solid var(--Main-Colour)!important;
 }
 
 .theme-dark .contentDefault-16dKSY, .theme-light .resultFocused-2geRUA {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .resultFocused-3aIoYe {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border: 1px solid var(--Main-Colour)!important;
 }
 
 .theme-dark .tipsWithoutResults-lGY-De, .theme-dark .tipsWithResults-HhTE9b {
   background: transparent!important;
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .dark-2Ll8iS span {
   -webkit-box-shadow: inset 0 -4px 0 rgba(35, 39, 42, 0);
-  background-color: var(--S-Colour);
-  border-color: var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border-color: var(--Secondary-Main-Colour);
   box-shadow: inset 0 -4px 0 rgba(35, 39, 42, 0);
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .dark-2Ll8iS span .bindArrow-3Mm64N g {
-  fill: var(--M-Colour);
+  fill: var(--Secondary-Main-Colour);
 }
 
 .botTagInvert-18-95s {
@@ -4653,11 +4653,11 @@ button.btn.btn-default {
 }
 
 .theme-dark .note-3kmerW textarea:focus {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .emojiPicker-3m1S-j .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ {
-  border-bottom-color: var(--M-Colour);
+  border-bottom-color: var(--Secondary-Main-Colour);
 }
 
 a[href="https://www.twitch.tv/NFLD99"] {
@@ -4792,15 +4792,15 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 [class*="lookFilled-"]:hover {
-  background-color: var(--S-Colour)!important;
+  background-color: var(--Secondary-Background-Colour)!important;
   color: var(--Main-Colour)!important;
   border: 1px solid var(--Main-Colour)!important;
 }
 
 [class*="lookFilled-"] {
-  background-color: var(--S-Colour)!important;
-  color: var(--M-Colour)!important;
-  border: 1px solid var(--M-Colour)!important;
+  background-color: var(--Secondary-Background-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
+  border: 1px solid var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover .contents-4L4hQM, .lookLink-9FtZy-.colorGrey-2DXtkV:hover .contents-4L4hQM:hover .contents-4L4hQM {
@@ -4817,8 +4817,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
-  border-color: var(--M-Colour);
-  color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
@@ -4826,7 +4826,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .user-settings-games .not-detected .game-name, .theme-light .user-settings-games .not-detected .game-name {
@@ -4834,7 +4834,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .user-settings-games .not-detected .last-played, .theme-light .user-settings-games .not-detected .last-played {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .user-settings-games .game-name-input:focus, .theme-dark .user-settings-games .game-name-input:hover {
@@ -4847,7 +4847,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .incomingCallInner-2rV0UJ .subtitle-3es__m {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .incomingCallInner-2rV0UJ {
@@ -4865,7 +4865,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .container-2VW0UT {
   background: var(--Background-Colour)!important;
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .container-2VW0UT:hover {
@@ -4879,9 +4879,9 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .button-1MICoQ, .streamerModeEnabledBtn-2ZJ2eq {
-  background: var(--S-Colour);
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .streamerModeEnabledImage-3vynUz {
@@ -4889,7 +4889,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .questionMark-CWEQZn div .icon-1oniCb {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .questionMark-CWEQZn div .icon-1oniCb:hover {
@@ -4913,7 +4913,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark #friends .tab-bar .tab-bar-item {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
@@ -4922,7 +4922,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .member-username-inner[style="color: rgb(255, 255, 255);"], .user-name[style="color: rgb(255, 255, 255);"] {
   font-weight: bold!important;
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 #discord-logger-log-window>div.modal-1UGdnR>div>div>div {
@@ -4932,13 +4932,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 #dl-log-button:not(:hover) {
   font-weight: bold!important;
   text-transform: none!important;
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 #dl-log-button:hover {
   font-weight: bold!important;
   text-transform: none!important;
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 /* Support For Clock */
@@ -4967,7 +4967,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 /* Support For Better Formatting Redux */
 
 .bf-toolbar:before {
-  background: var(--S-Colour)!important;
+  background: var(--Secondary-Background-Colour)!important;
 }
 
 .upload-modal .bf-toolbar {
@@ -4975,7 +4975,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .bf-toolbar .format:hover {
-  background: var(--M-Colour)!important;
+  background: var(--Secondary-Main-Colour)!important;
   color: var(--Main-Colour)!important;
 }
 
@@ -5073,12 +5073,12 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .serverfolders-modal [class^="ui-icon-picker-icon"], .serverfolders-modal input {
-  border: .5px solid var(--M-Colour)!important;
+  border: .5px solid var(--Secondary-Main-Colour)!important;
 }
 
 .ui-icon-picker-icon.selected {
   border: 1px solid var(--Main-Colour)!important;
-  background-color: var(--M-Colour)!important;
+  background-color: var(--Secondary-Main-Colour)!important;
 }
 
 /* Support For Server Folders */
@@ -5186,7 +5186,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .pluginrepo-modal .pluginEntry.downloadable .btn-download, .pluginrepo-modal .pluginEntry.updated .btn-download, .themerepo-modal .themeEntry.downloadable .btn-download, .themerepo-modal .themeEntry.downloadable .btn-download {
   color: var(--Main-Colour)!important;
-  background-color: Var(--S-Colour)!important;
+  background-color: Var(--Secondary-Background-Colour)!important;
   border: 1px Solid var(--Main-Colour)!important;
 }
 
@@ -5202,7 +5202,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .theme-dark #memberCount {
   background: transparent!important;
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 /* Support For Member Count */
@@ -5233,16 +5233,16 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .btn.forward.cant {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   font-weight: bold;
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
   background: transparent!important;
 }
 
 .btn.forward {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   font-weight: bold;
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
   background: transparent!important;
 }
 
@@ -5251,7 +5251,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 /* Support For ServerSearch */
 
 .theme-dark .selectableItem-1MP3MQ {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .popoutList-T9CKZQ {
@@ -5259,7 +5259,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .selectableItem-1MP3MQ:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
 }
 
@@ -5452,7 +5452,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .placeholderAvatar-uzH8f6, .placeholderUsername-236yYU {
-  background: var(--M-Colour)!important;
+  background: var(--Secondary-Main-Colour)!important;
 }
 
 .memberGroupsPlaceholder-3mwPub {
@@ -5651,14 +5651,14 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .message-group .comment .markup-2BOw-j pre {
-  border-color: var(--M-Colour)!important;
+  border-color: var(--Secondary-Main-Colour)!important;
   background: var(--Background-Colour)!important;
 }
 
 .theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
   background-color: var(--Background-Colour)!important;
-  color: var(--M-Colour)!important;
-  border: 1px solid var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
+  border: 1px solid var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button:hover {
@@ -5668,7 +5668,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
-  border-color: var(--M-Colour)!important;
+  border-color: var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover {
@@ -5677,7 +5677,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .theme-dark .callAvatarWrapper-TICyxO .ripple-2djlB0 {
   background-color: transparent;
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .callAvatar-v-u4BM.voice-3qolcc {
@@ -5699,7 +5699,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messagesWrapper-3lZDfY .messages .message-group-blocked .message-group-blocked-btn:hover {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 [style*="avatars/187615613944856576"].avatar-large+.comment h2 strong {
@@ -5728,11 +5728,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .publisher-2ZxPEd {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .gamePreview-9weYR2 {
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
   border-radius: 3px!important;
 }
 
@@ -5741,15 +5741,15 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .size-1Arx_I {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .progress-3Rbvu0 {
-  background: var(--S-Colour)!important;
+  background: var(--Secondary-Background-Colour)!important;
 }
 
 .progressBar-3u8FBM.small-1CUeBa {
-  background: var(--M-Colour)!important;
+  background: var(--Secondary-Main-Colour)!important;
 }
 
 .icon-1kp3fr {
@@ -5761,8 +5761,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .attachment-33OFj0 {
-  background: var(--S-Colour)!important;
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour)!important;
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .member-3W1lQa {
@@ -5770,7 +5770,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   min-height: 0px!important;
   overflow: visible!important;
   transition: all 400ms ease-in-out!important;
-  border-bottom: 1px solid var(--M-Colour);
+  border-bottom: 1px solid var(--Secondary-Main-Colour);
 }
 
 .member-3W1lQa:hover {
@@ -5802,9 +5802,9 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .channelNotices-41mJbj .channelNotice-1-XFjC.invite-1D-l1h.new-R6EGhf .message-1SsTiA .inviteInput-10_P2g {
-  background: var(--S-Colour);
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .channelNotices-41mJbj .channelNotice-1-XFjC.invite-1D-l1h.new-R6EGhf .message-1SsTiA .inviteInput-10_P2g:hover {
@@ -5826,12 +5826,12 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .lookOutlined-3sRXeN.colorGreen-29iAKY:active {
-  color: var(--M-Colour);
-  border-color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .checkBoxLabel-PnMaNi, .theme-dark .footerText-1FMLWO {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .search-bar input {
@@ -5843,7 +5843,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .item-1GzJrl.invite-YM1l0n {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .item-1GzJrl:hover.invite-YM1l0n {
@@ -5855,7 +5855,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .searchPopout-1vUlP3 {
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
   background: var(--Background-Colour);
 }
 
@@ -5868,11 +5868,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .searchOption-zQ-1l6 .answer-1n6g43, .theme-dark .option-96V44q .filter-3kZ3tT, .theme-dark .searchResultChannelCategory-1l0lSn, .theme-dark .searchResultChannelIcon-1DnTme {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .option-96V44q.selected-_bTXUG {
-  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--M-Colour));
+  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Secondary-Main-Colour));
 }
 
 .theme-dark .option-96V44q.selected-_bTXUG:before {
@@ -5889,13 +5889,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   background: var(--Background-Colour);
 }
 
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day {
-  border-left-color: var(--M-Colour);
-  border-top-color: var(--M-Colour);
+  border-left-color: var(--Secondary-Main-Colour);
+  border-top-color: var(--Secondary-Main-Colour);
   color: var(--Main-Colour);
 }
 
@@ -5910,11 +5910,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__week .react-datepicker__day:last-of-type {
-  border-right-color: var(--M-Colour);
+  border-right-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__week:last-of-type .react-datepicker__day {
-  border-bottom-color: var(--M-Colour);
+  border-bottom-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__current-month {
@@ -5940,7 +5940,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .popout .messages-popout-wrap .messages-popout .empty-placeholder .body {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .datePicker--XZbmJ .datePickerHint-1iW7Wz {
@@ -5948,7 +5948,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .search .search-bar .public-DraftEditorPlaceholder-root {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .option-96V44q.user-1TwSRF .displayedNick-1487Dr {
@@ -5956,7 +5956,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .option-96V44q.user-1TwSRF .displayUsername-3PmTeH {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .keybindShortcut-1BD6Z1 span {
@@ -5982,15 +5982,15 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .theme-dark .search-results-wrap .search-header .tab.selected, .theme-dark .search-results-wrap .search-header .tab:hover {
   border: none;
-  background: linear-gradient(to bottom, transparent, var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--M-Colour));
+  background: linear-gradient(to bottom, transparent, var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--Secondary-Main-Colour));
 }
 
 .typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3>div:nth-child(4)>svg>rect {
-  stroke: var(--M-Colour)!important;
+  stroke: var(--Secondary-Main-Colour)!important;
 }
 
 .typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3>div:nth-child(5)>svg>rect {
-  fill: var(--M-Colour)!important;
+  fill: var(--Secondary-Main-Colour)!important;
 }
 
 [class*="winButton"]:hover {
@@ -6003,7 +6003,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .theme-dark .keyboardShortcutList-13cQ-8 .keybindGroup-BB3G2K .keybindDescription-2RDbC2 {
   border: none;
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .keyboardShortcutList-13cQ-8 .keybindGroup-BB3G2K .keybindDescription-2RDbC2, .theme-dark .modalSubtitle-1Pj5nv {
@@ -6040,7 +6040,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .item-1GzJrl.invite-YM1l0n, .theme-dark .item-1GzJrl {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .item-1GzJrl.invite-YM1l0n:hover, .theme-dark .item-1GzJrl:hover {
@@ -6056,11 +6056,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .headerTabBarWrapper-27xBDe .tab-bar.TOP .tab-bar-item, .theme-dark .mentionFilter-1PQ6ey .label-3EbduD, .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .channelSeparator-1MxuvT .guildName-1Bc3Ta {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
@@ -6074,9 +6074,9 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   background: var(--Background-Colour);
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_:hover {
@@ -6116,13 +6116,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .hasMore-sul95G button, .theme-dark .messagesPopoutWrap-1MQ1bW .hasMore-sul95G button {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   background: var(--Background-Colour);
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .hasMore-sul95G button {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   background: var(--Background-Colour);
 }
 
@@ -6159,7 +6159,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .emojiPicker-3m1S-j .category-2U57w6 {
@@ -6186,12 +6186,12 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   display: block;
   left: 53px;
   top: 1px;
-  background: linear-gradient(to right, transparent, var(--S-Colour), var(--Notification-Colour), var(--S-Colour), transparent);
+  background: linear-gradient(to right, transparent, var(--Secondary-Background-Colour), var(--Notification-Colour), var(--Secondary-Background-Colour), transparent);
   animation: shakeUnread 2s ease-in-out infinite alternate;
 }
 
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H, .theme-dark .activityProfile-2bJRaP .content-3JfFJh, .theme-dark .activityProfile-2bJRaP .details-38sfDr, .theme-dark .activityProfile-2bJRaP .name-29ETJS, .theme-dark .activityUserPopout-2yItg2 .content-3JfFJh, .theme-dark .activityUserPopout-2yItg2 .details-38sfDr, .theme-dark .activityUserPopout-2yItg2 .name-29ETJS, .theme-light .activityProfile-2bJRaP .content-3JfFJh, .theme-light .activityProfile-2bJRaP .details-38sfDr, .theme-light .activityProfile-2bJRaP .name-29ETJS, .theme-light .activityUserPopout-2yItg2 .content-3JfFJh, .theme-light .activityUserPopout-2yItg2 .details-38sfDr, .theme-light .activityUserPopout-2yItg2 .name-29ETJS, .theme-dark .item-1GzJrl.invite-271nFU, .theme-dark .mentionFilter-1PQ6ey .label-12YslM {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .theme-dark .activityProfile-2bJRaP .headerText-1HLrL7, .theme-dark .activityUserPopout-2yItg2 .headerText-1HLrL7, .theme-light .activityProfile-2bJRaP .headerText-1HLrL7, .theme-light .activityUserPopout-2yItg2 .headerText-1HLrL7, .theme-dark .item-1GzJrl:hover.invite-271nFU, .theme-dark .topic-2QX7LI, .theme-dark .itemDefault-3Jdr52:not(.role-3wi9Tf), .theme-dark .itemHover-EnbcjT {
@@ -6212,13 +6212,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
-  color: var(--M-Colour);
-  border-color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .lookGhost-2Fn_0-.colorGrey-2DXtkV {
-  color: var(--M-Colour);
-  border-color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .lookGhost-2Fn_0-.colorBrand-3pXr91 {
@@ -6280,7 +6280,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .itemValue-JNy0LV {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .modalTitle-37O4n6 {
@@ -6305,13 +6305,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .option-96V44q .filter-3Y_im- {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover {
@@ -6325,7 +6325,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .iconMuted-1HVBGH, .nameMuted-1MCOt4 {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j {
@@ -6341,7 +6341,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
@@ -6374,9 +6374,9 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .lookInverted-2D7oAl.colorBrand-3pXr91, .lookOutlined-3sRXeN.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover, .lookOutlined-3sRXeN.colorBrand-3pXr91:hover, .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
@@ -6402,7 +6402,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark #friends .friends-table .friend-table-add-description, .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .connect-accounts h3 {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark #friends .friends-table .friend-table-add-wrapper h2 {
@@ -6410,12 +6410,12 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .inner-2Y6JuD:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border: 1px solid var(--Main-Colour);
 }
 
 .inner-2Y6JuD {
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
@@ -6441,13 +6441,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 #friends .btn {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .connection-1fbD7X {
-  background: var(--S-Colour)!important;
+  background: var(--Secondary-Background-Colour)!important;
 }
 
 .theme-dark .accountBtnInner-sj5jLs:hover {
@@ -6457,9 +6457,9 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .accountBtnInner-sj5jLs {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .card-7JP0BX {
@@ -6473,7 +6473,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .discriminator-pIKHPn, .theme-dark .playTime-1laRtO {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .aka-1mqp34 {
@@ -6523,15 +6523,15 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .keyboardShortcutsModal-3piNz7 {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .descriptionDiscriminator-3vUOCc, .theme-dark .description-11DmNu, .theme-dark .descriptionUsername-J_75O8 {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .description-11DmNu, .theme-dark .descriptionUsername-J_75O8, .theme-dark .contentTitle-2tG_sM, .marginLeft8-1YseBe {
@@ -6543,16 +6543,16 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .autocompleteInner-zh20B_ {
-  border: 1px solid var(--M-Colour);
-  background: rgba(0, 0, 0, var(--Background-Brightness));
+  border: 1px solid var(--Secondary-Main-Colour);
+  background: rgba(0, 0, 0, var(--Background-Darkness));
 }
 
 .theme-dark .selectorSelected-1_M1WV, .selectorSelected-1_M1WV {
-  background: linear-gradient(to top, var(--M-Colour), transparent, transparent, transparent, var(--M-Colour)) !important;
+  background: linear-gradient(to top, var(--Secondary-Main-Colour), transparent, transparent, transparent, var(--Secondary-Main-Colour)) !important;
 }
 
 .theme-dark .connectedAccount-36nQx7, .theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .connectedAccountName-f8AEe2 {
@@ -6564,7 +6564,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .listeningAlong-2UPsxf {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .inviteModal-34DdOm .avatar-xxxlarge {
@@ -6576,7 +6576,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .inviteModal-34DdOm .inviteBody-1Y3j7y, .inviteModal-34DdOm .inviteCancel-3lWPwu {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .inviteModal-34DdOm {
@@ -6589,7 +6589,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .pill-1dHPfk {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .pillMessage-1btqlx {
@@ -6597,7 +6597,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .pill-1dHPfk {
-  border: 1px solid var(--M-Colour)!important;
+  border: 1px solid var(--Secondary-Main-Colour)!important;
 }
 
 .iconInactive-98JN5i {
@@ -6609,7 +6609,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .contentWrapper-3WC1ID {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   background-image: url(https://nfld99.com/Bkg/Mcvi43u.png);
   background-size: contain;
   height: 440px;
@@ -6626,7 +6626,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .canvas-3XuBXe {
   object-position: 9999px 9999px;
-  background: rgba(0, 0, 0, var(--Background-Brightness)) !important;
+  background: rgba(0, 0, 0, var(--Background-Darkness)) !important;
   filter: blur(0px);
 }
 
@@ -6638,13 +6638,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .image-2jyRAK.loaded-3PtF_J {
   object-position: 9999px 9999px;
-  background: rgba(0, 0, 0, var(--Background-Brightness)) !important;
+  background: rgba(0, 0, 0, var(--Background-Darkness)) !important;
   filter: blur(0px);
 }
 
 .authBox-hW6HRx {
-  background: var(--S-Colour);
-  color: var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .white-2qwKC7, .white100-1kM2ad, .white200-3zgO-Z, .white300-9aRwFJ, .white400-18yif1, .white500-2pqdDy {
@@ -6652,7 +6652,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .subTitle-3TUjmF {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .wrapper-3Q5DdO {
@@ -6740,7 +6740,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .barFill-23-gu-[style="background: rgb(105, 196, 154); width: 45.5385%;"] {
-  background-color: var(--M-Colour)!important;
+  background-color: var(--Secondary-Main-Colour)!important;
 }
 
 .userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o.manual-36Evg9 .microphone-2rtdHw .fill-3eUagR {
@@ -6751,7 +6751,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .inviteModal-34DdOm .scroller-3__pG8 {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   background-image: url(https://nfld99.com/Bkg/EMb6GWq.png);
   height: 100%;
   position: relative;
@@ -6767,7 +6767,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .option-96V44q.user-O3Czj0 .displayUsername-Qekxml {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .text-GwUZgS, .theme-dark .title-2BxgL2 {
@@ -6783,23 +6783,23 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .headerText-2niCs_ {
-  border-top: 1px solid var(--S-Colour);
+  border-top: 1px solid var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
 }
 
 .verticalDockItemSplash-jI35yB, .splashArt-3yFzRe, .background-17WUpK {
   -webkit-filter: grayscale(0%);
-  -webkit-mask: radial-gradient(100% 100% at top left, rgba(0, 0, 0, var(--Background-Brightness)) 0, rgba(0, 0, 0, var(--Background-Brightness)) 100%);
+  -webkit-mask: radial-gradient(100% 100% at top left, rgba(0, 0, 0, var(--Background-Darkness)) 0, rgba(0, 0, 0, var(--Background-Darkness)) 100%);
   filter: grayscale(0%);
-  mask: radial-gradient(100% 100% at top left, rgba(0, 0, 0, var(--Background-Brightness)) 0, rgba(0, 0, 0, var(--Background-Brightness)) 100%);
+  mask: radial-gradient(100% 100% at top left, rgba(0, 0, 0, var(--Background-Darkness)) 0, rgba(0, 0, 0, var(--Background-Darkness)) 100%);
 }
 
 .theme-dark .verticalDockFooterText-2t4w2m {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .header-1RC2Wb:hover {
-  background-color: rgba(10, 10, 10, var(--Background-Brightness));
+  background-color: rgba(10, 10, 10, var(--Background-Darkness));
 }
 
 .splashArt-3yFzRe {
@@ -6807,12 +6807,12 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .header-1RC2Wb {
-  background-color: rgba(0, 0, 0, var(--Background-Brightness));
+  background-color: rgba(0, 0, 0, var(--Background-Darkness));
   border-bottom-color: rgba(32, 34, 37, .6);
 }
 
 .description-13oVu5, .subtitle-rPfx7J {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .title-1oZsbs {
@@ -6820,11 +6820,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .newsLink-38Naqi:hover {
-  background-color: rgba(10, 10, 10, var(--Background-Brightness));
+  background-color: rgba(10, 10, 10, var(--Background-Darkness));
 }
 
 .news-2GDtLJ {
-  background-color: rgba(0, 0, 0, var(--Background-Brightness));
+  background-color: rgba(0, 0, 0, var(--Background-Darkness));
 }
 
 .theme-dark .sectionTitle-1snBOS {
@@ -6832,11 +6832,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .sectionLine-JjseS9 {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .articleType-3SqiEI {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .gameName-ZXDRa6 {
@@ -6848,7 +6848,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .article-FleDq5 {
-  background-color: rgba(0, 0, 0, var(--Background-Brightness));
+  background-color: rgba(0, 0, 0, var(--Background-Darkness));
 }
 
 .background-17WUpK {
@@ -6882,7 +6882,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .footer-2aTx0s {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .everyonePopout-nEbJY3 {
@@ -6892,7 +6892,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 #app-mount > div.theme-dark.popouts-3dRSmE > div.noArrow-3BYQ0Z.noShadow-321ZPm.popout-3sVMXz.popoutTopLeft-b5Eb3O.popouttop-left.theme-undefined > form > div.body-2iXqIL > div.animation-3GofIz > svg > g > g > g > path{
-  fill: var(--M-Colour)!important;
+  fill: var(--Secondary-Main-Colour)!important;
 }
 
 .bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j, .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark .emoji-picker, .bda-dark .emoji-picker .category, .bda-dark .emoji-picker .header .search-bar {
@@ -6901,7 +6901,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .bda-dark #bda-qem button.active {
-  background: var(--M-Colour) !important;
+  background: var(--Secondary-Main-Colour) !important;
 }
 
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
@@ -6928,7 +6928,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 .theme-dark .container-1rPqdX {
   background: var(--Background-Colour) !important;
   background-color: var(--Background-Colour) !important;
-  border: 2px solid var(--M-Colour) !important;
+  border: 2px solid var(--Secondary-Main-Colour) !important;
 }
 
 .theme-dark .button-1ZXqCA:hover {
@@ -6940,11 +6940,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 .theme-dark .button-1ZXqCA {
   background: var(--Background-Colour) !important;
   background-color: var(--Background-Colour) !important;
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .wrapper-29NfPK {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS, .nameConnectedText-3CzNQn, .nameConnectedVoice-MHUX5F, .nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameHoveredText-1uO31y, .nameHoveredVoice-YJ1Vfd, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1, .nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ, .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5, .nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI, .private-channels .channel .channel-name, .private-channels .channel .channel-activity strong, .channel-2QD9_O.selected-1HYmZZ .name-2WpE7M, .channel-2QD9_O:hover .name-2WpE7M, .activity-525YDR, .theme-dark .activityActivityFeed-3xysim .content-3JfFJh, .theme-dark .activityActivityFeed-3xysim .details-38sfDr, .ellipsis-1XUmPN {
@@ -6958,8 +6958,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .isMentioned-N-h9aa {
-  background: var(--S-Colour);
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {
@@ -6967,13 +6967,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .wrapper-3WhCwL:hover, .theme-dark .isMentioned-N-h9aa .mention:hover, .theme-light .isMentioned-N-h9aa .mention:hover, .theme-dark .wrapperHover-1GktnT:hover {
-  background: var(--S-Colour);
-  color: var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
   animation: rainbow 3s infinite linear;
 }
 
 .theme-dark .wrapper-3WhCwL, .theme-dark .isMentioned-N-h9aa .mention, .theme-light .isMentioned-N-h9aa .mention, .theme-dark .wrapperHover-1GktnT {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
   animation: rainbow 3s infinite linear;
 }
@@ -6983,11 +6983,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .guildDetail-1nRKNE {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .item-2J1YMK {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .item-2J1YMK:hover {
@@ -6995,13 +6995,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .item-2J1YMK:active, .theme-dark .item-2J1YMK:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
 }
 
 .theme-dark .container-3cGP6G {
   background: var(--Background-Colour);
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .headerCozy-2N9HOL>div>div {
@@ -7015,11 +7015,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .desc-2Dttbk {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .connectionDelete-2Odoln {
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .connectionDelete-2Odoln:hover {
@@ -7027,12 +7027,12 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .connectionHeader-2MDqhu {
-  background: var(--S-Colour);
-  border-bottom: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  border-bottom: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .elevationLow-2lY09M {
-  box-shadow: 0 1px 5px 0 var(--M-Colour);
+  box-shadow: 0 1px 5px 0 var(--Secondary-Main-Colour);
 }
 
 .theme-dark .popout-3sVMXz.popout-googletranslate .themedPopout-25DgLi {
@@ -7065,12 +7065,12 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .messageGroupWrapper-o-Zw7G {
-  background-color: var(--S-Colour);
-  border-color: var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .messageGroupWrapper-o-Zw7G:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border-color: var(--Main-Colour);
 }
 
@@ -7081,13 +7081,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .jumpButton-3DTcS_ {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .jumpButton-3DTcS_:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
   border: 1px solid var(--Main-Colour);
 }
@@ -7104,13 +7104,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .circleIconButton-jET_ig {
-  background: var(--S-Colour);
-  border-color: var(--M-Colour);
-  color: var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .circleIconButton-jET_ig:hover {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   border-color: var(--Main-Colour);
   color: var(--Main-Colour);
 }
@@ -7120,7 +7120,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .divider-3gKybi:before {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr>div, .theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
@@ -7149,7 +7149,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .newMessagesBar-mujexs button:last-child {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .newMessagesBar-mujexs button, .newMessagesBar-mujexs button:last-child:hover {
@@ -7159,8 +7159,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 .newMessagesBar-mujexs {
   background-color: var(--Background-Colour);
   border-radius: 0 0 5px 5px;
-  border: 1px solid var(--M-Colour);
-  color: var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .newMessagesBar-mujexs:hover {
@@ -7173,8 +7173,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 .theme-dark .hasMore-3e72_v button {
   background-color: var(--Background-Colour);
   border-radius: 0 0 5px 5px;
-  border: 1px solid var(--M-Colour);
-  color: var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .hasMore-3e72_v button:hover {
@@ -7185,8 +7185,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .quickMessage-1yeL4E {
-  background-color: var(--S-Colour);
-  border-color: var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border-color: var(--Secondary-Main-Colour);
   color: var(--Main-Colour);
 }
 
@@ -7195,7 +7195,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .search-bar-light .searchBarInner-1_Tg2R {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border: 1px solid var(--Main-Colour);
 }
 
@@ -7208,7 +7208,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-, .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-, .theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-, .theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKs {
@@ -7216,27 +7216,27 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-, .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-, .theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf, .theme-dark .messageGroupBlocked-3wrQQX {
-  background: var(--S-Colour);
-  border-color: var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-, .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-, .theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
   box-shadow: none;
 }
 
 .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover, .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover, .theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf:hover, .theme-dark .messageGroupBlocked-3wrQQX:hover {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   border-color: var(--Main-Colour);
 }
 
 .jumpToPresentBar-9P20AM button, .jumpToPresentBar-9P20AM button:last-child {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .jumpToPresentBar-9P20AM {
   background: var(--Background-Colour);
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .jumpToPresentBar-9P20AM button:hover, .jumpToPresentBar-9P20AM button:last-child:hover {
@@ -7253,7 +7253,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .container-2x5lvQ section p {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .container-2x5lvQ section strong {
@@ -7270,7 +7270,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY {
-  border-top-color: var(--M-Colour);
+  border-top-color: var(--Secondary-Main-Colour);
 }
 
 .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY {
@@ -7286,12 +7286,12 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .headerCell-3L6rFG {
-  border-left-color: var(--M-Colour);
+  border-left-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .header-39GIC8 {
-  border-bottom-color: var(--M-Colour);
-  color: var(--M-Colour);
+  border-bottom-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .headerCell-3L6rFG:hover:not(.headerCellSorted-3a5AzJ) {
@@ -7300,23 +7300,23 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .rowBackground-3MeNoN {
   -webkit-filter: none;
-  -webkit-mask: radial-gradient(100% 100% at top left, var(--S-Colour) 0, var(--S-Colour));
+  -webkit-mask: radial-gradient(100% 100% at top left, var(--Secondary-Background-Colour) 0, var(--Secondary-Background-Colour));
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
   bottom: 0;
   filter: none;
   left: 0;
-  mask: radial-gradient(100% 100% at top left, var(--S-Colour) 0, var(--S-Colour));
+  mask: radial-gradient(100% 100% at top left, var(--Secondary-Background-Colour) 0, var(--Secondary-Background-Colour));
   position: absolute;
   top: 0;
   width: 272px;
 }
 
 .theme-dark .rowWrapperActive-2L7i9f {
-  -webkit-box-shadow: 0 2px 5px 0 var(--M-Colour);
+  -webkit-box-shadow: 0 2px 5px 0 var(--Secondary-Main-Colour);
   background-color: transparent;
-  box-shadow: 0 2px 5px 0 var(--M-Colour);
+  box-shadow: 0 2px 5px 0 var(--Secondary-Main-Colour);
 }
 
 .theme-dark .actionIconBase-2L-mPj {
@@ -7363,7 +7363,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .guildsError-3cFMtY {
-  background: var(--M-Colour);
+  background: var(--Secondary-Main-Colour);
   border-color: var(--Main-Colour);
   color: var(--Background-Colour);
 }
@@ -7381,11 +7381,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .need-help-modal.form.deprecated .footer {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .auditLog-3jNbM6:hover .expandForeground-1nZ4VR {
@@ -7393,7 +7393,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .auditLog-3jNbM6 .expandForeground-1nZ4VR {
-  stroke: var(--M-Colour);
+  stroke: var(--Secondary-Main-Colour);
 }
 
 .icon-4lJsMQ {
@@ -7401,11 +7401,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .markValue-2DwdXI {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .markDash-3hAolZ {
-  background: var(--M-Colour);
+  background: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .fontScaleLarge-3xtq7i, .theme-dark .fontScaleSmall-368quy {
@@ -7413,15 +7413,15 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .divider-3573oO {
-  background: var(--M-Colour);
+  background: var(--Secondary-Main-Colour);
 }
 
 .checked-3_4uQ9>svg>g>polyline {
-  stroke: var(--M-Colour);
+  stroke: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .content-8biNdB ul li:before {
-  background-color: var(--M-Colour);
+  background-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .close-18n9bP {
@@ -7429,7 +7429,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .Select-clear-zone {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .Select-clear-zone:hover {
@@ -7437,7 +7437,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .select-2TCrqx .Select-control .Select-arrow {
-  border-color: var(--M-Colour) transparent transparent;
+  border-color: var(--Secondary-Main-Colour) transparent transparent;
 }
 
 .theme-dark .select-2TCrqx .Select-control .Select-arrow:hover {
@@ -7445,7 +7445,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .reaction-1ELvT8.reactionMe-23mbRf {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   border: 1px solid var(--Main-Colour);
 }
 
@@ -7454,16 +7454,16 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .reactionCount-2ddRoS {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .reaction-1ELvT8 {
-  background: var(--S-Colour);
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .edited-DL9ECl {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .base-34jWEe h1 {
@@ -7475,7 +7475,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 #charcounter {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 #charcounter.over2k {
@@ -7487,11 +7487,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .paymentRow-2e7VM6 {
-  border-bottom: 1px solid var(--S-Colour);
+  border-bottom: 1px solid var(--Secondary-Background-Colour);
 }
 
 .theme-dark .paymentPane-3bwJ6A {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
 }
 
@@ -7500,7 +7500,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .paginator-2CA79G {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .summaryInfo-2QFKUg {
@@ -7508,17 +7508,17 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .payment-xT17Mq {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .hoverablePayment-Yc6mK7:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .pageIndicator-1gAbyA {
-  border-color: var(--M-Colour);
-  color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .pageIndicator-1gAbyA:hover {
@@ -7532,8 +7532,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .disabled-BrLY9Y {
-  border-color: var(--M-Colour);
-  color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .title-PMZpEi {
@@ -7541,7 +7541,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .description-1W0DiL {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .premium-33BYwD, .theme-light .premium-33BYwD {
@@ -7553,11 +7553,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .premiumSubheader-3wX8Bc, .theme-light .premiumSubheader-3wX8Bc {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .betaTag-1tngRx, .theme-light .betaTag-1tngRx {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
   border: 1px solid var(--Main-Colour);
 }
@@ -7567,11 +7567,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .attendeeCTA-3ZZQWt {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .introBlurb-3gFgTQ {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .introHeader-4MPach {
@@ -7583,11 +7583,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .selectYourAnswer-2lDJj_ {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .separator-PE-_y1 {
-  background-color: var(--M-Colour);
+  background-color: var(--Secondary-Main-Colour);
 }
 
 .statusRed-21U8Tp {
@@ -7595,8 +7595,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .lookGhost-2Fn_0-.colorGrey-2DXtkV {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .selected-mKYnfr.option-n0icdO {
@@ -7618,7 +7618,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 .option-n0icdO {
   -webkit-box-shadow: none;
   background-color: transparent;
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
   box-shadow: none;
   opacity: 1;
 }
@@ -7626,7 +7626,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 .wrapper-3jrx9n {
   -webkit-box-shadow: none;
   background-color: transparent;
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
   box-shadow: none;
   opacity: 1;
 }
@@ -7648,28 +7648,28 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .notificationsSound-27jFSh {
-  -webkit-box-shadow: inset 0 -1px 0 0 var(--M-Colour);
-  box-shadow: inset 0 -1px 0 0 var(--M-Colour);
+  -webkit-box-shadow: inset 0 -1px 0 0 var(--Secondary-Main-Colour);
+  box-shadow: inset 0 -1px 0 0 var(--Secondary-Main-Colour);
 }
 
 .theme-dark .button-mM-y8i {
   -webkit-box-shadow: none;
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   box-shadow: none;
 }
 
 .theme-dark .card-FDVird:before {
   background-color: transparent;
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .card-FDVird {
   background-color: transparent;
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .user-settings-games .now-playing-add, .theme-light .user-settings-games .now-playing-add {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .user-settings-games .overlay-toggle-icon-on .fill {
@@ -7693,7 +7693,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .botTagInvert-18-95s, .botTagRegular-2HEhHi, span.botTagRegular-2HEhHi {
-  background-color: var(--S-Colour) !important;
+  background-color: var(--Secondary-Background-Colour) !important;
   color: var(--Main-Colour);
   border: 1px solid var(--Main-Colour);
   animation: rainbow 20s infinite linear;
@@ -7708,7 +7708,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .premiumPromoDescription-2Mn515 {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .premiumPromo-yVfLiA>img {
@@ -7725,7 +7725,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .colorPickerSwatch-5GX3Ve.noColor-1pdBDm {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .member-1q7VfX .overflowIconFg-QMRRFI {
@@ -7733,8 +7733,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .actionButton-VzECiy {
-  border-color: var(--M-Colour);
-  color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .actionButton-VzECiy:hover {
@@ -7747,7 +7747,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .guild-settings-banned-user-modal .reason, .theme-dark .guild-settings-banned-user-modal .user-discrim, .theme-dark .guild-settings-banned-user .username .discrim {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .guild-settings-banned-user-modal .reason-header {
@@ -7759,21 +7759,21 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .inviteRow-2L02ae:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   box-shadow: 0px 0px 4px 0px var(--Main-Colour);
 }
 
 .lookOutlined-3sRXeN.colorGreen-29iAKY {
-  border-color: var(--M-Colour);
-  color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .checkBoxLabel-4PWfpk, .theme-dark .footerText-2a7NxZ, .theme-dark .subText-bCySlS {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .select-2TCrqx .is-focused .Select-control .Select-arrow {
-  border-color: var(--M-Colour) transparent transparent;
+  border-color: var(--Secondary-Main-Colour) transparent transparent;
 }
 
 .lookLink-9FtZy-.colorWhite-rEQuAQ:hover .contents-18-Yxp {
@@ -7785,8 +7785,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .buttonInvertedPurple-WtBglX {
-  border: 1px solid var(--M-Colour);
-  color: var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
   background: transparent;
 }
 
@@ -7808,11 +7808,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 [class*="membershipDialogHouse"] {
-  background-color: var(--S-Colour)!important;
+  background-color: var(--Secondary-Background-Colour)!important;
 }
 
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.selectableItem-1MP3MQ.actionItem-11pIwh.selected-31soGA {
-  background-color: var(--S-Colour)!important;
+  background-color: var(--Secondary-Background-Colour)!important;
   color: var(--Main-Colour)!important;
 }
 
@@ -7821,8 +7821,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
-  border-color: var(--M-Colour);
-  background: var(--S-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .regionSelectModal-12e-57 .regionSelectModalFooter-20C5iA, .regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
@@ -7830,15 +7830,15 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .lookGhost-2Fn_0-.colorBrand-3pXr91 {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
   border: 1px solid var(--Main-Colour);
 }
 
 .lookGhost-2Fn_0-.colorGrey-2DXtkV {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .avatar-uploader-inner>* {
@@ -7850,7 +7850,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .connectionDelete-2Odoln:after, .connectionDelete-2Odoln:before {
-  background-color: var(--M-Colour);
+  background-color: var(--Secondary-Main-Colour);
 }
 
 .connectionDelete-2Odoln:hover:after, .connectionDelete-2Odoln:hover:before {
@@ -7862,9 +7862,9 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .defaultIndicator-G3c16x, .theme-dark .premiumIndicator-1XvbfM {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .description-HxwDO4 {
@@ -7872,7 +7872,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .descriptionWrapper-1YBY_J {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .membershipDialogSwitchHousesAction-2a3eDg:hover {
@@ -7880,7 +7880,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .membershipDialogSwitchHousesAction-2a3eDg {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .cancelButton-3hVEV6:hover, .downloadButton-23tKQp:hover {
@@ -7888,7 +7888,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .cancelButton-3hVEV6, .downloadButton-23tKQp {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .metadataIcon-2FyCKU {
@@ -7900,7 +7900,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .subtitle-2iWJ5y {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .friend-2PO6ke {
@@ -7908,7 +7908,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .friendSelected--wQP3f {
-  background: linear-gradient(to top, var(--M-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--M-Colour)) !important;
+  background: linear-gradient(to top, var(--Secondary-Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--Secondary-Main-Colour)) !important;
   color: var(--Main-Colour);
 }
 
@@ -7917,11 +7917,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .description-1CCuDd, .paginationSubtitle-bqhkei, .timestamp-JB3BQ5 {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .paginationItem-3-MBTL:before {
-  background: var(--M-Colour);
+  background: var(--Secondary-Main-Colour);
   color: var(--Main-Colour);
 }
 
@@ -7930,7 +7930,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .regionSelect-3lf4eE button {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .form-deprecated .btn-default:hover, .form.deprecated .btn-default:hover {
@@ -7950,7 +7950,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark #bd-settingspane-container .ui-switch-item .style-description {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .embedAuthorName-3mnTWj, .theme-dark .embedFieldName-NFrena, .theme-dark .embedTitle-3OXDkz {
@@ -7958,20 +7958,20 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .embedProvider-3k5pfl {
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .metadata-3WGS0M {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .embedDescription-1Cuq9a, .theme-dark .embedFieldValue-nELq2s, .theme-dark .embedFooterText-28V_Wb, .theme-dark .embedProvider-3k5pfl {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .embedInner-1-fpTo {
   background: var(--Background-Colour);
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .embedInner-1-fpTo:hover {
@@ -7980,12 +7980,12 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .embedPill-1Zntps {
-  background-color: var(--M-Colour);
+  background-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark #autocomplete-popout .row.selected {
   border: none;
-  background: linear-gradient(to top, var(--M-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--M-Colour)) !important;
+  background: linear-gradient(to top, var(--Secondary-Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--Secondary-Main-Colour)) !important;
   color: var(--Main-Colour);
 }
 
@@ -7994,7 +7994,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 #autocomplete-popout {
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 #autocomplete-popout:hover {
@@ -8006,7 +8006,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .guildName-3WI6ml, .theme-dark .override-2YgiXd, .theme-dark .overrideHighlight-YPcBxt {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .checkboxMute-14hTGS:before {
@@ -8014,7 +8014,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .checkboxContainer-2vV9zd:before {
-  background: var(--M-Colour);
+  background: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .select-2TCrqx .Select-input input {
@@ -8022,23 +8022,23 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .Select-noresults {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .select-2TCrqx .Select-option {
   background: var(--Background-Colour);
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   border: none;
 }
 
 .theme-dark .select-2TCrqx .Select-option:hover {
-  background: linear-gradient(to top, var(--M-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--M-Colour)) !important;
+  background: linear-gradient(to top, var(--Secondary-Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--Secondary-Main-Colour)) !important;
   color: var(--Main-Colour);
   border: none;
 }
 
 .theme-dark .incomingCallInner-2VmFiR {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
   background: var(--Popout-Background) 50% 50%/cover;
 }
 
@@ -8047,7 +8047,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .subtitle-1H8FPn {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .incomingCall-14zLcL {
@@ -8056,7 +8056,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .theme-dark .markup-2BOw-j pre {
   background: var(--Background-Colour);
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .markup-2BOw-j pre:hover {
@@ -8065,11 +8065,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .search-results-wrap, .theme-dark .search-results-wrap .search-result .hit, .theme-dark .search-results-wrap .channel-separator .channel-name {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .search-results-wrap {
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .search-results-wrap:hover {
@@ -8110,12 +8110,12 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .center-1Vp33r, .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .side-kO0bwV, .wrapper-29NfPK.noChat-2qlG4B .center-1Vp33r, .wrapper-29NfPK.noChat-2qlG4B .side-kO0bwV, .wrapper-29NfPK.normal-2GSW0u .center-1Vp33r, .wrapper-29NfPK.normal-2GSW0u .side-kO0bwV {
-  background-color: var(--S-Colour);
-  border-color: var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .wrapper-29NfPK {
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .callAvatar-v-u4BM.voice-2D-tt_ {
@@ -8147,11 +8147,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .callAvatar-v-u4BM.video-3GgX2M .callAvatarStatus-3y6S04 {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .selectorText-9iPrCS {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .selectorTextSelected-3m1dO_ {
@@ -8159,7 +8159,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .item-3T2z1R {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .selectorButtonSelected-1j4DmC {
@@ -8175,20 +8175,20 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .tile-2QWaFv {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .tiles-2aXG_k {
-  background-color: var(--S-Colour);
-  box-shadow: 0 2px 5px var(--M-Colour), 0 0 0 1px var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  box-shadow: 0 2px 5px var(--Secondary-Main-Colour), 0 0 0 1px var(--Secondary-Main-Colour);
 }
 
 .theme-dark .border-2AhmKo {
-  border-bottom: 1px solid var(--M-Colour);
+  border-bottom: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .container-OI6I9q {
-  color: var(--M-Colour)
+  color: var(--Secondary-Main-Colour)
 }
 
 .theme-dark .selected-P8xTeN {
@@ -8223,8 +8223,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .libraryFilterInput-3JzqZD {
-  background: var(--S-Colour);
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .bubble-3we2di {
@@ -8245,7 +8245,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .iconForeground-1w5n7R {
-  fill: var(--M-Colour);
+  fill: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .contentTitle-2tG_sM strong {
@@ -8269,11 +8269,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .actionButton-VzECiy {
@@ -8294,11 +8294,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .elevationBorderHigh-2WYJ09 {
-  box-shadow: 0 0 0 1px var(--M-Colour), 0 2px 10px 0 var(--M-Colour);
+  box-shadow: 0 0 0 1px var(--Secondary-Main-Colour), 0 2px 10px 0 var(--Secondary-Main-Colour);
 }
 
 .theme-dark .featuredGame-ia1yht {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .itemDescription-1_B4j2, .theme-dark .title-RcZEhJ {
@@ -8306,7 +8306,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .itemBackground-1jfD8p {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .itemBackground-1jfD8p:before {
@@ -8322,12 +8322,12 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .announcingNitro-3Ptg6m, .theme-dark .selectedSort-2JSohJ {
-  border-color: var(--M-Colour);
-  color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .distributionApplicationsActions-3D2_kD, .theme-dark .premiumApplicationsHeader-Zmkm5e {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
   color: var(--Main-Colour);
 }
 
@@ -8336,7 +8336,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .tagline-LsAYEH {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .text-1OO51R, .theme-light .text-1OO51R {
@@ -8356,7 +8356,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .tileWrapper-2khh-w {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .tileWrapper-2khh-w:hover {
@@ -8364,20 +8364,20 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .priceOriginalAmount-3YD-j2 {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .priceSalePercentage-AqGkYF {
-  background-color: var(--M-Colour);
+  background-color: var(--Secondary-Main-Colour);
   color: var(--Main-Colour);
 }
 
 .theme-dark .mediaDescription-31GsyQ {
-  background: linear-gradient(180deg, transparent, var(--S-Colour) 45%, var(--Background-Colour));
+  background: linear-gradient(180deg, transparent, var(--Secondary-Background-Colour) 45%, var(--Background-Colour));
 }
 
 .theme-dark .premium-39U29H, .theme-light .premium-39U29H {
-  background-image: linear-gradient(90deg, var(--S-Colour), var(--M-Colour));
+  background-image: linear-gradient(90deg, var(--Secondary-Background-Colour), var(--Secondary-Main-Colour));
 }
 
 .theme-dark .premiumHeader-3SwLEp, .theme-light .premiumHeader-3SwLEp, .theme-dark .carouselGameBlurb-2CViiR, .theme-light .carouselGameBlurb-2CViiR, .theme-dark .premiumSubheader-15Q0Z6, .theme-light .premiumSubheader-15Q0Z6, .theme-dark .freeWithNitro-2bbCTS, .theme-dark .inLibrary-2JnVkV {
@@ -8385,7 +8385,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .lookInverted-2D7oAl.hoverGrey-2CBXu0.hasHover-3X1-zV:hover, .theme-light .lookInverted-2D7oAl.hoverGrey-2CBXu0.hasHover-3X1-zV:hover {
-  background-color: var(--M-Colour);
+  background-color: var(--Secondary-Main-Colour);
   color: var(--Main-Colour);
 }
 
@@ -8394,7 +8394,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .footerSub-1Jedbi {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .footer-3oZnEF {
@@ -8402,7 +8402,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .filterAndSort-gLX1Ym, .theme-dark .hideGames-zMTyGl {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .select-1Pkeg4 {
@@ -8410,19 +8410,19 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .optionNormal-12VR9V {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .optionActive-KkAdqq {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
 }
 
 .theme-dark .popout-2sKjHu {
-  -webkit-box-shadow: 0 1px 5px 0 var(--M-Colour);
+  -webkit-box-shadow: 0 1px 5px 0 var(--Secondary-Main-Colour);
   background: var(--Background-Colour);
   border-color: var(--Background-Colour);
-  box-shadow: 0 1px 5px 0 var(--M-Colour);
+  box-shadow: 0 1px 5px 0 var(--Secondary-Main-Colour);
 }
 
 .theme-dark .lookMinimal-2OMO3G.select-1Pkeg4:hover .arrow-2KJjTM {
@@ -8430,7 +8430,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .lookMinimal-2OMO3G .arrow-2KJjTM {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .root-1bFE0x {
@@ -8439,7 +8439,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP {
   background-color: var(--Background-Colour);
-  border-top-color: var(--M-Colour);
+  border-top-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .price-4PDWNj, .theme-light .price-4PDWNj, .theme-dark .actionText-3EKWER, .theme-light .actionText-3EKWER, .theme-dark h3.title-3KTIjF, .theme-dark .info-1Emy1X, .theme-light .info-1Emy1X, .theme-dark .header-3HFF3R, .theme-dark .text-1Z3P6i, .theme-dark h1.title-3KTIjF, .theme-dark h2.title-3KTIjF, .theme-dark .verdict-1JnQka, .theme-dark h4.title-3KTIjF, .theme-dark h5.title-3KTIjF, .theme-dark h6.title-3KTIjF, .theme-dark .requirements-dEriwm, .theme-dark .activeBreadcrumb-p6aw-F, .theme-dark .checkboxLabel-3WoD3k, .theme-dark .applicationName-2QbFHn, .theme-dark .link-2T7oYD, .theme-dark .noMatches-2myGbP, .theme-dark .clearIcon-2N9YIn:hover, .theme-dark .clearIcon-33XhWd:hover, .theme-dark .resultName-raPnaf, .theme-dark .queryContainer-RKFJW- strong, .theme-dark .emptyStateHeader-3CJtAy, .theme-dark .channelName-2rTyk5, .theme-dark .headerTitle-PE3TuN, .paginationTitle-3U5ymz, .theme-dark .itemDescription-1ATOQr, .theme-dark .title-36Rug1, .theme-dark .freeWithNitro-2shAdz, .theme-dark .blog-2nw4E8, .theme-dark .inputPrompt-3hUneE, .banner-3Kac2g, .theme-dark .grandfatheredMessage-2QgLnw, .theme-dark .title-2a5mvx, .theme-dark .subtitle-UfhpvR, .theme-dark .premiumPlanName-bDYpWx, .theme-dark .subsectionHeader-2euE2f, .theme-dark .sectionHeader-127c3L, .theme-dark .tier1Banner-1B_WXY, .theme-dark .iconIncluded-2xYFq5 {
@@ -8447,11 +8447,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .label-13UUcd, .theme-light .label-13UUcd, .theme-dark .smallHeader-2h-9-U, .theme-dark .notes-3hkVr0, .theme-light .label-2zCFFs, .theme-dark .blurb-1iBKJy, .theme-dark .description-1AwRKJ, .theme-dark .markdown-11q6EU, .theme-dark .requirementKey-14DT2D, .theme-dark .content-1zhNsr, .theme-dark .breadcrumbWrapper-WmDjgG, .theme-dark .featureIcon-1f78KU, .theme-dark .noMatchesDescription-1jZ4Wi, .theme-dark .searchIcon-1a1-yA, .theme-dark .clearIcon-2N9YIn, .theme-dark .purchaseUnitOperatingSystem-cnbJPz, .theme-light .purchaseUnitOperatingSystem-cnbJPz, .theme-dark .browseSearchInput-Jt8kg0, .theme-dark .icon-1iRNyO, .theme-dark .price-_ZRMIA, .theme-dark .emptyStateDescription-2IePen, .theme-dark .headerSubtitle-3mUZXH, .paginationSubtitle-12e1s6, .theme-dark .finePrint-3BVarJ, .theme-dark .yearlyNote-3CCz_7, .theme-dark .description-1irSAr {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .card-NB61oR {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   background: var(--Background-Colour);
 }
 
@@ -8466,14 +8466,14 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .popout-2sKjHu {
-  -webkit-box-shadow: 0 1px 5px 0 var(--M-Colour);
+  -webkit-box-shadow: 0 1px 5px 0 var(--Secondary-Main-Colour);
   background: var(--Background-Colour)!important;
-  border-color: var(--M-Colour);
-  box-shadow: 0 1px 5px 0 var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  box-shadow: 0 1px 5px 0 var(--Secondary-Main-Colour);
 }
 
 .theme-dark .price-1ynJAt {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
 }
 
@@ -8494,19 +8494,19 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .browseSearchInput-Jt8kg0, .theme-dark .optionNormal-12VR9V:hover {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .focused-1Yu0L3 {
-  -webkit-box-shadow: 0 1px 5px 0 var(--M-Colour);
+  -webkit-box-shadow: 0 1px 5px 0 var(--Secondary-Main-Colour);
   background: var(--Background-Colour)!important;
-  border-color: var(--M-Colour);
-  box-shadow: 0 1px 5px 0 var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  box-shadow: 0 1px 5px 0 var(--Secondary-Main-Colour);
 }
 
 .exclusive-3zP8if {
-  background: -webkit-gradient(linear, right top, left top, from(var(--M-Colour)), to(var(--Main-Colour)));
-  background: linear-gradient(270deg, var(--M-Colour), var(--Main-Colour));
+  background: -webkit-gradient(linear, right top, left top, from(var(--Secondary-Main-Colour)), to(var(--Main-Colour)));
+  background: linear-gradient(270deg, var(--Secondary-Main-Colour), var(--Main-Colour));
   color: var(--Main-Colour);
 }
 
@@ -8523,8 +8523,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .lookOutlined-3sRXeN.colorTransparent-1ewNp9 {
-  border-color: var(--M-Colour);
-  color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .lookOutlined-3sRXeN:hover.colorTransparent-1ewNp9 {
@@ -8533,10 +8533,10 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .bda-slist li {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
-  border-color: var(--M-Colour);
-  box-shadow: 0 1px 5px 0 var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  box-shadow: 0 1px 5px 0 var(--Secondary-Main-Colour);
 }
 
 .theme-dark .bda-slist li:hover {
@@ -8544,7 +8544,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .bda-slist .bda-description, .themeDark-3Ap_7i .note-450gs3 {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .bda-dark .emoji-picker .scroller .emoji-item.selected, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
@@ -8552,19 +8552,19 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .emojiPicker-3m1S-j {
-  -webkit-box-shadow: 0 0 6px 0 var(--M-Colour);
-  border: 1px solid var(--M-Colour);
-  box-shadow: 0 0 6px 0 var(--M-Colour);
+  -webkit-box-shadow: 0 0 6px 0 var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+  box-shadow: 0 0 6px 0 var(--Secondary-Main-Colour);
 }
 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
-  background-color: var(--S-Colour) !important;
+  background-color: var(--Secondary-Background-Colour) !important;
   border-color: transparent !important;
 }
 
 .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
-  background-color: var(--S-Colour) !important;
-  border-color: var(--M-Colour) !important;
+  background-color: var(--Secondary-Background-Colour) !important;
+  border-color: var(--Secondary-Main-Colour) !important;
 }
 
 .theme-dark .header-39GIC8 {
@@ -8572,7 +8572,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .icon-1IKq3C, .theme-dark .textCell-1aBIUP {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .buttonShine-1CSUM8 {
@@ -8581,11 +8581,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   animation-iteration-count: infinite;
   animation-name: Shine-2sIJ1p;
   animation-timing-function: ease-in-out;
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .popout-3sVMXz:not(.noArrow-3BYQ0Z) {
-  box-shadow: 0 0 6px 0 var(--M-Colour);
+  box-shadow: 0 0 6px 0 var(--Secondary-Main-Colour);
   padding: 1px;
 }
 
@@ -8600,7 +8600,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .verified-3uJH7V>g>path:nth-child(2) {
-  fill: var(--M-Colour);
+  fill: var(--Secondary-Main-Colour);
 }
 
 [src="/assets/cdea41ede63f61153e4a3c0531fa3873.svg"], .theme-dark .background-3N1V7e {
@@ -8612,17 +8612,17 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .thumbQuicksave {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
   border: 1px solid var(--Main-Colour);
 }
 
 .theme-dark .isLocalBot-38G0P0 {
-  background-image: linear-gradient(90deg, var(--S-Colour) 80%, var(--Main-Colour));
+  background-image: linear-gradient(90deg, var(--Secondary-Background-Colour) 80%, var(--Main-Colour));
   border-color: transparent;
   box-shadow: 0px 0px 20px 0px red;
   animation: fail 3s infinite linear;
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 [style="background-color: rgba(32, 34, 37, 0.901961);"] {
@@ -8645,7 +8645,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 #bd-pub-li {
   bottom: 0px!important;
   top: inherit;
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 #bd-pub-li:hover {
@@ -8660,8 +8660,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   color: var(--Main-Colour);
   min-height: 65px;
   max-height: 65px;
-  border-top: 1px solid var(--M-Colour);
-  border-bottom: 1px solid var(--M-Colour);
+  border-top: 1px solid var(--Secondary-Main-Colour);
+  border-bottom: 1px solid var(--Secondary-Main-Colour);
   padding-top: 5px;
   font-size: 13px;
 }
@@ -8671,13 +8671,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 #pubslayer button {
-  background: var(--S-Colour);
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 #pubslayer button:hover {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
   border: 1px solid var(--Main-Colour);
 }
@@ -8688,13 +8688,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 #pubslayer .ui-tab-bar-item {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 #pubslayer input {
-  color: var(--M-Colour);
-  background-color: var(--S-Colour);
-  border-color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 #pubslayer input:focus {
@@ -8703,7 +8703,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .attachButtonPlay-ZnFdQr {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .attachButtonInner-1iyZ9F {
@@ -8716,19 +8716,19 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .theme-dark .attachPopout-1n-ZKM {
   background: var(--Background-Colour) !important;
-  background-color: var(--S-Colour) !important;
-  color: var(--M-Colour)!important;
+  background-color: var(--Secondary-Background-Colour) !important;
+  color: var(--Secondary-Main-Colour)!important;
   padding: 10vh;
 }
 
 .theme-dark .attachPopoutRow-KrE-f6:hover {
   border: 0.5px solid var(--Main-Colour) !important;
   color: var(--Main-Colour)!important;
-  background-color: var(--S-Colour) !important;
+  background-color: var(--Secondary-Background-Colour) !important;
 }
 
 .attachPopoutRow-KrE-f6 {
-  border: 0.5px solid var(--M-Colour) !important;
+  border: 0.5px solid var(--Secondary-Main-Colour) !important;
 }
 
 .attachPopoutRow-KrE-f6:hover {
@@ -8776,7 +8776,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .pictureInPictureWindow-1B5qSe {
   border-radius: 3px;
-  border: 2px var(--M-Colour) solid;
+  border: 2px var(--Secondary-Main-Colour) solid;
 }
 
 .pictureInPictureWindow-1B5qSe:hover {
@@ -8810,8 +8810,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .categoryFade-2ybR1J {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(Transparent), to(var(--S-Colour)));
-  background-image: linear-gradient(180deg, Transparent, var(--S-Colour));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(Transparent), to(var(--Secondary-Background-Colour)));
+  background-image: linear-gradient(180deg, Transparent, var(--Secondary-Background-Colour));
   border-radius: 4px;
   height: 100%;
   position: absolute;
@@ -8819,7 +8819,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .category-2pHfXV {
-  border: 1px var(--M-Colour) solid;
+  border: 1px var(--Secondary-Main-Colour) solid;
   border-radius: 4px;
 }
 
@@ -8830,7 +8830,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .theme-dark .modal-3HD5ck, .theme-dark .message-2qRu38 {
   Background: var(--Background-Colour);
-  box-shadow: 0 0 0 1px var(--M-Colour), 2px 2px 2px 0 var(--M-Colour)!important;
+  box-shadow: 0 0 0 1px var(--Secondary-Main-Colour), 2px 2px 2px 0 var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .modal-3HD5ck:hover, .theme-dark .message-2qRu38 {
@@ -8850,7 +8850,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .ripple-16ZT2p:nth-of-type(2) {
   background-color: var(--Main-Colour)!important;
-  box-shadow: 1px 1px 50px var(--M-Colour);
+  box-shadow: 1px 1px 50px var(--Secondary-Main-Colour);
   border-radius: 0%;
 }
 
@@ -8874,14 +8874,14 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
   border: 1px solid var(--Main-Colour);
 }
 
 .notSelected-1N1G5p {
-  background: var(--S-Colour);
-  color: var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .directoryHeroPrice-1_MqzA, .theme-dark .directoryHeroPricePremium-tR0nU8, .theme-dark .description-2XMjXn, .theme-dark .description-3rB3Rp, .theme-dark .redemptionHeader-3FSfP7, .theme-dark .emptyStateHeader-1ADtcL, .theme-dark .header-2HrZI4, .theme-dark .inputPrompt-1vnYnD, .theme-dark .nameCellText-Ubz8FY, .theme-dark .title-i-qCkH, .theme-dark .header-1fmANI {
@@ -8889,11 +8889,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .tagline-1VBVLz, .theme-dark .tagline-2iew42, .theme-dark .originalAmount-3RtnBh, .theme-dark .emptyStateSubtext-2njjqg, .theme-dark .progressCellText-3avmMz, .theme-dark .rate-1Gat8e, .theme-dark .content-3FEARf, .theme-dark .openDescription-2XUOH3, .theme-dark .collapsedTimestamp-2gjDIM, .theme-dark .openTimestamp-sTgPmn, .theme-dark .blurb-143skT, .theme-dark .storeTerms-3G4Jo7, .theme-dark .subtext-2QfZHv {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .applicationTile-1Goy1W, .theme-dark .description-3rB3Rp, .theme-dark .item-2yFVoY {
-  background: linear-gradient(180deg, transparent, var(--S-Colour) 45%, var(--Background-Colour));
+  background: linear-gradient(180deg, transparent, var(--Secondary-Background-Colour) 45%, var(--Background-Colour));
 }
 
 .salePercentage-TXZz3H {
@@ -8911,11 +8911,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .row-2X_kYI {
-  border-bottom-color: var(--M-Colour);
+  border-bottom-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .gameUpdates-2GPqBU {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .entitledHeader-3LRNDT, .theme-light .entitledHeader-3LRNDT {
@@ -8928,8 +8928,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .spoilerWarning-2aAZq1 {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {
@@ -8938,13 +8938,13 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {
-  background-color: var(--S-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .spoilerText-3p6IlD {
-  background-color: var(--S-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
@@ -8954,9 +8954,9 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item {
-  background: var(--S-Colour)!important;
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour)!important;
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 #bd-settings-sidebar .ui-tab-bar-item.selected, .side-8zPYf6 .itemSelected-1qLhcL {
@@ -8985,7 +8985,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .backgroundBlur-dazcBE, .theme-dark .pictureInPictureVideo-20ZvXn {
-  background: var(--M-Colour)!important;
+  background: var(--Secondary-Main-Colour)!important;
 }
 
 .theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .joinedAtDate, .theme-dark [class*='topSection'] .joinedAtDate, .theme-light .header-2BwW8b:not(.headerNormal-T_seeN) .joinedAtDate, .theme-dark .header-2BwW8b .joinedAtDate {
@@ -8997,11 +8997,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .giftBlurb-4VKZWm, .theme-dark .trialNote-wEO1RW, .theme-dark .trialText-2gR3-S, .theme-dark .interval-bfFUiQ, .theme-dark .colorPrimary-3hws2f, .theme-light .colorPrimary-3hws2f {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .tier2HeaderBackground-2BUqcl {
-  background-image: linear-gradient(90deg, var(--Main-Colour), var(--M-Colour));
+  background-image: linear-gradient(90deg, var(--Main-Colour), var(--Secondary-Main-Colour));
 }
 
 .theme-dark .headerIcon-1OW_re, .theme-light .closeIcon-1Te9hO, .theme-light .headerIcon-1OW_re {
@@ -9014,7 +9014,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .theme-dark .option-1l2vXE {
   background: transparent;
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .price-3dKlQv, .theme-dark .backButtonColor-1zIPlh {
@@ -9022,7 +9022,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .annualDiscount-1VxngV, .theme-light .annualDiscount-1VxngV {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
 }
 
@@ -9035,7 +9035,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .searchBar-2_Yu-C .searchBarInner-1_Tg2R, .searchBar-2_Yu-C, .theme-dark .search-2oPWTC .searchBar-3dMhjb {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .header-13MUnb, .theme-dark .contentUnread-3gTHvA, .theme-dark .contentDefault-16dKSY, .theme-light .resultFocused-2geRUA, .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2, .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm, .theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ, .theme-dark .subsectionHeader-1SVMaW, .theme-dark .featuredGame-1EfWhT, .theme-dark .itemDescription-234GLf, .theme-dark .title-1Qzsze {
@@ -9043,11 +9043,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .contentDefault-16dKSY .note-S--UP5, .theme-dark .contentUnread-3gTHvA .note-S--UP5 {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .search-2oPWTC .searchBar-3dMhjb .public-DraftEditorPlaceholder-root {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .container-3gCOGc {
@@ -9055,23 +9055,23 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .tabBar-1E2ExX .primary-3j8BhM, .searchBar-2_Yu-C.searchBarLight-1NxoDG {
-  background-color: var(--S-Colour)!important;
+  background-color: var(--Secondary-Background-Colour)!important;
 }
 
 .tabBar-1E2ExX .primary-3j8BhM{
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d {
-  border-bottom-color: var(--M-Colour);
+  border-bottom-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumnSeparator-3MqtMA {
-  background-color: var(--M-Colour);
+  background-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud {
@@ -9079,16 +9079,16 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .grandfatheredMessage-1BnHtv {
-  background-image: linear-gradient(270deg, var(--S-Colour), var(--S-Colour));
+  background-image: linear-gradient(270deg, var(--Secondary-Background-Colour), var(--Secondary-Background-Colour));
   color: var(--Main-Colour);
 }
 
 .searchBar-2_Yu-C.searchBarLight-1NxoDG input {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .scroller-2FKFPG {
@@ -9096,8 +9096,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .top-28JiJ- .item-PXvHYJ, .theme-dark .top-28JiJ- .itemSelected-1qLhcL {
-  color: var(--M-Colour) !important;
-  background: linear-gradient(to bottom, var(--M-Colour), var(--Background-Colour), var(--M-Colour)) !important;
+  color: var(--Secondary-Main-Colour) !important;
+  background: linear-gradient(to bottom, var(--Secondary-Main-Colour), var(--Background-Colour), var(--Secondary-Main-Colour)) !important;
 }
 
 .theme-dark .top-28JiJ- .itemSelected-1qLhcL {
@@ -9152,11 +9152,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.content.flex-spacer.flex-horizontal>div.flex-spacer.flex-vertical>div.messagesWrapper-3lZDfY>div>div>div.message-group.hide-overflow>div.comment>div>div.accessory>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignStretch-DpGPf3.noWrap-3jynv6.guildInfo-1STtYi>div.guildDetail-1nRKNE.small-29zrCQ.size12-3R0845.height16-2Lv3qA.weightSemiBold-NJexzi>div>span:nth-child(4) {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.content.flex-spacer.flex-horizontal>div.flex-spacer.flex-vertical>div.messagesWrapper-3lZDfY>div>div>div.message-group.hide-overflow>div.comment>div>div.accessory>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignStretch-DpGPf3.noWrap-3jynv6.guildInfo-1STtYi>div.guildDetail-1nRKNE.small-29zrCQ.size12-3R0845.height16-2Lv3qA.weightSemiBold-NJexzi>div>span:nth-child(4):before {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   content: " Out  Of  "
 }
 
@@ -9165,11 +9165,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 #app-mount>div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3>div:nth-child(4)>svg, #app-mount>div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3>div.winButtonClose-1HsbF-.winButton-iRh8-Z.center-1MLNrE.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs>svg>polygon, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg:nth-child(1)>g>path, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg:nth-child(2)>g>path.iconForeground-2c7s3m, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg.iconActive-AKd_jq.icon-1R19_H.iconMargin-2YXk4F>g>path, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg:nth-child(6)>path, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6>svg:nth-child(7)>g, .foreground-2W-aJk, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.chat.flex-vertical.flex-spacer>div.titleWrapper-1l0xT9.theme-dark>div>div.titleText-3X-zRE>span>svg>path, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.container-PNkimc>div.scrollerWrap-2lJEkd.scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW.scrollerFade-28dRsO>div>div.container-5>div:nth-child(3)>div>div>div:nth-child(1)>svg>path.background-2OVjk_, #app-mount>div.theme-dark.popouts>div>div>div.body-3rkFrF>div:nth-child(1)>svg>path, #app-mount>div.theme-dark.popouts>div>div>div.body-3rkFrF>div:nth-child(3)>svg>path {
-  fill: var(--M-Colour) !important;
+  fill: var(--Secondary-Main-Colour) !important;
 }
 
 #app-mount>div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3>div:nth-child(3)>svg>rect, #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.container-PNkimc>div.flexChild-1KGW5q>div>header>svg>g>path:nth-child(2), #app-mount>div.app-19_DXt.platform-win>div.app-2rEoOp.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer>div>div>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz>div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8>div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr>div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.container-PNkimc>div.flexChild-1KGW5q>div>header>svg>g>path:nth-child(3) {
-  stroke: var(--M-Colour) !important;
+  stroke: var(--Secondary-Main-Colour) !important;
 }
 
 .app-2rEoOp {
@@ -9178,7 +9178,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .appMount-3VJmYg, .appMount-3lHmkl {
   background: Var(--Title-Background)50% 50%/cover !important;
-  background-color: rgba(0, 0, 0, var(--Background-Brightness)) !important;
+  background-color: rgba(0, 0, 0, var(--Background-Darkness)) !important;
 }
 
 .appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O, .appMount-3lHmkl .popout-3sVMXz.popoutTopLeft-b5Eb3O {
@@ -9193,7 +9193,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 /* ======================================Canary fix for 2019-01-12 I hope====================================== */
 
 .theme-dark .tooltipBlack-PPG47z {
-  background: linear-gradient(to top, var(--M-Colour), var(--Background-Colour), var(--Background-Colour), var(--M-Colour));
+  background: linear-gradient(to top, var(--Secondary-Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Secondary-Main-Colour));
   color: var(--Main-Colour);
 }
 
@@ -9262,12 +9262,12 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .searchHeader-1l-wpR {
-  background-color: var(--S-Colour);
-  box-shadow: 0 1px 0 var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  box-shadow: 0 1px 0 var(--Secondary-Main-Colour);
 }
 
 .theme-dark .searchResultsWrap-2DKFzt {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .searchHeader-1l-wpR .tab-2Ixsn0.selected-16te-P, .theme-dark .searchHeader-1l-wpR .tab-2Ixsn0:hover {
@@ -9280,11 +9280,11 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .channelSeparator-1X1FuH:before {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .channelSeparator-1X1FuH:before {
-  border-bottom: 1px solid var(--M-Colour);
+  border-bottom: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .searchResult-3pzFAB:before, .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after, .searchResult-3pzFAB:after {
@@ -9292,31 +9292,31 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .searchResult-3pzFAB .hit-NLlWXA {
-  background-color: var(--S-Colour);
-  box-shadow: 0 0 5px 3px var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  box-shadow: 0 0 5px 3px var(--Secondary-Main-Colour);
   transition: all 200ms;
 }
 
 .theme-dark .searchResult-3pzFAB .hit-NLlWXA:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   box-shadow: 0 0 10px 6px var(--Main-Colour);
   transition: all 200ms;
 }
 
 .theme-dark .jumpButton-Ia2hRJ {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .jumpButton-Ia2hRJ:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
   border: 1px solid var(--Main-Colour);
 }
 
 .theme-dark .searchResult-3pzFAB.expanded-v2Szsz {
-  border: 2px solid var(--M-Colour);
+  border: 2px solid var(--Secondary-Main-Colour);
   transition: all 200ms;
 }
 
@@ -9327,15 +9327,15 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
   -webkit-box-sizing: border-box;
-  background-color: var(--S-Colour);
-  border-bottom: 2px solid var(--M-Colour);
-  border-top: 2px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border-bottom: 2px solid var(--Secondary-Main-Colour);
+  border-top: 2px solid var(--Secondary-Main-Colour);
   box-sizing: border-box;
 }
 
 .top-28JiJ- .item-PXvHYJ, .theme-dark .top-28JiJ- .itemSelected-1qLhcL {
-  color: var(--M-Colour) !important;
-  background: linear-gradient(to top, var(--M-Colour), var(--Background-Colour), var(--Background-Colour), var(--M-Colour))!important;
+  color: var(--Secondary-Main-Colour) !important;
+  background: linear-gradient(to top, var(--Secondary-Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Secondary-Main-Colour))!important;
   border-radius: 25%;
   height: 50%;
   transition: all 200ms;
@@ -9351,7 +9351,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .notSelected-1N1G5p:hover {
   background: linear-gradient(to top, var(--Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Main-Colour))!important;
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
   transition: all 200ms;
 }
 
@@ -9360,7 +9360,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .note-3kmerW textarea:focus {
-  background-color: var(--S-Colour)!important;
+  background-color: var(--Secondary-Background-Colour)!important;
 }
 
 .theme-dark .listRow-hutiT_:hover {
@@ -9382,8 +9382,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO {
-  border-color: var(--M-Colour);
-  color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO:hover {
@@ -9396,7 +9396,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {
-  box-shadow: 1px 1px 15px var(--M-Colour)!important;
+  box-shadow: 1px 1px 15px var(--Secondary-Main-Colour)!important;
 }
 
 .mobileIndicator-3gyhuE, .theme-dark .mobileIndicator-U-7hTl {
@@ -9426,7 +9426,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s,.theme-dark .nowPlaying-284llR, .theme-light .nowPlaying-284llR{
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .gameVerifiedIcon-2dGGa5:after {
@@ -9439,8 +9439,8 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 }
 
 .theme-dark .gameNameInput-385LoS:focus, .theme-dark .gameNameInput-385LoS:hover {
-  background-color: var(--S-Colour);
-  border-color: var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 #user-settings > div > div > div.sidebarRegion-VFTUkN > div > div > div > div > div.itemSelected-1qLhcL.item-PXvHYJ.selected-3s45Ha:after,
@@ -9457,7 +9457,7 @@ transition: all 200ms;
 
 #bd-settings-sidebar .ui-tab-bar-item.selected, .side-8zPYf6 .itemSelected-1qLhcL,.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, .contentHoveredVoice-3p_NEO, .contentSelectedVoice-1WDIBM,.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
   color: var(--Main-Colour) !important;
-  background: var(--S-Colour) !important;
+  background: var(--Secondary-Background-Colour) !important;
   transition: all 200ms;
 }
 
@@ -9467,7 +9467,7 @@ transition: all 200ms;
 }
 
 .side-8zPYf6 .itemDefault-3Jdr52,#bd-settings-sidebar > span > div > div.ui-tab-bar-item.selected{
-  box-shadow: 1px 1px 5px var(--M-Colour)!important;
+  box-shadow: 1px 1px 5px var(--Secondary-Main-Colour)!important;
   transition: all 200ms;
 }
 
@@ -9482,19 +9482,19 @@ transition: all 200ms;
 
 /* Credit to MasicoreLord#5338 (197435711476072449) */
 .wrapper-1Rf91z.foldercontent.da-guildsWrapper.da-foldercontent.foldercontentopen>div {
-  width: calc(var(--Guild-Rows) * 60px + 2px)!important;
-  max-width: calc(var(--Guild-Rows) * 60px + 2px)!important;
+  width: calc(var(--Guild-Columns) * 60px + 2px)!important;
+  max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
 }
 
 .foldercontentopen>.scrollerWrap-1IAIlv {
-  width: calc(var(--Guild-Rows) * 60px + 2px)!important;
-  max-width: calc(var(--Guild-Rows) * 60px + 2px)!important;
+  width: calc(var(--Guild-Columns) * 60px + 2px)!important;
+  max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
   padding-left: 5px;
 }
 
 .foldercontent {
-  width: calc(var(--Guild-Rows) * 60px + 2px)!important;
-  max-width: calc(var(--Guild-Rows) * 60px + 2px)!important;
+  width: calc(var(--Guild-Columns) * 60px + 2px)!important;
+  max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
   display: flex;
   flex-flow: row wrap;
   padding-left: 0;
@@ -9503,13 +9503,13 @@ transition: all 200ms;
 }
 
 .wrapper-1Rf91z {
-  width: calc(var(--Guild-Rows) * 60px + 2px)!important;
-  max-width: calc(var(--Guild-Rows) * 60px + 2px)!important;
+  width: calc(var(--Guild-Columns) * 60px + 2px)!important;
+  max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv {
-  width: calc(var(--Guild-Rows) * 60px + 2px)!important;
-  max-width: calc(var(--Guild-Rows) * 60px + 2px)!important;
+  width: calc(var(--Guild-Columns) * 60px + 2px)!important;
+  max-width: calc(var(--Guild-Columns) * 60px + 2px)!important;
 }
 
 /* Credit to MasicoreLord#5338 (197435711476072449) */
@@ -9613,7 +9613,7 @@ transition: all 200ms;
 }
 
 .container-11WMXy [name='Search']:not(:hover){
-  color: var(--M-Colour)
+  color: var(--Secondary-Main-Colour)
 }
 
 .theme-dark .pageWrapper-1PgVDX {
@@ -9638,7 +9638,7 @@ transition: all 200ms;
 }
 
 .theme-dark .action-1lSjCi, .theme-light .action-1lSjCi{
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   border: none;;
   box-shadow: 0 2px 4px rgba(0,0,0,0);
   padding-top: 33%;
@@ -9657,14 +9657,14 @@ transition: all 200ms;
 }
 
 .theme-dark .actionButton-2PeQbJ, .theme-light .actionButton-2PeQbJ{
-  background: var(--S-Colour)!important;
-  color: var(--M-Colour)!important;
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
+  border: 1px solid var(--Secondary-Main-Colour);
   transition: all 200ms;
 }
 
 .theme-dark .actionButton-2PeQbJ:hover, .theme-light .actionButton-2PeQbJ:hover {
-  background: var(--S-Colour)!important;
+  background: var(--Secondary-Background-Colour)!important;
   color: var(--Main-Colour)!important;
   border: 1px solid var(--Main-Colour);
   transition: all 200ms;
@@ -9685,11 +9685,11 @@ transition: all 200ms;
 }
 
 .theme-dark .footer-2yfCgX {
-  box-shadow: inset 0 1px 0 var(--M-Colour);
+  box-shadow: inset 0 1px 0 var(--Secondary-Main-Colour);
 }
 
 .theme-light .cancelButton-RGXhAE{
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-light .cancelButton-RGXhAE:hover{
@@ -9707,7 +9707,7 @@ transition: all 200ms;
 .avatarUploaderInner-3UNxY3{
   height: 40px;
   width: 40px;
-  background-color: var(--M-Colour);
+  background-color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce, .theme-dark .regionSelect-3lf4eE:hover button, .theme-light .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce, .theme-light .regionSelect-3lf4eE:hover button{
@@ -9715,8 +9715,8 @@ transition: all 200ms;
 }
 
 .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
-  background-color: var(--S-Colour);
-  border-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .root-26DmKJ {
@@ -9728,18 +9728,18 @@ transition: all 200ms;
 }
 
 .theme-dark .tile-2OwFgW {
-  background-color: var(--S-Colour);
-  box-shadow: 0 0 0 var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  box-shadow: 0 0 0 var(--Secondary-Main-Colour);
 }
 
 .theme-dark .tile-2OwFgW:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   box-shadow: 0 0 0 var(--Main-Colour);
 }
 
 .theme-dark .popout-2xBvMR {
   background-color: var(--Background-Colour);
-  box-shadow: 0 0 0 0 var(--M-Colour);
+  box-shadow: 0 0 0 0 var(--Secondary-Main-Colour);
   color: var(--Main-Colour);
 }
 
@@ -9779,9 +9779,9 @@ transition: all 200ms;
 }
 
 .reply-list,.reply-item {
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .inner-zqa7da:focus-within {
@@ -9790,7 +9790,7 @@ transition: all 200ms;
 }
 
 .theme-dark .inner-zqa7da {
-  border-color: var(--M-Colour)!important;
+  border-color: var(--Secondary-Main-Colour)!important;
   transition: border 200ms;
 }
 
@@ -9815,7 +9815,7 @@ transition: all 200ms;
 }
 
 .spacer-1fA9zc.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > form > div.typing-2GQL18.base-gE7OpD > div > svg{
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 #app-mount .theme-light [class*='topSection']:not(.topSectionNormal-2-vo2m) .joinedAtDate,#app-mount .theme-dark [class*='topSection'] .joinedAtDate, #app-mount .theme-light .header-2BwW8b:not(.headerNormal-T_seeN) .joinedAtDate, #app-mount .theme-dark .header-2BwW8b .joinedAtDate{
@@ -9827,7 +9827,7 @@ transition: all 200ms;
 }
 
 .uploadInput-2lNPSo #charcounter{
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .wrapper-2lTRaf {
@@ -9902,11 +9902,11 @@ transition: all 200ms;
 }
 
 .bannerImage-1jOskm[style*="/banners/"] {
-  background-image: linear-gradient(var(--S-Colour) 50%, var(--Background-Colour) 100%), var(--Popout-Background)!important;
+  background-image: linear-gradient(var(--Secondary-Background-Colour) 50%, var(--Background-Colour) 100%), var(--Popout-Background)!important;
 }
 
 .noticeDefault-362Ko2 {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border: 1px dotted #f26522;
   color: var(--Main-Colour);
 }
@@ -9930,7 +9930,7 @@ transition: all 200ms;
 }
 
 .sidebarRegion-VFTUkN,.contentRegion-3nDuYy{
-  background: rgba(0,0,0,var(--Background-Brightness))!important;
+  background: rgba(0,0,0,var(--Background-Darkness))!important;
 }
 
 .theme-light .layers-3iHuyZ:before {
@@ -9960,7 +9960,7 @@ transition: all 200ms;
 }
 
 .theme-dark .themed-OHr7kt.item-PXvHYJ,.channel-2QD9_O .linkButtonIcon-Mlm5d6,.darkTheme-3uETC4 .input-1Rv96N,.theme-dark .input-1Rv96N,.theme-dark .container-2XeR5Z,.theme-dark .icon-1S6UIr,.theme-dark .name-3_Dsmg, .theme-light .name-3_Dsmg,.theme-dark .colorMuted-HdFt4q,.wrapper-CU3qI5{
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .children-19S4PO:after,.theme-dark .empty-hejAOj,.arrowContainer-17eG6u{
@@ -9968,11 +9968,11 @@ transition: all 200ms;
 }
 
 .theme-dark .outer-2IVh5n,.coloredBackground-37Z6Gv,.theme-dark .unwrapped-37iUtM,.theme-dark .outer-2IVh5n.interactive-1BeKSi:hover,.darkTheme-3uETC4.container-2XeR5Z,.theme-dark .container-2XeR5Z,.theme-dark .container-cMG81i{
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .wrapper-3UweLa{
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
 }
 
@@ -9982,8 +9982,8 @@ transition: all 200ms;
 }
 
 .theme-dark .unwrapped-37iUtM.clickable-nnkAZy, .theme-dark .wrapped-15rg6t,.theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover{
-  background: var(--S-Colour);
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .wrapper-9ppXpy{
@@ -10016,25 +10016,25 @@ transition: all 200ms;
 }
 
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,.theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-light .wrapper-1ucjTd:hover .content-3at_AU{
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   border: 1px solid var(--Main-Colour);
   transition: all 200ms;
 }
 
 .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,.theme-dark .wrapper-1ucjTd .content-3at_AU, .theme-light .wrapper-1ucjTd .content-3at_AU{
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   border: 1px solid transparent;
   transition: all 200ms;
 }
 
 .side-8zPYf6 .item-PXvHYJ{
-  background: var(--S-Colour);
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
   transition: all 200ms;
 }
 
 .side-8zPYf6 .item-PXvHYJ:hover{
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
   border: 1px solid var(--Main-Colour);
   transition: all 200ms;
 }
@@ -10078,8 +10078,8 @@ transition: all 200ms;
 
 .theme-dark .acronym-2mOFsV,
 .theme-light .acronym-2mOFsV {
-  background-color: var(--S-Colour);
-  color: var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .acronym-2mOFsV.selected-bZ3Lue,
@@ -10091,7 +10091,7 @@ transition: all 200ms;
 }
 
 #dd1e525d-b9b3-4e4a-a876-e09b96d34e50>rect:nth-child(2) {
-  fill: var(--S-Colour) !important;
+  fill: var(--Secondary-Background-Colour) !important;
 }
 
 .theme-dark .button-2b6hmh:hover,
@@ -10133,9 +10133,9 @@ transition: all 200ms;
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVideoCall-2_PKeP,
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVoiceCall-3EdPsR,
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl {
-  background-color: var(--M-Colour) !important;
-  color: var(--M-Colour) !important;
-  fill: var(--M-Colour) !important;
+  background-color: var(--Secondary-Main-Colour) !important;
+  color: var(--Secondary-Main-Colour) !important;
+  fill: var(--Secondary-Main-Colour) !important;
 }
 
 .inner-btChU7 {
@@ -10290,7 +10290,7 @@ transition: all 200ms;
 }
 
 .theme-dark .button-OhfaWu {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .button-OhfaWu:hover:hover {
@@ -10298,7 +10298,7 @@ transition: all 200ms;
 }
 
 .RANbutton {
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .RANbutton:hover {
@@ -10343,33 +10343,33 @@ transition: all 200ms;
 }
 
 .item-PXvHYJ[style="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"],[style="color: rgb(114, 137, 218);"]{
-  background: var(--S-Colour)!important;;
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour)!important;;
+  border: 1px solid var(--Secondary-Main-Colour);
   transition: all 200ms;
-  color: var(--M-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
 }
 
 .item-PXvHYJ[style="color: rgb(114, 137, 218); background-color: rgba(114, 137, 218, 0.1);"],[style="color: rgb(114, 137, 218);"]:hover{
-  background: var(--S-Colour)!important;
+  background: var(--Secondary-Background-Colour)!important;
   border: 1px solid var(--Main-Colour);
   transition: all 200ms;
   color: var(--Main-Colour)!important;
 }
 
 .theme-dark .codeRedemptionRedirect-1wVR4b,.theme-dark .emptyUsers--hiToV {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border-color: var(--Main-Colour);
   color: var(--Main-Colour);
 }
 
 .theme-dark .progress-1IcQ3A {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .notches-1sAcEM{
-  background-color: var(--M-Colour) !important;
-  color: var(--M-Colour) !important;
-  fill: var(--M-Colour) !important;
+  background-color: var(--Secondary-Main-Colour) !important;
+  color: var(--Secondary-Main-Colour) !important;
+  fill: var(--Secondary-Main-Colour) !important;
 }
 
 .theme-dark .notificationsSoundIcon-3PkO7b:before,.theme-dark .nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG, .theme-dark .nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG, .theme-light .nowPlaying-284llR .overlayToggleIconOff-1kT42w .fill-1ugeBG, .theme-light .nowPlaying-284llR .overlayToggleIconOn-3UNmty .fill-1ugeBG,.theme-dark .overlayToggleIconOn-3UNmty .fill-1ugeBG,.overlayToggleIconOff-1kT42w .fill-1ugeBG,.button-mM-y8i,.theme-dark .avatarUploaderIndicator-2G-aIZ,.theme-dark .quickSelectArrow-1QublR,.container-1YxwTf .btn-quote,[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"],[style*="/assets/959a1978f7be567071a1354a98b46ecd.svg"],.homeIcon-tEMBK1,.additionalActionsIcon-1FoUlE,.connectedAccountOpenIcon-2cNbq5,.check-2by_h9,[style*="/assets/37d23346ca73770fda04fbdcc54336e5.svg"],.theme-dark .editIcon-13gaox {
@@ -10398,7 +10398,7 @@ transition: all 200ms;
 }
 
 [style*="background: rgb(251, 184, 72);"]{
-  background: var(--M-Colour)!important;
+  background: var(--Secondary-Main-Colour)!important;
 }
 
 [d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8 0-1.85.63-3.55 1.69-4.9L16.9 18.31C15.55 19.37 13.85 20 12 20zm6.31-3.1L7.1 5.69C8.45 4.63 10.15 4 12 4c4.42 0 8 3.58 8 8 0 1.85-.63 3.55-1.69 4.9z"]{
@@ -10482,7 +10482,7 @@ transition: all 200ms;
 }
 
 .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse{
-  background: var(--S-Colour);
+  background: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .emojiAliasPlaceholder-3H_iZA,.theme-dark .bannedUser-1IalTM .username-1b3MVI{
@@ -10490,7 +10490,7 @@ transition: all 200ms;
 }
 
 .theme-dark .card-FDVird:before {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border-color: var(--Main-Colour);
 }
 
@@ -10499,11 +10499,11 @@ transition: all 200ms;
 }
 
 .theme-dark .bannedUser-1IalTM .username-1b3MVI .discrim-oGb-FO, .theme-dark .bannedUserModal-3RJCOV .reason-YbfGC6, .theme-dark .bannedUserModal-3RJCOV .userDiscrim-1D2NlF{
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) {
-  width: calc(var(--Guild-Rows) * 60px + 2px)!important;
+  width: calc(var(--Guild-Columns) * 60px + 2px)!important;
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN > div > .listItem-2P_4kh {
@@ -10546,7 +10546,7 @@ transition: all 200ms;
 
 .guildSeparator-3s64Iy {
   background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAOCAYAAACfOxrCAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS4zjST9ZwAABHNJREFUSEvNVl2IVkUYHsOItL+LtP8yyqgosDAiomSpMCoDr7SwhDDtIiIqspvwpqCLoosiWIouttz2nJmzrlstrGuuSmmFIHVjXZSp++05M+dz2+wHzNyv531nzpxzvm9iP+2iXniYM+88887MMz/nFSLW2z1kdo+omtTbfJtKe5xvY61PCMqsElF2h5BmjOvSSNGXzuf+7RalD3b0Jyg9gvm8LFR+vWOWNti8AfN4D+N8BRzH9y4RZ6+JrdlFjmGt1ToD/VeAsxWYwDwylKNCZesdA6ZMy0PqHc5rTem/fFucrmafNH21PkHkL0KwFYg343yZiKfO5/7tJs2T9b5tkGYKQqxxbMwpfwxx/wxylQY3X8q8fa0zWfggj6B3Q+hz6gIQZPoEByD7PwhAkOagiCYXiCRdiJhHgpwCdBp6sfikubIyfhhx9mxAAP09js4cntxsAki9F0E2YMHra4j1ktMUYL9I8g3wPYO+dLyLcU7g2N4rBs0yzMnGlKaJ7zvFcGMe/A/B94fl62mhpq5Cn4FK/zHRf+hSMTozH/W3vV+Z7Z0CEGIDZWCzCpD1sS9kpyOA1B86r+D7rMxh36ayRyFuT8nF/RfCbtTmxoXwpa5tWnyULgI3tjzMQZryVCfZSsejGJ+VAkjzm/9W5pAYmTmrixMwJqLmfXjwKtDXMq9bAWKzrhKvFKAXO6vMd76NBTB3+5hS/4BysRg5toAfb2V+tTwIwCfAbHZ1Wts7zKMrFOtXK/6KAMqcQNBPy8bsKZSzCQB19ck2DOD5ndO1AFF6NRZnFzqbAFHzMnAmS5/+BfUpfLvjz5jGWFfCvxY46Xg0LzyQDFwnx20TgCawtlLfj/ouX+/+EUxOSQCyoeaNiPs5ducD5wkLQG+T1C+gXuy2hd2IYiwrAL0Nygzx4qvc6qnuECDJH0agg7aRg2rfFhQAO6DwaFaRmLdOWQCyCEc01o+7muAF0IPsx4IAZPxvx1VI9LAd03wD3isojeNaAciiw2eD8zTav2au1Dvxm3zD8QICKL0c5QN1n0NYgH4xigSHkpwC9HaQVQWQRvNDRb+nKoq/TbuRPzG3oj8ELsZyApAN5efCt5jHpkXG+mLMpVMA2ogtPy/idppb7z7KDR7xMYMCbBqfi/LLuh8IvgFd/gU4caGY2Rc1DJrrbMaYv1lH9j76/OTH4WzP3MULirKb8b0D7ZPgrhHxxBJ8vwtOcd+PQrxLxHhrLsrVaGsAO5FHLAN/Kb4P+LgSGaKv2M7L3eR7QCyOr8W/EeCfkDSwy90kQvpb7OQFvItS7wlyCkijePyB9CZ8/x7kEGhuUboqLABZrD+utf0XAlB/Ogl0HQpL8tswbiPIVXpcJEcuZ94mvBUy3Yi2zrSZ/gRSv848JAyfeFQH6p+4BUembKOHhyzOn6/4nmNfyGR6Owap9A9gUF+DvOH+YFuM9yVBjrDl6BUuYmmUa8QZZXQ/YtHHUW5D+ZIYaZ7nGNZIBMpT6FQofQzzwbUxw5w5sgnxNyB3m34raxnsAAAAAElFTkSuQmCC')50% 50%/Contain no-repeat;
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
   height: 25.5px;
   top: 0px;
   width: 55px;
@@ -10642,7 +10642,7 @@ transition: all 200ms;
 
 .theme-dark .quickSelectPopout-X1hvgV{
   background: var(--Background-Colour)!important;
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .quickSelectPopout-X1hvgV:hover{
@@ -10686,7 +10686,7 @@ transition: all 200ms;
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN > .listItem-2P_4kh:not([folder*="folder_"]):first-of-type {
-  width: calc(var(--Guild-Rows) * 60px + 2px) !important;
+  width: calc(var(--Guild-Columns) * 60px + 2px) !important;
   align-content: center;
 }
 
@@ -10723,7 +10723,7 @@ transition: all 200ms;
 }
 
 .wrapper-1Rf91z.foldercontent .folderseparatorouter{
-  width: calc(var(--Guild-Rows) * 60px + 2px) !important;
+  width: calc(var(--Guild-Columns) * 60px + 2px) !important;
 }
 
 .item-2hkk8m:not(:hover)[style*="1; height"] {
@@ -10749,13 +10749,13 @@ transition: all 200ms;
 }
 
 .theme-dark .memberListItem-2ZX2pl:hover,.theme-dark .enabled-5QKLzu:hover,.theme-dark .popoutContainer-3WC9HR:hover,.interactive-1BeKSi:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border: 1px solid var(--Main-Colour);
 }
 
 .theme-dark .memberListItem-2ZX2pl,.theme-dark .enabled-5QKLzu,.theme-dark .popoutContainer-3WC9HR,.interactive-1BeKSi {
-  background-color: var(--S-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .recentlyPlayedContainer-2F3MqS{
@@ -10767,11 +10767,11 @@ transition: all 200ms;
 }
 
 .theme-dark .itemBackground-2vEldQ {
-  background-color:var(--S-Colour);
+  background-color:var(--Secondary-Background-Colour);
 }
 
 .theme-dark .itemBackground-2vEldQ:before {
-  background: radial-gradient(ellipse at top, rgba(0, 0, 0, 0), var(--M-Colour)), linear-gradient(90deg, var(--S-Colour) 0, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, var(--S-Colour)), linear-gradient(0deg, var(--M-Colour) 0, rgba(0, 0, 0, 0) 25%);
+  background: radial-gradient(ellipse at top, rgba(0, 0, 0, 0), var(--Secondary-Main-Colour)), linear-gradient(90deg, var(--Secondary-Background-Colour) 0, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, var(--Secondary-Background-Colour)), linear-gradient(0deg, var(--Secondary-Main-Colour) 0, rgba(0, 0, 0, 0) 25%);
 }
 
 .theme-dark .overlappingBorder-3aFng4, .theme-light .overlappingBorder-3aFng4{
@@ -10787,7 +10787,7 @@ transition: all 200ms;
 }
 
 .perkTag-2O4dx4 {
-  background: linear-gradient(90deg, var(--S-Colour),var(--M-Colour));
+  background: linear-gradient(90deg, var(--Secondary-Background-Colour),var(--Secondary-Main-Colour));
   border-radius: 8px;
   font-size: 12px;
   line-height: 16px;
@@ -10796,25 +10796,25 @@ transition: all 200ms;
 }
 
 .theme-dark .tile-QA_yMc {
-  background-color: var(--S-Colour);
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .theme-dark .tile-QA_yMc:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border: 1px solid var(--Main-Colour);
 }
 
 .theme-dark .gradientOverlayLeft-3w159C {
-  background-image: linear-gradient(90deg,var(--M-Colour),rgba(0,0,0,0));
+  background-image: linear-gradient(90deg,var(--Secondary-Main-Colour),rgba(0,0,0,0));
 }
 
 .theme-dark .gradientOverlayRight-3vMuS8 {
-  background-image: linear-gradient(90deg,rgba(0,0,0,0),var(--M-Colour));
+  background-image: linear-gradient(90deg,rgba(0,0,0,0),var(--Secondary-Main-Colour));
 }
 
 .theme-dark .categoryHeader-1D7Tqy, .theme-dark .premiumApplicationsHeader-Zmkm5e {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
   color: var(--Main-Colour);
 }
 
@@ -10823,22 +10823,22 @@ transition: all 200ms;
 }
 
 .theme-dark .tileMedia-1q3guD,.theme-dark .tileMedia-1q3guD:hover {
-  background-color: var(--S-Colour);
-  box-shadow: 0 0 0 var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  box-shadow: 0 0 0 var(--Secondary-Background-Colour);
 }
 
 .theme-dark .genreTag-3QLRUJ {
-  background: var(--S-Colour);
-  color: var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr {
-  background: linear-gradient(-180deg,var(--S-Colour),var(--S-Colour));
-  border-bottom: 1px solid var(--S-Colour);
+  background: linear-gradient(-180deg,var(--Secondary-Background-Colour),var(--Secondary-Background-Colour));
+  border-bottom: 1px solid var(--Secondary-Background-Colour);
 }
 
 .theme-dark .friendsTable-133bsv .friendTableAddDescription-19D3dl,.theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr .connectAccounts-1orH6X h3 {
-  color: var(--M-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK h2,.theme-dark .header-3YT7-d {
@@ -10846,19 +10846,19 @@ transition: all 200ms;
 }
 
 .theme-dark .wrapper-1cBijl {
-  background-color: var(--S-Colour);
-  border-color: var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .tabBar-1E2ExX .primarySelected-3uHKZn {
-  background-color: var(--S-Colour)!important;
+  background-color: var(--Secondary-Background-Colour)!important;
   color: var(--Main-Colour)!important;
 }
 
 .theme-dark .themed-OHr7kt.item-PXvHYJ{
-  background-color: var(--S-Colour)!important;
-  color: var(--M-Colour)!important;
-  border: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .reactionBtn-2na4rd,.button-3Jq0g9,.theme-dark .closeButton-17RIVZ{
@@ -10901,19 +10901,19 @@ transition: all 200ms;
 }
 
 .guildsError-b7zR5H:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border-color: var(--Main-Colour);
   color: var(--Main-Colour);
 }
 
 .guildsError-b7zR5H {
-  background: var(--S-Colour);
-  border-color: var(--M-Colour);
-  color: var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  color: var(--Secondary-Main-Colour);
 }
 
 .theme-dark .tooltipRed-8-9NeP, .theme-light .tooltipRed-8-9NeP {
-  background: linear-gradient(to top, var(--M-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--M-Colour)) !important;
+  background: linear-gradient(to top, var(--Secondary-Main-Colour), var(--Background-Colour), var(--Background-Colour), var(--Background-Colour), var(--Secondary-Main-Colour)) !important;
   color: var(--Main-Colour);
 }
 
@@ -10957,7 +10957,7 @@ transition: all 200ms;
 }
 
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh, .theme-light .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border: 1px solid var(--Main-Colour);
 }
 
@@ -10970,21 +10970,21 @@ transition: all 200ms;
 }
 
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz .content-3xS9Lh, .theme-light .listDefault-2y5Z9D .clickable-23RaYz .content-3xS9Lh {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border: 1px solid transparent;
 }
 
 .users-i_3-kL {
-  background-color: var(--S-Colour);
-  border-right: 1px solid var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border-right: 1px solid var(--Secondary-Main-Colour);
 }
 
 .total-3tKGEB {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .total-3tKGEB:after{
-  border-color: var(--S-Colour);
+  border-color: var(--Secondary-Background-Colour);
 }
 
 .wrapper-pZmgj4{
@@ -11010,9 +11010,9 @@ transition: all 200ms;
 }
 
 #files_directDownload .file {
-  background: var(--S-Colour);
-  box-shadow: inset 0 0 10px var(--M-Colour);
-  border: 1px solid var(--M-Colour);
+  background: var(--Secondary-Background-Colour);
+  box-shadow: inset 0 0 10px var(--Secondary-Main-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 #files_directDownload .file .progress-bar{
@@ -11020,34 +11020,34 @@ transition: all 200ms;
 }
 
 .listItem-2P_4kh.guildSeparator{
-  width: calc(var(--Guild-Rows) * 60px + 2px) !important;
+  width: calc(var(--Guild-Columns) * 60px + 2px) !important;
   align-content: center;
 }
 
 /* Seprate Rows For Server Folders And Guild List */
 .wrapper-1Rf91z.foldercontent .folderseparatorouter{
-  width: calc(var(--SF-Guild-Rows) * 60px + 2px) !important;
+  width: calc(var(--ServerFolders-Guild-Columns) * 60px + 2px) !important;
 }
 
 .wrapper-1Rf91z.foldercontent.da-guildsWrapper.da-foldercontent.foldercontentopen>div {
-  width: calc(var(--SF-Guild-Rows) * 60px + 2px)!important;
-  max-width: calc(var(--SF-Guild-Rows) * 60px + 2px)!important;
+  width: calc(var(--ServerFolders-Guild-Columns) * 60px + 2px)!important;
+  max-width: calc(var(--ServerFolders-Guild-Columns) * 60px + 2px)!important;
 }
 
 .foldercontentopen>.scrollerWrap-1IAIlv {
-  width: calc(var(--SF-Guild-Rows) * 60px + 2px)!important;
-  max-width: calc(var(--SF-Guild-Rows) * 60px + 2px)!important;
+  width: calc(var(--ServerFolders-Guild-Columns) * 60px + 2px)!important;
+  max-width: calc(var(--ServerFolders-Guild-Columns) * 60px + 2px)!important;
 }
 
 .foldercontent {
-  width: calc(var(--SF-Guild-Rows) * 60px + 2px)!important;
-  max-width: calc(var(--SF-Guild-Rows) * 60px + 2px)!important;
+  width: calc(var(--ServerFolders-Guild-Columns) * 60px + 2px)!important;
+  max-width: calc(var(--ServerFolders-Guild-Columns) * 60px + 2px)!important;
 }
 
 /* Seprate Rows For Server Folders And Guild List */
 
 .theme-dark .expandedInfo-3kfShd {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .paymentHeader-3QlZQi,.theme-dark .paymentText-2vaF7U,.css-1k00wn6-singleValue,.css-12o7ek3-option,.css-12o7ek5-option,.css-1gnr91b-option,.css-1aymab5-option,.css-13kbzi0-control,.css-548n9r-singleValue {
@@ -11055,17 +11055,17 @@ transition: all 200ms;
 }
 
 .theme-dark .paymentHeader-3QlZQi {
-  border-color: var(--M-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .css-15ejc46-control,.css-12o7ek3-option,.css-12o7ek5-option,.css-13kbzi0-control {
-  background-color: var(--S-Colour);
-  border-color: var(--M-Colour);
+  background-color: var(--Secondary-Background-Colour);
+  border-color: var(--Secondary-Main-Colour);
 }
 
 .css-ua3v5p-menu,.css-1gnr91b-option,.css-1aymab5-option {
   background-color: var(--Background-Colour);
-  border: 1px solid var(--M-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
 }
 
 .css-ua3v5p-menu:hover,.css-1gnr91b-option:hover {
@@ -11074,7 +11074,7 @@ transition: all 200ms;
 }
 
 .css-15ejc46-control:hover,.css-2yldzf-control,.css-12o7ek3-option:hover,.css-12o7ek5-option:hover,.css-2yldzf-control:hover {
-  background-color: var(--S-Colour);
+  background-color: var(--Secondary-Background-Colour);
   border-color: var(--Main-Colour);
 }
 
@@ -11089,4 +11089,12 @@ transition: all 200ms;
   -webkit-mask-position: 100% !important;
   -webkit-mask-repeat: no-repeat !important;
   background-image: none !important;
+}
+
+.theme-dark .input-2A_zIr{
+  color: var(--Main-Colour);
+}
+
+.replyer:not(:hover){
+  opacity: 0;
 }

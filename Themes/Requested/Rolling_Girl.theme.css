@@ -33,8 +33,8 @@
 :root {
   --Main-Colour: rgba(235,97,149,1);
   --Background-Colour: rgba(32,21,37,1);
-  --S-Colour: rgba(32,21,37,.3);
-  --M-Colour: rgba(235,97,149,.5);
+  --Secondary-Background-Colour: rgba(32,21,37,.3);
+  --Secondary-Main-Colour: rgba(235,97,149,.5);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
   --Scroller-Colour: rgba(235,97,149,0);
   --Notification-Colour: rgba(235,97,149,1);
@@ -53,16 +53,16 @@
   --Popout-Main-Colour: var(--Main-Colour);
   --Popout-Background: var(--Background-Colour);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
-  --Emote-Popout-Background: var(--S-Colour);
+  --Emote-Popout-Background: var(--Secondary-Background-Colour);
   --load1: "ローリンガール";
   --load2: "(Rolling Girl)";
   --load3: "➢NFLD99";
   --Settings-Dock-Colour: var(--Main-Colour);
-  --Timestamp-Colour: var(--M-Colour);
-  --Guild-Rows: 2;
-  --SF-Guild-Rows: var(--Guild-Rows);
+  --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 10%;
-  --Background-Brightness: 0.5;
+  --Background-Darkness: 0.5;
 }
 .container-16j22k,.app,.callout-backdrop,.modal-1UGdnR,.theme-dark .ui-standard-sidebar-view,.appMount-3VJmYg {
   background-size: 100% 100% !important;

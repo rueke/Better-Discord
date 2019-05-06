@@ -329,13 +329,13 @@
 
 @keyframes NSFW {
   0% {
-    fill: var(--M-Colour);
+    fill: var(--Secondary-Main-Colour);
   }
   50% {
     fill: var(--Main-Colour);
   }
   100% {
-    fill: var(--M-Colour);
+    fill: var(--Secondary-Main-Colour);
   }
 }
 

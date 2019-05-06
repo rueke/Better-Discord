@@ -33,8 +33,8 @@
 :root {
   --Main-Colour: rgba(110,137,156,1);
   --Background-Colour: rgba(25,20,17,1);
-  --S-Colour: rgba(25,20,17,.3);
-  --M-Colour: rgba(110,137,156,.5);
+  --Secondary-Background-Colour: rgba(25,20,17,.3);
+  --Secondary-Main-Colour: rgba(110,137,156,.5);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
   --Scroller-Colour: rgba(110,137,156,0);
   --Notification-Colour: rgba(110,137,156,1);
@@ -53,14 +53,14 @@
   --Popout-Main-Colour: var(--Main-Colour);
   --Popout-Background: var(--Chat-Background);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
-  --Emote-Popout-Background: var(--S-Colour);
+  --Emote-Popout-Background: var(--Secondary-Background-Colour);
   --load1: "Thank You!";
   --load2: "Please Enjoy!";
   --load3: "➢NFLD99";
   --Settings-Dock-Colour: var(--Main-Colour);
-  --Timestamp-Colour: var(--M-Colour);
-  --Guild-Rows: 2;
-  --SF-Guild-Rows: var(--Guild-Rows);
+  --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 10%;
-  --Background-Brightness: 0.65;
+  --Background-Darkness: 0.65;
 }

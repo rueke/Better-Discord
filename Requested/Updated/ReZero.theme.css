@@ -30,8 +30,8 @@
 :root {
   --Main-Colour: rgba(0, 0, 0, 0);
   --Background-Colour: var(--Main-Colour);
-  --S-Colour: var(--Main-Colour);
-  --M-Colour: var(--Main-Colour);
+  --Secondary-Background-Colour: var(--Main-Colour);
+  --Secondary-Main-Colour: var(--Main-Colour);
   --Text-Shadow-Colour: var(--Main-Colour);
   --Scroller-Colour: var(--Main-Colour);
   --Notification-Colour: var(--Main-Colour);
@@ -56,8 +56,8 @@
   --load3: "➢NFLD99";
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: var(--Main-Colour);
-  --Background-Brightness: 0;
-  --Guild-Rows: 0;
-  --SF-Guild-Rows: var(--Guild-Rows);
+  --Background-Darkness: 0;
+  --Guild-Columns: 0;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 10%;
 }

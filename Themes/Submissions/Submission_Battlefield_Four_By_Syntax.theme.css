@@ -33,8 +33,8 @@
 :root {
   --Main-Colour: rgba(255,255,255,1);
   --Background-Colour: rgba(50,50,50,1);
-  --S-Colour: rgba(40,40,40,0.5);
-  --M-Colour: rgba(231,173,37,0.88);
+  --Secondary-Background-Colour: rgba(40,40,40,0.5);
+  --Secondary-Main-Colour: rgba(231,173,37,0.88);
   --Text-Shadow-Colour: rgba(0,0,0,.73);
   --Scroller-Colour: rgba(222,222,222,0.9);
   --Notification-Colour: rgba(231,173,37,1);
@@ -58,11 +58,11 @@
   --load2: "Please Enjoy!";
   --load3: "➢NFLD99";
   --Settings-Dock-Colour: var(--Main-Colour);
-  --Timestamp-Colour: var(--M-Colour);
-  --Guild-Rows: 2;
-  --SF-Guild-Rows: var(--Guild-Rows);
+  --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 10%;
-  --Background-Brightness: 0.48;
+  --Background-Darkness: 0.48;
 }
 ::-webkit-input-placeholder, body, button, input, select, textarea {  font-family: Electrolize,sans-serif;}
 .textArea-2Spzkt {  font-size: 17px;}

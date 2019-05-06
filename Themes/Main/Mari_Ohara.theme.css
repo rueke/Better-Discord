@@ -33,8 +33,8 @@
 :root {
   --Main-Colour: rgba(179, 120, 211, 1);
   --Background-Colour: rgba(0,0,0, 1);
-  --S-Colour: rgba(0,0,0, .3);
-  --M-Colour: rgba(179, 120, 211, .5);
+  --Secondary-Background-Colour: rgba(0,0,0, .3);
+  --Secondary-Main-Colour: rgba(179, 120, 211, .5);
   --Text-Shadow-Colour: rgba(0,0,0, .65);
   --Scroller-Colour: rgba(179, 120, 211, 0);
   --Notification-Colour: rgba(179, 120, 211, 1);
@@ -42,9 +42,9 @@
   --Chat-Input-Colour: var(--Main-Colour) ;
   --Unread-Message-1: var(--Main-Colour) ;
   --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: var(--S-Colour);
-  --Settings-Background: var(--S-Colour);
-  --Callout-Background: var(--S-Colour);
+  --Chat-Background: var(--Secondary-Background-Colour);
+  --Settings-Background: var(--Secondary-Background-Colour);
+  --Callout-Background: var(--Secondary-Background-Colour);
   --Title-Background: url(https://pm1.narvii.com/6195/6ca8cbb902db7e443c29d13fad7a13ebd78c2443_hq.jpg);
   --Theme-Variant: " Mari Ohara";
   --Chat-Font-Used: ;
@@ -53,14 +53,14 @@
   --Popout-Main-Colour: var(--Main-Colour);
   --Popout-Background: var(--Chat-Background);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
-  --Emote-Popout-Background: var(--S-Colour);
+  --Emote-Popout-Background: var(--Secondary-Background-Colour);
   --load1: "Thank You!";
   --load2: "Please Enjoy!";
   --load3: "➢NFLD99";
   --Settings-Dock-Colour: var(--Main-Colour);
-  --Timestamp-Colour: var(--M-Colour);
-  --Guild-Rows: 2;
-  --SF-Guild-Rows: var(--Guild-Rows);
+  --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 10%;
-  --Background-Brightness: 0.5;
+  --Background-Darkness: 0.5;
 }
