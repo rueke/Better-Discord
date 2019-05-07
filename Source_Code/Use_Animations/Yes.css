@@ -358,7 +358,7 @@
   }
 }
 
-@keyframes UnreadGuildpulse {
+@keyframes UnreadGuildpulseOLD {
   0% {
     border:2px solid var(--Unread-Message-1);
   }
@@ -373,5 +373,17 @@
   }
   100% {
     border:2px solid var(--Unread-Message-1);
+  }
+}
+
+@keyframes Unreadpulse { 
+  0% {
+    background-position:-50% 50%
+  }
+  50% {
+  background-position:50% 50%
+  }
+  100% {
+    background-position:-150% 50%
   }
 }
