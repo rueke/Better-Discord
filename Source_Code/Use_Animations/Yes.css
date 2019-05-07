@@ -343,7 +343,7 @@
   background:transparent!important;
 }
 
-@keyframes Unreadpulse {
+@keyframes UnreadpulseOLD {
   0% {
     filter: brightness(160%);
     border-right: 10px solid var(--Main-Colour);
@@ -358,7 +358,7 @@
   }
 }
 
-@keyframes UnreadGuildpulseOLD {
+@keyframes UnreadGuildpulse {
   0% {
     border:2px solid var(--Unread-Message-1);
   }

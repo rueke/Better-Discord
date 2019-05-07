@@ -13,7 +13,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #316 ";
+  --Update-Text: " Update #317 ";
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -10629,7 +10629,7 @@ transition: all 200ms;
   width: 45px!important;
   height: 45px!important;
   left: 2px;
-  top: 1px;
+  top: 0;
   z-index: 0;
 }
 
@@ -10640,7 +10640,7 @@ transition: all 200ms;
   width: 45px!important;
   height: 45px!important;
   left: 2px;
-  top: 1px;
+  top: 0;
   z-index: 0;
 }
 
