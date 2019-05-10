@@ -13,8 +13,8 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #324 ";
-  --File-Updated-2019-5-9: url(https://nfld99.com/images/REDOWNLOAD.png);
+  --Update-Text: " Update #325 ";
+  --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -49,7 +49,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fix :D.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Removed Minimal Mode.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -9965,6 +9965,19 @@ transition: all 200ms;
   color: var(--Main-Colour);
 }
 
+.bd-minimal:after{
+  content: "Minimal Mode is NOT supported, \a Please turn it off. \a [Settings > Core > Minimal Mode]";
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  z-index: 9997;
+  color: var(--Main-Colour);
+}
+
 #user-settings > div:nth-child(3) > div > div:nth-child(2) > div > div > div > div.contentColumn-2hrIYH.contentColumnDefault-1VQkGM > div > div > div:nth-child(2) > .radioGroup-1GBvlr > div:nth-child(1){
   display: none;
 }
@@ -11137,7 +11150,7 @@ transition: all 200ms;
 }
 
 .app-2rEoOp {
-  background: var(--File-Updated-2019-5-9) 50% 50%/cover , var(--Chat-Background) 50% 50%/cover !important;
+  background: var(--File-Updated-2019-5-10) 50% 50%/cover , var(--Chat-Background) 50% 50%/cover !important;
   animation: Load4 3s 1 linear, var(--StartUp) 3s 1 linear;
   font-family: var(--Chat-Font-Used)!important;
 }

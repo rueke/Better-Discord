@@ -5,9 +5,7 @@
 /* Animations */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/No.css);
-/* Minimal Mode */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Minimal/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/No.css);
 /* Settings Dock */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
 /* Channels */
@@ -57,7 +55,7 @@
   --load1: "NEKOPARA";
   --load2: "Sleeping";
   --load3: "Kitties";
-  --File-Updated-2019-5-9: ; 
+  --File-Updated-2019-5-10: ; 
   --Settings-Dock-Colour: rgba(255, 228, 233, 1);
   --Timestamp-Colour: rgba(255, 183, 197, 1);
   --Guild-Columns: 2;

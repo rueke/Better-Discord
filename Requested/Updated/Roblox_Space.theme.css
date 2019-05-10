@@ -5,9 +5,7 @@
 /* Animations */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/No.css);
-/* Minimal Mode */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Minimal/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/No.css);
 /* Settings Dock */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/Yes.css);
 /* Channels */
@@ -56,7 +54,7 @@
   --load1: "Do NOT!";
   --load2: "Use Better Docs";
   --load3: "➢NFLD99";
-  --File-Updated-2019-5-9: ;
+  --File-Updated-2019-5-10: ;
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: var(--Main-Colour);
   --Background-Darkness: 0;
