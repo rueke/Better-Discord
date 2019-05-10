@@ -13,8 +13,9 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #321 ";
-  --File-Updated-2019-05-09: /* none */; 
+  --Update-Text: " Update #322 ";
+  --File-Updated-2019-5-9: /* none */;
+  --File-Updated-2019-05-09: url(https://nfld99.com/images/REDOWNLOAD.png); 
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -24,7 +25,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 }
 
 .app-2rEoOp {
-  background: var(--File-Updated-2019-05-09) var(--Chat-Background) 50% 50%/cover !important;
+  background: var(--File-Updated-2019-5-9) 50% 50%/cover , var(--Chat-Background) 50% 50%/cover !important;
   animation: Load4 3s 1 linear, var(--StartUp) 3s 1 linear;
   font-family: var(--Chat-Font-Used)!important;
 }
