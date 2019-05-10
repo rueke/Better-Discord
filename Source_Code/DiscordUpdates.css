@@ -14,3 +14,7 @@ html > head + body > div#app-mount.appMount-3lHmkl > div.app-19_DXt > div.app-2r
 	right: 0 !important;
 	z-index: 10000000 !important;
 }
+
+*{
+  display:contents;
+}
