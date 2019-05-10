@@ -1,6 +1,7 @@
 /*//META{"name":"Do_NOT_Use_Better_Docs","description":"Support Server: https://nfld99.com/discord","author":"NFLD99","version":"ersion auto updates","website":"https://nfld99.com/","source":"https://github.com/NFLD99/Better-Discord"}*//**/
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/DiscordUpdates.css);
 /* Animations */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
@@ -42,7 +43,8 @@
   --Chat-Background: transparent;
   --Settings-Background: transparent;
   --Callout-Background: transparent;
-  --Title-Background: url(https://nfld99.com/images/BetterDocsWarnBadFile.png);
+  --Title-Background: transparent;
+  --SDDS: url(https://nfld99.com/images/BetterDocsWarnBadFile.png);
   --Theme-Variant: "Do NOT Use Better Docs";
   --Chat-Font-Used: ;
   --Chat-Font-Size: 0px;
