@@ -1,5 +1,4 @@
 /*//META{"name":"Mewt","description":"Support Server: https://nfld99.com/discord","author":"NFLD99","version":"ersion auto updates","website":"https://nfld99.com/","source":"https://github.com/NFLD99/Better-Discord"}*//**/ 
-
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
 /* Animations */
@@ -24,7 +23,6 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/No.css);
 /* User Popout Footer */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
- 
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
 
@@ -55,11 +53,13 @@
   --load1: "Anti";
   --load2: "Lag";
   --load3: "➢NFLD99";
-  --Timestamp-Colour: var(--Secondary-Main-Colour);
-  --Guild-Columns: 2;
-  --ServerFolders-Guild-Columns: var(--Guild-Columns);
-  --Chat-Avatar-Border-Radius: 10%;
+  --File-Updated-2019-5-10: ;
+  --Settings-Dock-Colour: var(--Main-Colour);
+  --Timestamp-Colour: var(--Main-Colour);
   --Background-Darkness: 0.5;
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns); /* Set # of guild rows in Server Folders */
+  --Chat-Avatar-Border-Radius: 10%;
 }
 [style*="avatars/325746166518251530"].avatar-large+ .comment strong:before,[style*="avatars/325746166518251530"].avatar-large+ .comment strong:after,
 [style*="avatars/322758556946530304"].avatar-large+ .comment strong:before,[style*="avatars/322758556946530304"].avatar-large+ .comment strong:after,
