@@ -5,19 +5,19 @@
 	--Bar: rgba(26, 250, 93, 0.357);
 }
 .theme-dark .isMentioned-N-h9aa {
-    background: var(--Background) !important;
+   background: var(--Background) !important;
 }
 .mention {
-    color: var(--Mention) !important;
+   color: var(--Mention) !important;
 }
 .isMentionedCozy-3isp7y:after {
-    position: absolute;
-    top: 0;
-    left: -6px;
-    bottom: 0;
-    content: " ";
-    width: 2px;
-    background: var(--Bar)!important;
-    border-left: 4px solid var(--Bar)!important;
-    border-radius: 2px 0 0 2px;
+   position: absolute;
+   top: 0;
+   left: -6px;
+   bottom: 0;
+   content: " ";
+   width: 2px;
+   background: var(--Bar)!important;
+   border-left: 4px solid var(--Bar)!important;
+   border-radius: 2px 0 0 2px;
 }

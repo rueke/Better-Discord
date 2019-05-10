@@ -207,16 +207,16 @@ color: var(--Popout-Main-Colour);
 border: 1px solid var(--Popout-Main-Colour);
 }
 .root-3-B5F3{
-    max-height: 200px;
-    overflow: scroll;
-    overflow-x: hidden;
-    overflow-y: auto;
+   max-height: 200px;
+   overflow: scroll;
+   overflow-x: hidden;
+   overflow-y: auto;
   }
   
   .scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y > div > div > a > div > div > span > span {
-    display: inline-block;
-    left: 40px;
-    top: 10px
+   display: inline-block;
+   left: 40px;
+   top: 10px
   }
 /* New UserPopouts */
 @keyframes pulse {

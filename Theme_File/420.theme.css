@@ -2,31 +2,31 @@
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
 /* Animations */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Animations/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Fonts/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/No.css);
 /* Minimal Mode */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Minimal/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Minimal/No.css);
 /* Settings Dock */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Popup/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/Yes.css);
 /* Channels */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Channels/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/Yes.css);
 /* Chat Title Bar */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Chat_Title_Bar/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/Yes.css);
 /* Guild List */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Guilds/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Guilds/Yes.css);
 /* Invites */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Invites/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/Yes.css);
 /* Member List */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Members/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/Yes.css);
 /* Windows Bar */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Windows_Bar/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/Yes.css);
 /* Offline Members */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Offline/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/Yes.css);
 /* User Popout Footer */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Popout_Footer/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
 /* Transparency Patch */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Transparency/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/Yes.css);
 :root {
   --Main-Colour: rgba(0, 0, 0, 0);
   --Background-Colour: var(--Main-Colour);
@@ -54,6 +54,7 @@
   --load1: "Do NOT!";
   --load2: "Use Better Docs";
   --load3: "➢NFLD99";
+  --File-Updated-2019-05-09: "2019-05-09";
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: var(--Main-Colour);
   --Background-Darkness: 0;
