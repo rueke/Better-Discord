@@ -1,27 +1,29 @@
 html > head + body > div#app-mount.appMount-3lHmkl > div.app-19_DXt > div.app-2rEoOp.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div.layer-3QrUeG > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.container-2lgZY8.firefoxFixScrollFlex-cnI2ix > div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8.firefoxFixScrollFlex-cnI2ix > div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.container-2Thooq > div.wrapper-2F3Zv8.small-5Os1Bb.avatar-3JE4B3.avatarSmall-3ACRaI > div.inner-1W0Bkn:before{
-	content: "Whoops you downloaded a bad file, Do Not use BetterDocs/DiscordSource \A Please Redownload from: https://nfld99.com \A The site you downloaded this theme from does not have premission \A to host my files nor link to my repo(s) and has been asked \A to remove mt themes multiple times. \A ~NFLD99" !important;
-	white-space:pre !important;
-	font-size: 16px !important;
-	line-height: 30px !important;
-	text-align: center !important;
-	background: var(--Background-Colour)!important;
-	box-shadow:inset 0 0 55px 5px var(--Main-Colour)!important;
-	border:5px solid var(--Main-Colour) !important;
-	padding: 0 !important;
-	padding-top: calc(50vh - 40px) !important;
-	margin: 0 !important;
-	display: inline !important;
-	opacity: 1 !important;
-	cursor: default !important;
-	visibility: visible !important;
-	position: fixed !important;
-	top: 22px !important;
-	left: 0 !important;
-	bottom: 0 !important;
-	right: 0 !important;
-	z-index: 10000000 !important;
-	pointer-events: none !important;
-	transform:none !important;
-	-webkit-app-region:drag !important;
-  }
-  
+  content: "Whoops you downloaded a bad file, Do Not use BetterDocs/DiscordSource \A Please Redownload from: https://nfld99.com \A The site you downloaded this theme from does not have premission \A to host my files nor link to my repo(s) and has been asked \A to remove my themes multiple times. \A ~NFLD99" !important;
+  white-space:pre !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  text-align: center !important;
+  background: var(--Background-Colour)!important;
+  box-shadow:inset 0 0 55px 5px var(--Main-Colour)!important;
+  border:5px solid var(--Main-Colour) !important;
+  padding: 0 !important;
+  padding-top: calc(50vh - 40px) !important;
+  margin: 0 !important;
+  display: inline !important;
+  opacity: 1 !important;
+  cursor: default !important;
+  visibility: visible !important;
+  position: fixed !important;
+  top: 22px !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  z-index: 10000000 !important;
+  pointer-events: none !important;
+  transform:none !important;
+  -webkit-app-region:drag !important;
+  transform:none !important;
+  max-height:unset !important;
+  max-width:unset !important;
+}
