@@ -1,6 +1,18 @@
 # in .github/ranger.yaml
+# .github/ranger.yaml
+    default:
+      close:
+        # Default time to wait before closing the label. Can either be a number in milliseconds
+        # or a string specified by the `ms` package (https://www.npmjs.com/package/ms)
+        delay: "3 seconds"
+    
+        # Default comment to post when an issue is first marked with a closing label
+        #
+        #   $DELAY will automatically be replaced with `delay` as a formatted string (e.g. '7 days')
+        #   $LABEL will automatically be replaced with the label's name
+        comment: "⚠️ This issue has been marked $LABEL and will be closed in $DELAY".
     labels:
-      invalid:
+      "DSBD Issue":
         action: close
         # You can specify times in human readable form
         # using seconds, minutes, hours, days, weeks and years
