@@ -1,6 +1,6 @@
 # in .github/ranger.yaml
     labels:
-      'invalid':
+      invalid:
         action: close
         # You can specify times in human readable form
         # using seconds, minutes, hours, days, weeks and years
