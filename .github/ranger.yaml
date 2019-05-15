@@ -1,21 +1,10 @@
-# in .github/ranger.yaml
-# .github/ranger.yaml
-    default:
-      close:
-        # Default time to wait before closing the label. Can either be a number in milliseconds
-        # or a string specified by the `ms` package (https://www.npmjs.com/package/ms)
+default:
+    close:
         delay: 15s
-    
-        # Default comment to post when an issue is first marked with a closing label
-        #
-        #   $DELAY will automatically be replaced with `delay` as a formatted string (e.g. '7 days')
-        #   $LABEL will automatically be replaced with the label's name
-        comment: "⚠️ This issue has been marked $LABEL and will be closed in $DELAY"
-    labels:
-      'DSBD Issue':
+        comment: '⚠️ This issue has been marked $LABEL and will be closed in $DELAY'
+labels:
+    'DSBD Issue':
         action: close
-        # You can specify times in human readable form
-        # using seconds, minutes, hours, days, weeks and years
         delay: 15s
-        comment: "Working as intended. You downloaded a bad file, Do Not use BetterDocs/DiscordSource Please Redownload from: https://nfld99.com The site you downloaded this theme from does not have premission to host my files nor link to my repo(s) and has been asked to remove my themes multiple times. Should you need support please join the support server: https://nfld99.com/discord ~NFLD99"
-      invalid: close # use defaults for comment and delay time
+        comment: 'Working as intended. You downloaded a bad file, Do Not use BetterDocs/DiscordSource Please Redownload from: https://nfld99.com The site you downloaded this theme from does not have premission to host my files nor link to my repo(s) and has been asked to remove my themes multiple times. Should you need support please join the support server: https://nfld99.com/discord ~NFLD99'
+    invalid: close
