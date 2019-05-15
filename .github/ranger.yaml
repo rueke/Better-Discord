@@ -10,7 +10,7 @@
         #
         #   $DELAY will automatically be replaced with `delay` as a formatted string (e.g. '7 days')
         #   $LABEL will automatically be replaced with the label's name
-        comment: "⚠️ This issue has been marked $LABEL and will be closed in $DELAY".
+        comment: "⚠️ This issue has been marked $LABEL and will be closed in $DELAY"
     labels:
       'DSBD Issue':
         action: close
