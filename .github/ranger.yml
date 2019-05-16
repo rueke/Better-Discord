@@ -1,7 +1,7 @@
 default:
     close:
         delay: 15s
-        comment: '⚠️ This issue has been marked $LABEL and will be closed in $DELAY'
+        comment: '$LABEL'
 labels:
     'DSBD Issue':
         action: close
