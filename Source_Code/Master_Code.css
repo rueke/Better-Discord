@@ -13,7 +13,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #331 ";
+  --Update-Text: " Update #332 ";
   --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
@@ -49,7 +49,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Bug Fix.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed seprator....</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -650,6 +650,19 @@ span.ping {
   color: #ffffff;
 }
 
+.wrapper-1Rf91z .listItem-2P_4kh {
+	width: auto !important;
+}
+
+.wrapper-1Rf91z .guildSeparator-3s64Iy {
+  background: none;
+  height: 5px;
+  top: 50%;
+  width: calc(var(--Guild-Columns) * 56px);
+  margin: 0!important;
+  margin-left: 10px!important;
+}
+
 .guildSeparator-3s64Iy {
   border-top: 2px solid var(--Main-Colour);
   border-bottom: 2px solid var(--Main-Colour);
@@ -657,6 +670,10 @@ span.ping {
 
 .guildSeparator-3s64Iy:after {
   background-color: transparent !important;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
+  position: relative;
 }
 
 .speaking .avatar-small {
@@ -3548,10 +3565,6 @@ svg[name="Nova_Download"]{
 
 ::selection {
   background: var(--Secondary-Main-Colour)!important;
-}
-
-.wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
-  margin-top: 10px;
 }
 
 .theme-dark .attachButtonPlus-rUdX-B {
@@ -10596,14 +10609,6 @@ transition: all 200ms;
   top: 0;
 }
 
-.guildSeparator-3s64Iy {
-  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAOCAYAAACfOxrCAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS4zjST9ZwAABHNJREFUSEvNVl2IVkUYHsOItL+LtP8yyqgosDAiomSpMCoDr7SwhDDtIiIqspvwpqCLoosiWIouttz2nJmzrlstrGuuSmmFIHVjXZSp++05M+dz2+wHzNyv531nzpxzvm9iP+2iXniYM+88887MMz/nFSLW2z1kdo+omtTbfJtKe5xvY61PCMqsElF2h5BmjOvSSNGXzuf+7RalD3b0Jyg9gvm8LFR+vWOWNti8AfN4D+N8BRzH9y4RZ6+JrdlFjmGt1ToD/VeAsxWYwDwylKNCZesdA6ZMy0PqHc5rTem/fFucrmafNH21PkHkL0KwFYg343yZiKfO5/7tJs2T9b5tkGYKQqxxbMwpfwxx/wxylQY3X8q8fa0zWfggj6B3Q+hz6gIQZPoEByD7PwhAkOagiCYXiCRdiJhHgpwCdBp6sfikubIyfhhx9mxAAP09js4cntxsAki9F0E2YMHra4j1ktMUYL9I8g3wPYO+dLyLcU7g2N4rBs0yzMnGlKaJ7zvFcGMe/A/B94fl62mhpq5Cn4FK/zHRf+hSMTozH/W3vV+Z7Z0CEGIDZWCzCpD1sS9kpyOA1B86r+D7rMxh36ayRyFuT8nF/RfCbtTmxoXwpa5tWnyULgI3tjzMQZryVCfZSsejGJ+VAkjzm/9W5pAYmTmrixMwJqLmfXjwKtDXMq9bAWKzrhKvFKAXO6vMd76NBTB3+5hS/4BysRg5toAfb2V+tTwIwCfAbHZ1Wts7zKMrFOtXK/6KAMqcQNBPy8bsKZSzCQB19ck2DOD5ndO1AFF6NRZnFzqbAFHzMnAmS5/+BfUpfLvjz5jGWFfCvxY46Xg0LzyQDFwnx20TgCawtlLfj/ouX+/+EUxOSQCyoeaNiPs5ducD5wkLQG+T1C+gXuy2hd2IYiwrAL0Nygzx4qvc6qnuECDJH0agg7aRg2rfFhQAO6DwaFaRmLdOWQCyCEc01o+7muAF0IPsx4IAZPxvx1VI9LAd03wD3isojeNaAciiw2eD8zTav2au1Dvxm3zD8QICKL0c5QN1n0NYgH4xigSHkpwC9HaQVQWQRvNDRb+nKoq/TbuRPzG3oj8ELsZyApAN5efCt5jHpkXG+mLMpVMA2ogtPy/idppb7z7KDR7xMYMCbBqfi/LLuh8IvgFd/gU4caGY2Rc1DJrrbMaYv1lH9j76/OTH4WzP3MULirKb8b0D7ZPgrhHxxBJ8vwtOcd+PQrxLxHhrLsrVaGsAO5FHLAN/Kb4P+LgSGaKv2M7L3eR7QCyOr8W/EeCfkDSwy90kQvpb7OQFvItS7wlyCkijePyB9CZ8/x7kEGhuUboqLABZrD+utf0XAlB/Ogl0HQpL8tswbiPIVXpcJEcuZ94mvBUy3Yi2zrSZ/gRSv848JAyfeFQH6p+4BUembKOHhyzOn6/4nmNfyGR6Owap9A9gUF+DvOH+YFuM9yVBjrDl6BUuYmmUa8QZZXQ/YtHHUW5D+ZIYaZ7nGNZIBMpT6FQofQzzwbUxw5w5sgnxNyB3m34raxnsAAAAAElFTkSuQmCC')50% 50%/Contain no-repeat;
-  border: 1px solid var(--Secondary-Main-Colour);
-  height: 25.5px;
-  top: 0px;
-  width: 55px;
-}
-
 .additionalActionsIcon-1FoUlE {
   content: "";
   -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4" height="16" viewBox="0 0 4 16"><defs><path id="ic_overflow_vertical_light_24px-a" d="M2,4 C3.1,4 4,3.1 4,2 C4,0.9 3.1,0 2,0 C0.9,0 0,0.9 0,2 C0,3.1 0.9,4 2,4 L2,4 Z M2,6 C0.9,6 0,6.9 0,8 C0,9.1 0.9,10 2,10 C3.1,10 4,9.1 4,8 C4,6.9 3.1,6 2,6 L2,6 Z M2,12 C0.9,12 0,12.9 0,14 C0,15.1 0.9,16 2,16 C3.1,16 4,15.1 4,14 C4,12.9 3.1,12 2,12 L2,12 Z"/></defs><g fill="none" fill-rule="evenodd" opacity=".6" transform="translate(-10 -4)"><polygon points="0 0 24 0 24 24 0 24"/><path fill="#000" fill-rule="nonzero" d="M2,4 C3.1,4 4,3.1 4,2 C4,0.9 3.1,0 2,0 C0.9,0 0,0.9 0,2 C0,3.1 0.9,4 2,4 L2,4 Z M2,6 C0.9,6 0,6.9 0,8 C0,9.1 0.9,10 2,10 C3.1,10 4,9.1 4,8 C4,6.9 3.1,6 2,6 L2,6 Z M2,12 C0.9,12 0,12.9 0,14 C0,15.1 0.9,16 2,16 C3.1,16 4,15.1 4,14 C4,12.9 3.1,12 2,12 L2,12 Z" transform="translate(10 4)"/><g transform="translate(10 4)"><mask id="ic_overflow_vertical_light_24px-b" fill="#fff"><use xlink:href="#ic_overflow_vertical_light_24px-a"/></mask><g fill="#F6F6F7" fill-rule="nonzero" mask="url(#ic_overflow_vertical_light_24px-b)"><rect width="24" height="24" transform="translate(-10 -4)"/></g></g></g></svg>');
@@ -11069,11 +11074,6 @@ transition: all 200ms;
 
 #files_directDownload .file .progress-bar{
   background: var(--Main-Colour);
-}
-
-.listItem-2P_4kh.guildSeparator{
-  width: calc(var(--Guild-Columns) * 60px + 2px) !important;
-  align-content: center;
 }
 
 /* Seprate Rows For Server Folders And Guild List */
