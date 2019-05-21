@@ -1,0 +1,38 @@
+/*//META{"name":"Popout_Text_And_Voice","description":"This Theme Makes The Guilds, Members, Text And Voice Area Hidden Unti Hovered,Enable This Theme LAST For it To Take Effect.","author":"NFLD99","version":"8.0","website":"https://nfld99.com/","source":"https://github.com/NFLD99/Better-Discord"}*//**/
+/* Members */
+.membersWrap-2h-GB4{
+	min-width:50px!important;
+	max-width:240px!important;
+	width:50px;
+	transition: width .5s;
+}
+.membersWrap-2h-GB4:hover{
+	width:240px;
+	transition: width .6s;
+}
+/* Giulds */
+.guildsWrapper-5TJh6A{
+	min-width:10px!important;
+	max-width:240px!important;
+	width:10px;
+	transition: all .5s;
+	opacity: 0;
+}
+.guildsWrapper-5TJh6A:hover{
+	width:auto;
+	transition: all .6s;
+	opacity: 1;
+}
+/* Channels */
+.channels-Ie2l6A{
+	min-width:10px!important;
+	max-width:240px!important;
+	width:10px;
+	transition: all .5s;
+	opacity: 0;
+}
+.channels-Ie2l6A:hover{
+	width:240px;
+	transition: all .6s;
+	opacity: 1;
+}
