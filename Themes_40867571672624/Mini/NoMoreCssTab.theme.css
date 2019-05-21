@@ -1,0 +1,4 @@
+/*//META{"name":"NoMoreCssTab","description":"Removes The Css Tab","author":"NFLD99","version":"2","website":"https://nfld99.com/","source":"https://github.com/NFLD99/Better-Discord"}*//**/
+#bd-settings-sidebar .ui-tab-bar-item:nth-last-child(3){
+display:none !important;
+}

@@ -1,0 +1,23 @@
+/*//META{"name":"Avatars","description":"This Theme Makes chat-3bRxxu Avatars Use Circles,  Enable This Theme LAST For it To Take Effect. Best Used If You Have A Theme And Dont Like The Avatars","author":"NFLD99","version":"3.0","website":"https://nfld99.com/","source":"https://github.com/NFLD99/Better-Discord"}*//**/
+:root{
+	--Radius:50%
+}
+.large-3ChYtB {
+   width: 40px!important;
+   height: 40px!important;
+   background-size: 40px 40px!important;
+}
+.large-3ChYtB{
+   background-clip: padding-box!important;
+   position: relative!important;
+   background-color: none!important;
+   background-position: 50%!important;
+   border-radius: var(--Radius)!important;
+}
+.large-3ChYtB {
+   background-clip: padding-box!important;
+   position: relative!important;
+   background-color: none!important;
+   background-position: 50%!important;
+   border-radius: var(--Radius)!important;
+}
