@@ -13,7 +13,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #329 ";
+  --Update-Text: " Update #330 ";
   --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
@@ -49,7 +49,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.VC Fix.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New Settings Design.</text><text y="160" style="font-size: 1.1em;" x="37">2.Themed Server Boost Stuff</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -11241,3 +11241,154 @@ transition: all 200ms;
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .username-lm8y6T{
   color: var(--Main-Colour);
 }
+
+.theme-dark .barBackground-2EEiLw {
+  background-color: var(--Secondary-Main-Colour);
+}
+
+.theme-dark .barForeground-3KglC8, .theme-light .barForeground-3KglC8 {
+  background-color: var(--Main-Colour);
+}
+
+.theme-dark .tierMarkerBackground-3q29am{
+  background-color: var(--Secondary-Main-Colour)
+}
+
+.theme-dark .tierMarkerInProgress-24LMzJ {
+  background-color: var(--Background-Colour);
+}
+
+.theme-dark .currentTierIcon-2gcTCn, .theme-light .currentTierIcon-2gcTCn {
+  color: var(--Secondary-Main-Colour);
+}
+
+.theme-dark .tierNoneCard-peD7hV, .theme-dark .confirmImage-2pGr87,.mechaWumpus-QUIer0,.guildFeaturesImage-31NjJI,.tier1Image-19VwIC,.tierGrandfathered-R6zrrD.image-S2twTr,.perkIcon-2bvvgO{
+  display:none;
+}
+
+.theme-dark .tierNoneText-2OvCv7 {
+  color: var(--Main-Colour);
+  font-size: 0;
+}
+
+.theme-dark .tierNoneText-2OvCv7:after {
+  color: var(--Main-Colour);
+  font-size: 16px;
+  white-space: pre-wrap;
+  text-transform: none;
+  content: "Consider boosting the support server, \a \a \a \a https://nfld99.com/discord"
+}
+
+.theme-dark .tierHeaderLocked-1s2JJz,.theme-dark .tierBody-16Chc9 {
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Secondary-Main-Colour);
+}
+
+.tier-12tKuZ{
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .carouselRightGradientEdge-2Z3H8D {
+  background-image: linear-gradient(270deg,var(--Secondary-Main-Colour),rgba(54,57,63,0));
+}
+
+.theme-dark .carouselLeftGradientEdge-3P4spl {
+  background-image: linear-gradient(90deg,var(--Secondary-Main-Colour),rgba(54,57,63,0));
+}
+
+.theme-dark .tierMarkerAccomplished-2MiXeg, .theme-light .tierMarkerAccomplished-2MiXeg,.theme-dark .premiumHeader-1RSLxS {
+  background-image: linear-gradient(90deg,var(--Secondary-Main-Colour),var(--Secondary-Background-Colour));
+}
+
+.theme-dark .boostCount-UFqabz {
+  color: var(--Main-Colour);
+  background-color: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .outer-2IVh5n{
+  background-color: var(--Background-Colour);
+}
+
+.theme-dark .guildName-16fFuT,.theme-dark .subSectionHeader-D8GlAA,.theme-dark .guildSubscriptionSubtitle-2pgoFL,.theme-dark .title-3IUNJ6,.theme-dark .description-yMw5z0,.theme-dark .blurb-1H7VPv,.theme-dark .guildMoreFeatures-svfRvH {
+  color: var(--Main-Colour);
+}
+
+.boost-1FsdTq > .iconInactive-98JN5i,.selectGuild-1Ygl76 > .iconInactive-98JN5i{
+  border-radius: 10px;
+}
+
+.theme-dark .error-2YUmia, .theme-light .error-2YUmia {
+  color: var(--Main-Colour);
+  background-color: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .info-3NKfPL{
+  background-color: var(--Secondary-Background-Colour);
+}
+
+.theme-dark .header-Qk7iwL {
+  color: var(--Main-Colour);
+  background-color: var(--Secondary-Background-Colour);
+}
+
+.theme-dark .guildGraphicPlaceholder-gLSzFT{
+  opacity: 0;
+}
+
+.theme-dark .guildGraphicBackground-wbfC17, .theme-dark .guildGraphicContainer-_IAetM,.theme-dark .gemIndicatorContainer-2jdECl,.theme-dark .placeholderDuration-1ITelN, .theme-dark .placeholderIcon-2ZeeuK, .theme-dark .placeholderLine1-1o6cQT, .theme-dark .placeholderLine2-cURh-d, .theme-dark .placeholderLine3-2WqnRa{
+  background-color: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+}
+
+.theme-dark .iconScreenshare-3EBSU9, .theme-light .iconScreenshare-3EBSU9,.theme-dark .iconBadge-XKKcFP, .theme-light .iconBadge-XKKcFP,.theme-dark .iconNewRoles-2GTfzk, .theme-light .iconNewRoles-2GTfzk{
+  color: var(--Secondary-Main-Colour);
+}
+
+.theme-dark .container-2Zlzt0,.theme-dark .tier1Banner-1B_WXY{
+  background-color: transparent;
+}
+
+.theme-dark .selectGuild-1Ygl76:hover {
+  background-color: transparent;
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .selectGuild-1Ygl76 {
+  background-color: transparent;
+  border: 1px solid var(--Secondary-Main-Colour);
+}
+
+.noIcon-1a_FrS {
+  background-color: transparent;
+}
+
+.houseLogoWrapper-3XZ6yo{
+  background-color: var(--Secondary-Main-Colour);
+}
+
+/* New Settings */
+.sidebarRegion-VFTUkN {
+  flex: 0;
+}
+
+.contentColumn-2hrIYH {
+  max-width: 90%;
+  padding: 60px 30px 80px;
+}
+
+.sidebar-CFHs9e {
+  text-align: center;
+}
+
+.selected-3s45Ha:before {
+  content: "(✔) ";
+  color: var(--Main-Colour);
+  transition: all 200ms;
+}
+
+.sidebar-CFHs9e{
+  width: 233px;
+}
+/* New Settings */
