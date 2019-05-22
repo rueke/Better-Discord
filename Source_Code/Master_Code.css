@@ -13,7 +13,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #336 ";
+  --Update-Text: " Update #335 ";
   --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
@@ -25,24 +25,20 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
 
-[layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after{
+[layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
   margin-top: 10px;
   margin-bottom: -3px;
   padding-top: 10px;
   padding-left: 10px;
-  left: 20%;
-  margin-left: -5px;
-  position: absolute;
   display: block;
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 150" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="37">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="37">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="37">+Fixed How change log renders.</text><text y="95" style="font-size: 1em;" x="37">+Fixed Missing check on BBD Settings.</text><text y="105" style="font-size: 1em;" x="37">+Fixed BBD Settings being incorrect colour.</text><text y="115" style="font-size: 1em;" x="37">+Fixed Pubslayer.</text><text y="125" style="font-size: 1em;" x="37">+Fixed Decline friend request.</text><text y="135" style="font-size: 1em;" x="37">+Fixed Accept friend request.</text><text y="145" style="font-size: 1em;" x="37">- Removed no Friend request svg.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.FixedTitle BG.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
   color: var(--Main-Colour);
-  width: 50%;
 }
 
 .scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerWrap-NEo0f7.scrollerFade-1Ijw5y > div > div > div:nth-child(27) > div.keybindDescription-2RDbC2{
@@ -10700,24 +10696,6 @@ transition: all 200ms;
   background-image: none!important;
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionCancel-3AP4ex, .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionIgnore-1-RPlq {
-  content: "";
-  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0"/><path fill="#FFF" d="M12.6666667 4.27333333l-.94-.94L8 7.06 4.27333333 3.33333333l-.94.94L7.06 8l-3.72666667 3.7266667.94.94L8 8.94l3.7266667 3.7266667.94-.94L8.94 8"/></g></svg>');
-  -webkit-mask-size: 90% !important;
-  -webkit-mask-position: 90% !important;
-  -webkit-mask-repeat: no-repeat !important;
-  background-image: none !important;
-}
-
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionAccept-3mkemT{
-  content: "";
-  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path fill="#FFF" d="M21 7L9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59"/></g></svg>');
-  -webkit-mask-size: 90% !important;
-  -webkit-mask-position: 90% !important;
-  -webkit-mask-repeat: no-repeat !important;
-  background-image: none !important;
-}
-
 .theme-dark .quickSelectPopout-X1hvgV{
   background: var(--Background-Colour)!important;
   border: 1px solid var(--Secondary-Main-Colour);
@@ -11421,68 +11399,4 @@ transition: all 200ms;
 
 .wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > .listItem-2P_4kh > .pill-1m5BUr {
   display: none
-}
-
-#user-settings > div > div > div.sidebarRegion-VFTUkN > div > div > div > div > div.itemSelected-1qLhcL.item-PXvHYJ.selected-3s45Ha, #bd-settings-sidebar > span > div > div.ui-tab-bar-item.selected:before {
-  content: "(✔) ";
-  color: var(--Main-Colour);
-  transition: all 200ms;
-}
-
-#bd-settings-sidebar .ui-tab-bar-item:not(.selected){
-  color: var(--Secondary-Main-Colour)!important;
-}
-
-#bd-pub-button {
-  border-radius: 4px;
-  background-color: var(--Secondary-Background-Colour);
-  color: var(--Secondary-Main-Colour);
-  text-align: center;
-  font-size: 12px;
-  line-height: 20px;
-  height: 20px!important;
-}
-
-#bd-pub-button:hover {
-  color: var(--Main-Colour);
-}
-
-#bd-pub-li{
-  height: 20px!important;
-}
-
-#pubslayer .ui-tab-bar-item{
-  background-color: var(--Secondary-Background-Colour)!important;
-  color: var(--Secondary-Main-Colour)!important;
-  border: 1px solid var(--Secondary-Main-Colour);
-}
-
-#pubslayer .ui-tab-bar-item.selected{
-  background: var(--Background-Colour);
-  border: 1px solid var(--Main-Colour);
-  color: var(--Main-Colour) !important;
-}
-
-#pubslayer .ui-tab-bar-item:hover, #pubslayer .ui-tab-bar-item.selected {
-  color: var(--Main-Colour) !important;
-  background: var(--Secondary-Background-Colour)!important;
-  border: 1px solid var(--Main-Colour);
-}
-
-#pubslayer .ui-tab-bar-item.selected:before,#pubslayer .ui-tab-bar-item.selected:after {
-  content: " (✔) ";
-  color: var(--Main-Colour);
-  transition: all 200ms;
-}
-
-.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
-  background-color: var(--Secondary-Main-Colour)!important;
-}
-
-.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover {
-  background-color: var(--Main-Colour)!important;
-}
-
-[style*="/assets/8c998f8fb62016fcfb4901e424ff378b.svg"]{
-  display: none;
 }
