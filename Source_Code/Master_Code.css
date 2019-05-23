@@ -13,7 +13,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #339 ";
+  --Update-Text: " Update #340 ";
   --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
@@ -37,7 +37,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 150" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="37">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="37">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="37">+ Themed Server Boost Status.</text><text y="95" style="font-size: 1em;" x="37">+ Fixed Role Menu Width.</text><text y="105" style="font-size: 1em;" x="37">+ Fixed Bans Menu Width.</text><text y="115" style="font-size: 1em;" x="37">+ Fixed Server Boost Status Selected.</text><text y="125" style="font-size: 1em;" x="37">+ Fixed Invites Menu Width.</text><text y="135" style="font-size: 1em;" x="37">- Removed Intergrations SVG.</text><text y="145" style="font-size: 1em;" x="37">- Removed Widget SVG.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="37">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="37">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="37">+ DMs Now use Guild Columns</text><text y="95" style="font-size: 1em;" x="37">+ Re-added DM pill.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -10570,10 +10570,6 @@ transition: all 200ms;
   color: var(--Secondary-Main-Colour);
 }
 
-.wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) {
-  width: calc(var(--Guild-Columns) * 60px + 2px)!important;
-}
-
 .wrapper-1Rf91z .scroller-2TZvBN > div > .listItem-2P_4kh {
   margin: auto;
 }
@@ -11419,10 +11415,6 @@ transition: all 200ms;
   color: var(--Main-Colour);
 }
 
-.wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > .listItem-2P_4kh > .pill-1m5BUr {
-  display: none
-}
-
 #user-settings > div > div > div.sidebarRegion-VFTUkN > div > div > div > div > div.itemSelected-1qLhcL.item-PXvHYJ.selected-3s45Ha, #bd-settings-sidebar > span > div > div.ui-tab-bar-item.selected:before {
   content: "(✔) ";
   color: var(--Main-Colour);
@@ -11572,4 +11564,19 @@ transition: all 200ms;
 
 .side-8zPYf6 .header-2RyJ0Y, .side-8zPYf6 .item-PXvHYJ{
   padding-left: 0;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh):nth-last-of-type(1) {
+  width: calc(var(--Guild-Columns) * 60px + 2px)!important;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh){
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  width: 45px!important;
+  height: 45px!important;
+  left: 2px;
+  top: 0;
+  z-index: 0;
 }
