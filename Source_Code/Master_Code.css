@@ -13,7 +13,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #338 ";
+  --Update-Text: " Update #339 ";
   --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
@@ -37,7 +37,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 150" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="37">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="37">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="37">+Fixed Audit Log width.</text><text y="95" style="font-size: 1em;" x="37">+Fixed Audit Log BG.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 150" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="37">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="37">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="37">+ Themed Server Boost Status.</text><text y="95" style="font-size: 1em;" x="37">+ Fixed Role Menu Width.</text><text y="105" style="font-size: 1em;" x="37">+ Fixed Bans Menu Width.</text><text y="115" style="font-size: 1em;" x="37">+ Fixed Server Boost Status Selected.</text><text y="125" style="font-size: 1em;" x="37">+ Fixed Invites Menu Width.</text><text y="135" style="font-size: 1em;" x="37">- Removed Intergrations SVG.</text><text y="145" style="font-size: 1em;" x="37">- Removed Widget SVG.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -11493,4 +11493,83 @@ transition: all 200ms;
 
 .customScroller-26gWhv>div {
   max-width: 90vw;
+}
+
+#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div:nth-child(2) > div:nth-child(3) > div > div.contentRegion-3nDuYy > div.customColumn-Rb6toI{
+  max-width: 85vw!important;
+}
+
+.sidebarScrollable-1qPI87+.content-1rPSz4{
+  max-width: 85vw!important;
+}
+
+[style*="/assets/59c726954bd8424f376ca3a7eedc4c54.svg"]{
+  display: none;
+}
+
+[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"],[src="/assets/aba3ec7874f7f01fe9a8275a3e5c21a0.svg"]{
+  display: none;
+}
+
+.theme-dark .tierHeaderLocked-1a2opw,.theme-dark .tierBody-x9kBBp {
+  background-color: var(--Secondary-Background-Colour);
+  color: var(--Main-Colour);
+}
+
+.theme-dark .background-3xPPFc {
+  color: var(--Background-Colour);
+}
+
+.theme-dark .foreground-2EIns2, .theme-light .foreground-2EIns2 {
+  color: var(--Main-Colour);
+}
+
+.theme-dark .tierInProgress-3mBoXq {
+  background-color: var(--Secondary-Main-Colour);
+}
+
+.theme-dark .tierAccomplished-2eXPdI, .theme-dark .tierCurrent-Lw7-4E, .theme-dark .tierDefault-2qaRkD, .theme-light .tierAccomplished-2eXPdI, .theme-light .tierCurrent-Lw7-4E, .theme-light .tierDefault-2qaRkD{
+  background: var(--Main-Colour);
+}
+
+.tier-3H4BXk{
+  border: 1px solid var(--Secondary-Main-Colour);
+}
+
+.tier-3H4BXk:hover{
+  border: 1px solid var(--Main-Colour);
+}
+
+.item-PXvHYJ[style="background-color: rgb(114, 137, 218); color: rgb(255, 255, 255);"]{
+  background: var(--Secondary-Background-Colour)!important;;
+  border: 1px solid var(--Secondary-Main-Colour);
+  transition: all 200ms;
+  color: var(--Main-Colour)!important;
+}
+
+.item-PXvHYJ[style="background-color: rgb(114, 137, 218); color: rgb(255, 255, 255);"]:hover{
+  background: var(--Secondary-Background-Colour)!important;
+  border: 1px solid var(--Main-Colour);
+  transition: all 200ms;
+  color: var(--Main-Colour)!important;
+}
+
+.item-PXvHYJ[style="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"]:after {
+  content: " (✔) ";
+  color: var(--Main-Colour);
+  transition: all 200ms;
+}
+
+.item-PXvHYJ[style="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"]::before {
+  content: " (✔) ";
+  color: var(--Main-Colour);
+  transition: all 200ms;
+}
+
+.side-8zPYf6 .item-PXvHYJ{
+  width: 100%;
+}
+
+.side-8zPYf6 .header-2RyJ0Y, .side-8zPYf6 .item-PXvHYJ{
+  padding-left: 0;
 }
