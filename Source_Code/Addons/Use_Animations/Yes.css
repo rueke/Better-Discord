@@ -358,6 +358,7 @@
   }
 }
 
+/* 
 @keyframes UnreadGuildpulse {
   0% {
     border:2px solid var(--Unread-Message-1);
@@ -374,7 +375,8 @@
   100% {
     border:2px solid var(--Unread-Message-1);
   }
-}
+} 
+*/
 
 @keyframes Unreadpulse { 
   0% {
