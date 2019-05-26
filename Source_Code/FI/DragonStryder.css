@@ -6,4 +6,9 @@
 .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/221342508133777408"]::after {
   content: "Dragons and legends... \a It would have been difficult for any man not to want to fight beside a dragon. \a 13th Donator";
 }
+
+[class*="topSection"] .image-33JSyf[style*="221342508133777408"] + .status-oxiHuE:before {
+  content:url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 115" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="8" style="font-size: 1em;" x="208">Donator</text><text y="45" style="font-size: 1em;" x="28">Dragons and legends...</text></g></svg>');
+} 
+
 /* DragonStryder#7331 */

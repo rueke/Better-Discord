@@ -6,4 +6,9 @@
 .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/191595592772747265"]::after {
   content: "Hey I'm ZeRo!  I'm a cute boy who loves to play League. \a I host my own Community, Representative of Victory \a 14th Donator";
 }
+
+[class*="topSection"] .image-33JSyf[style*="191595592772747265"] + .status-oxiHuE:before {
+  content:url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 115" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="8" style="font-size: 1em;" x="208">Donator</text><text y="45" style="font-size: 1em;" x="28">Hey I\'m ZeRo!</text></g></svg>');
+} 
+
 /* RoV ZeRo#1337 */
