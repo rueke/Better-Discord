@@ -13,7 +13,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #347 ";
+  --Update-Text: " Update #348 ";
   --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
@@ -37,7 +37,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 115" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="37">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="37">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="37">__+ Fixed Weird homeicon behavour__</text><text y="95" style="font-size: 1em;" x="37">__+ Patched Ban Evasion Method__</text><text y="105" style="font-size: 1em;" x="37">__+ Banned 567321215371444234__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 115" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="37">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="37">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="37">__+ Misc Bug Fixes__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -9751,7 +9751,7 @@ transition: all 200ms;
 .avatarUploaderInner-3UNxY3{
   height: 40px;
   width: 40px;
-  background-color: var(--Secondary-Main-Colour);
+  background-color: var(--Secondary-Background-Colour);
 }
 
 .theme-dark .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce, .theme-dark .regionSelect-3lf4eE:hover button, .theme-light .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce, .theme-light .regionSelect-3lf4eE:hover button{
@@ -11575,4 +11575,128 @@ transition: all 200ms;
 
 .homeIcon-tEMBK1:hover > path,.homeIcon-tEMBK1:hover{
   opacity: 1;
+}
+
+.bda-dark .theme-light .slide-2pHaq5,.bda-dark .theme-dark .action-1lSjCi, .bda-dark .theme-light .action-1lSjCi{
+  background: var(--Background-Colour);
+}
+
+.avatarUploaderInner-3UNxY3{
+  height: 150px;
+  width: 150px;
+}
+
+.bda-dark .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_,.bda-dark .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_{
+  background: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+}
+
+.bda-dark .emojiPicker-3m1S-j .searchBar-2pWH0_ input{
+  color: var(--Main-Colour);
+}
+
+.bda-dark #bda-qem button{
+  border-left: 1px solid transparent;
+  box-shadow: transparent 0 0 0 0;
+  color: var(--Secondary-Main-Colour);
+}
+
+.bda-dark #bda-qem button.active{
+  color: var(--Main-Colour);
+  background: var(--Background-Colour)!important;
+}
+
+.emote-container:hover {
+  background: var(--Secondary-Background-Colour);
+}
+
+.theme-dark .card-3DjzTQ {
+  background: var(--Background-Colour);
+}
+
+.theme-dark .inputPrefix-2VAOGg{
+  color: var(--Main-Colour);
+}
+
+.callAvatar-v-u4BM.voice-2D-tt_,.callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI{
+  border-radius: var(--Chat-Avatar-Border-Radius);
+}
+
+.theme-dark .mobileIndicator-329Gd6{
+  color: currentColor!important
+}
+
+.theme-dark .transparent-2ZlE3R .divider-3FBTu8, .theme-light .transparent-2ZlE3R .divider-3FBTu8{
+  background: var(--Secondary-Main-Colour);
+}
+
+[fill="white"]{
+  fill: var(--Main-Colour)!important;
+}
+
+[fill="#b9bbbe"]{
+  fill: var(--Main-Colour)!important;
+}
+
+.theme-dark .helpIcon-2EyVTp {
+  background-color: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.ui-icon-picker-icon{
+  border: 2px solid var(--Secondary-Background-Colour)!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+  margin-left: 5px;
+}
+
+.ui-icon-picker-icon.selected{
+  border: 2px solid var(--Main-Colour)!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+  margin-left: 5px;
+}
+
+.ServerFolders-modal .ui-icon-picker-icon{
+  margin: 2px;
+}
+
+.size-3rFEHg:after{
+  background-color: var(--Background-Colour)!important;
+}
+
+.themeDefault-24hCdX:before,#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch, .switchWrapperDefaultActive-2IdHq2:hover .switch-3wwwcV, .switch-3wwwcV {
+  background-color: var(--Secondary-Main-Colour);
+}
+
+[src="/assets/bfffd518c76d3f6bc5e96eb52e4ae2cf.svg"]{
+  display: none;
+}
+
+.grabber-3mFHz2{
+  background-color: var(--Main-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.lookGhost-2Fn_0-.colorGrey-2DXtkV:active {
+  background-color: var(--Main-Colour);
+}
+
+.lookGhost-2Fn_0-.colorGreen-29iAKY {
+  color: var(--Main-Colour);
+  background-color: var(--Secondary-Main-Colour);
+}
+
+.copyInputSuccess-XZc7BO{
+  border-color: var(--Main-Colour);
+}
+
+.theme-dark .copyInput-2rOSt7 {
+  background-color: var(--Secondary-Background-Colour);
+}
+
+.inputSuccess-3U9sNd {
+  color: var(--Main-Colour);
+}
+
+.theme-dark .copyInputDefault-21sXtF {
+  border-color: var(--Secondary-Main-Colour);
 }
