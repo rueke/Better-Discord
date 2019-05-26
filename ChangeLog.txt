@@ -1,0 +1,2 @@
+Removed boost svg in server dropdown
+Fixed Webhook post, sorry for the pings
