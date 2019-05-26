@@ -1,2 +1,2 @@
-Removed boost svg in server dropdown
-Fixed Webhook post, sorry for the pings
+Fixed Change Log being on one line
+Updated SourceChecker Import
