@@ -1,2 +1,6 @@
-New Donator Profiles!
-old Donator Profiles!
+Fixed Experiments plugin themeing
+Fixed Toggle pill not being correct colours
+Fixed Game Title not being correct colours
+Fixed Install Locations not being correct colours
+Fixed video test not being rounded
+Themed New Nitro boost notification
