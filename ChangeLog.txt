@@ -1,1 +1,3 @@
-Bug Fix on donator profiles
+Added Glow on selected guild
+Added Glow on selected guild with unread
+Added Glow on guild hover
