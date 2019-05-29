@@ -1,1 +1,1 @@
-Updated Minimal mode warning
+Fixed alpha guild icons border radius
