@@ -1,1 +1,3 @@
-Temp fix for unreads.
+Fixed title bar brightness.
+Fixed settings brightness.
+Fixed some nitro boost stuff.
