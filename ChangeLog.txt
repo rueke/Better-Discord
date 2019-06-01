@@ -1,3 +1,4 @@
-Fixed title bar brightness.
-Fixed settings brightness.
-Fixed some nitro boost stuff.
+Updated Email Blur.
+Themed more nitro boost stuff.
+Fixed settings darkness not being right.
+Updated profile view.

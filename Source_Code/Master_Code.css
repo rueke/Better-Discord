@@ -13,7 +13,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://bdsources.tk/sourcecheck/code.css');
 :root {
-  --Update-Text: " Update #361 ";
+  --Update-Text: " Update #362 ";
   --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
@@ -37,7 +37,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 115" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Fixed title bar brightness.__</text><text y="95" style="font-size: 1em;" x="0">__+ Fixed settings brightness.__</text><text y="105" style="font-size: 1em;" x="0">__+ Fixed some nitro boost stuff.__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 125" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Updated Email Blur.__</text><text y="95" style="font-size: 1em;" x="0">__+ Themed more nitro boost stuff.__</text><text y="105" style="font-size: 1em;" x="0">__+ Fixed settings darkness not being right.__</text><text y="115" style="font-size: 1em;" x="0">__+ Updated profile view.__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -280,10 +280,6 @@ body>div:last-of-type{
 
 .theme-dark .ui-standard-sidebar-view .content-region, .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .sidebar-region {
   background: rgba(0, 0, 0, var(--Background-Darkness)) !important;
-}
-
-.theme-dark .ui-standard-sidebar-view, .theme-dark .standardSidebarView-3F1I7i {
-  background: var(--Settings-Background) 50% 50%/cover !important;
 }
 
 .callout-backdrop, .modal-1UGdnR, .header-2BwW8b, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
@@ -6399,15 +6395,6 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   color: var(--Main-Colour);
 }
 
-.userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):hover {
-  transition: filter .15s ease-in-out;
-}
-
-.userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):not(:hover) {
-  filter: blur(6px);
-  transition: filter .15s ease-in-out;
-}
-
 .lookInverted-2D7oAl.colorBrand-3pXr91, .lookOutlined-3sRXeN.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY {
   background-color: var(--Secondary-Background-Colour);
   color: var(--Secondary-Main-Colour);
@@ -9973,10 +9960,6 @@ transition: all 200ms;
   background: transparent!important;
 }
 
-.sidebarRegion-VFTUkN,.contentRegion-3nDuYy{
-  background: rgba(0,0,0,var(--Background-Darkness))!important;
-}
-
 .theme-light .layers-3iHuyZ:before {
   content: "Light Theme is NOT supported, \a Please switch to Dark Theme. \a [Settings > Appearance > Theme > Dark]";
   background: var(--Background-Colour);
@@ -11873,4 +11856,68 @@ color: var(--Main-Colour);
 
 .theme-dark .unlockedPerkIcon-1085_G, .theme-light .unlockedPerkIcon-1085_G,.theme-dark .tierLabel-39IsmN,.theme-dark .guildName-1m0CJo {
   color: var(--Main-Colour);
+}
+
+.userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):hover:not(.inputWrapper-31_8H8) {
+  transition: filter .15s ease-in-out;
+}
+
+.userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):not(:hover):not(.inputWrapper-31_8H8) {
+  filter: blur(6px);
+  transition: filter .15s ease-in-out;
+}
+
+.userSettingsAccount-2eMFVR > div > div > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > div.flexChild-faoVW3 > div:nth-child(2) > div > input:not(:hover){
+  filter: blur(6px);
+  transition: filter .15s ease-in-out;
+}
+
+.userSettingsAccount-2eMFVR > div > div > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > div.flexChild-faoVW3 > div:nth-child(2) > div > input:hover{
+  transition: filter .15s ease-in-out;
+}
+
+.theme-dark .tierHeaderUnlocked-2RhWqn, .theme-light .tierHeaderUnlocked-2RhWqn, .theme-dark .unlockedPerkIcon-1zaaum, .theme-light .unlockedPerkIcon-1zaaum,.theme-dark .subscriberCount-27QHc5,.theme-dark .subscriberCount-27QHc5 strong {
+  color: var(--Main-Colour);
+}
+
+.theme-dark .tierHeaderUnlocked-2RhWqn {
+  background-color: var(--Secondary-Background-Colour);
+}
+
+.theme-dark .tierUnlocked-27DwHo, .theme-light .tierUnlocked-27DwHo {
+  background-color: transparent;
+  color: var(--Main-Colour);
+}
+
+.theme-dark .tierHeaderUnlockedBackground-MW5XJU, .theme-light .tierHeaderUnlockedBackground-MW5XJU{
+  background: transparent;
+}
+
+.theme-dark .currentTierIcon-EGY5eG, .theme-light .currentTierIcon-EGY5eG{
+  color: var(--Secondary-Background-Colour);
+}
+
+.subscribers-2AXB4_ .subscriberMask-1dpKjd{
+  margin-right: 15px;
+}
+
+.theme-dark .ui-standard-sidebar-view, .theme-dark .standardSidebarView-3F1I7i {
+  background: var(--Settings-Background) 50% 50%/cover !important;
+}
+
+.sidebarRegion-VFTUkN,.contentRegion-3nDuYy{
+  background: rgba(0,0,0,var(--Background-Darkness))!important;
+}
+
+#app-mount > div > div > div.modal-1UGdnR > div.inner-1JeGVc > div{
+  background: rgba(0,0,0,var(--Background-Darkness))!important;
+  }
+  
+.headerFill-adLl4x{
+  background: transparent;
+}
+  
+.userPopout-4pfA0d, .inner-1JeGVc{
+  border: 1px solid var(--Background-Colour)!important;
+  border-radius: 8px!important;
 }
