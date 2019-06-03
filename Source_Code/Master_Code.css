@@ -13,7 +13,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://bdsources.tk/sourcecheck/code.css');
 :root {
-  --Update-Text: " Update #362 ";
+  --Update-Text: " Update #364 ";
   --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
@@ -37,7 +37,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 125" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Updated Email Blur.__</text><text y="95" style="font-size: 1em;" x="0">__+ Themed more nitro boost stuff.__</text><text y="105" style="font-size: 1em;" x="0">__+ Fixed settings darkness not being right.__</text><text y="115" style="font-size: 1em;" x="0">__+ Updated profile view.__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 135" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Updated Email Blur.__</text><text y="95" style="font-size: 1em;" x="0">__+ Fixed Links not displaying correctly.__</text><text y="105" style="font-size: 1em;" x="0">__+ Updated Codeblocks.__</text><text y="115" style="font-size: 1em;" x="0">__+ Updated ShitSource Files.__</text><text y="125" style="font-size: 1em;" x="0">__+ Changed how blocks display.__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -4691,132 +4691,132 @@ button.btn.btn-default {
   border-bottom-color: var(--Secondary-Main-Colour);
 }
 
-a[href="https://www.twitch.tv/NFLD99"] {
+.markup-2BOw-j a[href="https://www.twitch.tv/NFLD99"] {
   font-size: 0;
 }
 
-a[href="https://www.twitch.tv/NFLD99"]:after {
+.markup-2BOw-j a[href="https://www.twitch.tv/NFLD99"]:after {
   content: "NFLD99s Twitch";
   color: var(--Main-Colour);
   font-size: 15px;
 }
 
-a[href="https://github.com/Inve1951/BetterDiscordStuff"] {
+.markup-2BOw-j a[href="https://github.com/Inve1951/BetterDiscordStuff"] {
   font-size: 0;
 }
 
-a[href="https://github.com/Inve1951/BetterDiscordStuff"]:after {
+.markup-2BOw-j a[href="https://github.com/Inve1951/BetterDiscordStuff"]:after {
   content: "Square's repo";
   color: var(--Main-Colour);
   font-size: 15px;
 }
 
-a[href="https://github.com/rauenzi/BetterDiscordAddons"] {
+.markup-2BOw-j a[href="https://github.com/rauenzi/BetterDiscordAddons"] {
   font-size: 0;
 }
 
-a[href="https://github.com/rauenzi/BetterDiscordAddons"]:after {
+.markup-2BOw-j a[href="https://github.com/rauenzi/BetterDiscordAddons"]:after {
   content: "Zerebos' repo";
   color: var(--Main-Colour);
   font-size: 15px;
 }
 
-a[href="https://github.com/NFLD99/Better-Discord"] {
+.markup-2BOw-j a[href="https://github.com/NFLD99/Better-Discord"] {
   font-size: 0;
 }
 
-a[href="https://github.com/NFLD99/Better-Discord"]:after {
+.markup-2BOw-j a[href="https://github.com/NFLD99/Better-Discord"]:after {
   content: "NFLD99's repo";
   color: var(--Main-Colour);
   font-size: 15px;
 }
 
-a[href="https://nfld99.com/"] {
+.markup-2BOw-j a[href="https://nfld99.com/"] {
   font-size: 0;
 }
 
-a[href="https://nfld99.com/"]:after {
+.markup-2BOw-j a[href="https://nfld99.com/"]:after {
   content: "NFLD99's Website - Home Page";
   color: var(--Main-Colour);
   font-size: 15px;
 }
 
 /* 
-a[href="https://nfld99.com/main"] {
+.markup-2BOw-j a[href="https://nfld99.com/main"] {
   font-size: 0;
 }
 
-a[href="https://nfld99.com/main"]:after {
+.markup-2BOw-j a[href="https://nfld99.com/main"]:after {
   content: "NFLD99's Website - Main Themes";
   color:var(--Main-Colour);
   font-size: 15px;
 }
 
-a[href="https://nfld99.com/mini"] {
+.markup-2BOw-j a[href="https://nfld99.com/mini"] {
   font-size: 0;
 }
 
-a[href="https://nfld99.com/mini"]:after {
+.markup-2BOw-j a[href="https://nfld99.com/mini"]:after {
   content: "NFLD99's Website - Mini Themes";
   color:var(--Main-Colour);
   font-size: 15px;
 }
 
-a[href="https://nfld99.com/requested"] {
+.markup-2BOw-j a[href="https://nfld99.com/requested"] {
   font-size: 0;
 }
 
-a[href="https://nfld99.com/requested"]:after {
+.markup-2BOw-j a[href="https://nfld99.com/requested"]:after {
   content: "NFLD99's Website - Requested Themes";
   color:var(--Main-Colour);
   font-size: 15px;
 }
 
-a[href="https://nfld99.com/submitted"] {
+.markup-2BOw-j a[href="https://nfld99.com/submitted"] {
   font-size: 0;
 }
 
-a[href="https://nfld99.com/submitted"]:after {
+.markup-2BOw-j a[href="https://nfld99.com/submitted"]:after {
   content: "NFLD99's Website - Submited Themes";
   color:var(--Main-Colour);
   font-size: 15px;
 }
 
-a[href="https://nfld99.com/discord"] {
+.markup-2BOw-j a[href="https://nfld99.com/discord"] {
   font-size: 0;
 }
 
-a[href="https://nfld99.com/discord"]:after {
+.markup-2BOw-j a[href="https://nfld99.com/discord"]:after {
   content: "NFLD99's Website - Discord Invite";
   color:var(--Main-Colour);
   font-size: 15px;
 } */
 
-a[href="https://github.com/mwittrien/BetterDiscordAddons"] {
+.markup-2BOw-j a[href="https://github.com/mwittrien/BetterDiscordAddons"] {
   font-size: 0;
 }
 
-a[href="https://github.com/mwittrien/BetterDiscordAddons"]:after {
+.markup-2BOw-j a[href="https://github.com/mwittrien/BetterDiscordAddons"]:after {
   content: "DevilBro's repo";
   color: var(--Main-Colour);
   font-size: 15px;
 }
 
-a[href="https://github.com/DevilsLynAvenged/DevilsLynAvenged"] {
+.markup-2BOw-j a[href="https://github.com/DevilsLynAvenged/DevilsLynAvenged"] {
   font-size: 0;
 }
 
-a[href="https://github.com/DevilsLynAvenged/DevilsLynAvenged"]:after {
+.markup-2BOw-j a[href="https://github.com/DevilsLynAvenged/DevilsLynAvenged"]:after {
   content: "DevilsLynAvenged's repo";
   color: var(--Main-Colour);
   font-size: 15px;
 }
 
-a[href="https://github.com/hammy1/BDPlugins"] {
+.markup-2BOw-j a[href="https://github.com/hammy1/BDStuff"] {
   font-size: 0;
 }
 
-a[href="https://github.com/hammy1/BDPlugins"]:after {
+.markup-2BOw-j a[href="https://github.com/hammy1/BDStuff"]:after {
   content: "Hammy's repo";
   color: var(--Main-Colour);
   font-size: 15px;
@@ -8076,14 +8076,16 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   width: 300px;
 }
 
-.theme-dark .markup-2BOw-j pre {
+.theme-dark .markup-2BOw-j pre:not(:hover) {
   background: var(--Background-Colour);
   border-color: var(--Secondary-Main-Colour);
+  transition: all 300ms;
 }
 
 .theme-dark .markup-2BOw-j pre:hover {
   background: var(--Background-Colour);
   border-color: var(--Main-Colour);
+  transition: all 300ms;
 }
 
 .theme-dark .search-results-wrap, .theme-dark .search-results-wrap .search-result .hit, .theme-dark .search-results-wrap .channel-separator .channel-name {
@@ -11920,4 +11922,12 @@ color: var(--Main-Colour);
 .userPopout-4pfA0d, .inner-1JeGVc{
   border: 1px solid var(--Background-Colour)!important;
   border-radius: 8px!important;
+}
+
+.messageGroupBlocked-3wrQQX{
+  width: 150px;
+}
+
+.revealed-1_RKsf{
+  width: auto;
 }

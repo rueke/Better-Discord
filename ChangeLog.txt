@@ -1,4 +1,5 @@
 Updated Email Blur.
-Themed more nitro boost stuff.
-Fixed settings darkness not being right.
-Updated profile view.
+Fixed Links not displaying correctly.
+Updated Codeblocks.
+Updated ShitSource Files.
+Changed how blocks display.
