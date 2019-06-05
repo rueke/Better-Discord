@@ -1,5 +1,2 @@
-Updated Email Blur.
-Fixed Links not displaying correctly.
-Updated Codeblocks.
-Updated ShitSource Files.
-Changed how blocks display.
+Updated Seleted Tab display.
+Fixed Role Selected bug in server settings.
