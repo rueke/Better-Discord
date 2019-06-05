@@ -1,2 +1,1 @@
-Updated Seleted Tab display.
-Fixed Role Selected bug in server settings.
+Updated Server Banners.
