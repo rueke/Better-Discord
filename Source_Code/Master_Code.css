@@ -13,7 +13,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://bdsources.tk/sourcecheck/code.css');
 :root {
-  --Update-Text: " Update #367 ";
+  --Update-Text: " Update #368 ";
   --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
@@ -37,22 +37,12 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Updated Invite Splashs.__</text><text y="95" style="font-size: 1em;" x="0">__+ Fixed Nitro Boost ui tab one.__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 115" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Updated Donator Easter Egg.__</text><text y="95" style="font-size: 1em;" x="0">__+ New Donator: Ace Rimmer.__</text><text y="105" style="font-size: 1em;" x="0">__+ New Donator: KUSH.__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
   color: var(--Main-Colour);
   width: 50%;
-}
-
-.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerWrap-NEo0f7.scrollerFade-1Ijw5y > div > div > div:nth-child(27) > div.keybindDescription-2RDbC2{
-  font-size: 0;
-}
-
-.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerWrap-NEo0f7.scrollerFade-1Ijw5y > div > div > div:nth-child(27) > div.keybindDescription-2RDbC2:after {
-  content: "<3 Donator Easter Egg <3";
-  color:var(--Main-Colour);
-  font-size: 12px;
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -191,15 +181,6 @@ body:after {
 
 .large-3ChYtB:not(.popout-2fzvxG), .app, .appMount-3VJmYg, .appMount-3lHmkl {
   background-visibility: hidden!important;
-}
-
-.ragingDemon-bDcoXE,.symbolBackground-1w6i-M{
-  margin-bottom: -3px;
-  padding-top: 2%;
-  padding-left: 23%;
-  display: block;
-  background: url(https://nfld99.com/Bkg/jyEFAiO.jpg) 50% 50%/cover !important;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 345" style="width:100%;height:100px;"><g style="fill: rgba(155,89,182,1); font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: rgba(155,89,182,1);">Thank you for using my theme!</text><text y="45" style="font-size: 1.1em;" x="37">Donators:</text><text y="65" style="font-size: 1.1em;" x="37">@Strato#4763.</text><text y="85" style="font-size: 1.1em;" x="37">@BLACKROOSTER#1395.</text><text y="105" style="font-size: 1.1em;" x="37">@Meowster Mewt#0817.</text><text y="125" style="font-size: 1.1em;" x="37">@mxngxxse#0666.</text><text y="145" style="font-size: 1.1em;" x="37">@TwinShadow#5717.</text><text y="165" style="font-size: 1.1em;" x="37">@Kiari#1204.</text><text y="185" style="font-size: 1.1em;" x="37">@Cpt_Corde#1945.</text><text y="205" style="font-size: 1.1em;" x="37">@FirePhox#5261.</text><text y="225" style="font-size: 1.1em;" x="37">@breadcat#6969.</text><text y="245" style="font-size: 1.1em;" x="37">@GhostieSpook#6565.</text><text y="265" style="font-size: 1.1em;" x="37">@Satela#1771.</text><text y="285" style="font-size: 1.1em;" x="37">@DragonStryder#1771.</text><text y="305" style="font-size: 1.1em;" x="37">@PoroUsedSnow#1771.</text><text y="325" style="font-size: 1.1em;" x="37">@Shiz#1771.</text></g></svg>');
 }
 
 /* Boops */
@@ -6043,11 +6024,6 @@ button.btn.btn-default {
 
 .fade>div>div>div:nth-child(26)>div.keybindDescription-2RDbC2 {
   font-size: 0;
-}
-
-.fade>div>div>div:nth-child(26)>div.keybindDescription-2RDbC2:after {
-  content: "<3 Donator Easter Egg <3";
-  font-size: 12px;
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW, .theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX {
