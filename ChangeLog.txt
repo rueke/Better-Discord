@@ -1,1 +1,2 @@
-Fixed Unread Badge.
+Fixed Unread Badge on folders.
+Fixed Server Region.
