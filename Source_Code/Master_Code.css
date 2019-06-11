@@ -47,7 +47,7 @@
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://bdsources.tk/sourcecheck/code.css');
 :root {
-  --Update-Text: " Update #375 ";
+  --Update-Text: " Update #376 ";
   --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -70,7 +70,7 @@
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Added Discord Font To Founts import.__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ New Donator Ansemik_CZE!__</text><text y="95" style="font-size: 1em;" x="0">__+ Themed CCSS editor altho I hate it__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -2332,10 +2332,6 @@ div.flex-spacer.flex-vertical form {
   border-bottom: 1px solid var(--Background-Colour);
   min-height: 22%;
   max-height: 100%;
-}
-
-.content-region .CodeMirror, .content-region .cm-s-material .CodeMirror-gutters, #bd-customcss-detach-container .CodeMirror, #bd-customcss-detach-container .cm-s-material .CodeMirror-gutters, .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
-  background: rgba(25, 0, 43, 0.3) !important;
 }
 
 .upload-modal {
@@ -11965,4 +11961,43 @@ color: var(--Main-Colour);
 .bda-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
   background: var(--Secondary-Background-Colour);
   border: 2px solid transparent;
+}
+
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3{
+  margin-top: 20px;
+  transition: all 200ms;
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover{
+  margin-top: 10px;
+  transition: all 200ms;
+}
+.ace-monokai {
+  background-color: var(--Secondary-Background-Colour);
+}
+
+.ace-monokai .ace_gutter {
+  background: var(--Secondary-Background-Colour);
+}
+
+.contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
+  background: var(--Secondary-Background-Colour);
+  box-shadow: 0 1px 0 0 var(--Secondary-Background-Colour) inset;
+  color: var(--Main-Colour);
+}
+
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button, #bd-customcss-attach-controls .help-text .inline{
+  background: var(--Secondary-Background-Colour);
+}
+
+.ace-monokai .ace_gutter-active-line,.ace-monokai .ace_marker-layer .ace_active-line {
+  background-color: var(--Secondary-Main-Colour);
+}
+
+.editor-wrapper{
+  border: 1px solid var(--Main-Colour);
+}
+
+.contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls{
+  border: 1px solid var(--Main-Colour);
+  border-top: none;
 }
