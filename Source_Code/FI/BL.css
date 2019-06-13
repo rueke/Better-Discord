@@ -228,7 +228,7 @@ max-width:unset !important;
 z-index: 1000000000001 !important;
 }
 
-.messageCozy-2JPAPA.message-1PNnaP:not([class="messageCozy-2JPAPA message-1PNnaP"]):not([class="messageCozy-2JPAPA message-1PNnaP da-messageCozy da-message"]):after{
+.scroller-2FKFPG > .messageCozy-2JPAPA.message-1PNnaP:not([class="messageCozy-2JPAPA message-1PNnaP"]):not([class="messageCozy-2JPAPA message-1PNnaP da-messageCozy da-message"]):after{
   all:unset !important;
   content: "You have been temp blocked from using this Theme, \A Remove NoDeleteMessages to remove this message. \A Reason: using NoDeleteMessages. \A\A NoDeleteMessages is an invasion of privicy and is not supported, \A should you be caught using this you will be banned from this theme \A and the support server \A ~NFLD99" !important;
   white-space:pre !important;
