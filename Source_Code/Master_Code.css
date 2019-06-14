@@ -48,7 +48,7 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #379 ";
+  --Update-Text: " Update #380 ";
   --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -71,7 +71,7 @@
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Updated Bans__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 115" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Updated Bans Again__</text><text y="95" style="font-size: 1em;" x="0">__+ Misc Bug Fixes__</text><text y="105" style="font-size: 1em;" x="0">__+ New Theme released "Transparent Earth"__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -3161,8 +3161,22 @@ div.form-inner, .form-actions {
   display: none;
 }
 
+.wordmark-2iDDfm::before {
+  content: "NFLD99.com/";
+  color: Var(--Secondary-Main-Colour) !important;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "Discord";
+  top: -3px;
+  position: relative;
+}
+
+.wordmark-2iDDfm {
+  animation: TextScroll 60s infinite linear;
+}
+
 .wordmark-2iDDfm:after {
-  content: var(--Theme-Variant) ", " var(--Update-Text);
+  content: ", "  var(--Theme-Variant) ", " var(--Update-Text);
   color: Var(--Main-Colour) !important;
   font-size: 13px;
   font-weight: 700;
@@ -3171,10 +3185,6 @@ div.form-inner, .form-actions {
   top: 5px;
   padding-left: 3px;
   font-family: "Discord";
-}
-
-.wordmark-2iDDfm {
-  animation: TextScroll 60s infinite linear;
 }
 
 .typeMacOS-3EmCyP:after {
@@ -10901,6 +10911,15 @@ transition: all 200ms;
   background-image: none!important;
 }
 
+.buttonInfo-3nkbOt{
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><rect width="24" height="24"/><path fill="#FFFFFF" d="M9,7 L11,7 L11,5 L9,5 L9,7 Z M10,18 C5.59,18 2,14.41 2,10 C2,5.59 5.59,2 10,2 C14.41,2 18,5.59 18,10 C18,14.41 14.41,18 10,18 L10,18 Z M10,4.4408921e-16 C4.4771525,-1.77635684e-15 4.4408921e-16,4.4771525 0,10 C-1.33226763e-15,12.6521649 1.0535684,15.195704 2.92893219,17.0710678 C4.80429597,18.9464316 7.3478351,20 10,20 C12.6521649,20 15.195704,18.9464316 17.0710678,17.0710678 C18.9464316,15.195704 20,12.6521649 20,10 C20,7.3478351 18.9464316,4.80429597 17.0710678,2.92893219 C15.195704,1.0535684 12.6521649,2.22044605e-16 10,0 L10,4.4408921e-16 Z M9,15 L11,15 L11,9 L9,9 L9,15 L9,15 Z" transform="translate(2 2)"/></g></svg>');
+  -webkit-mask-size: 90% !important;
+  -webkit-mask-position: 90% !important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: none!important;
+}
+
 .close-3hZ5Ni {
   content: "";
   -webkit-mask: url('data:image/svg+xml; utf8, <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><polygon fill="#FFFFFF" transform="translate(12.000000, 12.000000) rotate(45.000000) translate(-12.000000, -12.000000) " points="19 13 13 13 13 19 11 19 11 13 5 13 5 11 11 11 11 5 13 5 13 11 19 11"></polygon><polygon points="0 0 24 0 24 24 0 24"></polygon></g></svg>');
@@ -12004,4 +12023,66 @@ color: var(--Main-Colour);
 .contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls{
   border: 1px solid var(--Main-Colour);
   border-top: none;
+}
+
+/* Tropical's Home Tab */
+#app-mount .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) {
+	display: inline-block;
+	margin-left: 8px !important;
+	margin-right: 2px !important;
+	margin-top: 0px !important;
+	padding: initial !important;
+	width: calc(25% - 10px);
+	background: transparent !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a {
+	height: 50%;
+	flex-direction: column;
+	background: transparent !important;
+}
+
+.channel-2QD9_O:hover .linkButtonIcon-Mlm5d6,
+.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]):hover .name-2WpE7M,
+.channel-2QD9_O.selected-1HYmZZ .linkButtonIcon-Mlm5d6,
+.channel-2QD9_O.selected-1HYmZZ:not([style="height: 42px; opacity: 1;"]) .name-2WpE7M,
+.channel-2QD9_O:hover > a > svg > path{
+	color: var(--Main-Colour) !important;
+	fill: var(--Main-Colour) !important;
+	text-shadow: 0 0 12px;
+	transition: 200ms ease all;
+}
+
+.linkButtonIcon-Mlm5d6,
+.name-2WpE7M {
+	transition: 200ms ease all;
+}
+
+.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) .numberBadge-2s8kKX {
+	position: absolute;
+	top: 33%;
+	transform: scale(.9);
+	z-index: 1 !important;
+}
+
+.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a .name-2WpE7M {
+	font-size: 11.3px !important;
+	margin-left: -10px !important;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O {
+	padding-right: 0px;
+}
+/* Tropical's Home Tab */
+
+.theme-dark #bd-settingspane-container .editIcon, .theme-dark #bd-settingspane-container .trashIcon{
+  color: var(--Secondary-Main-Colour);
+  transition: all 200ms linear!important;
+}
+
+.theme-dark #bd-settingspane-container .editIcon:hover, .theme-dark #bd-settingspane-container .trashIcon:hover{
+  color: var(--Main-Colour);
+  transition: all 200ms linear!important;
 }
