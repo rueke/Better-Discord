@@ -48,7 +48,7 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #380 ";
+  --Update-Text: " Update #381 ";
   --File-Updated-2019-5-10: url(https://nfld99.com/images/REDOWNLOAD.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -71,7 +71,7 @@
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 115" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Updated Bans Again__</text><text y="95" style="font-size: 1em;" x="0">__+ Misc Bug Fixes__</text><text y="105" style="font-size: 1em;" x="0">__+ New Theme released "Transparent Earth"__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 125" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Updated Bans Again__</text><text y="95" style="font-size: 1em;" x="0">__+ Misc Bug Fixes__</text><text y="105" style="font-size: 1em;" x="0">__+ Fixed Gear icons"__</text><text y="115" style="font-size: 1em;" x="0">__+ New Donator 𝓚𝖎𝖓𝖌𝖑𝖊𝖘𝖘"__</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -3026,15 +3026,14 @@ div.form-inner, .form-actions {
   animation: CLog 10s infinite linear;
 }
 
-#app-mount > div > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div > div > div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8.firefoxFixScrollFlex-cnI2ix > div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.container-2Thooq > div.accountDetails-3k9g4n.nameTag-m8r81H > span.discriminator:after {
+#app-mount > div > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div > div > div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8.firefoxFixScrollFlex-cnI2ix > div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.container-2Thooq > div.accountDetails-3k9g4n.nameTag-m8r81H > .discriminator-3W31ZY:after {
   content: "  NFLD99.com  " !important;
-  font-weight: bolder;
 }
 
-#app-mount > div > div > div > div > div > div > div > div > div > div > span.discriminator:after {
+#app-mount > div > div > div > div > div > div > div > div > div > div > .discriminator-3W31ZY:after {
   content: "  NFLD99.com  " !important;
-  font-weight: bolder;
 }
+
 /* water marks */
 
 .esc-text:after, .keybind-KpFkfr {
@@ -12085,4 +12084,24 @@ color: var(--Main-Colour);
 .theme-dark #bd-settingspane-container .editIcon:hover, .theme-dark #bd-settingspane-container .trashIcon:hover{
   color: var(--Main-Colour);
   transition: all 200ms linear!important;
+}
+
+.theme-dark .activity-1IYsbk, .theme-dark .activityText-sLG0UL,.theme-dark .button-s03oPN, .theme-light .button-s03oPN{
+  color: var(--Secondary-Main-Colour)
+}
+
+.theme-dark .username-u0EL4I, .theme-light .username-u0EL4I,
+.theme-dark .discriminator-3W31ZY, .theme-light .discriminator-3W31ZY{
+  color: var(--Secondary-Main-Colour)!important;
+	transition: 200ms all ease-in-out;
+}
+
+.theme-dark .username-u0EL4I:hover, .theme-light .username-u0EL4I:hover,
+.theme-dark .discriminator-3W31ZY:hover, .theme-light .discriminator-3W31ZY:hover{
+  color: var(--Main-Colour)!important;
+	transition: 200ms all ease-in-out;
+}
+
+.noticeRegion-1YviSH{
+  max-width: 99vw;
 }
