@@ -1,0 +1,101 @@
+/**
+ * @name NekoPara Sleeping Kitties
+ * @author NFLD99
+ * @version ersion auto updates
+ * @description Support Server: https://nfld99.com/discord
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/
+*/
+/* Source Code */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
+/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/No.css);
+
+
+/* Settings Dock */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
+/* Guild List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Guilds/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/No.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/No.css);
+/* User Popout Footer */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
+ 
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+:root {
+  --Main-Colour: rgba( 204, 136, 153, 1);
+  --Background-Colour: rgba(0,0,0, 1);
+  --Secondary-Background-Colour: rgba( 0,0,0, .3);
+  --Secondary-Main-Colour: rgba( 231, 84, 128, .7);
+  --Text-Shadow-Colour: rgba(0,0,0, .50);
+  --Scroller-Colour: var(--Main-Colour);
+  --Notification-Colour: rgba(222, 111, 161, 0.35);
+  --Chat-Input-Background: rgba(255,255,255,0);
+  --Chat-Input-Colour: var(--Main-Colour);
+  --Unread-Message-1: var(--Main-Colour);
+  --Unread-Message-2: var(--Background-Colour);
+  --Chat-Background: url(https://i.imgur.com/VjceKsC.jpg);
+  --Settings-Background: rgba(75,76,76, 0.65);
+  --Callout-Background: var(--Settings-Background);
+  --Title-Background: var(--Background-Colour);
+  --Theme-Variant: " NEKOPARA Sleeping Kitties";
+  --Chat-Font-Used: ;
+  --Chat-Font-Size: 15px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background: url(https://i.imgur.com/wcdachI.png);
+  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background: var(--Secondary-Background-Colour);
+  --load1: "NEKOPARA";
+  --load2: "Sleeping";
+  --load3: "Kitties";
+  --File-Updated-2019-6-19: ; 
+  --Settings-Dock-Colour: rgba(255, 228, 233, 1);
+  --Timestamp-Colour: rgba(255, 183, 197, 1);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
+  --Chat-Avatar-Border-Radius: 10%;
+  --Background-Darkness: 0.65;
+}
+
+/* Embeds Discord Default Behavior */
+.theme-dark .embedInner-1-fpTo {
+    background-color: rgba(46,48,54,.3);
+    border-color: rgba(46,48,54,.6);
+}
+
+.theme-dark .embedDescription-1Cuq9a, .theme-dark .embedFieldValue-nELq2s, .theme-dark .embedFooterText-28V_Wb, .theme-dark .embedProvider-3k5pfl {
+    color: hsla(0,0%,100%,.6);
+}
+/* END */
+
+/* Memberlist background */
+.theme-dark .members-1998pB{
+  background:url(https://i.imgur.com/EamoHtd.png) 50% 50%/cover;
+}
+/* END */
+
+/* Get rid of Gift Nitro and GIF buttons */
+/*
+.button-38aScr[tabindex="2"]{
+  display: none;
+}
+
+.button-38aScr[tabindex="3"]{
+  display: none;
+}
+*/
+/* END */

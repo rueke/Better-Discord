@@ -1,0 +1,26 @@
+/**
+ * @name Avatars
+ * @author NFLD99
+ * @version ersion auto updates
+ * @description Support Server: https://nfld99.com/discord
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/
+*/
+:root{
+  --Radius:50%;
+  --Width: 40px;
+  --Height: 40px;
+}
+
+.large-3ChYtB {
+  width: var(--Width)!important;
+  height: var(--Height)!important;
+  background-size: var(--Width) var(--Height)!important;
+}
+.large-3ChYtB{
+  background-clip: padding-box!important;
+  position: relative!important;
+  background-color: none!important;
+  background-position: 50%!important;
+  border-radius: var(--Radius)!important;
+}

@@ -1,0 +1,11 @@
+/**
+ * @name NoMoreCssTab
+ * @author NFLD99
+ * @version ersion auto updates
+ * @description Support Server: https://nfld99.com/discord
+ * @source https://github.com/NFLD99/Better-Discord
+ * @website https://nfld99.com/
+*/
+#bd-settings-sidebar .ui-tab-bar-item:last-child{
+  display:none !important;
+}
