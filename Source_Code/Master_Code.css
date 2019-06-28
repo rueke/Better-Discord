@@ -46,7 +46,7 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #390 ";
+  --Update-Text: " Update #391 ";
   --File-Updated-2019-6-19: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -69,7 +69,7 @@
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Banned AwkNinja __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Made Bot page show good bots :P __</text><text y="95" style="font-size: 1em;" x="0">__+ Updated a Boop __</text><text y="105" style="font-size: 1em;" x="0">__+ Updated Template __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -12232,4 +12232,26 @@ color: var(--Main-Colour);
 
 .theme-dark .footer-30ewN8{
   background: transparent;
+}
+
+#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div:nth-child(2) > div:nth-child(3) > div > div.contentRegion-3nDuYy > div > div > div > div.contentColumn-2hrIYH.contentColumnDefault-1VQkGM > div > div > div:nth-child(3),#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div:nth-child(2) > div:nth-child(3) > div > div.contentRegion-3nDuYy > div > div > div > div.contentColumn-2hrIYH.contentColumnDefault-1VQkGM > div > div > div:nth-child(4),#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div:nth-child(2) > div:nth-child(3) > div > div.contentRegion-3nDuYy > div > div > div > div.contentColumn-2hrIYH.contentColumnDefault-1VQkGM > div > div > div:nth-child(5),#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div:nth-child(2) > div:nth-child(3) > div > div.contentRegion-3nDuYy > div > div > div > div.contentColumn-2hrIYH.contentColumnDefault-1VQkGM > div > div > div:nth-child(6) > div > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6 > button{
+  display: none;
+}
+
+#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div:nth-child(2) > div:nth-child(3) > div > div.contentRegion-3nDuYy > div > div > div > div.contentColumn-2hrIYH.contentColumnDefault-1VQkGM > div > div > div:nth-child(6) > div > div.description-24pIy_ > div.colorStandard-2KCXvj.size14-e6ZScH,#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div:nth-child(2) > div:nth-child(3) > div > div.contentRegion-3nDuYy > div > div > div > div.contentColumn-2hrIYH.contentColumnDefault-1VQkGM > div > div > div:nth-child(6) > div > div.description-24pIy_ > div.colorStandard-2KCXvj.size14-e6ZScH > a,#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div:nth-child(2) > div:nth-child(3) > div > div.contentRegion-3nDuYy > div > div > div > div.contentColumn-2hrIYH.contentColumnDefault-1VQkGM > div > div > div:nth-child(6) > div > div.description-24pIy_ > div.colorStandard-2KCXvj.size16-1P40sf.name-3PraYh{
+  font-size: 0px;
+}
+
+#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div:nth-child(2) > div:nth-child(3) > div > div.contentRegion-3nDuYy > div > div > div > div.contentColumn-2hrIYH.contentColumnDefault-1VQkGM > div > div > div:nth-child(6) > div > div.description-24pIy_ > div.colorStandard-2KCXvj.size14-e6ZScH:after{
+  font-size: 16px;
+  content: "UnbelievaBoat is a high quality multipurpose bot for Discord. You can add me by going to https://unbelievaboat.com/";
+}
+
+#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div:nth-child(2) > div:nth-child(3) > div > div.contentRegion-3nDuYy > div > div > div > div.contentColumn-2hrIYH.contentColumnDefault-1VQkGM > div > div > div:nth-child(6) > div > div.description-24pIy_ > div.colorStandard-2KCXvj.size16-1P40sf.name-3PraYh:after{
+  font-size: 16px;
+  content: "UnbelievaBoat";
+}
+
+[style*="https://cdn.discordapp.com/app-icons/512412940897484800/354d906af0c326210da63e53892fcd91.png"]{
+  background: url(https://unbelievaboat.com/build/img/logo-min.b219d6b.png) 50% 50%/cover!important;
 }
