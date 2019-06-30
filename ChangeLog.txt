@@ -1,3 +1,1 @@
-Made Bot page show good bots :P 
-Updated a Boop 
-Updated Template 
+Bug Fix 
