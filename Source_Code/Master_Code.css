@@ -46,7 +46,7 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #394 ";
+  --Update-Text: " Update #395 ";
   --File-Updated-2019-6-19: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -69,7 +69,7 @@
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Banned VengefulDesigns __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixes __</text><text y="95" style="font-size: 1em;" x="0">__+ New Donator Krekevyks 1337 __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -12291,4 +12291,102 @@ color: var(--Main-Colour);
 
 .modal-36zFtW > div.inner-2VEzy9 > div{
   background: var(--Popout-Background) 50% 50%/cover no-repeat!important;
+}
+
+
+.theme-dark .container-3baos1, .theme-light .container-3baos1{
+  background: transparent;
+}
+
+.container-3baos1,.theme-dark .subtext-3ECeS_, .theme-light .subtext-3ECeS_,.theme-dark .username-2BIRiC, .theme-light .username-2BIRiC{
+  color: var(--Secondary-Main-Colour);
+}
+
+.container-1giJp5{
+  background: transparent;
+  color: var(--Secondary-Main-Colour);
+}
+
+.container-3baos1:hover,.theme-dark .subtext-3ECeS_:hover, .theme-light .subtext-3ECeS_:hover,.theme-dark .username-2BIRiC:hover, .theme-light .username-2BIRiC:hover{
+  color: var(--Main-Colour);
+}
+
+.container-1giJp5:hover{
+  color: var(--Main-Colour);
+}
+
+#app-mount > div.app-19_DXt.platform-win > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div > div > div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8.firefoxFixScrollFlex-cnI2ix > div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.container-3baos1 > div.nameTag-3uD-yy > div.size10-tblYdA.subtext-3ECeS_.discriminator-3-Lf_x:after {
+  content: "  NFLD99.com  " !important;
+}
+
+.container-1giJp5{
+  border-bottom: none;
+}
+
+.theme-dark .button-2JbWXs, .theme-light .button-2JbWXs{
+  color: var(--Secondary-Main-Colour);
+}
+
+.theme-dark .button-2JbWXs:hover, .theme-light .button-2JbWXs:hover{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover {
+  background-color: transparent;
+}
+
+.theme-dark .separator-2c4hi3 {
+  background-color: transparent;
+}
+
+[stroke="rgb(135, 155, 223)"]{
+  stroke: var(--Main-Colour)!important;
+}
+
+.theme-dark .modal-yWgWj- {
+  background-color: var(--Background-Colour);
+  -webkit-box-shadow: 0 0 0 1px var(--Main-Colour), 0 2px 10px 0 var(--Secondary-Main-Colour);
+  box-shadow: 0 0 0 1px var(--Main-Colour), 0 2px 10px 0 var(--Secondary-Main-Colour);
+}
+
+.theme-dark .footer-3rDWdC{
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.theme-dark .close-1kwMUs {
+  color: var(--Main-Colour);
+}
+
+.theme-dark .close-1kwMUs:hover {
+  background-color: transparent;
+}
+
+[style*="/assets/712a0fd4d14a1caadd31cb0745e91238.svg"]{
+  display: none;
+}
+
+.theme-dark .container-2x5lvQ .header-2C89wJ{
+  background-color: var(--Background-Colour);
+}
+
+.white-3xi-nx{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .container-2x5lvQ section .paragraph {
+  color: var(--Main-Colour);
+}
+
+[style*="fill: slategray;"]{
+  fill: var(--Secondary-Main-Colour)!important;
+}
+
+[style*="stroke: slategray;"]{
+  stroke: var(--Secondary-Main-Colour)!important;
+}
+
+[style*="stroke: red;"]{
+  stroke: var(--Main-Colour)!important;
 }
