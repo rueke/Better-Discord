@@ -46,7 +46,7 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #395 ";
+  --Update-Text: " Update #396 ";
   --File-Updated-2019-6-19: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -69,7 +69,7 @@
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixes __</text><text y="95" style="font-size: 1em;" x="0">__+ New Donator Krekevyks 1337 __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Themed TYS __</text><text y="95" style="font-size: 1em;" x="0">__+ Updated Bans __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -12389,4 +12389,61 @@ color: var(--Main-Colour);
 
 [style*="stroke: red;"]{
   stroke: var(--Main-Colour)!important;
+}
+
+
+#tys_settings :not(input):not(button) {
+  color: var(--Main-Colour)!important;
+}
+
+#tys_settings [id] > :-webkit-any(input, label){
+  color: var(--Main-Colour)!important;
+}
+
+#tys_settings input:not([value=""]){
+  background: var(--Secondary-Background-Colour)!important;
+}
+
+#tys_settings input{
+  background: var(--Background-Colour)!important;
+}
+
+#tys_settings button{
+  background: transparent!important;
+  color: var(--Secondary-Main-Colour)!important;
+  border: 1px solid var(--Secondary-Main-Colour);
+  transition: all 200ms;
+}
+
+#tys_settings button:hover{
+  background: transparent!important;
+  color: var(--Main-Colour)!important;
+  border: 1px solid var(--Main-Colour);
+  transition: all 200ms;
+}
+
+#tys-plugin-hotkeys:not(h2) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#tys-plugin-hotkeys:nth-child(odd) {
+  margin-left: 50px;
+}
+
+#tys_settings div {
+  width: 50%;
+}
+
+#tys-plugin-hotkeys h2 {
+  width: 100%;
+}
+
+#tys-theme-hotkeys {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#tys-theme-hotkeys h2 {
+  width: 100%;
 }
