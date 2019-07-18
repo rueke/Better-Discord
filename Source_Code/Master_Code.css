@@ -40,15 +40,13 @@
                            ``-..____                  ____..-''
                                     ``--...____...--''
 */
-
-
 @import url('https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #398 ";
+  --Update-Text: " Update #399 ";
   --File-Updated-2019-6-19: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -71,7 +69,7 @@
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Semi update for canary __</text><text y="95" style="font-size: 1em;" x="0">__+ if its broke on stable read #support pins __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Discord Rolled back, so shall we! __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -100,6 +98,55 @@ body:before {
 #app-mount::after{
   color: var(--Main-Colour);
 }
+
+/* FUCK BETTERDOCS */
+body:after {
+  content: "Do Not Use Betterdocs/Discord Source";
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+  left: 50%;
+  border-radius: 5px;
+  padding: 5px 15px;
+  transform: translate(-50%, -100%);
+  animation: Notif2 4s ease-in-out, CLog 10s infinite linear;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  height: auto;
+  width: auto;
+  z-index: 9997;
+  color: var(--Main-Colour);
+}
+/* FUCK BETTERDOCS */
+
+[data-name="AccountDetailsPlus"]:after,
+[data-name="AutoStartRichPresence"]:after,
+[data-name="BetterFormattingRedux"]:after,
+[data-name="BetterFriendCount"]:after,
+[data-name="Channel History"]:after,
+[data-name="Character Counter"]:after,
+[data-name="CreationDate"]:after,
+[data-name="Direct-Download"]:after,
+[data-name="Discord Experiments"]:after,
+[data-name="EditUsers"]:after,
+[data-name="Extended Context Menu"]:after,
+[data-name="GoogleTranslateOption"]:after,
+[data-name="Guild Counter"]:after,
+[data-name="JoinedAtDate"]:after,
+[data-name="MemberCount"]:after,
+[data-name="PinDMs"]:after,
+[data-name="PluginRepo"]:after,
+[data-name="Quoter"]:after,
+[data-name="ReverseImageSearch"]:after,
+[data-name="RoleMembers"]:after,
+[data-name="SendLargeMessages"]:after,
+[data-name="ServerFolders"]:after,
+[data-name="ShowHiddenChannels"]:after,
+[data-name="User Avatar And Server Icon Viewer"]:after {
+  content: " (✔) Plugin has Theme Support (✔) ";
+  color: var(--Main-Colour);
+}
+
 /* Boops */
 
 .large-3ChYtB:not(.popout-2fzvxG)::after {
@@ -169,55 +216,6 @@ body:before {
 }
 
 /* Boops */
-/* FUCK BETTERDOCS */
-body:after {
-  content: "Do Not Use Betterdocs/Discord Source";
-  background: var(--Background-Colour);
-  border: 1px solid var(--Main-Colour);
-  left: 50%;
-  border-radius: 5px;
-  padding: 5px 15px;
-  transform: translate(-50%, -100%);
-  animation: Notif2 4s ease-in-out, CLog 10s infinite linear;
-  text-align: center;
-  position: absolute;
-  top: 0;
-  height: auto;
-  width: auto;
-  z-index: 9997;
-  color: var(--Main-Colour);
-}
-/* FUCK BETTERDOCS */
-
-[data-name="AccountDetailsPlus"]:after,
-[data-name="AutoStartRichPresence"]:after,
-[data-name="BetterFormattingRedux"]:after,
-[data-name="BetterFriendCount"]:after,
-[data-name="Channel History"]:after,
-[data-name="Character Counter"]:after,
-[data-name="CreationDate"]:after,
-[data-name="Direct-Download"]:after,
-[data-name="Discord Experiments"]:after,
-[data-name="EditUsers"]:after,
-[data-name="Extended Context Menu"]:after,
-[data-name="GoogleTranslateOption"]:after,
-[data-name="Guild Counter"]:after,
-[data-name="JoinedAtDate"]:after,
-[data-name="MemberCount"]:after,
-[data-name="PinDMs"]:after,
-[data-name="PluginRepo"]:after,
-[data-name="Quoter"]:after,
-[data-name="ReverseImageSearch"]:after,
-[data-name="RoleMembers"]:after,
-[data-name="SendLargeMessages"]:after,
-[data-name="ServerFolders"]:after,
-[data-name="ShowHiddenChannels"]:after,
-[data-name="User Avatar And Server Icon Viewer"]:after {
-  content: " (✔) Plugin has Theme Support (✔) ";
-  color: var(--Main-Colour);
-}
-
-
 
 .wrapper-1Rf91z .scroller-2TZvBN>.guild:first-child {
   margin-top: 10px!important;
@@ -841,6 +839,9 @@ span.botTagRegular-2HEhHi {
   color: var(--Main-Colour) !important;
 }
 
+.checkbox span {
+  color: #a8a8a8 !important;
+}
 
 /* Guilds 'Add' Button */
 
@@ -1024,7 +1025,7 @@ div p a {
   background-color: rgba(255, 255, 255, 0) !important;
 }
 
-.mask-3OgeRz,.mask-1l8v16 {
+.mask-3OgeRz {
   border-radius: 0;
   -webkit-mask: none;
   mask: none;
@@ -1975,6 +1976,7 @@ div.tab-bar-item.selected {
   height: 22px;
   width: 50px;
   padding-bottom: 11px;
+  background-color: #a8a8a8 !important;
   background-image: url(https://nfld99.com/Bkg/XVZz4KO.png) !important;
   background-size: 44%;
   background-repeat: no-repeat;
@@ -2005,6 +2007,7 @@ div.tab-bar-item.selected {
   height: 22px;
   width: 50px;
   padding-bottom: 11px;
+  background-color: #a8a8a8 !important;
   background-image: url(https://nfld99.com/Bkg/XVZz4KO.png) !important;
   background-size: 44%;
   background-repeat: no-repeat;
@@ -3510,13 +3513,7 @@ svg[name="Nova_Download"]{
   color: var(--Popout-Main-Colour)!important;
 }
 
-.mask-3OgeRz,.mask-1l8v16 {
-  border-radius: 0!important;
-  -webkit-mask: none!important;
-  mask: none!important;
-}
-
-[mask="url(#svg-mask-avatar-default)"],[mask="url(#svg-mask-avatar-status-round-32)"]{
+.mask-3OgeRz {
   border-radius: 0!important;
   -webkit-mask: none!important;
   mask: none!important;
@@ -5433,7 +5430,7 @@ button.btn.btn-default {
   border-radius: 5px !important;
   background: none;
   opacity: 1 !important;
-  animation: Dnd2 3s linear infinite !important;
+  animation: Dnd 3s linear infinite !important;
 }
 
 /* ONLINE */
@@ -5448,7 +5445,7 @@ button.btn.btn-default {
   border-radius: 5px !important;
   background: none;
   opacity: 1 !important;
-  animation: Online2 3s linear infinite !important;
+  animation: Online 3s linear infinite !important;
 }
 
 /* AWAY */
@@ -5463,7 +5460,7 @@ button.btn.btn-default {
   border-radius: 5px !important;
   background: none;
   opacity: 1 !important;
-  animation: Away2 3s linear infinite !important;
+  animation: Away 3s linear infinite !important;
 }
 
 /* STREAM */
@@ -5485,9 +5482,10 @@ button.btn.btn-default {
 
 .avatarOffline-3GF27z {
   top: -6.3%!important;
+  left: -6.3%!important;
   border: 2.5px solid #747f8d!important;
   border-radius: 5px !important;
-  animation: Offline2 3s linear infinite !important;
+  animation: Offline 3s linear infinite !important;
 }
 
 .statusOffline-3R-4Bv:not(.statusOfflineProfile-9tGGr-), .avatar-small .status-invisible, .avatar-small .status-offline {
@@ -5500,7 +5498,7 @@ button.btn.btn-default {
   border-radius: 5px !important;
   background: none;
   opacity: 1 !important;
-  animation: Offline2 3s linear infinite !important;
+  animation: Offline 3s linear infinite !important;
 }
 
 /* User Status 2 */
@@ -5519,7 +5517,7 @@ button.btn.btn-default {
   border-radius: 5px !important;
   background: none;
   opacity: 1 !important;
-  animation: Dnd2 3s linear infinite !important;
+  animation: Dnd 3s linear infinite !important;
 }
 
 /* ONLINE */
@@ -5534,7 +5532,7 @@ button.btn.btn-default {
   border-radius: 5px !important;
   background: none;
   opacity: 1 !important;
-  animation: Online2 3s linear infinite !important;
+  animation: Online 3s linear infinite !important;
 }
 
 /* AWAY */
@@ -5549,7 +5547,7 @@ button.btn.btn-default {
   border-radius: 5px !important;
   background: none;
   opacity: 1 !important;
-  animation: Away2 3s linear infinite !important;
+  animation: Away 3s linear infinite !important;
 }
 
 /* STREAM */
@@ -5579,7 +5577,7 @@ button.btn.btn-default {
   border-radius: 5px !important;
   background: none;
   opacity: 1 !important;
-  animation: Offline2 3s linear infinite !important;
+  animation: Offline 3s linear infinite !important;
 }
 
 /* Status Popup */
@@ -5602,6 +5600,201 @@ button.btn.btn-default {
 
 .theme-dark .members-1998pB {
   background-color: transparent !important;
+}
+
+.placeholderAvatar-uzH8f6, .placeholderUsername-236yYU {
+  background: var(--Secondary-Main-Colour)!important;
+}
+
+.memberGroupsPlaceholder-3mwPub {
+  -webkit-animation: none!important;
+  animation: none!important;
+  background: transparent!important;
+  background-size: 0% 0%!important;
+}
+
+.memberGroupsPlaceholder-3mwPub:after {
+  content: 'Loading...';
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  width: 4000px;
+  top: 15px;
+  padding-left: 3px;
+  border-radius: 3px !important;
+  color: var(--Main-Colour) !important;
+  margin-left: 2px !important;
+  padding-top: 0px !important;
+  white-space: wrap !important;
+  font-size: 12px !important;
+  margin-top: 13px !important;
+  text-transform: uppercase !important;
+  height: 20px !important;
+}
+
+.placeholder-oNR4zO.member-3W1lQa {
+  -webkit-animation: none!important;
+  animation: rainbow 3.2s ease-in-out infinite!important;
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(1n) {
+  -webkit-animation-delay: .1s!important;
+  animation-delay: .1s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(2n) {
+  -webkit-animation-delay: .2s!important;
+  animation-delay: .2s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(3n) {
+  -webkit-animation-delay: .3s!important;
+  animation-delay: .3s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(4n) {
+  -webkit-animation-delay: .4s!important;
+  animation-delay: .4s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(5n) {
+  -webkit-animation-delay: .5s!important;
+  animation-delay: .5s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(6n) {
+  -webkit-animation-delay: .6s!important;
+  animation-delay: .6s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(7n) {
+  -webkit-animation-delay: .7s!important;
+  animation-delay: .7s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(8n) {
+  -webkit-animation-delay: .8s!important;
+  animation-delay: .8s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(9n) {
+  -webkit-animation-delay: .9s!important;
+  animation-delay: .9s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(10n) {
+  -webkit-animation-delay: 1s!important;
+  animation-delay: 1s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(11n) {
+  -webkit-animation-delay: 1.1s!important;
+  animation-delay: 1.1s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(12n) {
+  -webkit-animation-delay: 1.2s!important;
+  animation-delay: 1.2s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(13n) {
+  -webkit-animation-delay: 1.3s!important;
+  animation-delay: 1.3s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(14n) {
+  -webkit-animation-delay: 1.4s!important;
+  animation-delay: 1.4s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(15n) {
+  -webkit-animation-delay: 1.5s!important;
+  animation-delay: 1.5s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(16n) {
+  -webkit-animation-delay: 1.6s!important;
+  animation-delay: 1.6s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(17n) {
+  -webkit-animation-delay: 1.7s!important;
+  animation-delay: 1.7s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(18n) {
+  -webkit-animation-delay: 1.8s!important;
+  animation-delay: 1.8s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(19n) {
+  -webkit-animation-delay: 1.9s!important;
+  animation-delay: 1.9s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(20n) {
+  -webkit-animation-delay: 2s!important;
+  animation-delay: 2s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(21n) {
+  -webkit-animation-delay: 2.1s!important;
+  animation-delay: 2.1s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(22n) {
+  -webkit-animation-delay: 2.2s!important;
+  animation-delay: 2.2s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(23n) {
+  -webkit-animation-delay: 2.3s!important;
+  animation-delay: 2.3s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(24n) {
+  -webkit-animation-delay: 2.4s!important;
+  animation-delay: 2.4s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(25n) {
+  -webkit-animation-delay: 2.5s!important;
+  animation-delay: 2.5s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(26n) {
+  -webkit-animation-delay: 2.6s!important;
+  animation-delay: 2.6s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(27n) {
+  -webkit-animation-delay: 2.7s!important;
+  animation-delay: 2.7s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(28n) {
+  -webkit-animation-delay: 2.8s!important;
+  animation-delay: 2.8s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(29n) {
+  -webkit-animation-delay: 2.9s!important;
+  animation-delay: 2.9s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(30n) {
+  -webkit-animation-delay: 3s!important;
+  animation-delay: 3s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(31n) {
+  -webkit-animation-delay: 3.1s!important;
+  animation-delay: 3.1s!important
+}
+
+.placeholder-oNR4zO.member-3W1lQa:nth-child(32n) {
+  -webkit-animation-delay: 3.2s!important;
+  animation-delay: 3.2s!important
 }
 
 .theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
@@ -5721,6 +5914,23 @@ button.btn.btn-default {
 .theme-dark .attachment-33OFj0 {
   background: var(--Secondary-Background-Colour)!important;
   border: 1px solid var(--Secondary-Main-Colour);
+}
+
+.member-3W1lQa {
+  height: initial!important;
+  min-height: 0px!important;
+  overflow: visible!important;
+  transition: all 400ms ease-in-out!important;
+  border-bottom: 1px solid var(--Secondary-Main-Colour);
+}
+
+.member-3W1lQa:hover {
+  border-bottom: 1px solid var(--Main-Colour);
+  transition: all 200ms ease-in-out!important;
+}
+
+.member-3W1lQa {
+  height: initial!important;
 }
 
 .membersGroup-v9BXpm {
@@ -11036,6 +11246,55 @@ html .upperBadge-2XnnGB.count {
   font-family: var(--Chat-Font-Used)!important;
 }
 
+.nameTag-3p0yK-:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: currentColor;
+  opacity: 0.3;
+  -webkit-mask: linear-gradient(to right, transparent 0%, var(--Secondary-Background-Colour) 2%, var(--Secondary-Background-Colour) 20%, var(--Secondary-Main-Colour)100%);
+  z-index: 0;
+  pointer-events: none;
+  transition: .2s;
+}
+
+.theme-dark .memberOffline-2lN7gt .nameTag-3p0yK-:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  opacity: 0.3;
+  -webkit-mask: linear-gradient(to right, transparent 0%, var(--Secondary-Background-Colour) 2%, var(--Secondary-Background-Colour) 20%, var(--Secondary-Main-Colour)100%);
+  z-index: 0;
+  pointer-events: none;
+  transition: .2s;
+}
+
+.theme-dark .memberOffline-2lN7gt:hover .nameTag-3p0yK-:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: currentColor;
+  opacity: 0.3;
+  -webkit-mask: linear-gradient(to right, transparent 0%, var(--Secondary-Background-Colour) 2%, var(--Secondary-Background-Colour) 20%, var(--Secondary-Main-Colour)100%);
+  z-index: 0;
+  pointer-events: none;
+  transition: .2s;
+}
+
+.member-3W1lQa:hover .nameTag-3p0yK-:after, .popout-open .nameTag-3p0yK-:after {
+  opacity: 0.5;
+}
+
 .content-OzHfo4 {
   position: relative;
 }
@@ -11884,6 +12143,58 @@ color: var(--Main-Colour);
   border-top: none;
 }
 
+/* Tropical's Home Tab */
+#app-mount .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) {
+	display: inline-block;
+	margin-left: 8px !important;
+	margin-right: 2px !important;
+	margin-top: 0px !important;
+	padding: initial !important;
+	width: calc(25% - 10px);
+	background: transparent !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a {
+	height: 50%;
+	flex-direction: column;
+	background: transparent !important;
+}
+
+.channel-2QD9_O:hover .linkButtonIcon-Mlm5d6,
+.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]):hover .name-2WpE7M,
+.channel-2QD9_O.selected-1HYmZZ .linkButtonIcon-Mlm5d6,
+.channel-2QD9_O.selected-1HYmZZ:not([style="height: 42px; opacity: 1;"]) .name-2WpE7M,
+.channel-2QD9_O:hover > a > svg > path{
+	color: var(--Main-Colour) !important;
+	fill: var(--Main-Colour) !important;
+	text-shadow: 0 0 12px;
+	transition: 200ms ease all;
+}
+
+.linkButtonIcon-Mlm5d6,
+.name-2WpE7M {
+	transition: 200ms ease all;
+}
+
+.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) .numberBadge-2s8kKX {
+	position: absolute;
+	top: 33%;
+	transform: scale(.9);
+	z-index: 1 !important;
+}
+
+.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a .name-2WpE7M {
+	font-size: 11.3px !important;
+	margin-left: -10px !important;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O {
+	padding-right: 0px;
+}
+/* Tropical's Home Tab */
+
 .theme-dark #bd-settingspane-container .editIcon, .theme-dark #bd-settingspane-container .trashIcon{
   color: var(--Secondary-Main-Colour);
   transition: all 200ms linear!important;
@@ -12135,64 +12446,4 @@ color: var(--Main-Colour);
 
 #tys-theme-hotkeys h2 {
   width: 100%;
-}
-
-.pointerEvents-2zdfdO[fill="#43b581"]{
-  animation: Online2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#f04747"]{
-  animation: Dnd2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#faa61a"]{
-  animation: Away2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#593695"]{
-  animation: Stream2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#43b581"]{
-  animation: Stream2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.avatar-17mtNa > div{
-  height: 32px!important;
-  width: 32px!important;
-}
-
-#aiv-preview-window > div.modal-1UGdnR > div > div > div.imageWrapper-2p5ogY[style*="width:"]{
-  margin-left:calc(100vw / 3.7);
-  margin-right:50%;
 }
