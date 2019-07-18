@@ -1,2 +1,2 @@
-Added Twinshadow and Shiz to the website 
-Bug Fix 
+Semi update for canary 
+if its broke on stable read #support pins 
