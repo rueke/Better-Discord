@@ -1,19 +1,17 @@
-/**
- * @name NekoPara Sleeping Kitties
- * @author NFLD99
+/** 
+ * @name NEKOPARA Sleeping Kitties
+ * @author TwinShadow
  * @version ersion auto updates
- * @description Support Server: https://nfld99.com/discord
- * @source https://github.com/NFLD99/Better-Discord
+ * @description The cats of NEKOPARA all share the bed with one of their masters, sleeping peacefully. NEKOPARA © NEKO WORKS    |    Theme based on NFLD's template.    |    Support: https://nfld99.com/discord
+ * @source https://github.com/TwinDragon/DiscordTheme
  * @website https://nfld99.com/
 */
-/* Source Code */
+/* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
 /* Animations */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/No.css);
-
-
 /* Settings Dock */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/No.css);
 /* Channels */
@@ -32,9 +30,9 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/No.css);
 /* User Popout Footer */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
- 
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
+
 :root {
   --Main-Colour: rgba( 204, 136, 153, 1);
   --Background-Colour: rgba(0,0,0, 1);
@@ -48,8 +46,8 @@
   --Unread-Message-1: var(--Main-Colour);
   --Unread-Message-2: var(--Background-Colour);
   --Chat-Background: url(https://i.imgur.com/VjceKsC.jpg);
-  --Settings-Background: rgba(75,76,76, 0.65);
-  --Callout-Background: var(--Settings-Background);
+  --Settings-Background: rgba(246, 173, 198, 0.35);
+  --Callout-Background: rgba(15, 15, 15, 0.85);
   --Title-Background: var(--Background-Colour);
   --Theme-Variant: " NEKOPARA Sleeping Kitties";
   --Chat-Font-Used: ;
@@ -62,7 +60,7 @@
   --load1: "NEKOPARA";
   --load2: "Sleeping";
   --load3: "Kitties";
-  --File-Updated-2019-6-19: ; 
+  --File-Updated-2019-6-19: ;
   --Settings-Dock-Colour: rgba(255, 228, 233, 1);
   --Timestamp-Colour: rgba(255, 183, 197, 1);
   --Guild-Columns: 2;
@@ -95,6 +93,14 @@
 }
 
 .button-38aScr[tabindex="3"]{
+  display: none;
+}
+*/
+/* END */
+
+/* Hide Discover Servers Button */
+/*
+.wrapper-1Rf91z .scroller-2TZvBN > .listItem-2P_4kh:not([folder*="folder_"]):nth-last-of-type(1) {
   display: none;
 }
 */

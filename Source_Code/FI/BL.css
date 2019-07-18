@@ -363,6 +363,37 @@ max-width:unset !important;
 z-index: 1000000000001 !important;
 }
 
+html > head + body * [class*="NoDeleteMessages-"] .markup-2BOw-j:after{
+  all:unset !important;
+  content: "You have been temp blocked from using this Theme, \A Remove NoDeleteMessages to remove this message. \A Reason: using NoDeleteMessages. \A\A NoDeleteMessages is an invasion of privicy and is not supported, \A should you be caught using this you will be banned from this theme \A and the support server \A ~NFLD99" !important;
+  white-space:pre !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  text-align: center !important;
+  background-color: var(--Background-Colour)!important;
+  box-shadow:inset 0 0 55px 5px var(--Main-Colour)!important;
+  border:5px solid var(--Main-Colour) !important;
+  padding: 0 !important;
+  padding-top: calc(50vh - 40px) !important;
+  margin: 0 !important;
+  display: inline !important;
+  opacity: 1 !important;
+  cursor: default !important;
+  visibility: visible !important;
+  position: fixed !important;
+  top: 22px !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  pointer-events: none !important;
+  transform:none !important;
+  -webkit-app-region:drag !important;
+  transform:none !important;
+  max-height:unset !important;
+  max-width:unset !important;
+  z-index: 1000000000001 !important;
+}
+
 /* ========================================End Of Plugin Bans======================================== */
 
 
