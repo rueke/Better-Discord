@@ -46,7 +46,7 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #400 ";
+  --Update-Text: " Update #401 ";
   --File-Updated-2019-6-19: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -69,7 +69,7 @@
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Updated Shiz page on the website __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixes __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -12143,58 +12143,6 @@ color: var(--Main-Colour);
   border-top: none;
 }
 
-/* Tropical's Home Tab */
-#app-mount .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) {
-	display: inline-block;
-	margin-left: 8px !important;
-	margin-right: 2px !important;
-	margin-top: 0px !important;
-	padding: initial !important;
-	width: calc(25% - 10px);
-	background: transparent !important;
-	box-shadow: none !important;
-	border: none !important;
-}
-
-.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a {
-	height: 50%;
-	flex-direction: column;
-	background: transparent !important;
-}
-
-.channel-2QD9_O:hover .linkButtonIcon-Mlm5d6,
-.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]):hover .name-2WpE7M,
-.channel-2QD9_O.selected-1HYmZZ .linkButtonIcon-Mlm5d6,
-.channel-2QD9_O.selected-1HYmZZ:not([style="height: 42px; opacity: 1;"]) .name-2WpE7M,
-.channel-2QD9_O:hover > a > svg > path{
-	color: var(--Main-Colour) !important;
-	fill: var(--Main-Colour) !important;
-	text-shadow: 0 0 12px;
-	transition: 200ms ease all;
-}
-
-.linkButtonIcon-Mlm5d6,
-.name-2WpE7M {
-	transition: 200ms ease all;
-}
-
-.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) .numberBadge-2s8kKX {
-	position: absolute;
-	top: 33%;
-	transform: scale(.9);
-	z-index: 1 !important;
-}
-
-.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a .name-2WpE7M {
-	font-size: 11.3px !important;
-	margin-left: -10px !important;
-}
-
-.privateChannels-1nO12o .channel-2QD9_O {
-	padding-right: 0px;
-}
-/* Tropical's Home Tab */
-
 .theme-dark #bd-settingspane-container .editIcon, .theme-dark #bd-settingspane-container .trashIcon{
   color: var(--Secondary-Main-Colour);
   transition: all 200ms linear!important;
@@ -12446,4 +12394,196 @@ color: var(--Main-Colour);
 
 #tys-theme-hotkeys h2 {
   width: 100%;
+}
+
+[style="width: 100%; min-height: 6ch; color: black; background-color: white;"]{
+  background: transparent!important;
+  color: var(--Main-Colour)!important;
+}
+
+textarea {
+  border-color: var(--Secondary-Main-Colour);
+}
+
+.nameTag-3p0yK-:after{
+  display: none;
+}
+
+.member-3W1lQa {
+  height: 42px!important;
+}
+
+.memberInner-2CPc3V{
+  max-height: 42px!important;
+}
+
+.nameTag-m8r81H, .username-1cB_5E {
+  white-space: nowrap!important;
+}
+
+.theme-dark .member-3W1lQa:hover {
+  background:linear-gradient(to right, Transparent, var(--Secondary-Main-Colour))!important;
+}
+
+.activityText-sLG0UL {
+  white-space: nowrap;
+}
+
+.pointerEvents-2zdfdO[fill="#43b581"]{
+  animation: Online2 3s linear infinite;
+  mask:none;
+  height: 34px;
+  width: 4px;
+  x: 0;
+  y: -2;
+  overflow: visible;
+}
+
+.pointerEvents-2zdfdO[fill="#f04747"]{
+  animation: Dnd2 3s linear infinite;
+  mask:none;
+  height: 34px;
+  width: 4px;
+  x: 0;
+  y: -2;
+  overflow: visible;
+}
+
+.pointerEvents-2zdfdO[fill="#faa61a"]{
+  animation: Away2 3s linear infinite;
+  mask:none;
+  height: 34px;
+  width: 4px;
+  x: 0;
+  y: -2;
+  overflow: visible;
+}
+
+.pointerEvents-2zdfdO[fill="#593695"]{
+  animation: Stream2 3s linear infinite;
+  mask:none;
+  height: 34px;
+  width: 4px;
+  x: 0;
+  y: -2;
+  overflow: visible;
+}
+
+.pointerEvents-2zdfdO[fill="#43b581"]{
+  animation: Stream2 3s linear infinite;
+  mask:none;
+  height: 34px;
+  width: 4px;
+  x: 0;
+  y: -2;
+  overflow: visible;
+}
+
+.pointerEvents-2zdfdO[fill="#43b581"]{
+  animation: Stream2 3s linear infinite;
+  mask:none;
+  height: 34px;
+  width: 4px;
+  x: 0;
+  y: -2;
+  overflow: visible;
+}
+
+.avatar-17mtNa > div{
+  height: 32px!important;
+  width: 32px!important;
+}
+
+.mask-3OgeRz,.mask-1l8v16 {
+  border-radius: 0!important;
+  -webkit-mask: none!important;
+  mask: none!important;
+}
+
+[mask="url(#svg-mask-avatar-default)"],[mask="url(#svg-mask-avatar-status-round-32)"],[id="1a9ca1ed-c221-4566-b3ec-ab4945ce82dc"],foreignObject[mask*="url(#"]{
+  border-radius: 0!important;
+  -webkit-mask: none!important;
+  mask: none!important;
+}
+
+.noticeStreamerMode-2TSQpg:not(:hover){
+  height: 5px;
+  overflow: hidden;
+}
+
+.theme-dark .streamerModeEnabledImage-3vynUz{
+  display: none;
+}
+
+.streamerModeEnabledBtn-2ZJ2eq{
+  margin-top: 40vh;
+}
+
+.bda-dark~div #ace_settingsmenu {
+  color: var(--Main-Colour);
+  background: var(--Background-Colour);
+  box-shadow: 0 0 0 1px var(--Secondary-Main-Colour), 0 2px 10px 0 var(--Secondary-Background-Colour);
+}
+
+.bda-dark~div #ace_settingsmenu select, .bda-dark~div #ace_settingsmenu input[type=text] {
+  color: var(--Main-Colour);
+  background: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+}
+
+.ace_optionsMenuEntry{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid var(--Secondary-Main-Colour);
+  width: 100%;
+  display: flex;
+	flex-direction: column;
+}
+
+.ace_optionsMenuEntry:hover {
+  background-color: var(--Secondary-Background-Colour);
+  border-bottom: 1px solid var(--Main-Colour);
+}
+
+#ace_settingsmenu, #kbshortcutmenu{
+  width: 25vw;
+}
+
+.bda-dark~div .ace_closeButton::before {
+  color: var(--Secondary-Main-Colour);
+}
+
+body .ace_closeButton::before {
+  content: "✖";
+  color: var(--Main-Colour);
+}
+
+body .ace_closeButton:hover::before {
+  content: "✖";
+  color: var(--Main-Colour);
+}
+
+.notificationSettings-1NQKPR{
+  max-width: 50%;
+}
+
+.videoWrapper-3YdgHH {
+  background-color: transparent;
+}
+
+.avatarUploader-2yeaMv .avatarUploaderInnerSquare-2UOXj4, .avatarUploaderDisabled-310UAf .avatarUploaderInnerSquare-2UOXj4{
+  background-size: contain;
+}
+
+.theme-dark .bannedUserModal-3RJCOV .reasonHeader-2etdjy{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .emptyIconStreamerMode-3RfWOW{
+  display: none;
+}
+
+.modal-3c3bKg > div.inner-1ilYF7 > div{
+  background: var(--Popout-Background) 50% 50%/cover!important;
+  border: 1px solid var(--Main-Colour);
 }
