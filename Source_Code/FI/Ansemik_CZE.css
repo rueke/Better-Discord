@@ -1,9 +1,9 @@
 /* Ansemik_CZE#9175 */
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/123119491461677057"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="123119491461677057"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/123119491461677057"]::before {
   content: url(https://nfld99.com/images/Boops/ChaChing.png);
 }
 
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/123119491461677057"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="123119491461677057"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/123119491461677057"]::after {
   content: "Just an tiger with wings and a furry lover. \a Im freindly and i like to help people. \a 17th Donator";
 }
 

@@ -46,7 +46,7 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #401 ";
+  --Update-Text: " Update #402 ";
   --File-Updated-2019-6-19: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -69,7 +69,7 @@
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixes __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Boops are back, but requries a DevilBro plugin __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -216,6 +216,72 @@ body:after {
 }
 
 /* Boops */
+
+/* Boops v2 *NEEDS A DB PLUGIN!* */
+
+.wrapper-3t9DeA::after {
+  white-space: pre;
+  background-color: var(--Background-Colour) !important;
+  box-shadow: 1px 1px 15px rgba(0, 216, 86, 0.9)!important;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  z-index: 3000000;
+  display: inline;
+  position: relative;
+  left: 100%;
+  top: 50%;
+  transform: translate(0, -50%);
+  pointer-events: none;
+  transition: 80ms ease;
+  color: var(--Main-Colour);
+  opacity: 0;
+  animation: rainbow 3s infinite linear;
+}
+
+.wrapper-3t9DeA:hover::after {
+  opacity: 1;
+  transition: 180ms ease-in-out 100ms;
+  animation: boop .5s 1 linear;
+}
+
+.wrapper-3t9DeA:not(:hover)::after {
+  opacity: 0;
+  transition: 180ms ease-in-out 150ms;
+  animation: boop2 .5s 1 linear;
+}
+
+.wrapper-3t9DeA {
+  cursor: pointer;
+}
+
+.wrapper-3t9DeA::before {
+  color: rgba(0, 255, 0, .3);
+  font-size: 13px;
+  z-index: 1;
+  position: absolute;
+  left: 38.9%!important;
+  top: 115%;
+  padding-left: 2px;
+  padding-right: 4px;
+  border-radius: 2px;
+  margin-left: -3px;
+  transform: translate(0, 1px);
+  cursor: pointer;
+  transition: 100ms ease;
+  pointer-events: initial;
+  animation: Brainbow 3s infinite linear;
+}
+
+.wrapper-3t9DeA::before, .wrapper-3t9DeA.wrapper-3t9DeA::after, .wrapper-3t9DeA.wrapper-3t9DeA::before, .wrapper-3t9DeA.wrapper-3t9DeA::after {
+  display: inline-block!important;
+}
+
+.avatar-17mtNa:hover {
+  opacity: 1;
+}
+
+/* Boops v2 *NEEDS A DB PLUGIN!* */
 
 .wrapper-1Rf91z .scroller-2TZvBN>.guild:first-child {
   margin-top: 10px!important;

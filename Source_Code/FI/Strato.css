@@ -1,13 +1,13 @@
 /* Strato#4763 */
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/322758556946530304"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="322758556946530304"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/322758556946530304"]::before {
   content: url(https://nfld99.com/images/Boops/Strato.png);
 }
 
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/322758556946530304"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb="322758556946530304"]:hover::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/322758556946530304"]:hover::before {
   content: url(https://nfld99.com/images/Boops/Strato.gif);
 }
 
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/322758556946530304"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="322758556946530304"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/322758556946530304"]::after {
   content: "Hello, I'm The Strato! \a The man. The myth. The legend. \a 2nd Donator";
 }
 

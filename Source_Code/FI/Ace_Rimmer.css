@@ -1,9 +1,9 @@
 /* Ace Rimmer#6993 */
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/197406501264949248"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="197406501264949248"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/197406501264949248"]::before {
   content: url(https://nfld99.com/images/Boops/Ace_Rimmer.png);
 }
 
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/197406501264949248"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="197406501264949248"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/197406501264949248"]::after {
   content: "Hey I'm Ace Rimmer. \a Smoke me a kipper, I'll be back for breakfast \a 15th Donator";
 }
 

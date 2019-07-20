@@ -1,9 +1,9 @@
 /* breadcat#6969 */
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/200330618666483712"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="200330618666483712"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/200330618666483712"]::before {
     content: url(https://nfld99.com/images/Boops/ChaChing.png);
 }
   
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/200330618666483712"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="200330618666483712"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/200330618666483712"]::after {
     content: "Heya I'm breadcat. \a Yall should be my friend bc I'm a good friend and bc bread cats are great. \a 9th Donator";
 }
 

@@ -1,9 +1,9 @@
 /* Krekevyks 1337#5342 */
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/237616896948699136"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="237616896948699136"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/237616896948699136"]::before {
   content: url(https://nfld99.com/images/Boops/ChaChing.png);
 }
 
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/237616896948699136"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="237616896948699136"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/237616896948699136"]::after {
   content: "Hi I'm Krekevyks. \a I am 1337. \a 20th Donator";
 }
 

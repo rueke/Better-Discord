@@ -1,9 +1,9 @@
 /* 𝓚𝖎𝖓𝖌𝖑𝖊𝖘𝖘#0923 */
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/486284269652803614"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="486284269652803614"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/486284269652803614"]::before {
   content: url(https://nfld99.com/images/Boops/ChaChing.png);
 }
 
-.large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/486284269652803614"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="486284269652803614"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/486284269652803614"]::after {
   content: "Placeholder, \a Placeholder. \a 19th Donator";
 }
 
