@@ -67,6 +67,20 @@
   --Chat-Avatar-Border-Radius: 15%;
   --Background-Darkness: 0.2;
 }
+/* Change Avatar Size(also moves username for you) */
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
+  width: 35px !important;
+  height: 35px !important;
+  background-size: cover;
+}
+/* Changes Border-radius Avatar */
+.avatar-VxgULZ {
+  border-radius: 20px;
+}
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
+}
 /* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;
 }

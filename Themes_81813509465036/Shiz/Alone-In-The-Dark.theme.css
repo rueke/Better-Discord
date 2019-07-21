@@ -10,7 +10,7 @@
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
 /* Animations */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/Yes.css);
 /* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
 /* Settings Dock */
@@ -66,6 +66,20 @@
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 45%;
   --Background-Darkness: 0.3;
+}
+/* Change Avatar Size(also moves username for you) */
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
+  width: 35px !important;
+  height: 35px !important;
+  background-size: cover;
+}
+/* Changes Border-radius Avatar */
+.avatar-VxgULZ {
+  border-radius: 20px;
+}
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
 }
 /* Home Button*/
 a.button-OhfaWu.wrapper-1BJsBx{
