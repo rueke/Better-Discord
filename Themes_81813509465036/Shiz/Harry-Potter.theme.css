@@ -24,7 +24,7 @@
 /* Invites */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
 /* Member List */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/Yes.css);
 /* Windows Bar */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
 /* Offline Members */ 
@@ -67,6 +67,18 @@
     --Chat-Avatar-Border-Radius: 40%;
     --Background-Darkness: 0.5;
   }
+  /* Removing the bottom border in member list*/
+.member-3W1lQa {border-bottom: none;
+}
+/* disabling divider */
+.theme-dark .dividerEnabled-2TTlcf {
+	border: none;
+}
+
+/* disabling margin between messages */
+.message-1PNnaP {
+    margin-bottom: 0em;
+}
   /* Change Avatar Size(also moves username for you) */
 .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
     width: 35px !important;
@@ -111,7 +123,6 @@
 .theme-dark .members-1998pB{
   background:url(https://i.imgur.com/ojSMORF.jpg?1) 50% 50%/cover;
   }
-  /* END */
   /* Home Icon Pic*/
   a.button-OhfaWu.wrapper-1BJsBx{
     background: url(https://i.imgur.com/7eEx7CY.jpg) 50% 50%/cover;
@@ -231,9 +242,7 @@
 }
 
 /* chat border and backgrounds many changes and positioning */
-.large-3ChYtB, .image-33JSyf {
-	right: 80px;
-}
+
 .theme-dark .timestampCozy-2hLAPV {
 	padding-left: 5px;
 }
