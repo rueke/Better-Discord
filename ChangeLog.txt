@@ -1,2 +1,2 @@
-Home icon mask can now be set by adding --Home-Icon-Mask to the root 
-NOTE: it will still be coloured in so icon shaps ony as its a mask! 
+Error 404, website updated 
+also a bug fix 
