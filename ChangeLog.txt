@@ -1,1 +1,2 @@
-Boops are back, but requries a DevilBro plugin 
+Home icon mask can now be set by adding --Home-Icon-Mask to the root 
+NOTE: it will still be coloured in so icon shaps ony as its a mask! 
