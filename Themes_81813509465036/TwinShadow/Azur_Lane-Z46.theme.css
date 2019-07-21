@@ -149,3 +149,42 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 }
 */
 /* END */
+
+/* Channel Borders*/
+.containerDefault-3GGEv_ > .wrapper-CU3qI5{
+  border: 0px solid
+}
+.containerDefault-3GGEv_{
+  padding-top: 14px;
+}
+.contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
+  background-color: var(--main-colour);
+  border: 2px solid silver;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-width: 2.5px;
+}
+
+.channel-2QD9_O.selected-1HYmZZ a {
+  border: 0px;
+}
+/* END */
+
+/* Change Avatar Size (also moves username for you) */
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
+  width: 35px !important;
+  height: 35px !important;
+  background-size: cover;
+}
+
+/* Changes Border-radius Avatar */
+.avatar-VxgULZ {
+  border-radius: 20px;
+}
+
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
+}
+/* END */
