@@ -11,7 +11,7 @@
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 10px solid rgba(55, 150, 167, 0.4);
+    border-right: 10px solid var(--Main-Colour);
 }
   .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
       right:77px; 
@@ -40,7 +40,7 @@
 
 .messageCompact-kQa7ES, .messageCozy-2JPAPA {
     background: rgba(8, 56, 62, 0.3);
-    border: 1px solid rgba(55, 167, 167, 0.4);
+    border: 1px solid var(--Main-Colour);
     margin-right: 7px;
     margin-left: 65px;
     padding-top: 5px;
