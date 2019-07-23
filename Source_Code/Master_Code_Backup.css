@@ -49,7 +49,7 @@
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
   --Update-Text: " Update #398 ";
-  --File-Updated-2019-6-19: url(https://nfld99.com/images/RDLTF.png);
+  --File-Updated-2019-7-23: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
   --BetterDocsBlockerBlack1: var(--Background-Colour);
@@ -11031,7 +11031,7 @@ html .upperBadge-2XnnGB.count {
 }
 
 .app-2rEoOp {
-  background: var(--File-Updated-2019-6-19) 50% 50%/cover , var(--Chat-Background) 50% 50%/cover !important;
+  background: var(--File-Updated-2019-7-23) 50% 50%/cover , var(--Chat-Background) 50% 50%/cover !important;
   animation: Load4 3s 1 linear, var(--StartUp) 3s 1 linear;
   font-family: var(--Chat-Font-Used)!important;
 }

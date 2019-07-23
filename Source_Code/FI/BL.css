@@ -1,154 +1,83 @@
-/* Message logger Blocker */
-
-html:first-child:last-child:only-child > head:first-child + body:last-child * #plugin-settings-MessageLogger:before,
-html:first-child:last-child:only-child > head:first-child + body:last-child * #MessageLogger-changelog:before,
-html:first-child:last-child:only-child > head:first-child + body:last-child * #message-logger-window:before,
-html:first-child:last-child:only-child > head:first-child + body:last-child * .ml-deleted:before,
-html:first-child:last-child:only-child > head:first-child + body:last-child * .ml-edited > em:before,
-html:first-child:last-child:only-child > head:first-child + body:last-child * .ml-edited > .edited-DL9ECl:before,
-html:first-child:last-child:only-child > head:first-child + body:last-child * .markup-2BOw-j.ml-edited:before
-{
-  all:unset !important;
-  content: "You have been temp blocked from using this Theme, \A Remove Message logger to remove this message. \A Reason: using Message logger. \A\A Message logger is an invasion of privacy and is not supported, \A should you be caught using this you will be banned and reported to t&s \A ~NFLD99" !important;
-  white-space:pre !important;
-  font-size: 16px !important;
-  line-height: 30px !important;
-  text-align: center !important;
-  background-color: var(--Background-Colour)!important;
-  box-shadow:inset 0 0 55px 5px var(--Main-Colour)!important;
-  border:5px solid var(--Main-Colour) !important;
-  padding: 0 !important;
-  padding-top: calc(50vh - 40px) !important;
-  margin: 0 !important;
-  display: inline !important;
-  opacity: 1 !important;
-  cursor: default !important;
-  visibility: visible !important;
-  position: fixed !important;
-  top: 22px !important;
-  left: 0 !important;
-  bottom: 0 !important;
-  right: 0 !important;
-  pointer-events: none !important;
-  transform:none !important;
-  -webkit-app-region:drag !important;
-  transform:none !important;
-  max-height:unset !important;
-  max-width:unset !important;
-  z-index: 1000000000000 !important;
+/* 
+.wrapper-3t9DeA[user_by_bdfdb="567321215371444234"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="377086666210541568"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="305555501347766274"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="431793457779048468"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="226455931376893963"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="479753737523429406"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="442612628104151040"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="301010905523552258"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="455560018117394442"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="202513837423853568"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="296165139168755712"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="333756610193391616"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="544899384073256990"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="334061094429655043"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="388911699488669697"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="389443420113993729"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="350392906798071808"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="487809621885714432"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="326420258263007242"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="326420258263007242"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="476190099898630155"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="531878344388640788"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="494920220826402816"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="294373358328348673"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="304447067294662656"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="332289106841174017"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="442757560550817802"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="418428675931897856"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="384836126713577472"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="359126396771106817"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="368138274713239552"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="197478892859162624"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="197196449904197632"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="196073120489144320"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="547000605412163595"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="415975495243399179"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="462700451167600660"]:after,
+.wrapper-3t9DeA[user_by_bdfdb="594568222485774357"]:after{
+  content: "User Banned From NFLD99's Support Server";
 }
 
-html:first-child:last-child:only-child > head:first-child + body:last-child * .ml-deleted:after,
-html:first-child:last-child:only-child > head:first-child + body:last-child * .ml-edited > em:after,
-html:first-child:last-child:only-child > head:first-child + body:last-child * .ml-edited > .edited-DL9ECl:after,
-html:first-child:last-child:only-child > head:first-child + body:last-child * .markup-2BOw-j.ml-edited:after
-{
-  all:unset !important;
-  content: "You have been temp blocked from using this Theme, \A Remove Message logger to remove this message. \A Reason: using Message logger. \A\A Message logger is an invasion of privacy and is not supported, \A should you be caught using this you will be banned and reported to t&s \A ~NFLD99" !important;
-  background: var(--Background-Colour)!important;
-  border: 1px solid var(--Main-Colour)!important;
-  border-radius: 5px!important;
-  padding: 5px 15px!important;
-  text-align: center!important;
-  position: absolute!important;
-  top: 50%!important;
-  color: var(--Main-Colour)!important;
-  z-index: 1000000000001 !important;
-  white-space:pre !important;
-  font-size: 16px !important;
-  line-height: 30px !important;
-  text-align: center !important;
-  background-color: var(--Background-Colour)!important;
-  box-shadow:inset 0 0 55px 5px var(--Main-Colour)!important;
-  border:5px solid var(--Main-Colour) !important;
-  padding: 0 !important;
-  padding-top: calc(50vh - 40px) !important;
-  margin: 0 !important;
-  display: inline !important;
-  opacity: 1 !important;
-  cursor: default !important;
-  visibility: visible !important;
-  position: fixed !important;
-  top: 22px !important;
-  left: 0 !important;
-  bottom: 0 !important;
-  right: 0 !important;
-  pointer-events: none !important;
-  transform:none !important;
-  -webkit-app-region:drag !important;
-  transform:none !important;
-  max-height:unset !important;
-  max-width:unset !important;
-  z-index: 1000000000000 !important;
-}
-
-.bda-links [href*="MessageLogger"]:after {
-  all:unset !important;
-  content: "You have been temp blocked from using this Theme, \A Remove Message logger to remove this message. \A Reason: using Message logger. \A\A Message logger is an invasion of privacy and is not supported, \A should you be caught using this you will be banned and reported to t&s \A ~NFLD99" !important;
-  background: var(--Background-Colour)!important;
-  border: 1px solid var(--Main-Colour)!important;
-  border-radius: 5px!important;
-  padding: 5px 15px!important;
-  text-align: center!important;
-  position: absolute!important;
-  top: 50%!important;
-  color: var(--Main-Colour)!important;
-  z-index: 1000000000001 !important;
-  white-space:pre !important;
-  font-size: 16px !important;
-  line-height: 30px !important;
-  text-align: center !important;
-  background-color: var(--Background-Colour)!important;
-  box-shadow:inset 0 0 55px 5px var(--Main-Colour)!important;
-  border:5px solid var(--Main-Colour) !important;
-  padding: 0 !important;
-  padding-top: calc(50vh - 40px) !important;
-  margin: 0 !important;
-  display: inline !important;
-  opacity: 1 !important;
-  cursor: default !important;
-  visibility: visible !important;
-  position: fixed !important;
-  top: 22px !important;
-  left: 0 !important;
-  bottom: 0 !important;
-  right: 0 !important;
-  pointer-events: none !important;
-  transform:none !important;
-  -webkit-app-region:drag !important;
-  transform:none !important;
-  max-height:unset !important;
-  max-width:unset !important;
-  z-index: 1000000000000 !important;
+.wrapper-3t9DeA[user_by_bdfdb="567321215371444234"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="377086666210541568"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="305555501347766274"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="431793457779048468"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="226455931376893963"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="479753737523429406"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="442612628104151040"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="301010905523552258"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="455560018117394442"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="202513837423853568"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="296165139168755712"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="333756610193391616"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="544899384073256990"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="334061094429655043"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="388911699488669697"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="389443420113993729"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="350392906798071808"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="487809621885714432"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="326420258263007242"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="326420258263007242"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="476190099898630155"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="531878344388640788"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="494920220826402816"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="294373358328348673"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="304447067294662656"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="332289106841174017"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="442757560550817802"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="418428675931897856"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="384836126713577472"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="359126396771106817"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="368138274713239552"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="197478892859162624"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="197196449904197632"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="196073120489144320"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="547000605412163595"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="415975495243399179"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="462700451167600660"]:before,
+.wrapper-3t9DeA[user_by_bdfdb="594568222485774357"]:before{
+  content: url(https://i.imgur.com/n3yZHYY.png788);
 } 
-
-html:first-child:last-child:only-child > head:first-child + body:last-child * .NoDeleteMessages-deleted-message .da-markup:before{
-  all:unset !important;
-  content: "You have been temp blocked from using this Theme, \A Remove Message logger to remove this message. \A Reason: using Message logger. \A\A Message logger is an invasion of privacy and is not supported, \A should you be caught using this you will be banned and reported to t&s \A ~NFLD99" !important;
-  white-space:pre !important;
-  font-size: 16px !important;
-  line-height: 30px !important;
-  text-align: center !important;
-  background-color: var(--Background-Colour)!important;
-  box-shadow:inset 0 0 55px 5px var(--Main-Colour)!important;
-  border:5px solid var(--Main-Colour) !important;
-  padding: 0 !important;
-  padding-top: calc(50vh - 40px) !important;
-  margin: 0 !important;
-  display: inline !important;
-  opacity: 1 !important;
-  cursor: default !important;
-  visibility: visible !important;
-  position: fixed !important;
-  top: 22px !important;
-  left: 0 !important;
-  bottom: 0 !important;
-  right: 0 !important;
-  pointer-events: none !important;
-  transform:none !important;
-  -webkit-app-region:drag !important;
-  transform:none !important;
-  max-height:unset !important;
-  max-width:unset !important;
-  z-index: 1000000000001 !important;
-}
+*/
