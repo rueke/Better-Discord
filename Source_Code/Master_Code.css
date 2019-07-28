@@ -46,7 +46,7 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #412 ";
+  --Update-Text: " Update #413 ";
   --File-Updated-2019-7-23: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -70,7 +70,7 @@
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixes! __</text><text y="85" style="font-size: 1em;" x="0">__+ BTW, theres a nitro giveaway on my server in the announcements chat! [wnds on the 29th] __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Redid status, best I can do sorry :( __</text><text y="95" style="font-size: 1em;" x="0">__+ BTW, theres a nitro giveaway on my server in the announcements chat! [wnds on the 29th] __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -12511,81 +12511,9 @@ textarea {
   white-space: nowrap;
 }
 
-.pointerEvents-2zdfdO[fill="#43b581"]{
-  animation: Online2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#f04747"]{
-  animation: Dnd2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#faa61a"]{
-  animation: Away2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#593695"]{
-  animation: Stream2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#43b581"]{
-  animation: Stream2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#43b581"]{
-  animation: Stream2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
 .avatar-17mtNa > div{
   height: 32px!important;
   width: 32px!important;
-}
-
-.mask-3OgeRz,.mask-1l8v16 {
-  border-radius: 0!important;
-  -webkit-mask: none!important;
-  mask: none!important;
-}
-
-[mask="url(#svg-mask-avatar-default)"],[mask="url(#svg-mask-avatar-status-round-32)"],[id="1a9ca1ed-c221-4566-b3ec-ab4945ce82dc"],foreignObject[mask*="url(#"]{
-  border-radius: 0!important;
-  -webkit-mask: none!important;
-  mask: none!important;
 }
 
 .noticeStreamerMode-2TSQpg:not(:hover){
@@ -13048,4 +12976,180 @@ body .ace_closeButton:hover::before {
 
 .wrapper-3t9DeA,.avatar-VxgULZ{
   border-radius: var(--Chat-Avatar-Border-Radius)!important;
+}
+
+.wrapper-3t9DeA{
+  box-shadow: 0 0 0 2px var(--Main-Colour);
+}
+
+.mask-3OgeRz,.mask-1l8v16 {
+  border-radius: 0!important;
+  -webkit-mask: none!important;
+  mask: none!important;
+}
+
+[mask="url(#svg-mask-avatar-default)"],[mask="url(#svg-mask-avatar-status-round-32)"],[id="1a9ca1ed-c221-4566-b3ec-ab4945ce82dc"],foreignObject[mask*="url(#"]{
+  border-radius: 0!important;
+  -webkit-mask: none!important;
+  mask: none!important;
+}
+
+.avatarWrapper-3B0ndJ.wrapper-3t9DeA > svg > rect{
+  opacity: 1;
+}
+
+.pointerEvents-2zdfdO{
+  background: var(--Background-Colour);
+}
+
+[mask="url(#svg-mask-status-idle)"],
+[mask="url(#svg-mask-status-dnd)"],
+[mask="url(#svg-mask-status-offline)"],
+[mask="url(#svg-mask-status-streaming)"] {
+  mask: url(#svg-mask-status-online);
+}
+
+[mask="url(#svg-mask-status-online)"],
+[mask="url(#svg-mask-status-online-mobile)"] {
+  fill: rgb(67, 181, 129);
+}
+
+[mask="url(#svg-mask-status-idle)"] {
+  fill: rgb(250, 166, 26);
+}
+
+[mask="url(#svg-mask-status-dnd)"] {
+  fill: rgb(240, 71, 71);
+}
+
+[mask="url(#svg-mask-status-offline)"] {
+  fill: rgb(116, 127, 141);
+}
+
+[mask="url(#svg-mask-status-streaming)"] {
+  fill: rgb(89, 54, 149);
+}
+
+.member-3W1lQa * [x="22"], .member-3W1lQa * [x="14.5"]{
+  x: 0!important;
+}
+
+[id="ff22a938-e113-4147-ad91-341c66749418"],.cursorDefault-dsQJ1n{
+  display: none
+}
+
+[role="img"][aria-label*="Online"] * [fill="transparent"],
+[role="img"][aria-label*="Conectado"] * [fill="transparent"],
+[role="img"][aria-label*="En ligne"] * [fill="transparent"],
+[role="img"][aria-label*="Na mreži"] * [fill="transparent"],
+[role="img"][aria-label*="Prisijungęs"] * [fill="transparent"],
+[role="img"][aria-label*="Elérhető"] * [fill="transparent"],
+[role="img"][aria-label*="Pålogget"] * [fill="transparent"],
+[role="img"][aria-label*="Dostępny"] * [fill="transparent"],
+[role="img"][aria-label*="Disponível"] * [fill="transparent"],
+[role="img"][aria-label*="Paikalla"] * [fill="transparent"],
+[role="img"][aria-label*="Trực tuyến"] * [fill="transparent"],
+[role="img"][aria-label*="Çevrimiçi"] * [fill="transparent"],
+[role="img"][aria-label*="Συνδεδεμένος"] * [fill="transparent"],
+[role="img"][aria-label*="На линия"] * [fill="transparent"],
+[role="img"][aria-label*="В сети"] * [fill="transparent"],
+[role="img"][aria-label*="В мережі"] * [fill="transparent"],
+[role="img"][aria-label*="ออนไลน์"] * [fill="transparent"],
+[role="img"][aria-label*="在线"] * [fill="transparent"],
+[role="img"][aria-label*="オンライン"] * [fill="transparent"],
+[role="img"][aria-label*="線上"] * [fill="transparent"],
+[role="img"][aria-label*="온라인"] * [fill="transparent"] {
+  fill: rgb(67, 181, 129);
+  mask: url(#svg-mask-status-online);
+}
+
+[role="img"][aria-label*="Idle"] * [fill="transparent"],
+[role="img"][aria-label*="Inaktiv"] * [fill="transparent"],
+[role="img"][aria-label*="Abwesend"] * [fill="transparent"],
+[role="img"][aria-label*="Ausente"] * [fill="transparent"],
+[role="img"][aria-label*="Inactif"] * [fill="transparent"],
+[role="img"][aria-label*="U mirovanju"] * [fill="transparent"],
+[role="img"][aria-label*="Inattivo"] * [fill="transparent"],
+[role="img"][aria-label*="Pasitraukęs"] * [fill="transparent"],
+[role="img"][aria-label*="Tétlen"] * [fill="transparent"],
+[role="img"][aria-label*="Inactief"] * [fill="transparent"],
+[role="img"][aria-label*="Zaraz wracam"] * [fill="transparent"],
+[role="img"][aria-label*="Inactiv"] * [fill="transparent"],
+[role="img"][aria-label*="Toimeton"] * [fill="transparent"],
+[role="img"][aria-label*="Chờ"] * [fill="transparent"],
+[role="img"][aria-label*="Boşta"] * [fill="transparent"],
+[role="img"][aria-label*="Nečinný"] * [fill="transparent"],
+[role="img"][aria-label*="Αδρανής"] * [fill="transparent"],
+[role="img"][aria-label*="Не се използва"] * [fill="transparent"],
+[role="img"][aria-label*="Не активен"] * [fill="transparent"],
+[role="img"][aria-label*="Відійшов"] * [fill="transparent"],
+[role="img"][aria-label*="ไม่อยู่"] * [fill="transparent"],
+[role="img"][aria-label*="闲置"] * [fill="transparent"],
+[role="img"][aria-label*="退席中"] * [fill="transparent"],
+[role="img"][aria-label*="閒置"] * [fill="transparent"],
+[role="img"][aria-label*="자리비움"] * [fill="transparent"] {
+  fill: rgb(250, 166, 26);
+  mask: url(#svg-mask-status-online);
+}
+
+[role="img"][aria-label*="Do Not Disturb"] * [fill="transparent"],
+[role="img"][aria-label*="Vil ikke forstyrres"] * [fill="transparent"],
+[role="img"][aria-label*="Bitte nicht stören"] * [fill="transparent"],
+[role="img"][aria-label*="No molestar"] * [fill="transparent"],
+[role="img"][aria-label*="Ne pas déranger"] * [fill="transparent"],
+[role="img"][aria-label*="Ne uznemiravaj"] * [fill="transparent"],
+[role="img"][aria-label*="Non disturbare"] * [fill="transparent"],
+[role="img"][aria-label*="Netrukdyti"] * [fill="transparent"],
+[role="img"][aria-label*="Niet storen"] * [fill="transparent"],
+[role="img"][aria-label*="Ikke forstyrr"] * [fill="transparent"],
+[role="img"][aria-label*="Nie przeszkadzać"] * [fill="transparent"],
+[role="img"][aria-label*="Elfoglalt"] * [fill="transparent"],
+[role="img"][aria-label*="Não perturbar"] * [fill="transparent"],
+[role="img"][aria-label*="Nu deranja"] * [fill="transparent"],
+[role="img"][aria-label*="Älä häiritse"] * [fill="transparent"],
+[role="img"][aria-label*="Stör ej"] * [fill="transparent"],
+[role="img"][aria-label*="Vui Lòng Không Làm Phiền"] * [fill="transparent"],
+[role="img"][aria-label*="Rahatsız Etmeyin"] * [fill="transparent"],
+[role="img"][aria-label*="Nerušit"] * [fill="transparent"],
+[role="img"][aria-label*="Μην ενοχλείτε"] * [fill="transparent"],
+[role="img"][aria-label*="Не ме безпокой"] * [fill="transparent"],
+[role="img"][aria-label*="Не беспокоить"] * [fill="transparent"],
+[role="img"][aria-label*="Не турбувати"] * [fill="transparent"],
+[role="img"][aria-label*="ห้ามรบกวน"] * [fill="transparent"],
+[role="img"][aria-label*="请勿打扰"] * [fill="transparent"],
+[role="img"][aria-label*="取り込み中"] * [fill="transparent"],
+[role="img"][aria-label*="請勿打擾"] * [fill="transparent"],
+[role="img"][aria-label*="다른 용무 중"] * [fill="transparent"] {
+  fill: rgb(240, 71, 71);
+  mask: url(#svg-mask-status-online);
+}
+
+[role="img"][aria-label*="Streaming"] * [fill="transparent"],
+[role="img"][aria-label*="Streamer"] * [fill="transparent"],
+[role="img"][aria-label*="Transmitiendo"] * [fill="transparent"],
+[role="img"][aria-label*="En direct"] * [fill="transparent"],
+[role="img"][aria-label*="In diretta"] * [fill="transparent"],
+[role="img"][aria-label*="Transliuojama"] * [fill="transparent"],
+[role="img"][aria-label*="Közvetítés"] * [fill="transparent"],
+[role="img"][aria-label*="Streamt"] * [fill="transparent"],
+[role="img"][aria-label*="Strømmer"] * [fill="transparent"],
+[role="img"][aria-label*="Streamowanie"] * [fill="transparent"],
+[role="img"][aria-label*="Transmitindo"] * [fill="transparent"],
+[role="img"][aria-label*="Transmite live"] * [fill="transparent"],
+[role="img"][aria-label*="Striimaa"] * [fill="transparent"],
+[role="img"][aria-label*="Streamar"] * [fill="transparent"],
+[role="img"][aria-label*="Đang stream"] * [fill="transparent"],
+[role="img"][aria-label*="Yayın Yapıyor"] * [fill="transparent"],
+[role="img"][aria-label*="Streamuje"] * [fill="transparent"],
+[role="img"][aria-label*="Ζωντανά"] * [fill="transparent"],
+[role="img"][aria-label*="Стрийминг"] * [fill="transparent"],
+[role="img"][aria-label*="Стримит"] * [fill="transparent"],
+[role="img"][aria-label*="Трансляція"] * [fill="transparent"],
+[role="img"][aria-label*="ถ่ายทอดสด"] * [fill="transparent"],
+[role="img"][aria-label*="正在直播"] * [fill="transparent"],
+[role="img"][aria-label*="配信"] * [fill="transparent"],
+[role="img"][aria-label*="直播中"] * [fill="transparent"],
+[role="img"][aria-label*="配信"] * [fill="transparent"] {
+  fill: rgb(89, 54, 149);
+  mask: url(#svg-mask-status-online);
 }
