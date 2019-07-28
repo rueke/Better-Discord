@@ -46,7 +46,7 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #406 ";
+  --Update-Text: " Update #415 ";
   --File-Updated-2019-7-23: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -70,7 +70,7 @@
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ New Import __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 135" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixes __</text><text y="95" style="font-size: 1em;" x="0">__+ Updated Shiz Themes __</text><text y="105" style="font-size: 1em;" x="0">__+ BTW, theres a nitro giveaway on __</text><text y="115" style="font-size: 1em;" x="0">__+ My server in the announcements chat! __</text><text y="125" style="font-size: 1em;" x="0">__+ [ends on the 29th] __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -7208,11 +7208,6 @@ button.btn.btn-default {
   border: 1px solid var(--Secondary-Main-Colour);
 }
 
-.headerCozy-2N9HOL>div>div {
-  border-radius: 4px;
-  border: 3px solid var(--Main-Colour);
-}
-
 .large-3ChYtB {
   height: 32px!important;
   width: 32px!important;
@@ -10940,6 +10935,36 @@ html .upperBadge-2XnnGB.count {
   width: calc(var(--Guild-Columns) * 60px + 2px) !important;
 }
 
+.wrapper-21YSNc{
+  width: 52px !important;
+}
+
+.expandedFolderBackground-2sPsd- {
+  left: 0;
+  width: 45px;
+  border-radius: 0%;
+}
+
+.theme-dark .expandedFolderBackground-2sPsd-, .theme-dark .folder-21wGz3{
+  background: transparent;
+}
+
+.folderIconWrapper-226oVY,.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb, .theme-light .expandedFolderBackground-2sPsd-.collapsed-1GMuSb{
+  background: transparent!important;
+}
+
+.theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7, .theme-dark .folder-21wGz3.hover-2ji_A7, .theme-light .expandedFolderBackground-2sPsd-.hover-2ji_A7, .theme-light .folder-21wGz3.hover-2ji_A7{
+  background: transparent;
+}
+
+.guildIcon-GuAC7C{
+  filter: blur(4px);
+}
+
+.expandedGuilds-1JMD4M > .listItem-2P_4kh{
+  width: 45px!important
+}
+
 .theme-dark .multipleIconWrapper-1PjkRO, .theme-dark .section-2VKIPC,.theme-dark .inset-GQDQYw {
   background-color: transparent;
 }
@@ -11689,21 +11714,6 @@ html .upperBadge-2XnnGB.count {
 
 .side-8zPYf6 .header-2RyJ0Y, .side-8zPYf6 .item-PXvHYJ{
   padding-left: 0;
-}
-
-.wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh):nth-last-of-type(1) {
-  width: calc(var(--Guild-Columns) * 60px + 2px)!important;
-}
-
-.wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh){
-  background: transparent;
-  border: 2px solid transparent;
-  border-radius: 50%;
-  width: 45px!important;
-  height: 45px!important;
-  left: 2px;
-  top: 0;
-  z-index: 0;
 }
 
 .bd-guild .bd-unread {
@@ -12496,81 +12506,9 @@ textarea {
   white-space: nowrap;
 }
 
-.pointerEvents-2zdfdO[fill="#43b581"]{
-  animation: Online2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#f04747"]{
-  animation: Dnd2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#faa61a"]{
-  animation: Away2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#593695"]{
-  animation: Stream2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#43b581"]{
-  animation: Stream2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
-.pointerEvents-2zdfdO[fill="#43b581"]{
-  animation: Stream2 3s linear infinite;
-  mask:none;
-  height: 34px;
-  width: 4px;
-  x: 0;
-  y: -2;
-  overflow: visible;
-}
-
 .avatar-17mtNa > div{
   height: 32px!important;
   width: 32px!important;
-}
-
-.mask-3OgeRz,.mask-1l8v16 {
-  border-radius: 0!important;
-  -webkit-mask: none!important;
-  mask: none!important;
-}
-
-[mask="url(#svg-mask-avatar-default)"],[mask="url(#svg-mask-avatar-status-round-32)"],[id="1a9ca1ed-c221-4566-b3ec-ab4945ce82dc"],foreignObject[mask*="url(#"]{
-  border-radius: 0!important;
-  -webkit-mask: none!important;
-  mask: none!important;
 }
 
 .noticeStreamerMode-2TSQpg:not(:hover){
@@ -12657,4 +12595,556 @@ body .ace_closeButton:hover::before {
 
 .avatarOffline-3GF27z{
   left: 0%!important;
+}
+
+.wrapper-21YSNc > .listItem-2P_4kh > .bd-unread {
+  left: -2px!important;
+  top: 5px!important;
+  z-index: 30!important;
+  height: 10px!important;
+  width: 10px!important;
+  animation: opacity var(--Unread-Message-Speed) infinite linear!important;
+  background-color: var(--Unread-Message-1)!important;
+  border-radius: 50%;
+}
+
+.theme-dark .acronym-2mOFsV.nested-1eglu6, .theme-light .acronym-2mOFsV.nested-1eglu6{
+  background: transparent;
+}
+
+
+.expandedGuilds-1JMD4M[style="height: 56px;"] {
+  height: calc(48px * 2) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 112px;"] {
+  height: calc(48px * 3) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 168px;"] {
+  height: calc(48px * 4) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 224px;"] {
+  height: calc(48px * 5) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 280px;"] {
+  height: calc(48px * 6) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 336px;"] {
+  height: calc(48px * 7) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 392px;"] {
+  height: calc(48px * 8) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 448px;"] {
+  height: calc(48px * 9) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 504px;"] {
+  height: calc(48px * 10) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 560px;"] {
+  height: calc(48px * 11) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 616px;"] {
+  height: calc(48px * 12) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 672px;"] {
+  height: calc(48px * 13) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 728px;"] {
+  height: calc(48px * 14) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 784px;"] {
+  height: calc(48px * 15) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 840px;"] {
+  height: calc(48px * 16) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 896px;"] {
+  height: calc(48px * 17) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 952px;"] {
+  height: calc(48px * 18) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1008px;"] {
+  height: calc(48px * 19) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1064px;"] {
+  height: calc(48px * 20) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1120px;"] {
+  height: calc(48px * 21) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1176px;"] {
+  height: calc(48px * 22) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1232px;"] {
+  height: calc(48px * 23) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1288px;"] {
+  height: calc(48px * 24) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1344px;"] {
+  height: calc(48px * 25) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1400px;"] {
+  height: calc(48px * 26) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1456px;"] {
+  height: calc(48px * 27) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1512px;"] {
+  height: calc(48px * 28) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1568px;"] {
+  height: calc(48px * 29) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1624px;"] {
+  height: calc(48px * 30) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1680px;"] {
+  height: calc(48px * 31) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1736px;"] {
+  height: calc(48px * 32) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1792px;"] {
+  height: calc(48px * 33) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1848px;"] {
+  height: calc(48px * 34) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1904px;"] {
+  height: calc(48px * 35) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 1960px;"] {
+  height: calc(48px * 36) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2016px;"] {
+  height: calc(48px * 37) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2072px;"] {
+  height: calc(48px * 38) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2128px;"] {
+  height: calc(48px * 39) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2184px;"] {
+  height: calc(48px * 40) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2240px;"] {
+  height: calc(48px * 41) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2296px;"] {
+  height: calc(48px * 42) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2352px;"] {
+  height: calc(48px * 43) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2408px;"] {
+  height: calc(48px * 44) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2464px;"] {
+  height: calc(48px * 45) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2520px;"] {
+  height: calc(48px * 46) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2576px;"] {
+  height: calc(48px * 47) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2632px;"] {
+  height: calc(48px * 48) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2688px;"] {
+  height: calc(48px * 49) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2744px;"] {
+  height: calc(48px * 50) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2800px;"] {
+  height: calc(48px * 51) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2856px;"] {
+  height: calc(48px * 52) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2912px;"] {
+  height: calc(48px * 53) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 2968px;"] {
+  height: calc(48px * 54) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3024px;"] {
+  height: calc(48px * 55) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3080px;"] {
+  height: calc(48px * 56) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3136px;"] {
+  height: calc(48px * 57) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3192px;"] {
+  height: calc(48px * 58) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3248px;"] {
+  height: calc(48px * 59) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3304px;"] {
+  height: calc(48px * 60) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3360px;"] {
+  height: calc(48px * 61) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3416px;"] {
+  height: calc(48px * 62) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3472px;"] {
+  height: calc(48px * 63) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3528px;"] {
+  height: calc(48px * 64) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3584px;"] {
+  height: calc(48px * 65) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3640px;"] {
+  height: calc(48px * 66) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3696px;"] {
+  height: calc(48px * 67) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3752px;"] {
+  height: calc(48px * 68) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3808px;"] {
+  height: calc(48px * 69) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3864px;"] {
+  height: calc(48px * 70) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3920px;"] {
+  height: calc(48px * 71) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 3976px;"] {
+  height: calc(48px * 72) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4032px;"] {
+  height: calc(48px * 73) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4088px;"] {
+  height: calc(48px * 74) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4144px;"] {
+  height: calc(48px * 75) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4200px;"] {
+  height: calc(48px * 76) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4256px;"] {
+  height: calc(48px * 77) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4312px;"] {
+  height: calc(48px * 78) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4368px;"] {
+  height: calc(48px * 79) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4424px;"] {
+  height: calc(48px * 80) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4480px;"] {
+  height: calc(48px * 81) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4536px;"] {
+  height: calc(48px * 82) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4592px;"] {
+  height: calc(48px * 83) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4648px;"] {
+  height: calc(48px * 84) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4704px;"] {
+  height: calc(48px * 85) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4760px;"] {
+  height: calc(48px * 86) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4816px;"] {
+  height: calc(48px * 87) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4872px;"] {
+  height: calc(48px * 88) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4928px;"] {
+  height: calc(48px * 89) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 4984px;"] {
+  height: calc(48px * 90) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 5040px;"] {
+  height: calc(48px * 91) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 5096px;"] {
+  height: calc(48px * 92) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 5152px;"] {
+  height: calc(48px * 93) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 5208px;"] {
+  height: calc(48px * 94) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 5264px;"] {
+  height: calc(48px * 95) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 5320px;"] {
+  height: calc(48px * 96) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 5376px;"] {
+  height: calc(48px * 97) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 5432px;"] {
+  height: calc(48px * 98) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 5488px;"] {
+  height: calc(48px * 99) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 5544px;"] {
+  height: calc(48px * 100) !important; }
+
+.expandedGuilds-1JMD4M[style="height: 5600px;"] {
+  height: calc(48px * 101) !important; }
+
+.collapsed-1GMuSb{
+  height: 45px!important;
+}
+
+.theme-dark .info-3UT5_W{
+  background: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+  transition: all 200ms;
+}
+
+.theme-dark .info-3UT5_W:hover{
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+  transition: all 200ms;
+}
+
+.theme-dark .guildName-1QLCF3{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .subscriptionDuration-UvxLGw {
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+  color: var(--Main-Colour);
+}
+
+.theme-dark .guildGraphicBackground-UDBjuF, .theme-dark .guildGraphicContainer-39I_Pl{
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+  color: var(--Main-Colour);
+}
+
+.circleProgress-1EBmVn{
+  stroke: var(--Main-Colour)!important;
+}
+
+.paymentSourceLabel-1lo4Ca,.subText-V8PTt8{
+  filter: blur(6px);
+  transition: filter .15s ease-in-out;
+}
+
+.paymentSourceLabel-1lo4Ca:hover,.subText-V8PTt8:hover{
+  filter: blur(0px);
+  transition: filter .15s ease-in-out;
+}
+
+.price-1rEl-z{
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+  color: var(--Main-Colour);
+}
+
+.theme-dark .checkboxLabel-1zn0UC, .theme-light .checkboxLabel-1zn0UC,.theme-dark .subscriptionLegal-Bv3Hj1{
+  color: var(--Main-Colour);
+}
+
+.wrapper-3t9DeA,.avatar-VxgULZ{
+  border-radius: var(--Chat-Avatar-Border-Radius)!important;
+}
+
+.wrapper-3t9DeA{
+  box-shadow: 0 0 0 2px var(--Main-Colour);
+}
+
+.mask-3OgeRz,.mask-1l8v16 {
+  border-radius: 0!important;
+  -webkit-mask: none!important;
+  mask: none!important;
+}
+
+[mask="url(#svg-mask-avatar-default)"],[mask="url(#svg-mask-avatar-status-round-32)"],[id="1a9ca1ed-c221-4566-b3ec-ab4945ce82dc"],foreignObject[mask*="url(#"]{
+  border-radius: 0!important;
+  -webkit-mask: none!important;
+  mask: none!important;
+}
+
+.avatarWrapper-3B0ndJ.wrapper-3t9DeA > svg > rect{
+  opacity: 1;
+}
+
+.pointerEvents-2zdfdO{
+  background: var(--Background-Colour);
+}
+
+[mask="url(#svg-mask-status-idle)"],
+[mask="url(#svg-mask-status-dnd)"],
+[mask="url(#svg-mask-status-offline)"],
+[mask="url(#svg-mask-status-streaming)"] {
+  mask: url(#svg-mask-status-online);
+}
+
+[mask="url(#svg-mask-status-online)"],
+[mask="url(#svg-mask-status-online-mobile)"] {
+  fill: rgb(67, 181, 129);
+}
+
+[mask="url(#svg-mask-status-idle)"] {
+  fill: rgb(250, 166, 26);
+}
+
+[mask="url(#svg-mask-status-dnd)"] {
+  fill: rgb(240, 71, 71);
+}
+
+[mask="url(#svg-mask-status-offline)"] {
+  fill: rgb(116, 127, 141);
+}
+
+[mask="url(#svg-mask-status-streaming)"] {
+  fill: rgb(89, 54, 149);
+}
+
+.member-3W1lQa * [x="22"], .member-3W1lQa * [x="14.5"]{
+  x: 0!important;
+}
+
+[id="ff22a938-e113-4147-ad91-341c66749418"],.cursorDefault-dsQJ1n{
+  display: none
+}
+
+[role="img"][aria-label*="Online"] * [fill="transparent"],
+[role="img"][aria-label*="Conectado"] * [fill="transparent"],
+[role="img"][aria-label*="En ligne"] * [fill="transparent"],
+[role="img"][aria-label*="Na mreži"] * [fill="transparent"],
+[role="img"][aria-label*="Prisijungęs"] * [fill="transparent"],
+[role="img"][aria-label*="Elérhető"] * [fill="transparent"],
+[role="img"][aria-label*="Pålogget"] * [fill="transparent"],
+[role="img"][aria-label*="Dostępny"] * [fill="transparent"],
+[role="img"][aria-label*="Disponível"] * [fill="transparent"],
+[role="img"][aria-label*="Paikalla"] * [fill="transparent"],
+[role="img"][aria-label*="Trực tuyến"] * [fill="transparent"],
+[role="img"][aria-label*="Çevrimiçi"] * [fill="transparent"],
+[role="img"][aria-label*="Συνδεδεμένος"] * [fill="transparent"],
+[role="img"][aria-label*="На линия"] * [fill="transparent"],
+[role="img"][aria-label*="В сети"] * [fill="transparent"],
+[role="img"][aria-label*="В мережі"] * [fill="transparent"],
+[role="img"][aria-label*="ออนไลน์"] * [fill="transparent"],
+[role="img"][aria-label*="在线"] * [fill="transparent"],
+[role="img"][aria-label*="オンライン"] * [fill="transparent"],
+[role="img"][aria-label*="線上"] * [fill="transparent"],
+[role="img"][aria-label*="온라인"] * [fill="transparent"] {
+  fill: rgb(67, 181, 129);
+  mask: url(#svg-mask-status-online);
+}
+
+[role="img"][aria-label*="Idle"] * [fill="transparent"],
+[role="img"][aria-label*="Inaktiv"] * [fill="transparent"],
+[role="img"][aria-label*="Abwesend"] * [fill="transparent"],
+[role="img"][aria-label*="Ausente"] * [fill="transparent"],
+[role="img"][aria-label*="Inactif"] * [fill="transparent"],
+[role="img"][aria-label*="U mirovanju"] * [fill="transparent"],
+[role="img"][aria-label*="Inattivo"] * [fill="transparent"],
+[role="img"][aria-label*="Pasitraukęs"] * [fill="transparent"],
+[role="img"][aria-label*="Tétlen"] * [fill="transparent"],
+[role="img"][aria-label*="Inactief"] * [fill="transparent"],
+[role="img"][aria-label*="Zaraz wracam"] * [fill="transparent"],
+[role="img"][aria-label*="Inactiv"] * [fill="transparent"],
+[role="img"][aria-label*="Toimeton"] * [fill="transparent"],
+[role="img"][aria-label*="Chờ"] * [fill="transparent"],
+[role="img"][aria-label*="Boşta"] * [fill="transparent"],
+[role="img"][aria-label*="Nečinný"] * [fill="transparent"],
+[role="img"][aria-label*="Αδρανής"] * [fill="transparent"],
+[role="img"][aria-label*="Не се използва"] * [fill="transparent"],
+[role="img"][aria-label*="Не активен"] * [fill="transparent"],
+[role="img"][aria-label*="Відійшов"] * [fill="transparent"],
+[role="img"][aria-label*="ไม่อยู่"] * [fill="transparent"],
+[role="img"][aria-label*="闲置"] * [fill="transparent"],
+[role="img"][aria-label*="退席中"] * [fill="transparent"],
+[role="img"][aria-label*="閒置"] * [fill="transparent"],
+[role="img"][aria-label*="자리비움"] * [fill="transparent"] {
+  fill: rgb(250, 166, 26);
+  mask: url(#svg-mask-status-online);
+}
+
+[role="img"][aria-label*="Do Not Disturb"] * [fill="transparent"],
+[role="img"][aria-label*="Vil ikke forstyrres"] * [fill="transparent"],
+[role="img"][aria-label*="Bitte nicht stören"] * [fill="transparent"],
+[role="img"][aria-label*="No molestar"] * [fill="transparent"],
+[role="img"][aria-label*="Ne pas déranger"] * [fill="transparent"],
+[role="img"][aria-label*="Ne uznemiravaj"] * [fill="transparent"],
+[role="img"][aria-label*="Non disturbare"] * [fill="transparent"],
+[role="img"][aria-label*="Netrukdyti"] * [fill="transparent"],
+[role="img"][aria-label*="Niet storen"] * [fill="transparent"],
+[role="img"][aria-label*="Ikke forstyrr"] * [fill="transparent"],
+[role="img"][aria-label*="Nie przeszkadzać"] * [fill="transparent"],
+[role="img"][aria-label*="Elfoglalt"] * [fill="transparent"],
+[role="img"][aria-label*="Não perturbar"] * [fill="transparent"],
+[role="img"][aria-label*="Nu deranja"] * [fill="transparent"],
+[role="img"][aria-label*="Älä häiritse"] * [fill="transparent"],
+[role="img"][aria-label*="Stör ej"] * [fill="transparent"],
+[role="img"][aria-label*="Vui Lòng Không Làm Phiền"] * [fill="transparent"],
+[role="img"][aria-label*="Rahatsız Etmeyin"] * [fill="transparent"],
+[role="img"][aria-label*="Nerušit"] * [fill="transparent"],
+[role="img"][aria-label*="Μην ενοχλείτε"] * [fill="transparent"],
+[role="img"][aria-label*="Не ме безпокой"] * [fill="transparent"],
+[role="img"][aria-label*="Не беспокоить"] * [fill="transparent"],
+[role="img"][aria-label*="Не турбувати"] * [fill="transparent"],
+[role="img"][aria-label*="ห้ามรบกวน"] * [fill="transparent"],
+[role="img"][aria-label*="请勿打扰"] * [fill="transparent"],
+[role="img"][aria-label*="取り込み中"] * [fill="transparent"],
+[role="img"][aria-label*="請勿打擾"] * [fill="transparent"],
+[role="img"][aria-label*="다른 용무 중"] * [fill="transparent"] {
+  fill: rgb(240, 71, 71);
+  mask: url(#svg-mask-status-online);
+}
+
+[role="img"][aria-label*="Streaming"] * [fill="transparent"],
+[role="img"][aria-label*="Streamer"] * [fill="transparent"],
+[role="img"][aria-label*="Transmitiendo"] * [fill="transparent"],
+[role="img"][aria-label*="En direct"] * [fill="transparent"],
+[role="img"][aria-label*="In diretta"] * [fill="transparent"],
+[role="img"][aria-label*="Transliuojama"] * [fill="transparent"],
+[role="img"][aria-label*="Közvetítés"] * [fill="transparent"],
+[role="img"][aria-label*="Streamt"] * [fill="transparent"],
+[role="img"][aria-label*="Strømmer"] * [fill="transparent"],
+[role="img"][aria-label*="Streamowanie"] * [fill="transparent"],
+[role="img"][aria-label*="Transmitindo"] * [fill="transparent"],
+[role="img"][aria-label*="Transmite live"] * [fill="transparent"],
+[role="img"][aria-label*="Striimaa"] * [fill="transparent"],
+[role="img"][aria-label*="Streamar"] * [fill="transparent"],
+[role="img"][aria-label*="Đang stream"] * [fill="transparent"],
+[role="img"][aria-label*="Yayın Yapıyor"] * [fill="transparent"],
+[role="img"][aria-label*="Streamuje"] * [fill="transparent"],
+[role="img"][aria-label*="Ζωντανά"] * [fill="transparent"],
+[role="img"][aria-label*="Стрийминг"] * [fill="transparent"],
+[role="img"][aria-label*="Стримит"] * [fill="transparent"],
+[role="img"][aria-label*="Трансляція"] * [fill="transparent"],
+[role="img"][aria-label*="ถ่ายทอดสด"] * [fill="transparent"],
+[role="img"][aria-label*="正在直播"] * [fill="transparent"],
+[role="img"][aria-label*="配信"] * [fill="transparent"],
+[role="img"][aria-label*="直播中"] * [fill="transparent"],
+[role="img"][aria-label*="配信"] * [fill="transparent"] {
+  fill: rgb(89, 54, 149);
+  mask: url(#svg-mask-status-online);
 }
