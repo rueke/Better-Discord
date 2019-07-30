@@ -55,20 +55,19 @@
 	--Chat-Avatar-Border-Radius: 3px;
 	--Background-Darkness: 0.1
 }
-/* Change Avatar Size(also moves username for you) */
-.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
-	width: 35px !important;
-	height: 35px !important;
-	background-size: cover;
+ /* Change Avatar Size(also moves username for you) */
+ .member-3W1lQa .avatarWrapper-3B0ndJ {
+    width: 35px!important;
+    height: 35px!important;
   }
-/* Changes Border-radius Avatar */
-.avatar-VxgULZ {
-	border-radius: 15px;
+  .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
+    border: solid var(--Main-Colour);
+    border: solid 1px;
   }
-  .member-3W1lQa .avatarWrapper-3B0ndJ {
-	width: 35px!important;
-	height: 35px!important;
-  }
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+  width: 35px!important;
+  height: 35px!important;
+}
 /* Home Icon*/
 a.button-OhfaWu.wrapper-1BJsBx{
 	background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover;

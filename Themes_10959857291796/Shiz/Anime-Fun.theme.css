@@ -71,19 +71,18 @@
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%; 
 } 
-/* Change Avatar Size(also moves username for you) */
-.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
-  width: 35px !important;
-  height: 35px !important;
-  background-size: cover;
-}
-/* Changes Border-radius Avatar */
-.avatar-VxgULZ {
-  border-radius: 15px;
-}
-.member-3W1lQa .avatarWrapper-3B0ndJ {
+ /* Change Avatar Size(also moves username for you) */
+ .member-3W1lQa .avatarWrapper-3B0ndJ {
   width: 35px!important;
   height: 35px!important;
+}
+.containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
+  border: solid var(--Main-Colour);
+  border: solid 1px;
+}
+.member-3W1lQa .avatarWrapper-3B0ndJ {
+width: 35px!important;
+height: 35px!important;
 }
 /* Home Button*/
 a.button-OhfaWu.wrapper-1BJsBx{
