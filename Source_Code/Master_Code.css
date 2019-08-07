@@ -46,7 +46,7 @@
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #420 ";
+  --Update-Text: " Update #421 ";
   --File-Updated-2019-7-23: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -70,7 +70,7 @@
   background: transparent;
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 135" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixes __</text><text y="95" style="font-size: 1em;" x="0">__+ 420! __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Updated Links __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -3872,46 +3872,6 @@ svg[name="Nova_Download"]{
   white-space: pre-wrap !important;
 }
 
-.message-group .message .markup-2BOw-j a[href="https://t.co/fERO36wNAg?amp=1"], .markup-2BOw-j>a[href="https://t.co/fERO36wNAg?amp=1"] {
-  font-size: 0;
-}
-
-.message-group .message .markup-2BOw-j a[href="https://t.co/fERO36wNAg?amp=1"]:after, .markup-2BOw-j>a[href="https://t.co/fERO36wNAg?amp=1"]:after {
-  content: "Net Neutrality Battle";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
-
-.message-group .message .markup-2BOw-j a[href="https://youtu.be/MGu8zOvITb8"], .markup-2BOw-j>a[href="https://youtu.be/MGu8zOvITb8"] {
-  font-size: 0;
-}
-
-.message-group .message .markup-2BOw-j a[href="https://youtu.be/MGu8zOvITb8"]:after, .markup-2BOw-j>a[href="https://youtu.be/MGu8zOvITb8"]:after {
-  content: "How To Use Font Nano Theme ";
-  font-size: 15px;
-  color: var(--Main-Colour);
-}
-
-.message-group .message .markup-2BOw-j a[href*="https://github.com/0mniscient"], .markup-2BOw-j>a[href*="https://github.com/0mniscient"] {
-  font-size: 0;
-}
-
-.message-group .message .markup-2BOw-j a[href*="https://github.com/0mniscient"]:after, .markup-2BOw-j>a[href*="https://github.com/0mniscient"]:after {
-  content: "Banned Github";
-  color: rgba(255, 65, 85, 1);
-  font-size: 15px;
-}
-
-.message-group .message .markup-2BOw-j a[href*="https://gyazo.com"], .markup-2BOw-j>a[href*="https://gyazo.com"] {
-  font-size: 0;
-}
-
-.message-group .message .markup-2BOw-j a[href*="https://gyazo.com"]:after, .markup-2BOw-j>a[href*="https://gyazo.com"]:after {
-  content: " This website is not supported by anyone who like previews.";
-  font-size: 15px;
-  animation: Links 2s infinite linear;
-}
-
 .theme-dark .noChannel-Z1DQK7 {
   background: transparent!important;
 }
@@ -4417,16 +4377,6 @@ button.btn.btn-default {
   color: var(--Main-Colour);
 }
 
-.message-group .message .markup-2BOw-j a[href="https://discord.gg/kWRYPrq"], .markup-2BOw-j>a[href="https://discord.gg/kWRYPrq"] {
-  font-size: 0;
-}
-
-.message-group .message .markup-2BOw-j a[href="https://discord.gg/kWRYPrq"]:after, .markup-2BOw-j>a[href="https://discord.gg/kWRYPrq"]:after {
-  content: "NFLD99s Support Server";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
-
 #app-mount>div:nth-child(5)>div.modal-1UGdnR>div>div>div>div>div>div.inviteTitle-2yNtkC, .keyboard-shortcuts-modal .modal-title {
   color: var(--Main-Colour);
 }
@@ -4866,137 +4816,6 @@ button.btn.btn-default {
 
 .emojiPicker-3m1S-j .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ {
   border-bottom-color: var(--Secondary-Main-Colour);
-}
-
-.markup-2BOw-j a[href="https://www.twitch.tv/NFLD99"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://www.twitch.tv/NFLD99"]:after {
-  content: "NFLD99s Twitch";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
-
-.markup-2BOw-j a[href="https://github.com/Inve1951/BetterDiscordStuff"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://github.com/Inve1951/BetterDiscordStuff"]:after {
-  content: "Square's repo";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
-
-.markup-2BOw-j a[href="https://github.com/rauenzi/BetterDiscordAddons"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://github.com/rauenzi/BetterDiscordAddons"]:after {
-  content: "Zerebos' repo";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
-
-.markup-2BOw-j a[href="https://github.com/NFLD99/Better-Discord"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://github.com/NFLD99/Better-Discord"]:after {
-  content: "NFLD99's repo";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
-
-.markup-2BOw-j a[href="https://nfld99.com/"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://nfld99.com/"]:after {
-  content: "NFLD99's Website - Home Page";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
-
-/* 
-.markup-2BOw-j a[href="https://nfld99.com/main"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://nfld99.com/main"]:after {
-  content: "NFLD99's Website - Main Themes";
-  color:var(--Main-Colour);
-  font-size: 15px;
-}
-
-.markup-2BOw-j a[href="https://nfld99.com/mini"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://nfld99.com/mini"]:after {
-  content: "NFLD99's Website - Mini Themes";
-  color:var(--Main-Colour);
-  font-size: 15px;
-}
-
-.markup-2BOw-j a[href="https://nfld99.com/requested"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://nfld99.com/requested"]:after {
-  content: "NFLD99's Website - Requested Themes";
-  color:var(--Main-Colour);
-  font-size: 15px;
-}
-
-.markup-2BOw-j a[href="https://nfld99.com/submitted"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://nfld99.com/submitted"]:after {
-  content: "NFLD99's Website - Submited Themes";
-  color:var(--Main-Colour);
-  font-size: 15px;
-}
-
-.markup-2BOw-j a[href="https://nfld99.com/discord"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://nfld99.com/discord"]:after {
-  content: "NFLD99's Website - Discord Invite";
-  color:var(--Main-Colour);
-  font-size: 15px;
-} */
-
-.markup-2BOw-j a[href="https://github.com/mwittrien/BetterDiscordAddons"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://github.com/mwittrien/BetterDiscordAddons"]:after {
-  content: "DevilBro's repo";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
-
-.markup-2BOw-j a[href="https://github.com/DevilsLynAvenged/DevilsLynAvenged"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://github.com/DevilsLynAvenged/DevilsLynAvenged"]:after {
-  content: "DevilsLynAvenged's repo";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
-
-.markup-2BOw-j a[href="https://github.com/hammy1/BDStuff"] {
-  font-size: 0;
-}
-
-.markup-2BOw-j a[href="https://github.com/hammy1/BDStuff"]:after {
-  content: "Hammy's repo";
-  color: var(--Main-Colour);
-  font-size: 15px;
 }
 
 [class*="lookFilled-"]:hover {
@@ -13193,4 +13012,45 @@ body .ace_closeButton:hover::before {
 .theme-dark .dragInner-_SHftW, .theme-light .dragInner-_SHftW {
   background-color: var(--Secondary-Main-Colour);
   border-radius: 50%;
+}
+
+.message-group .message .markup-2BOw-j a[href*="https://github.com/0mniscient"],
+.markup-2BOw-j>a[href*="https://github.com/0mniscient"] {
+  color: var(--sourcecheck-unsafe) !important;
+}
+
+.message-group .message .markup-2BOw-j a[href*="https://github.com/0mniscient"]:after, .markup-2BOw-j>a[href*="https://github.com/0mniscient"]:after{
+  content: " " var(--sourcecheck-unsafe-link-icon) !important;
+ }
+
+.markup-2BOw-j a[href="https://discord.gg/kWRYPrq"]:after,
+.markup-2BOw-j>a[href="https://discord.gg/kWRYPrq"]:after,
+.markup-2BOw-j a[href="https://www.twitch.tv/NFLD99"]:after,
+.markup-2BOw-j a[href="https://github.com/Inve1951/BetterDiscordStuff"]:after,
+.markup-2BOw-j a[href="https://github.com/rauenzi/BetterDiscordAddons"]:after,
+.markup-2BOw-j a[href="https://github.com/rauenzi/BetterDiscordAddons"]:after,
+.markup-2BOw-j a[href="https://github.com/NFLD99/Better-Discord"]:after,
+.markup-2BOw-j a[href="https://github.com/hammy1/BDStuff"]:after,
+.markup-2BOw-j a[href="https://github.com/DevilsLynAvenged/DevilsLynAvenged"]:after,
+.markup-2BOw-j a[href="https://github.com/mwittrien/BetterDiscordAddons"]:after,
+.markup-2BOw-j a[href="https://nfld99.com/"]:after,
+.markup-2BOw-j a[href="https://github.com/NFLD99/Better-Discord"]:after
+{
+  content: " " var(--sourcecheck-official-link-icon) !important;
+}
+
+.markup-2BOw-j a[href="https://discord.gg/kWRYPrq"],
+.markup-2BOw-j>a[href="https://discord.gg/kWRYPrq"],
+.markup-2BOw-j a[href="https://www.twitch.tv/NFLD99"],
+.markup-2BOw-j a[href="https://github.com/Inve1951/BetterDiscordStuff"],
+.markup-2BOw-j a[href="https://github.com/rauenzi/BetterDiscordAddons"],
+.markup-2BOw-j a[href="https://github.com/rauenzi/BetterDiscordAddons"],
+.markup-2BOw-j a[href="https://github.com/NFLD99/Better-Discord"],
+.markup-2BOw-j a[href="https://github.com/hammy1/BDStuff"],
+.markup-2BOw-j a[href="https://github.com/DevilsLynAvenged/DevilsLynAvenged"],
+.markup-2BOw-j a[href="https://github.com/mwittrien/BetterDiscordAddons"],
+.markup-2BOw-j a[href="https://nfld99.com/"],
+.markup-2BOw-j a[href="https://github.com/NFLD99/Better-Discord"]
+{
+  color: var(--sourcecheck-official) !important;
 }
