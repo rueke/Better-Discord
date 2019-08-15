@@ -1,1 +1,1 @@
-Search bar is now just the icon unless its being used 
+Fixed Speaking User 
