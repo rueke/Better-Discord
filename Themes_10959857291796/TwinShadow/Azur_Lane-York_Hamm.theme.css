@@ -1,8 +1,8 @@
 /** 
- * @name Azur Lane - Z46
+ * @name Azur Lane - Yorktown and Hammann
  * @author TwinShadow
  * @version ersion auto updates
- * @description From Azur Lane, Z46 graces your dock. Seems she likes to read in the library. Azur Lane © YoStar    |    Theme based on NFLD's template.    |    Support: https://nfld99.com/discord
+ * @description Yorktown and Hammann grace you with their presence with Hammann caring deeply for Yorktown. Azur Lane © YoStar    |    Theme based on NFLD's template.    |    Support: https://nfld99.com/discord
  * @source https://github.com/TwinDragon/DiscordTheme
  * @website https://nfld99.com/
 */
@@ -37,38 +37,38 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 
 :root {
-  --Main-Colour: rgba(218, 165, 32,1);
-  --Background-Colour: #002366A0;
-  --Secondary-Background-Colour: rgba(100,100,100,.15);
-  --Secondary-Main-Colour: #007FFFFF;
+  --Main-Colour: #F0FFFFFF;
+  --Background-Colour: rgba(0, 0, 245, 0.1);
+  --Secondary-Background-Colour: rgba(192, 192, 192, .1);
+  --Secondary-Main-Colour: rgba(108, 180, 238, 1);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
-  --Scroller-Colour: rgba(218, 165, 32,.65);
+  --Scroller-Colour: rgba(0, 90, 156, .9);
   --Notification-Colour: rgba(13, 152, 186,1);
   --Chat-Input-Background: rgba(0,0,0,0);
   --Chat-Input-Colour: var(--Main-Colour);
   --Unread-Message-1: var(--Secondary-Main-Colour);
   --Unread-Message-2: #007FFF64;
-  --Chat-Background: url(https://i.imgur.com/gM5wAxY.png);
-  --Settings-Background: rgba(0,0,48, 0.85);
+  --Chat-Background: url(https://i.imgur.com/ubzL3Wd.jpg);
+  --Settings-Background: rgba(75, 146, 219, 0.25);
   --Callout-Background: rgba(15,15,15, 0.90);
   --Title-Background: var(--Background-Colour);
-  --Theme-Variant: " Azur Lane - Z46";
+  --Theme-Variant: " Azur Lane - Yorktown and Hammann";
   --Chat-Font-Used: ;
   --Chat-Font-Size: 15px;
   --Unread-Message-Speed: 1.5s;
   --Popout-Main-Colour: var(--Main-Colour);
   --Popout-Background: url(https://i.imgur.com/WnmElFS.png);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
-  --Emote-Popout-Background: rgba(75,76,76,.5);
+  --Emote-Popout-Background: rgba(77, 77, 255, .2);
   --load1: "Azur Lane";
-  --load2: "Z46";
+  --load2: "Yorktown and Hammann";
   --load3: "By TwinShadow";
   --File-Updated-2019-7-23: ;
   --Settings-Dock-Colour: var(--Main-Colour);
-  --Timestamp-Colour: rgba(190, 211, 229, 0.9);
+  --Timestamp-Colour: #F0FFFFA6;
   --Guild-Columns: 1;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
-  --Chat-Avatar-Border-Radius: 10%;
+  --Chat-Avatar-Border-Radius: 15%;
   --Background-Darkness: 0.5;
 }
 
@@ -105,17 +105,6 @@
 */
 /* END */
 
-/* Category Colors
-   Non-Collapsed */
-.name-IbjUBS{
-	color: rgba(190, 211, 229, 0.9)!important;
-}
-/* Collapsed */
-.collapsed-4WdoJ7  > .name-IbjUBS{
-	color: #4169E1C2!important;
-}
-/* END */
-
 /* Hide Discover Servers Button */
 /*
 .wrapper-1Rf91z .scroller-2TZvBN > .listItem-2P_4kh:not([folder*="folder_"]):nth-last-of-type(1) {
@@ -127,39 +116,21 @@
 /* Popout Context Menu */
 .theme-dark .item-1Yvehc {
   background: rgb(0, 0, 0) !important;
-  background-color: #00236686 !important;
-  color: rgb(178, 255, 255) !important;
+  background-color: rgb(31, 117, 254, 0.25) !important; /* buttons */
+  color: rgb(140, 240, 255) !important; /* button text */
 }
 
 .theme-dark .item-1Yvehc:hover {
   background: rgb(0, 0, 0) !important;
-  background-color: #002366C2 !important;
-  color: rgb(64, 224, 208)!important;
+  background-color: rgba(118, 171, 223, 0.65) !important; /* button hover */
+  color: rgb(240, 255, 255)!important; /* button hover text */
 }
 
 div.option-popout.small-popout-box, div.context-menu, .context-menu .context-menu:not(.item-subMenu), .contextMenu-HLZMGh, .contextMenu-HLZMGh.disabled-dlOjhg .checkbox {
   background: rgb(0, 0, 0) !important;
-  background-color: rgba(42, 82, 190, 0.9) !important;
-  border: 2px solid rgba(190, 211, 229, 0.9) !important;
+  background-color: rgba(84, 90, 167, 0.8) !important; /* main background */
+  border: 2px solid rgba(51, 51, 153, 0.7) !important;
 }
-/* END */
-
-/* Channel Gradients */
-
-.modeUnread-1zpFdA > .content-3at_AU{
-  background: linear-gradient(to right, #00236665, #002366E0, rgba(218, 165, 32,.8))!important;
-  background-size: 150% 150%;
-}
-.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ > .content-3at_AU{
-  background: linear-gradient(to right, #002366E0, rgba(218, 165, 32,.8))!important;
-  background-size: 50% 50%;
-}
-/*
-.theme-dark .wrapper-1ucjTd:hover .content-3at_AU{
-  background: green!important;
-  background-size: 100% 100%;
-}
-*/
 /* END */
 
 /* Channel Borders*/
@@ -188,15 +159,5 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
   width: 35px !important;
   height: 35px !important;
   background-size: cover;
-}
-
-/* Changes Border-radius Avatar */
-.avatar-VxgULZ {
-  border-radius: 20px;
-}
-
-.member-3W1lQa .avatarWrapper-3B0ndJ {
-  width: 35px!important;
-  height: 35px!important;
 }
 /* END */
