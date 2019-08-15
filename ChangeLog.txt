@@ -1,2 +1,1 @@
-Search bar is no longer limited to 240px 
-Removed the stupid fucking Crown 
+Search bar is now just the icon unless its being used 
