@@ -54,6 +54,8 @@
   --BetterDocsBlockerBlack2: var(--Secondary-Background-Colour);
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Home-Icon-Mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>bubble2</title><path d="M16 6c-1.717 0-3.375 0.271-4.928 0.804-1.46 0.502-2.76 1.211-3.863 2.108-2.069 1.681-3.209 3.843-3.209 6.088 0 1.259 0.35 2.481 1.039 3.63 0.711 1.185 1.781 2.268 3.093 3.133 0.949 0.625 1.587 1.623 1.755 2.747 0.056 0.375 0.091 0.753 0.105 1.129 0.233-0.194 0.461-0.401 0.684-0.624 0.755-0.755 1.774-1.172 2.828-1.172 0.168 0 0.336 0.011 0.505 0.032 0.655 0.083 1.325 0.126 1.99 0.126 1.717 0 3.375-0.271 4.928-0.804 1.46-0.502 2.76-1.211 3.863-2.108 2.069-1.681 3.209-3.843 3.209-6.088s-1.14-4.407-3.209-6.088c-1.104-0.897-2.404-1.606-3.863-2.108-1.553-0.534-3.211-0.804-4.928-0.804zM16 2v0c8.837 0 16 5.82 16 13s-7.163 13-16 13c-0.849 0-1.682-0.054-2.495-0.158-3.437 3.437-7.539 4.053-11.505 4.144v-0.841c2.142-1.049 4-2.961 4-5.145 0-0.305-0.024-0.604-0.068-0.897-3.619-2.383-5.932-6.024-5.932-10.103 0-7.18 7.163-13 16-13z"></path></svg>');
+  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug fixes, trying a new thing aswell __</text></g></svg>');
+  --ChangelogSize: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"></svg>');
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -67,15 +69,23 @@
   margin-left: -5px;
   position: absolute;
   display: block;
-  background: transparent;
+  background: linear-gradient(to top, red, violet, indigo, blue, green, yellow, orange, red);
   border: 1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Fixed Speaking User __</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: var(--ChangelogSize) var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
-  animation: CLog 10s infinite linear;
+  animation: UploaderBG 10s infinite linear;
   z-index: 9997;
   color: var(--Main-Colour);
   width: 50%;
+  -webkit-mask: var(--Changelog);
+  -webkit-mask-repeat: no-repeat;
+  background-size: 200% 200%!important;
+}
+
+[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after{
+  content:var(--Theme-Variant)", "var(--Update-Text);
+  color: var(--Main-Colour);
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -1741,91 +1751,6 @@ spinner-pulsing-ellipsis .spinner-item {
   background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Secondary-Main-Colour));
   color: var(--Main-Colour) !important;
 }
-
-/* Keyframs */
-
-/* @keyframes DropDown {
-  from {
-      transform: translate(0, 100vh);
-      opacity: 0;
-  }
-  to {
-      transform: translate(0, 0);
-      opacity: 1;
-  }
-} */
-
-@keyframes Notif {
-  from, to {
-    transform: translate(-50%, -100%);
-    opacity: 0;
-  }
-  20%, 80% {
-    transform: translate(-50%, 10%);
-    opacity: 1;
-  }
-}
-
-@keyframes Notif2 {
-  from, to {
-    transform: translate(-50%, -50%);
-    opacity: 0;
-  }
-  20%, 80% {
-    transform: translate(-50%, 112%);
-    opacity: 1;
-  }
-}
-
-@keyframes CLog {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
-  to {
-    -webkit-filter: hue-rotate(360deg);
-  }
-}
-
-@keyframes Everyone {
-  0% {
-    box-shadow: 0px 0px 15px 0px var(--Secondary-Main-Colour);
-  }
-  50% {
-    box-shadow: 0px 0px 15px 5px var(--Secondary-Main-Colour);
-  }
-  100% {
-    box-shadow: 0px 0px 15px 0px var(--Secondary-Main-Colour);
-  }
-}
-
-@keyframes Everyone2 {
-  0% {
-    transform: translate(0, -200%) scale(0);
-  }
-  100% {
-    transform: translate(0, 0) scale(1);
-  }
-}
-
-@keyframes auth {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
-  to {
-    -webkit-filter: hue-rotate(360deg);
-  }
-}
-
-@keyframes Popoutinvite {
-  from {
-    width: 0px;
-  }
-  to {
-    width: 920px;
-  }
-}
-
-/* Keyframs */
 
 /*Thanks to Nomuit#7411 For Helping me find this */
 
@@ -13270,4 +13195,46 @@ body .ace_closeButton:hover::before {
 
 .search-2oPWTC:not(.focused-31_ccS) *{
   cursor: pointer
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc{
+  background: var(--Background-Colour);
+  border-top-right-radius: 40% 100%;
+  border-top-left-radius:40% 100%;
+  border-bottom-right-radius: 40% 100%;
+  border-bottom-left-radius:40% 100%;
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo{
+  color: var(--Main-Colour);
+  border: 2px dashed var(--Main-Colour);
+  border-top: none;
+  border-bottom: none;
+  border-top-right-radius: 40% 100%;
+  border-top-left-radius:40% 100%;
+  border-bottom-right-radius: 40% 100%;
+  border-bottom-left-radius:40% 100%;
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.one-2crnLX{
+  display: none
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.three-27ScFD{
+  display: none
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9{
+  background: linear-gradient(to top, transparent, transparent, transparent, var(--Main-Colour), transparent, transparent, transparent);
+  animation: Uploader 3s infinite alternate-reverse, UploaderBG 3s infinite linear;
+  background-size: 200% 200%;
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg width="100px" height="130px" viewBox="0 0 100 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch --><title>icon-file-large-document</title><desc>Created with Sketch.</desc><defs><filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1"><feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset><feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur><feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix><feMerge><feMergeNode in="shadowMatrixOuter1"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter><filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2"><feOffset dx="-1" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset><feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur><feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix><feMerge><feMergeNode in="shadowMatrixOuter1"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><g id="Drag-&amp;-Drop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"><g id="Desktop-HD---Drag-&amp;-Drop,-Droplet" sketch:type="MSArtboardGroup" transform="translate(-548.000000, -868.000000)"><g id="Group" sketch:type="MSLayerGroup" transform="translate(239.000000, 880.000000)"><g id="icon-file-large-document" transform="translate(324.000000, 0.000000)" sketch:type="MSShapeGroup"><g id="Group" stroke-width="2"><path d="M0,6.99306484 C0,3.68318653 2.67945063,1 5.99088792,1 L50.2815992,1 C54.8549257,1 70,16.4899443 70,21.238384 L70,94.9997026 C70,98.3135753 67.3201398,101 64.0015788,101 L5.99842118,101 C2.68558464,101 0,98.312319 0,95.0069352 L0,6.99306484 Z" id="Rectangle-113" stroke="#7289DA" fill="transparent" filter="url(#filter-1)"></path><path d="M51,3.99706188 C51,0.684976062 52.8947487,-0.105251323 55.2418213,2.24182129 L68.7581787,15.7581787 C71.1008719,18.1008719 70.3133742,20 67.0029381,20 L54.0013869,20 C52.3437667,20 51,18.6569187 51,16.9986131 L51,3.99706188 Z" id="Path" stroke="#7289DA" fill="transparent" filter="url(#filter-2)"></path><path d="M46,5 L7.98543461,5 C5.22563406,5 2.98837366,7.22898489 2.98837366,10.0021863 L2.98837366,17" id="Path-156" stroke="#C9D2F0" opacity="0.6"></path><path d="M54,7 L54,14.5023733 C54,15.8817744 55.1096621,17 56.5,17 L59,17" id="Path-157" stroke-opacity="0.6" stroke="#C9D2F0"></path></g><path d="M8,75 L62,75 L62,78 L8,78 L8,75 Z M8,82 L62,82 L62,85 L8,85 L8,82 Z M8,68 L62,68 L62,71 L8,71 L8,68 Z M8,19 L42,19 L42,22 L8,22 L8,19 Z M8,61 L62,61 L62,64 L8,64 L8,61 Z M8,54 L62,54 L62,57 L8,57 L8,54 Z M8,47 L62,47 L62,50 L8,50 L8,47 Z M8,40 L62,40 L62,43 L8,43 L8,40 Z M8,33 L62,33 L62,36 L8,36 L8,33 Z M8,26 L42,26 L42,29 L8,29 L8,26 Z" id="Rectangle-128" opacity="0.600000024" fill="lime"></path></g></g></g></g></svg>')
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo{
+  color: var(--Main-Colour);
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG{
+  color: var(--Main-Colour);
 }
