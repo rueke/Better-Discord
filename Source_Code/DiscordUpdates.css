@@ -10,7 +10,7 @@ html:first-child:last-child:only-child > head:first-child + body:last-child > di
 	border:5px solid goldenrod !important;
 	color: goldenrod !important;
 	padding: 0 !important;
-	padding-top: calc(50vh - 40px) !important;
+	padding-top: calc(20vh - 40px) !important;
 	margin: 0 !important;
 	display: inline !important;
 	opacity: 1 !important;
