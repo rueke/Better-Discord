@@ -1,10 +1,11 @@
+
 /* Thanks To uri#0002 For This Code, and to Square#3880 for helping me make it better */
-.channels-Ie2l6A > div:last-child{
+.container-3baos1:last-child{
 	position: relative;
 	overflow: visible;
 }
 
-.channels-Ie2l6A > div:last-child > div:last-child{
+.container-3baos1:last-child > div:last-child{
 	width: 35px;
 	height: 32px;
 	background-color: transparent!important;
@@ -12,8 +13,8 @@
 	margin: 0;
 	padding: 0 0 25px 0;
 	position: absolute;
-	bottom: 5px;
-  right: -10px;
+	bottom: 14px;
+  right: -6px;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -23,30 +24,30 @@
 	box-sizing: border-box;
 }
 
-.channels-Ie2l6A > div:last-child:not(:hover) > div:last-child > :nth-child(1){
+.container-3baos1:last-child:not(:hover) > div:last-child > :nth-child(1){
 	opacity: 0;
 }
 
-.channels-Ie2l6A > div:last-child:not(:hover) > div:last-child > :nth-child(2){
+.container-3baos1:last-child:not(:hover) > div:last-child > :nth-child(2){
 	opacity: 0;
 }
 
-.channels-Ie2l6A > div:last-child:hover > div:last-child:hover{
+.container-3baos1:last-child:hover > div:last-child:hover{
 	height: 95px;
 	width: 50px;
 	transition: 500ms ease-in-out;
 }
 
-.channels-Ie2l6A > div:last-child:hover > div:last-child:before{
+.container-3baos1:last-child:hover > div:last-child:before{
 	opacity: 0.5;
 }
 
-.channels-Ie2l6A > div:last-child > div:last-child > div *{
+.container-3baos1:last-child > div:last-child > div *{
 	left: 0;
 	display: none;
 }
 
-.channels-Ie2l6A > div:last-child:hover > div:last-child:hover > div *{
+.container-3baos1:last-child:hover > div:last-child:hover > div *{
 	display: block;
 }
 
