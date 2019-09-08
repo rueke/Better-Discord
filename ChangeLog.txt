@@ -1,1 +1,1 @@
-Canary Bug Fixes? 
+Fixed "Avatars" and "Font" mini themes 
