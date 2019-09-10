@@ -19,7 +19,7 @@
 .markup-2BOw-j, .da-markup-2B0w{
     position: relative; 
     right: 3px;
-    top: -7px;
+    top: -7px; !important
     bottom: 5px;
  
 }
