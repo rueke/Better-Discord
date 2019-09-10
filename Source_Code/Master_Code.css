@@ -48,7 +48,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://bdsources.tk/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #437 ";
+  --Update-Text: " Update #441 ";
   --File-Updated-2019-7-23: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -57,9 +57,9 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Home-Icon-Mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>bubble2</title><path d="M16 6c-1.717 0-3.375 0.271-4.928 0.804-1.46 0.502-2.76 1.211-3.863 2.108-2.069 1.681-3.209 3.843-3.209 6.088 0 1.259 0.35 2.481 1.039 3.63 0.711 1.185 1.781 2.268 3.093 3.133 0.949 0.625 1.587 1.623 1.755 2.747 0.056 0.375 0.091 0.753 0.105 1.129 0.233-0.194 0.461-0.401 0.684-0.624 0.755-0.755 1.774-1.172 2.828-1.172 0.168 0 0.336 0.011 0.505 0.032 0.655 0.083 1.325 0.126 1.99 0.126 1.717 0 3.375-0.271 4.928-0.804 1.46-0.502 2.76-1.211 3.863-2.108 2.069-1.681 3.209-3.843 3.209-6.088s-1.14-4.407-3.209-6.088c-1.104-0.897-2.404-1.606-3.863-2.108-1.553-0.534-3.211-0.804-4.928-0.804zM16 2v0c8.837 0 16 5.82 16 13s-7.163 13-16 13c-0.849 0-1.682-0.054-2.495-0.158-3.437 3.437-7.539 4.053-11.505 4.144v-0.841c2.142-1.049 4-2.961 4-5.145 0-0.305-0.024-0.604-0.068-0.897-3.619-2.383-5.932-6.024-5.932-10.103 0-7.18 7.163-13 16-13z"></path></svg>');
 
-  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Fixed settings dock colour __</text></g></svg>');
+  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 185" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Fixed Guild Columns __</text><text y="95" style="font-size: 1em;" x="0">__+ Fixed DM Call Avatars __</text><text y="105" style="font-size: 1em;" x="0">__+ Fixed Typing Sizing __</text><text y="115" style="font-size: 1em;" x="0">__+ Fixed Hovers __</text><text y="125" style="font-size: 1em;" x="0">__+ Fixed Animations __</text><text y="135" style="font-size: 1em;" x="0">__+ Fixed Native Server Folders UI __</text><text y="145" style="font-size: 1em;" x="0">__+ Fixed Colour Picker __</text><text y="155" style="font-size: 1em;" x="0">__+ Fixed Settings Dock Colours __</text><text y="165" style="font-size: 1em;" x="0">__+ Fixed Watermark __</text><text y="175" style="font-size: 1em;" x="0">__+ Fixed new Messages Bar __</text></g></svg>');
 
-  --ChangelogSize: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"></svg>');
+  --ChangelogSize: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 185" style="width:100%;height:100px;"></svg>');
 
   --SD-roundness: var(--Chat-Avatar-Border-Radius); /* Must be with px */
   --green: #43b581;
@@ -3000,6 +3000,10 @@ div.form-inner, .form-actions {
 }
 
 #app-mount > div > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div > div > div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8.firefoxFixScrollFlex-cnI2ix > div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.container-2Thooq > div.accountDetails-3k9g4n.nameTag-m8r81H > .discriminator-3W31ZY:after {
+  content: "  NFLD99.com  " !important;
+}
+
+#app-mount > div.app-19_DXt > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div > div > div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8 > div.channels-Ie2l6A > div.panels-j1Uci_ > div > div.nameTag-3uD-yy > div.size10-tblYdA.subtext-3CDbHg:after {
   content: "  NFLD99.com  " !important;
 }
 
@@ -13275,4 +13279,205 @@ html * .username-_4ZSMR[changed-by-editusers="true"] *,html * .name-2WpE7M[chang
 
 .container-3baos1 .contents-18-Yxp *{
   fill: var(--Settings-Dock-Colour)!important
+}
+
+/* canary 2019-09-08 */
+
+.panels-j1Uci_{
+  background-color: transparent;
+}
+
+.theme-dark{
+  --header-primary: var(--Main-Colour);
+  --header-secondary: var(--Secondary-Main-Colour);
+  --channels-default: var(--Secondary-Main-Colour);
+  --interactive-normal: var(--Secondary-Main-Colour);
+  --interactive-hover: var(--Main-Colour);
+  --interactive-active: var(--Main-Colour);
+  --text-normal: var(--Main-Colour);
+  --text-muted: var(--Secondary-Main-Colour);
+  --background-modifier-hover:transparent;
+}
+
+.helper-2c73HK,.separator-2zcjq8{
+  display:none;
+}
+
+.menu-Sp6bN1{
+  padding: 0;
+  margin: 0;
+}
+
+.itemBase-1Qj4z6{
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 24px;
+  min-height: 24px;
+}
+
+.itemBase-tz5SeC{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  height: 24px;
+  min-height: 30px;
+}
+
+.privateChannels-1nO12o{
+  background: transparent;
+}
+
+.selected-aXhQR6 .layout-2DM8Md,.clickable-1JJAn8:hover .layout-2DM8Md{
+  color: var(--Main-Colour) !important;
+  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Notification-Colour)) !important;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9, .wrapper-1BJsBx .childWrapper-anI2G9{
+  background: transparent;
+}
+
+.button-14-BFJ.enabled-2cQ-u7:hover{
+  background: transparent;
+}
+
+.sprite-2iCowe{
+  content: "";
+  -webkit-mask-size: 80% !important;
+  -webkit-mask-position: 80% !important;
+  -webkit-mask-repeat: no-repeat !important;
+  background-image: none !important;
+  background-color: var(--Secondary-Main-Colour) !important;
+  color: var(--Secondary-Main-Colour) !important;
+  fill: var(--Secondary-Main-Colour) !important;
+  filter: grayscale(0%)!important;
+}
+
+.theme-dark .categoryFadeBlurple-1j72_A, .theme-light .categoryFadeBlurple-1j72_A{
+  background-color: var(--Secondary-Main-Colour) !important;
+}
+
+.theme-dark .categoryFade-2ybR1J:hover, .theme-light .categoryFade-2ybR1J:hover{
+  background-color: var(--Secondary-Background-Colour) !important;
+}
+
+.theme-dark .focused-1En8bG:after, .theme-dark .result-3w1ZcL:hover:after{
+  box-shadow: inset 0 0 0 2px var(--Main-Colour), inset 0 0 0 3px var(--Background-Colour);
+}
+
+.attachButtonDivider-3Glu60{
+  display: none;
+}
+
+.result-3w1ZcL{
+  background-color: var(--Background-Colour) !important;
+}
+
+.css-1wqqa50-container,.css-1rckt42-menu{
+  background: var(--Background-Colour);
+}
+
+.theme-dark .card-3DjzTQ:hover{
+  background: var(--Background-Colour);
+}
+
+.theme-dark .activeButton-1BJAiN, .theme-dark .activeButton-1BJAiN:hover,.theme-dark .pageButton-MknE-_:hover {
+  color: var(--Main-Colour);
+  background-color: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.animatedContainer-1pJv5C,.bannerBG-3zMP90{
+  background-color: transparent;
+}
+
+/* 2019-09-10 */
+
+.sprite-2iCowe{
+  -webkit-mask: url('https://nfld99.com/images/StratoStillWave.png');
+}
+
+.sprite-2iCowe:hover{
+  -webkit-mask: url('https://nfld99.com/images/StratoGiflWave.gif');
+}
+
+.dividerRed-MKoLlr .dividerContent-2L12VI:after, .dividerRed-MKoLlr .dividerContent-2L12VI:before{
+  background-color: var(--Main-Colour)!important
+}
+
+.base-3dtUhz{
+  left: calc(var(--Guild-Columns) * 60px)
+}
+
+.clickable-11uBi-:active{
+  background: transparent;
+}
+
+.callAvatarVoice-29N_wG{
+  border-radius: var(--Chat-Avatar-Border-Radius);
+}
+
+.callAvatarBorder-uWp8Ga.voice-3bPYC-.speaking-B2MXPi{
+  border-radius: var(--Chat-Avatar-Border-Radius);
+  box-shadow: inset 0 0 0 3px var(--Main-Colour);
+}
+
+.callAvatarBorder-uWp8Ga.voice-3bPYC-.notSpeaking-a3bIkW{
+  border-radius: var(--Chat-Avatar-Border-Radius);
+  box-shadow: inset 0 0 0 3px var(--Secondary-Main-Colour);
+}
+
+.theme-dark .attachPopout-1n-ZKM{
+  box-shadow: inset 0 0 0 1px var(--Secondary-Main-Colour);
+}
+
+.theme-dark .attachPopout-1n-ZKM:hover{
+  box-shadow: inset 0 0 0 1px var(--Main-Colour);
+}
+
+.attachPopoutRow-KrE-f6:hover{
+  box-shadow: inset 0 0 0 1px var(--Main-Colour);
+}
+
+.attachPopoutRow-KrE-f6{
+  box-shadow: inset 0 0 0 1px var(--Secondary-Main-Colour);
+}
+
+.attachPopout-1n-ZKM > :nth-child(1){
+  left: 12px;
+}
+
+.theme-dark .root-1gCeng{
+  background: var(--Background-Colour);
+  box-shadow: inset 0 0 0 1px var(--Main-Colour);
+}
+
+.theme-dark .colorPickerCustom-2CWBn2{
+  background: var(--Background-Colour) !important;
+  border-color: var(--Main-Colour);
+  border-radius: 5px;
+}
+
+.name-uJV0GL{
+  width: 100px;
+}
+
+.typing-2GQL18 .base-gE7OpD{
+  max-height: 15px;
+}
+
+.container-3baos1 .contents-18-Yxp *{
+  fill: var(--Settings-Dock-Colour)!important
+}
+
+.container-3baos1:not(:hover) .contents-18-Yxp *{
+  opacity: .5;
+}
+
+.reactions-1xb2Ex{
+  display: inherit
+}
+
+#app-mount > div.app-19_DXt > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div > div > div.base-3dtUhz > div > div.sidebar-2K8pFh > div.panels-j1Uci_ > div.container-3baos1 > div.nameTag-3uD-yy > div.size10-tblYdA.subtext-3CDbHg:after{
+  content: " NFLD99.com"
 }

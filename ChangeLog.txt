@@ -1,1 +1,10 @@
-Fixed settings dock colour 
+Fixed Guild Columns 
+Fixed DM Call Avatars 
+Fixed Typing Sizing 
+Fixed Hovers 
+Fixed Animations 
+Fixed Native Server Folders UI 
+Fixed Colour Picker 
+Fixed Settings Dock Colours 
+Fixed Watermark 
+Fixed new Messages Bar 
