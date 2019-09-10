@@ -5,8 +5,8 @@
   .theme-dark .headerCozyMeta-rdohGq::after {
     content: '';
     position: absolute;
-    left: -20px;
-    top: 7px;
+    left: -11px;
+    top: 8px;
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
@@ -14,18 +14,32 @@
     border-right: 10px solid var(--Main-Colour);
 }
   .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA { 
-      right:77px; 
+      right:73px; 
+}
+.markup-2BOw-j, .da-markup-2B0w{
+    position: relative; 
+    right: 75px;
+    bottom: 20px;
+ 
+}
+.username-_4ZSMR {
+    position: relative; 
+    right: -3px;
+    bottom: 20px;
+    
 }
 .theme-dark .timestampCozy-2hLAPV {
-    padding-left: 5px;
+    position: relative; 
+    right: -5px;
+    bottom: 20px;
 }
 .theme-dark .headerCozyMeta-rdohGq {
     position: relative;
-    right: 70px;
+    right: 15px;
 }
 
-.contentCozy-3XX413, .theme-dark .headerCozyMeta-rdohGq {
-    margin-left: 5px;
+.headerCozyMeta-rdohGq,.da-headerCozyMeta.contentCozy-3XX413, .theme-dark .headerCozyMeta-rdohGq {
+    margin-left: -58px;
 }
 
 /* disabling divider */
@@ -40,12 +54,13 @@
 
 /* removed to fix weird scroll bug */
 
-.messageCompact-kQa7ES, .messageCozy-2JPAPA {
+.containerCozyBounded-1rKFAn, .containerCozy-jafyvG , .container-1YxwTf , .da-containerCozyBounded da-containerCozy da-container32i8lo  {
     background: var(--Secondary-Background-Colour);
     border: 1px solid var(--Main-Colour);
     margin-right: 7px;
     margin-left: 65px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 22px;
+    padding-bottom: -5px;
     border-radius: 3px;
 }
+
