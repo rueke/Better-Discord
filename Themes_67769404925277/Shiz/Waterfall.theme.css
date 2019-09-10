@@ -71,6 +71,14 @@
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%; 
 } 
+/* Change Home Icon (uses base64 encoding) */
+.homeIcon-tEMBK1 > path, .homeIcon-tEMBK1,
+.homeIcon-tEMBK1 > path:hover, .homeIcon-tEMBK1:hover{
+  opacity: 0;
+}
+.childWrapper-anI2G9{ 
+  background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover!important;
+}
 /* Change Avatar Size(also moves username for you) */
 .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
   width: 35px !important;
