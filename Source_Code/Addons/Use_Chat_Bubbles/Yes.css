@@ -55,7 +55,7 @@
 
 /* removed to fix weird scroll bug */
 
-.containerCozyBounded-1rKFAn, .containerCozy-jafyvG , .container-1YxwTf , .da-containerCozyBounded da-containerCozy da-container32i8lo  {
+.containerCozyBounded-1rKFAn, .container-1YxwTf , .da-containerCozyBounded da-containerCozy da-container32i8lo  {
     background: var(--Secondary-Background-Colour);
     border: 1px solid var(--Main-Colour);
     margin-right: 7px;
@@ -64,3 +64,10 @@
     padding-bottom: -5px;
     border-radius: 3px;
 }
+.containerCozy-jafyvG{
+    margin-top: 15px;
+    margin-bottom: 15px;
+ 
+} 
+  
+ 
