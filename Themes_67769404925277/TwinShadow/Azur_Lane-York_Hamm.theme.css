@@ -19,8 +19,6 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
 /* Chat Title Bar */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
-/* Guild List */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Guilds/No.css);
 /* Invites */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
 /* Member List */ 
@@ -63,7 +61,7 @@
   --load1: "Azur Lane";
   --load2: "Yorktown and Hammann";
   --load3: "By TwinShadow";
-  --File-Updated-2019-7-23: ;
+  --File-Updated-2019-9-15: ;
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: #F0FFFFA6;
   --Guild-Columns: 1;

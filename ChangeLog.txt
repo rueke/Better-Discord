@@ -1,1 +1,2 @@
 Bug Fixes <:D 
+Removed Guild Hide 

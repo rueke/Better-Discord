@@ -21,8 +21,6 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
 /* Chat Title Bar */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
-/* Guild List */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Guilds/No.css);
 /* Invites */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
 /* Member List */ 
@@ -63,7 +61,7 @@
     --Popout-Background: url(https://i.imgur.com/TOQZqwB.jpg);
     --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
     --Emote-Popout-Background: url(https://i.imgur.com/D5z91D3.jpg);
-    --File-Updated-2019-7-23: ;
+    --File-Updated-2019-9-15: ;
     --Settings-Dock-Colour: var(--Main-Colour);
     --Timestamp-Colour: rgb(253, 31, 42);
     --Guild-Columns: 1;
