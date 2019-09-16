@@ -1,2 +1,2 @@
-Bug Fixes <:D 
-Removed Guild Hide 
+Fixed Chat Background Not Rendering 
+lil bit of code cleanup 
