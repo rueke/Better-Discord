@@ -1,2 +1,2 @@
-Fixed Chat Background Not Rendering 
-lil bit of code cleanup 
+Memberlist update 
+Bug fixs 
