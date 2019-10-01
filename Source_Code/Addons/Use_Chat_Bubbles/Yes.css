@@ -18,7 +18,7 @@
 }
 .markup-2BOw-j, .da-markup-2B0w{
     position: relative; 
-    right: 3px;
+    right: 78px;
     top: -7px; !important
     bottom: 5px;
  
@@ -26,7 +26,7 @@
 .username-_4ZSMR {
     position: relative; 
     right: -3px;
-    bottom: 20px;
+    bottom: 2px;
     
 }
 .theme-dark .timestampCozy-2hLAPV {
@@ -64,10 +64,11 @@
     padding-bottom: -5px;
     border-radius: 3px;
 }
-.containerCozy-jafyvG{
-    margin-top: 15px;
-    margin-bottom: 15px;
+
+.headerCozyMeta-rdohGq{
+  margin-top: -20px;
  
-} 
-  
- 
+ }
+ .botTagRegular-2HEhHi, span.botTagRegular-2HEhHi {
+     right: -5px;
+ }
