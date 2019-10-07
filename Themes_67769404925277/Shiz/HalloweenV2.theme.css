@@ -31,7 +31,7 @@
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
 /* Use Chat Bubbles By Shiz */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/Yes.css);
 :root {
   --Main-Colour: rgba(199,93,43,1);
   --Background-Colour: rgba(60, 61, 63, 0.253);
@@ -61,6 +61,14 @@
   --Timestamp-Colour: var(--Secondary-Main-Colour);
   --Guild-Columns: 1;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
-  --Chat-Avatar-Border-Radius: 10%;
+  --Chat-Avatar-Border-Radius: 35%;
   --Background-Darkness: 0.2;
+}
+/* Change Home Icon (uses base64 encoding) */
+.homeIcon-tEMBK1 > path, .homeIcon-tEMBK1,
+.homeIcon-tEMBK1 > path:hover, .homeIcon-tEMBK1:hover{
+  opacity: 0;
+}
+.childWrapper-anI2G9{ 
+  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
 }
