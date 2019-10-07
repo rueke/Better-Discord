@@ -31,10 +31,10 @@
 /* Transparency Patch */ 
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
 /* Use Chat Bubbles By Shiz */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 :root {
   --Main-Colour: rgba(199,93,43,1);
-  --Background-Colour: rgba(60, 61, 63, 0.253);
+  --Background-Colour: rgba(15, 15, 17, 0.445);
   --Secondary-Background-Colour: rgba(60,61,63,.3);
   --Secondary-Main-Colour: rgba(199,93,43,.5);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
@@ -61,7 +61,7 @@
   --Timestamp-Colour: var(--Secondary-Main-Colour);
   --Guild-Columns: 1;
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
-  --Chat-Avatar-Border-Radius: 35%;
+  --Chat-Avatar-Border-Radius: 40%;
   --Background-Darkness: 0.2;
 }
 /* Change Home Icon (uses base64 encoding) */
