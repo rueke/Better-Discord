@@ -1,1 +1,2 @@
-Bugfixes for BBD Development Version 
+Bugfixes :P 
+Full width roles is now a snippet found on the support server 
