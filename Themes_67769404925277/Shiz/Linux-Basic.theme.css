@@ -107,9 +107,8 @@
 .button-38aScr[tabindex="3"]{
   display: none;
 }
-/* disabling divider */
-.theme-dark .dividerEnabled-2TTlcf {
-	border: none;
+.theme-dark .dividerEnabled-2TTlcf{
+    display: none;
 }
 .theme-dark .nameTag-m8r81H, .name-1ug6d4{
   color: rgb(45, 124, 241) !important;

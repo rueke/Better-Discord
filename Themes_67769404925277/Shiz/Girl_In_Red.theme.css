@@ -70,6 +70,9 @@
   --Chat-Avatar-Border-Radius: 45%;
   --Background-Darkness: 0.2;
 }
+.theme-dark .dividerEnabled-2TTlcf{
+  display: none;
+}
 /* Change Avatar Size(also moves username for you) */
 .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
   width: 35px !important;

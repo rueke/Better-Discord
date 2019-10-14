@@ -74,9 +74,8 @@
 .member-3W1lQa {border-bottom: none;
 }
   
-/* disabling divider */
-.theme-dark .dividerEnabled-2TTlcf {
-	border: none;
+.theme-dark .dividerEnabled-2TTlcf{
+    display: none;
 }
 
 /* Change Home Icon (uses base64 encoding) */

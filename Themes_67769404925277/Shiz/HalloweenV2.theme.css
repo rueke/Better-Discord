@@ -70,6 +70,9 @@
 .button-38aScr[tabindex="3"]{
   display: none;
 }
+.theme-dark .dividerEnabled-2TTlcf{
+  display: none;
+}
 /* Change Home Icon (uses base64 encoding) */
 .homeIcon-tEMBK1 > path, .homeIcon-tEMBK1,
 .homeIcon-tEMBK1 > path:hover, .homeIcon-tEMBK1:hover{
