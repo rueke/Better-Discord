@@ -76,9 +76,9 @@
 .childWrapper-anI2G9{ 
   background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover!important;
 }
-/* Removing Nitro button*/
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-	display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+	display: none;
   }
   /*Channels and Sections  borders*/
   .containerDefault-3GGEv_,.ContainerDefult-1ZnADq {

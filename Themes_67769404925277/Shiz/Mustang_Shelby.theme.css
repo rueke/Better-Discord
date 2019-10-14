@@ -111,9 +111,9 @@
     margin-bottom: 5px;
     transition: all 200ms;
   }
-  .buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-    display: none !important;
-  
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }
 /* Change Avatar Size(also moves username for you) */
 .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {

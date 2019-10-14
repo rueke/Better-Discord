@@ -69,6 +69,10 @@
   --Chat-Avatar-Border-Radius: 40%;
   --Background-Darkness: 0.22;
 }
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
+}
 /* Change Avatar Size(also moves username for you) */
 .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
   width: 35px !important;

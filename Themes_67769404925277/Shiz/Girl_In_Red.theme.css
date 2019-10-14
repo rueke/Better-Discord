@@ -92,11 +92,9 @@
   background: url(https://i.imgur.com/oVsAL2X.png) 50% 50%/cover!important;
 }
 
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
-}
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="3"] {/*GIF*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }
 .theme-dark .scrollbar-3dvm_9 {
   background-color: rgba(88, 2, 2, 0.582) !important;

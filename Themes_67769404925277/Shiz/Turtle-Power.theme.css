@@ -110,9 +110,10 @@
     margin-bottom: 5px;
     transition: all 200ms;
   }
-  .buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-    display: none !important;
-  }
+  /* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
+}
   .theme-dark .item-1Yvehc {
     background: rgba(0, 26, 2, 0.562) !important;
     background-color: rgba(33, 231, 15, 0.562) !important;

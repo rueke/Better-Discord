@@ -105,11 +105,9 @@
 }
    /*Wrappers*/
 
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
-}
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="3"] {/*GIF*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }
   .scroller-2FKFPG {border-right: solid rgba(86, 247, 23, 0.103)
   }

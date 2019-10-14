@@ -112,8 +112,9 @@ a.button-OhfaWu.wrapper-1BJsBx{
  .homeIcon-tEMBK1{
   display: none;
  }
- .buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {/*NITRO GIFT*/
-  display: none !important;
+/* Removing Nitro Gift*/
+.button-38aScr[tabindex="3"]{
+  display: none;
 }
 .contentSelectedText-3wUhMi, .content-3at_AU, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a {
   background-color: var(--main-colour);
