@@ -35,10 +35,11 @@ Author reserves the right to request take down of any content that is found to b
 - [My Website](https://nfld99.com/)  
 - [My Discord](https://nfld99.com/discord)  
 - [My Github](https://nfld99.com/github)  
-- [BetterDiscord Server 1 (#theme repo)](https://nfld99.com/BD1)  
-- [BetterDiscord Server 2 (#theme repo)](https://nfld99.com/BD2)  
+- [BetterDiscord Server 1](https://nfld99.com/BD1)  
+- [BetterDiscord Server 2](https://nfld99.com/BD2)  
 - [TwinDragon's Github](https://github.com/TwinDragon)  
 - [The-Shiz's Github](https://github.com/The-Shiz)  
+- [BetterDiscordLibrary](https://betterdiscordlibrary.com/developers/NFLD99)  
 ---
 **All these terms apply to all files in this repository**
 ---
