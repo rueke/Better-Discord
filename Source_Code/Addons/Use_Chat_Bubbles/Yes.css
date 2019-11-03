@@ -1,3 +1,10 @@
+
+.theme-dark .dividerEnabled-2TTlcf{
+    display: none;
+}
+.theme-dark .dividerEnabled-2TTlcf{
+    display: none;
+}
 .member-3W1lQa .avatarWrapper-3B0ndJ {
     width: 35px!important;
     height: 35px!important;
@@ -17,12 +24,17 @@
       right:73px;
       
 }
-.markup-2BOw-j, .da-markup-2B0w{
+
+
+.theme-dark .isMentioned-N-h9aa{
     position: relative; 
-    right: 5px;
+    right: 10px;
     top: -7px!important
-    
- 
+}
+
+.embedContent-3fnYWm {
+    position: relative;
+    left: 60px;
 }
 .username-_4ZSMR {
     position: relative; 
@@ -56,7 +68,7 @@
 
 /* removed to fix weird scroll bug */
 
-.containerCozyBounded-1rKFAn, .container-1YxwTf , .da-containerCozyBounded da-containerCozy da-container32i8lo  {
+.containerCozyBounded-1rKFAn, .container-1YxwTf , .da-containerCozyBounded .da-containerCozy .da-container32i8lo  {
     background: var(--Secondary-Background-Colour);
     border: 1px solid var(--Main-Colour);
     margin-Top: 30px;
