@@ -48,7 +48,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #462 ";
+  --Update-Text: " Update #463 ";
   --File-Updated-2019-9-15: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -13862,11 +13862,11 @@ background-color: var(--Main-Colour);
   transition: all 200ms;
 }
 
-.listItemWrapper-3X98Pc > div > svg > foreignObject > a{
-  display: none;
+.listItemWrapper-3X98Pc > div > svg > foreignObject > a {
+  display: initial;
 }
 
-.listItemWrapper-3X98Pc > .wrapper-25eVIn:first-of-type{
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn{
   content: "";
   -webkit-mask: var(--Home-Icon-Mask);
   -webkit-mask-size: 50% !important;
