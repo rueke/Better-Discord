@@ -36,7 +36,7 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
 :root {
   --Main-Colour: rgba(199,93,43,1);
-  --Background-Colour: rgba(15, 15, 17, 0.445);
+  --Background-Colour: rgba(15, 15, 17, 0);
   --Secondary-Background-Colour: rgba(60,61,63,.3);
   --Secondary-Main-Colour: rgba(199,93,43,.5);
   --Text-Shadow-Colour: rgba(0,0,0,.65);
@@ -73,11 +73,15 @@
 .theme-dark .dividerEnabled-2TTlcf{
   display: none;
 }
-/* Change Home Icon (uses base64 encoding) */
-.homeIcon-tEMBK1 > path, .homeIcon-tEMBK1,
-.homeIcon-tEMBK1 > path:hover, .homeIcon-tEMBK1:hover{
-  opacity: 0;
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn{
+  content: "";
+  -webkit-mask: var(--Home-Icon-Mask);
+  -webkit-mask-size: 50% !important;
+  -webkit-mask-position: 50% !important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: url(https://i.imgur.com/oVsAL2X.png)!important;
+  fill: transparent !important;
+  background-color: transparent!important;
+  color: transparent!important;
 }
-.childWrapper-anI2G9{ 
-  background: url(https://i.imgur.com/rymBnte.jpg) 50% 50%/cover!important;
-}
+
