@@ -71,13 +71,13 @@
 }
 
 /* Embeds Discord Default Behavior */
-.theme-dark .embedInner-1-fpTo {
-    background-color: rgba(46,48,54,.3);
-    border-color: rgba(46,48,54,.6);
+.embedFull-2tM8--{
+  background-color: rgba(46,48,54,.3)!important;
+  border-color: rgba(46,48,54,.6)!important;
 }
 
-.theme-dark .embedDescription-1Cuq9a, .theme-dark .embedFieldValue-nELq2s, .theme-dark .embedFooterText-28V_Wb, .theme-dark .embedProvider-3k5pfl {
-    color: hsla(0,0%,100%,.6);
+.theme-dark .embedDescription-1Cuq9a, .theme-dark .embedFieldValue-nELq2s, .theme-dark .embedFooterText-28V_Wb, .theme-dark .embedProvider-3k5pfl{
+  color: hsla(0,0%,100%,.6)!important;
 }
 /* END */
 
