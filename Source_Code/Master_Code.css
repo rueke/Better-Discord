@@ -48,7 +48,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #466 ";
+  --Update-Text: " Update #467 ";
   --File-Updated-2019-9-15: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -13850,13 +13850,13 @@ background-color: var(--Main-Colour);
   padding-right:20px;
 }
 
-.role-2irmRk:hover > .roleCircle-3xAZ1j,.actionButton-VzECiy{
+.role-2irmRk:not(.TRE-tag):hover > .roleCircle-3xAZ1j,.actionButton-VzECiy{
   display: initial;
   opacity: 1;
   transition: all 200ms;
 }
 
-.role-2irmRk:not(:hover) > .roleCircle-3xAZ1j{
+.role-2irmRk:not(.TRE-tag):not(:hover) > .roleCircle-3xAZ1j{
   display: initial;
   opacity: 0;
   transition: all 200ms;
