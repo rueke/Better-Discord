@@ -1,1 +1,1 @@
-Bug Fixes! 
+New Feature [check chat textbox]! 
