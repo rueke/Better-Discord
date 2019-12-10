@@ -1,1 +1,1 @@
-New Feature [check chat textbox]! 
+Bug Fix? [this might break stables textbox until canary is pushed to stable, sorry] 
