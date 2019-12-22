@@ -1,4 +1,3 @@
-
 .theme-dark .dividerEnabled-2TTlcf{
     display: none;
 }
@@ -71,7 +70,7 @@
 .containerCozyBounded-1rKFAn, .container-1YxwTf , .da-containerCozyBounded .da-containerCozy .da-container32i8lo  {
     background: var(--Secondary-Background-Colour);
     border: 1px solid var(--Main-Colour);
-    margin-Top: 30px;
+    margin-Top: 20px;
     margin-right: 7px;
     margin-left: 65px;
     padding-top: 22px;
