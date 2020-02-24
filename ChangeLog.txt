@@ -1,1 +1,1 @@
-Bug Fix for strato 
+Bug Fix for full width roles 
