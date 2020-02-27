@@ -2,9 +2,14 @@
  * @name Roblox_Space
  * @author NFLD99
  * @version ersion auto updates
- * @description Support Server: https://nfld99.com/discord
+ * @description Thank you for choosing NFLD Inc!
  * @source https://github.com/NFLD99/Better-Discord
  * @website https://nfld99.com/
+ * @patreon https://nfld99.com/patreon
+ * @authorLink https://discordhub.com/profile/483413721876529174
+ * @donate https://nfld99.com/paypal
+ * @authorId 483413721876529174
+ * @invite kWRYPrq
 */
 /* Source Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
@@ -59,7 +64,7 @@
   --load1: "Thank You!";
   --load2: "Please Enjoy!";
   --load3: "➢NFLD99";
-  --File-Updated-2019-9-15: ;
+  --File-Updated-2020-2-27: ;
   --Settings-Dock-Colour: var(--Main-Colour);
   --Timestamp-Colour: var(--Secondary-Main-Colour);
   --Guild-Columns: 2;
