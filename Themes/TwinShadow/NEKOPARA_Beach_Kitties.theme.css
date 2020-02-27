@@ -92,18 +92,6 @@
 }
 /* END */
 
-/* Get rid of Gift Nitro and GIF buttons */
-/*
-.button-38aScr[tabindex="2"]{
-  display: none;
-}
-
-.button-38aScr[tabindex="3"]{
-  display: none;
-}
-*/
-/* END */
-
 /* Category Colors
    Non-Collapsed */
 .nameDefault-2DI02H{
@@ -113,12 +101,4 @@
 .nameCollapsed-34uFWo{
 	color: rgba(0, 184, 223, 0.9)!important;
 }
-/* END */
-
-/* Hide Discover Servers Button */
-/*
-.wrapper-1Rf91z .scroller-2TZvBN > .listItem-2P_4kh:not([folder*="folder_"]):nth-last-of-type(1) {
-  display: none;
-}
-*/
 /* END */

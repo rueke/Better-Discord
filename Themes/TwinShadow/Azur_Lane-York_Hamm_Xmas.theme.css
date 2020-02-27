@@ -87,37 +87,6 @@
 }
 /* END */
 
-/* Embeds Discord Default Behavior */
-/*
-.embedFull-2tM8--{
-  background-color: rgba(46,48,54,.3)!important;
-  border-color: rgba(46,48,54,.6)!important;
-}
-
-.theme-dark .embedDescription-1Cuq9a, .theme-dark .embedFieldValue-nELq2s, .theme-dark .embedFooterText-28V_Wb, .theme-dark .embedProvider-3k5pfl{
-  color: hsla(0,0%,100%,.6)!important;
-}
-*/
-/* END */
-
-/* Get rid of Gift Nitro and GIF buttons */
-/*
-.button-38aScr[tabindex="2"]{
-  display: none;
-}
-
-.button-38aScr[tabindex="3"]{
-  display: none;
-}
-*/
-/* END */
-
-/* Hide Discover Servers Button */
-.wrapper-1Rf91z .scroller-2TZvBN > .listItem-2P_4kh:not([folder*="folder_"]):nth-last-of-type(1) {
-  display: none;
-}
-/* END */
-
 /* Popout Context Menu */
 .theme-dark .item-1Yvehc {
   background: rgb(0, 0, 0) !important;
