@@ -1,1 +1,1 @@
-Fixed Bug 
+Fixed Lights theme background 
