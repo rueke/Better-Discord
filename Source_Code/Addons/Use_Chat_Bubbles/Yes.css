@@ -1,5 +1,4 @@
-
-   .containerCozy-336-Cz,.container-1ov-mD{
+.containerCozy-336-Cz,.container-1ov-mD{
     background: var(--Secondary-Background-Colour);
     border: 1px solid var(--Main-Colour);
     margin-Top: -4px;
@@ -34,7 +33,7 @@
 }
 .markupRtl-3M0hmN {
     text-align: left;
-    text-indent: 16px;
+    text-indent: 18px;
     unicode-bidi: -moz-plaintext;
     unicode-bidi: plaintext;
 }
