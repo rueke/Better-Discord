@@ -1,20 +1,10 @@
-.clickableHeader-2Cygs8 .avatar-1BDn8e{
-    Margin-top:-3px;
-    left: 10px;
-}    
-.zalgo-jN1Ica .messageContent-2qWWxC{
-    padding-bottom: 1px;
-    padding-left: 20px;
-}
 
-
-
-   .cozy-3raOZG .messageContent-2qWWxC{
+   .containerCozy-336-Cz,.container-1ov-mD{
     background: var(--Secondary-Background-Colour);
     border: 1px solid var(--Main-Colour);
     margin-Top: -4px;
     margin-right: 10px;
-    margin-left: -28px;
+    margin-left: -25px;
     padding-top: 10px;
     padding-bottom: 0px;
     border-radius: 20px;
@@ -41,4 +31,14 @@
 }
 .zalgo-jN1Ica.cozy-3raOZG .header-23xsNx{
     right: 15px;
+}
+.markupRtl-3M0hmN {
+    text-align: left;
+    text-indent: 16px;
+    unicode-bidi: -moz-plaintext;
+    unicode-bidi: plaintext;
+}
+.timestampCompact-29LLPQ{
+    top: -5px;
+  left: 45px;
 }
