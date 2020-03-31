@@ -48,7 +48,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #492";
+  --Update-Text: " Update #493";
   --File-Updated-2020-2-27: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -14408,4 +14408,60 @@ img.icon-3d72ZP[src="/assets/0682cf612d4fed39efb57e0a1bcc8544.svg"]
 
 .thumbQuicksave{
   transition: all 250ms;
+}
+
+[data-ref-id="guildsnav"]{
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 0;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.wrapper-21YSNc > [role="group"]{
+  width: 100%;
+  display: flex;
+  flex: 0 1;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: auto!important;
+}
+
+.wrapper-21YSNc > .listItem-2P_4kh{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper-21YSNc {
+  width: 100%!important;
+}
+
+.theme-dark .bd-addon-list .bd-addon-card * .settingsPanel-w2ySNR *.valueChecked-m-4IJZ{
+  background: var(--Main-Colour)!important;
+}
+
+.theme-dark .bd-addon-list .bd-addon-card * .settingsPanel-w2ySNR *.valueUnchecked-2lU_20{
+  background: var(--Secondary-Main-Colour)!important;
+}
+
+.theme-dark .bd-addon-list .bd-addon-card * .settingsPanel-w2ySNR *.buttons-our3p- *{
+  border-color:transparent!important;
+  border-bottom-color: var(--Main-Colour)!important;
+  background: transparent!important;
+}
+
+.theme-dark .bd-addon-list .bd-addon-card * .settingsPanel-w2ySNR *.buttons-our3p-{
+  background: transparent!important;
+}
+
+.theme-dark .bd-addon-list .bd-addon-card * .settingsPanel-w2ySNR *.inputMini-2xQV9P{
+  border-color:transparent!important;
+}
+
+[d="M0 0h24v24H0V0z"]{
+  fill: transparent!important;
+}
+
+[d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"]:hover,[d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"]:hover{
+  fill: var(--Main-Colour)!important;
 }
