@@ -48,7 +48,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #493";
+  --Update-Text: " Update #494";
   --File-Updated-2020-2-27: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -57,9 +57,9 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Home-Icon-Mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>bubble2</title><path d="M16 6c-1.717 0-3.375 0.271-4.928 0.804-1.46 0.502-2.76 1.211-3.863 2.108-2.069 1.681-3.209 3.843-3.209 6.088 0 1.259 0.35 2.481 1.039 3.63 0.711 1.185 1.781 2.268 3.093 3.133 0.949 0.625 1.587 1.623 1.755 2.747 0.056 0.375 0.091 0.753 0.105 1.129 0.233-0.194 0.461-0.401 0.684-0.624 0.755-0.755 1.774-1.172 2.828-1.172 0.168 0 0.336 0.011 0.505 0.032 0.655 0.083 1.325 0.126 1.99 0.126 1.717 0 3.375-0.271 4.928-0.804 1.46-0.502 2.76-1.211 3.863-2.108 2.069-1.681 3.209-3.843 3.209-6.088s-1.14-4.407-3.209-6.088c-1.104-0.897-2.404-1.606-3.863-2.108-1.553-0.534-3.211-0.804-4.928-0.804zM16 2v0c8.837 0 16 5.82 16 13s-7.163 13-16 13c-0.849 0-1.682-0.054-2.495-0.158-3.437 3.437-7.539 4.053-11.505 4.144v-0.841c2.142-1.049 4-2.961 4-5.145 0-0.305-0.024-0.604-0.068-0.897-3.619-2.383-5.932-6.024-5.932-10.103 0-7.18 7.163-13 16-13z"></path></svg>');
 
-  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixs? __</text></g></svg>');
+  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixs :D __</text><text y="95" style="font-size: 1em;" x="0">__+ Added OCD Support __</text></g></svg>');
 
-  --ChangelogSize: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"></svg>');
+  --ChangelogSize: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"></svg>');
 
   --SD-roundness: var(--Chat-Avatar-Border-Radius); /* Must be with px */
   --green: #43b581;
@@ -14465,3 +14465,67 @@ img.icon-3d72ZP[src="/assets/0682cf612d4fed39efb57e0a1bcc8544.svg"]
 [d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"]:hover,[d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"]:hover{
   fill: var(--Main-Colour)!important;
 }
+
+.wrapper-sa6paO.pill-2uzAFe {
+  width: auto!important;
+}
+
+/* ====================================================================================================================================== */
+/*                                                              OCD Support                                                               */
+/* ====================================================================================================================================== */
+
+.chatContent-a9vAAp:after{
+  display: block;
+  width: 1px;
+  height: 1px;
+  background-color: rgba(255,0,245,var(--OCD-Support));
+  margin: 0px;
+  content: "";
+  position: fixed;
+  top: 50vh;
+  left: 47.7vw;
+  z-index: 99;
+}
+
+.messagesWrapper-3lZDfY:after{
+  display: block;
+  width: 1px;
+  height: 1px;
+  background-color: rgba(255,0,245,var(--OCD-Support));
+  margin: 0px;
+  content: "";
+  position: fixed;
+  top: 48.69vh;
+  left: 42.32432vw;
+  z-index: 99;
+}
+
+.scrollerWrap-2lJEkd:after{
+  display: block;
+  width: 1px;
+  height: 1px;
+  background-color: rgba(255,0,245,var(--OCD-Support));
+  margin: 0px;
+  content: "";
+  position: fixed;
+  top: 47.69vh;
+  left: 35.32432vw;
+  z-index: 99;
+}
+
+.layers-3iHuyZ>.layer-3QrUeG:after{
+  display: block;
+  width: 1px;
+  height: 1px;
+  background-color: rgba(255,0,245,var(--OCD-Support));
+  margin: 0px;
+  content: "";
+  position: fixed;
+  top: 62.69vh;
+  left: 55.32vw;
+  z-index: 99;
+}
+
+/* ====================================================================================================================================== */
+/*                                                              OCD Support                                                               */
+/* ====================================================================================================================================== */
