@@ -17,7 +17,7 @@ class NFLDInc_Plugin {
   load() { }
 
   start() {
-    checkForUpdate("NFLDInc_Plugin","2.0.0")
+    ZLibrary.PluginUpdater.checkForUpdate("NFLDInc_Plugin","2.0.0","https://raw.githubusercontent.com/NFLD99/Better-Discord/master/Plugins/NFLDInc_Plugin.plugin.js")
     // add installed tag to appmount
     var ele = document.getElementById("app-mount").hasAttribute("NFLDInc");
     if (ele == false) {
