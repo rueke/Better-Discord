@@ -11,4 +11,20 @@
   content:url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 115" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="8" style="font-size: 1em;" x="208">Donator</text><text y="42" style="font-size: 1em;" x="28"> Emotional, Deep thinker</text></g></svg>');
 } 
 
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="419677528437817345"] > div{
+  background: url(https://i.imgur.com/j6Zbhiz.jpg) 50% 50%/cover!important;
+}
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="419677528437817345"] *{
+  color: rgb(0,172,234)!important;
+  border-color: rgb(0,172,234)!important;
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="419677528437817345"]::after {
+  content: url(https://nfld99.com/images/Boops/ChaChing.png);
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="419677528437817345"]:hover::after {
+  content: "It is both a blessing and a curse, to feel everything so very deeply. 18th Donator";
+}
 /* νHﾒpͥήoͣtͫic#6666 */

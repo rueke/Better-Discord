@@ -11,4 +11,21 @@
   content:url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 115" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="8" style="font-size: 1em;" x="195">Theme Dev</text><text y="42" style="font-size: 1em;" x="37">Support Server: https://nfld99.com/discord</text></g></svg>');
 } 
 
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="483413721876529174"] > div{
+  background: url(https://i.imgur.com/j6Zbhiz.jpg) 50% 50%/cover!important;
+}
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="483413721876529174"] *{
+  color: rgb(0,172,234)!important;
+  border-color: rgb(0,172,234)!important;
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="483413721876529174"]::after {
+  content: url(https://nfld99.com/images/Boops/NFLD99.svg);
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="483413721876529174"]:hover::after {
+  content: "Hello I'm the theme developer If you have any issues please join the support server server! https://nfld99.com/discord";
+}
+
 /* NFLD99[DEV]#0001 */

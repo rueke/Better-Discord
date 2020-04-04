@@ -6,4 +6,21 @@
 .wrapper-3t9DeA[user_by_bdfdb="278543574059057154"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/278543574059057154"]::after {
   content: "Hello Im DevilBro! \a I Am A Plugin Dev. \a I Never Miss A Day At The Gym.";
 }
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="278543574059057154"] > div{
+  background: url(https://i.imgur.com/j6Zbhiz.jpg) 50% 50%/cover!important;
+}
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="278543574059057154"] *{
+  color: rgb(0,172,234)!important;
+  border-color: rgb(0,172,234)!important;
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="278543574059057154"]::after {
+  content: url(https://nfld99.com/images/Boops/DevilBro.png);
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="278543574059057154"]:hover::after {
+  content: "Hello Im DevilBro! I Am A Plugin Dev. I Never Miss A Day At The Gym.";
+}
 /* DevilBro#4401 */

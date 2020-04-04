@@ -6,4 +6,21 @@
 .wrapper-3t9DeA[user_by_bdfdb="256531049222242304"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::after {
   content: "Hello Im Hammy! \a I Am A Plugin Dev. \a I Also Do Like Ham.";
 }
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="256531049222242304"] > div{
+  background: url(https://i.imgur.com/j6Zbhiz.jpg) 50% 50%/cover!important;
+}
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="256531049222242304"] *{
+  color: rgb(0,172,234)!important;
+  border-color: rgb(0,172,234)!important;
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="256531049222242304"]::after {
+  content: url(https://nfld99.com/images/Boops/hammy.png);
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="256531049222242304"]:hover::after {
+  content: "Hello Im Hammy! I Am A Plugin Dev. I Also Do Like Ham.";
+}
 /* hammy#2400 */

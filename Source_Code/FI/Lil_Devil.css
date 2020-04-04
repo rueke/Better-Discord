@@ -6,6 +6,23 @@
 .wrapper-3t9DeA[user_by_bdfdb="493932895367331843"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/493932895367331843"]::after {
   content: "Hi, I’m Kilee! \a I’m a shortie and \a I’m very friendly!!";
 }
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="493932895367331843"] > div{
+  background: url(https://i.imgur.com/j6Zbhiz.jpg) 50% 50%/cover!important;
+}
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="493932895367331843"] *{
+  color: rgb(0,172,234)!important;
+  border-color: rgb(0,172,234)!important;
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="493932895367331843"]::after {
+  content: url(https://nfld99.com/images/Boops/Lil_Devil.png);
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="493932895367331843"]:hover::after {
+  content: "Hi, I’m Kilee! I’m a shortie and I’m very friendly!!";
+}
 /* Lil Devil ✓#2004 */
 
 /* †©#7564 */
@@ -15,5 +32,22 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="525899880053342219"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/525899880053342219"]::after {
   content: "Hi, I’m Kilee! \a I’m a shortie and \a I’m very friendly!!";
+}
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="525899880053342219"] > div{
+  background: url(https://i.imgur.com/j6Zbhiz.jpg) 50% 50%/cover!important;
+}
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="525899880053342219"] *{
+  color: rgb(0,172,234)!important;
+  border-color: rgb(0,172,234)!important;
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="525899880053342219"]::after {
+  content: url(https://nfld99.com/images/Boops/Lil_Devil.png);
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="525899880053342219"]:hover::after {
+  content: "Hi, I’m Kilee! I’m a shortie and I’m very friendly!!";
 }
 /* †©#7564 */

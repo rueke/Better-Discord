@@ -7,4 +7,20 @@
   content: "Thank you for supporting the \a bot and the themes! \a For more information about the \a bot, visit https://sbebot.com \a For more information about the \a themes, visit https://nfld99.com";
 }
 
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="602406235848835073"] > div{
+  background: url(https://i.imgur.com/j6Zbhiz.jpg) 50% 50%/cover!important;
+}
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="602406235848835073"] *{
+  color: rgb(0,172,234)!important;
+  border-color: rgb(0,172,234)!important;
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="602406235848835073"]::after {
+  content: url(https://nfld99.com/images/Boops/Strato.png);
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="602406235848835073"]:hover::after {
+  content: "Thank you for supporting the bot and the themes! For more information about the bot, visit https://sbebot.com For more information about the themes, visit https://nfld99.com";
+}
 /* StratoBotElite#6264 */
