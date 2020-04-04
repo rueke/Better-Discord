@@ -3,7 +3,7 @@
 class NFLDInc_Plugin {
   getName() { return "NFLDInc_Plugin"; }
 
-  getVersion() { return "4.0.0"; }
+  getVersion() { return "5.0.0"; }
 
   getAuthor() { return "Nfld99"; }
 
@@ -15,7 +15,7 @@ class NFLDInc_Plugin {
 
   start() {
     // If ZLib exists, check for updates
-    if (window.ZLibrary) ZLibrary.PluginUpdater.checkForUpdate("NFLDInc_Plugin","3.0.0","https://raw.githubusercontent.com/NFLD99/Better-Discord/master/Plugins/NFLDInc_Plugin.plugin.js")
+    if (window.ZLibrary) ZLibrary.PluginUpdater.checkForUpdate("NFLDInc_Plugin","5.0.0","https://raw.githubusercontent.com/NFLD99/Better-Discord/master/Plugins/NFLDInc_Plugin.plugin.js")
 
     const UserStore = BdApi.findModuleByProps("getCurrentUser");
 
