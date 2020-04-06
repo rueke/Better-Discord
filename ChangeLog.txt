@@ -1,2 +1,3 @@
-A Bug Fix. 
+Bug Fixes 
+Server And Catogory names are now centered 
 New plugin: https://nfld99.com/plugin 
