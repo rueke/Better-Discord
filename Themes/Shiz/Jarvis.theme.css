@@ -70,6 +70,9 @@
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Chat-Avatar-Border-Radius: 40%; 
 } 
+.groupStart-23k01U {
+  box-shadow: none;
+}
 /* Change Avatar Size(also moves username for you) */
 .containerCozyBounded-1rKFAn .avatar-17mtNa .wrapper-3t9DeA {
   width: 35px !important;
@@ -97,14 +100,12 @@
  /* Removing the bottom border in member list*/
 .member-3W1lQa {border-bottom: none;
 }
-.groupStart-23k01U {
-    box-shadow: none;
-}
+
 
 /* disabling margin between messages */
 .message-1PNnaP {
     margin-bottom: 0em;
-/* Removing Nitro Gift*/
-.button-38aScr[tabindex="3"]{
+/*Removing Nitro gift button*/
+.button-3AYNKb{
   display: none;
 }
