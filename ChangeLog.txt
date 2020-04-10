@@ -1,3 +1,2 @@
-Bug Fixes! 
-Changed unread divider
+Bug Fixes. 
 New plugin: https://nfld99.com/plugin 
