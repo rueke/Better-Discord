@@ -50,7 +50,7 @@
   --Chat-Input-Colour: var(--Main-Colour);
   --Unread-Message-1: var(--Main-Colour);
   --Unread-Message-2: var(--Background-Colour);
-  --Chat-Background: url(https://i.imgur.com/VjceKsC.jpg);
+  --Chat-Background: url(https://nfld99.com/Bkg/QnlQ7HoGyM-1-.jpg);
   --Settings-Background: rgba(246, 173, 198, 0.35);
   --Callout-Background: rgba(15, 15, 15, 0.85);
   --Title-Background: var(--Background-Colour);
@@ -59,7 +59,7 @@
   --Chat-Font-Size: 15px;
   --Unread-Message-Speed: 1.5s;
   --Popout-Main-Colour: var(--Main-Colour);
-  --Popout-Background: url(https://i.imgur.com/wcdachI.png);
+  --Popout-Background: url(https://nfld99.com/Bkg/abHaA7gdgq5Ez.png);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --Emote-Popout-Background: var(--Secondary-Background-Colour);
   --load1: "NEKOPARA";
@@ -87,6 +87,6 @@
 
 /* Memberlist background */
 .theme-dark .members-1998pB{
-  background:url(https://i.imgur.com/EamoHtd.png) 50% 50%/cover;
+  background:url(https://nfld99.com/Bkg/rIUnPF4ox6oC0.png) 50% 50%/cover;
 }
 /* END */
